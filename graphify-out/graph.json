@@ -153,7 +153,7 @@
       "label": ".commonSetup()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L34",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_commonsetup",
       "community": 0,
@@ -173,7 +173,7 @@
       "label": ".rl()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L38",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
       "community": 0,
@@ -203,7 +203,7 @@
       "label": "EquivalentLegacyClient",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L12",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
       "community": 2,
@@ -233,7 +233,7 @@
       "label": ".EquivalentLegacyClient()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L15",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_equivalentlegacyclient",
       "community": 2,
@@ -253,7 +253,7 @@
       "label": ".onClientSetup()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L19",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onclientsetup",
       "community": 2,
@@ -278,6 +278,26 @@
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent",
       "community": 2,
       "norm_label": "subscribeevent"
+    },
+    {
+      "label": ".onRegisterScreens()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onregisterscreens",
+      "community": 2,
+      "norm_label": ".onregisterscreens()"
+    },
+    {
+      "label": "RegisterMenuScreensEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "registermenuscreensevent",
+      "community": 2,
+      "norm_label": "registermenuscreensevent"
     },
     {
       "label": "EquivalentLegacyBlocks.java",
@@ -866,7 +886,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemcmap",
-      "community": 5,
+      "community": 10,
       "norm_label": ".getemcmap()"
     },
     {
@@ -1856,7 +1876,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag",
-      "community": 32,
+      "community": 6,
       "norm_label": "abstractnsstag.java"
     },
     {
@@ -1866,7 +1886,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag",
-      "community": 32,
+      "community": 6,
       "norm_label": "abstractnsstag"
     },
     {
@@ -1876,7 +1896,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_java_identifier",
-      "community": 32,
+      "community": 6,
       "norm_label": "identifier"
     },
     {
@@ -1886,7 +1906,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_abstractnsstag",
-      "community": 32,
+      "community": 6,
       "norm_label": ".abstractnsstag()"
     },
     {
@@ -1896,7 +1916,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_getresourcelocation",
-      "community": 32,
+      "community": 6,
       "norm_label": ".getresourcelocation()"
     },
     {
@@ -1906,7 +1926,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_representstag",
-      "community": 32,
+      "community": 6,
       "norm_label": ".representstag()"
     },
     {
@@ -1916,7 +1936,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_java_override",
-      "community": 32,
+      "community": 6,
       "norm_label": "override"
     },
     {
@@ -1926,7 +1946,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_getregistry",
-      "community": 32,
+      "community": 6,
       "norm_label": ".getregistry()"
     },
     {
@@ -1936,7 +1956,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_java_registry",
-      "community": 32,
+      "community": 6,
       "norm_label": "registry"
     },
     {
@@ -1946,7 +1966,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_foreachelement",
-      "community": 32,
+      "community": 6,
       "norm_label": ".foreachelement()"
     },
     {
@@ -1956,7 +1976,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_equals",
-      "community": 32,
+      "community": 6,
       "norm_label": ".equals()"
     },
     {
@@ -1966,7 +1986,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_hashcode",
-      "community": 32,
+      "community": 6,
       "norm_label": ".hashcode()"
     },
     {
@@ -1976,7 +1996,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_tostring",
-      "community": 32,
+      "community": 6,
       "norm_label": ".tostring()"
     },
     {
@@ -2186,7 +2206,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag",
-      "community": 32,
+      "community": 5,
       "norm_label": "nsstag.java"
     },
     {
@@ -2196,7 +2216,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag",
-      "community": 32,
+      "community": 5,
       "norm_label": "nsstag"
     },
     {
@@ -2206,7 +2226,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_representstag",
-      "community": 32,
+      "community": 5,
       "norm_label": ".representstag()"
     },
     {
@@ -2216,7 +2236,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_foreachelement",
-      "community": 32,
+      "community": 5,
       "norm_label": ".foreachelement()"
     },
     {
@@ -2226,7 +2246,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_forselfandeachelement",
-      "community": 32,
+      "community": 5,
       "norm_label": ".forselfandeachelement()"
     },
     {
@@ -2236,7 +2256,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_java_override",
-      "community": 32,
+      "community": 5,
       "norm_label": "override"
     },
     {
@@ -2296,7 +2316,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
-      "community": 10,
+      "community": 35,
       "norm_label": "playerevents.java"
     },
     {
@@ -2306,7 +2326,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents",
-      "community": 10,
+      "community": 35,
       "norm_label": "playerevents"
     },
     {
@@ -2316,7 +2336,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_eventbussubscriber",
-      "community": 10,
+      "community": 35,
       "norm_label": "eventbussubscriber"
     },
     {
@@ -2326,7 +2346,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_playerevents",
-      "community": 10,
+      "community": 35,
       "norm_label": ".playerevents()"
     },
     {
@@ -2336,7 +2356,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerlogin",
-      "community": 10,
+      "community": 35,
       "norm_label": ".onplayerlogin()"
     },
     {
@@ -2346,7 +2366,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerloggedinevent",
-      "community": 10,
+      "community": 35,
       "norm_label": "playerloggedinevent"
     },
     {
@@ -2356,7 +2376,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_subscribeevent",
-      "community": 10,
+      "community": 35,
       "norm_label": "subscribeevent"
     },
     {
@@ -2366,7 +2386,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerrespawn",
-      "community": 10,
+      "community": 35,
       "norm_label": ".onplayerrespawn()"
     },
     {
@@ -2376,7 +2396,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerrespawnevent",
-      "community": 10,
+      "community": 35,
       "norm_label": "playerrespawnevent"
     },
     {
@@ -2386,7 +2406,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerchangeddimension",
-      "community": 10,
+      "community": 35,
       "norm_label": ".onplayerchangeddimension()"
     },
     {
@@ -2396,8 +2416,458 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerchangeddimensionevent",
-      "community": 10,
+      "community": 35,
       "norm_label": "playerchangeddimensionevent"
+    },
+    {
+      "label": "ModMenuTypes.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes",
+      "community": 2,
+      "norm_label": "modmenutypes.java"
+    },
+    {
+      "label": "ModMenuTypes",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes",
+      "community": 2,
+      "norm_label": "modmenutypes"
+    },
+    {
+      "label": "DeferredRegister",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java_deferredregister",
+      "community": 2,
+      "norm_label": "deferredregister"
+    },
+    {
+      "label": "MenuType",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "menutype",
+      "community": 2,
+      "norm_label": "menutype"
+    },
+    {
+      "label": "DeferredHolder",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java_deferredholder",
+      "community": 2,
+      "norm_label": "deferredholder"
+    },
+    {
+      "label": ".ModMenuTypes()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes_modmenutypes",
+      "community": 2,
+      "norm_label": ".modmenutypes()"
+    },
+    {
+      "label": "TransmutationContainer.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "community": 10,
+      "norm_label": "transmutationcontainer.java"
+    },
+    {
+      "label": "TransmutationContainer",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "community": 10,
+      "norm_label": "transmutationcontainer"
+    },
+    {
+      "label": "AbstractContainerMenu",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "abstractcontainermenu",
+      "community": 10,
+      "norm_label": "abstractcontainermenu"
+    },
+    {
+      "label": "Player",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_player",
+      "community": 10,
+      "norm_label": "player"
+    },
+    {
+      "label": "SimpleContainer",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "simplecontainer",
+      "community": 10,
+      "norm_label": "simplecontainer"
+    },
+    {
+      "label": ".TransmutationContainer()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmutationcontainer",
+      "community": 10,
+      "norm_label": ".transmutationcontainer()"
+    },
+    {
+      "label": "Inventory",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_inventory",
+      "community": 10,
+      "norm_label": "inventory"
+    },
+    {
+      "label": ".broadcastChanges()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_broadcastchanges",
+      "community": 10,
+      "norm_label": ".broadcastchanges()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_override",
+      "community": 10,
+      "norm_label": "override"
+    },
+    {
+      "label": ".handleInputSlot()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_handleinputslot",
+      "community": 10,
+      "norm_label": ".handleinputslot()"
+    },
+    {
+      "label": ".computeKnowledgeHash()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L93",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_computeknowledgehash",
+      "community": 10,
+      "norm_label": ".computeknowledgehash()"
+    },
+    {
+      "label": ".syncKnowledgeDataIfChanged()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L101",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_syncknowledgedataifchanged",
+      "community": 10,
+      "norm_label": ".syncknowledgedataifchanged()"
+    },
+    {
+      "label": "ServerPlayer",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_serverplayer",
+      "community": 10,
+      "norm_label": "serverplayer"
+    },
+    {
+      "label": ".transmute()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L122",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmute",
+      "community": 10,
+      "norm_label": ".transmute()"
+    },
+    {
+      "label": ".quickMoveStack()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L140",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_quickmovestack",
+      "community": 10,
+      "norm_label": ".quickmovestack()"
+    },
+    {
+      "label": "ItemStack",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_itemstack",
+      "community": 10,
+      "norm_label": "itemstack"
+    },
+    {
+      "label": ".stillValid()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L165",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_stillvalid",
+      "community": 10,
+      "norm_label": ".stillvalid()"
+    },
+    {
+      "label": ".getKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L170",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_getknowledge",
+      "community": 10,
+      "norm_label": ".getknowledge()"
+    },
+    {
+      "label": ".getPlayer()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L174",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_getplayer",
+      "community": 10,
+      "norm_label": ".getplayer()"
+    },
+    {
+      "label": "TransmutationScreen.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "community": 32,
+      "norm_label": "transmutationscreen.java"
+    },
+    {
+      "label": "TransmutationScreen",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "community": 32,
+      "norm_label": "transmutationscreen"
+    },
+    {
+      "label": "AbstractContainerScreen",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "abstractcontainerscreen",
+      "community": 32,
+      "norm_label": "abstractcontainerscreen"
+    },
+    {
+      "label": "Identifier",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_identifier",
+      "community": 32,
+      "norm_label": "identifier"
+    },
+    {
+      "label": "ItemEntry",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_itementry",
+      "community": 32,
+      "norm_label": "itementry"
+    },
+    {
+      "label": "ItemStack",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_itemstack",
+      "community": 32,
+      "norm_label": "itemstack"
+    },
+    {
+      "label": ".TransmutationScreen()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_transmutationscreen",
+      "community": 32,
+      "norm_label": ".transmutationscreen()"
+    },
+    {
+      "label": "Inventory",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_inventory",
+      "community": 32,
+      "norm_label": "inventory"
+    },
+    {
+      "label": "Component",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "component",
+      "community": 32,
+      "norm_label": "component"
+    },
+    {
+      "label": ".cacheKnowledgeData()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_cacheknowledgedata",
+      "community": 32,
+      "norm_label": ".cacheknowledgedata()"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_init",
+      "community": 32,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_override",
+      "community": 32,
+      "norm_label": "override"
+    },
+    {
+      "label": ".rebuildItemList()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_rebuilditemlist",
+      "community": 32,
+      "norm_label": ".rebuilditemlist()"
+    },
+    {
+      "label": ".extractBackground()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_extractbackground",
+      "community": 32,
+      "norm_label": ".extractbackground()"
+    },
+    {
+      "label": "GuiGraphicsExtractor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "guigraphicsextractor",
+      "community": 32,
+      "norm_label": "guigraphicsextractor"
+    },
+    {
+      "label": ".extractLabels()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_extractlabels",
+      "community": 32,
+      "norm_label": ".extractlabels()"
+    },
+    {
+      "label": ".renderKnownItemsList()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_renderknownitemslist",
+      "community": 32,
+      "norm_label": ".renderknownitemslist()"
+    },
+    {
+      "label": ".mouseClicked()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_mouseclicked",
+      "community": 32,
+      "norm_label": ".mouseclicked()"
+    },
+    {
+      "label": "MouseButtonEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "mousebuttonevent",
+      "community": 32,
+      "norm_label": "mousebuttonevent"
+    },
+    {
+      "label": ".mouseScrolled()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L145",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_mousescrolled",
+      "community": 32,
+      "norm_label": ".mousescrolled()"
     },
     {
       "label": "EquivalentLegacyCreativeTab.java",
@@ -2445,7 +2915,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "deferredholder",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_java_deferredholder",
       "community": 0,
       "norm_label": "deferredholder"
     },
@@ -2523,7 +2993,7 @@
       "label": "PhilosophersStone",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L8",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone",
       "community": 23,
@@ -2543,17 +3013,77 @@
       "label": ".PhilosophersStone()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L9",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_philosophersstone",
       "community": 23,
       "norm_label": ".philosophersstone()"
     },
     {
+      "label": ".use()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_use",
+      "community": 23,
+      "norm_label": ".use()"
+    },
+    {
+      "label": "Level",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "level",
+      "community": 23,
+      "norm_label": "level"
+    },
+    {
+      "label": "Player",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_player",
+      "community": 23,
+      "norm_label": "player"
+    },
+    {
+      "label": "InteractionHand",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "interactionhand",
+      "community": 23,
+      "norm_label": "interactionhand"
+    },
+    {
+      "label": "InteractionResult",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "interactionresult",
+      "community": 23,
+      "norm_label": "interactionresult"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_override",
+      "community": 23,
+      "norm_label": "override"
+    },
+    {
       "label": ".getEmcValue()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L13",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_getemcvalue",
       "community": 23,
@@ -2583,7 +3113,7 @@
       "label": "PacketHandler",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
-      "source_location": "L11",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler",
       "community": 31,
@@ -2593,7 +3123,7 @@
       "label": ".PacketHandler()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
-      "source_location": "L12",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_packethandler",
       "community": 31,
@@ -2603,7 +3133,7 @@
       "label": ".register()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
-      "source_location": "L14",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_register",
       "community": 31,
@@ -2620,24 +3150,24 @@
       "norm_label": "ieventbus"
     },
     {
-      "label": "KnowledgeSyncChangePayload.java",
+      "label": "KnowledgeDataPayload.java",
       "file_type": "code",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload",
       "community": 31,
-      "norm_label": "knowledgesyncchangepayload.java"
+      "norm_label": "knowledgedatapayload.java"
     },
     {
-      "label": "KnowledgeSyncChangePayload",
+      "label": "KnowledgeDataPayload",
       "file_type": "code",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
-      "source_location": "L11",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L13",
       "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload",
       "community": 31,
-      "norm_label": "knowledgesyncchangepayload"
+      "norm_label": "knowledgedatapayload"
     },
     {
       "label": "CustomPacketPayload",
@@ -2655,7 +3185,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_type",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_type",
       "community": 31,
       "norm_label": "type"
     },
@@ -2665,7 +3195,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_streamcodec",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_streamcodec",
       "community": 31,
       "norm_label": "streamcodec"
     },
@@ -2675,17 +3205,17 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_bytebuf",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_bytebuf",
       "community": 31,
       "norm_label": "bytebuf"
     },
     {
       "label": ".type()",
       "file_type": "code",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
-      "source_location": "L22",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L38",
       "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_type",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload_type",
       "community": 31,
       "norm_label": ".type()"
     },
@@ -2695,17 +3225,17 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_override",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_override",
       "community": 31,
       "norm_label": "override"
     },
     {
       "label": ".handle()",
       "file_type": "code",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
-      "source_location": "L27",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L43",
       "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_handle",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload_handle",
       "community": 31,
       "norm_label": ".handle()"
     },
@@ -2715,8 +3245,98 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_ipayloadcontext",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_ipayloadcontext",
       "community": 31,
+      "norm_label": "ipayloadcontext"
+    },
+    {
+      "label": "KnowledgeSyncChangePayload.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "community": 34,
+      "norm_label": "knowledgesyncchangepayload.java"
+    },
+    {
+      "label": "KnowledgeSyncChangePayload",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
+      "community": 34,
+      "norm_label": "knowledgesyncchangepayload"
+    },
+    {
+      "label": "Type",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_type",
+      "community": 34,
+      "norm_label": "type"
+    },
+    {
+      "label": "StreamCodec",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_streamcodec",
+      "community": 34,
+      "norm_label": "streamcodec"
+    },
+    {
+      "label": "ByteBuf",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_bytebuf",
+      "community": 34,
+      "norm_label": "bytebuf"
+    },
+    {
+      "label": ".type()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_type",
+      "community": 34,
+      "norm_label": ".type()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_override",
+      "community": 34,
+      "norm_label": "override"
+    },
+    {
+      "label": ".handle()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_handle",
+      "community": 34,
+      "norm_label": ".handle()"
+    },
+    {
+      "label": "IPayloadContext",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_ipayloadcontext",
+      "community": 34,
       "norm_label": "ipayloadcontext"
     },
     {
@@ -2900,13 +3520,103 @@
       "norm_label": "ipayloadcontext"
     },
     {
+      "label": "TransmuteRequestPayload.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload",
+      "community": 31,
+      "norm_label": "transmuterequestpayload.java"
+    },
+    {
+      "label": "TransmuteRequestPayload",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload",
+      "community": 31,
+      "norm_label": "transmuterequestpayload"
+    },
+    {
+      "label": "Type",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_type",
+      "community": 31,
+      "norm_label": "type"
+    },
+    {
+      "label": "StreamCodec",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_streamcodec",
+      "community": 31,
+      "norm_label": "streamcodec"
+    },
+    {
+      "label": "ByteBuf",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_bytebuf",
+      "community": 31,
+      "norm_label": "bytebuf"
+    },
+    {
+      "label": ".type()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_type",
+      "community": 31,
+      "norm_label": ".type()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_override",
+      "community": 31,
+      "norm_label": "override"
+    },
+    {
+      "label": ".handle()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_handle",
+      "community": 31,
+      "norm_label": ".handle()"
+    },
+    {
+      "label": "IPayloadContext",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_ipayloadcontext",
+      "community": 31,
+      "norm_label": "ipayloadcontext"
+    },
+    {
       "label": "EquivalentLegacyAttachments.java",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments",
-      "community": 31,
+      "community": 34,
       "norm_label": "equivalentlegacyattachments.java"
     },
     {
@@ -2916,7 +3626,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments",
-      "community": 31,
+      "community": 34,
       "norm_label": "equivalentlegacyattachments"
     },
     {
@@ -2926,7 +3636,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_java_deferredregister",
-      "community": 31,
+      "community": 34,
       "norm_label": "deferredregister"
     },
     {
@@ -2936,7 +3646,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "attachmenttype",
-      "community": 31,
+      "community": 34,
       "norm_label": "attachmenttype"
     },
     {
@@ -2946,7 +3656,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments_equivalentlegacyattachments",
-      "community": 31,
+      "community": 34,
       "norm_label": ".equivalentlegacyattachments()"
     },
     {
@@ -2975,7 +3685,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "player",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_player",
       "community": 10,
       "norm_label": "player"
     },
@@ -3086,7 +3796,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getknownitems",
-      "community": 1,
+      "community": 10,
       "norm_label": ".getknownitems()"
     },
     {
@@ -3135,7 +3845,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "serverplayer",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_serverplayer",
       "community": 10,
       "norm_label": "serverplayer"
     },
@@ -3236,7 +3946,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_getknowledge",
-      "community": 1,
+      "community": 10,
       "norm_label": ".getknowledge()"
     },
     {
@@ -3390,10 +4100,20 @@
       "norm_label": "changelog \u2014 equivalent legacy"
     },
     {
-      "label": "0.0.0-beta.4",
+      "label": "0.0.0-beta.5",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
       "source_location": "L3",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_5",
+      "community": 15,
+      "norm_label": "0.0.0-beta.5"
+    },
+    {
+      "label": "0.0.0-beta.4",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_4",
       "community": 15,
@@ -3403,7 +4123,7 @@
       "label": "0.0.0-beta.3",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_3",
       "community": 15,
@@ -3413,7 +4133,7 @@
       "label": "0.0.0-beta.2",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L16",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_2",
       "community": 15,
@@ -3423,7 +4143,7 @@
       "label": "0.0.0-beta.1",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L26",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_1",
       "community": 15,
@@ -3648,6 +4368,16 @@
       "id": "docs_curseforge_versions_0_0_0_beta_4",
       "community": 33,
       "norm_label": "0.0.0-beta.4.md"
+    },
+    {
+      "label": "0.0.0-beta.5.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.5.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_5",
+      "community": 36,
+      "norm_label": "0.0.0-beta.5.md"
     },
     {
       "label": "Publish Public Script",
@@ -3875,6 +4605,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
       "source_location": "L3",
       "weight": 1.0,
@@ -3901,6 +4642,17 @@
       "source_location": "L3",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
       "confidence_score": 1.0
     },
@@ -3941,6 +4693,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
       "source_location": "L3",
       "weight": 1.0,
@@ -3952,7 +4715,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L34",
+      "source_location": "L35",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_commonsetup",
@@ -3972,7 +4735,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L38",
+      "source_location": "L39",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
@@ -4026,7 +4789,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L34",
+      "source_location": "L35",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_commonsetup",
@@ -4037,7 +4800,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L38",
+      "source_location": "L39",
       "weight": 1.0,
       "context": "return_type",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
@@ -4049,17 +4812,39 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L8",
+      "source_location": "L10",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
       "target": "fmlclientsetupevent",
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
+      "target": "registermenuscreensevent",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L12",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
@@ -4070,10 +4855,21 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L6",
+      "source_location": "L8",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_eventbussubscriber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_mod",
       "confidence_score": 1.0
     },
     {
@@ -4084,7 +4880,7 @@
       "source_location": "L7",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_mod",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_modcontainer",
       "confidence_score": 1.0
     },
     {
@@ -4092,10 +4888,10 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_modcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent",
       "confidence_score": 1.0
     },
     {
@@ -4106,14 +4902,14 @@
       "source_location": "L4",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
       "confidence_score": 1.0
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L15",
+      "source_location": "L18",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_equivalentlegacyclient",
@@ -4123,17 +4919,27 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L19",
+      "source_location": "L22",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onclientsetup",
       "confidence_score": 1.0
     },
     {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onregisterscreens",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L12",
+      "source_location": "L15",
       "weight": 1.0,
       "context": "attribute",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
@@ -4144,7 +4950,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L12",
+      "source_location": "L15",
       "weight": 1.0,
       "context": "attribute",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
@@ -4155,7 +4961,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L15",
+      "source_location": "L18",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_equivalentlegacyclient",
@@ -4166,7 +4972,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L19",
+      "source_location": "L22",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onclientsetup",
@@ -4177,11 +4983,33 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L19",
+      "source_location": "L22",
       "weight": 1.0,
       "context": "attribute",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onclientsetup",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onregisterscreens",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onregisterscreens",
+      "target": "registermenuscreensevent",
       "confidence_score": 1.0
     },
     {
@@ -5021,6 +5849,28 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_emchelper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_emchelper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
       "source_location": "L3",
       "weight": 1.0,
@@ -5156,8 +6006,41 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_syncknowledgedataifchanged",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmute",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_rebuilditemlist",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L14",
+      "source_location": "L32",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_getemcvalue",
       "target": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemc"
@@ -5172,6 +6055,17 @@
       "source": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_hasemc",
       "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_normalizedsimplestack_normalizedsimplestack",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_handleinputslot",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_hasemc"
     },
     {
       "relation": "references",
@@ -5194,6 +6088,17 @@
       "source": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemcmap",
       "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_normalizedsimplestack_normalizedsimplestack",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_syncknowledgedataifchanged",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemcmap"
     },
     {
       "relation": "references",
@@ -7228,6 +8133,28 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
       "source_location": "L4",
       "weight": 1.0,
@@ -7416,8 +8343,30 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_handleinputslot",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmute",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L14",
+      "source_location": "L32",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_getemcvalue",
       "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem"
@@ -7641,28 +8590,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
-      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
-      "target": "serverplayer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
       "source_location": "L7",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
@@ -7688,6 +8615,17 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
       "target": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
       "confidence_score": 1.0
     },
     {
@@ -7844,11 +8782,931 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
       "source_location": "L6",
       "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab",
-      "target": "creativemodetab",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes",
+      "target": "menutype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java_deferredholder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java_deferredregister",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes",
+      "target": "menutype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java_deferredholder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java_deferredregister",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes_modmenutypes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "target": "abstractcontainermenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "target": "simplecontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_inventory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_serverplayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "abstractcontainermenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "simplecontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_broadcastchanges",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_computeknowledgehash",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_getknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_getplayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_handleinputslot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_quickmovestack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_stillvalid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_syncknowledgedataifchanged",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmutationcontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L174",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_getplayer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L140",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_quickmovestack",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L165",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_stillvalid",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_inventory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmutationcontainer",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_broadcastchanges",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_broadcastchanges",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_handleinputslot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_broadcastchanges",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_syncknowledgedataifchanged",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L140",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_quickmovestack",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L165",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_stillvalid",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_handleinputslot",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_learnitem"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_computeknowledgehash",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getemc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_computeknowledgehash",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getknownitems"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_syncknowledgedataifchanged",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_computeknowledgehash",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_syncknowledgedataifchanged",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_serverplayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_syncknowledgedataifchanged",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_syncknowledgedataifchanged",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getknownitems"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_syncknowledgedataifchanged",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasfullknowledge"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmute",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmute",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasknowledge"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmute",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_subtractemc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmute",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_syncemc"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L140",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_quickmovestack",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
+      "source_location": "L170",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_getknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "target": "abstractcontainerscreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "target": "component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "target": "guigraphicsextractor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "target": "mousebuttonevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_itementry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_identifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_inventory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "abstractcontainerscreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_itementry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_identifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_cacheknowledgedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_extractbackground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_extractlabels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_mouseclicked",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_mousescrolled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_rebuilditemlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_renderknownitemslist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_transmutationscreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_itementry",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_rebuilditemlist",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_itementry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_rebuilditemlist",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_transmutationscreen",
+      "target": "component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_transmutationscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_inventory",
       "confidence_score": 1.0
     },
     {
@@ -7856,10 +9714,175 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
-      "source_location": "L8",
+      "source_location": "L5",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab",
-      "target": "deferredholder",
+      "target": "component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone",
+      "target": "component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_init",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_init",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_rebuilditemlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_extractbackground",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_extractlabels",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L118",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_mouseclicked",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L145",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_mousescrolled",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_mousescrolled",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_rebuilditemlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_extractbackground",
+      "target": "guigraphicsextractor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_extractlabels",
+      "target": "guigraphicsextractor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L99",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_renderknownitemslist",
+      "target": "guigraphicsextractor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_extractlabels",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_renderknownitemslist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L118",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_mouseclicked",
+      "target": "mousebuttonevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_transmutationscreen_transmutationscreen_mouseclicked",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab",
+      "target": "creativemodetab",
       "confidence_score": 1.0
     },
     {
@@ -7870,6 +9893,17 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_java_deferredholder",
       "confidence_score": 1.0
     },
     {
@@ -7895,17 +9929,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
-      "source_location": "L15",
-      "weight": 1.0,
-      "context": "field",
-      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab",
-      "target": "deferredholder",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
@@ -7913,6 +9936,17 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab_equivalentlegacycreativetab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_java_deferredholder",
       "confidence_score": 1.0
     },
     {
@@ -8006,7 +10040,29 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L5",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone",
+      "target": "interactionhand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone",
+      "target": "interactionresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L11",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone",
       "target": "item",
@@ -8017,17 +10073,39 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L6",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone",
+      "target": "level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L12",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone",
       "target": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_itemstack",
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_player",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L8",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone",
       "target": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone",
@@ -8037,7 +10115,7 @@
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L8",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone",
       "target": "item",
@@ -8047,7 +10125,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L13",
+      "source_location": "L31",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone",
       "target": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_getemcvalue",
@@ -8057,17 +10135,82 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L9",
+      "source_location": "L16",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone",
       "target": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_philosophersstone",
       "confidence_score": 1.0
     },
     {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_use",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L13",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_use",
+      "target": "interactionhand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_use",
+      "target": "interactionresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_use",
+      "target": "level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_use",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_use",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L31",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_getemcvalue",
@@ -8082,7 +10225,7 @@
       "source_location": "L4",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload",
       "confidence_score": 1.0
     },
     {
@@ -8093,7 +10236,7 @@
       "source_location": "L5",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
       "confidence_score": 1.0
     },
     {
@@ -8104,7 +10247,7 @@
       "source_location": "L6",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
       "confidence_score": 1.0
     },
     {
@@ -8115,6 +10258,17 @@
       "source_location": "L7",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
       "target": "src_main_java_com_skd_equivalentlegacy_network_packethandler_java_ieventbus",
       "confidence_score": 1.0
     },
@@ -8122,17 +10276,28 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
-      "source_location": "L11",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
       "target": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler",
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
-      "source_location": "L12",
+      "source_location": "L14",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler",
       "target": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_packethandler",
@@ -8142,7 +10307,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
-      "source_location": "L14",
+      "source_location": "L16",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler",
       "target": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_register",
@@ -8152,11 +10317,140 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
-      "source_location": "L14",
+      "source_location": "L16",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_register",
       "target": "src_main_java_com_skd_equivalentlegacy_network_packethandler_java_ieventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_ipayloadcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload_type",
+      "target": "custompacketpayload",
       "confidence_score": 1.0
     },
     {
@@ -8168,6 +10462,123 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
       "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_type",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_ipayloadcontext",
       "confidence_score": 1.0
     },
     {
@@ -8233,16 +10644,6 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
       "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
-      "target": "custompacketpayload",
       "confidence_score": 1.0
     },
     {
@@ -8321,48 +10722,6 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_unlearnitem",
       "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
-      "target": "custompacketpayload",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
-      "target": "custompacketpayload",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
-      "target": "custompacketpayload",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
-      "target": "custompacketpayload",
-      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8751,6 +11110,136 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_ipayloadcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_ipayloadcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
       "source_location": "L4",
       "weight": 1.0,
@@ -8827,10 +11316,21 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_identifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
       "source_location": "L9",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
-      "target": "player",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_player",
       "confidence_score": 1.0
     },
     {
@@ -8841,18 +11341,7 @@
       "source_location": "L8",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
-      "target": "serverplayer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
-      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_identifier",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_serverplayer",
       "confidence_score": 1.0
     },
     {
@@ -8873,7 +11362,7 @@
       "weight": 1.0,
       "context": "field",
       "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
-      "target": "player",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_player",
       "confidence_score": 1.0
     },
     {
@@ -9046,7 +11535,7 @@
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of",
-      "target": "player",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_player",
       "confidence_score": 1.0
     },
     {
@@ -9057,7 +11546,7 @@
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_playerknowledge",
-      "target": "player",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_player",
       "confidence_score": 1.0
     },
     {
@@ -9211,7 +11700,7 @@
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_sync",
-      "target": "serverplayer",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_serverplayer",
       "confidence_score": 1.0
     },
     {
@@ -9222,7 +11711,7 @@
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_syncemc",
-      "target": "serverplayer",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_serverplayer",
       "confidence_score": 1.0
     },
     {
@@ -9498,7 +11987,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L26",
+      "source_location": "L32",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_1",
@@ -9508,7 +11997,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L16",
+      "source_location": "L22",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_2",
@@ -9518,7 +12007,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_3",
@@ -9528,10 +12017,20 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L3",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "changelog_changelog_equivalent_legacy",
+      "target": "changelog_0_0_0_beta_5",
       "confidence_score": 1.0
     },
     {
@@ -9692,5 +12191,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f104980906329922fa7aad95fd77a03802b38bef"
+  "built_at_commit": "403739502eb5d2a5fb0cef0210fce9853336bf9c"
 }
