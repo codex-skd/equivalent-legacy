@@ -20,5 +20,9 @@
   "equivalent_legacy.configuration.section.equivalent_legacy.mapping.toml.title": "Mapping Config",
   "equivalent_legacy.configuration.dumpToFile": "Dump EMC to File",
   "equivalent_legacy.configuration.usePregenerated": "Use Pregenerated EMC",
-  "equivalent_legacy.configuration.logExploits": "Log EMC Exploits"
+  "equivalent_legacy.configuration.logExploits": "Log EMC Exploits",
+
+  "item.equivalent_legacy.philosophers_stone": "Philosopher's Stone",
+
+  "itemGroup.equivalent_legacy": "Equivalent Legacy"
 }

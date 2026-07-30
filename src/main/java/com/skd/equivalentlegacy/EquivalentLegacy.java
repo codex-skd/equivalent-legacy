@@ -19,6 +19,10 @@ public class EquivalentLegacy {
     public EquivalentLegacy(IEventBus modEventBus, ModContainer modContainer) {
         com.skd.equivalentlegacy.config.EquivalentLegacyConfig.register(modContainer);
 
+        com.skd.equivalentlegacy.item.EquivalentLegacyItems.ITEMS.register(modEventBus);
+        com.skd.equivalentlegacy.block.EquivalentLegacyBlocks.BLOCKS.register(modEventBus);
+        com.skd.equivalentlegacy.item.EquivalentLegacyCreativeTab.CREATIVE_MODE_TABS.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);
