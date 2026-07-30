@@ -1,5 +1,12 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.3
+
+- Item/block registration framework (`EquivalentLegacyItems`, `EquivalentLegacyBlocks`), wired into the mod's deferred registers.
+- Added the mod's own creative mode tab.
+- First functional item: **Philosopher's Stone**, hooked into the existing EMC system (`EMCHelper`/`NSSItem`) for value lookups. No transmutation logic yet.
+- Fixed `archivesName` in `build.gradle` to follow the `<mod_id>-<mc-version>-neoforge` naming convention (previous betas produced a wrongly-named jar).
+
 ## 0.0.0-beta.2
 
 - Ported the core EMC system from Equivox/ProjectE (fase 1):
