@@ -23,10 +23,14 @@
   "equivalent_legacy.configuration.logExploits": "Log EMC Exploits",
 
   "item.equivalent_legacy.philosophers_stone": "Philosopher's Stone",
+  "item.equivalent_legacy.dark_matter": "Dark Matter",
+  "item.equivalent_legacy.klein_star_ein": "Klein Star Ein",
 
   "itemGroup.equivalent_legacy": "Equivalent Legacy",
 
   "container.equivalent_legacy.transmutation": "Transmutation",
   "gui.equivalent_legacy.learn": "Learn",
-  "gui.equivalent_legacy.output": "Output"
+  "gui.equivalent_legacy.output": "Output",
+
+  "tooltip.equivalent_legacy.stored_emc": "EMC: %s / %s"
 }

@@ -11,5 +11,11 @@ public final class EquivalentLegacyItems {
     public static final DeferredItem<PhilosophersStone> PHILOSOPHERS_STONE = ITEMS.register("philosophers_stone",
             () -> new PhilosophersStone(new Item.Properties().stacksTo(1)));
 
+    public static final DeferredItem<DarkMatter> DARK_MATTER = ITEMS.register("dark_matter",
+            () -> new DarkMatter(new Item.Properties()));
+
+    public static final DeferredItem<KleinStar> KLEIN_STAR_EIN = ITEMS.register("klein_star_ein",
+            () -> new KleinStar(new Item.Properties(), KleinStarTier.EIN));
+
     private EquivalentLegacyItems() {}
 }
