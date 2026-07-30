@@ -1,8 +1,8 @@
 {
   "build.gradle": {
-    "mtime": 1785436760.4157846,
-    "ast_hash": "c4d9f6875e6c6a1e1f0e50d105594ab8",
-    "semantic_hash": "c4d9f6875e6c6a1e1f0e50d105594ab8"
+    "mtime": 1785449492.674966,
+    "ast_hash": "3dae162e35cdbced95ea1bff9641ebf3",
+    "semantic_hash": ""
   },
   "gradlew": {
     "mtime": 1785436760.548808,
@@ -15,8 +15,8 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java": {
-    "mtime": 1785446005.7140055,
-    "ast_hash": "c23e3ee4a356803d47d40c43f405a310",
+    "mtime": 1785449737.9246302,
+    "ast_hash": "3f65aa39f2d48dd69904120ae73704eb",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java": {
@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1785445987.2912755,
-    "ast_hash": "74fe4774eadad508c1a7890e5a1c8810",
+    "mtime": 1785449755.8135748,
+    "ast_hash": "7982b51f19c66dc65e7b9989095532e8",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785445362.1772833,
-    "ast_hash": "e7af4fd9342f3b1223345c25fd974108",
+    "mtime": 1785449860.5656054,
+    "ast_hash": "b184f199c1f08fce9e01a13ff3a38108",
     "semantic_hash": ""
   },
   "README.md": {
@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1785445573.5327277,
-    "ast_hash": "d4148f91474f1aec0f4cc2ede07ce778",
+    "mtime": 1785449561.8303554,
+    "ast_hash": "043ad7d3635e4fc2bf51ebfaf8560ec9",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/icon.png": {
@@ -187,6 +187,46 @@
   "docs/curseforge/versions/0.0.0-beta.1.md": {
     "mtime": 1785445609.744764,
     "ast_hash": "1a4c91541b49fe5862f228e55856188c",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/EquivalentLegacyBlocks.java": {
+    "mtime": 1785449732.886678,
+    "ast_hash": "02a5dfe31043af095d1b60c03f461d6d",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java": {
+    "mtime": 1785449728.5374014,
+    "ast_hash": "9b5ce69fbad82d9a9e39c88e18f472d4",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java": {
+    "mtime": 1785449725.8014388,
+    "ast_hash": "63e26c1d825851b5d25a80d0a0fb988d",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java": {
+    "mtime": 1785449748.4691834,
+    "ast_hash": "bb9d835323e3b1e0a1ed2b4bb06c410a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/philosophers_stone.json": {
+    "mtime": 1785449755.0965414,
+    "ast_hash": "5fb8c8a54376e89f76a627a31b93c32d",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.2.md": {
+    "mtime": 1785448630.532002,
+    "ast_hash": "ccc853a844a4c1e9a79d3e1c91ebf20e",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.3.md": {
+    "mtime": 1785449868.460759,
+    "ast_hash": "c29a79bf482deea0d7448c0d8150e862",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/philosophers_stone.png": {
+    "mtime": 1785449717.8190541,
+    "ast_hash": "32c5d203378090b7c6741a284a98b4f0",
     "semantic_hash": ""
   }
 }

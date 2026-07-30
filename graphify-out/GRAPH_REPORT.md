@@ -1,16 +1,16 @@
-# Graph Report - 26.2  (2026-07-30)
+# Graph Report - 26.2  (2026-07-31)
 
 ## Corpus Check
-- 36 files · ~6,530 words
+- 43 files · ~7,057 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 254 nodes · 367 edges · 29 communities (23 shown, 6 thin omitted)
+- 279 nodes · 403 edges · 31 communities (27 shown, 4 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2fa0ca70`
+- Built from commit: `c83ea1e0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -60,23 +60,23 @@
   .gitlab-ci.yml → README.md
 - `FixedValues` --references--> `CustomConversion`  [EXTRACTED]
   src/main/java/com/skd/equivalentlegacy/emc/FixedValues.java → src/main/java/com/skd/equivalentlegacy/emc/CustomConversion.java
+- `EMCHelper` --references--> `NormalizedSimpleStack`  [EXTRACTED]
+  src/main/java/com/skd/equivalentlegacy/emc/EMCHelper.java → src/main/java/com/skd/equivalentlegacy/emc/nss/NormalizedSimpleStack.java
 - `FixedValues` --references--> `NormalizedSimpleStack`  [EXTRACTED]
   src/main/java/com/skd/equivalentlegacy/emc/FixedValues.java → src/main/java/com/skd/equivalentlegacy/emc/nss/NormalizedSimpleStack.java
-- `MappingCollector` --implements--> `IExtendedMappingCollector`  [EXTRACTED]
-  src/main/java/com/skd/equivalentlegacy/emc/mapper/MappingCollector.java → src/main/java/com/skd/equivalentlegacy/emc/mapper/IExtendedMappingCollector.java
 
 ## Import Cycles
 - None detected.
 
-## Communities (29 total, 6 thin omitted)
+## Communities (31 total, 4 thin omitted)
 
 ### Community 0 - "Equivalent Legacy Mod"
-Cohesion: 0.29
-Nodes (7): FMLCommonSetupEvent, IEventBus, EquivalentLegacy, Identifier, Logger, Mod, ModContainer
+Cohesion: 0.14
+Nodes (13): Blocks, CreativeModeTab, DeferredHolder, DeferredRegister, FMLCommonSetupEvent, IEventBus, EquivalentLegacyBlocks, EquivalentLegacy (+5 more)
 
 ### Community 1 - "Mod Configuration"
 Cohesion: 0.26
-Nodes (10): Item, ItemLike, ItemStack, ResourceKey, DataComponentPatch, Identifier, MapCodec, Override (+2 more)
+Nodes (10): ItemLike, ResourceKey, DataComponentPatch, Identifier, Item, ItemStack, MapCodec, Override (+2 more)
 
 ### Community 2 - "Client Setup"
 Cohesion: 0.36
@@ -91,8 +91,8 @@ Cohesion: 0.67
 Nodes (3): Publish Public Script, Initial Scaffold from the codex-docs/mod_template/26.2-26.2.0.32-beta NeoForge MDK skeleton, Equivalent Legacy is an EMC/transmutation mod for Minecraft 26.2 (NeoForge), bringing the classic Equivalent Exchange-style gameplay to modern Minecraft.
 
 ### Community 5 - "Event Bus"
-Cohesion: 0.09
-Nodes (9): Object2IntSortedMap, ConversionGroup, CustomConversion, Object2IntMap, Override, EMCHelper, Logger, MapCodec (+1 more)
+Cohesion: 0.10
+Nodes (9): Object2IntSortedMap, ConversionGroup, CustomConversion, Object2IntMap, Override, MapCodec, NormalizedSimpleStack, Override (+1 more)
 
 ### Community 6 - "Server Start"
 Cohesion: 0.12
@@ -107,7 +107,7 @@ Cohesion: 0.25
 Nodes (7): CurseForge — Variables del proyecto, Nota, Proyecto, Rama, Tag, Tokens, Variables para script (lectura automática)
 
 ### Community 10 - "Common Setup"
-Cohesion: 0.18
+Cohesion: 0.16
 Nodes (4): Object2LongSortedMap, FixedValues, Override, IHasConversions
 
 ### Community 13 - "Equivalent Legacy"
@@ -117,6 +117,10 @@ Nodes (5): Equivalent Legacy, Installation, License, Requirements, Status
 ### Community 14 - "CLAUDE.md — equivalent_legacy (26.2)"
 Cohesion: 0.50
 Nodes (3): CLAUDE.md — equivalent_legacy (26.2), Paso 0 obligatorio, Prioridad de instrucciones
+
+### Community 15 - "Changelog — Equivalent Legacy"
+Cohesion: 0.40
+Nodes (4): 0.0.0-beta.1, 0.0.0-beta.2, 0.0.0-beta.3, Changelog — Equivalent Legacy
 
 ### Community 19 - "IMappingCollector"
 Cohesion: 0.18
@@ -129,6 +133,10 @@ Nodes (4): IValueGenerator, Logger, Override, SimpleGraphMapper
 ### Community 22 - "EquivalentLegacyConfig"
 Cohesion: 0.47
 Nodes (3): EquivalentLegacyConfig, Logger, ModContainer
+
+### Community 23 - "NSSTag"
+Cohesion: 0.12
+Nodes (8): DeferredItem, Item, Items, EMCHelper, Logger, EquivalentLegacyItems, ItemStack, PhilosophersStone
 
 ### Community 24 - "ServerConfig"
 Cohesion: 0.50
@@ -147,24 +155,24 @@ Cohesion: 0.50
 Nodes (4): BooleanValue, Builder, ModConfigSpec, MappingConfig
 
 ## Knowledge Gaps
-- **18 isolated node(s):** `Paso 0 obligatorio`, `Prioridad de instrucciones`, `0.0.0-beta.1`, `Status`, `Requirements` (+13 more)
+- **20 isolated node(s):** `Paso 0 obligatorio`, `Prioridad de instrucciones`, `0.0.0-beta.3`, `0.0.0-beta.2`, `0.0.0-beta.1` (+15 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `NormalizedSimpleStack` connect `Event Bus` to `Mod Configuration`, `Common Setup`, `Server Start`, `NSSTag`?**
-  _High betweenness centrality (0.280) - this node is a cross-community bridge._
-- **Why does `MappingCollector` connect `Creative Mode Tab` to `IMappingCollector`, `SimpleGraphMapper`?**
-  _High betweenness centrality (0.124) - this node is a cross-community bridge._
+  _High betweenness centrality (0.256) - this node is a cross-community bridge._
 - **Why does `SimpleGraphMapper` connect `SimpleGraphMapper` to `Creative Mode Tab`?**
+  _High betweenness centrality (0.129) - this node is a cross-community bridge._
+- **Why does `MappingCollector` connect `Creative Mode Tab` to `IMappingCollector`, `SimpleGraphMapper`?**
   _High betweenness centrality (0.123) - this node is a cross-community bridge._
-- **What connects `Paso 0 obligatorio`, `Prioridad de instrucciones`, `0.0.0-beta.1` to the rest of the system?**
-  _18 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Paso 0 obligatorio`, `Prioridad de instrucciones`, `0.0.0-beta.3` to the rest of the system?**
+  _20 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Equivalent Legacy Mod` be split into smaller, more focused modules?**
+  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Event Bus` be split into smaller, more focused modules?**
-  _Cohesion score 0.08502024291497975 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10227272727272728 - nodes in this community are weakly interconnected._
 - **Should `Server Start` be split into smaller, more focused modules?**
   _Cohesion score 0.1225071225071225 - nodes in this community are weakly interconnected._
-- **Should `Creative Mode Tab` be split into smaller, more focused modules?**
-  _Cohesion score 0.11384615384615385 - nodes in this community are weakly interconnected._
