@@ -1,13 +1,24 @@
 {
-  "itemGroup.equivalent_legacy": "Example Mod Tab",
-  "block.equivalent_legacy.example_block": "Example Block",
-  "item.equivalent_legacy.example_item": "Example Item",
-
   "equivalent_legacy.configuration.title": "Equivalent Legacy Configs",
-  "equivalent_legacy.configuration.section.equivalent_legacy.common.toml": "Equivalent Legacy Configs",
-  "equivalent_legacy.configuration.section.equivalent_legacy.common.toml.title": "Equivalent Legacy Configs",
-  "equivalent_legacy.configuration.items": "Item List",
-  "equivalent_legacy.configuration.logDirtBlock": "Log Dirt Block",
-  "equivalent_legacy.configuration.magicNumberIntroduction": "Magic Number Text",
-  "equivalent_legacy.configuration.magicNumber": "Magic Number"
+  "equivalent_legacy.configuration.section.equivalent_legacy.common.toml": "Equivalent Legacy Common",
+  "equivalent_legacy.configuration.section.equivalent_legacy.common.toml.title": "Common Config",
+
+  "equivalent_legacy.configuration.debugLogging": "Debug Logging",
+  "equivalent_legacy.configuration.craftableTome": "Craftable Tome",
+  "equivalent_legacy.configuration.fullKleinStars": "Full Klein Stars",
+
+  "equivalent_legacy.configuration.section.equivalent_legacy.client.toml": "Equivalent Legacy Client",
+  "equivalent_legacy.configuration.section.equivalent_legacy.client.toml.title": "Client Config",
+  "equivalent_legacy.configuration.emcToolTips": "EMC Tooltips",
+  "equivalent_legacy.configuration.shiftEmcToolTips": "Shift EMC Tooltips",
+  "equivalent_legacy.configuration.pulsatingOverlay": "Pulsating Overlay",
+
+  "equivalent_legacy.configuration.section.equivalent_legacy.server.toml": "Equivalent Legacy Server",
+  "equivalent_legacy.configuration.section.equivalent_legacy.server.toml.title": "Server Config",
+
+  "equivalent_legacy.configuration.section.equivalent_legacy.mapping.toml": "Equivalent Legacy Mapping",
+  "equivalent_legacy.configuration.section.equivalent_legacy.mapping.toml.title": "Mapping Config",
+  "equivalent_legacy.configuration.dumpToFile": "Dump EMC to File",
+  "equivalent_legacy.configuration.usePregenerated": "Use Pregenerated EMC",
+  "equivalent_legacy.configuration.logExploits": "Log EMC Exploits"
 }
