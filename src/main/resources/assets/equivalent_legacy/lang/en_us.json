@@ -1,0 +1,13 @@
+{
+  "itemGroup.equivalent_legacy": "Example Mod Tab",
+  "block.equivalent_legacy.example_block": "Example Block",
+  "item.equivalent_legacy.example_item": "Example Item",
+
+  "equivalent_legacy.configuration.title": "Equivalent Legacy Configs",
+  "equivalent_legacy.configuration.section.equivalent_legacy.common.toml": "Equivalent Legacy Configs",
+  "equivalent_legacy.configuration.section.equivalent_legacy.common.toml.title": "Equivalent Legacy Configs",
+  "equivalent_legacy.configuration.items": "Item List",
+  "equivalent_legacy.configuration.logDirtBlock": "Log Dirt Block",
+  "equivalent_legacy.configuration.magicNumberIntroduction": "Magic Number Text",
+  "equivalent_legacy.configuration.magicNumber": "Magic Number"
+}
