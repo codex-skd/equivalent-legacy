@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-07-31)
 
 ## Corpus Check
-- 58 files · ~9,792 words
+- 65 files · ~10,513 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 441 nodes · 727 edges · 37 communities (33 shown, 4 thin omitted)
-- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 33 edges (avg confidence: 0.8)
+- 486 nodes · 818 edges · 38 communities (34 shown, 4 thin omitted)
+- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 36 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `40373950`
+- Built from commit: `831f737e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -47,15 +47,15 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `NormalizedSimpleStack` - 31 edges
-2. `PlayerKnowledge` - 22 edges
+2. `PlayerKnowledge` - 23 edges
 3. `PlayerKnowledgeAttachment` - 21 edges
 4. `CustomConversion` - 19 edges
 5. `FixedValues` - 19 edges
 6. `NSSItem` - 18 edges
 7. `TransmutationContainer` - 18 edges
-8. `IValueArithmetic` - 14 edges
-9. `TransmutationScreen` - 14 edges
-10. `LongArithmetic` - 13 edges
+8. `KleinStar` - 16 edges
+9. `IValueArithmetic` - 14 edges
+10. `TransmutationScreen` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Publish Public Script` ----> `Initial Scaffold from the codex-docs/mod_template/26.2-26.2.0.32-beta NeoForge MDK skeleton`  [EXTRACTED]
@@ -72,14 +72,14 @@
 ## Import Cycles
 - None detected.
 
-## Communities (37 total, 4 thin omitted)
+## Communities (38 total, 4 thin omitted)
 
 ### Community 0 - "Equivalent Legacy Mod"
-Cohesion: 0.14
-Nodes (13): Blocks, CreativeModeTab, FMLCommonSetupEvent, EquivalentLegacyBlocks, EquivalentLegacy, Identifier, IEventBus, Logger (+5 more)
+Cohesion: 0.11
+Nodes (16): Blocks, CreativeModeTab, DataComponentType, FMLCommonSetupEvent, EquivalentLegacyBlocks, EquivalentLegacy, Identifier, IEventBus (+8 more)
 
 ### Community 1 - "Mod Configuration"
-Cohesion: 0.26
+Cohesion: 0.24
 Nodes (10): ItemLike, ResourceKey, DataComponentPatch, Identifier, Item, ItemStack, MapCodec, Override (+2 more)
 
 ### Community 2 - "Client Setup"
@@ -123,8 +123,8 @@ Cohesion: 0.50
 Nodes (3): CLAUDE.md — equivalent_legacy (26.2), Paso 0 obligatorio, Prioridad de instrucciones
 
 ### Community 15 - "Changelog — Equivalent Legacy"
-Cohesion: 0.29
-Nodes (6): 0.0.0-beta.1, 0.0.0-beta.2, 0.0.0-beta.3, 0.0.0-beta.4, 0.0.0-beta.5, Changelog — Equivalent Legacy
+Cohesion: 0.25
+Nodes (7): 0.0.0-beta.1, 0.0.0-beta.2, 0.0.0-beta.3, 0.0.0-beta.4, 0.0.0-beta.5, 0.0.0-beta.6, Changelog — Equivalent Legacy
 
 ### Community 19 - "IMappingCollector"
 Cohesion: 0.18
@@ -139,8 +139,8 @@ Cohesion: 0.47
 Nodes (3): EquivalentLegacyConfig, Logger, ModContainer
 
 ### Community 23 - "NSSTag"
-Cohesion: 0.16
-Nodes (11): DeferredItem, InteractionHand, InteractionResult, Item, Items, Level, EquivalentLegacyItems, ItemStack (+3 more)
+Cohesion: 0.14
+Nodes (12): DeferredItem, Item, Items, DarkMatter, EquivalentLegacyItems, InteractionHand, InteractionResult, ItemStack (+4 more)
 
 ### Community 24 - "ServerConfig"
 Cohesion: 0.50
@@ -159,23 +159,23 @@ Cohesion: 0.50
 Nodes (4): BooleanValue, Builder, ModConfigSpec, MappingConfig
 
 ### Community 31 - "KnowledgeSyncPayload.java"
-Cohesion: 0.08
-Nodes (27): CustomPacketPayload, IEventBus, PacketHandler, ByteBuf, IPayloadContext, Override, StreamCodec, Type (+19 more)
+Cohesion: 0.06
+Nodes (36): AttachmentType, CustomPacketPayload, IEventBus, PacketHandler, ByteBuf, IPayloadContext, Override, StreamCodec (+28 more)
 
 ### Community 32 - "AbstractNSSTag"
 Cohesion: 0.20
-Nodes (10): AbstractContainerScreen, Component, GuiGraphicsExtractor, MouseButtonEvent, ItemEntry, Identifier, Inventory, ItemStack (+2 more)
+Nodes (10): AbstractContainerScreen, GuiGraphicsExtractor, MouseButtonEvent, ItemEntry, Component, Identifier, Inventory, ItemStack (+2 more)
 
 ### Community 34 - "KnowledgeSyncChangePayload.java"
-Cohesion: 0.21
-Nodes (9): AttachmentType, ByteBuf, IPayloadContext, Override, StreamCodec, Type, KnowledgeSyncChangePayload, EquivalentLegacyAttachments (+1 more)
+Cohesion: 0.12
+Nodes (18): Component, InteractionHand, InteractionResult, ItemStack, Level, Override, Player, KleinStar (+10 more)
 
 ### Community 35 - "PlayerEvents"
 Cohesion: 0.25
 Nodes (6): PlayerChangedDimensionEvent, PlayerLoggedInEvent, PlayerRespawnEvent, EventBusSubscriber, SubscribeEvent, PlayerEvents
 
 ## Knowledge Gaps
-- **22 isolated node(s):** `Paso 0 obligatorio`, `Prioridad de instrucciones`, `0.0.0-beta.5`, `0.0.0-beta.4`, `0.0.0-beta.3` (+17 more)
+- **29 isolated node(s):** `EIN`, `ZWEI`, `DREI`, `VIER`, `SPHERE` (+24 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -183,15 +183,15 @@ Nodes (6): PlayerChangedDimensionEvent, PlayerLoggedInEvent, PlayerRespawnEvent,
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `NormalizedSimpleStack` connect `Event Bus` to `Mod Configuration`, `Common Setup`, `Server Start`, `NSSTag`?**
-  _High betweenness centrality (0.182) - this node is a cross-community bridge._
+  _High betweenness centrality (0.169) - this node is a cross-community bridge._
+- **Why does `PlayerKnowledge` connect `Common Setup` to `Mod Configuration`, `KnowledgeSyncChangePayload.java`, `PlayerEvents`?**
+  _High betweenness centrality (0.137) - this node is a cross-community bridge._
 - **Why does `NSSItem` connect `Mod Configuration` to `AbstractNSSTag`, `Common Setup`, `Server Start`, `NSSTag`?**
-  _High betweenness centrality (0.139) - this node is a cross-community bridge._
-- **Why does `PlayerKnowledge` connect `Common Setup` to `PlayerEvents`?**
-  _High betweenness centrality (0.114) - this node is a cross-community bridge._
-- **What connects `Paso 0 obligatorio`, `Prioridad de instrucciones`, `0.0.0-beta.5` to the rest of the system?**
-  _22 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.130) - this node is a cross-community bridge._
+- **What connects `EIN`, `ZWEI`, `DREI` to the rest of the system?**
+  _29 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Equivalent Legacy Mod` be split into smaller, more focused modules?**
-  _Cohesion score 0.1380952380952381 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10826210826210826 - nodes in this community are weakly interconnected._
 - **Should `Event Bus` be split into smaller, more focused modules?**
   _Cohesion score 0.058699101004759384 - nodes in this community are weakly interconnected._
 - **Should `Server Start` be split into smaller, more focused modules?**

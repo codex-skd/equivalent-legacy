@@ -15,8 +15,8 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java": {
-    "mtime": 1785451029.3758166,
-    "ast_hash": "997bb34d27f575252174af41e3ec0533",
+    "mtime": 1785452790.9145758,
+    "ast_hash": "59d7674eb1e83c3344879c279b03fe28",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java": {
@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1785451076.4089143,
-    "ast_hash": "a0c40cd878189068d9aa9fc1817c3631",
+    "mtime": 1785452625.782305,
+    "ast_hash": "e4ab747f0997e6e872d418cf63a5381d",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785452078.4813342,
-    "ast_hash": "57fb6ac4b375799c8ea3ce381218a375",
+    "mtime": 1785452947.0320604,
+    "ast_hash": "4deb526ade313d2a0ad0aca0f2979404",
     "semantic_hash": ""
   },
   "README.md": {
@@ -195,13 +195,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java": {
-    "mtime": 1785449728.5374014,
-    "ast_hash": "9b5ce69fbad82d9a9e39c88e18f472d4",
+    "mtime": 1785452608.3453045,
+    "ast_hash": "931c18e9dc0734699165f7d870e9a110",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java": {
-    "mtime": 1785449725.8014388,
-    "ast_hash": "63e26c1d825851b5d25a80d0a0fb988d",
+    "mtime": 1785452607.2248333,
+    "ast_hash": "655171c0e6443b1d5e45e3902057c1a5",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java": {
@@ -302,6 +302,51 @@
   "docs/curseforge/versions/0.0.0-beta.5.md": {
     "mtime": 1785452084.9267645,
     "ast_hash": "120d42f105a2cb7850fa43a5d48245ce",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/DarkMatter.java": {
+    "mtime": 1785452591.3544312,
+    "ast_hash": "e32b5943bd0d1c82404965bd9ef77db0",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyDataComponents.java": {
+    "mtime": 1785452582.750441,
+    "ast_hash": "7975274890e54638c147f50c44d71cd7",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/KleinStar.java": {
+    "mtime": 1785452831.7100244,
+    "ast_hash": "38f9dc7629894161043434bd032672c4",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/KleinStarTier.java": {
+    "mtime": 1785452584.1854928,
+    "ast_hash": "9328ea479e9586f9748368b964fe3635",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter.json": {
+    "mtime": 1785452623.9893348,
+    "ast_hash": "b54db8f97433371ad2c13511d7cfa4e5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/klein_star_ein.json": {
+    "mtime": 1785452624.0604188,
+    "ast_hash": "9268c2756cece6c54ad93fb2339868c2",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.6.md": {
+    "mtime": 1785452952.5470338,
+    "ast_hash": "c7803916400c247fd035352df381337d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/matter/dark.png": {
+    "mtime": 1785452566.1946945,
+    "ast_hash": "d99b2ff55e142f12f1e6d8c7eac665a1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_1.png": {
+    "mtime": 1785452566.375376,
+    "ast_hash": "b37521cc65fdd0b9b841e3de2a36915a",
     "semantic_hash": ""
   }
 }
