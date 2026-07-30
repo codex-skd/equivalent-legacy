@@ -1,5 +1,11 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.6
+
+- **Dark Matter**: high-EMC (139,264) intermediate crafting item, first rung above the Philosopher's Stone.
+- **Klein Star Ein**: portable EMC battery. Right-click charges it from the player's EMC (up to 10k/click), shift-right-click discharges back to the player. Durability bar shows charge level, tooltip shows exact stored EMC.
+- Both items have EMC values and appear in the creative tab.
+
 ## 0.0.0-beta.5
 
 - **Philosopher's Stone transmutation GUI**: right-click opens a screen with a scrollable list of known items (sorted by EMC), an input slot to learn new items, an output slot, and the player's current EMC visible.

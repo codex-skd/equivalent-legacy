@@ -23,6 +23,7 @@ public class EquivalentLegacy {
         com.skd.equivalentlegacy.item.EquivalentLegacyItems.ITEMS.register(modEventBus);
         com.skd.equivalentlegacy.block.EquivalentLegacyBlocks.BLOCKS.register(modEventBus);
         com.skd.equivalentlegacy.item.EquivalentLegacyCreativeTab.CREATIVE_MODE_TABS.register(modEventBus);
+        com.skd.equivalentlegacy.item.EquivalentLegacyDataComponents.DATA_COMPONENT_TYPES.register(modEventBus);
         com.skd.equivalentlegacy.gui.ModMenuTypes.MENU_TYPES.register(modEventBus);
 
         com.skd.equivalentlegacy.network.PacketHandler.register(modEventBus);
@@ -34,6 +35,19 @@ public class EquivalentLegacy {
 
     private void commonSetup(FMLCommonSetupEvent event) {
         LOGGER.info("Equivalent Legacy loading...");
+        initEmcValues();
+    }
+
+    private static void initEmcValues() {
+        var fixedValues = new com.skd.equivalentlegacy.emc.FixedValues();
+        var nssItem = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.DARK_MATTER.get());
+        fixedValues.addSetValueBefore(nssItem, 139_264L);
+
+        var nssKlein = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.KLEIN_STAR_EIN.get());
+        fixedValues.addSetValueBefore(nssKlein, 24_576L);
+
+        com.skd.equivalentlegacy.emc.EMCHelper.registerFixedValues(fixedValues);
+        LOGGER.info("Registered phase 5 EMC values (Dark Matter, Klein Star)");
     }
 
     public static Identifier rl(String path) {

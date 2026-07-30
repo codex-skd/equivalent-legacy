@@ -18,6 +18,8 @@ public final class EquivalentLegacyCreativeTab {
                     .icon(() -> new ItemStack(EquivalentLegacyItems.PHILOSOPHERS_STONE.get()))
                     .displayItems((parameters, output) -> {
                         output.accept(EquivalentLegacyItems.PHILOSOPHERS_STONE.get());
+                        output.accept(EquivalentLegacyItems.DARK_MATTER.get());
+                        output.accept(EquivalentLegacyItems.KLEIN_STAR_EIN.get());
                     })
                     .build());
 
