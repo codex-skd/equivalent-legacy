@@ -33,5 +33,45 @@
     "mtime": 1785436797.8632376,
     "ast_hash": "c8a8daf0431617682f5e7a7c789e7b69",
     "semantic_hash": "c8a8daf0431617682f5e7a7c789e7b69"
+  },
+  ".claude/CLAUDE.md": {
+    "mtime": 1785436925.3849103,
+    "ast_hash": "4058eb02153f398192972b3432d4ca82",
+    "semantic_hash": ""
+  },
+  ".gitlab-ci.yml": {
+    "mtime": 1785436897.2811346,
+    "ast_hash": "553d39cdc2b2046cf32708949b2c36bc",
+    "semantic_hash": ""
+  },
+  "CHANGELOG.md": {
+    "mtime": 1785445362.1772833,
+    "ast_hash": "e7af4fd9342f3b1223345c25fd974108",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1785436875.766919,
+    "ast_hash": "246d20194c9716f1ced02523b102a111",
+    "semantic_hash": ""
+  },
+  "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md": {
+    "mtime": 1785436907.6070147,
+    "ast_hash": "0b8c1ffb9fae2f96842fbfb478590664",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/project_description.md": {
+    "mtime": 1785443534.633665,
+    "ast_hash": "09607bf2f2ef06f4a80f39e0ba1bfa35",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/project_vars.md": {
+    "mtime": 1785445241.5436049,
+    "ast_hash": "d333073454e69f69d6d3ab0c032452d1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/icon.png": {
+    "mtime": 1785443444.5654285,
+    "ast_hash": "4740ee3a177d990cfd1aff1fd9882646",
+    "semantic_hash": ""
   }
 }

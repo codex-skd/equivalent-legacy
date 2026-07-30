@@ -9,10 +9,9 @@
       "source_file": "build.gradle",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 11,
-      "norm_label": "build.gradle",
       "id": "build",
-      "community_name": "Gradle Build File"
+      "community": 11,
+      "norm_label": "build.gradle"
     },
     {
       "label": "gradlew",
@@ -24,10 +23,9 @@
         "kind": "file"
       },
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "gradlew",
       "id": "gradlew",
-      "community_name": "Gradle Build Script"
+      "community": 3,
+      "norm_label": "gradlew"
     },
     {
       "label": "gradlew script",
@@ -39,10 +37,9 @@
         "kind": "bash_entrypoint"
       },
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "gradlew script",
       "id": "gradlew__entry",
-      "community_name": "Gradle Build Script"
+      "community": 3,
+      "norm_label": "gradlew script"
     },
     {
       "label": "warn()",
@@ -54,10 +51,9 @@
         "kind": "bash_function"
       },
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "warn()",
       "id": "gradlew_warn",
-      "community_name": "Gradle Build Script"
+      "community": 3,
+      "norm_label": "warn()"
     },
     {
       "label": "die()",
@@ -69,10 +65,9 @@
         "kind": "bash_function"
       },
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "die()",
       "id": "gradlew_die",
-      "community_name": "Gradle Build Script"
+      "community": 3,
+      "norm_label": "die()"
     },
     {
       "label": "settings.gradle",
@@ -80,10 +75,9 @@
       "source_file": "settings.gradle",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
-      "norm_label": "settings.gradle",
       "id": "settings",
-      "community_name": "Settings File"
+      "community": 12,
+      "norm_label": "settings.gradle"
     },
     {
       "label": "Config.java",
@@ -91,10 +85,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/Config.java",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "config.java",
       "id": "src_main_java_com_skd_equivalentlegacy_config",
-      "community_name": "Mod Configuration"
+      "community": 1,
+      "norm_label": "config.java"
     },
     {
       "label": "Config",
@@ -102,10 +95,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/Config.java",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "config",
       "id": "src_main_java_com_skd_equivalentlegacy_config_config",
-      "community_name": "Mod Configuration"
+      "community": 1,
+      "norm_label": "config"
     },
     {
       "label": "Builder",
@@ -113,10 +105,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "builder",
       "id": "builder",
-      "community_name": "Mod Configuration"
+      "community": 1,
+      "norm_label": "builder"
     },
     {
       "label": "BooleanValue",
@@ -124,10 +115,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "booleanvalue",
       "id": "booleanvalue",
-      "community_name": "Mod Configuration"
+      "community": 1,
+      "norm_label": "booleanvalue"
     },
     {
       "label": "IntValue",
@@ -135,10 +125,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "intvalue",
       "id": "intvalue",
-      "community_name": "Mod Configuration"
+      "community": 1,
+      "norm_label": "intvalue"
     },
     {
       "label": "ConfigValue",
@@ -146,10 +135,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "configvalue",
       "id": "configvalue",
-      "community_name": "Mod Configuration"
+      "community": 1,
+      "norm_label": "configvalue"
     },
     {
       "label": "ModConfigSpec",
@@ -157,10 +145,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "modconfigspec",
       "id": "modconfigspec",
-      "community_name": "Mod Configuration"
+      "community": 1,
+      "norm_label": "modconfigspec"
     },
     {
       "label": ".validateItemName()",
@@ -168,10 +155,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/Config.java",
       "source_location": "L39",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": ".validateitemname()",
       "id": "src_main_java_com_skd_equivalentlegacy_config_config_validateitemname",
-      "community_name": "Mod Configuration"
+      "community": 1,
+      "norm_label": ".validateitemname()"
     },
     {
       "label": "EquivalentLegacy.java",
@@ -179,10 +165,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "equivalentlegacy.java",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "equivalentlegacy.java"
     },
     {
       "label": "EquivalentLegacy",
@@ -190,10 +175,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L35",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "equivalentlegacy",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "equivalentlegacy"
     },
     {
       "label": "Mod",
@@ -201,10 +185,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "mod",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_mod",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "mod"
     },
     {
       "label": "Logger",
@@ -212,10 +195,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "logger",
       "id": "logger",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "logger"
     },
     {
       "label": "Blocks",
@@ -223,10 +205,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "blocks",
       "id": "blocks",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "blocks"
     },
     {
       "label": "Items",
@@ -234,10 +215,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "items",
       "id": "items",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "items"
     },
     {
       "label": "DeferredRegister",
@@ -245,10 +225,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "deferredregister",
       "id": "deferredregister",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "deferredregister"
     },
     {
       "label": "CreativeModeTab",
@@ -256,10 +235,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "creativemodetab",
       "id": "creativemodetab",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "creativemodetab"
     },
     {
       "label": "DeferredBlock",
@@ -267,10 +245,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "deferredblock",
       "id": "deferredblock",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "deferredblock"
     },
     {
       "label": "Block",
@@ -278,10 +255,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "block",
       "id": "block",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "block"
     },
     {
       "label": "DeferredItem",
@@ -289,10 +265,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "deferreditem",
       "id": "deferreditem",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "deferreditem"
     },
     {
       "label": "BlockItem",
@@ -300,10 +275,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "blockitem",
       "id": "blockitem",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "blockitem"
     },
     {
       "label": "Item",
@@ -311,10 +285,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "item",
       "id": "item",
-      "community_name": "Mod Configuration"
+      "community": 1,
+      "norm_label": "item"
     },
     {
       "label": "DeferredHolder",
@@ -322,10 +295,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "deferredholder",
       "id": "deferredholder",
-      "community_name": "Equivalent Legacy Mod"
+      "community": 0,
+      "norm_label": "deferredholder"
     },
     {
       "label": ".EquivalentLegacy()",
@@ -333,10 +305,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L68",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": ".equivalentlegacy()",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "community_name": "Event Bus"
+      "community": 5,
+      "norm_label": ".equivalentlegacy()"
     },
     {
       "label": "IEventBus",
@@ -344,10 +315,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": "ieventbus",
       "id": "ieventbus",
-      "community_name": "Event Bus"
+      "community": 5,
+      "norm_label": "ieventbus"
     },
     {
       "label": "ModContainer",
@@ -355,10 +325,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": "modcontainer",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_modcontainer",
-      "community_name": "Event Bus"
+      "community": 5,
+      "norm_label": "modcontainer"
     },
     {
       "label": ".commonSetup()",
@@ -366,10 +335,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L91",
       "_origin": "ast",
-      "community": 10,
-      "norm_label": ".commonsetup()",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_commonsetup",
-      "community_name": "Common Setup"
+      "community": 10,
+      "norm_label": ".commonsetup()"
     },
     {
       "label": "FMLCommonSetupEvent",
@@ -377,10 +345,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 10,
-      "norm_label": "fmlcommonsetupevent",
       "id": "fmlcommonsetupevent",
-      "community_name": "Common Setup"
+      "community": 10,
+      "norm_label": "fmlcommonsetupevent"
     },
     {
       "label": ".addCreative()",
@@ -388,10 +355,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L105",
       "_origin": "ast",
-      "community": 7,
-      "norm_label": ".addcreative()",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_addcreative",
-      "community_name": "Creative Mode Tab"
+      "community": 7,
+      "norm_label": ".addcreative()"
     },
     {
       "label": "BuildCreativeModeTabContentsEvent",
@@ -399,10 +365,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 7,
-      "norm_label": "buildcreativemodetabcontentsevent",
       "id": "buildcreativemodetabcontentsevent",
-      "community_name": "Creative Mode Tab"
+      "community": 7,
+      "norm_label": "buildcreativemodetabcontentsevent"
     },
     {
       "label": ".onServerStarting()",
@@ -410,10 +375,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L112",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": ".onserverstarting()",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_onserverstarting",
-      "community_name": "Server Start"
+      "community": 6,
+      "norm_label": ".onserverstarting()"
     },
     {
       "label": "ServerStartingEvent",
@@ -421,10 +385,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": "serverstartingevent",
       "id": "serverstartingevent",
-      "community_name": "Server Start"
+      "community": 6,
+      "norm_label": "serverstartingevent"
     },
     {
       "label": "SubscribeEvent",
@@ -432,10 +395,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": "subscribeevent",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_subscribeevent",
-      "community_name": "Server Start"
+      "community": 6,
+      "norm_label": "subscribeevent"
     },
     {
       "label": "EquivalentLegacyClient.java",
@@ -443,10 +405,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "equivalentlegacyclient.java",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "community_name": "Client Setup"
+      "community": 2,
+      "norm_label": "equivalentlegacyclient.java"
     },
     {
       "label": "EquivalentLegacyClient",
@@ -454,10 +415,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "equivalentlegacyclient",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
-      "community_name": "Client Setup"
+      "community": 2,
+      "norm_label": "equivalentlegacyclient"
     },
     {
       "label": "Mod",
@@ -465,10 +425,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "mod",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_mod",
-      "community_name": "Client Setup"
+      "community": 2,
+      "norm_label": "mod"
     },
     {
       "label": "EventBusSubscriber",
@@ -476,10 +435,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "eventbussubscriber",
       "id": "eventbussubscriber",
-      "community_name": "Client Setup"
+      "community": 2,
+      "norm_label": "eventbussubscriber"
     },
     {
       "label": ".EquivalentLegacyClient()",
@@ -487,10 +445,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": ".equivalentlegacyclient()",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_equivalentlegacyclient",
-      "community_name": "Client Setup"
+      "community": 2,
+      "norm_label": ".equivalentlegacyclient()"
     },
     {
       "label": "ModContainer",
@@ -498,10 +455,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "modcontainer",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_modcontainer",
-      "community_name": "Client Setup"
+      "community": 2,
+      "norm_label": "modcontainer"
     },
     {
       "label": ".onClientSetup()",
@@ -509,10 +465,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": ".onclientsetup()",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onclientsetup",
-      "community_name": "Client Setup"
+      "community": 2,
+      "norm_label": ".onclientsetup()"
     },
     {
       "label": "FMLClientSetupEvent",
@@ -520,10 +475,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "fmlclientsetupevent",
       "id": "fmlclientsetupevent",
-      "community_name": "Client Setup"
+      "community": 2,
+      "norm_label": "fmlclientsetupevent"
     },
     {
       "label": "SubscribeEvent",
@@ -531,10 +485,259 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "subscribeevent",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent",
-      "community_name": "Client Setup"
+      "community": 2,
+      "norm_label": "subscribeevent"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_claude",
+      "community": 14,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "CLAUDE.md \u2014 equivalent_legacy (26.2)",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_claude_claude_md_equivalent_legacy_26_2",
+      "community": 14,
+      "norm_label": "claude.md \u2014 equivalent_legacy (26.2)"
+    },
+    {
+      "label": "Paso 0 obligatorio",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "claude_claude_paso_0_obligatorio",
+      "community": 14,
+      "norm_label": "paso 0 obligatorio"
+    },
+    {
+      "label": "Prioridad de instrucciones",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "claude_claude_prioridad_de_instrucciones",
+      "community": 14,
+      "norm_label": "prioridad de instrucciones"
+    },
+    {
+      "label": "CHANGELOG.md",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog",
+      "community": 15,
+      "norm_label": "changelog.md"
+    },
+    {
+      "label": "Changelog \u2014 Equivalent Legacy",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog_changelog_equivalent_legacy",
+      "community": 15,
+      "norm_label": "changelog \u2014 equivalent legacy"
+    },
+    {
+      "label": "0.0.0-beta.1",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_1",
+      "community": 15,
+      "norm_label": "0.0.0-beta.1"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 13,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Equivalent Legacy",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_equivalent_legacy",
+      "community": 13,
+      "norm_label": "equivalent legacy"
+    },
+    {
+      "label": "Status",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "readme_status",
+      "community": 13,
+      "norm_label": "status"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "readme_requirements",
+      "community": 13,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Installation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "readme_installation",
+      "community": 13,
+      "norm_label": "installation"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "readme_license",
+      "community": 13,
+      "norm_label": "license"
+    },
+    {
+      "label": "WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2",
+      "community": 16,
+      "norm_label": "workflow_equivalent_legacy_26-2.md"
+    },
+    {
+      "label": "Flujo de trabajo \u2014 Equivalent Legacy (NeoForge)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "community": 16,
+      "norm_label": "flujo de trabajo \u2014 equivalent legacy (neoforge)"
+    },
+    {
+      "label": "Notas espec\u00edficas de este mod",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2_notas_espec\u00edficas_de_este_mod",
+      "community": 16,
+      "norm_label": "notas especificas de este mod"
+    },
+    {
+      "label": "project_description.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_description.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_description",
+      "community": 17,
+      "norm_label": "project_description.md"
+    },
+    {
+      "label": "project_vars.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars",
+      "community": 8,
+      "norm_label": "project_vars.md"
+    },
+    {
+      "label": "CurseForge \u2014 Variables del proyecto",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "community": 8,
+      "norm_label": "curseforge \u2014 variables del proyecto"
+    },
+    {
+      "label": "Proyecto",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_proyecto",
+      "community": 8,
+      "norm_label": "proyecto"
+    },
+    {
+      "label": "Tokens",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_tokens",
+      "community": 8,
+      "norm_label": "tokens"
+    },
+    {
+      "label": "Variables para script (lectura autom\u00e1tica)",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_variables_para_script_lectura_autom\u00e1tica",
+      "community": 8,
+      "norm_label": "variables para script (lectura automatica)"
+    },
+    {
+      "label": "Nota",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_nota",
+      "community": 8,
+      "norm_label": "nota"
+    },
+    {
+      "label": "Rama",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_rama",
+      "community": 8,
+      "norm_label": "rama"
+    },
+    {
+      "label": "Tag",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_tag",
+      "community": 8,
+      "norm_label": "tag"
     },
     {
       "label": "Publish Public Script",
@@ -547,8 +750,8 @@
       "contributor": null,
       "community": 4,
       "norm_label": "publish public script",
-      "id": ".gitlab-ci.yml_publish-public_script",
-      "community_name": "Public Script Publish"
+      "community_name": "Public Script Publish",
+      "id": ".gitlab-ci.yml_publish-public_script"
     },
     {
       "label": "Initial Scaffold from the codex-docs/mod_template/26.2-26.2.0.32-beta NeoForge MDK skeleton",
@@ -561,8 +764,8 @@
       "contributor": null,
       "community": 4,
       "norm_label": "initial scaffold from the codex-docs/mod_template/26.2-26.2.0.32-beta neoforge mdk skeleton",
-      "id": "CHANGELOG.md_0.0.0-beta.1",
-      "community_name": "Public Script Publish"
+      "community_name": "Public Script Publish",
+      "id": "CHANGELOG.md_0.0.0-beta.1"
     },
     {
       "label": "Equivalent Legacy is an EMC/transmutation mod for Minecraft 26.2 (NeoForge), bringing the classic Equivalent Exchange-style gameplay to modern Minecraft.",
@@ -575,36 +778,8 @@
       "contributor": null,
       "community": 4,
       "norm_label": "equivalent legacy is an emc/transmutation mod for minecraft 26.2 (neoforge), bringing the classic equivalent exchange-style gameplay to modern minecraft.",
-      "id": "README.md_equivalent_legacy",
-      "community_name": "Public Script Publish"
-    },
-    {
-      "label": "Paso 0 obligatorio",
-      "file_type": "code",
-      "source_file": ".claude/CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 8,
-      "norm_label": "paso 0 obligatorio",
-      "id": "claude_claude_claude_claude_md_paso_0_obligatorio",
-      "community_name": "Mod Notes"
-    },
-    {
-      "label": "Notas espec\u00edficas de este mod",
-      "file_type": "code",
-      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 8,
-      "norm_label": "notas especificas de este mod",
-      "id": "docs_WORKFLOW_EQUIVALENT_LEGACY_26-2_md_notas_espec\u00edficas_de_este_mod",
-      "community_name": "Mod Notes"
+      "community_name": "Public Script Publish",
+      "id": "README.md_equivalent_legacy"
     },
     {
       "label": "Overview",
@@ -617,8 +792,8 @@
       "contributor": null,
       "community": 9,
       "norm_label": "overview",
-      "id": "docs_curseforge_project_description_md_overview",
-      "community_name": "Project Overview"
+      "community_name": "Project Overview",
+      "id": "docs_curseforge_project_description_md_overview"
     },
     {
       "label": "Variables del proyecto",
@@ -629,10 +804,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 18,
       "norm_label": "variables del proyecto",
-      "id": "docs_curseforge_project_vars_md_variables_proyecto",
-      "community_name": "Project Overview"
+      "community_name": "Project Overview",
+      "id": "docs_curseforge_project_vars_md_variables_proyecto"
     }
   ],
   "links": [
@@ -642,9 +817,9 @@
       "source_file": "gradlew",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew__entry"
+      "target": "gradlew__entry",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -652,9 +827,9 @@
       "source_file": "gradlew",
       "source_location": "L98",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew_die"
+      "target": "gradlew_die",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -662,9 +837,9 @@
       "source_file": "gradlew",
       "source_location": "L94",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew_warn"
+      "target": "gradlew_warn",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -673,9 +848,9 @@
       "source_location": "L129",
       "weight": 1.0,
       "context": "call",
-      "confidence_score": 1.0,
       "source": "gradlew__entry",
-      "target": "gradlew_die"
+      "target": "gradlew_die",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -684,9 +859,9 @@
       "source_location": "L152",
       "weight": 1.0,
       "context": "call",
-      "confidence_score": 1.0,
       "source": "gradlew__entry",
-      "target": "gradlew_warn"
+      "target": "gradlew_warn",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -695,9 +870,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/Config.java",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_config",
-      "target": "eventbussubscriber"
+      "target": "eventbussubscriber",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -706,9 +881,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/Config.java",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_config",
-      "target": "item"
+      "target": "item",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -717,9 +892,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/Config.java",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_config",
-      "target": "modconfigspec"
+      "target": "modconfigspec",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -727,9 +902,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/Config.java",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_config",
-      "target": "src_main_java_com_skd_equivalentlegacy_config_config"
+      "target": "src_main_java_com_skd_equivalentlegacy_config_config",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -738,9 +913,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_config_config",
-      "target": "booleanvalue"
+      "target": "booleanvalue",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -749,9 +924,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_config_config",
-      "target": "builder"
+      "target": "builder",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -760,9 +935,9 @@
       "source_location": "L33",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_config_config",
-      "target": "configvalue"
+      "target": "configvalue",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -771,9 +946,9 @@
       "source_location": "L24",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_config_config",
-      "target": "intvalue"
+      "target": "intvalue",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -782,9 +957,9 @@
       "source_location": "L37",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_config_config",
-      "target": "modconfigspec"
+      "target": "modconfigspec",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -792,9 +967,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/Config.java",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_config_config",
-      "target": "src_main_java_com_skd_equivalentlegacy_config_config_validateitemname"
+      "target": "src_main_java_com_skd_equivalentlegacy_config_config_validateitemname",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -803,9 +978,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "block"
+      "target": "block",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -814,9 +989,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "blockitem"
+      "target": "blockitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -825,9 +1000,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "blocks"
+      "target": "blocks",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -836,9 +1011,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "buildcreativemodetabcontentsevent"
+      "target": "buildcreativemodetabcontentsevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -847,9 +1022,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "creativemodetab"
+      "target": "creativemodetab",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -858,9 +1033,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "deferredblock"
+      "target": "deferredblock",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -869,9 +1044,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "deferredholder"
+      "target": "deferredholder",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -880,9 +1055,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "deferreditem"
+      "target": "deferreditem",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -891,9 +1066,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "deferredregister"
+      "target": "deferredregister",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -902,9 +1077,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "fmlcommonsetupevent"
+      "target": "fmlcommonsetupevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -913,9 +1088,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "ieventbus"
+      "target": "ieventbus",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -924,9 +1099,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "item"
+      "target": "item",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -935,9 +1110,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "logger"
+      "target": "logger",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -946,9 +1121,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "serverstartingevent"
+      "target": "serverstartingevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -956,9 +1131,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -967,9 +1142,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_mod"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_mod",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -978,9 +1153,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_modcontainer"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_modcontainer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -989,9 +1164,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_subscribeevent"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_subscribeevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1000,9 +1175,9 @@
       "source_location": "L49",
       "weight": 1.0,
       "context": "generic_arg",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "block"
+      "target": "block",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1011,9 +1186,9 @@
       "source_location": "L51",
       "weight": 1.0,
       "context": "generic_arg",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "blockitem"
+      "target": "blockitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1022,9 +1197,9 @@
       "source_location": "L42",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "blocks"
+      "target": "blocks",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1033,9 +1208,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "context": "generic_arg",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "creativemodetab"
+      "target": "creativemodetab",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1044,9 +1219,9 @@
       "source_location": "L49",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "deferredblock"
+      "target": "deferredblock",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1055,9 +1230,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "deferredholder"
+      "target": "deferredholder",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1066,9 +1241,9 @@
       "source_location": "L54",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "deferreditem"
+      "target": "deferreditem",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1077,9 +1252,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "deferredregister"
+      "target": "deferredregister",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1088,9 +1263,9 @@
       "source_location": "L54",
       "weight": 1.0,
       "context": "generic_arg",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "item"
+      "target": "item",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1099,9 +1274,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "items"
+      "target": "items",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1110,9 +1285,9 @@
       "source_location": "L40",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "logger"
+      "target": "logger",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1120,9 +1295,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L105",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_addcreative"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_addcreative",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1130,9 +1305,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_commonsetup"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_commonsetup",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1140,9 +1315,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L68",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_equivalentlegacy"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1150,9 +1325,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
       "source_location": "L112",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_onserverstarting"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_onserverstarting",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1161,9 +1336,9 @@
       "source_location": "L35",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_mod"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_mod",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1172,9 +1347,9 @@
       "source_location": "L68",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "ieventbus"
+      "target": "ieventbus",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1183,9 +1358,9 @@
       "source_location": "L68",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_modcontainer"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_modcontainer",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1194,9 +1369,9 @@
       "source_location": "L91",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_commonsetup",
-      "target": "fmlcommonsetupevent"
+      "target": "fmlcommonsetupevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1205,9 +1380,9 @@
       "source_location": "L105",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_addcreative",
-      "target": "buildcreativemodetabcontentsevent"
+      "target": "buildcreativemodetabcontentsevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1216,9 +1391,9 @@
       "source_location": "L112",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_onserverstarting",
-      "target": "serverstartingevent"
+      "target": "serverstartingevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1227,9 +1402,9 @@
       "source_location": "L112",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_onserverstarting",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_subscribeevent"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_subscribeevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1238,9 +1413,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "target": "eventbussubscriber"
+      "target": "eventbussubscriber",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1249,9 +1424,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "target": "fmlclientsetupevent"
+      "target": "fmlclientsetupevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1259,9 +1434,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1270,9 +1445,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_mod"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_mod",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1281,9 +1456,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_modcontainer"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_modcontainer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1292,9 +1467,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1303,9 +1478,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
-      "target": "eventbussubscriber"
+      "target": "eventbussubscriber",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1313,9 +1488,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_equivalentlegacyclient"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_equivalentlegacyclient",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1323,9 +1498,9 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onclientsetup"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onclientsetup",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1334,9 +1509,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_mod"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_mod",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1345,9 +1520,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_equivalentlegacyclient",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_modcontainer"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_modcontainer",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1356,9 +1531,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onclientsetup",
-      "target": "fmlclientsetupevent"
+      "target": "fmlclientsetupevent",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1367,9 +1542,199 @@
       "source_location": "L25",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onclientsetup",
-      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent"
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_claude",
+      "target": "claude_claude_claude_md_equivalent_legacy_26_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "claude_claude_claude_md_equivalent_legacy_26_2",
+      "target": "claude_claude_paso_0_obligatorio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "claude_claude_claude_md_equivalent_legacy_26_2",
+      "target": "claude_claude_prioridad_de_instrucciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "changelog",
+      "target": "changelog_changelog_equivalent_legacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "changelog_changelog_equivalent_legacy",
+      "target": "changelog_0_0_0_beta_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_equivalent_legacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "readme_equivalent_legacy",
+      "target": "readme_installation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "readme_equivalent_legacy",
+      "target": "readme_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "readme_equivalent_legacy",
+      "target": "readme_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "readme_equivalent_legacy",
+      "target": "readme_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_workflow_equivalent_legacy_26_2",
+      "target": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "target": "docs_workflow_equivalent_legacy_26_2_notas_espec\u00edficas_de_este_mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars",
+      "target": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_nota",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_rama",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_variables_para_script_lectura_autom\u00e1tica",
+      "confidence_score": 1.0
     },
     {
       "from": ".gitlab-ci.yml_publish-public_script",
@@ -1386,24 +1751,8 @@
       "confidence_score": 1.0,
       "source": ".gitlab-ci.yml_publish-public_script",
       "target": "README.md_equivalent_legacy"
-    },
-    {
-      "from": ".claude_CLAUDE_md_paso_0_obligatorio",
-      "to": "docs_WORKFLOW_EQUIVALENT_LEGACY_26-2_md_notas_espec\u00edficas_de_este_mod",
-      "source_file": ".claude/CLAUDE.md",
-      "confidence_score": 1.0,
-      "source": "claude_claude_claude_claude_md_paso_0_obligatorio",
-      "target": "docs_WORKFLOW_EQUIVALENT_LEGACY_26-2_md_notas_espec\u00edficas_de_este_mod"
-    },
-    {
-      "from": "docs_curseforge_project_description_md_overview",
-      "to": "docs_curseforge_project_vars_md_variables_proyecto",
-      "source_file": "docs/curseforge/project_description.md",
-      "confidence_score": 1.0,
-      "source": "docs_curseforge_project_description_md_overview",
-      "target": "docs_curseforge_project_vars_md_variables_proyecto"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8ef3202f5c43777c3db9011ca8d3a4271af93e89"
+  "built_at_commit": "ee2e25af5c54baabd7c44ac42a0bdee0f4d3e014"
 }
