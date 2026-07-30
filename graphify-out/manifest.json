@@ -14,25 +14,20 @@
     "ast_hash": "58a5df05c6546d7d2671a516793e02e7",
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
-  "src/main/java/com/skd/equivalentlegacy/Config.java": {
-    "mtime": 1785436787.879752,
-    "ast_hash": "57b907ba27f74e838913f58593c9f001",
-    "semantic_hash": "57b907ba27f74e838913f58593c9f001"
-  },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java": {
-    "mtime": 1785436794.2311375,
-    "ast_hash": "5f7acd43668581ba5d7d976a2122466c",
-    "semantic_hash": "5f7acd43668581ba5d7d976a2122466c"
+    "mtime": 1785446005.7140055,
+    "ast_hash": "c23e3ee4a356803d47d40c43f405a310",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java": {
-    "mtime": 1785436787.9388247,
-    "ast_hash": "1f8a6cf8a00429697c14c395deb2538a",
-    "semantic_hash": "1f8a6cf8a00429697c14c395deb2538a"
+    "mtime": 1785445973.956486,
+    "ast_hash": "cd25739f1ce7dd2a5e6b13509d06a951",
+    "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1785436797.8632376,
-    "ast_hash": "c8a8daf0431617682f5e7a7c789e7b69",
-    "semantic_hash": "c8a8daf0431617682f5e7a7c789e7b69"
+    "mtime": 1785445987.2912755,
+    "ast_hash": "74fe4774eadad508c1a7890e5a1c8810",
+    "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
     "mtime": 1785436925.3849103,
@@ -65,13 +60,133 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1785445241.5436049,
-    "ast_hash": "d333073454e69f69d6d3ab0c032452d1",
+    "mtime": 1785445573.5327277,
+    "ast_hash": "d4148f91474f1aec0f4cc2ede07ce778",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/icon.png": {
     "mtime": 1785443444.5654285,
     "ast_hash": "4740ee3a177d990cfd1aff1fd9882646",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/config/ClientConfig.java": {
+    "mtime": 1785445908.5746057,
+    "ast_hash": "94b12fb6d70a6a2cb0ede473875a4465",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/config/CommonConfig.java": {
+    "mtime": 1785445907.1028006,
+    "ast_hash": "41e304b71b6e8c0e70c5a2f1ab7fb1ac",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/config/EquivalentLegacyConfig.java": {
+    "mtime": 1785445913.9735036,
+    "ast_hash": "bde8fcce28bf37e3f5349a47b44a867c",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/config/MappingConfig.java": {
+    "mtime": 1785445912.6189187,
+    "ast_hash": "21f01dfceb7baf425dcf71f49a373c7e",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/config/ServerConfig.java": {
+    "mtime": 1785446006.5207908,
+    "ast_hash": "4ecc279d337e0acb2a9f4f103ae5736e",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/ConversionGroup.java": {
+    "mtime": 1785445959.2876196,
+    "ast_hash": "20f7af533a87f5377324789643b15043",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/CustomConversion.java": {
+    "mtime": 1785445954.4255507,
+    "ast_hash": "927f93515a0936640d9c8a4755927b4d",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/EMCHelper.java": {
+    "mtime": 1785445967.5455005,
+    "ast_hash": "eb9b8fb05792dee6f12c5cdf032c1719",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/FixedValues.java": {
+    "mtime": 1785445957.7453403,
+    "ast_hash": "aba4955d53bb9274c36fd911f77d1968",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/IHasConversions.java": {
+    "mtime": 1785445951.0789316,
+    "ast_hash": "3b6c257df36ccbb710a063d00b073b10",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/mapper/IExtendedMappingCollector.java": {
+    "mtime": 1785445936.547944,
+    "ast_hash": "8e97f6ba5f5a2e5abf26ae2cca47e963",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/mapper/IMappingCollector.java": {
+    "mtime": 1785445935.5945246,
+    "ast_hash": "d76e7c50efd76e4fc2536c4b1d4f0485",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/mapper/IValueArithmetic.java": {
+    "mtime": 1785445931.5740917,
+    "ast_hash": "9990bbab728ff730895da9fa330c14cc",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/mapper/IValueGenerator.java": {
+    "mtime": 1785445932.1415613,
+    "ast_hash": "c00b983fb5fe52bede8a9fae6c9441f6",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/mapper/LongArithmetic.java": {
+    "mtime": 1785445934.3894875,
+    "ast_hash": "6c244267ec1f8dc09b742c54c3c3a2f3",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/mapper/MappingCollector.java": {
+    "mtime": 1785446016.1824028,
+    "ast_hash": "d592b0347bf831864183b63f7d6565f6",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/mapper/SimpleGraphMapper.java": {
+    "mtime": 1785446022.613719,
+    "ast_hash": "24bfac679f96879d042e81e259e77f7e",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/nss/AbstractDataComponentHolderNSSTag.java": {
+    "mtime": 1785446046.323524,
+    "ast_hash": "51f863e9866f629753bc999b7ed04e36",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/nss/AbstractNSSTag.java": {
+    "mtime": 1785446039.3245075,
+    "ast_hash": "dcc6380ea270b5bbba744d40dd63891b",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/nss/NSSDataComponentHolder.java": {
+    "mtime": 1785445921.8141396,
+    "ast_hash": "06c9033e9fbc7ec3908910bff44a5c38",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/nss/NSSItem.java": {
+    "mtime": 1785445927.3555398,
+    "ast_hash": "415dae3ae479793253bef406199500ef",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/nss/NSSTag.java": {
+    "mtime": 1785445918.4811492,
+    "ast_hash": "c97f840ffdfcef52d89351ab4922fb5c",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/nss/NormalizedSimpleStack.java": {
+    "mtime": 1785445917.6705222,
+    "ast_hash": "797aed905444d5ddc2f3af2b4d25ae71",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.1.md": {
+    "mtime": 1785445609.744764,
+    "ast_hash": "1a4c91541b49fe5862f228e55856188c",
     "semantic_hash": ""
   }
 }
