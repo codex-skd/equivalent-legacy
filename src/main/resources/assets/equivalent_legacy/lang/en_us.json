@@ -24,5 +24,9 @@
 
   "item.equivalent_legacy.philosophers_stone": "Philosopher's Stone",
 
-  "itemGroup.equivalent_legacy": "Equivalent Legacy"
+  "itemGroup.equivalent_legacy": "Equivalent Legacy",
+
+  "container.equivalent_legacy.transmutation": "Transmutation",
+  "gui.equivalent_legacy.learn": "Learn",
+  "gui.equivalent_legacy.output": "Output"
 }
