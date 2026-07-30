@@ -1,5 +1,11 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.5
+
+- **Philosopher's Stone transmutation GUI**: right-click opens a screen with a scrollable list of known items (sorted by EMC), an input slot to learn new items, an output slot, and the player's current EMC visible.
+- Transmuting a known item spends EMC server-side and produces a copy in the output slot.
+- Fix: EMC was being charged twice (once on transmute, again on picking up the output item) — now charged only once.
+
 ## 0.0.0-beta.4
 
 - Persistent player EMC/knowledge data via NeoForge Data Attachments (`PlayerKnowledgeAttachment`, `PlayerKnowledge` API), carried over on death.
