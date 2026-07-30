@@ -1,5 +1,11 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.4
+
+- Persistent player EMC/knowledge data via NeoForge Data Attachments (`PlayerKnowledgeAttachment`, `PlayerKnowledge` API), carried over on death.
+- Server→client sync networking (full sync, EMC-only, single-item-learned) on login, respawn, and dimension change.
+- Still no transmutation logic or GUI — foundation for the next phase.
+
 ## 0.0.0-beta.3
 
 - Item/block registration framework (`EquivalentLegacyItems`, `EquivalentLegacyBlocks`), wired into the mod's deferred registers.

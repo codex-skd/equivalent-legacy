@@ -135,7 +135,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "ieventbus",
+      "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_ieventbus",
       "community": 0,
       "norm_label": "ieventbus"
     },
@@ -153,7 +153,7 @@
       "label": ".commonSetup()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L31",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_commonsetup",
       "community": 0,
@@ -173,7 +173,7 @@
       "label": ".rl()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L35",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
       "community": 0,
@@ -225,7 +225,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "eventbussubscriber",
+      "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_eventbussubscriber",
       "community": 2,
       "norm_label": "eventbussubscriber"
     },
@@ -275,7 +275,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "subscribeevent",
+      "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent",
       "community": 2,
       "norm_label": "subscribeevent"
     },
@@ -796,7 +796,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper",
-      "community": 23,
+      "community": 5,
       "norm_label": "emchelper.java"
     },
     {
@@ -806,7 +806,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper",
-      "community": 23,
+      "community": 5,
       "norm_label": "emchelper"
     },
     {
@@ -816,7 +816,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_java_logger",
-      "community": 23,
+      "community": 5,
       "norm_label": "logger"
     },
     {
@@ -826,7 +826,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_emchelper",
-      "community": 23,
+      "community": 5,
       "norm_label": ".emchelper()"
     },
     {
@@ -846,7 +846,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_hasemc",
-      "community": 23,
+      "community": 5,
       "norm_label": ".hasemc()"
     },
     {
@@ -856,7 +856,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_setemc",
-      "community": 23,
+      "community": 5,
       "norm_label": ".setemc()"
     },
     {
@@ -866,7 +866,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemcmap",
-      "community": 23,
+      "community": 5,
       "norm_label": ".getemcmap()"
     },
     {
@@ -876,7 +876,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_registerfixedvalues",
-      "community": 10,
+      "community": 5,
       "norm_label": ".registerfixedvalues()"
     },
     {
@@ -886,7 +886,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_calculatefromconversions",
-      "community": 10,
+      "community": 5,
       "norm_label": ".calculatefromconversions()"
     },
     {
@@ -896,7 +896,7 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_clear",
-      "community": 23,
+      "community": 5,
       "norm_label": ".clear()"
     },
     {
@@ -906,7 +906,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_hasmappings",
-      "community": 23,
+      "community": 5,
       "norm_label": ".hasmappings()"
     },
     {
@@ -916,7 +916,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues",
-      "community": 10,
+      "community": 5,
       "norm_label": "fixedvalues.java"
     },
     {
@@ -926,7 +926,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues",
-      "community": 10,
+      "community": 5,
       "norm_label": "fixedvalues"
     },
     {
@@ -936,7 +936,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "object2longsortedmap",
-      "community": 10,
+      "community": 5,
       "norm_label": "object2longsortedmap"
     },
     {
@@ -946,7 +946,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_fixedvalues",
-      "community": 10,
+      "community": 5,
       "norm_label": ".fixedvalues()"
     },
     {
@@ -956,7 +956,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_merge",
-      "community": 10,
+      "community": 5,
       "norm_label": ".merge()"
     },
     {
@@ -966,7 +966,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_isempty",
-      "community": 10,
+      "community": 5,
       "norm_label": ".isempty()"
     },
     {
@@ -976,7 +976,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_java_override",
-      "community": 10,
+      "community": 5,
       "norm_label": "override"
     },
     {
@@ -986,7 +986,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_setvaluebefore",
-      "community": 10,
+      "community": 5,
       "norm_label": ".setvaluebefore()"
     },
     {
@@ -996,7 +996,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_setvalueafter",
-      "community": 10,
+      "community": 5,
       "norm_label": ".setvalueafter()"
     },
     {
@@ -1006,7 +1006,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_conversions",
-      "community": 10,
+      "community": 5,
       "norm_label": ".conversions()"
     },
     {
@@ -1016,7 +1016,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_addsetvaluebefore",
-      "community": 10,
+      "community": 5,
       "norm_label": ".addsetvaluebefore()"
     },
     {
@@ -1026,7 +1026,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_addsetvalueafter",
-      "community": 10,
+      "community": 5,
       "norm_label": ".addsetvalueafter()"
     },
     {
@@ -1046,7 +1046,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_tostring",
-      "community": 10,
+      "community": 5,
       "norm_label": ".tostring()"
     },
     {
@@ -1056,7 +1056,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_equals",
-      "community": 10,
+      "community": 5,
       "norm_label": ".equals()"
     },
     {
@@ -1066,7 +1066,7 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_hashcode",
-      "community": 10,
+      "community": 5,
       "norm_label": ".hashcode()"
     },
     {
@@ -1076,7 +1076,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_ihasconversions",
-      "community": 10,
+      "community": 5,
       "norm_label": "ihasconversions.java"
     },
     {
@@ -1086,7 +1086,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_ihasconversions_ihasconversions",
-      "community": 10,
+      "community": 5,
       "norm_label": "ihasconversions"
     },
     {
@@ -1096,7 +1096,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_ihasconversions_ihasconversions_isempty",
-      "community": 10,
+      "community": 5,
       "norm_label": ".isempty()"
     },
     {
@@ -1396,7 +1396,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_mapper_longarithmetic",
-      "community": 23,
+      "community": 5,
       "norm_label": "longarithmetic.java"
     },
     {
@@ -1856,7 +1856,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag",
-      "community": 6,
+      "community": 32,
       "norm_label": "abstractnsstag.java"
     },
     {
@@ -1866,7 +1866,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag",
-      "community": 6,
+      "community": 32,
       "norm_label": "abstractnsstag"
     },
     {
@@ -1876,7 +1876,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_java_identifier",
-      "community": 6,
+      "community": 32,
       "norm_label": "identifier"
     },
     {
@@ -1886,7 +1886,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_abstractnsstag",
-      "community": 6,
+      "community": 32,
       "norm_label": ".abstractnsstag()"
     },
     {
@@ -1896,7 +1896,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_getresourcelocation",
-      "community": 6,
+      "community": 32,
       "norm_label": ".getresourcelocation()"
     },
     {
@@ -1906,7 +1906,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_representstag",
-      "community": 6,
+      "community": 32,
       "norm_label": ".representstag()"
     },
     {
@@ -1916,7 +1916,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_java_override",
-      "community": 6,
+      "community": 32,
       "norm_label": "override"
     },
     {
@@ -1926,7 +1926,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_getregistry",
-      "community": 6,
+      "community": 32,
       "norm_label": ".getregistry()"
     },
     {
@@ -1936,7 +1936,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_java_registry",
-      "community": 6,
+      "community": 32,
       "norm_label": "registry"
     },
     {
@@ -1946,7 +1946,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_foreachelement",
-      "community": 6,
+      "community": 32,
       "norm_label": ".foreachelement()"
     },
     {
@@ -1956,7 +1956,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_equals",
-      "community": 6,
+      "community": 32,
       "norm_label": ".equals()"
     },
     {
@@ -1966,7 +1966,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_hashcode",
-      "community": 6,
+      "community": 32,
       "norm_label": ".hashcode()"
     },
     {
@@ -1976,7 +1976,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_abstractnsstag_abstractnsstag_tostring",
-      "community": 6,
+      "community": 32,
       "norm_label": ".tostring()"
     },
     {
@@ -2186,7 +2186,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag",
-      "community": 5,
+      "community": 32,
       "norm_label": "nsstag.java"
     },
     {
@@ -2196,7 +2196,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag",
-      "community": 5,
+      "community": 32,
       "norm_label": "nsstag"
     },
     {
@@ -2206,7 +2206,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_representstag",
-      "community": 5,
+      "community": 32,
       "norm_label": ".representstag()"
     },
     {
@@ -2216,7 +2216,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_foreachelement",
-      "community": 5,
+      "community": 32,
       "norm_label": ".foreachelement()"
     },
     {
@@ -2226,7 +2226,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_forselfandeachelement",
-      "community": 5,
+      "community": 32,
       "norm_label": ".forselfandeachelement()"
     },
     {
@@ -2236,7 +2236,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_java_override",
-      "community": 5,
+      "community": 32,
       "norm_label": "override"
     },
     {
@@ -2290,6 +2290,116 @@
       "norm_label": ".forselfandeachelement()"
     },
     {
+      "label": "PlayerEvents.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
+      "community": 10,
+      "norm_label": "playerevents.java"
+    },
+    {
+      "label": "PlayerEvents",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents",
+      "community": 10,
+      "norm_label": "playerevents"
+    },
+    {
+      "label": "EventBusSubscriber",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_eventbussubscriber",
+      "community": 10,
+      "norm_label": "eventbussubscriber"
+    },
+    {
+      "label": ".PlayerEvents()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_playerevents",
+      "community": 10,
+      "norm_label": ".playerevents()"
+    },
+    {
+      "label": ".onPlayerLogin()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerlogin",
+      "community": 10,
+      "norm_label": ".onplayerlogin()"
+    },
+    {
+      "label": "PlayerLoggedInEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "playerloggedinevent",
+      "community": 10,
+      "norm_label": "playerloggedinevent"
+    },
+    {
+      "label": "SubscribeEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_subscribeevent",
+      "community": 10,
+      "norm_label": "subscribeevent"
+    },
+    {
+      "label": ".onPlayerRespawn()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerrespawn",
+      "community": 10,
+      "norm_label": ".onplayerrespawn()"
+    },
+    {
+      "label": "PlayerRespawnEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "playerrespawnevent",
+      "community": 10,
+      "norm_label": "playerrespawnevent"
+    },
+    {
+      "label": ".onPlayerChangedDimension()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerchangeddimension",
+      "community": 10,
+      "norm_label": ".onplayerchangeddimension()"
+    },
+    {
+      "label": "PlayerChangedDimensionEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "playerchangeddimensionevent",
+      "community": 10,
+      "norm_label": "playerchangeddimensionevent"
+    },
+    {
       "label": "EquivalentLegacyCreativeTab.java",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
@@ -2315,7 +2425,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "deferredregister",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_java_deferredregister",
       "community": 0,
       "norm_label": "deferredregister"
     },
@@ -2460,6 +2570,766 @@
       "norm_label": "itemstack"
     },
     {
+      "label": "PacketHandler.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
+      "community": 31,
+      "norm_label": "packethandler.java"
+    },
+    {
+      "label": "PacketHandler",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler",
+      "community": 31,
+      "norm_label": "packethandler"
+    },
+    {
+      "label": ".PacketHandler()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_packethandler",
+      "community": 31,
+      "norm_label": ".packethandler()"
+    },
+    {
+      "label": ".register()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_register",
+      "community": 31,
+      "norm_label": ".register()"
+    },
+    {
+      "label": "IEventBus",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler_java_ieventbus",
+      "community": 31,
+      "norm_label": "ieventbus"
+    },
+    {
+      "label": "KnowledgeSyncChangePayload.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "community": 31,
+      "norm_label": "knowledgesyncchangepayload.java"
+    },
+    {
+      "label": "KnowledgeSyncChangePayload",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
+      "community": 31,
+      "norm_label": "knowledgesyncchangepayload"
+    },
+    {
+      "label": "CustomPacketPayload",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "custompacketpayload",
+      "community": 31,
+      "norm_label": "custompacketpayload"
+    },
+    {
+      "label": "Type",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_type",
+      "community": 31,
+      "norm_label": "type"
+    },
+    {
+      "label": "StreamCodec",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_streamcodec",
+      "community": 31,
+      "norm_label": "streamcodec"
+    },
+    {
+      "label": "ByteBuf",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_bytebuf",
+      "community": 31,
+      "norm_label": "bytebuf"
+    },
+    {
+      "label": ".type()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_type",
+      "community": 31,
+      "norm_label": ".type()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_override",
+      "community": 31,
+      "norm_label": "override"
+    },
+    {
+      "label": ".handle()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_handle",
+      "community": 31,
+      "norm_label": ".handle()"
+    },
+    {
+      "label": "IPayloadContext",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_ipayloadcontext",
+      "community": 31,
+      "norm_label": "ipayloadcontext"
+    },
+    {
+      "label": "KnowledgeSyncEmcPayload.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
+      "community": 31,
+      "norm_label": "knowledgesyncemcpayload.java"
+    },
+    {
+      "label": "KnowledgeSyncEmcPayload",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
+      "community": 31,
+      "norm_label": "knowledgesyncemcpayload"
+    },
+    {
+      "label": "Type",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_type",
+      "community": 31,
+      "norm_label": "type"
+    },
+    {
+      "label": "StreamCodec",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_streamcodec",
+      "community": 31,
+      "norm_label": "streamcodec"
+    },
+    {
+      "label": "ByteBuf",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_bytebuf",
+      "community": 31,
+      "norm_label": "bytebuf"
+    },
+    {
+      "label": ".type()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_type",
+      "community": 31,
+      "norm_label": ".type()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_override",
+      "community": 31,
+      "norm_label": "override"
+    },
+    {
+      "label": ".handle()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_handle",
+      "community": 31,
+      "norm_label": ".handle()"
+    },
+    {
+      "label": "IPayloadContext",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_ipayloadcontext",
+      "community": 31,
+      "norm_label": "ipayloadcontext"
+    },
+    {
+      "label": "KnowledgeSyncPayload.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "community": 31,
+      "norm_label": "knowledgesyncpayload.java"
+    },
+    {
+      "label": "KnowledgeSyncPayload",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
+      "community": 31,
+      "norm_label": "knowledgesyncpayload"
+    },
+    {
+      "label": "Type",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_type",
+      "community": 31,
+      "norm_label": "type"
+    },
+    {
+      "label": "StreamCodec",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_streamcodec",
+      "community": 31,
+      "norm_label": "streamcodec"
+    },
+    {
+      "label": "ByteBuf",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_bytebuf",
+      "community": 31,
+      "norm_label": "bytebuf"
+    },
+    {
+      "label": ".type()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_type",
+      "community": 31,
+      "norm_label": ".type()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_override",
+      "community": 31,
+      "norm_label": "override"
+    },
+    {
+      "label": ".handle()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_handle",
+      "community": 31,
+      "norm_label": ".handle()"
+    },
+    {
+      "label": "IPayloadContext",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_ipayloadcontext",
+      "community": 31,
+      "norm_label": "ipayloadcontext"
+    },
+    {
+      "label": "EquivalentLegacyAttachments.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments",
+      "community": 31,
+      "norm_label": "equivalentlegacyattachments.java"
+    },
+    {
+      "label": "EquivalentLegacyAttachments",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments",
+      "community": 31,
+      "norm_label": "equivalentlegacyattachments"
+    },
+    {
+      "label": "DeferredRegister",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_java_deferredregister",
+      "community": 31,
+      "norm_label": "deferredregister"
+    },
+    {
+      "label": "AttachmentType",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "attachmenttype",
+      "community": 31,
+      "norm_label": "attachmenttype"
+    },
+    {
+      "label": ".EquivalentLegacyAttachments()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments_equivalentlegacyattachments",
+      "community": 31,
+      "norm_label": ".equivalentlegacyattachments()"
+    },
+    {
+      "label": "PlayerKnowledge.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
+      "community": 10,
+      "norm_label": "playerknowledge.java"
+    },
+    {
+      "label": "PlayerKnowledge",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "community": 10,
+      "norm_label": "playerknowledge"
+    },
+    {
+      "label": "Player",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "player",
+      "community": 10,
+      "norm_label": "player"
+    },
+    {
+      "label": ".PlayerKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_playerknowledge",
+      "community": 10,
+      "norm_label": ".playerknowledge()"
+    },
+    {
+      "label": ".of()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of",
+      "community": 10,
+      "norm_label": ".of()"
+    },
+    {
+      "label": ".getEmc()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getemc",
+      "community": 10,
+      "norm_label": ".getemc()"
+    },
+    {
+      "label": ".setEmc()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setemc",
+      "community": 10,
+      "norm_label": ".setemc()"
+    },
+    {
+      "label": ".addEmc()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_addemc",
+      "community": 10,
+      "norm_label": ".addemc()"
+    },
+    {
+      "label": ".subtractEmc()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_subtractemc",
+      "community": 10,
+      "norm_label": ".subtractemc()"
+    },
+    {
+      "label": ".hasKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasknowledge",
+      "community": 10,
+      "norm_label": ".hasknowledge()"
+    },
+    {
+      "label": ".learnItem()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_learnitem",
+      "community": 10,
+      "norm_label": ".learnitem()"
+    },
+    {
+      "label": "Identifier",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_identifier",
+      "community": 10,
+      "norm_label": "identifier"
+    },
+    {
+      "label": ".unlearnItem()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_unlearnitem",
+      "community": 10,
+      "norm_label": ".unlearnitem()"
+    },
+    {
+      "label": ".getKnownItems()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getknownitems",
+      "community": 1,
+      "norm_label": ".getknownitems()"
+    },
+    {
+      "label": ".hasFullKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasfullknowledge",
+      "community": 10,
+      "norm_label": ".hasfullknowledge()"
+    },
+    {
+      "label": ".setFullKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setfullknowledge",
+      "community": 10,
+      "norm_label": ".setfullknowledge()"
+    },
+    {
+      "label": ".clearKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_clearknowledge",
+      "community": 10,
+      "norm_label": ".clearknowledge()"
+    },
+    {
+      "label": ".sync()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_sync",
+      "community": 10,
+      "norm_label": ".sync()"
+    },
+    {
+      "label": "ServerPlayer",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "serverplayer",
+      "community": 10,
+      "norm_label": "serverplayer"
+    },
+    {
+      "label": ".syncEmc()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_syncemc",
+      "community": 10,
+      "norm_label": ".syncemc()"
+    },
+    {
+      "label": "PlayerKnowledgeAttachment.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment",
+      "community": 10,
+      "norm_label": "playerknowledgeattachment.java"
+    },
+    {
+      "label": "PlayerKnowledgeAttachment",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "community": 10,
+      "norm_label": "playerknowledgeattachment"
+    },
+    {
+      "label": ".PlayerKnowledgeAttachment()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_playerknowledgeattachment",
+      "community": 10,
+      "norm_label": ".playerknowledgeattachment()"
+    },
+    {
+      "label": ".copy()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_copy",
+      "community": 10,
+      "norm_label": ".copy()"
+    },
+    {
+      "label": ".getEmc()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_getemc",
+      "community": 10,
+      "norm_label": ".getemc()"
+    },
+    {
+      "label": ".setEmc()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setemc",
+      "community": 10,
+      "norm_label": ".setemc()"
+    },
+    {
+      "label": ".addEmc()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_addemc",
+      "community": 10,
+      "norm_label": ".addemc()"
+    },
+    {
+      "label": ".subtractEmc()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_subtractemc",
+      "community": 10,
+      "norm_label": ".subtractemc()"
+    },
+    {
+      "label": ".getKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_getknowledge",
+      "community": 1,
+      "norm_label": ".getknowledge()"
+    },
+    {
+      "label": ".hasKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_hasknowledge",
+      "community": 10,
+      "norm_label": ".hasknowledge()"
+    },
+    {
+      "label": ".addKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_addknowledge",
+      "community": 10,
+      "norm_label": ".addknowledge()"
+    },
+    {
+      "label": ".removeKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_removeknowledge",
+      "community": 10,
+      "norm_label": ".removeknowledge()"
+    },
+    {
+      "label": ".clearKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_clearknowledge",
+      "community": 10,
+      "norm_label": ".clearknowledge()"
+    },
+    {
+      "label": ".hasFullKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_hasfullknowledge",
+      "community": 10,
+      "norm_label": ".hasfullknowledge()"
+    },
+    {
+      "label": ".setFullKnowledge()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setfullknowledge",
+      "community": 10,
+      "norm_label": ".setfullknowledge()"
+    },
+    {
+      "label": "MapCodec",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_java_mapcodec",
+      "community": 10,
+      "norm_label": "mapcodec"
+    },
+    {
+      "label": "StreamCodec",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_java_streamcodec",
+      "community": 10,
+      "norm_label": "streamcodec"
+    },
+    {
+      "label": "ByteBuf",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_java_bytebuf",
+      "community": 10,
+      "norm_label": "bytebuf"
+    },
+    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": ".claude/CLAUDE.md",
@@ -2520,10 +3390,20 @@
       "norm_label": "changelog \u2014 equivalent legacy"
     },
     {
-      "label": "0.0.0-beta.3",
+      "label": "0.0.0-beta.4",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
       "source_location": "L3",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_4",
+      "community": 15,
+      "norm_label": "0.0.0-beta.4"
+    },
+    {
+      "label": "0.0.0-beta.3",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_3",
       "community": 15,
@@ -2533,7 +3413,7 @@
       "label": "0.0.0-beta.2",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L10",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_2",
       "community": 15,
@@ -2543,7 +3423,7 @@
       "label": "0.0.0-beta.1",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L20",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_1",
       "community": 15,
@@ -2760,6 +3640,16 @@
       "norm_label": "0.0.0-beta.3.md"
     },
     {
+      "label": "0.0.0-beta.4.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.4.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_4",
+      "community": 33,
+      "norm_label": "0.0.0-beta.4.md"
+    },
+    {
       "label": "Publish Public Script",
       "file_type": "code",
       "source_file": ".gitlab-ci.yml",
@@ -2906,17 +3796,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
-      "target": "ieventbus",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
@@ -2935,6 +3814,17 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_identifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_ieventbus",
       "confidence_score": 1.0
     },
     {
@@ -2974,6 +3864,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
       "source_location": "L3",
       "weight": 1.0,
@@ -2993,10 +3894,65 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L31",
+      "source_location": "L34",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_commonsetup",
@@ -3016,7 +3972,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L35",
+      "source_location": "L38",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
@@ -3052,7 +4008,7 @@
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_equivalentlegacy",
-      "target": "ieventbus",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_ieventbus",
       "confidence_score": 1.0
     },
     {
@@ -3070,7 +4026,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L31",
+      "source_location": "L34",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_commonsetup",
@@ -3081,22 +4037,11 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L35",
+      "source_location": "L38",
       "weight": 1.0,
       "context": "return_type",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_identifier",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "target": "eventbussubscriber",
       "confidence_score": 1.0
     },
     {
@@ -3118,6 +4063,17 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_eventbussubscriber",
       "confidence_score": 1.0
     },
     {
@@ -3150,18 +4106,7 @@
       "source_location": "L4",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "target": "subscribeevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
-      "source_location": "L12",
-      "weight": 1.0,
-      "context": "attribute",
-      "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
-      "target": "eventbussubscriber",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent",
       "confidence_score": 1.0
     },
     {
@@ -3182,6 +4127,17 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onclientsetup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_eventbussubscriber",
       "confidence_score": 1.0
     },
     {
@@ -3225,18 +4181,7 @@
       "weight": 1.0,
       "context": "attribute",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onclientsetup",
-      "target": "subscribeevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/block/EquivalentLegacyBlocks.java",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks",
-      "target": "deferredregister",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent",
       "confidence_score": 1.0
     },
     {
@@ -6195,17 +7140,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone",
-      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/emc/nss/NSSItem.java",
@@ -6288,6 +7222,72 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
       "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_nssitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getknownitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_learnitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L61",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_unlearnitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
       "confidence_score": 1.0
     },
     {
@@ -6420,6 +7420,28 @@
       "source_location": "L14",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_getemcvalue",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getknownitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_learnitem",
       "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem"
     },
     {
@@ -6618,6 +7640,210 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
+      "target": "serverplayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_eventbussubscriber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_eventbussubscriber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerchangeddimension",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerlogin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerrespawn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_playerevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerlogin",
+      "target": "playerloggedinevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerlogin",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerlogin",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerchangeddimension",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerrespawn",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerrespawn",
+      "target": "playerrespawnevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerrespawn",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerchangeddimension",
+      "target": "playerchangeddimensionevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerchangeddimension",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
       "source_location": "L6",
       "weight": 1.0,
@@ -6637,17 +7863,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab",
-      "target": "deferredregister",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
@@ -6655,6 +7870,17 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_java_deferredregister",
       "confidence_score": 1.0
     },
     {
@@ -6680,17 +7906,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
-      "source_location": "L12",
-      "weight": 1.0,
-      "context": "field",
-      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab",
-      "target": "deferredregister",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
@@ -6701,14 +7916,14 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports",
-      "context": "import",
+      "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L6",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
+      "source_location": "L12",
       "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems",
-      "target": "deferredregister",
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_java_deferredregister",
       "confidence_score": 1.0
     },
     {
@@ -6860,6 +8075,1386 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_packethandler_java_ieventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_packethandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_register",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_register",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_packethandler_java_ieventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_ipayloadcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_learnitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_unlearnitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_ipayloadcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_ipayloadcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_syncemc",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_ipayloadcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_ipayloadcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_sync",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_ipayloadcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments",
+      "target": "attachmenttype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_java_deferredregister",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments",
+      "target": "attachmenttype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments_equivalentlegacyattachments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_java_deferredregister",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
+      "target": "player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
+      "target": "serverplayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_identifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_addemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_clearknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getknownitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasfullknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_learnitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_playerknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setfullknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_subtractemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_sync",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_syncemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_unlearnitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of",
+      "target": "player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_playerknowledge",
+      "target": "player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_playerknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getemc",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_getemc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setemc",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setemc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_addemc",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_addemc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_subtractemc",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_subtractemc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_hasknowledge"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L57",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_learnitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java_identifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_learnitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_addknowledge"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_unlearnitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_removeknowledge"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getknownitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_getknowledge"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasfullknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_hasfullknowledge"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setfullknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setfullknowledge"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_clearknowledge",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_clearknowledge"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L90",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_sync",
+      "target": "serverplayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L94",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_syncemc",
+      "target": "serverplayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_syncemc",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_getemc"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_java_mapcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L92",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_java_mapcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_addemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_addknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_clearknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_copy",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_getemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_getknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_hasfullknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_hasknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_playerknowledgeattachment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_removeknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setfullknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_subtractemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_copy",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_playerknowledgeattachment",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/CLAUDE.md",
@@ -6903,7 +9498,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L20",
+      "source_location": "L26",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_1",
@@ -6913,7 +9508,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L10",
+      "source_location": "L16",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_2",
@@ -6923,10 +9518,20 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L3",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "changelog_changelog_equivalent_legacy",
+      "target": "changelog_0_0_0_beta_4",
       "confidence_score": 1.0
     },
     {
@@ -7087,5 +9692,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c83ea1e0f3f0b921a2e291c09abf2c8faa0a63bf"
+  "built_at_commit": "f104980906329922fa7aad95fd77a03802b38bef"
 }
