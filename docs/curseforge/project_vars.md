@@ -12,18 +12,18 @@
 
 | API | Token | Uso |
 |-----|-------|-----|
-| Upload | *pendiente* | Subir archivos JAR |
-| Core (GET) | *pendiente* | Consultar datos del mod |
+| Upload | `ee776b0a-ee95-4850-b554-06be02a8657f` | Subir archivos JAR |
+| Core (GET) | `$2a$10$yGwryAfmRkS9ZJsJUDf5YOKZpOIsmHB8Fji2D8JVCKBSZEKYlwmaO` | Consultar datos del mod |
 
 Autenticación Upload: cabecera `X-Api-Token`
 Autenticación Core: cabecera `x-api-key`
 
-> Token de cuenta (mismo para todos los mods) — copiar desde `codex-docs/secrets.md` o desde el `project_vars.md` de otro mod (ej. `skd_menu`).
+> Token de cuenta (mismo para todos los mods, ver `data_miner/26.1.2/docs/curseforge/project_vars.md` u otros).
 
 ## Variables para script (lectura automática)
 
 project_id = 1632317
-api_token = (pendiente — mismo token de cuenta usado en el resto de mods, ver `codex-docs/secrets.md`)
+api_token = ee776b0a-ee95-4850-b554-06be02a8657f
 release_type = release
 game_versions = (pendiente — obtener con GET a la API de CurseForge para MC 26.2 / NeoForge)
 
