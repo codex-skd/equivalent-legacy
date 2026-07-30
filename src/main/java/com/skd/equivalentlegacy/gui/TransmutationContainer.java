@@ -55,27 +55,6 @@ public class TransmutationContainer extends AbstractContainerMenu {
             public boolean mayPlace(ItemStack stack) {
                 return false;
             }
-
-            @Override
-            public boolean mayPickup(Player player) {
-                if (hasItem()) {
-                    long emcCost = EMCHelper.getEMC(NSSItem.createItem(getItem()));
-                    return knowledge.getEmc() >= emcCost;
-                }
-                return true;
-            }
-
-            @Override
-            public void onTake(Player player, ItemStack stack) {
-                long emcCost = EMCHelper.getEMC(NSSItem.createItem(stack));
-                if (emcCost > 0) {
-                    knowledge.subtractEmc(emcCost);
-                    if (player instanceof ServerPlayer serverPlayer) {
-                        knowledge.syncEmc(serverPlayer);
-                    }
-                }
-                super.onTake(player, stack);
-            }
         });
 
         for (int row = 0; row < 3; row++) {
