@@ -15,8 +15,8 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java": {
-    "mtime": 1785551355.1131828,
-    "ast_hash": "38594b81dfc530a67fbaf176fa16fd27",
+    "mtime": 1785619509.0832572,
+    "ast_hash": "93815386be043bf78f15277f38d49bbc",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785617276.111316,
-    "ast_hash": "39017be343b2fa8a3237ed1ce3b7c7af",
+    "mtime": 1785619555.434375,
+    "ast_hash": "765e49605d6040e95339d9b0aff6953a",
     "semantic_hash": ""
   },
   "README.md": {
@@ -420,8 +420,8 @@
     "semantic_hash": ""
   },
   "docs/CONTEXT_FOR_OPENCODE.md": {
-    "mtime": 1785610450.834239,
-    "ast_hash": "b61db1dfd03c08339cb5da810f316d73",
+    "mtime": 1785617308.3160994,
+    "ast_hash": "ea5ec1dd8b375d1734f4c6a08b346bcd",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.7.md": {
@@ -3187,6 +3187,51 @@
   "docs/curseforge/versions/0.0.0-beta.24.md": {
     "mtime": 1785617270.9309995,
     "ast_hash": "044aad43e6c2cd29c913161c469c238a",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/crafting/FullKleinStarIngredient.java": {
+    "mtime": 1785619499.641192,
+    "ast_hash": "d2da9cbdc1717c9fd5b1c7f97df8cd74",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/crafting/ModIngredientTypes.java": {
+    "mtime": 1785619504.5683005,
+    "ast_hash": "7f713b04329b8b3495512d10443ffba1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/full_star_gem_boots.json": {
+    "mtime": 1785619524.4728198,
+    "ast_hash": "bebfa85e1a220cd112d643f2922fd344",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/full_star_gem_chestplate.json": {
+    "mtime": 1785619524.4728198,
+    "ast_hash": "331a2b5a5ad374c8a1eab9a0309c06dd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/full_star_gem_helmet.json": {
+    "mtime": 1785619524.4718199,
+    "ast_hash": "a0da66c0c225f0d1ef69fb947d44d535",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/full_star_gem_leggings.json": {
+    "mtime": 1785619524.4728198,
+    "ast_hash": "b8f927e17d02db4efe750fb3bfdbec84",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/full_star_tome.json": {
+    "mtime": 1785619524.4741528,
+    "ast_hash": "7bb07cedf3a33956cd5c2c6e4c9ef406",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/full_star_tome_alt.json": {
+    "mtime": 1785619524.4741528,
+    "ast_hash": "32af47eba7e35da1cd58a0737d9f7720",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.25.md": {
+    "mtime": 1785619550.7643344,
+    "ast_hash": "31f0851c8204c458725e3e5d56996fd9",
     "semantic_hash": ""
   }
 }
