@@ -20,6 +20,11 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyItems.PHILOSOPHERS_STONE.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_EIN.get());
+                        output.accept(EquivalentLegacyItems.KLEIN_STAR_ZWEI.get());
+                        output.accept(EquivalentLegacyItems.KLEIN_STAR_DREI.get());
+                        output.accept(EquivalentLegacyItems.KLEIN_STAR_VIER.get());
+                        output.accept(EquivalentLegacyItems.KLEIN_STAR_SPHERE.get());
+                        output.accept(EquivalentLegacyItems.KLEIN_STAR_OMEGA.get());
                     })
                     .build());
 

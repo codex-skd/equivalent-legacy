@@ -25,6 +25,11 @@
   "item.equivalent_legacy.philosophers_stone": "Philosopher's Stone",
   "item.equivalent_legacy.dark_matter": "Dark Matter",
   "item.equivalent_legacy.klein_star_ein": "Klein Star Ein",
+  "item.equivalent_legacy.klein_star_zwei": "Klein Star Zwei",
+  "item.equivalent_legacy.klein_star_drei": "Klein Star Drei",
+  "item.equivalent_legacy.klein_star_vier": "Klein Star Vier",
+  "item.equivalent_legacy.klein_star_sphere": "Klein Star Sphere",
+  "item.equivalent_legacy.klein_star_omega": "Klein Star Omega",
 
   "itemGroup.equivalent_legacy": "Equivalent Legacy",
 
