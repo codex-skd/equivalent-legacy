@@ -93,6 +93,8 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyItems.TRANSMUTATION_TABLET.get());
                         output.accept(EquivalentLegacyItems.TRANSMUTATION_TABLE.get());
                         output.accept(EquivalentLegacyItems.INTERDICTION_TORCH.get());
+                        output.accept(EquivalentLegacyItems.DM_FURNACE.get());
+                        output.accept(EquivalentLegacyItems.RM_FURNACE.get());
 
                         output.accept(EquivalentLegacyItems.DARK_MATTER_SWORD.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_PICKAXE.get());

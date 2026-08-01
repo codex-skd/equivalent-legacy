@@ -73,5 +73,11 @@ public final class EquivalentLegacyBlocks {
     public static final DeferredBlock<Block> INTERDICTION_TORCH = BLOCKS.register("interdiction_torch",
             () -> new InterdictionTorchBlock(BlockBehaviour.Properties.of().strength(1.0F).noCollision().lightLevel(state -> 14)));
 
+    public static final DeferredBlock<Block> DM_FURNACE = BLOCKS.register("dm_furnace",
+            () -> new MatterFurnaceBlock(BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel(state -> 13)));
+
+    public static final DeferredBlock<Block> RM_FURNACE = BLOCKS.register("rm_furnace",
+            () -> new MatterFurnaceBlock(BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel(state -> 13)));
+
     private EquivalentLegacyBlocks() {}
 }

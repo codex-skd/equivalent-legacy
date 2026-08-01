@@ -36,5 +36,10 @@ public final class EquivalentLegacyBlockEntities {
             BLOCK_ENTITY_TYPES.register("interdiction_torch", () -> new BlockEntityType<>(InterdictionTorchBlockEntity::new,
                     EquivalentLegacyBlocks.INTERDICTION_TORCH.get()));
 
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<MatterFurnaceBlockEntity>> MATTER_FURNACE =
+            BLOCK_ENTITY_TYPES.register("matter_furnace", () -> new BlockEntityType<>(MatterFurnaceBlockEntity::new,
+                    EquivalentLegacyBlocks.DM_FURNACE.get(),
+                    EquivalentLegacyBlocks.RM_FURNACE.get()));
+
     private EquivalentLegacyBlockEntities() {}
 }

@@ -107,6 +107,10 @@ public final class EquivalentLegacyItems {
 
     public static final DeferredItem<BlockItem> INTERDICTION_TORCH = ITEMS.registerSimpleBlockItem("interdiction_torch", EquivalentLegacyBlocks.INTERDICTION_TORCH);
 
+    public static final DeferredItem<BlockItem> DM_FURNACE = ITEMS.registerSimpleBlockItem("dm_furnace", EquivalentLegacyBlocks.DM_FURNACE);
+
+    public static final DeferredItem<BlockItem> RM_FURNACE = ITEMS.registerSimpleBlockItem("rm_furnace", EquivalentLegacyBlocks.RM_FURNACE);
+
     public static final DeferredItem<CovalenceDust> LOW_COVALENCE_DUST = ITEMS.register("low_covalence_dust",
             () -> new CovalenceDust(new Item.Properties()));
 

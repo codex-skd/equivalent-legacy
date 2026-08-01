@@ -41,5 +41,9 @@ public final class ModMenuTypes {
                     () -> new MenuType<>((IContainerFactory<ChestMenu>) (id, inv, buf) ->
                             new ChestMenu(id, inv, buf.readBlockPos()), FeatureFlagSet.of()));
 
+    public static final DeferredHolder<MenuType<?>, MenuType<MatterFurnaceMenu>> FURNACE =
+            MENU_TYPES.register("furnace",
+                    () -> new MenuType<>((id, inv) -> new MatterFurnaceMenu(id, inv), FeatureFlagSet.of()));
+
     private ModMenuTypes() {}
 }
