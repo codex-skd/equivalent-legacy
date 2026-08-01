@@ -1,5 +1,11 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.16
+
+- **Arcana set**: Iron Band, Black Hole Band, Gem of Eternal Density, Harvest Goddess Band, Ignition Ring, Swiftwolf's Rending Gale, Void Ring, Zero Ring, Arcana Ring, Body/Life/Mind/Soul Stones, Evertide/Volcanite Amulets, Repair Talisman, Watch of Flowing Time.
+- Passive inventory effects (regen, fire resistance, water breathing, saturation, speed, haste, slow falling), magnet/void behaviors, right-click block effects, auto-repair.
+- Curios tags for belt/necklace/ring slots.
+
 ## 0.0.0-beta.15
 
 - **16 Alchemical Bags**: full color set (black, blue, brown, cyan, gray, green, light_blue, light_gray, lime, magenta, orange, pink, purple, red, white, yellow), each crafted with matching wool.
