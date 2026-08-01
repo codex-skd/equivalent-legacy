@@ -1,5 +1,11 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.7
+
+- **Higher Klein Star tiers**: Zwei, Drei, Vier, Sphere, Omega — full portable EMC battery line (1M–16M capacity), each crafted from 4 of the previous tier.
+- **Crafting recipes**: Philosopher's Stone, Dark Matter and every Klein Star tier are now craftable (fuel ingredients adapted to vanilla until the alchemical fuels exist).
+- **EMC commands**: `/equivalent_legacy emc` (your EMC) and `/equivalent_legacy emc give <player> <amount>` (operator-only), via Brigadier.
+
 ## 0.0.0-beta.6
 
 - **Dark Matter**: high-EMC (139,264) intermediate crafting item, first rung above the Philosopher's Stone.
