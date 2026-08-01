@@ -20,13 +20,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java": {
-    "mtime": 1785549530.8391302,
-    "ast_hash": "ef462046fa024e3795a712cab8f6d872",
+    "mtime": 1785610180.7848809,
+    "ast_hash": "79f63bd161f8ead8a56d9416670bb6ac",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1785552466.8424315,
-    "ast_hash": "e0f00897afdb4c2dab00f1cb34553b93",
+    "mtime": 1785610253.0957835,
+    "ast_hash": "8f51eab25c12cbf39a289f11303f7697",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785552493.7366652,
-    "ast_hash": "b3c57404cfcdbe10f92b43dc306bc893",
+    "mtime": 1785610402.2253568,
+    "ast_hash": "e0c8a7c631d515d4dadd4b41022d3043",
     "semantic_hash": ""
   },
   "README.md": {
@@ -190,18 +190,18 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/EquivalentLegacyBlocks.java": {
-    "mtime": 1785552108.9008186,
-    "ast_hash": "3a19fed4f3e304fe59f78fd6fa620280",
+    "mtime": 1785610146.8229637,
+    "ast_hash": "4582051f23b196038d6c38e6af35edea",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java": {
-    "mtime": 1785552450.6328793,
-    "ast_hash": "7a5e9bf839abef4c273c56e5e53d2b35",
+    "mtime": 1785610186.0746157,
+    "ast_hash": "b6c19f771fa38c3f7e29f9cc340303c9",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java": {
-    "mtime": 1785552446.1133223,
-    "ast_hash": "a933855c65bbfbf310ac0a0b44eea553",
+    "mtime": 1785610156.6902347,
+    "ast_hash": "bb94efd3da72249f7dcd823bc3faf27c",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java": {
@@ -275,8 +275,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java": {
-    "mtime": 1785549521.1203558,
-    "ast_hash": "9bf71a07e5a555bded919cb565ee73ed",
+    "mtime": 1785610170.8821514,
+    "ast_hash": "c85e6a6baef719e7114497d3ea1bd1c4",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java": {
@@ -420,8 +420,8 @@
     "semantic_hash": ""
   },
   "docs/CONTEXT_FOR_OPENCODE.md": {
-    "mtime": 1785549833.4127433,
-    "ast_hash": "86b2ddcd4a916e0226b3cd3cbefe55eb",
+    "mtime": 1785552537.1448815,
+    "ast_hash": "a18e91b356787bf13327a949db951e32",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.7.md": {
@@ -1365,8 +1365,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/EquivalentLegacyBlockEntities.java": {
-    "mtime": 1785552062.8977323,
-    "ast_hash": "064792eb46bdbacea24b243a5eb2dd22",
+    "mtime": 1785610152.3090398,
+    "ast_hash": "2de29cd655355f2e38c827cb405326d6",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/MachineTiers.java": {
@@ -2640,8 +2640,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/emc/EMCNetwork.java": {
-    "mtime": 1785552334.7817857,
-    "ast_hash": "bce60957911aac9094fbe8a86dbfe796",
+    "mtime": 1785610362.8767185,
+    "ast_hash": "d98dcce3a369cd22fa64733317fc9684",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/ChargableItem.java": {
@@ -3072,6 +3072,116 @@
   "src/main/resources/assets/equivalent_legacy/textures/item/transmutation_tablet.png": {
     "mtime": 1785552084.636216,
     "ast_hash": "ce2eb354996437e72421d10c2bcceb4c",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/MatterFurnaceBlock.java": {
+    "mtime": 1785610140.884902,
+    "ast_hash": "f1fe7098088f2b79fc291edc13267cf6",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/entity/MatterFurnaceBlockEntity.java": {
+    "mtime": 1785610220.860371,
+    "ast_hash": "4fa9f203e6ac06630e4f64cbfe3870e7",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/EMCNetworkData.java": {
+    "mtime": 1785610368.7117543,
+    "ast_hash": "15353a84649bef6f17c255c5d839d0b1",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/events/NetworkEvents.java": {
+    "mtime": 1785610374.16993,
+    "ast_hash": "e3cf08df616108a37871414d77980186",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/gui/MatterFurnaceMenu.java": {
+    "mtime": 1785610127.5170753,
+    "ast_hash": "9ac7c95dbc6a30b2dc5ab04e1c6aeb38",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/gui/MatterFurnaceScreen.java": {
+    "mtime": 1785610133.2148135,
+    "ast_hash": "b3bb0a7b2387de52260b7f2bfa0c0acc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/blockstates/dm_furnace.json": {
+    "mtime": 1785610248.317565,
+    "ast_hash": "652f1de751f19fafcd1df55c17a8ada9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/blockstates/rm_furnace.json": {
+    "mtime": 1785610248.320976,
+    "ast_hash": "047ea75b7203982a657acdbe2b517ee7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/dm_furnace.json": {
+    "mtime": 1785610248.3189807,
+    "ast_hash": "d31019260c09d9c84bf34808111ed0ae",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/rm_furnace.json": {
+    "mtime": 1785610248.320976,
+    "ast_hash": "7d5c4dbf5e6d70de7cedb4ec06450779",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/dm_furnace.json": {
+    "mtime": 1785610248.317565,
+    "ast_hash": "045a5ba75d6bb18f886467c2c1cc2ea4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/rm_furnace.json": {
+    "mtime": 1785610248.3189807,
+    "ast_hash": "d7188e3042dfbe7212a9e1c4b3473c33",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/loot_table/blocks/dm_furnace.json": {
+    "mtime": 1785610248.3219717,
+    "ast_hash": "6a668609bd98a540c07b2cd9b5f5c7cd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/loot_table/blocks/rm_furnace.json": {
+    "mtime": 1785610248.3219717,
+    "ast_hash": "6559ca8b3b850a612249aafabc2be79d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dm_furnace.json": {
+    "mtime": 1785610248.3229685,
+    "ast_hash": "120af4722bd4caf4f6c6ed19a1af1963",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/rm_furnace.json": {
+    "mtime": 1785610248.3239653,
+    "ast_hash": "8e19106fd30bfb3bf5de1ce3ce0e00ac",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.22.md": {
+    "mtime": 1785610280.7004764,
+    "ast_hash": "1ec5ccf918323f391cba5166f974a2ac",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.23.md": {
+    "mtime": 1785610398.0883183,
+    "ast_hash": "f85aa74ca71aac3f72f0ee25bb340a6d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/matter_furnace/dm_off.png": {
+    "mtime": 1785610248.1959014,
+    "ast_hash": "482286624cb124aa10937c295053624e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/matter_furnace/dm_on.png": {
+    "mtime": 1785610248.2385392,
+    "ast_hash": "ebfa802e6ba6e2cd1be0e61266aba1cc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/matter_furnace/rm_off.png": {
+    "mtime": 1785610248.2719429,
+    "ast_hash": "48b874157a515857ac34ae31d17758de",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/matter_furnace/rm_on.png": {
+    "mtime": 1785610248.3026419,
+    "ast_hash": "47b93acf4390a9ac1aa050275405dd91",
     "semantic_hash": ""
   }
 }
