@@ -1,6 +1,10 @@
 package com.skd.equivalentlegacy.block;
 
 import com.skd.equivalentlegacy.EquivalentLegacy;
+import com.skd.equivalentlegacy.block.entity.CollectorBlockEntity;
+import com.skd.equivalentlegacy.block.entity.CondenserBlockEntity;
+import com.skd.equivalentlegacy.block.entity.EquivalentLegacyBlockEntities;
+import com.skd.equivalentlegacy.block.entity.RelayBlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -24,6 +28,41 @@ public final class EquivalentLegacyBlocks {
 
     public static final DeferredBlock<Block> RED_MATTER_BLOCK = BLOCKS.register("red_matter_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+
+    private static final BlockBehaviour.Properties MACHINE_PROPERTIES = BlockBehaviour.Properties.of()
+            .strength(3.0F, 6.0F).sound(SoundType.METAL);
+
+    public static final DeferredBlock<Block> COLLECTOR_MK1 = BLOCKS.register("collector_mk1",
+            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.COLLECTOR::get,
+                    CollectorBlockEntity.ticker()));
+
+    public static final DeferredBlock<Block> COLLECTOR_MK2 = BLOCKS.register("collector_mk2",
+            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.COLLECTOR::get,
+                    CollectorBlockEntity.ticker()));
+
+    public static final DeferredBlock<Block> COLLECTOR_MK3 = BLOCKS.register("collector_mk3",
+            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.COLLECTOR::get,
+                    CollectorBlockEntity.ticker()));
+
+    public static final DeferredBlock<Block> RELAY_MK1 = BLOCKS.register("relay_mk1",
+            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.RELAY::get,
+                    RelayBlockEntity.ticker()));
+
+    public static final DeferredBlock<Block> RELAY_MK2 = BLOCKS.register("relay_mk2",
+            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.RELAY::get,
+                    RelayBlockEntity.ticker()));
+
+    public static final DeferredBlock<Block> RELAY_MK3 = BLOCKS.register("relay_mk3",
+            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.RELAY::get,
+                    RelayBlockEntity.ticker()));
+
+    public static final DeferredBlock<Block> CONDENSER_MK1 = BLOCKS.register("condenser_mk1",
+            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.CONDENSER::get,
+                    CondenserBlockEntity.ticker()));
+
+    public static final DeferredBlock<Block> CONDENSER_MK2 = BLOCKS.register("condenser_mk2",
+            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.CONDENSER::get,
+                    CondenserBlockEntity.ticker()));
 
     private EquivalentLegacyBlocks() {}
 }

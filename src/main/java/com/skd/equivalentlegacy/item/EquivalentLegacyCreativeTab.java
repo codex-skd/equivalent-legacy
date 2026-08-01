@@ -30,6 +30,15 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyBlocks.DARK_MATTER_BLOCK.get());
                         output.accept(EquivalentLegacyBlocks.RED_MATTER_BLOCK.get());
 
+                        output.accept(EquivalentLegacyItems.COLLECTOR_MK1.get());
+                        output.accept(EquivalentLegacyItems.COLLECTOR_MK2.get());
+                        output.accept(EquivalentLegacyItems.COLLECTOR_MK3.get());
+                        output.accept(EquivalentLegacyItems.RELAY_MK1.get());
+                        output.accept(EquivalentLegacyItems.RELAY_MK2.get());
+                        output.accept(EquivalentLegacyItems.RELAY_MK3.get());
+                        output.accept(EquivalentLegacyItems.CONDENSER_MK1.get());
+                        output.accept(EquivalentLegacyItems.CONDENSER_MK2.get());
+
                         output.accept(EquivalentLegacyItems.DARK_MATTER_SWORD.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_PICKAXE.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_AXE.get());

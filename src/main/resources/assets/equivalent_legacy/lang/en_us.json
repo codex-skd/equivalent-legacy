@@ -35,6 +35,19 @@
   "block.equivalent_legacy.dark_matter_block": "Dark Matter Block",
   "block.equivalent_legacy.red_matter_block": "Red Matter Block",
 
+  "block.equivalent_legacy.collector_mk1": "Collector MK1",
+  "block.equivalent_legacy.collector_mk2": "Collector MK2",
+  "block.equivalent_legacy.collector_mk3": "Collector MK3",
+  "block.equivalent_legacy.relay_mk1": "Relay MK1",
+  "block.equivalent_legacy.relay_mk2": "Relay MK2",
+  "block.equivalent_legacy.relay_mk3": "Relay MK3",
+  "block.equivalent_legacy.condenser_mk1": "Condenser MK1",
+  "block.equivalent_legacy.condenser_mk2": "Condenser MK2",
+
+  "container.equivalent_legacy.collector": "Collector",
+  "container.equivalent_legacy.relay": "Relay",
+  "container.equivalent_legacy.condenser": "Condenser",
+
   "item.equivalent_legacy.dark_matter_sword": "Dark Matter Sword",
   "item.equivalent_legacy.dark_matter_pickaxe": "Dark Matter Pickaxe",
   "item.equivalent_legacy.dark_matter_axe": "Dark Matter Axe",

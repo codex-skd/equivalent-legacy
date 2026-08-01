@@ -22,6 +22,7 @@ public class EquivalentLegacy {
         com.skd.equivalentlegacy.player.EquivalentLegacyAttachments.ATTACHMENT_TYPES.register(modEventBus);
         com.skd.equivalentlegacy.item.EquivalentLegacyItems.ITEMS.register(modEventBus);
         com.skd.equivalentlegacy.block.EquivalentLegacyBlocks.BLOCKS.register(modEventBus);
+        com.skd.equivalentlegacy.block.entity.EquivalentLegacyBlockEntities.BLOCK_ENTITY_TYPES.register(modEventBus);
         com.skd.equivalentlegacy.item.EquivalentLegacyCreativeTab.CREATIVE_MODE_TABS.register(modEventBus);
         com.skd.equivalentlegacy.item.EquivalentLegacyDataComponents.DATA_COMPONENT_TYPES.register(modEventBus);
         com.skd.equivalentlegacy.gui.ModMenuTypes.MENU_TYPES.register(modEventBus);

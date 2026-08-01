@@ -45,6 +45,22 @@ public final class EquivalentLegacyItems {
 
     public static final DeferredItem<BlockItem> RED_MATTER_BLOCK = ITEMS.registerSimpleBlockItem("red_matter_block", EquivalentLegacyBlocks.RED_MATTER_BLOCK);
 
+    public static final DeferredItem<BlockItem> COLLECTOR_MK1 = ITEMS.registerSimpleBlockItem("collector_mk1", EquivalentLegacyBlocks.COLLECTOR_MK1);
+
+    public static final DeferredItem<BlockItem> COLLECTOR_MK2 = ITEMS.registerSimpleBlockItem("collector_mk2", EquivalentLegacyBlocks.COLLECTOR_MK2);
+
+    public static final DeferredItem<BlockItem> COLLECTOR_MK3 = ITEMS.registerSimpleBlockItem("collector_mk3", EquivalentLegacyBlocks.COLLECTOR_MK3);
+
+    public static final DeferredItem<BlockItem> RELAY_MK1 = ITEMS.registerSimpleBlockItem("relay_mk1", EquivalentLegacyBlocks.RELAY_MK1);
+
+    public static final DeferredItem<BlockItem> RELAY_MK2 = ITEMS.registerSimpleBlockItem("relay_mk2", EquivalentLegacyBlocks.RELAY_MK2);
+
+    public static final DeferredItem<BlockItem> RELAY_MK3 = ITEMS.registerSimpleBlockItem("relay_mk3", EquivalentLegacyBlocks.RELAY_MK3);
+
+    public static final DeferredItem<BlockItem> CONDENSER_MK1 = ITEMS.registerSimpleBlockItem("condenser_mk1", EquivalentLegacyBlocks.CONDENSER_MK1);
+
+    public static final DeferredItem<BlockItem> CONDENSER_MK2 = ITEMS.registerSimpleBlockItem("condenser_mk2", EquivalentLegacyBlocks.CONDENSER_MK2);
+
     public static final DeferredItem<KleinStar> KLEIN_STAR_EIN = ITEMS.register("klein_star_ein",
             () -> new KleinStar(new Item.Properties(), KleinStarTier.EIN));
 
