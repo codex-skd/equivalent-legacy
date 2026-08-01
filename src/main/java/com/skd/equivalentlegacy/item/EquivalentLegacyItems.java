@@ -2,8 +2,15 @@ package com.skd.equivalentlegacy.item;
 
 import com.skd.equivalentlegacy.EquivalentLegacy;
 import com.skd.equivalentlegacy.block.EquivalentLegacyBlocks;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ShearsItem;
+import net.minecraft.world.item.ShovelItem;
+import net.minecraft.world.item.equipment.ArmorType;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -55,6 +62,80 @@ public final class EquivalentLegacyItems {
 
     public static final DeferredItem<KleinStar> KLEIN_STAR_OMEGA = ITEMS.register("klein_star_omega",
             () -> new KleinStar(new Item.Properties(), KleinStarTier.OMEGA));
+
+    public static final DeferredItem<Item> DARK_MATTER_SWORD = ITEMS.register("dark_matter_sword",
+            () -> new Item(new Item.Properties().sword(MatterMaterials.DARK_MATTER, 8.0F, -2.4F)));
+
+    public static final DeferredItem<Item> DARK_MATTER_PICKAXE = ITEMS.register("dark_matter_pickaxe",
+            () -> new Item(new Item.Properties().pickaxe(MatterMaterials.DARK_MATTER, 1.0F, -2.8F)));
+
+    public static final DeferredItem<AxeItem> DARK_MATTER_AXE = ITEMS.register("dark_matter_axe",
+            () -> new AxeItem(MatterMaterials.DARK_MATTER, 6.0F, -3.0F, new Item.Properties()));
+
+    public static final DeferredItem<ShovelItem> DARK_MATTER_SHOVEL = ITEMS.register("dark_matter_shovel",
+            () -> new ShovelItem(MatterMaterials.DARK_MATTER, 1.5F, -3.0F, new Item.Properties()));
+
+    public static final DeferredItem<HoeItem> DARK_MATTER_HOE = ITEMS.register("dark_matter_hoe",
+            () -> new HoeItem(MatterMaterials.DARK_MATTER, 1.0F, -3.0F, new Item.Properties()));
+
+    public static final DeferredItem<ShearsItem> DARK_MATTER_SHEARS = ITEMS.register("dark_matter_shears",
+            () -> new ShearsItem(new Item.Properties().durability(6_000)
+                    .component(DataComponents.TOOL, ShearsItem.createToolProperties())));
+
+    public static final DeferredItem<HammerItem> DARK_MATTER_HAMMER = ITEMS.register("dark_matter_hammer",
+            () -> new HammerItem(new Item.Properties().tool(MatterMaterials.DARK_MATTER, BlockTags.MINEABLE_WITH_PICKAXE, 5.0F, -3.0F, 0.0F)));
+
+    public static final DeferredItem<Item> DARK_MATTER_HELMET = ITEMS.register("dark_matter_helmet",
+            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.HELMET)));
+
+    public static final DeferredItem<Item> DARK_MATTER_CHESTPLATE = ITEMS.register("dark_matter_chestplate",
+            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.CHESTPLATE)));
+
+    public static final DeferredItem<Item> DARK_MATTER_LEGGINGS = ITEMS.register("dark_matter_leggings",
+            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.LEGGINGS)));
+
+    public static final DeferredItem<Item> DARK_MATTER_BOOTS = ITEMS.register("dark_matter_boots",
+            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.BOOTS)));
+
+    public static final DeferredItem<Item> RED_MATTER_SWORD = ITEMS.register("red_matter_sword",
+            () -> new Item(new Item.Properties().sword(MatterMaterials.RED_MATTER, 12.0F, -2.4F)));
+
+    public static final DeferredItem<Item> RED_MATTER_PICKAXE = ITEMS.register("red_matter_pickaxe",
+            () -> new Item(new Item.Properties().pickaxe(MatterMaterials.RED_MATTER, 1.0F, -2.8F)));
+
+    public static final DeferredItem<AxeItem> RED_MATTER_AXE = ITEMS.register("red_matter_axe",
+            () -> new AxeItem(MatterMaterials.RED_MATTER, 9.0F, -3.0F, new Item.Properties()));
+
+    public static final DeferredItem<ShovelItem> RED_MATTER_SHOVEL = ITEMS.register("red_matter_shovel",
+            () -> new ShovelItem(MatterMaterials.RED_MATTER, 1.5F, -3.0F, new Item.Properties()));
+
+    public static final DeferredItem<HoeItem> RED_MATTER_HOE = ITEMS.register("red_matter_hoe",
+            () -> new HoeItem(MatterMaterials.RED_MATTER, 1.0F, -3.0F, new Item.Properties()));
+
+    public static final DeferredItem<ShearsItem> RED_MATTER_SHEARS = ITEMS.register("red_matter_shears",
+            () -> new ShearsItem(new Item.Properties().durability(12_000)
+                    .component(DataComponents.TOOL, ShearsItem.createToolProperties())));
+
+    public static final DeferredItem<HammerItem> RED_MATTER_HAMMER = ITEMS.register("red_matter_hammer",
+            () -> new HammerItem(new Item.Properties().tool(MatterMaterials.RED_MATTER, BlockTags.MINEABLE_WITH_PICKAXE, 8.0F, -3.0F, 0.0F)));
+
+    public static final DeferredItem<Item> RED_MATTER_KATAR = ITEMS.register("red_matter_katar",
+            () -> new Item(new Item.Properties().sword(MatterMaterials.RED_MATTER, 14.0F, -2.0F)));
+
+    public static final DeferredItem<Item> RED_MATTER_MORNING_STAR = ITEMS.register("red_matter_morning_star",
+            () -> new Item(new Item.Properties().sword(MatterMaterials.RED_MATTER, 18.0F, -2.4F)));
+
+    public static final DeferredItem<Item> RED_MATTER_HELMET = ITEMS.register("red_matter_helmet",
+            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.HELMET)));
+
+    public static final DeferredItem<Item> RED_MATTER_CHESTPLATE = ITEMS.register("red_matter_chestplate",
+            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.CHESTPLATE)));
+
+    public static final DeferredItem<Item> RED_MATTER_LEGGINGS = ITEMS.register("red_matter_leggings",
+            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.LEGGINGS)));
+
+    public static final DeferredItem<Item> RED_MATTER_BOOTS = ITEMS.register("red_matter_boots",
+            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.BOOTS)));
 
     private EquivalentLegacyItems() {}
 }
