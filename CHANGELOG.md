@@ -1,5 +1,13 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.11
+
+- **Collector MK1-3**: generates EMC from skylight (4/12/40 per second) and charges Klein Stars.
+- **Relay MK1-3**: pulls EMC from adjacent collectors into a 100k–10M buffer and charges Klein Stars.
+- **Condenser MK1-2**: learns a target item, drains EMC from Klein Stars and adjacent relays, produces the target.
+- Block entities with GUIs (EMC/sun/progress via DataSlots), original ProjectE progression recipes.
+- Simplified: neighbor-only EMC network, single-slot condenser output.
+
 ## 0.0.0-beta.10
 
 - **Dark Matter toolchain**: Sword, Pickaxe, Axe, Shovel, Hoe, Shears, Hammer.
