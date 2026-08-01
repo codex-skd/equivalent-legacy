@@ -9,7 +9,7 @@ Mod NeoForge que revive el sistema EMC (Equivalent Exchange 2 / ProjectE): asign
 - **mod_id**: `equivalent_legacy`
 - **package**: `com.skd.equivalentlegacy`
 - **Minecraft / NeoForge**: `26.2` / `26.2.0.32-beta` — **no subir de versión sin que se pida explícitamente**
-- **mod_version actual**: `0.0.0-beta.10`
+- **mod_version actual**: `0.0.0-beta.13`
 - **Rama**: `minecraft/26.2/neoforge-26.2.0.32-beta/production`
 - **Repo**: `G:\Proyectos\Mods_Minecraft\equivalent_legacy\26.2`
 
@@ -29,7 +29,7 @@ La atribución ya está puesta en `README.md`, `neoforge.mods.toml` (`credits`) 
 - **Hacer `git add` + `git commit` del trabajo terminado antes de reportar como acabado** — esto se ha olvidado alguna vez, insiste en verificarlo con `git status --short` (debe salir vacío).
 - No cambiar `mod_version` en `gradle.properties` (eso lo hace el operador al cerrar cada fase).
 
-## Lo ya implementado (fases 1-10, todo commiteado y compilando)
+## Lo ya implementado (fases 1-13, todo commiteado, compilando y publicado en CurseForge)
 
 | Fase | Qué | Paquetes |
 |---|---|---|
@@ -43,6 +43,9 @@ La atribución ya está puesta en `README.md`, `neoforge.mods.toml` (`credits`) 
 | 8 | **Combustibles alquímicos** (Alchemical Coal/Mobius/Aeternalis Fuel) + **Red Matter**; recetas originales restauradas | `item/` |
 | 9 | **Bloques de almacenamiento** (fuel + matter blocks) + fix de render: bindings `items/<id>.json` de MC 26.2 | `block/`, `item/` |
 | 10 | **Toolchain completo**: tools (sword/pick/axe/shovel/hoe/shears/hammer, +katar/morning star en Red Matter) y armadura de ambas materias; martillo con minado 3×3; EquipmentAssets para la armadura | `item/` |
+| 11 | **Máquinas EMC**: Collector MK1-3, Relay MK1-3, Condenser MK1-2 (block entities con tick, menús/screens con DataSlots, red vecinal simplificada, Klein Stars) | `block/`, `block/entity/`, `gui/` |
+| 12 | **Alchemical Bag** (inventario 13 slots persistido en el item vía `DataComponents.CONTAINER`) y **Alchemical Chest** (bloque 13 slots con BE) | `item/`, `block/`, `block/entity/`, `gui/` |
+| 13 | **Curios support** para Klein Stars (dependencia blanda por datos: `data/curios/tags`, slot custom `klein_star`) | `data/` |
 
 Estructura de paquetes actual (todo bajo `src/main/java/com/skd/equivalentlegacy/`):
 ```
@@ -53,12 +56,16 @@ emc/mapper/   — IMappingCollector, IExtendedMappingCollector, IValueArithmetic
                 LongArithmetic, MappingCollector, SimpleGraphMapper
 emc/nss/      — AbstractNSSTag, AbstractDataComponentHolderNSSTag, NormalizedSimpleStack,
                 NSSDataComponentHolder, NSSItem, NSSTag
-item/         — AeternalisFuel, AlchemicalCoal, DarkMatter, EquivalentLegacyCreativeTab,
+item/         — AeternalisFuel, AlchemicalBag, AlchemicalCoal, DarkMatter, EquivalentLegacyCreativeTab,
                 EquivalentLegacyDataComponents, EquivalentLegacyItems, EquivalentLegacyTags,
                 HammerItem, KleinStar, KleinStarTier, MatterMaterials, MobiusFuel,
                 PhilosophersStone, RedMatter
-block/        — EquivalentLegacyBlocks (fuel + matter storage blocks)
-gui/          — ModMenuTypes, TransmutationContainer, TransmutationScreen
+block/        — BaseMachineBlock, EquivalentLegacyBlocks (storage + machines + alchemical chest)
+block/entity/ — AlchemicalChestBlockEntity, BaseMachineBlockEntity, CollectorBlockEntity,
+                CondenserBlockEntity, EquivalentLegacyBlockEntities, MachineTiers, RelayBlockEntity
+gui/          — BagMenu, BagScreen, ChestMenu, ChestScreen, CollectorMenu, CollectorScreen,
+                CondenserMenu, CondenserScreen, MachineMenu, MachineScreen, ModMenuTypes,
+                RelayMenu, RelayScreen, StorageScreen, TransmutationContainer, TransmutationScreen
 network/      — PacketHandler
 network/payload/ — KnowledgeDataPayload, KnowledgeSyncChangePayload, KnowledgeSyncEmcPayload,
                    KnowledgeSyncPayload, TransmuteRequestPayload
@@ -67,13 +74,14 @@ player/       — EquivalentLegacyAttachments, PlayerKnowledge, PlayerKnowledgeA
 events/       — PlayerEvents
 ```
 
-## Lo que falta (beta.11 en adelante)
+## Lo que falta (siguientes betas)
 
 **Fases futuras (no empezadas):**
-- Collectors, Condensers, Relays (block entities, automatización de EMC) — la más grande, requiere menús/screens + red de EMC.
-- Alchemical Bag / Alchemical Chest.
-- Soporte Curios para items EMC equipables (requiere dependencia externa Curios).
-- Pendiente menor: valores EMC para el toolchain de tools/armadura (no registrados); sistema de carga/AOE de ProjectE simplificado.
+- Anillos/amuletos/talismanes del toolchain original (black hole band, volcanite amulet, etc.) — requieren más infraestructura EMC.
+- Colored variants de Alchemical Bag (ahora solo una bolsa roja).
+- Covalence Dusts (low/medium/high) y Tome of Knowledge (los recipes de bolsa/cofre/máquinas usan sustitutos hasta que existan).
+- Sistema de carga/AOE de ProjectE en el toolchain (espadas con charge, etc.).
+- Red EMC a nivel de mundo (la actual es solo entre bloques vecinos).
 
 ## Notas sobre el entorno (por qué esto existe)
 
