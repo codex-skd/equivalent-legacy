@@ -62,6 +62,7 @@
   "60": "KnowledgeSyncEmcPayload.java",
   "61": "KnowledgeSyncPayload.java",
   "62": "TransmuteRequestPayload.java",
+  "63": "AlchemicalBag.java",
   "64": "KnowledgeSyncPayload.java",
   "65": "0.0.0-beta.14.md",
   "66": "0.0.0-beta.15.md",
@@ -74,6 +75,7 @@
   "73": "SimpleGraphMapper",
   "74": "EMCHelper",
   "75": "TransmutationTablet.java",
+  "76": ".syncKnowledgeDataIfChanged",
   "77": "NSSTag",
   "78": "MatterMaterials",
   "79": "CurioItem.java",
@@ -83,5 +85,11 @@
   "83": "0.0.0-beta.19.md",
   "84": "0.0.0-beta.20.md",
   "85": "0.0.0-beta.21.md",
-  "90": "0.0.0-beta.24.md"
+  "86": "TransmuteRequestPayload.java",
+  "87": "EquivalentLegacyTags",
+  "88": "EquivalentLegacyAttachments.java",
+  "89": "EquivalentLegacyDataComponents.java",
+  "90": "0.0.0-beta.24.md",
+  "91": "PacketHandler.java",
+  "92": "0.0.0-beta.26.md"
 }
