@@ -1,5 +1,11 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.9
+
+- **Storage blocks**: Alchemical Coal, Mobius Fuel, Aeternalis Fuel (9 items), Dark Matter and Red Matter (4 items) blocks with construct/deconstruct recipes and EMC values.
+- **Fix**: added the `items/<id>.json` model bindings required by Minecraft 26.2 — all mod items were rendering with the missing-model placeholder.
+- Full blockstates, block models, loot tables; all blocks in the creative tab.
+
 ## 0.0.0-beta.8
 
 - **Fuel chain**: Alchemical Coal (1,024 EMC), Mobius Fuel (3,072), Aeternalis Fuel (9,216) — each crafted from 4 of the previous tier plus the Philosopher's Stone.
