@@ -17,5 +17,20 @@ public final class EquivalentLegacyItems {
     public static final DeferredItem<KleinStar> KLEIN_STAR_EIN = ITEMS.register("klein_star_ein",
             () -> new KleinStar(new Item.Properties(), KleinStarTier.EIN));
 
+    public static final DeferredItem<KleinStar> KLEIN_STAR_ZWEI = ITEMS.register("klein_star_zwei",
+            () -> new KleinStar(new Item.Properties(), KleinStarTier.ZWEI));
+
+    public static final DeferredItem<KleinStar> KLEIN_STAR_DREI = ITEMS.register("klein_star_drei",
+            () -> new KleinStar(new Item.Properties(), KleinStarTier.DREI));
+
+    public static final DeferredItem<KleinStar> KLEIN_STAR_VIER = ITEMS.register("klein_star_vier",
+            () -> new KleinStar(new Item.Properties(), KleinStarTier.VIER));
+
+    public static final DeferredItem<KleinStar> KLEIN_STAR_SPHERE = ITEMS.register("klein_star_sphere",
+            () -> new KleinStar(new Item.Properties(), KleinStarTier.SPHERE));
+
+    public static final DeferredItem<KleinStar> KLEIN_STAR_OMEGA = ITEMS.register("klein_star_omega",
+            () -> new KleinStar(new Item.Properties(), KleinStarTier.OMEGA));
+
     private EquivalentLegacyItems() {}
 }

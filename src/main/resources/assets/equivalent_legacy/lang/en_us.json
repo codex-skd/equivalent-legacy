@@ -25,12 +25,21 @@
   "item.equivalent_legacy.philosophers_stone": "Philosopher's Stone",
   "item.equivalent_legacy.dark_matter": "Dark Matter",
   "item.equivalent_legacy.klein_star_ein": "Klein Star Ein",
+  "item.equivalent_legacy.klein_star_zwei": "Klein Star Zwei",
+  "item.equivalent_legacy.klein_star_drei": "Klein Star Drei",
+  "item.equivalent_legacy.klein_star_vier": "Klein Star Vier",
+  "item.equivalent_legacy.klein_star_sphere": "Klein Star Sphere",
+  "item.equivalent_legacy.klein_star_omega": "Klein Star Omega",
 
   "itemGroup.equivalent_legacy": "Equivalent Legacy",
 
   "container.equivalent_legacy.transmutation": "Transmutation",
   "gui.equivalent_legacy.learn": "Learn",
   "gui.equivalent_legacy.output": "Output",
+
+  "command.equivalent_legacy.emc": "Your EMC: %s",
+  "command.equivalent_legacy.emc.give": "Gave %s EMC to %s",
+  "command.equivalent_legacy.emc.give.target": "You received %s EMC",
 
   "tooltip.equivalent_legacy.stored_emc": "EMC: %s / %s"
 }
