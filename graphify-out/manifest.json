@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1785551685.6718454,
-    "ast_hash": "3df861e2dd4e95a601fd5deb7862bdd4",
+    "mtime": 1785552466.8424315,
+    "ast_hash": "e0f00897afdb4c2dab00f1cb34553b93",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785551761.7129793,
-    "ast_hash": "d07919429143269d12207f92e6ba5a39",
+    "mtime": 1785552493.7366652,
+    "ast_hash": "b3c57404cfcdbe10f92b43dc306bc893",
     "semantic_hash": ""
   },
   "README.md": {
@@ -190,18 +190,18 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/EquivalentLegacyBlocks.java": {
-    "mtime": 1785549535.6612,
-    "ast_hash": "fdc107f6cbed2dfa1ac54d79e673b7b1",
+    "mtime": 1785552108.9008186,
+    "ast_hash": "3a19fed4f3e304fe59f78fd6fa620280",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java": {
-    "mtime": 1785551621.2327178,
-    "ast_hash": "9cbfa63b830f8feadd615efc11398655",
+    "mtime": 1785552450.6328793,
+    "ast_hash": "7a5e9bf839abef4c273c56e5e53d2b35",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java": {
-    "mtime": 1785551614.8584654,
-    "ast_hash": "64fe3276d8bc95a23efe5c6f4ae9a47b",
+    "mtime": 1785552446.1133223,
+    "ast_hash": "a933855c65bbfbf310ac0a0b44eea553",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java": {
@@ -310,8 +310,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyDataComponents.java": {
-    "mtime": 1785452582.750441,
-    "ast_hash": "7975274890e54638c147f50c44d71cd7",
+    "mtime": 1785552179.7430139,
+    "ast_hash": "02566f5a443dce95d59bc17f081692fb",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/KleinStar.java": {
@@ -785,13 +785,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java": {
-    "mtime": 1785548180.7810202,
-    "ast_hash": "d02e1de13f0578ad1050b2af79146a28",
+    "mtime": 1785552227.35561,
+    "ast_hash": "b4ca81a775de12d78d36d51f74da84a3",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java": {
-    "mtime": 1785548173.904688,
-    "ast_hash": "cb9ba02fcda464f164d7831b6d472d6d",
+    "mtime": 1785552440.1821854,
+    "ast_hash": "4ceb1ebbf721d8810b02356d58196eb1",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/equipment/dark_matter.json": {
@@ -1355,18 +1355,18 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/CollectorBlockEntity.java": {
-    "mtime": 1785549239.6133716,
-    "ast_hash": "1057a100ac9d4a95fe33df6acd50e378",
+    "mtime": 1785552343.3241742,
+    "ast_hash": "b354e2227922ce74d8ff336d12dbc885",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/CondenserBlockEntity.java": {
-    "mtime": 1785549256.6427345,
-    "ast_hash": "86c619b22e4be814d0519fec745d3e88",
+    "mtime": 1785552359.2746766,
+    "ast_hash": "af0c8c2732c9825e567ee5edaece208e",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/EquivalentLegacyBlockEntities.java": {
-    "mtime": 1785549540.1980703,
-    "ast_hash": "f907d7b92210b4ffed4cfa62b9e79e1e",
+    "mtime": 1785552062.8977323,
+    "ast_hash": "064792eb46bdbacea24b243a5eb2dd22",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/MachineTiers.java": {
@@ -1375,8 +1375,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/RelayBlockEntity.java": {
-    "mtime": 1785549239.734736,
-    "ast_hash": "110f71e53defb05550f0f24388a7afd5",
+    "mtime": 1785552350.0465488,
+    "ast_hash": "d6aa0f5be4002de000bd66473d477e6b",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/CollectorMenu.java": {
@@ -2622,6 +2622,456 @@
   "src/main/resources/assets/equivalent_legacy/textures/item/tome.png": {
     "mtime": 1785551330.3788352,
     "ast_hash": "32518e95ac8542141a1dce77a35fe7f0",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/InterdictionTorchBlock.java": {
+    "mtime": 1785552050.5638707,
+    "ast_hash": "7c3b94daee60fa81069ee84ca4b9a697",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/TransmutationTableBlock.java": {
+    "mtime": 1785552039.164228,
+    "ast_hash": "3f603808b2d74f4e90f82864fd861f8d",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/entity/InterdictionTorchBlockEntity.java": {
+    "mtime": 1785552108.9553971,
+    "ast_hash": "fcbff6954dcaefe331c5233a9ce0b3c7",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/EMCNetwork.java": {
+    "mtime": 1785552334.7817857,
+    "ast_hash": "bce60957911aac9094fbe8a86dbfe796",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/ChargableItem.java": {
+    "mtime": 1785552214.5928884,
+    "ast_hash": "9af37cbe4b0fd88ed91ea3724aa69ba7",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/MatterPickaxeItem.java": {
+    "mtime": 1785552232.7750165,
+    "ast_hash": "6be005d3526d21bb0a4689d33b9c7495",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/MatterSwordItem.java": {
+    "mtime": 1785552261.555738,
+    "ast_hash": "2840843c6d8678b30869344692785136",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/MiscToolItem.java": {
+    "mtime": 1785551938.7606368,
+    "ast_hash": "6e9ab7f8731e146fbef3bef1c8c4f919",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/ToolAoe.java": {
+    "mtime": 1785552222.905551,
+    "ast_hash": "ea7b6ab1b129c830c68fbc3214d92c7e",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/TransmutationTablet.java": {
+    "mtime": 1785552033.267234,
+    "ast_hash": "f9822f3f2c37d6ea6411502584fb2903",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/blockstates/interdiction_torch.json": {
+    "mtime": 1785552084.845818,
+    "ast_hash": "dfce8cd045311ffbd3b7cc2e40e5560d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/blockstates/transmutation_table.json": {
+    "mtime": 1785552084.8443186,
+    "ast_hash": "85def70e26b54cb8600516d11fdd8853",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/equipment/gem_armor.json": {
+    "mtime": 1785552462.202036,
+    "ast_hash": "9b69c9202646ec4565b577d38eb7070a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/archangel_smite.json": {
+    "mtime": 1785551960.8615558,
+    "ast_hash": "d55bb4124886de4d5adaadde54bef61a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/catalytic_lens.json": {
+    "mtime": 1785551960.8435185,
+    "ast_hash": "dddefdbaaa44086f9fa95d6dea6f0a4d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/destruction_catalyst.json": {
+    "mtime": 1785551960.8415253,
+    "ast_hash": "bdfacf83d81f4965136aeddec34daa93",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/divining_rod_1.json": {
+    "mtime": 1785551960.837535,
+    "ast_hash": "9837036fc2f58b4cd3e281c386aacc94",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/divining_rod_2.json": {
+    "mtime": 1785551960.8395321,
+    "ast_hash": "24c46e51ebd320b3e309956fc9d5878b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/divining_rod_3.json": {
+    "mtime": 1785551960.8405287,
+    "ast_hash": "ff71253e252a0ea02a052bc798259694",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/gem_boots.json": {
+    "mtime": 1785552462.1754434,
+    "ast_hash": "5308c3d6815e56f9ad2ab9eeb4848e3c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/gem_chestplate.json": {
+    "mtime": 1785552462.1744404,
+    "ast_hash": "df89ffeb93e3ec11dfa83c7e2ca28c59",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/gem_helmet.json": {
+    "mtime": 1785552462.1744404,
+    "ast_hash": "877acfe7fc1582a8b02d0d4f0ff30d43",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/gem_leggings.json": {
+    "mtime": 1785552462.1754434,
+    "ast_hash": "4ead6118005623cd1d90ad40be8a7cb0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/hyperkinetic_lens.json": {
+    "mtime": 1785551960.8425221,
+    "ast_hash": "c0c2761a2f75946241970354fad0e87f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/interdiction_torch.json": {
+    "mtime": 1785552084.845818,
+    "ast_hash": "f76be307fa7c610cd6079daa0abd5883",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/mercurial_eye.json": {
+    "mtime": 1785551960.8565693,
+    "ast_hash": "eec2b2f071287dee30271293e05bbcb9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/nova_cataclysm.json": {
+    "mtime": 1785551960.8355272,
+    "ast_hash": "c8ce60840b88d4f779d7175444c61e86",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/nova_catalyst.json": {
+    "mtime": 1785551960.8345232,
+    "ast_hash": "76cb79ccfa1db498fd134cbcb02bd19b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/transmutation_table.json": {
+    "mtime": 1785552084.8443186,
+    "ast_hash": "844f226e054072bf7f99c89e47e05282",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/transmutation_tablet.json": {
+    "mtime": 1785552084.8423252,
+    "ast_hash": "2b55e08c9f47a2393b89960acf588369",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/interdiction_torch.json": {
+    "mtime": 1785552084.8443186,
+    "ast_hash": "d81ecd5d65a4e688cc1c6ae56c4200a6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/transmutation_table.json": {
+    "mtime": 1785552084.8433213,
+    "ast_hash": "22739ebaf7dd51da2842648ce92faa40",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/archangel_smite.json": {
+    "mtime": 1785551960.86056,
+    "ast_hash": "b8f974c527973e1a2988a4e2f28c9562",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/catalytic_lens.json": {
+    "mtime": 1785551960.8435185,
+    "ast_hash": "94ed745e13acb8acf26689e8b9916448",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/destruction_catalyst.json": {
+    "mtime": 1785551960.8405287,
+    "ast_hash": "a0935d360e1733f4ae973a621fdd7ef1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/divining_rod_1.json": {
+    "mtime": 1785551960.836032,
+    "ast_hash": "45ca3894144ddec3358e3b5c1fbc273f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/divining_rod_2.json": {
+    "mtime": 1785551960.8385355,
+    "ast_hash": "1d4564ed442d52f99bbb8ccfd390ad49",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/divining_rod_3.json": {
+    "mtime": 1785551960.8395321,
+    "ast_hash": "9783aa0cf0dc8da261edf51dd5420544",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_boots.json": {
+    "mtime": 1785552462.1744404,
+    "ast_hash": "a09ce3aae05b58a311833d456a4c83ab",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_chestplate.json": {
+    "mtime": 1785552462.1733596,
+    "ast_hash": "71096f6b6a613d00f97bf4bd6ee01f41",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_helmet.json": {
+    "mtime": 1785552462.1733596,
+    "ast_hash": "2c13df13d44a848e35cc3b8a4e9184b5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_leggings.json": {
+    "mtime": 1785552462.1733596,
+    "ast_hash": "c6e450e06fa65daff81f0e6c66e1355e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/hyperkinetic_lens.json": {
+    "mtime": 1785551960.8415253,
+    "ast_hash": "a52a3bc17db5fa20a8dd749cdc5bdc1b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/mercurial_eye.json": {
+    "mtime": 1785551960.8435185,
+    "ast_hash": "0cebcab04a792246fc3f4f215c82cdff",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/nova_cataclysm.json": {
+    "mtime": 1785551960.8345232,
+    "ast_hash": "1013d746a6e6aaca7b57e68156ca3f37",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/nova_catalyst.json": {
+    "mtime": 1785551960.8334608,
+    "ast_hash": "b0662495da897f007cc660c6b5d1cf57",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/transmutation_tablet.json": {
+    "mtime": 1785552084.8423252,
+    "ast_hash": "1d01ffe365c6618795eda68e2c4ce4af",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/loot_table/blocks/interdiction_torch.json": {
+    "mtime": 1785552084.8473215,
+    "ast_hash": "a560f44970b2c67c754070916c228270",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/loot_table/blocks/transmutation_table.json": {
+    "mtime": 1785552084.845818,
+    "ast_hash": "44c7d559558c6324a843424210a0ef61",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/archangel_smite.json": {
+    "mtime": 1785551960.8735404,
+    "ast_hash": "91bb15f4d26eeca9ea45c19ef3379688",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/catalytic_lens.json": {
+    "mtime": 1785551960.872539,
+    "ast_hash": "5923c0dfa7786f7feee4dafd0624f6e3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/destruction_catalyst.json": {
+    "mtime": 1785551960.8695498,
+    "ast_hash": "87400bda6a9c203999408df9144fab17",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/divining_rod_1.json": {
+    "mtime": 1785551960.8685534,
+    "ast_hash": "85396e0227156178aa751a9454c4430f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/divining_rod_2.json": {
+    "mtime": 1785551960.8685534,
+    "ast_hash": "f5329552f7322ba41c8f64bd18f5a124",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/divining_rod_3.json": {
+    "mtime": 1785551960.8695498,
+    "ast_hash": "b1a0b9986f267c31bba1426c1f062e04",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/gem_boots.json": {
+    "mtime": 1785552462.2223907,
+    "ast_hash": "17e4141d154f0136a60e8d80d33ee450",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/gem_chestplate.json": {
+    "mtime": 1785552462.220298,
+    "ast_hash": "f5d11976327a5dc18176fce63747fb74",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/gem_helmet.json": {
+    "mtime": 1785552462.220298,
+    "ast_hash": "e15510834bf5a91ba66ea912ab32f2ff",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/gem_leggings.json": {
+    "mtime": 1785552462.2213588,
+    "ast_hash": "b0db958da526fbb65585bad0a942691b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/hyperkinetic_lens.json": {
+    "mtime": 1785551960.8705459,
+    "ast_hash": "ba902169bf0407f87aae6a0e659d8ffd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/interdiction_torch.json": {
+    "mtime": 1785552084.849319,
+    "ast_hash": "976323b1b60032abed54807cae6adbc3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/mercurial_eye.json": {
+    "mtime": 1785551960.8735404,
+    "ast_hash": "edf8fe7f469fe8d81fd2e28d616c857b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/nova_cataclysm.json": {
+    "mtime": 1785551960.8635483,
+    "ast_hash": "272ea77e908e2960d313a04ce0e1a786",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/nova_catalyst.json": {
+    "mtime": 1785551960.8625515,
+    "ast_hash": "e3f3f240daa1c3caeebf047c6d79681d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/transmutation_table.json": {
+    "mtime": 1785552084.8483222,
+    "ast_hash": "ef9d98590aa3ab2604f5959e2cf9d3de",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/transmutation_tablet.json": {
+    "mtime": 1785552084.8483222,
+    "ast_hash": "f81b80b11d7a86eb5bdd43fb8d4bd19b",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.17.md": {
+    "mtime": 1785551991.7852623,
+    "ast_hash": "63f3f6bb0e61f9b07db5387e12a2dd1a",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.18.md": {
+    "mtime": 1785552129.2997777,
+    "ast_hash": "11cad99ed7e512f8df4a0a5a0d54884a",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.19.md": {
+    "mtime": 1785552286.2174478,
+    "ast_hash": "c3f3e1dd1e632152125b853f4532dca3",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.20.md": {
+    "mtime": 1785552387.610911,
+    "ast_hash": "4cdec39dda3d62a0d7c57006db34fd8b",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.21.md": {
+    "mtime": 1785552489.0256767,
+    "ast_hash": "94f2af78bfb9710a0161c09d2a3bfbbc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/interdiction_torch.png": {
+    "mtime": 1785552084.6789706,
+    "ast_hash": "4256d665c23fbb45579422547106763a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/transmutation_stone/bottom.png": {
+    "mtime": 1785552084.8286488,
+    "ast_hash": "d8517f08450b002afc1550e06f67a010",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/transmutation_stone/side.png": {
+    "mtime": 1785552084.7832408,
+    "ast_hash": "f6a1dfdda599f4cd1bc166b5e745c45d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/transmutation_stone/top.png": {
+    "mtime": 1785552084.7376943,
+    "ast_hash": "622397f591b98e8e22bd5c24e8011c69",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/entity/equipment/humanoid/gem_armor.png": {
+    "mtime": 1785552462.0584521,
+    "ast_hash": "f16fb791e9a34bcf2fb823aed4346c2d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/entity/equipment/humanoid_leggings/gem_armor.png": {
+    "mtime": 1785552462.0986373,
+    "ast_hash": "ce362f833edb483a74f268560e06af47",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/archangel_smite.png": {
+    "mtime": 1785551923.2453842,
+    "ast_hash": "ef04202fad6cfa2f80247cf35c8c4fdb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/catalytic_lens.png": {
+    "mtime": 1785551922.9640489,
+    "ast_hash": "db6fb4b90b902e17209f9832bc9d626e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/destruction_catalyst.png": {
+    "mtime": 1785551923.0094042,
+    "ast_hash": "775b6ae5fd965d2c5a253931d721f344",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/divining_rod_1.png": {
+    "mtime": 1785551923.0563102,
+    "ast_hash": "a4a34df90493820dd325af9366e396d0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/divining_rod_2.png": {
+    "mtime": 1785551923.1021166,
+    "ast_hash": "58f84ffa4a0b49eba75f1b2f3692fff4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/divining_rod_3.png": {
+    "mtime": 1785551923.1474078,
+    "ast_hash": "a92d036af94bf4c84b9446b646eefb32",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/gem_armor/chest.png": {
+    "mtime": 1785552461.929177,
+    "ast_hash": "eaa354ca958764d6d81a0915d7ffc688",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/gem_armor/feet.png": {
+    "mtime": 1785552462.0093002,
+    "ast_hash": "4f13e2ec34d63206a062d2733d6ff18e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/gem_armor/head.png": {
+    "mtime": 1785552461.8965116,
+    "ast_hash": "277cc0172c02c95d7f525769ab03d8fe",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/gem_armor/legs.png": {
+    "mtime": 1785552461.9731672,
+    "ast_hash": "324aab1249685870de5546bc04381072",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/hyperkinetic_lens.png": {
+    "mtime": 1785551923.1699758,
+    "ast_hash": "799eaf2edc57aaca4533c77bf744c75b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/mercurial_eye.png": {
+    "mtime": 1785551923.2086902,
+    "ast_hash": "ef0abfdc749055531c6c214406479d5a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/transmutation_tablet.png": {
+    "mtime": 1785552084.636216,
+    "ast_hash": "ce2eb354996437e72421d10c2bcceb4c",
     "semantic_hash": ""
   }
 }
