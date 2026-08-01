@@ -49,6 +49,11 @@
   "container.equivalent_legacy.alchemical_bag": "Alchemical Bag",
   "container.equivalent_legacy.alchemical_chest": "Alchemical Chest",
 
+  "item.equivalent_legacy.low_covalence_dust": "Low Covalence Dust",
+  "item.equivalent_legacy.medium_covalence_dust": "Medium Covalence Dust",
+  "item.equivalent_legacy.high_covalence_dust": "High Covalence Dust",
+  "item.equivalent_legacy.tome": "Tome of Knowledge",
+
   "container.equivalent_legacy.collector": "Collector",
   "container.equivalent_legacy.relay": "Relay",
   "container.equivalent_legacy.condenser": "Condenser",

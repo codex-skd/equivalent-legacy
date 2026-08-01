@@ -67,6 +67,18 @@ public final class EquivalentLegacyItems {
 
     public static final DeferredItem<BlockItem> ALCHEMICAL_CHEST = ITEMS.registerSimpleBlockItem("alchemical_chest", EquivalentLegacyBlocks.ALCHEMICAL_CHEST);
 
+    public static final DeferredItem<CovalenceDust> LOW_COVALENCE_DUST = ITEMS.register("low_covalence_dust",
+            () -> new CovalenceDust(new Item.Properties()));
+
+    public static final DeferredItem<CovalenceDust> MEDIUM_COVALENCE_DUST = ITEMS.register("medium_covalence_dust",
+            () -> new CovalenceDust(new Item.Properties()));
+
+    public static final DeferredItem<CovalenceDust> HIGH_COVALENCE_DUST = ITEMS.register("high_covalence_dust",
+            () -> new CovalenceDust(new Item.Properties()));
+
+    public static final DeferredItem<Tome> TOME = ITEMS.register("tome",
+            () -> new Tome(new Item.Properties().stacksTo(1)));
+
     public static final DeferredItem<KleinStar> KLEIN_STAR_EIN = ITEMS.register("klein_star_ein",
             () -> new KleinStar(new Item.Properties(), KleinStarTier.EIN));
 
