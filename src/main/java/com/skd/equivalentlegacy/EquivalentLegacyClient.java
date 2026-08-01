@@ -1,6 +1,9 @@
 package com.skd.equivalentlegacy;
 
+import com.skd.equivalentlegacy.gui.CondenserScreen;
+import com.skd.equivalentlegacy.gui.CollectorScreen;
 import com.skd.equivalentlegacy.gui.ModMenuTypes;
+import com.skd.equivalentlegacy.gui.RelayScreen;
 import com.skd.equivalentlegacy.gui.TransmutationScreen;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -27,5 +30,8 @@ public class EquivalentLegacyClient {
     @SubscribeEvent
     static void onRegisterScreens(RegisterMenuScreensEvent event) {
         event.register(ModMenuTypes.TRANSMUTATION.get(), TransmutationScreen::new);
+        event.register(ModMenuTypes.COLLECTOR.get(), CollectorScreen::new);
+        event.register(ModMenuTypes.RELAY.get(), RelayScreen::new);
+        event.register(ModMenuTypes.CONDENSER.get(), CondenserScreen::new);
     }
 }
