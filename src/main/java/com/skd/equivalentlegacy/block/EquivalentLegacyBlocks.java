@@ -67,5 +67,11 @@ public final class EquivalentLegacyBlocks {
     public static final DeferredBlock<Block> ALCHEMICAL_CHEST = BLOCKS.register("alchemical_chest",
             () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.ALCHEMICAL_CHEST::get, null));
 
+    public static final DeferredBlock<Block> TRANSMUTATION_TABLE = BLOCKS.register("transmutation_table",
+            () -> new TransmutationTableBlock(BlockBehaviour.Properties.of().strength(3.0F, 6.0F).sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> INTERDICTION_TORCH = BLOCKS.register("interdiction_torch",
+            () -> new InterdictionTorchBlock(BlockBehaviour.Properties.of().strength(1.0F).noCollision().lightLevel(state -> 14)));
+
     private EquivalentLegacyBlocks() {}
 }

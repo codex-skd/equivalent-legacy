@@ -100,6 +100,13 @@ public final class EquivalentLegacyItems {
 
     public static final DeferredItem<BlockItem> ALCHEMICAL_CHEST = ITEMS.registerSimpleBlockItem("alchemical_chest", EquivalentLegacyBlocks.ALCHEMICAL_CHEST);
 
+    public static final DeferredItem<TransmutationTablet> TRANSMUTATION_TABLET = ITEMS.register("transmutation_tablet",
+            () -> new TransmutationTablet(new Item.Properties().stacksTo(1)));
+
+    public static final DeferredItem<BlockItem> TRANSMUTATION_TABLE = ITEMS.registerSimpleBlockItem("transmutation_table", EquivalentLegacyBlocks.TRANSMUTATION_TABLE);
+
+    public static final DeferredItem<BlockItem> INTERDICTION_TORCH = ITEMS.registerSimpleBlockItem("interdiction_torch", EquivalentLegacyBlocks.INTERDICTION_TORCH);
+
     public static final DeferredItem<CovalenceDust> LOW_COVALENCE_DUST = ITEMS.register("low_covalence_dust",
             () -> new CovalenceDust(new Item.Properties()));
 

@@ -90,6 +90,10 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyItems.MERCURIAL_EYE.get());
                         output.accept(EquivalentLegacyItems.ARCHANGEL_SMITE.get());
 
+                        output.accept(EquivalentLegacyItems.TRANSMUTATION_TABLET.get());
+                        output.accept(EquivalentLegacyItems.TRANSMUTATION_TABLE.get());
+                        output.accept(EquivalentLegacyItems.INTERDICTION_TORCH.get());
+
                         output.accept(EquivalentLegacyItems.DARK_MATTER_SWORD.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_PICKAXE.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_AXE.get());
