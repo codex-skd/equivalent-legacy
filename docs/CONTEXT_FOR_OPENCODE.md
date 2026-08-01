@@ -9,7 +9,7 @@ Mod NeoForge que revive el sistema EMC (Equivalent Exchange 2 / ProjectE): asign
 - **mod_id**: `equivalent_legacy`
 - **package**: `com.skd.equivalentlegacy`
 - **Minecraft / NeoForge**: `26.2` / `26.2.0.32-beta` — **no subir de versión sin que se pida explícitamente**
-- **mod_version actual**: `0.0.0-beta.6`
+- **mod_version actual**: `0.0.0-beta.10`
 - **Rama**: `minecraft/26.2/neoforge-26.2.0.32-beta/production`
 - **Repo**: `G:\Proyectos\Mods_Minecraft\equivalent_legacy\26.2`
 
@@ -29,7 +29,7 @@ La atribución ya está puesta en `README.md`, `neoforge.mods.toml` (`credits`) 
 - **Hacer `git add` + `git commit` del trabajo terminado antes de reportar como acabado** — esto se ha olvidado alguna vez, insiste en verificarlo con `git status --short` (debe salir vacío).
 - No cambiar `mod_version` en `gradle.properties` (eso lo hace el operador al cerrar cada fase).
 
-## Lo ya implementado (fases 1-5, todo commiteado y compilando)
+## Lo ya implementado (fases 1-10, todo commiteado y compilando)
 
 | Fase | Qué | Paquetes |
 |---|---|---|
@@ -37,7 +37,12 @@ La atribución ya está puesta en `README.md`, `neoforge.mods.toml` (`credits`) 
 | 2 | Registro base de items/bloques (`DeferredRegister`), creative tab propio, primer item: **Philosopher's Stone** | `item/`, `block/` |
 | 3 | Datos persistentes de jugador vía NeoForge Data Attachments: EMC del jugador + set de items conocidos (`PlayerKnowledgeAttachment`, `PlayerKnowledge` API), sync server↔client (login/respawn/cambio de dimensión) | `player/`, `network/`, `events/` |
 | 4 | GUI de transmutación real: right-click con Philosopher's Stone abre `TransmutationScreen`/`TransmutationContainer` — aprender items metiéndolos en el slot de input, lista scrolleable de conocidos, transmutar gastando EMC (bug de doble cobro ya arreglado) | `gui/` |
-| 5 | **Dark Matter** (item de alto EMC, 139,264, intermedio de crafteo) y **Klein Star Ein** (batería EMC portátil con `DataComponentType<Long>`, carga/descarga por click, barra de durabilidad, tooltip) | `item/` |
+| 5 | **Dark Matter** (139,264 EMC) y **Klein Star Ein** (batería EMC portátil) | `item/` |
+| 6 | Recetas de crafteo vanilla (Philosopher's Stone, Dark Matter, Klein Star) + comandos `/equivalent_legacy emc` y `emc give` (OP) | `command/` |
+| 7 | **Klein Stars Zwei–Omega** (línea completa de baterías, 1M–16M) | `item/` |
+| 8 | **Combustibles alquímicos** (Alchemical Coal/Mobius/Aeternalis Fuel) + **Red Matter**; recetas originales restauradas | `item/` |
+| 9 | **Bloques de almacenamiento** (fuel + matter blocks) + fix de render: bindings `items/<id>.json` de MC 26.2 | `block/`, `item/` |
+| 10 | **Toolchain completo**: tools (sword/pick/axe/shovel/hoe/shears/hammer, +katar/morning star en Red Matter) y armadura de ambas materias; martillo con minado 3×3; EquipmentAssets para la armadura | `item/` |
 
 Estructura de paquetes actual (todo bajo `src/main/java/com/skd/equivalentlegacy/`):
 ```
@@ -48,9 +53,11 @@ emc/mapper/   — IMappingCollector, IExtendedMappingCollector, IValueArithmetic
                 LongArithmetic, MappingCollector, SimpleGraphMapper
 emc/nss/      — AbstractNSSTag, AbstractDataComponentHolderNSSTag, NormalizedSimpleStack,
                 NSSDataComponentHolder, NSSItem, NSSTag
-item/         — DarkMatter, EquivalentLegacyCreativeTab, EquivalentLegacyDataComponents,
-                EquivalentLegacyItems, KleinStar, KleinStarTier, PhilosophersStone
-block/        — EquivalentLegacyBlocks (registro vacío, preparado)
+item/         — AeternalisFuel, AlchemicalCoal, DarkMatter, EquivalentLegacyCreativeTab,
+                EquivalentLegacyDataComponents, EquivalentLegacyItems, EquivalentLegacyTags,
+                HammerItem, KleinStar, KleinStarTier, MatterMaterials, MobiusFuel,
+                PhilosophersStone, RedMatter
+block/        — EquivalentLegacyBlocks (fuel + matter storage blocks)
 gui/          — ModMenuTypes, TransmutationContainer, TransmutationScreen
 network/      — PacketHandler
 network/payload/ — KnowledgeDataPayload, KnowledgeSyncChangePayload, KnowledgeSyncEmcPayload,
@@ -60,18 +67,13 @@ player/       — EquivalentLegacyAttachments, PlayerKnowledge, PlayerKnowledgeA
 events/       — PlayerEvents
 ```
 
-## Lo que falta (fase 6 en adelante — quedó a medias, no arrancó)
-
-**Fase 6 (completada — recetas + comando EMC):**
-1. Recetas de crafteo vanilla JSON (`data/equivalent_legacy/recipe/`) para Philosopher's Stone, Dark Matter y Klein Star (Ein). Adaptadas del jar de referencia: los ingredientes de otros mods que no existen aún (`aeternalis_fuel`, `mobius_fuel`) se sustituyeron por vanilla — Dark Matter usa 8× `#c:storage_blocks/gold` + `#c:storage_blocks/diamond`, Klein Star Ein usa 8× `minecraft:glowstone` + `#c:gems/diamond`. Cuando se implementen los combustibles (fases futuras) hay que restaurar las recetas originales.
-2. Comando `/equivalent_legacy emc` (mostrar tu EMC) y `/equivalent_legacy emc give <jugador> <cantidad>` (solo OP, nivel gamemaster), vía `RegisterCommandsEvent`/Brigadier en `command/ModCommands`.
+## Lo que falta (beta.11 en adelante)
 
 **Fases futuras (no empezadas):**
-- Collectors, Condensers, Relays (block entities, automatización de EMC).
-- Red Matter y el resto de herramientas/armadura del toolchain.
-- Tiers superiores de Klein Star (Zwei, Drei, Vier, Sphere, Omega — el enum `KleinStarTier` ya los define, solo falta registrarlos).
+- Collectors, Condensers, Relays (block entities, automatización de EMC) — la más grande, requiere menús/screens + red de EMC.
 - Alchemical Bag / Alchemical Chest.
-- Soporte Curios para items EMC equipables.
+- Soporte Curios para items EMC equipables (requiere dependencia externa Curios).
+- Pendiente menor: valores EMC para el toolchain de tools/armadura (no registrados); sistema de carga/AOE de ProjectE simplificado.
 
 ## Notas sobre el entorno (por qué esto existe)
 
