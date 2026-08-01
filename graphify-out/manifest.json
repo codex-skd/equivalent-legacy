@@ -1,7 +1,7 @@
 {
   "build.gradle": {
-    "mtime": 1785449492.674966,
-    "ast_hash": "3dae162e35cdbced95ea1bff9641ebf3",
+    "mtime": 1785617242.598634,
+    "ast_hash": "f58ba4a929f8ac56249f4a7887286afa",
     "semantic_hash": ""
   },
   "gradlew": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785610402.2253568,
-    "ast_hash": "e0c8a7c631d515d4dadd4b41022d3043",
+    "mtime": 1785617276.111316,
+    "ast_hash": "39017be343b2fa8a3237ed1ce3b7c7af",
     "semantic_hash": ""
   },
   "README.md": {
@@ -420,8 +420,8 @@
     "semantic_hash": ""
   },
   "docs/CONTEXT_FOR_OPENCODE.md": {
-    "mtime": 1785552537.1448815,
-    "ast_hash": "a18e91b356787bf13327a949db951e32",
+    "mtime": 1785610450.834239,
+    "ast_hash": "b61db1dfd03c08339cb5da810f316d73",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.7.md": {
@@ -1840,8 +1840,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java": {
-    "mtime": 1785551734.735277,
-    "ast_hash": "8ffaa240a6cc4b9ab97787dd3049c609",
+    "mtime": 1785617169.2181962,
+    "ast_hash": "95aaecac97800ae1685fb05c3f7cb7d4",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/CovalenceDust.java": {
@@ -3182,6 +3182,11 @@
   "src/main/resources/assets/equivalent_legacy/textures/block/matter_furnace/rm_on.png": {
     "mtime": 1785610248.3026419,
     "ast_hash": "47b93acf4390a9ac1aa050275405dd91",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.24.md": {
+    "mtime": 1785617270.9309995,
+    "ast_hash": "044aad43e6c2cd29c913161c469c238a",
     "semantic_hash": ""
   }
 }
