@@ -38,7 +38,22 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyItems.RELAY_MK3.get());
                         output.accept(EquivalentLegacyItems.CONDENSER_MK1.get());
                         output.accept(EquivalentLegacyItems.CONDENSER_MK2.get());
-                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_BLACK.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_BLUE.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_BROWN.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_CYAN.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_GRAY.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_GREEN.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_LIGHT_BLUE.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_LIGHT_GRAY.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_LIME.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_MAGENTA.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_ORANGE.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_PINK.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_PURPLE.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_RED.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_WHITE.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG_YELLOW.get());
                         output.accept(EquivalentLegacyItems.ALCHEMICAL_CHEST.get());
 
                         output.accept(EquivalentLegacyItems.LOW_COVALENCE_DUST.get());
