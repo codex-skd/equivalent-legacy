@@ -1,5 +1,10 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.24
+
+- **Curios required dependency**: arcana items and Klein Stars work while equipped in Curios slots (effects apply from slots, not only the inventory).
+- **Critical packaging fix**: `META-INF/neoforge.mods.toml` is now included in the built JAR (previous releases shipped without mod metadata and would not load when installed).
+
 ## 0.0.0-beta.23
 
 - **Persistent EMC network**: per-dimension pools stored via `SavedData` (loaded on start, saved on stop), surviving restarts.
