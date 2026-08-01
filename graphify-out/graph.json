@@ -183,7 +183,7 @@
       "label": ".rl()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L96",
+      "source_location": "L108",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
       "community": 0,
@@ -586,7 +586,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "blocks",
-      "community": 0,
+      "community": 57,
       "norm_label": "blocks"
     },
     {
@@ -726,7 +726,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity",
-      "community": 51,
+      "community": 44,
       "norm_label": "basemachineblockentity.java"
     },
     {
@@ -736,7 +736,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity",
-      "community": 51,
+      "community": 44,
       "norm_label": "basemachineblockentity"
     },
     {
@@ -746,7 +746,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "blockentity",
-      "community": 51,
+      "community": 44,
       "norm_label": "blockentity"
     },
     {
@@ -756,7 +756,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_simplecontainer",
-      "community": 51,
+      "community": 44,
       "norm_label": "simplecontainer"
     },
     {
@@ -766,7 +766,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_basemachineblockentity",
-      "community": 51,
+      "community": 44,
       "norm_label": ".basemachineblockentity()"
     },
     {
@@ -776,7 +776,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_blockentitytype",
-      "community": 51,
+      "community": 44,
       "norm_label": "blockentitytype"
     },
     {
@@ -786,7 +786,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_blockpos",
-      "community": 51,
+      "community": 44,
       "norm_label": "blockpos"
     },
     {
@@ -796,7 +796,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_blockstate",
-      "community": 51,
+      "community": 44,
       "norm_label": "blockstate"
     },
     {
@@ -806,7 +806,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_getinventory",
-      "community": 51,
+      "community": 44,
       "norm_label": ".getinventory()"
     },
     {
@@ -816,7 +816,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_getemc",
-      "community": 51,
+      "community": 44,
       "norm_label": ".getemc()"
     },
     {
@@ -826,7 +826,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_addemc",
-      "community": 51,
+      "community": 44,
       "norm_label": ".addemc()"
     },
     {
@@ -836,7 +836,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_takeemc",
-      "community": 51,
+      "community": 44,
       "norm_label": ".takeemc()"
     },
     {
@@ -846,7 +846,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_dropcontents",
-      "community": 51,
+      "community": 44,
       "norm_label": ".dropcontents()"
     },
     {
@@ -856,7 +856,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_stillvalid",
-      "community": 51,
+      "community": 44,
       "norm_label": ".stillvalid()"
     },
     {
@@ -866,7 +866,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_player",
-      "community": 51,
+      "community": 44,
       "norm_label": "player"
     },
     {
@@ -876,7 +876,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_openmenu",
-      "community": 51,
+      "community": 44,
       "norm_label": ".openmenu()"
     },
     {
@@ -886,7 +886,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_createmenuprovider",
-      "community": 51,
+      "community": 44,
       "norm_label": ".createmenuprovider()"
     },
     {
@@ -896,7 +896,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_menuprovider",
-      "community": 51,
+      "community": 44,
       "norm_label": "menuprovider"
     },
     {
@@ -906,7 +906,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_getdisplayname",
-      "community": 51,
+      "community": 44,
       "norm_label": ".getdisplayname()"
     },
     {
@@ -916,7 +916,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_component",
-      "community": 51,
+      "community": 44,
       "norm_label": "component"
     },
     {
@@ -1256,7 +1256,7 @@
       "source_location": "L98",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_condenserblockentity_condenserblockentity_producetarget",
-      "community": 47,
+      "community": 43,
       "norm_label": ".producetarget()"
     },
     {
@@ -1376,7 +1376,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers",
-      "community": 44,
+      "community": 21,
       "norm_label": "machinetiers.java"
     },
     {
@@ -1386,7 +1386,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_machinetiers",
-      "community": 44,
+      "community": 21,
       "norm_label": "machinetiers"
     },
     {
@@ -1396,7 +1396,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_collectortier",
-      "community": 44,
+      "community": 21,
       "norm_label": "collectortier"
     },
     {
@@ -1406,7 +1406,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_collectortier_mk1",
-      "community": 44,
+      "community": 21,
       "norm_label": "mk1"
     },
     {
@@ -1416,7 +1416,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_collectortier_mk2",
-      "community": 44,
+      "community": 21,
       "norm_label": "mk2"
     },
     {
@@ -1426,7 +1426,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_collectortier_mk3",
-      "community": 44,
+      "community": 21,
       "norm_label": "mk3"
     },
     {
@@ -1436,7 +1436,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_of",
-      "community": 44,
+      "community": 21,
       "norm_label": "of()"
     },
     {
@@ -1446,7 +1446,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_java_block",
-      "community": 44,
+      "community": 21,
       "norm_label": "block"
     },
     {
@@ -1526,7 +1526,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_machinetiers_machinetiers",
-      "community": 44,
+      "community": 21,
       "norm_label": ".machinetiers()"
     },
     {
@@ -2356,7 +2356,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemc",
-      "community": 47,
+      "community": 43,
       "norm_label": ".getemc()"
     },
     {
@@ -2366,7 +2366,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_hasemc",
-      "community": 5,
+      "community": 47,
       "norm_label": ".hasemc()"
     },
     {
@@ -2386,7 +2386,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemcmap",
-      "community": 47,
+      "community": 58,
       "norm_label": ".getemcmap()"
     },
     {
@@ -3810,6 +3810,146 @@
       "norm_label": ".forselfandeachelement()"
     },
     {
+      "label": "CurioEvents.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents",
+      "community": 55,
+      "norm_label": "curioevents.java"
+    },
+    {
+      "label": "CurioEvents",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents",
+      "community": 55,
+      "norm_label": "curioevents"
+    },
+    {
+      "label": "EventBusSubscriber",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_eventbussubscriber",
+      "community": 55,
+      "norm_label": "eventbussubscriber"
+    },
+    {
+      "label": ".CurioEvents()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_curioevents",
+      "community": 55,
+      "norm_label": ".curioevents()"
+    },
+    {
+      "label": ".onPlayerTick()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_onplayertick",
+      "community": 55,
+      "norm_label": ".onplayertick()"
+    },
+    {
+      "label": "Post",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "post",
+      "community": 55,
+      "norm_label": "post"
+    },
+    {
+      "label": "SubscribeEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_subscribeevent",
+      "community": 55,
+      "norm_label": "subscribeevent"
+    },
+    {
+      "label": ".applyEffects()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_applyeffects",
+      "community": 55,
+      "norm_label": ".applyeffects()"
+    },
+    {
+      "label": "Player",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_player",
+      "community": 55,
+      "norm_label": "player"
+    },
+    {
+      "label": ".handleMagnetAndVoid()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlemagnetandvoid",
+      "community": 55,
+      "norm_label": ".handlemagnetandvoid()"
+    },
+    {
+      "label": "Level",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_level",
+      "community": 55,
+      "norm_label": "level"
+    },
+    {
+      "label": ".inventoryItems()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_inventoryitems",
+      "community": 55,
+      "norm_label": ".inventoryitems()"
+    },
+    {
+      "label": "ItemStack",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_itemstack",
+      "community": 55,
+      "norm_label": "itemstack"
+    },
+    {
+      "label": ".handleRepair()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L108",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlerepair",
+      "community": 55,
+      "norm_label": ".handlerepair()"
+    },
+    {
       "label": "PlayerEvents.java",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
@@ -3946,7 +4086,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "abstractcontainermenu",
-      "community": 46,
+      "community": 50,
       "norm_label": "abstractcontainermenu"
     },
     {
@@ -4746,7 +4886,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_machinemenu",
-      "community": 46,
+      "community": 50,
       "norm_label": "machinemenu.java"
     },
     {
@@ -4756,7 +4896,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu",
-      "community": 46,
+      "community": 50,
       "norm_label": "machinemenu"
     },
     {
@@ -4766,7 +4906,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu_machinemenu",
-      "community": 46,
+      "community": 50,
       "norm_label": ".machinemenu()"
     },
     {
@@ -4776,7 +4916,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_machinemenu_java_menutype",
-      "community": 46,
+      "community": 50,
       "norm_label": "menutype"
     },
     {
@@ -4786,7 +4926,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu_addplayerinventory",
-      "community": 46,
+      "community": 50,
       "norm_label": ".addplayerinventory()"
     },
     {
@@ -4796,7 +4936,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_machinemenu_java_inventory",
-      "community": 46,
+      "community": 50,
       "norm_label": "inventory"
     },
     {
@@ -4936,7 +5076,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes",
-      "community": 43,
+      "community": 2,
       "norm_label": "modmenutypes.java"
     },
     {
@@ -4946,7 +5086,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes",
-      "community": 43,
+      "community": 2,
       "norm_label": "modmenutypes"
     },
     {
@@ -4956,7 +5096,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java_deferredregister",
-      "community": 43,
+      "community": 2,
       "norm_label": "deferredregister"
     },
     {
@@ -4966,7 +5106,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java_menutype",
-      "community": 43,
+      "community": 2,
       "norm_label": "menutype"
     },
     {
@@ -4976,7 +5116,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java_deferredholder",
-      "community": 43,
+      "community": 2,
       "norm_label": "deferredholder"
     },
     {
@@ -4986,7 +5126,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes_modmenutypes",
-      "community": 43,
+      "community": 2,
       "norm_label": ".modmenutypes()"
     },
     {
@@ -5406,7 +5546,7 @@
       "source_location": "L93",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_computeknowledgehash",
-      "community": 48,
+      "community": 58,
       "norm_label": ".computeknowledgehash()"
     },
     {
@@ -5416,7 +5556,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_syncknowledgedataifchanged",
-      "community": 47,
+      "community": 58,
       "norm_label": ".syncknowledgedataifchanged()"
     },
     {
@@ -5426,7 +5566,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java_serverplayer",
-      "community": 47,
+      "community": 58,
       "norm_label": "serverplayer"
     },
     {
@@ -5726,7 +5866,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag",
-      "community": 50,
+      "community": 23,
       "norm_label": "alchemicalbag.java"
     },
     {
@@ -5736,7 +5876,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_alchemicalbag",
-      "community": 50,
+      "community": 23,
       "norm_label": "alchemicalbag"
     },
     {
@@ -5746,7 +5886,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_alchemicalbag_alchemicalbag",
-      "community": 50,
+      "community": 23,
       "norm_label": ".alchemicalbag()"
     },
     {
@@ -5756,7 +5896,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_alchemicalbag_createinventory",
-      "community": 50,
+      "community": 23,
       "norm_label": ".createinventory()"
     },
     {
@@ -5766,7 +5906,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_java_itemstack",
-      "community": 50,
+      "community": 23,
       "norm_label": "itemstack"
     },
     {
@@ -5776,7 +5916,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_java_itemstackhandler",
-      "community": 50,
+      "community": 23,
       "norm_label": "itemstackhandler"
     },
     {
@@ -5786,7 +5926,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_alchemicalbag_use",
-      "community": 50,
+      "community": 23,
       "norm_label": ".use()"
     },
     {
@@ -5796,7 +5936,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_java_level",
-      "community": 50,
+      "community": 23,
       "norm_label": "level"
     },
     {
@@ -5806,7 +5946,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_java_player",
-      "community": 50,
+      "community": 23,
       "norm_label": "player"
     },
     {
@@ -5816,7 +5956,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_java_interactionhand",
-      "community": 50,
+      "community": 23,
       "norm_label": "interactionhand"
     },
     {
@@ -5826,7 +5966,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_java_interactionresult",
-      "community": 50,
+      "community": 23,
       "norm_label": "interactionresult"
     },
     {
@@ -5836,7 +5976,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_java_override",
-      "community": 50,
+      "community": 23,
       "norm_label": "override"
     },
     {
@@ -5868,6 +6008,276 @@
       "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalcoal_alchemicalcoal_alchemicalcoal",
       "community": 23,
       "norm_label": ".alchemicalcoal()"
+    },
+    {
+      "label": "CovalenceDust.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CovalenceDust.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_covalencedust",
+      "community": 23,
+      "norm_label": "covalencedust.java"
+    },
+    {
+      "label": "CovalenceDust",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CovalenceDust.java",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_covalencedust_covalencedust",
+      "community": 23,
+      "norm_label": "covalencedust"
+    },
+    {
+      "label": ".CovalenceDust()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CovalenceDust.java",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_covalencedust_covalencedust_covalencedust",
+      "community": 23,
+      "norm_label": ".covalencedust()"
+    },
+    {
+      "label": "CurioItem.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem",
+      "community": 57,
+      "norm_label": "curioitem.java"
+    },
+    {
+      "label": "CurioItem",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem",
+      "community": 57,
+      "norm_label": "curioitem"
+    },
+    {
+      "label": "Type",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "community": 51,
+      "norm_label": "type"
+    },
+    {
+      "label": "BLACK_HOLE_BAND",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_black_hole_band",
+      "community": 51,
+      "norm_label": "black_hole_band"
+    },
+    {
+      "label": "BODY_STONE",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_body_stone",
+      "community": 51,
+      "norm_label": "body_stone"
+    },
+    {
+      "label": "EVERTIDE_AMULET",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_evertide_amulet",
+      "community": 51,
+      "norm_label": "evertide_amulet"
+    },
+    {
+      "label": "GEM_OF_ETERNAL_DENSITY",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_gem_of_eternal_density",
+      "community": 51,
+      "norm_label": "gem_of_eternal_density"
+    },
+    {
+      "label": "HARVEST_GODDESS_BAND",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_harvest_goddess_band",
+      "community": 51,
+      "norm_label": "harvest_goddess_band"
+    },
+    {
+      "label": "IGNITION_RING",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_ignition_ring",
+      "community": 51,
+      "norm_label": "ignition_ring"
+    },
+    {
+      "label": "LIFE_STONE",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_life_stone",
+      "community": 51,
+      "norm_label": "life_stone"
+    },
+    {
+      "label": "MIND_STONE",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_mind_stone",
+      "community": 51,
+      "norm_label": "mind_stone"
+    },
+    {
+      "label": "REPAIR_TALISMAN",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_repair_talisman",
+      "community": 51,
+      "norm_label": "repair_talisman"
+    },
+    {
+      "label": "SOUL_STONE",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_soul_stone",
+      "community": 51,
+      "norm_label": "soul_stone"
+    },
+    {
+      "label": "SWIFTWOLF_RENDING_GALE",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_swiftwolf_rending_gale",
+      "community": 51,
+      "norm_label": "swiftwolf_rending_gale"
+    },
+    {
+      "label": "VOID_RING",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_void_ring",
+      "community": 51,
+      "norm_label": "void_ring"
+    },
+    {
+      "label": "VOLCANITE_AMULET",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_volcanite_amulet",
+      "community": 51,
+      "norm_label": "volcanite_amulet"
+    },
+    {
+      "label": "WATCH_OF_FLOWING_TIME",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_watch_of_flowing_time",
+      "community": 51,
+      "norm_label": "watch_of_flowing_time"
+    },
+    {
+      "label": "ZERO_RING",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_zero_ring",
+      "community": 51,
+      "norm_label": "zero_ring"
+    },
+    {
+      "label": ".CurioItem()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem_curioitem",
+      "community": 57,
+      "norm_label": ".curioitem()"
+    },
+    {
+      "label": ".getType()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem_gettype",
+      "community": 57,
+      "norm_label": ".gettype()"
+    },
+    {
+      "label": ".useOn()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem_useon",
+      "community": 57,
+      "norm_label": ".useon()"
+    },
+    {
+      "label": "UseOnContext",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "useoncontext",
+      "community": 57,
+      "norm_label": "useoncontext"
+    },
+    {
+      "label": "InteractionResult",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_java_interactionresult",
+      "community": 57,
+      "norm_label": "interactionresult"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_curioitem_java_override",
+      "community": 57,
+      "norm_label": "override"
     },
     {
       "label": "DarkMatter.java",
@@ -5953,7 +6363,7 @@
       "label": ".EquivalentLegacyCreativeTab()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
-      "source_location": "L78",
+      "source_location": "L116",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab_equivalentlegacycreativetab",
       "community": 0,
@@ -6060,6 +6470,16 @@
       "norm_label": "blockitem"
     },
     {
+      "label": ".registerBag()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_registerbag",
+      "community": 23,
+      "norm_label": ".registerbag()"
+    },
+    {
       "label": "Item",
       "file_type": "code",
       "source_file": "",
@@ -6068,6 +6488,16 @@
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_java_item",
       "community": 23,
       "norm_label": "item"
+    },
+    {
+      "label": ".registerCurio()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L151",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_registercurio",
+      "community": 23,
+      "norm_label": ".registercurio()"
     },
     {
       "label": "AxeItem",
@@ -6113,7 +6543,7 @@
       "label": ".EquivalentLegacyItems()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L162",
+      "source_location": "L247",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_equivalentlegacyitems",
       "community": 23,
@@ -6890,13 +7320,103 @@
       "norm_label": ".redmatter()"
     },
     {
+      "label": "Tome.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_tome",
+      "community": 56,
+      "norm_label": "tome.java"
+    },
+    {
+      "label": "Tome",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_tome_tome",
+      "community": 56,
+      "norm_label": "tome"
+    },
+    {
+      "label": ".Tome()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_tome",
+      "community": 56,
+      "norm_label": ".tome()"
+    },
+    {
+      "label": ".use()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
+      "community": 56,
+      "norm_label": ".use()"
+    },
+    {
+      "label": "Level",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_tome_java_level",
+      "community": 56,
+      "norm_label": "level"
+    },
+    {
+      "label": "Player",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_tome_java_player",
+      "community": 56,
+      "norm_label": "player"
+    },
+    {
+      "label": "InteractionHand",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_tome_java_interactionhand",
+      "community": 56,
+      "norm_label": "interactionhand"
+    },
+    {
+      "label": "InteractionResult",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_tome_java_interactionresult",
+      "community": 56,
+      "norm_label": "interactionresult"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_tome_java_override",
+      "community": 56,
+      "norm_label": "override"
+    },
+    {
       "label": "PacketHandler.java",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler",
-      "community": 31,
+      "community": 64,
       "norm_label": "packethandler.java"
     },
     {
@@ -6906,7 +7426,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler",
-      "community": 31,
+      "community": 64,
       "norm_label": "packethandler"
     },
     {
@@ -6916,7 +7436,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_packethandler",
-      "community": 31,
+      "community": 64,
       "norm_label": ".packethandler()"
     },
     {
@@ -6926,7 +7446,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_register",
-      "community": 31,
+      "community": 64,
       "norm_label": ".register()"
     },
     {
@@ -6936,7 +7456,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_packethandler_java_ieventbus",
-      "community": 31,
+      "community": 64,
       "norm_label": "ieventbus"
     },
     {
@@ -6968,16 +7488,6 @@
       "id": "custompacketpayload",
       "community": 31,
       "norm_label": "custompacketpayload"
-    },
-    {
-      "label": "Type",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_type",
-      "community": 31,
-      "norm_label": "type"
     },
     {
       "label": "StreamCodec",
@@ -7046,7 +7556,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload",
-      "community": 31,
+      "community": 59,
       "norm_label": "knowledgesyncchangepayload.java"
     },
     {
@@ -7056,18 +7566,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
-      "community": 31,
+      "community": 59,
       "norm_label": "knowledgesyncchangepayload"
-    },
-    {
-      "label": "Type",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_type",
-      "community": 31,
-      "norm_label": "type"
     },
     {
       "label": "StreamCodec",
@@ -7076,7 +7576,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_streamcodec",
-      "community": 31,
+      "community": 59,
       "norm_label": "streamcodec"
     },
     {
@@ -7086,7 +7586,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_bytebuf",
-      "community": 31,
+      "community": 59,
       "norm_label": "bytebuf"
     },
     {
@@ -7096,7 +7596,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_type",
-      "community": 31,
+      "community": 59,
       "norm_label": ".type()"
     },
     {
@@ -7106,7 +7606,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_override",
-      "community": 31,
+      "community": 59,
       "norm_label": "override"
     },
     {
@@ -7116,7 +7616,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_handle",
-      "community": 31,
+      "community": 59,
       "norm_label": ".handle()"
     },
     {
@@ -7126,7 +7626,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_ipayloadcontext",
-      "community": 31,
+      "community": 59,
       "norm_label": "ipayloadcontext"
     },
     {
@@ -7136,7 +7636,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload",
-      "community": 31,
+      "community": 60,
       "norm_label": "knowledgesyncemcpayload.java"
     },
     {
@@ -7146,18 +7646,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
-      "community": 31,
+      "community": 60,
       "norm_label": "knowledgesyncemcpayload"
-    },
-    {
-      "label": "Type",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_type",
-      "community": 31,
-      "norm_label": "type"
     },
     {
       "label": "StreamCodec",
@@ -7166,7 +7656,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_streamcodec",
-      "community": 31,
+      "community": 60,
       "norm_label": "streamcodec"
     },
     {
@@ -7176,7 +7666,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_bytebuf",
-      "community": 31,
+      "community": 60,
       "norm_label": "bytebuf"
     },
     {
@@ -7186,7 +7676,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_type",
-      "community": 31,
+      "community": 60,
       "norm_label": ".type()"
     },
     {
@@ -7196,7 +7686,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_override",
-      "community": 31,
+      "community": 60,
       "norm_label": "override"
     },
     {
@@ -7206,7 +7696,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_handle",
-      "community": 31,
+      "community": 60,
       "norm_label": ".handle()"
     },
     {
@@ -7216,7 +7706,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_ipayloadcontext",
-      "community": 31,
+      "community": 60,
       "norm_label": "ipayloadcontext"
     },
     {
@@ -7226,7 +7716,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload",
-      "community": 31,
+      "community": 61,
       "norm_label": "knowledgesyncpayload.java"
     },
     {
@@ -7236,18 +7726,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
-      "community": 31,
+      "community": 61,
       "norm_label": "knowledgesyncpayload"
-    },
-    {
-      "label": "Type",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_type",
-      "community": 31,
-      "norm_label": "type"
     },
     {
       "label": "StreamCodec",
@@ -7256,7 +7736,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_streamcodec",
-      "community": 31,
+      "community": 61,
       "norm_label": "streamcodec"
     },
     {
@@ -7266,7 +7746,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_bytebuf",
-      "community": 31,
+      "community": 61,
       "norm_label": "bytebuf"
     },
     {
@@ -7276,7 +7756,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_type",
-      "community": 31,
+      "community": 61,
       "norm_label": ".type()"
     },
     {
@@ -7286,7 +7766,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_override",
-      "community": 31,
+      "community": 61,
       "norm_label": "override"
     },
     {
@@ -7296,7 +7776,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_handle",
-      "community": 31,
+      "community": 61,
       "norm_label": ".handle()"
     },
     {
@@ -7306,7 +7786,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_ipayloadcontext",
-      "community": 31,
+      "community": 61,
       "norm_label": "ipayloadcontext"
     },
     {
@@ -7316,7 +7796,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload",
-      "community": 31,
+      "community": 62,
       "norm_label": "transmuterequestpayload.java"
     },
     {
@@ -7326,18 +7806,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload",
-      "community": 31,
+      "community": 62,
       "norm_label": "transmuterequestpayload"
-    },
-    {
-      "label": "Type",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_type",
-      "community": 31,
-      "norm_label": "type"
     },
     {
       "label": "StreamCodec",
@@ -7346,7 +7816,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_streamcodec",
-      "community": 31,
+      "community": 62,
       "norm_label": "streamcodec"
     },
     {
@@ -7356,7 +7826,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_bytebuf",
-      "community": 31,
+      "community": 62,
       "norm_label": "bytebuf"
     },
     {
@@ -7366,7 +7836,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_type",
-      "community": 31,
+      "community": 62,
       "norm_label": ".type()"
     },
     {
@@ -7376,7 +7846,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_override",
-      "community": 31,
+      "community": 62,
       "norm_label": "override"
     },
     {
@@ -7386,7 +7856,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_handle",
-      "community": 31,
+      "community": 62,
       "norm_label": ".handle()"
     },
     {
@@ -7396,7 +7866,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_ipayloadcontext",
-      "community": 31,
+      "community": 62,
       "norm_label": "ipayloadcontext"
     },
     {
@@ -7406,7 +7876,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments",
-      "community": 31,
+      "community": 63,
       "norm_label": "equivalentlegacyattachments.java"
     },
     {
@@ -7416,7 +7886,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments",
-      "community": 31,
+      "community": 63,
       "norm_label": "equivalentlegacyattachments"
     },
     {
@@ -7426,7 +7896,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_java_deferredregister",
-      "community": 31,
+      "community": 63,
       "norm_label": "deferredregister"
     },
     {
@@ -7436,7 +7906,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "attachmenttype",
-      "community": 31,
+      "community": 63,
       "norm_label": "attachmenttype"
     },
     {
@@ -7446,7 +7916,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments_equivalentlegacyattachments",
-      "community": 31,
+      "community": 63,
       "norm_label": ".equivalentlegacyattachments()"
     },
     {
@@ -7506,7 +7976,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getemc",
-      "community": 48,
+      "community": 58,
       "norm_label": ".getemc()"
     },
     {
@@ -7586,7 +8056,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getknownitems",
-      "community": 40,
+      "community": 58,
       "norm_label": ".getknownitems()"
     },
     {
@@ -7596,7 +8066,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasfullknowledge",
-      "community": 10,
+      "community": 58,
       "norm_label": ".hasfullknowledge()"
     },
     {
@@ -7606,7 +8076,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setfullknowledge",
-      "community": 10,
+      "community": 56,
       "norm_label": ".setfullknowledge()"
     },
     {
@@ -7736,7 +8206,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_getknowledge",
-      "community": 10,
+      "community": 58,
       "norm_label": ".getknowledge()"
     },
     {
@@ -7786,7 +8256,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_hasfullknowledge",
-      "community": 10,
+      "community": 58,
       "norm_label": ".hasfullknowledge()"
     },
     {
@@ -7796,7 +8266,7 @@
       "source_location": "L85",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setfullknowledge",
-      "community": 10,
+      "community": 56,
       "norm_label": ".setfullknowledge()"
     },
     {
@@ -7890,10 +8360,40 @@
       "norm_label": "changelog \u2014 equivalent legacy"
     },
     {
-      "label": "0.0.0-beta.13",
+      "label": "0.0.0-beta.16",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
       "source_location": "L3",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_16",
+      "community": 15,
+      "norm_label": "0.0.0-beta.16"
+    },
+    {
+      "label": "0.0.0-beta.15",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_15",
+      "community": 15,
+      "norm_label": "0.0.0-beta.15"
+    },
+    {
+      "label": "0.0.0-beta.14",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_14",
+      "community": 15,
+      "norm_label": "0.0.0-beta.14"
+    },
+    {
+      "label": "0.0.0-beta.13",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_13",
       "community": 15,
@@ -7903,7 +8403,7 @@
       "label": "0.0.0-beta.12",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L7",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_12",
       "community": 15,
@@ -7913,7 +8413,7 @@
       "label": "0.0.0-beta.11",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L13",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_11",
       "community": 15,
@@ -7923,7 +8423,7 @@
       "label": "0.0.0-beta.10",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L21",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_10",
       "community": 15,
@@ -7933,7 +8433,7 @@
       "label": "0.0.0-beta.9",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L29",
+      "source_location": "L45",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_9",
       "community": 15,
@@ -7943,7 +8443,7 @@
       "label": "0.0.0-beta.8",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L35",
+      "source_location": "L51",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_8",
       "community": 15,
@@ -7953,7 +8453,7 @@
       "label": "0.0.0-beta.7",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L41",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_7",
       "community": 15,
@@ -7963,7 +8463,7 @@
       "label": "0.0.0-beta.6",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L47",
+      "source_location": "L63",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_6",
       "community": 15,
@@ -7973,7 +8473,7 @@
       "label": "0.0.0-beta.5",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L53",
+      "source_location": "L69",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_5",
       "community": 15,
@@ -7983,7 +8483,7 @@
       "label": "0.0.0-beta.4",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L59",
+      "source_location": "L75",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_4",
       "community": 15,
@@ -7993,7 +8493,7 @@
       "label": "0.0.0-beta.3",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L65",
+      "source_location": "L81",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_3",
       "community": 15,
@@ -8003,7 +8503,7 @@
       "label": "0.0.0-beta.2",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L72",
+      "source_location": "L88",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_2",
       "community": 15,
@@ -8013,7 +8513,7 @@
       "label": "0.0.0-beta.1",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L82",
+      "source_location": "L98",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_1",
       "community": 15,
@@ -8130,30 +8630,30 @@
       "norm_label": "reglas de naming y estilo (obligatorias)"
     },
     {
-      "label": "Lo ya implementado (fases 1-10, todo commiteado y compilando)",
+      "label": "Lo ya implementado (fases 1-13, todo commiteado, compilando y publicado en CurseForge)",
       "file_type": "document",
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "docs_context_for_opencode_lo_ya_implementado_fases_1_10_todo_commiteado_y_compilando",
+      "id": "docs_context_for_opencode_lo_ya_implementado_fases_1_13_todo_commiteado_compilando_y_publicado_en_curseforge",
       "community": 38,
-      "norm_label": "lo ya implementado (fases 1-10, todo commiteado y compilando)"
+      "norm_label": "lo ya implementado (fases 1-13, todo commiteado, compilando y publicado en curseforge)"
     },
     {
-      "label": "Lo que falta (beta.11 en adelante)",
+      "label": "Lo que falta (siguientes betas)",
       "file_type": "document",
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
-      "source_location": "L70",
+      "source_location": "L77",
       "_origin": "ast",
-      "id": "docs_context_for_opencode_lo_que_falta_beta_11_en_adelante",
+      "id": "docs_context_for_opencode_lo_que_falta_siguientes_betas",
       "community": 38,
-      "norm_label": "lo que falta (beta.11 en adelante)"
+      "norm_label": "lo que falta (siguientes betas)"
     },
     {
       "label": "Notas sobre el entorno (por qu\u00e9 esto existe)",
       "file_type": "document",
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
-      "source_location": "L78",
+      "source_location": "L86",
       "_origin": "ast",
       "id": "docs_context_for_opencode_notas_sobre_el_entorno_por_qu\u00e9_esto_existe",
       "community": 38,
@@ -8428,6 +8928,36 @@
       "id": "docs_curseforge_versions_0_0_0_beta_13",
       "community": 54,
       "norm_label": "0.0.0-beta.13.md"
+    },
+    {
+      "label": "0.0.0-beta.14.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.14.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_14",
+      "community": 65,
+      "norm_label": "0.0.0-beta.14.md"
+    },
+    {
+      "label": "0.0.0-beta.15.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.15.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_15",
+      "community": 66,
+      "norm_label": "0.0.0-beta.15.md"
+    },
+    {
+      "label": "0.0.0-beta.16.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.16.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_16",
+      "community": 67,
+      "norm_label": "0.0.0-beta.16.md"
     },
     {
       "label": "0.0.0-beta.2.md",
@@ -8746,6 +9276,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java",
       "source_location": "L3",
       "weight": 1.0,
@@ -8930,7 +9471,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L96",
+      "source_location": "L108",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
@@ -9006,7 +9547,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L96",
+      "source_location": "L108",
       "weight": 1.0,
       "context": "return_type",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
@@ -10083,6 +10624,17 @@
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks_equivalentlegacyblocks",
       "target": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks_java_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem",
+      "target": "blocks",
       "confidence_score": 1.0
     },
     {
@@ -13396,6 +13948,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_emchelper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
       "source_location": "L3",
       "weight": 1.0,
@@ -13547,6 +14110,17 @@
       "source": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemc",
       "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_normalizedsimplestack_normalizedsimplestack",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlemagnetandvoid",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemc"
     },
     {
       "relation": "calls",
@@ -15680,6 +16254,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java",
       "source_location": "L4",
       "weight": 1.0,
@@ -15884,6 +16469,17 @@
       "source": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem",
       "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_itemstack",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlemagnetandvoid",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem"
     },
     {
       "relation": "calls",
@@ -16130,6 +16726,329 @@
       "context": "return_type",
       "source": "src_main_java_com_skd_equivalentlegacy_emc_nss_normalizedsimplestack_normalizedsimplestack_codec",
       "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_normalizedsimplestack_java_mapcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_eventbussubscriber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_applyeffects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_curioevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlemagnetandvoid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlerepair",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_inventoryitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_onplayertick",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_eventbussubscriber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_onplayertick",
+      "target": "post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_onplayertick",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_applyeffects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_onplayertick",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlemagnetandvoid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_onplayertick",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlerepair",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_onplayertick",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_applyeffects",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_inventoryitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_applyeffects",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlemagnetandvoid",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L108",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlerepair",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L99",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_inventoryitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlemagnetandvoid",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_inventoryitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlemagnetandvoid",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlemagnetandvoid",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlerepair",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_inventoryitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
+      "source_location": "L99",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_inventoryitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_curioevents_java_itemstack",
       "confidence_score": 1.0
     },
     {
@@ -20020,6 +20939,48 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CovalenceDust.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_covalencedust",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CovalenceDust.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_covalencedust_covalencedust",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/DarkMatter.java",
       "source_location": "L3",
       "weight": 1.0,
@@ -20143,6 +21104,27 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome_tome",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/AlchemicalBag.java",
@@ -20252,10 +21234,21 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L64",
+      "source_location": "L94",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_alchemicalbag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_registerbag",
       "target": "src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_alchemicalbag",
       "confidence_score": 1.0
     },
@@ -20370,6 +21363,468 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CovalenceDust.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_covalencedust",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_covalencedust_covalencedust",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CovalenceDust.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_covalencedust_covalencedust",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_covalencedust_covalencedust_covalencedust",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L109",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_covalencedust_covalencedust",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_java_interactionresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem",
+      "target": "useoncontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem_curioitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem_gettype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem_useon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L146",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_registercurio",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem_curioitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem_gettype",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_black_hole_band",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_body_stone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_evertide_amulet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_gem_of_eternal_density",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_harvest_goddess_band",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_ignition_ring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_life_stone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_mind_stone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_repair_talisman",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_soul_stone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_swiftwolf_rending_gale",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_void_ring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_volcanite_amulet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_watch_of_flowing_time",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type_zero_ring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L151",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_registercurio",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem_useon",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_java_interactionresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem_useon",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_curioitem_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_curioitem_curioitem_useon",
+      "target": "useoncontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/DarkMatter.java",
       "source_location": "L5",
       "weight": 1.0,
@@ -20456,7 +21911,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
-      "source_location": "L78",
+      "source_location": "L116",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab_equivalentlegacycreativetab",
@@ -20639,7 +22094,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L128",
+      "source_location": "L213",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -20650,7 +22105,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L68",
+      "source_location": "L101",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -20661,7 +22116,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L159",
+      "source_location": "L244",
       "weight": 1.0,
       "context": "field",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -20672,7 +22127,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L134",
+      "source_location": "L219",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -20694,7 +22149,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L137",
+      "source_location": "L222",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -20705,7 +22160,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L131",
+      "source_location": "L216",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -20716,17 +22171,37 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L162",
+      "source_location": "L247",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_equivalentlegacyitems",
       "confidence_score": 1.0
     },
     {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_registerbag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_registercurio",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L159",
+      "source_location": "L244",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -20737,7 +22212,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L141",
+      "source_location": "L226",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -20748,7 +22223,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L85",
+      "source_location": "L170",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -20786,6 +22261,39 @@
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
       "target": "src_main_java_com_skd_equivalentlegacy_item_redmatter_redmatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L112",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_tome",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L96",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_registerbag",
+      "target": "deferreditem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L151",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_registercurio",
+      "target": "deferreditem",
       "confidence_score": 1.0
     },
     {
@@ -22259,6 +23767,190 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_java_interactionhand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_java_interactionresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_java_level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_tome",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome_tome",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_tome",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome_tome",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_java_interactionhand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_java_interactionresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_java_level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_tome_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasfullknowledge"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setfullknowledge"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_sync"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
       "source_location": "L4",
       "weight": 1.0,
@@ -22452,17 +24144,6 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
-      "source_location": "L14",
-      "weight": 1.0,
-      "context": "field",
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
       "source_location": "L43",
       "weight": 1.0,
       "context": "parameter_type",
@@ -22592,17 +24273,6 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
       "source_location": "L38",
       "weight": 1.0,
-      "context": "return_type",
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload_type",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java",
-      "source_location": "L38",
-      "weight": 1.0,
       "context": "attribute",
       "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_knowledgedatapayload_type",
       "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgedatapayload_java_override",
@@ -22710,17 +24380,6 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
-      "source_location": "L12",
-      "weight": 1.0,
-      "context": "field",
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
       "source_location": "L27",
       "weight": 1.0,
       "context": "parameter_type",
@@ -22760,17 +24419,6 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_unlearnitem",
       "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
-      "source_location": "L22",
-      "weight": 1.0,
-      "context": "return_type",
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_type",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java_type",
-      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -22885,17 +24533,6 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
-      "source_location": "L12",
-      "weight": 1.0,
-      "context": "field",
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
       "source_location": "L23",
       "weight": 1.0,
       "context": "parameter_type",
@@ -22924,17 +24561,6 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_syncemc",
       "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java",
-      "source_location": "L18",
-      "weight": 1.0,
-      "context": "return_type",
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_type",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java_type",
-      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -23060,17 +24686,6 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
-      "source_location": "L12",
-      "weight": 1.0,
-      "context": "field",
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
       "source_location": "L23",
       "weight": 1.0,
       "context": "parameter_type",
@@ -23110,17 +24725,6 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_sync",
       "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java",
-      "source_location": "L18",
-      "weight": 1.0,
-      "context": "return_type",
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_type",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_type",
-      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -23213,17 +24817,6 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
-      "source_location": "L12",
-      "weight": 1.0,
-      "context": "field",
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
       "source_location": "L23",
       "weight": 1.0,
       "context": "parameter_type",
@@ -23239,17 +24832,6 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload",
       "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java",
-      "source_location": "L18",
-      "weight": 1.0,
-      "context": "return_type",
-      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_transmuterequestpayload_type",
-      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_transmuterequestpayload_java_type",
       "confidence_score": 1.0
     },
     {
@@ -24025,7 +25607,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L82",
+      "source_location": "L98",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_1",
@@ -24035,7 +25617,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L21",
+      "source_location": "L37",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_10",
@@ -24045,7 +25627,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L13",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_11",
@@ -24055,7 +25637,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L7",
+      "source_location": "L23",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_12",
@@ -24065,7 +25647,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L3",
+      "source_location": "L19",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_13",
@@ -24075,7 +25657,37 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L72",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "changelog_changelog_equivalent_legacy",
+      "target": "changelog_0_0_0_beta_14",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "changelog_changelog_equivalent_legacy",
+      "target": "changelog_0_0_0_beta_15",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "changelog_changelog_equivalent_legacy",
+      "target": "changelog_0_0_0_beta_16",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L88",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_2",
@@ -24085,7 +25697,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L65",
+      "source_location": "L81",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_3",
@@ -24095,7 +25707,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L59",
+      "source_location": "L75",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_4",
@@ -24105,7 +25717,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L53",
+      "source_location": "L69",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_5",
@@ -24115,7 +25727,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L47",
+      "source_location": "L63",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_6",
@@ -24125,7 +25737,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L41",
+      "source_location": "L57",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_7",
@@ -24135,7 +25747,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L35",
+      "source_location": "L51",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_8",
@@ -24145,7 +25757,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L29",
+      "source_location": "L45",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_9",
@@ -24215,10 +25827,10 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
-      "source_location": "L70",
+      "source_location": "L77",
       "weight": 1.0,
       "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
-      "target": "docs_context_for_opencode_lo_que_falta_beta_11_en_adelante",
+      "target": "docs_context_for_opencode_lo_que_falta_siguientes_betas",
       "confidence_score": 1.0
     },
     {
@@ -24228,14 +25840,14 @@
       "source_location": "L32",
       "weight": 1.0,
       "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
-      "target": "docs_context_for_opencode_lo_ya_implementado_fases_1_10_todo_commiteado_y_compilando",
+      "target": "docs_context_for_opencode_lo_ya_implementado_fases_1_13_todo_commiteado_compilando_y_publicado_en_curseforge",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
-      "source_location": "L78",
+      "source_location": "L86",
       "weight": 1.0,
       "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
       "target": "docs_context_for_opencode_notas_sobre_el_entorno_por_qu\u00e9_esto_existe",
@@ -24479,5 +26091,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "778827b650cc009a3e39460e7a8a85920346286b"
+  "built_at_commit": "877c52df4a8f1a577d42cdf41ccdce0122a3d706"
 }

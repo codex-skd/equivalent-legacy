@@ -15,8 +15,8 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java": {
-    "mtime": 1785549185.6087296,
-    "ast_hash": "e7cc3e3999fa35fdf1732fe4acf3c14a",
+    "mtime": 1785551355.1131828,
+    "ast_hash": "38594b81dfc530a67fbaf176fa16fd27",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java": {
@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1785549608.5809464,
-    "ast_hash": "3350b29d961900ca1ff2273497ba90fb",
+    "mtime": 1785551685.6718454,
+    "ast_hash": "3df861e2dd4e95a601fd5deb7862bdd4",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785549770.649483,
-    "ast_hash": "82abe88a4095918be25d9ca1798ebbab",
+    "mtime": 1785551761.7129793,
+    "ast_hash": "d07919429143269d12207f92e6ba5a39",
     "semantic_hash": ""
   },
   "README.md": {
@@ -195,13 +195,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java": {
-    "mtime": 1785549550.1087587,
-    "ast_hash": "547272f7c0b16f34399cb4b4740ac3c2",
+    "mtime": 1785551621.2327178,
+    "ast_hash": "9cbfa63b830f8feadd615efc11398655",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java": {
-    "mtime": 1785549545.1811137,
-    "ast_hash": "d2a640c74b5e32b25fe57b253642a8fa",
+    "mtime": 1785551614.8584654,
+    "ast_hash": "64fe3276d8bc95a23efe5c6f4ae9a47b",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java": {
@@ -420,8 +420,8 @@
     "semantic_hash": ""
   },
   "docs/CONTEXT_FOR_OPENCODE.md": {
-    "mtime": 1785548401.2043104,
-    "ast_hash": "a603ca3fd061391fd71fed317359b461",
+    "mtime": 1785549833.4127433,
+    "ast_hash": "86b2ddcd4a916e0226b3cd3cbefe55eb",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.7.md": {
@@ -1764,11 +1764,6 @@
     "ast_hash": "27ae9896eb5111339da4a56478077357",
     "semantic_hash": ""
   },
-  "src/main/resources/assets/equivalent_legacy/items/alchemical_bag.json": {
-    "mtime": 1785549603.4700458,
-    "ast_hash": "c2d19855d33f2f7da8f65a87f2b1eded",
-    "semantic_hash": ""
-  },
   "src/main/resources/assets/equivalent_legacy/items/alchemical_chest.json": {
     "mtime": 1785549603.473094,
     "ast_hash": "9e6f42f24bbcfeb5f03cc2717cd70e0b",
@@ -1779,24 +1774,14 @@
     "ast_hash": "11b6bc3592dfda19a21c1dde6cf6ed7c",
     "semantic_hash": ""
   },
-  "src/main/resources/assets/equivalent_legacy/models/item/alchemical_bag.json": {
-    "mtime": 1785549603.4465709,
-    "ast_hash": "5cf7cdcbe7d815cbb236dccb7ba246b7",
-    "semantic_hash": ""
-  },
   "src/main/resources/data/equivalent_legacy/loot_table/blocks/alchemical_chest.json": {
     "mtime": 1785549603.518799,
     "ast_hash": "87c8f8765dd6724a0cbed7248b9f1746",
     "semantic_hash": ""
   },
-  "src/main/resources/data/equivalent_legacy/recipe/alchemical_bag.json": {
-    "mtime": 1785549603.6705515,
-    "ast_hash": "907e4f3ebf30b26e89cb567afc0c8073",
-    "semantic_hash": ""
-  },
   "src/main/resources/data/equivalent_legacy/recipe/alchemical_chest.json": {
-    "mtime": 1785549603.601634,
-    "ast_hash": "33219d5ec5caeca8c1c21c844160d18c",
+    "mtime": 1785551368.662539,
+    "ast_hash": "4b6483ee3032a4efd8046d77df80c2a4",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.12.md": {
@@ -1815,7 +1800,7 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/red.png": {
-    "mtime": 1785549590.5487614,
+    "mtime": 1785551474.4355128,
     "ast_hash": "cda577ecd5794d1e38887fd4a81e85ea",
     "semantic_hash": ""
   },
@@ -1852,6 +1837,791 @@
   "src/main/resources/assets/equivalent_legacy/textures/slot/empty_klein_star.png": {
     "mtime": 1785549735.0483017,
     "ast_hash": "81bfe1b152c6162112f3be76cc006748",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java": {
+    "mtime": 1785551734.735277,
+    "ast_hash": "8ffaa240a6cc4b9ab97787dd3049c609",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/CovalenceDust.java": {
+    "mtime": 1785551335.7791715,
+    "ast_hash": "81d930ff1cd16be7eab215d072809578",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/CurioItem.java": {
+    "mtime": 1785551710.5924263,
+    "ast_hash": "5132329adf22b50b2d2c533e03bba279",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/Tome.java": {
+    "mtime": 1785551335.8147361,
+    "ast_hash": "b34f9a54de4d72d16a1de4fdd675dfb0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/arcana_ring.json": {
+    "mtime": 1785551644.1446586,
+    "ast_hash": "9c8a978bd87058a18c7d56461a75a436",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/black_alchemical_bag.json": {
+    "mtime": 1785551474.6363468,
+    "ast_hash": "8a0abd0d1667281c2a6733a81242d756",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/black_hole_band.json": {
+    "mtime": 1785551644.1237192,
+    "ast_hash": "d8baf864c576c1d9aa1df028db1847f7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/blue_alchemical_bag.json": {
+    "mtime": 1785551474.6379573,
+    "ast_hash": "7802281ffdcc3299c9664f7257f3031d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/body_stone.json": {
+    "mtime": 1785551644.1242218,
+    "ast_hash": "ff4745cd0c6c6b7125675829fdd87d1b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/brown_alchemical_bag.json": {
+    "mtime": 1785551474.6379573,
+    "ast_hash": "bae8955dcd2e9824ca28125411eef5de",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/cyan_alchemical_bag.json": {
+    "mtime": 1785551474.6394825,
+    "ast_hash": "e2cc6d67298da4bc386e5ae75efbfacf",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/evertide_amulet.json": {
+    "mtime": 1785551644.1252239,
+    "ast_hash": "103d761a0a9eea7a88005774e70492c5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/gem_of_eternal_density.json": {
+    "mtime": 1785551644.1267521,
+    "ast_hash": "9b0db2d6e93885d3be39799c852fccd6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/gray_alchemical_bag.json": {
+    "mtime": 1785551474.649645,
+    "ast_hash": "e54a86268020beef3ec31003e62705b7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/green_alchemical_bag.json": {
+    "mtime": 1785551474.651177,
+    "ast_hash": "abaaf67e13900945f246554e5d6bd169",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/harvest_goddess_band.json": {
+    "mtime": 1785551644.1282797,
+    "ast_hash": "d991dc7ce021cc1e1e1030909a76cb97",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/high_covalence_dust.json": {
+    "mtime": 1785551360.4699414,
+    "ast_hash": "bedaaece2e5e563b6e288d5143fd53c0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/ignition_ring.json": {
+    "mtime": 1785551644.1282797,
+    "ast_hash": "42e447665a033ae3e38def10a1b9c1ea",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/iron_band.json": {
+    "mtime": 1785551644.122711,
+    "ast_hash": "38a9aacdf144e282bb9727e221c4c5b3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/life_stone.json": {
+    "mtime": 1785551644.1298144,
+    "ast_hash": "b2e118de5943c12536af90801e235bbd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/light_blue_alchemical_bag.json": {
+    "mtime": 1785551474.6543517,
+    "ast_hash": "c43766d42e0074b25ef491c6e6c2ea36",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/light_gray_alchemical_bag.json": {
+    "mtime": 1785551474.6563663,
+    "ast_hash": "e71f9a343c3e2c34abe987a85ba804e6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/lime_alchemical_bag.json": {
+    "mtime": 1785551474.6589105,
+    "ast_hash": "90664ff007ba1ab4847f2b6b4ab9794a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/low_covalence_dust.json": {
+    "mtime": 1785551360.463418,
+    "ast_hash": "8646f172506a25c451b50b4f549da549",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/magenta_alchemical_bag.json": {
+    "mtime": 1785551474.6650455,
+    "ast_hash": "3a1b50667f65fdfd412b486ea08b240d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/medium_covalence_dust.json": {
+    "mtime": 1785551360.4679494,
+    "ast_hash": "228a2a64fd9b063e82373e17c4bfc152",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/mind_stone.json": {
+    "mtime": 1785551644.1344285,
+    "ast_hash": "2a1ed03191a63fa1c9f14673f03e8735",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/orange_alchemical_bag.json": {
+    "mtime": 1785551474.667552,
+    "ast_hash": "116c26fa4616cf0d95691c56998b005c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/pink_alchemical_bag.json": {
+    "mtime": 1785551474.669084,
+    "ast_hash": "ab164d16110f3fae5be9386f6f22b105",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/purple_alchemical_bag.json": {
+    "mtime": 1785551474.6737,
+    "ast_hash": "ba9c2d6873bea3827d5da1519f7c2d25",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_alchemical_bag.json": {
+    "mtime": 1785551474.678313,
+    "ast_hash": "9a5841c565c82ab308ae96459ac7d049",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/repair_talisman.json": {
+    "mtime": 1785551644.1359315,
+    "ast_hash": "b6b38d69c85ae84d031dfa03f64c3dd9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/soul_stone.json": {
+    "mtime": 1785551644.1374435,
+    "ast_hash": "f231c94ad132e33f26f3aa059ffb4b16",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/swiftwolf_rending_gale.json": {
+    "mtime": 1785551644.1390796,
+    "ast_hash": "42abcfefad3b6656d3fb817ec4bb5b59",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/tome.json": {
+    "mtime": 1785551360.470939,
+    "ast_hash": "efd50fe17d2b1da60feeba12c94936e2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/void_ring.json": {
+    "mtime": 1785551644.1400902,
+    "ast_hash": "1e2cf13d4df1c9f3c96e6bb6b6717738",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/volcanite_amulet.json": {
+    "mtime": 1785551644.1415951,
+    "ast_hash": "b5aa543b65e027ca6caec3cf052c1569",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/watch_of_flowing_time.json": {
+    "mtime": 1785551644.1415951,
+    "ast_hash": "365b11be77c8f0751799d31347de969c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/white_alchemical_bag.json": {
+    "mtime": 1785551474.680829,
+    "ast_hash": "1ab2c9f47b0f17d80294224a3af44703",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/yellow_alchemical_bag.json": {
+    "mtime": 1785551474.6839645,
+    "ast_hash": "673a033a0302ea9fdf48fdbd8ab3b752",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/zero_ring.json": {
+    "mtime": 1785551644.1431222,
+    "ast_hash": "97ef0713822d56b9b2b984223794eebd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/arcana_ring.json": {
+    "mtime": 1785551644.1431222,
+    "ast_hash": "3eb3702a516d2e90f294f6f32c382763",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/black_alchemical_bag.json": {
+    "mtime": 1785551474.6363468,
+    "ast_hash": "96ed8961bc95d11a3c47b37dcd91d1a4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/black_hole_band.json": {
+    "mtime": 1785551644.122711,
+    "ast_hash": "1f4530837b60053a22ae7683ca6c477b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/blue_alchemical_bag.json": {
+    "mtime": 1785551474.6363468,
+    "ast_hash": "15d4f0cd6e40b0d2ec4129d472f395dc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/body_stone.json": {
+    "mtime": 1785551644.1242218,
+    "ast_hash": "6b224001b122201c84e971b87a21afb0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/brown_alchemical_bag.json": {
+    "mtime": 1785551474.6379573,
+    "ast_hash": "f994218d6392d6d85461d5706a3ad26d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/cyan_alchemical_bag.json": {
+    "mtime": 1785551474.6394825,
+    "ast_hash": "d5ea2ed0e09c48d64d7f963e45862fe9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/evertide_amulet.json": {
+    "mtime": 1785551644.1252239,
+    "ast_hash": "c2b4ac159d25951e4f8295c903ad73f8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_of_eternal_density.json": {
+    "mtime": 1785551644.1267521,
+    "ast_hash": "1a2fc10ac2d28376b0000f83efece495",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gray_alchemical_bag.json": {
+    "mtime": 1785551474.6425345,
+    "ast_hash": "d63edae5549819181e8133a825bfd7d4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/green_alchemical_bag.json": {
+    "mtime": 1785551474.651177,
+    "ast_hash": "849ac1c77996f83fa5a01d6980fb22a8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/harvest_goddess_band.json": {
+    "mtime": 1785551644.1282797,
+    "ast_hash": "2e06427b2f232b15a68ad481a1be82d0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/high_covalence_dust.json": {
+    "mtime": 1785551360.4689455,
+    "ast_hash": "27919b6fd1fbeb7b964d131be54dc140",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/ignition_ring.json": {
+    "mtime": 1785551644.1282797,
+    "ast_hash": "c97691d2eda27b4cdc9072ee7386e640",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/iron_band.json": {
+    "mtime": 1785551644.1211424,
+    "ast_hash": "df2b0ababb923175bf5786e59c16cfc6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/life_stone.json": {
+    "mtime": 1785551644.1298144,
+    "ast_hash": "3a12a213f22f9ce1dea170837f399e97",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/light_blue_alchemical_bag.json": {
+    "mtime": 1785551474.6527958,
+    "ast_hash": "12f13fab03b7e57b3810fd0034fbf74a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/light_gray_alchemical_bag.json": {
+    "mtime": 1785551474.6548645,
+    "ast_hash": "0fb56b87773d490b62d183f61006873a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/lime_alchemical_bag.json": {
+    "mtime": 1785551474.6573713,
+    "ast_hash": "f87df39e96e5759b003a435d90967db8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/low_covalence_dust.json": {
+    "mtime": 1785551360.463418,
+    "ast_hash": "2056e006f69e29c460848d1959a709e9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/magenta_alchemical_bag.json": {
+    "mtime": 1785551474.6645246,
+    "ast_hash": "98ba4c64fae979afaac2f4a50ea1c4a5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/medium_covalence_dust.json": {
+    "mtime": 1785551360.4659522,
+    "ast_hash": "2ce0ffad3e613710a9b322ebb88e2572",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/mind_stone.json": {
+    "mtime": 1785551644.131346,
+    "ast_hash": "2ce89f4b587d32ff3ed28aa8e5e489dc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/orange_alchemical_bag.json": {
+    "mtime": 1785551474.6670496,
+    "ast_hash": "4451db94244208a8e80bb42795579a2e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/pink_alchemical_bag.json": {
+    "mtime": 1785551474.669084,
+    "ast_hash": "3c330d5301e754150134d5cf84dd7040",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/purple_alchemical_bag.json": {
+    "mtime": 1785551474.670624,
+    "ast_hash": "b92dda528a6723dc0a88216874f414c9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_alchemical_bag.json": {
+    "mtime": 1785551474.678313,
+    "ast_hash": "5cf7cdcbe7d815cbb236dccb7ba246b7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/repair_talisman.json": {
+    "mtime": 1785551644.1359315,
+    "ast_hash": "9ab36dce1e363887a8ea0d9ed44328b9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/soul_stone.json": {
+    "mtime": 1785551644.1374435,
+    "ast_hash": "ecde6c443ca86a393b341fd18ec947bb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/swiftwolf_rending_gale.json": {
+    "mtime": 1785551644.1374435,
+    "ast_hash": "99f6b6dc22cdb336bbbd6600a3416c90",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/tome.json": {
+    "mtime": 1785551360.4699414,
+    "ast_hash": "fdd7a1b70c37e366ed7fab366d734a64",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/void_ring.json": {
+    "mtime": 1785551644.1390796,
+    "ast_hash": "f256f5bfda61ab39e51cee24f7ddf340",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/volcanite_amulet.json": {
+    "mtime": 1785551644.1405928,
+    "ast_hash": "1543bb5482bbede523adde3247fa1e1c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/watch_of_flowing_time.json": {
+    "mtime": 1785551644.1415951,
+    "ast_hash": "d834276e0f9de47aeaf90d5ae75e06df",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/white_alchemical_bag.json": {
+    "mtime": 1785551474.680829,
+    "ast_hash": "a75864b456aa4c860fb216e72a2ec464",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/yellow_alchemical_bag.json": {
+    "mtime": 1785551474.6839645,
+    "ast_hash": "beec6a851fd306e230c802dd5ecaf72b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/zero_ring.json": {
+    "mtime": 1785551644.1431222,
+    "ast_hash": "7461b33004e96b970b4634bf899736ea",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/curios/tags/item/belt.json": {
+    "mtime": 1785551679.8550985,
+    "ast_hash": "38c5d25240185aa83dfa8b644c6d8586",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/curios/tags/item/necklace.json": {
+    "mtime": 1785551679.856671,
+    "ast_hash": "882ac9419aa63ee4c8e16a1e19523716",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/curios/tags/item/ring.json": {
+    "mtime": 1785551679.856671,
+    "ast_hash": "24d5666efd0d7c88ad1b93b98b214071",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/arcana_ring.json": {
+    "mtime": 1785551672.3451726,
+    "ast_hash": "cd0ab44041820df53a6b079c00829556",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/black_alchemical_bag.json": {
+    "mtime": 1785551474.6363468,
+    "ast_hash": "8de05d530f3b9a9d8e298896cc9e5c76",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/black_hole_band.json": {
+    "mtime": 1785551672.3350468,
+    "ast_hash": "de3141db86ccd099340f803ef15fbfcd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/blue_alchemical_bag.json": {
+    "mtime": 1785551474.6379573,
+    "ast_hash": "fad4cf7dce7fdcc9a7da4719ffc1571c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/body_stone.json": {
+    "mtime": 1785551672.3350468,
+    "ast_hash": "3c35dc6f52099dc20cd5daf91aa1ea4d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/brown_alchemical_bag.json": {
+    "mtime": 1785551474.6394825,
+    "ast_hash": "b71964cd1f7559514c2330d54aaa01ed",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/cyan_alchemical_bag.json": {
+    "mtime": 1785551474.6410196,
+    "ast_hash": "6acd0e3c00d9ffc5bf9efb63c84837d5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/evertide_amulet.json": {
+    "mtime": 1785551672.3350468,
+    "ast_hash": "097ac2bbd2282c688f64d3c53be7952a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/gem_of_eternal_density.json": {
+    "mtime": 1785551672.3365479,
+    "ast_hash": "1e142177c13f3b78db780ff5eda3545c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/gray_alchemical_bag.json": {
+    "mtime": 1785551474.651177,
+    "ast_hash": "a959d4ab0118e01399684aa52eca4c1a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/green_alchemical_bag.json": {
+    "mtime": 1785551474.6527958,
+    "ast_hash": "ee79dfcc5cff0b007b68e9fae33d9f00",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/harvest_goddess_band.json": {
+    "mtime": 1785551672.337051,
+    "ast_hash": "ae2090fc593d761db4a906f31199a608",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/high_covalence_dust.json": {
+    "mtime": 1785551368.6600013,
+    "ast_hash": "aa268732827356151254e0bdff7339c3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/ignition_ring.json": {
+    "mtime": 1785551672.3375535,
+    "ast_hash": "77b7981261b67717a147794b004a73cb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/iron_band.json": {
+    "mtime": 1785551672.3345401,
+    "ast_hash": "8b8dda714f519e077ba6057a9aa24ca9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/life_stone.json": {
+    "mtime": 1785551672.3375535,
+    "ast_hash": "ebebea62a4d28fde789b39e3875b66a9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/light_blue_alchemical_bag.json": {
+    "mtime": 1785551474.6548645,
+    "ast_hash": "56e786f01d15607bc0e0cbd62d5c8f39",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/light_gray_alchemical_bag.json": {
+    "mtime": 1785551474.6568694,
+    "ast_hash": "2f23c0a8ab7165edf6f83e328ddd2dba",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/lime_alchemical_bag.json": {
+    "mtime": 1785551474.663522,
+    "ast_hash": "f6a7870ddbabd7b847c1bec0398b17fc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/low_covalence_dust.json": {
+    "mtime": 1785551368.6539109,
+    "ast_hash": "82783a7b4872730af8b39ba21c1e6eeb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/magenta_alchemical_bag.json": {
+    "mtime": 1785551474.6650455,
+    "ast_hash": "b3e81225841c58fe2f2a6bc2486fecf3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/medium_covalence_dust.json": {
+    "mtime": 1785551368.6584723,
+    "ast_hash": "2e5634527dbbd312b2b5d5dc0af570fc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/mind_stone.json": {
+    "mtime": 1785551672.3375535,
+    "ast_hash": "42457e861e781e42143175b5f65c3ef4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/orange_alchemical_bag.json": {
+    "mtime": 1785551474.667552,
+    "ast_hash": "b0487d4bd3f95cc1e288d51478cb737b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/pink_alchemical_bag.json": {
+    "mtime": 1785551474.669084,
+    "ast_hash": "8f730b37cf6943ee057bdc833fad571d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/purple_alchemical_bag.json": {
+    "mtime": 1785551474.6767666,
+    "ast_hash": "dd67b2e5d477d5e892f81886e164f6b4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_alchemical_bag.json": {
+    "mtime": 1785551474.6798263,
+    "ast_hash": "441851a43c4fe121c37fe03a6566bf35",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/repair_talisman.json": {
+    "mtime": 1785551672.3390756,
+    "ast_hash": "8c04636127e300fcd6710bb7f5a42191",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/soul_stone.json": {
+    "mtime": 1785551672.3390756,
+    "ast_hash": "09290eed0b55caa7cf9ee843321d174f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/swiftwolf_rending_gale.json": {
+    "mtime": 1785551672.3390756,
+    "ast_hash": "f01a646a51a791ff5f2c4bce4af15365",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/tome.json": {
+    "mtime": 1785551368.6615283,
+    "ast_hash": "bbd0d5ab41e6641625841e11b8a2f026",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/void_ring.json": {
+    "mtime": 1785551672.3406048,
+    "ast_hash": "10899685fd1182dc1794e5b4bbe7875f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/volcanite_amulet.json": {
+    "mtime": 1785551672.3421347,
+    "ast_hash": "31e1db0cbd5ecab1fe0216e734dd02bc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/watch_of_flowing_time.json": {
+    "mtime": 1785551672.3421347,
+    "ast_hash": "d84d9740196975f36ba0d44c2230b63d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/white_alchemical_bag.json": {
+    "mtime": 1785551474.6823635,
+    "ast_hash": "e0e65ae06025e975ccf2911aad42b716",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/yellow_alchemical_bag.json": {
+    "mtime": 1785551474.6849647,
+    "ast_hash": "304a8382bf49b755e35ead08aa852f3b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/zero_ring.json": {
+    "mtime": 1785551672.3421347,
+    "ast_hash": "b137826a72dd03af12b1978295b98b00",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.14.md": {
+    "mtime": 1785551420.9820518,
+    "ast_hash": "9a889933fd1f5b79afcf99478b3f6f32",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.15.md": {
+    "mtime": 1785551503.7933004,
+    "ast_hash": "8a51e576dcfddca569d71c0ec810ecdd",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.16.md": {
+    "mtime": 1785551756.7156568,
+    "ast_hash": "a823d2ade50f6e1864d227e816b6993e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/black.png": {
+    "mtime": 1785551473.972061,
+    "ast_hash": "13b6d5e91787c7dcf208c42638c52618",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/blue.png": {
+    "mtime": 1785551474.0079396,
+    "ast_hash": "cb65bc5fd50e58aa5f62ee2c1656b476",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/brown.png": {
+    "mtime": 1785551474.0411873,
+    "ast_hash": "1f3995034fe084ddc047eb05e540495d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/cyan.png": {
+    "mtime": 1785551474.069524,
+    "ast_hash": "52feb617b3775cae3ba5f7900bff7101",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/gray.png": {
+    "mtime": 1785551474.101754,
+    "ast_hash": "d21b5628d02a65dce1b697fd2779f95c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/green.png": {
+    "mtime": 1785551474.134546,
+    "ast_hash": "8b95a6cf29d4cc9c8a14ca38aa825014",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/light_blue.png": {
+    "mtime": 1785551474.1686702,
+    "ast_hash": "0ba98b7fee815e7d7900e3073e57df8c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/light_gray.png": {
+    "mtime": 1785551474.213231,
+    "ast_hash": "da5213d84a1e6a9012f8978b57b380f6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/lime.png": {
+    "mtime": 1785551474.2457922,
+    "ast_hash": "199ebd2315c1b0424ea829ed7bf75a10",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/magenta.png": {
+    "mtime": 1785551474.281414,
+    "ast_hash": "4ad79937c06683c53963c23aeb301213",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/orange.png": {
+    "mtime": 1785551474.331659,
+    "ast_hash": "a4aed5534410f63c44fdb7c1d49e1048",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/pink.png": {
+    "mtime": 1785551474.3716989,
+    "ast_hash": "32555fc309bcb82d21cc7ca121a91da4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/purple.png": {
+    "mtime": 1785551474.4025042,
+    "ast_hash": "26c6ca1522dc31dd13bcb0b50148adb6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/white.png": {
+    "mtime": 1785551474.46778,
+    "ast_hash": "f1216e4f40c3448772f35b60ac785fef",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/yellow.png": {
+    "mtime": 1785551474.488636,
+    "ast_hash": "be6a4e97753f3686d0e067d1ca6607d9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/covalence_dust/high.png": {
+    "mtime": 1785551330.3310642,
+    "ast_hash": "bfb7de1492a5665679df73928773c1f2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/covalence_dust/low.png": {
+    "mtime": 1785551330.2413385,
+    "ast_hash": "1ff62d545199a505211860c05c6475b0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/covalence_dust/medium.png": {
+    "mtime": 1785551330.2875023,
+    "ast_hash": "884248c8219fa4e2d87249a16974d572",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dense_gem_off.png": {
+    "mtime": 1785551643.6219637,
+    "ast_hash": "fcf40e5e699f2fd4946a3d7da886d04d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/repair_talisman.png": {
+    "mtime": 1785551643.8398416,
+    "ast_hash": "56cfe458c8a6f44f95078845beb22af9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/arcana_0.png": {
+    "mtime": 1785551643.4619367,
+    "ast_hash": "5d187d8b42fd99cccbdff6394dfd33fe",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/black_hole_off.png": {
+    "mtime": 1785551643.4987776,
+    "ast_hash": "0f04c13975ffed32da4940adff25dc6c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/body_stone_off.png": {
+    "mtime": 1785551643.533359,
+    "ast_hash": "52a9b5199bf3b401c2ba85e1821e4854",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/evertide_amulet.png": {
+    "mtime": 1785551643.574737,
+    "ast_hash": "042c4e7a92f90f34ab5a934137c0d76f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/harvest_god_off.png": {
+    "mtime": 1785551643.6677887,
+    "ast_hash": "04a79cf3a8078afb64770200de113ffb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/ignition_off.png": {
+    "mtime": 1785551643.7127268,
+    "ast_hash": "783c4c7fb2313a58a9c506cec58ac94e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/iron_band.png": {
+    "mtime": 1785551643.7452042,
+    "ast_hash": "11a4fa468ea3eec5ae4f211af69aca8d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/life_stone_off.png": {
+    "mtime": 1785551643.7763104,
+    "ast_hash": "ce4c2e568945e02c3c4d2e5ab4b18ea2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/mind_stone_off.png": {
+    "mtime": 1785551643.805645,
+    "ast_hash": "8869343548adecc4f71a4c19f0877b18",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/soul_stone_off.png": {
+    "mtime": 1785551643.8747413,
+    "ast_hash": "10800a5c552ee05c08c4d5c2d7de4b50",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/swrg_off.png": {
+    "mtime": 1785551643.921477,
+    "ast_hash": "395ca51e1390c0dded30516e51b4f388",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/time_watch_off.png": {
+    "mtime": 1785551644.0666213,
+    "ast_hash": "8192e4dcdddac83c21395d0e2c1e7d3d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/void_off.png": {
+    "mtime": 1785551643.9721682,
+    "ast_hash": "0c34119ba68eb39c0c25cf25bab17873",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/volcanite_amulet.png": {
+    "mtime": 1785551644.016928,
+    "ast_hash": "7c19a71a7803acda206c104cc57893e1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/zero_off.png": {
+    "mtime": 1785551644.1088653,
+    "ast_hash": "8efc05033c1a7959344bd9ea3e71a46a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/tome.png": {
+    "mtime": 1785551330.3788352,
+    "ast_hash": "32518e95ac8542141a1dce77a35fe7f0",
     "semantic_hash": ""
   }
 }

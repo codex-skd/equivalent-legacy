@@ -53,5 +53,18 @@
   "51": "MatterMaterials",
   "52": "0.0.0-beta.11.md",
   "53": "0.0.0-beta.12.md",
-  "54": "0.0.0-beta.13.md"
+  "54": "0.0.0-beta.13.md",
+  "55": "CurioEvents.java",
+  "56": ".use",
+  "57": "CurioItem",
+  "58": ".syncKnowledgeDataIfChanged",
+  "59": "KnowledgeSyncChangePayload.java",
+  "60": "KnowledgeSyncEmcPayload.java",
+  "61": "KnowledgeSyncPayload.java",
+  "62": "TransmuteRequestPayload.java",
+  "63": "EquivalentLegacyAttachments.java",
+  "64": "PacketHandler.java",
+  "65": "0.0.0-beta.14.md",
+  "66": "0.0.0-beta.15.md",
+  "67": "0.0.0-beta.16.md"
 }
