@@ -1,5 +1,11 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.19
+
+- **Tool charge system**: shift-right-click cycles 0-3 charge on swords, pickaxes, hammers (Charge tooltip).
+- **Area mining**: hammers and pickaxes mine a face-aligned AOE scaled by charge.
+- **Area attacks**: matter swords damage nearby mobs scaled by charge.
+
 ## 0.0.0-beta.18
 
 - **Transmutation Table** (block) and **Transmutation Tablet** (item): open the transmutation GUI.
