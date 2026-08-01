@@ -20,13 +20,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java": {
-    "mtime": 1785549181.0605261,
-    "ast_hash": "d086f6d143bcbdf75b1d87204f1ace5e",
+    "mtime": 1785549530.8391302,
+    "ast_hash": "ef462046fa024e3795a712cab8f6d872",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1785549324.4766524,
-    "ast_hash": "555da0a5a2bf2bce1af3ad25e524ecd2",
+    "mtime": 1785549608.5809464,
+    "ast_hash": "3350b29d961900ca1ff2273497ba90fb",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785549364.0254352,
-    "ast_hash": "023929f6a1b72a2ecc01f6cb1e865e38",
+    "mtime": 1785549654.682106,
+    "ast_hash": "1aaa11c9f7581b4b6c7f31f3e6188726",
     "semantic_hash": ""
   },
   "README.md": {
@@ -190,18 +190,18 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/EquivalentLegacyBlocks.java": {
-    "mtime": 1785549079.794958,
-    "ast_hash": "4327ba9f397ac83d2440f73eb5a336da",
+    "mtime": 1785549535.6612,
+    "ast_hash": "fdc107f6cbed2dfa1ac54d79e673b7b1",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java": {
-    "mtime": 1785549197.8450015,
-    "ast_hash": "cd1cb12fc485f7486706966b89898299",
+    "mtime": 1785549550.1087587,
+    "ast_hash": "547272f7c0b16f34399cb4b4740ac3c2",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java": {
-    "mtime": 1785549192.6196399,
-    "ast_hash": "516cf14faa09faf59023ce55b2648482",
+    "mtime": 1785549545.1811137,
+    "ast_hash": "d2a640c74b5e32b25fe57b253642a8fa",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java": {
@@ -275,8 +275,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java": {
-    "mtime": 1785549251.7047424,
-    "ast_hash": "44638477e51e45688cdcaae3c79471dd",
+    "mtime": 1785549521.1203558,
+    "ast_hash": "9bf71a07e5a555bded919cb565ee73ed",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java": {
@@ -1365,8 +1365,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/EquivalentLegacyBlockEntities.java": {
-    "mtime": 1785548990.8387957,
-    "ast_hash": "462ab442dd8b8484f97cd58313185968",
+    "mtime": 1785549540.1980703,
+    "ast_hash": "f907d7b92210b4ffed4cfa62b9e79e1e",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/MachineTiers.java": {
@@ -1722,6 +1722,101 @@
   "src/main/resources/assets/equivalent_legacy/textures/gui/relay3.png": {
     "mtime": 1785548739.0631592,
     "ast_hash": "3ff5306be98441541a02ce42b3aa0060",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java": {
+    "mtime": 1785549480.8370798,
+    "ast_hash": "0bb62b0af1e39552e31900aadae40ee0",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/gui/BagMenu.java": {
+    "mtime": 1785549487.588027,
+    "ast_hash": "1df2a206b6d13fe5527bfff885841007",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/gui/BagScreen.java": {
+    "mtime": 1785549510.7131462,
+    "ast_hash": "9ad04c1f7ce7a30e3d01ffad552b762a",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java": {
+    "mtime": 1785549494.6827736,
+    "ast_hash": "43a8a231508a794d2b3f54adfc0a6bde",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/gui/ChestScreen.java": {
+    "mtime": 1785549514.4219353,
+    "ast_hash": "5456798dfa09781393b56cdd70dcf357",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/gui/StorageScreen.java": {
+    "mtime": 1785549506.481293,
+    "ast_hash": "8559e79287c155e3ca23cfafb950659b",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/AlchemicalBag.java": {
+    "mtime": 1785549571.1811843,
+    "ast_hash": "88ef18b9491c070ed3c1d6add4713853",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/blockstates/alchemical_chest.json": {
+    "mtime": 1785549603.4716036,
+    "ast_hash": "27ae9896eb5111339da4a56478077357",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/alchemical_bag.json": {
+    "mtime": 1785549603.4700458,
+    "ast_hash": "c2d19855d33f2f7da8f65a87f2b1eded",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/alchemical_chest.json": {
+    "mtime": 1785549603.473094,
+    "ast_hash": "9e6f42f24bbcfeb5f03cc2717cd70e0b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/alchemical_chest.json": {
+    "mtime": 1785549603.4725983,
+    "ast_hash": "11b6bc3592dfda19a21c1dde6cf6ed7c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/alchemical_bag.json": {
+    "mtime": 1785549603.4465709,
+    "ast_hash": "5cf7cdcbe7d815cbb236dccb7ba246b7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/loot_table/blocks/alchemical_chest.json": {
+    "mtime": 1785549603.518799,
+    "ast_hash": "87c8f8765dd6724a0cbed7248b9f1746",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/alchemical_bag.json": {
+    "mtime": 1785549603.6705515,
+    "ast_hash": "907e4f3ebf30b26e89cb567afc0c8073",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/alchemical_chest.json": {
+    "mtime": 1785549603.601634,
+    "ast_hash": "33219d5ec5caeca8c1c21c844160d18c",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.12.md": {
+    "mtime": 1785549648.3061504,
+    "ast_hash": "8448624f681fd981bfb3d98a58725587",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/alchemical_chest.png": {
+    "mtime": 1785549590.6192255,
+    "ast_hash": "9410471e4aab7ede0b4451b681014da3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/gui/alchchest.png": {
+    "mtime": 1785549590.6872609,
+    "ast_hash": "d2b50c3e5f6d55701c2ea37faf562c90",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/red.png": {
+    "mtime": 1785549590.5487614,
+    "ast_hash": "cda577ecd5794d1e38887fd4a81e85ea",
     "semantic_hash": ""
   }
 }
