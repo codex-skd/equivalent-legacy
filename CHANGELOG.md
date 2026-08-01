@@ -1,5 +1,11 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.8
+
+- **Fuel chain**: Alchemical Coal (1,024 EMC), Mobius Fuel (3,072), Aeternalis Fuel (9,216) — each crafted from 4 of the previous tier plus the Philosopher's Stone.
+- **Red Matter**: 417,792 EMC, second rung of the matter toolchain (8 Aeternalis Fuel around Dark Matter).
+- **Original recipes restored**: Dark Matter and Klein Star Ein now use the alchemical fuels instead of the beta.7 vanilla substitutes.
+
 ## 0.0.0-beta.7
 
 - **Higher Klein Star tiers**: Zwei, Drei, Vier, Sphere, Omega — full portable EMC battery line (1M–16M capacity), each crafted from 4 of the previous tier.
