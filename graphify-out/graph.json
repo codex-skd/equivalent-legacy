@@ -1016,7 +1016,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemc",
-      "community": 23,
+      "community": 40,
       "norm_label": ".getemc()"
     },
     {
@@ -2206,7 +2206,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem",
-      "community": 10,
+      "community": 40,
       "norm_label": "nssitem.java"
     },
     {
@@ -2216,7 +2216,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
-      "community": 10,
+      "community": 40,
       "norm_label": "nssitem"
     },
     {
@@ -2226,7 +2226,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_item",
-      "community": 10,
+      "community": 40,
       "norm_label": "item"
     },
     {
@@ -2235,8 +2235,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "resourcekey",
-      "community": 10,
+      "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_resourcekey",
+      "community": 40,
       "norm_label": "resourcekey"
     },
     {
@@ -2246,7 +2246,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_mapcodec",
-      "community": 10,
+      "community": 40,
       "norm_label": "mapcodec"
     },
     {
@@ -2256,7 +2256,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_nssitem",
-      "community": 10,
+      "community": 40,
       "norm_label": ".nssitem()"
     },
     {
@@ -2266,7 +2266,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_identifier",
-      "community": 10,
+      "community": 40,
       "norm_label": "identifier"
     },
     {
@@ -2276,7 +2276,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_datacomponentpatch",
-      "community": 10,
+      "community": 40,
       "norm_label": "datacomponentpatch"
     },
     {
@@ -2286,7 +2286,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem",
-      "community": 10,
+      "community": 40,
       "norm_label": ".createitem()"
     },
     {
@@ -2296,7 +2296,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_itemstack",
-      "community": 10,
+      "community": 40,
       "norm_label": "itemstack"
     },
     {
@@ -2306,7 +2306,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "itemlike",
-      "community": 10,
+      "community": 40,
       "norm_label": "itemlike"
     },
     {
@@ -2316,7 +2316,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createtag",
-      "community": 10,
+      "community": 40,
       "norm_label": ".createtag()"
     },
     {
@@ -2326,7 +2326,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_getregistry",
-      "community": 10,
+      "community": 40,
       "norm_label": ".getregistry()"
     },
     {
@@ -2336,7 +2336,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_registry",
-      "community": 10,
+      "community": 40,
       "norm_label": "registry"
     },
     {
@@ -2346,7 +2346,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_override",
-      "community": 10,
+      "community": 40,
       "norm_label": "override"
     },
     {
@@ -2356,7 +2356,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_codec",
-      "community": 10,
+      "community": 40,
       "norm_label": ".codec()"
     },
     {
@@ -2476,7 +2476,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
-      "community": 40,
+      "community": 10,
       "norm_label": "playerevents.java"
     },
     {
@@ -2486,7 +2486,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents",
-      "community": 40,
+      "community": 10,
       "norm_label": "playerevents"
     },
     {
@@ -2496,7 +2496,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_eventbussubscriber",
-      "community": 40,
+      "community": 10,
       "norm_label": "eventbussubscriber"
     },
     {
@@ -2506,7 +2506,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_playerevents",
-      "community": 40,
+      "community": 10,
       "norm_label": ".playerevents()"
     },
     {
@@ -2516,7 +2516,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerlogin",
-      "community": 40,
+      "community": 10,
       "norm_label": ".onplayerlogin()"
     },
     {
@@ -2526,7 +2526,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerloggedinevent",
-      "community": 40,
+      "community": 10,
       "norm_label": "playerloggedinevent"
     },
     {
@@ -2536,7 +2536,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_subscribeevent",
-      "community": 40,
+      "community": 10,
       "norm_label": "subscribeevent"
     },
     {
@@ -2546,7 +2546,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerrespawn",
-      "community": 40,
+      "community": 10,
       "norm_label": ".onplayerrespawn()"
     },
     {
@@ -2556,7 +2556,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerrespawnevent",
-      "community": 40,
+      "community": 10,
       "norm_label": "playerrespawnevent"
     },
     {
@@ -2566,7 +2566,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerchangeddimension",
-      "community": 40,
+      "community": 10,
       "norm_label": ".onplayerchangeddimension()"
     },
     {
@@ -2576,7 +2576,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerchangeddimensionevent",
-      "community": 40,
+      "community": 10,
       "norm_label": "playerchangeddimensionevent"
     },
     {
@@ -3183,7 +3183,7 @@
       "label": ".EquivalentLegacyCreativeTab()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
-      "source_location": "L41",
+      "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab_equivalentlegacycreativetab",
       "community": 0,
@@ -3253,7 +3253,7 @@
       "label": "EquivalentLegacyItems",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L10",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
       "community": 23,
@@ -3290,14 +3290,254 @@
       "norm_label": "blockitem"
     },
     {
+      "label": "Item",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_java_item",
+      "community": 23,
+      "norm_label": "item"
+    },
+    {
+      "label": "AxeItem",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "axeitem",
+      "community": 23,
+      "norm_label": "axeitem"
+    },
+    {
+      "label": "ShovelItem",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "shovelitem",
+      "community": 23,
+      "norm_label": "shovelitem"
+    },
+    {
+      "label": "HoeItem",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "hoeitem",
+      "community": 23,
+      "norm_label": "hoeitem"
+    },
+    {
+      "label": "ShearsItem",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "shearsitem",
+      "community": 23,
+      "norm_label": "shearsitem"
+    },
+    {
       "label": ".EquivalentLegacyItems()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L59",
+      "source_location": "L140",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_equivalentlegacyitems",
       "community": 23,
       "norm_label": ".equivalentlegacyitems()"
+    },
+    {
+      "label": "EquivalentLegacyTags.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags",
+      "community": 0,
+      "norm_label": "equivalentlegacytags.java"
+    },
+    {
+      "label": "EquivalentLegacyTags",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags",
+      "community": 0,
+      "norm_label": "equivalentlegacytags"
+    },
+    {
+      "label": "TagKey",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "tagkey",
+      "community": 0,
+      "norm_label": "tagkey"
+    },
+    {
+      "label": "Item",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_java_item",
+      "community": 0,
+      "norm_label": "item"
+    },
+    {
+      "label": ".itemTag()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags_itemtag",
+      "community": 0,
+      "norm_label": ".itemtag()"
+    },
+    {
+      "label": ".EquivalentLegacyTags()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags_equivalentlegacytags",
+      "community": 0,
+      "norm_label": ".equivalentlegacytags()"
+    },
+    {
+      "label": "HammerItem.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_hammeritem",
+      "community": 23,
+      "norm_label": "hammeritem.java"
+    },
+    {
+      "label": "HammerItem",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem",
+      "community": 23,
+      "norm_label": "hammeritem"
+    },
+    {
+      "label": ".HammerItem()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_hammeritem",
+      "community": 23,
+      "norm_label": ".hammeritem()"
+    },
+    {
+      "label": ".mineBlock()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_mineblock",
+      "community": 23,
+      "norm_label": ".mineblock()"
+    },
+    {
+      "label": "ItemStack",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_itemstack",
+      "community": 23,
+      "norm_label": "itemstack"
+    },
+    {
+      "label": "Level",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_level",
+      "community": 23,
+      "norm_label": "level"
+    },
+    {
+      "label": "BlockState",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "blockstate",
+      "community": 23,
+      "norm_label": "blockstate"
+    },
+    {
+      "label": "BlockPos",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "blockpos",
+      "community": 23,
+      "norm_label": "blockpos"
+    },
+    {
+      "label": "LivingEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "livingentity",
+      "community": 23,
+      "norm_label": "livingentity"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_override",
+      "community": 23,
+      "norm_label": "override"
+    },
+    {
+      "label": ".getAoePositions()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_getaoepositions",
+      "community": 23,
+      "norm_label": ".getaoepositions()"
+    },
+    {
+      "label": "Player",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_player",
+      "community": 23,
+      "norm_label": "player"
+    },
+    {
+      "label": ".breakBlock()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_breakblock",
+      "community": 23,
+      "norm_label": ".breakblock()"
     },
     {
       "label": "KleinStar.java",
@@ -3640,6 +3880,76 @@
       "norm_label": "getmaxemc()"
     },
     {
+      "label": "MatterMaterials.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials",
+      "community": 0,
+      "norm_label": "mattermaterials.java"
+    },
+    {
+      "label": "MatterMaterials",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials",
+      "community": 0,
+      "norm_label": "mattermaterials"
+    },
+    {
+      "label": "ToolMaterial",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "toolmaterial",
+      "community": 0,
+      "norm_label": "toolmaterial"
+    },
+    {
+      "label": "ResourceKey",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials_java_resourcekey",
+      "community": 0,
+      "norm_label": "resourcekey"
+    },
+    {
+      "label": "EquipmentAsset",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "equipmentasset",
+      "community": 0,
+      "norm_label": "equipmentasset"
+    },
+    {
+      "label": "ArmorMaterial",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "armormaterial",
+      "community": 0,
+      "norm_label": "armormaterial"
+    },
+    {
+      "label": ".MatterMaterials()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials_mattermaterials",
+      "community": 0,
+      "norm_label": ".mattermaterials()"
+    },
+    {
       "label": "MobiusFuel.java",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/MobiusFuel.java",
@@ -3676,7 +3986,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone",
-      "community": 23,
+      "community": 40,
       "norm_label": "philosophersstone.java"
     },
     {
@@ -3686,7 +3996,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone",
-      "community": 23,
+      "community": 40,
       "norm_label": "philosophersstone"
     },
     {
@@ -3696,7 +4006,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_philosophersstone",
-      "community": 23,
+      "community": 40,
       "norm_label": ".philosophersstone()"
     },
     {
@@ -3706,7 +4016,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_use",
-      "community": 23,
+      "community": 40,
       "norm_label": ".use()"
     },
     {
@@ -3716,7 +4026,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_level",
-      "community": 23,
+      "community": 40,
       "norm_label": "level"
     },
     {
@@ -3726,7 +4036,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_player",
-      "community": 23,
+      "community": 40,
       "norm_label": "player"
     },
     {
@@ -3736,7 +4046,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_interactionhand",
-      "community": 23,
+      "community": 40,
       "norm_label": "interactionhand"
     },
     {
@@ -3746,7 +4056,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_interactionresult",
-      "community": 23,
+      "community": 40,
       "norm_label": "interactionresult"
     },
     {
@@ -3756,7 +4066,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_override",
-      "community": 23,
+      "community": 40,
       "norm_label": "override"
     },
     {
@@ -3766,7 +4076,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_getemcvalue",
-      "community": 23,
+      "community": 40,
       "norm_label": ".getemcvalue()"
     },
     {
@@ -3776,7 +4086,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_itemstack",
-      "community": 23,
+      "community": 40,
       "norm_label": "itemstack"
     },
     {
@@ -4506,7 +4816,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getknownitems",
-      "community": 10,
+      "community": 40,
       "norm_label": ".getknownitems()"
     },
     {
@@ -4810,10 +5120,20 @@
       "norm_label": "changelog \u2014 equivalent legacy"
     },
     {
-      "label": "0.0.0-beta.9",
+      "label": "0.0.0-beta.10",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
       "source_location": "L3",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_10",
+      "community": 15,
+      "norm_label": "0.0.0-beta.10"
+    },
+    {
+      "label": "0.0.0-beta.9",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_9",
       "community": 15,
@@ -4823,7 +5143,7 @@
       "label": "0.0.0-beta.8",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_8",
       "community": 15,
@@ -4833,7 +5153,7 @@
       "label": "0.0.0-beta.7",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L15",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_7",
       "community": 15,
@@ -4843,7 +5163,7 @@
       "label": "0.0.0-beta.6",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L21",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_6",
       "community": 15,
@@ -4853,7 +5173,7 @@
       "label": "0.0.0-beta.5",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L27",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_5",
       "community": 15,
@@ -4863,7 +5183,7 @@
       "label": "0.0.0-beta.4",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L33",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_4",
       "community": 15,
@@ -4873,7 +5193,7 @@
       "label": "0.0.0-beta.3",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L39",
+      "source_location": "L47",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_3",
       "community": 15,
@@ -4883,7 +5203,7 @@
       "label": "0.0.0-beta.2",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L46",
+      "source_location": "L54",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_2",
       "community": 15,
@@ -4893,7 +5213,7 @@
       "label": "0.0.0-beta.1",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L56",
+      "source_location": "L64",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_1",
       "community": 15,
@@ -5270,6 +5590,16 @@
       "norm_label": "0.0.0-beta.1.md"
     },
     {
+      "label": "0.0.0-beta.10.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.10.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_10",
+      "community": 42,
+      "norm_label": "0.0.0-beta.10.md"
+    },
+    {
       "label": "0.0.0-beta.2.md",
       "file_type": "document",
       "source_file": "docs/curseforge/versions/0.0.0-beta.2.md",
@@ -5630,6 +5960,28 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
       "source_location": "L3",
       "weight": 1.0,
@@ -5819,6 +6171,17 @@
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_identifier",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags_itemtag",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl"
     },
     {
       "relation": "imports",
@@ -6120,6 +6483,17 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks_equivalentlegacyblocks",
       "target": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks_equivalentlegacyblocks_equivalentlegacyblocks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem",
+      "target": "block",
       "confidence_score": 1.0
     },
     {
@@ -9321,17 +9695,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/emc/nss/NSSItem.java",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem",
-      "target": "resourcekey",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/emc/nss/NSSItem.java",
       "source_location": "L6",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem",
@@ -9394,6 +9757,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/emc/nss/NSSItem.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_resourcekey",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/emc/nss/NSSItem.java",
@@ -9401,17 +9775,6 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem",
       "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/emc/nss/NSSItem.java",
-      "source_location": "L15",
-      "weight": 1.0,
-      "context": "field",
-      "source": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
-      "target": "resourcekey",
       "confidence_score": 1.0
     },
     {
@@ -9434,6 +9797,17 @@
       "context": "field",
       "source": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
       "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_mapcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/emc/nss/NSSItem.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_resourcekey",
       "confidence_score": 1.0
     },
     {
@@ -11256,7 +11630,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L25",
+      "source_location": "L32",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -11309,10 +11683,20 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L6",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L7",
       "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem",
       "target": "item",
       "confidence_score": 1.0
     },
@@ -11424,7 +11808,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L19",
+      "source_location": "L26",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -11455,7 +11839,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L16",
+      "source_location": "L23",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -11520,7 +11904,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
-      "source_location": "L41",
+      "source_location": "L67",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab_equivalentlegacycreativetab",
@@ -11617,7 +12001,18 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L5",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems",
+      "target": "axeitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L8",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems",
       "target": "blockitem",
@@ -11628,27 +12023,82 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L7",
+      "source_location": "L14",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems",
       "target": "deferreditem",
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems",
+      "target": "hoeitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems",
+      "target": "shearsitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems",
+      "target": "shovelitem",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L10",
+      "source_location": "L17",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_java_item",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L39",
+      "source_location": "L106",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "axeitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L46",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -11659,7 +12109,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L56",
+      "source_location": "L137",
       "weight": 1.0,
       "context": "field",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -11670,7 +12120,18 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L11",
+      "source_location": "L112",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "hoeitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L18",
       "weight": 1.0,
       "context": "field",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -11678,10 +12139,32 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L115",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "shearsitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L109",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "shovelitem",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L59",
+      "source_location": "L140",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_equivalentlegacyitems",
@@ -11691,7 +12174,29 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L56",
+      "source_location": "L137",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_java_item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L119",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L63",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -11702,7 +12207,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L22",
+      "source_location": "L29",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -11713,7 +12218,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L13",
+      "source_location": "L20",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -11724,11 +12229,377 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L28",
+      "source_location": "L35",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
       "target": "src_main_java_com_skd_equivalentlegacy_item_redmatter_redmatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_java_item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags",
+      "target": "tagkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags_equivalentlegacytags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags_itemtag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_java_item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags",
+      "target": "tagkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags_itemtag",
+      "target": "tagkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags_itemtag",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_java_item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem",
+      "target": "blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem",
+      "target": "blockstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem",
+      "target": "livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_breakblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_getaoepositions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_hammeritem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_mineblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_mineblock",
+      "target": "blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_mineblock",
+      "target": "blockstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_mineblock",
+      "target": "livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_mineblock",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_breakblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_mineblock",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_getaoepositions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_mineblock",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_mineblock",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_mineblock",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_breakblock",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_breakblock",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_level",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_breakblock",
+      "target": "blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_getaoepositions",
+      "target": "blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_getaoepositions",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_hammeritem_breakblock",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_hammeritem_java_player",
       "confidence_score": 1.0
     },
     {
@@ -12532,6 +13403,103 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_kleinstartier_kleinstartier",
       "target": "src_main_java_com_skd_equivalentlegacy_item_kleinstartier_kleinstartier_zwei",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials",
+      "target": "armormaterial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials_java_resourcekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials",
+      "target": "toolmaterial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials",
+      "target": "armormaterial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials",
+      "target": "equipmentasset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials_java_resourcekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials_mattermaterials",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials",
+      "target": "toolmaterial",
       "confidence_score": 1.0
     },
     {
@@ -14505,7 +15473,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L56",
+      "source_location": "L64",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_1",
@@ -14515,7 +15483,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L46",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "changelog_changelog_equivalent_legacy",
+      "target": "changelog_0_0_0_beta_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L54",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_2",
@@ -14525,7 +15503,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L39",
+      "source_location": "L47",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_3",
@@ -14535,7 +15513,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L33",
+      "source_location": "L41",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_4",
@@ -14545,7 +15523,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L27",
+      "source_location": "L35",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_5",
@@ -14555,7 +15533,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L21",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_6",
@@ -14565,7 +15543,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L15",
+      "source_location": "L23",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_7",
@@ -14575,7 +15553,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L17",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_8",
@@ -14585,7 +15563,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L3",
+      "source_location": "L11",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_9",
@@ -14919,5 +15897,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "064c5eb1d1f1ef0f8107e5e7e7c762123aae4d78"
+  "built_at_commit": "27922db166aea7e51eddadfe5fd31c1f702bbb1a"
 }

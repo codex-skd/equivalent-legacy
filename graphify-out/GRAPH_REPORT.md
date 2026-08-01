@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-01)
 
 ## Corpus Check
-- 137 files · ~13,789 words
+- 222 files · ~15,687 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 538 nodes · 893 edges · 42 communities (39 shown, 3 thin omitted)
+- 571 nodes · 953 edges · 43 communities (40 shown, 3 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 36 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `064c5eb1`
+- Built from commit: `27922db1`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -54,9 +54,9 @@
 5. `FixedValues` - 19 edges
 6. `NSSItem` - 18 edges
 7. `TransmutationContainer` - 18 edges
-8. `KleinStar` - 16 edges
-9. `IValueArithmetic` - 14 edges
-10. `TransmutationScreen` - 14 edges
+8. `EquivalentLegacyItems` - 18 edges
+9. `KleinStar` - 16 edges
+10. `IValueArithmetic` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Publish Public Script` ----> `Initial Scaffold from the codex-docs/mod_template/26.2-26.2.0.32-beta NeoForge MDK skeleton`  [EXTRACTED]
@@ -73,11 +73,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (42 total, 3 thin omitted)
+## Communities (43 total, 3 thin omitted)
 
 ### Community 0 - "Equivalent Legacy Mod"
-Cohesion: 0.11
-Nodes (18): Block, Blocks, CreativeModeTab, DataComponentType, DeferredBlock, FMLCommonSetupEvent, EquivalentLegacyBlocks, EquivalentLegacy (+10 more)
+Cohesion: 0.07
+Nodes (26): ArmorMaterial, Block, Blocks, CreativeModeTab, DataComponentType, DeferredBlock, EquipmentAsset, FMLCommonSetupEvent (+18 more)
 
 ### Community 1 - "Mod Configuration"
 Cohesion: 0.29
@@ -113,7 +113,7 @@ Nodes (7): CurseForge — Variables del proyecto, Nota, Proyecto, Rama, Tag, Tok
 
 ### Community 10 - "Common Setup"
 Cohesion: 0.05
-Nodes (26): AbstractContainerMenu, ItemLike, ResourceKey, SimpleContainer, DataComponentPatch, Identifier, Item, ItemStack (+18 more)
+Nodes (22): AbstractContainerMenu, PlayerChangedDimensionEvent, PlayerLoggedInEvent, PlayerRespawnEvent, SimpleContainer, EventBusSubscriber, SubscribeEvent, PlayerEvents (+14 more)
 
 ### Community 13 - "Equivalent Legacy"
 Cohesion: 0.33
@@ -124,8 +124,8 @@ Cohesion: 0.50
 Nodes (3): CLAUDE.md — equivalent_legacy (26.2), Prioridad de instrucciones, Workflow del mod
 
 ### Community 15 - "Changelog — Equivalent Legacy"
-Cohesion: 0.18
-Nodes (10): 0.0.0-beta.1, 0.0.0-beta.2, 0.0.0-beta.3, 0.0.0-beta.4, 0.0.0-beta.5, 0.0.0-beta.6, 0.0.0-beta.7, 0.0.0-beta.8 (+2 more)
+Cohesion: 0.17
+Nodes (11): 0.0.0-beta.1, 0.0.0-beta.10, 0.0.0-beta.2, 0.0.0-beta.3, 0.0.0-beta.4, 0.0.0-beta.5, 0.0.0-beta.6, 0.0.0-beta.7 (+3 more)
 
 ### Community 16 - "Flujo de trabajo — Equivalent Legacy (NeoForge)"
 Cohesion: 0.15
@@ -145,7 +145,7 @@ Nodes (3): EquivalentLegacyConfig, Logger, ModContainer
 
 ### Community 23 - "NSSTag"
 Cohesion: 0.09
-Nodes (17): BlockItem, DeferredItem, Item, Items, AeternalisFuel, AlchemicalCoal, DarkMatter, EquivalentLegacyItems (+9 more)
+Nodes (23): AxeItem, BlockItem, BlockPos, BlockState, DeferredItem, HoeItem, Item, Items (+15 more)
 
 ### Community 24 - "ServerConfig"
 Cohesion: 0.50
@@ -180,27 +180,27 @@ Cohesion: 0.25
 Nodes (7): Contexto — Equivalent Legacy (para usar directamente con OpenCode/Codex), Lo que falta (fase 6 en adelante — quedó a medias, no arrancó), Lo ya implementado (fases 1-5, todo commiteado y compilando), Notas sobre el entorno (por qué esto existe), Origen / atribución (obligatorio mantener), Qué es este mod, Reglas de naming y estilo (obligatorias)
 
 ### Community 40 - "PlayerEvents"
-Cohesion: 0.25
-Nodes (6): PlayerChangedDimensionEvent, PlayerLoggedInEvent, PlayerRespawnEvent, EventBusSubscriber, SubscribeEvent, PlayerEvents
+Cohesion: 0.13
+Nodes (17): ItemLike, DataComponentPatch, Identifier, Item, ItemStack, MapCodec, Override, Registry (+9 more)
 
 ## Knowledge Gaps
-- **47 isolated node(s):** `EIN`, `ZWEI`, `DREI`, `VIER`, `SPHERE` (+42 more)
+- **48 isolated node(s):** `EIN`, `ZWEI`, `DREI`, `VIER`, `SPHERE` (+43 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `NormalizedSimpleStack` connect `Event Bus` to `Common Setup`, `Server Start`, `NSSTag`?**
-  _High betweenness centrality (0.148) - this node is a cross-community bridge._
+- **Why does `NormalizedSimpleStack` connect `Event Bus` to `PlayerEvents`, `Common Setup`, `Server Start`?**
+  _High betweenness centrality (0.141) - this node is a cross-community bridge._
 - **Why does `PlayerKnowledge` connect `Common Setup` to `PlayerEvents`, `Mod Configuration`, `KnowledgeSyncChangePayload.java`?**
-  _High betweenness centrality (0.143) - this node is a cross-community bridge._
-- **Why does `NSSItem` connect `Common Setup` to `AbstractNSSTag`, `Server Start`, `NSSTag`?**
-  _High betweenness centrality (0.115) - this node is a cross-community bridge._
+  _High betweenness centrality (0.137) - this node is a cross-community bridge._
+- **Why does `NSSItem` connect `PlayerEvents` to `AbstractNSSTag`, `Common Setup`, `Server Start`?**
+  _High betweenness centrality (0.111) - this node is a cross-community bridge._
 - **What connects `EIN`, `ZWEI`, `DREI` to the rest of the system?**
-  _47 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _48 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Equivalent Legacy Mod` be split into smaller, more focused modules?**
-  _Cohesion score 0.10591133004926108 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0743321718931475 - nodes in this community are weakly interconnected._
 - **Should `Event Bus` be split into smaller, more focused modules?**
   _Cohesion score 0.058699101004759384 - nodes in this community are weakly interconnected._
 - **Should `Server Start` be split into smaller, more focused modules?**

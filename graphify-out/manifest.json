@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1785547359.9402442,
-    "ast_hash": "5d77f7939b292c10b7c8bea730bf893b",
+    "mtime": 1785548282.7279234,
+    "ast_hash": "75119ddf00c03d37caf787c5fef1e8a8",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785547405.072443,
-    "ast_hash": "7e4f5eb74883b01095b2a16dcd0d7076",
+    "mtime": 1785548350.8644836,
+    "ast_hash": "a0d2bbfb30297929ce0c7237e0d7d38b",
     "semantic_hash": ""
   },
   "README.md": {
@@ -195,13 +195,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java": {
-    "mtime": 1785547366.7897625,
-    "ast_hash": "aebe8764f128b3ce1a2244c9465b6c03",
+    "mtime": 1785548249.0848384,
+    "ast_hash": "b46b0957f78bcdf714737575fb5c7f42",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java": {
-    "mtime": 1785547338.1925087,
-    "ast_hash": "398116db3d1dd67a0bbb48418ba80fe0",
+    "mtime": 1785548242.9471679,
+    "ast_hash": "d31f1f23da8c4f24f8a2756d97244442",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java": {
@@ -777,6 +777,571 @@
   "src/main/resources/assets/equivalent_legacy/textures/block/red_matter_block.png": {
     "mtime": 1785547322.2872806,
     "ast_hash": "079057909b353ec17d74cd08bf7b43e1",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java": {
+    "mtime": 1785548167.56389,
+    "ast_hash": "d6c9fae03b46d4272fb0d9a033e7ae99",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/HammerItem.java": {
+    "mtime": 1785548180.7810202,
+    "ast_hash": "d02e1de13f0578ad1050b2af79146a28",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java": {
+    "mtime": 1785548173.904688,
+    "ast_hash": "cb9ba02fcda464f164d7831b6d472d6d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/equipment/dark_matter.json": {
+    "mtime": 1785548274.6794736,
+    "ast_hash": "6ce2514df5f52e85efe7394c2ead123b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/equipment/red_matter.json": {
+    "mtime": 1785548274.731695,
+    "ast_hash": "55c503dbb3d77b5ef440b468be4b5413",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/dark_matter_axe.json": {
+    "mtime": 1785548273.507116,
+    "ast_hash": "b93e996d16d3456b9801cba9fd738b29",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/dark_matter_boots.json": {
+    "mtime": 1785548274.2680857,
+    "ast_hash": "5ec9c773392ddc2c2069c3a691ef973a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/dark_matter_chestplate.json": {
+    "mtime": 1785548274.1750314,
+    "ast_hash": "bade083edff7750365a65c05460bd300",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/dark_matter_hammer.json": {
+    "mtime": 1785548273.6721394,
+    "ast_hash": "8d1a8aff93ed96b9b86010ce72faae08",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/dark_matter_helmet.json": {
+    "mtime": 1785548274.128995,
+    "ast_hash": "ff05afa7cd2078b5f3cb0ffe7666f594",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/dark_matter_hoe.json": {
+    "mtime": 1785548273.58875,
+    "ast_hash": "da18e4984eee79ba2d614b6d7fbbe13a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/dark_matter_leggings.json": {
+    "mtime": 1785548274.2218473,
+    "ast_hash": "46c1cda0aa416f763de2beb7d184f41b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/dark_matter_pickaxe.json": {
+    "mtime": 1785548273.4518628,
+    "ast_hash": "b55d1940b638933d93c1e2de74065aa2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/dark_matter_shears.json": {
+    "mtime": 1785548273.6266885,
+    "ast_hash": "9d40eb2f50a605feb74dfa9cc65215c1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/dark_matter_shovel.json": {
+    "mtime": 1785548273.5569286,
+    "ast_hash": "61c1c4562c8c0dcdcef897dee52ba4e3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/dark_matter_sword.json": {
+    "mtime": 1785548273.398273,
+    "ast_hash": "023c7a8b96825d28cad37277dc7f1282",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_axe.json": {
+    "mtime": 1785548273.814561,
+    "ast_hash": "92887d68983d7f88788cb83fa0f512b7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_boots.json": {
+    "mtime": 1785548274.4524064,
+    "ast_hash": "2677f8cd12c55376888dbfb440c15d82",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_chestplate.json": {
+    "mtime": 1785548274.3556583,
+    "ast_hash": "97c4ecbbab8cc52d73511270e06657b2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_hammer.json": {
+    "mtime": 1785548274.0078788,
+    "ast_hash": "188b089738b183e66250690880239487",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_helmet.json": {
+    "mtime": 1785548274.3141015,
+    "ast_hash": "35e2923dedc6d9321da2f03e5659a8d4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_hoe.json": {
+    "mtime": 1785548273.916005,
+    "ast_hash": "2bcbe449f4e8d0b4059cf76a6e7af19e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_katar.json": {
+    "mtime": 1785548274.0490375,
+    "ast_hash": "fb00688679f51da55d6102da1162a8be",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_leggings.json": {
+    "mtime": 1785548274.4059825,
+    "ast_hash": "78dec06f14ce0cae2a79c027f65adff3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_morning_star.json": {
+    "mtime": 1785548274.0941823,
+    "ast_hash": "824cfd4cd67be537a11543e84326e8d1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_pickaxe.json": {
+    "mtime": 1785548273.7682352,
+    "ast_hash": "9078789738f41ac2f76a45384625b588",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_shears.json": {
+    "mtime": 1785548273.9609034,
+    "ast_hash": "ac96ce2d9e5cffe97e5122e2b8067f27",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_shovel.json": {
+    "mtime": 1785548273.8612063,
+    "ast_hash": "e12b263cd585083bebb5d6db0dc1232d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/items/red_matter_sword.json": {
+    "mtime": 1785548273.7223716,
+    "ast_hash": "44a10a1b10dbf58aa5e04f8028757dbd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_axe.json": {
+    "mtime": 1785548265.8869216,
+    "ast_hash": "2a6f991719b6b07d50376beee0299fef",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_boots.json": {
+    "mtime": 1785548266.6597457,
+    "ast_hash": "d68e688858e0a95eae9a6cfb5e0e05c6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_chestplate.json": {
+    "mtime": 1785548266.5668664,
+    "ast_hash": "944c5a1db686b0c1cac47eaf288d7b9f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_hammer.json": {
+    "mtime": 1785548266.4881854,
+    "ast_hash": "f962ea48cd4f248f1d1586f60355fe17",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_helmet.json": {
+    "mtime": 1785548266.5365746,
+    "ast_hash": "5ad41f7e6dbcc0484149fe5258cfd61b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_hoe.json": {
+    "mtime": 1785548266.169177,
+    "ast_hash": "a255662a5c4d57c9f0af2238eb8e8c38",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_leggings.json": {
+    "mtime": 1785548266.6173306,
+    "ast_hash": "c1ee82f29d9c584ed650c476870fc4f2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_pickaxe.json": {
+    "mtime": 1785548265.8401673,
+    "ast_hash": "5f4529df9fb75a7259b255bd46854f6d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_shears.json": {
+    "mtime": 1785548266.4404562,
+    "ast_hash": "c634348ab99edfd43001c2754a3df411",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_shovel.json": {
+    "mtime": 1785548265.9389644,
+    "ast_hash": "5db1694dab35e5ca23a5eb648e2aa0dc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_sword.json": {
+    "mtime": 1785548265.7921355,
+    "ast_hash": "a3daf3f3cd97d36c90073ec24a1b0fac",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_axe.json": {
+    "mtime": 1785548266.8003051,
+    "ast_hash": "b3dbd59cac95862881ffb71dcade8d06",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_boots.json": {
+    "mtime": 1785548267.2637484,
+    "ast_hash": "113c635bdbc22aefc8ed80743fc67406",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_chestplate.json": {
+    "mtime": 1785548267.1704786,
+    "ast_hash": "e49c34aadbecbf646dfedb3a2ccd209e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_hammer.json": {
+    "mtime": 1785548266.9066052,
+    "ast_hash": "e189be4622377430ac562c6a18e75aa0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_helmet.json": {
+    "mtime": 1785548267.0980237,
+    "ast_hash": "eb280dad799e2bcfe849fc8b2e94c96a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_hoe.json": {
+    "mtime": 1785548266.8618474,
+    "ast_hash": "5fe106c563009f789125b1a9777f579b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_katar.json": {
+    "mtime": 1785548266.9532607,
+    "ast_hash": "2b035c2ac3ff1f2c86e5e779303949da",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_leggings.json": {
+    "mtime": 1785548267.2190318,
+    "ast_hash": "6bf0d9ee9e8bc366af5be6dc45507ad4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_morning_star.json": {
+    "mtime": 1785548267.0022156,
+    "ast_hash": "96387e0b04553fe9c811c939c5fcfaf1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_pickaxe.json": {
+    "mtime": 1785548266.7574754,
+    "ast_hash": "5e144f1ad0166e48eec156ee0d3439de",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_shears.json": {
+    "mtime": 1785548267.0495489,
+    "ast_hash": "be790e7a63778997081bc2c84472cf2c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_shovel.json": {
+    "mtime": 1785548266.82508,
+    "ast_hash": "b6bbd25d754ff8af06fec14e056f7abb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_sword.json": {
+    "mtime": 1785548266.710713,
+    "ast_hash": "3c34916d9bdd7964865caa7e1b27c77d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dark_matter_axe.json": {
+    "mtime": 1785548298.705073,
+    "ast_hash": "ca8d63c14aa33015471c8b21b780277b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dark_matter_boots.json": {
+    "mtime": 1785548298.714005,
+    "ast_hash": "590054026da649a88e18a65657a74420",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dark_matter_chestplate.json": {
+    "mtime": 1785548298.7130067,
+    "ast_hash": "b229280104a51b872232c9d7db14c2f6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dark_matter_hammer.json": {
+    "mtime": 1785548298.70796,
+    "ast_hash": "56e65a24caec9db7ec9624c1ec759a23",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dark_matter_helmet.json": {
+    "mtime": 1785548298.708471,
+    "ast_hash": "9317ef9cf25b7b00f523325473c24d38",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dark_matter_hoe.json": {
+    "mtime": 1785548298.7064614,
+    "ast_hash": "9d3149bc87cef4bd8ed4d061f567ce6c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dark_matter_leggings.json": {
+    "mtime": 1785548298.714005,
+    "ast_hash": "15b70e818a54f12823242b54a1db6bbe",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dark_matter_pickaxe.json": {
+    "mtime": 1785548298.705073,
+    "ast_hash": "4d10ff6b9a65b920c2695e049cd5d73f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dark_matter_shears.json": {
+    "mtime": 1785548298.7069578,
+    "ast_hash": "9d23ea18130863279bb6e01ed1959ba3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dark_matter_shovel.json": {
+    "mtime": 1785548298.705073,
+    "ast_hash": "6a4f7e6a47b7c456ca4f430678fb82d4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dark_matter_sword.json": {
+    "mtime": 1785548298.7040546,
+    "ast_hash": "42096b9360b3bcdb033f982c8caab398",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_axe.json": {
+    "mtime": 1785548308.1552851,
+    "ast_hash": "1bdfbdd5fe1a9c28264369307d727190",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_boots.json": {
+    "mtime": 1785548308.1705368,
+    "ast_hash": "19b47f4e2aa77ba5c4636e2faa1056ee",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_chestplate.json": {
+    "mtime": 1785548308.17004,
+    "ast_hash": "14ed7f6e5e624dc24ef0bcba67e90df7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_hammer.json": {
+    "mtime": 1785548308.1608837,
+    "ast_hash": "0bf207d3f07121714933f366454a2b2f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_helmet.json": {
+    "mtime": 1785548308.1690466,
+    "ast_hash": "93f504b66fd660b2157fb24b9c599f0d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_hoe.json": {
+    "mtime": 1785548308.1573215,
+    "ast_hash": "a5aa6932c19150b085876ad74d662d1d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_katar.json": {
+    "mtime": 1785548308.1675186,
+    "ast_hash": "5364c5f3931277d9be51a8e95e7f5f59",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_leggings.json": {
+    "mtime": 1785548308.1705368,
+    "ast_hash": "ccc548fca54872720a9627373f71f3ae",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_morning_star.json": {
+    "mtime": 1785548308.1675186,
+    "ast_hash": "3a82f75f717b5749d0758fb75445eb8d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_pickaxe.json": {
+    "mtime": 1785548308.1552851,
+    "ast_hash": "05a6b123eaa7371c7ff8792779abf73a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_shears.json": {
+    "mtime": 1785548308.1588495,
+    "ast_hash": "328737903ef10e61fcb8d87c473aefad",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_shovel.json": {
+    "mtime": 1785548308.1562867,
+    "ast_hash": "ca8efb3bc0ea2d4cc45fce8057904469",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter_sword.json": {
+    "mtime": 1785548308.1542916,
+    "ast_hash": "41949bc038ac237ee2a98a3a441f3993",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/tags/item/dark_matter.json": {
+    "mtime": 1785548288.0537808,
+    "ast_hash": "0c71d55e281f864000dbba3385e14495",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/tags/item/red_matter.json": {
+    "mtime": 1785548288.0542834,
+    "ast_hash": "1f934f1c25e2c1c2085566ed3d811ddc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/minecraft/tags/item/axes.json": {
+    "mtime": 1785548288.0568287,
+    "ast_hash": "4642e9b89c0410b80768c5ea88b800eb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/minecraft/tags/item/hoes.json": {
+    "mtime": 1785548288.0578218,
+    "ast_hash": "ab16f2c4569a6c9c752f3c5a38fdf22b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/minecraft/tags/item/pickaxes.json": {
+    "mtime": 1785548288.0558016,
+    "ast_hash": "59ff16bac24fa697d5104e85b9dc3c85",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/minecraft/tags/item/shovels.json": {
+    "mtime": 1785548288.0573251,
+    "ast_hash": "3f6c854b63d8da2da6840e77fe9e001a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/minecraft/tags/item/swords.json": {
+    "mtime": 1785548288.0542834,
+    "ast_hash": "02a9bc030b440e4a646f17ebe8ac708b",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.10.md": {
+    "mtime": 1785548346.1231976,
+    "ast_hash": "41391db2359e176c4e7afa6c44f898f3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/entity/equipment/humanoid/dark_matter.png": {
+    "mtime": 1785548157.1039019,
+    "ast_hash": "3d7dcc4e888baf1adbcfba3c1147fcf4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/entity/equipment/humanoid/red_matter.png": {
+    "mtime": 1785548157.3815975,
+    "ast_hash": "6783625ff8e526e03947133584c17bdd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/entity/equipment/humanoid_leggings/dark_matter.png": {
+    "mtime": 1785548157.163939,
+    "ast_hash": "8b83921c004462cc632a85ae74346f48",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/entity/equipment/humanoid_leggings/red_matter.png": {
+    "mtime": 1785548157.4464395,
+    "ast_hash": "a73b72303ee83ed0fb5ddd5dfda95389",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dm_armor/chest.png": {
+    "mtime": 1785548156.2976935,
+    "ast_hash": "48848dd13628c3ffd1ce7a383d21adfd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dm_armor/feet.png": {
+    "mtime": 1785548156.4802177,
+    "ast_hash": "f51eb39ac8510b87babe88b54d9da55b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dm_armor/head.png": {
+    "mtime": 1785548156.1946926,
+    "ast_hash": "4e38aa35fac72d969b4147c27e160e3e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dm_armor/legs.png": {
+    "mtime": 1785548156.3706293,
+    "ast_hash": "d7bb00f026b6f74666f3a135d8df45b8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/axe.png": {
+    "mtime": 1785548154.186432,
+    "ast_hash": "1a059a27e2d38fee0602541be4e4fe23",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/hammer.png": {
+    "mtime": 1785548154.2775824,
+    "ast_hash": "1fc92775bae4a36e3881e76268e708d1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/hoe.png": {
+    "mtime": 1785548154.3715453,
+    "ast_hash": "6b1eda2edff03f363446958b72c6e381",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/pickaxe.png": {
+    "mtime": 1785548154.5612688,
+    "ast_hash": "55d2f0312a2d7503f5ca8e200801abe6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/shears.png": {
+    "mtime": 1785548154.6808283,
+    "ast_hash": "b337e966d92ebb4f4edd483e7d5e0d16",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/shovel.png": {
+    "mtime": 1785548154.9478765,
+    "ast_hash": "cf61f54b38890ccd50367986b258ab4f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/sword.png": {
+    "mtime": 1785548155.051416,
+    "ast_hash": "3380663d22e3ac6851296c09c3603f9a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_armor/chest.png": {
+    "mtime": 1785548156.7205954,
+    "ast_hash": "d01cb1f663a2be9cf6e086244c5727b8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_armor/feet.png": {
+    "mtime": 1785548156.9768906,
+    "ast_hash": "929eba15dc890e6d45394d19c39c6e63",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_armor/head.png": {
+    "mtime": 1785548156.5699208,
+    "ast_hash": "5f0597659ae93049a30b4a73f8066fe3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_armor/legs.png": {
+    "mtime": 1785548156.8453596,
+    "ast_hash": "89a47e18e9b23062cde837967e679f87",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/axe.png": {
+    "mtime": 1785548155.1461618,
+    "ast_hash": "f7ada3dd06321f2038dd778045066521",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/hammer.png": {
+    "mtime": 1785548155.2419963,
+    "ast_hash": "9f38f1ef17d47c96940c866d9ebbbf5f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/hoe.png": {
+    "mtime": 1785548155.3458815,
+    "ast_hash": "367cca3d74b28cd3fcc2b278a8f784a2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/katar.png": {
+    "mtime": 1785548155.4476967,
+    "ast_hash": "9cb73f2dfc74cc8eaa50faafd0797f0a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/morning_star.png": {
+    "mtime": 1785548155.5686693,
+    "ast_hash": "18d6997883fbe1c06d21ef560f029bdf",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/pickaxe.png": {
+    "mtime": 1785548155.7204766,
+    "ast_hash": "c54702cbbe138bc368210e78c6fe8ba4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/shears.png": {
+    "mtime": 1785548155.8339336,
+    "ast_hash": "2c8d7bb0f65cabdaf20d95188c429732",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/shovel.png": {
+    "mtime": 1785548155.946857,
+    "ast_hash": "ab185a9f688e5c90d46bb9aeabfb8f19",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/sword.png": {
+    "mtime": 1785548156.0787556,
+    "ast_hash": "d4551e0c70324cb878355add3f56f56a",
     "semantic_hash": ""
   }
 }
