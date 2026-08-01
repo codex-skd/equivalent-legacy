@@ -15,8 +15,8 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java": {
-    "mtime": 1785619509.0832572,
-    "ast_hash": "93815386be043bf78f15277f38d49bbc",
+    "mtime": 1785623160.3190057,
+    "ast_hash": "c0bdb8ceb8393844eecb71b9559421fb",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785620725.160958,
-    "ast_hash": "896423a7d92ba3e1dfe8f199087a8b5e",
+    "mtime": 1785623220.6799636,
+    "ast_hash": "28e7ab735aabe566c18e5e2964c4b477",
     "semantic_hash": ""
   },
   "README.md": {
@@ -3237,6 +3237,11 @@
   "docs/curseforge/versions/0.0.0-beta.26.md": {
     "mtime": 1785620720.0891397,
     "ast_hash": "1e87a7d5c10e55faca739281ce7ba4b8",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.27.md": {
+    "mtime": 1785623215.8054268,
+    "ast_hash": "796114e974a91cb013eab7a05f2403a2",
     "semantic_hash": ""
   }
 }
