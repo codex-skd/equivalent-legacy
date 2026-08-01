@@ -183,7 +183,7 @@
       "label": ".rl()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L68",
+      "source_location": "L80",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
       "community": 0,
@@ -2456,7 +2456,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
-      "community": 35,
+      "community": 0,
       "norm_label": "playerevents.java"
     },
     {
@@ -2466,7 +2466,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents",
-      "community": 35,
+      "community": 0,
       "norm_label": "playerevents"
     },
     {
@@ -2476,7 +2476,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_eventbussubscriber",
-      "community": 35,
+      "community": 0,
       "norm_label": "eventbussubscriber"
     },
     {
@@ -2486,7 +2486,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_playerevents",
-      "community": 35,
+      "community": 0,
       "norm_label": ".playerevents()"
     },
     {
@@ -2496,7 +2496,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerlogin",
-      "community": 35,
+      "community": 0,
       "norm_label": ".onplayerlogin()"
     },
     {
@@ -2506,7 +2506,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerloggedinevent",
-      "community": 35,
+      "community": 0,
       "norm_label": "playerloggedinevent"
     },
     {
@@ -2516,7 +2516,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_subscribeevent",
-      "community": 35,
+      "community": 0,
       "norm_label": "subscribeevent"
     },
     {
@@ -2526,7 +2526,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerrespawn",
-      "community": 35,
+      "community": 0,
       "norm_label": ".onplayerrespawn()"
     },
     {
@@ -2536,7 +2536,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerrespawnevent",
-      "community": 35,
+      "community": 0,
       "norm_label": "playerrespawnevent"
     },
     {
@@ -2546,7 +2546,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerchangeddimension",
-      "community": 35,
+      "community": 0,
       "norm_label": ".onplayerchangeddimension()"
     },
     {
@@ -2556,7 +2556,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerchangeddimensionevent",
-      "community": 35,
+      "community": 0,
       "norm_label": "playerchangeddimensionevent"
     },
     {
@@ -3010,6 +3010,76 @@
       "norm_label": ".mousescrolled()"
     },
     {
+      "label": "AeternalisFuel.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AeternalisFuel.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_aeternalisfuel",
+      "community": 23,
+      "norm_label": "aeternalisfuel.java"
+    },
+    {
+      "label": "AeternalisFuel",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AeternalisFuel.java",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_aeternalisfuel_aeternalisfuel",
+      "community": 23,
+      "norm_label": "aeternalisfuel"
+    },
+    {
+      "label": "Item",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "item",
+      "community": 23,
+      "norm_label": "item"
+    },
+    {
+      "label": ".AeternalisFuel()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AeternalisFuel.java",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_aeternalisfuel_aeternalisfuel_aeternalisfuel",
+      "community": 23,
+      "norm_label": ".aeternalisfuel()"
+    },
+    {
+      "label": "AlchemicalCoal.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AlchemicalCoal.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalcoal",
+      "community": 23,
+      "norm_label": "alchemicalcoal.java"
+    },
+    {
+      "label": "AlchemicalCoal",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AlchemicalCoal.java",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalcoal_alchemicalcoal",
+      "community": 23,
+      "norm_label": "alchemicalcoal"
+    },
+    {
+      "label": ".AlchemicalCoal()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AlchemicalCoal.java",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_alchemicalcoal_alchemicalcoal_alchemicalcoal",
+      "community": 23,
+      "norm_label": ".alchemicalcoal()"
+    },
+    {
       "label": "DarkMatter.java",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/DarkMatter.java",
@@ -3028,16 +3098,6 @@
       "id": "src_main_java_com_skd_equivalentlegacy_item_darkmatter_darkmatter",
       "community": 23,
       "norm_label": "darkmatter"
-    },
-    {
-      "label": "Item",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "item",
-      "community": 23,
-      "norm_label": "item"
     },
     {
       "label": ".DarkMatter()",
@@ -3103,7 +3163,7 @@
       "label": ".EquivalentLegacyCreativeTab()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
-      "source_location": "L31",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab_equivalentlegacycreativetab",
       "community": 0,
@@ -3203,7 +3263,7 @@
       "label": ".EquivalentLegacyItems()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L35",
+      "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_equivalentlegacyitems",
       "community": 23,
@@ -3550,6 +3610,36 @@
       "norm_label": "getmaxemc()"
     },
     {
+      "label": "MobiusFuel.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MobiusFuel.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_mobiusfuel",
+      "community": 23,
+      "norm_label": "mobiusfuel.java"
+    },
+    {
+      "label": "MobiusFuel",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MobiusFuel.java",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_mobiusfuel_mobiusfuel",
+      "community": 23,
+      "norm_label": "mobiusfuel"
+    },
+    {
+      "label": ".MobiusFuel()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MobiusFuel.java",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_mobiusfuel_mobiusfuel_mobiusfuel",
+      "community": 23,
+      "norm_label": ".mobiusfuel()"
+    },
+    {
       "label": "PhilosophersStone.java",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
@@ -3658,6 +3748,36 @@
       "id": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_itemstack",
       "community": 23,
       "norm_label": "itemstack"
+    },
+    {
+      "label": "RedMatter.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/RedMatter.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_redmatter",
+      "community": 23,
+      "norm_label": "redmatter.java"
+    },
+    {
+      "label": "RedMatter",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/RedMatter.java",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_redmatter_redmatter",
+      "community": 23,
+      "norm_label": "redmatter"
+    },
+    {
+      "label": ".RedMatter()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/RedMatter.java",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_redmatter_redmatter_redmatter",
+      "community": 23,
+      "norm_label": ".redmatter()"
     },
     {
       "label": "PacketHandler.java",
@@ -4660,10 +4780,20 @@
       "norm_label": "changelog \u2014 equivalent legacy"
     },
     {
-      "label": "0.0.0-beta.7",
+      "label": "0.0.0-beta.8",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
       "source_location": "L3",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_8",
+      "community": 15,
+      "norm_label": "0.0.0-beta.8"
+    },
+    {
+      "label": "0.0.0-beta.7",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_7",
       "community": 15,
@@ -4673,7 +4803,7 @@
       "label": "0.0.0-beta.6",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_6",
       "community": 15,
@@ -4683,7 +4813,7 @@
       "label": "0.0.0-beta.5",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L15",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_5",
       "community": 15,
@@ -4693,7 +4823,7 @@
       "label": "0.0.0-beta.4",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L21",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_4",
       "community": 15,
@@ -4703,7 +4833,7 @@
       "label": "0.0.0-beta.3",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L27",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_3",
       "community": 15,
@@ -4713,7 +4843,7 @@
       "label": "0.0.0-beta.2",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L34",
+      "source_location": "L40",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_2",
       "community": 15,
@@ -4723,7 +4853,7 @@
       "label": "0.0.0-beta.1",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L44",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_1",
       "community": 15,
@@ -5160,6 +5290,16 @@
       "norm_label": "0.0.0-beta.7.md"
     },
     {
+      "label": "0.0.0-beta.8.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.8.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_8",
+      "community": 35,
+      "norm_label": "0.0.0-beta.8.md"
+    },
+    {
       "label": "Publish Public Script",
       "file_type": "code",
       "source_file": ".gitlab-ci.yml",
@@ -5547,7 +5687,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L68",
+      "source_location": "L80",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
@@ -5623,7 +5763,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L68",
+      "source_location": "L80",
       "weight": 1.0,
       "context": "return_type",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
@@ -10959,21 +11099,84 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/item/DarkMatter.java",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AeternalisFuel.java",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_item_darkmatter",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_aeternalisfuel",
       "target": "item",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/item/DarkMatter.java",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AeternalisFuel.java",
       "source_location": "L5",
       "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_aeternalisfuel",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_aeternalisfuel_aeternalisfuel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AeternalisFuel.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_aeternalisfuel_aeternalisfuel",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AeternalisFuel.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_aeternalisfuel_aeternalisfuel",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_aeternalisfuel_aeternalisfuel_aeternalisfuel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_aeternalisfuel_aeternalisfuel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AlchemicalCoal.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_alchemicalcoal",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AlchemicalCoal.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_alchemicalcoal_alchemicalcoal",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/DarkMatter.java",
+      "source_location": "L3",
+      "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_darkmatter",
-      "target": "src_main_java_com_skd_equivalentlegacy_item_darkmatter_darkmatter",
+      "target": "item",
       "confidence_score": 1.0
     },
     {
@@ -10984,27 +11187,6 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_darkmatter_darkmatter",
       "target": "item",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/item/DarkMatter.java",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_item_darkmatter_darkmatter",
-      "target": "src_main_java_com_skd_equivalentlegacy_item_darkmatter_darkmatter_darkmatter",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L14",
-      "weight": 1.0,
-      "context": "generic_arg",
-      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
-      "target": "src_main_java_com_skd_equivalentlegacy_item_darkmatter_darkmatter",
       "confidence_score": 1.0
     },
     {
@@ -11043,6 +11225,27 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MobiusFuel.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mobiusfuel",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MobiusFuel.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mobiusfuel_mobiusfuel",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java",
       "source_location": "L11",
       "weight": 1.0,
@@ -11058,6 +11261,89 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone",
       "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/RedMatter.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_redmatter",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/RedMatter.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_redmatter_redmatter",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AlchemicalCoal.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_alchemicalcoal",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_alchemicalcoal_alchemicalcoal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/AlchemicalCoal.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_alchemicalcoal_alchemicalcoal",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_alchemicalcoal_alchemicalcoal_alchemicalcoal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_alchemicalcoal_alchemicalcoal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/DarkMatter.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_darkmatter",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_darkmatter_darkmatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/DarkMatter.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_darkmatter_darkmatter",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_darkmatter_darkmatter_darkmatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_darkmatter_darkmatter",
       "confidence_score": 1.0
     },
     {
@@ -11118,7 +11404,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
-      "source_location": "L31",
+      "source_location": "L35",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab_equivalentlegacycreativetab",
@@ -11235,7 +11521,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L32",
+      "source_location": "L44",
       "weight": 1.0,
       "context": "field",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -11257,7 +11543,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L35",
+      "source_location": "L47",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_equivalentlegacyitems",
@@ -11267,11 +11553,22 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L32",
+      "source_location": "L44",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
       "target": "src_main_java_com_skd_equivalentlegacy_item_kleinstar_kleinstar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_mobiusfuel_mobiusfuel",
       "confidence_score": 1.0
     },
     {
@@ -11283,6 +11580,17 @@
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
       "target": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_redmatter_redmatter",
       "confidence_score": 1.0
     },
     {
@@ -12089,6 +12397,26 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MobiusFuel.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mobiusfuel",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_mobiusfuel_mobiusfuel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/MobiusFuel.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_mobiusfuel_mobiusfuel",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_mobiusfuel_mobiusfuel_mobiusfuel",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -12247,6 +12575,26 @@
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_getemcvalue",
       "target": "src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/RedMatter.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_redmatter",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_redmatter_redmatter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/RedMatter.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_redmatter_redmatter",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_redmatter_redmatter_redmatter",
       "confidence_score": 1.0
     },
     {
@@ -14019,7 +14367,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L44",
+      "source_location": "L50",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_1",
@@ -14029,7 +14377,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L34",
+      "source_location": "L40",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_2",
@@ -14039,7 +14387,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L27",
+      "source_location": "L33",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_3",
@@ -14049,7 +14397,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L21",
+      "source_location": "L27",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_4",
@@ -14059,7 +14407,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L15",
+      "source_location": "L21",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_5",
@@ -14069,7 +14417,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_6",
@@ -14079,10 +14427,20 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L3",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "changelog_changelog_equivalent_legacy",
+      "target": "changelog_0_0_0_beta_8",
       "confidence_score": 1.0
     },
     {
@@ -14413,5 +14771,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "db0dd55ed584c85bbdda0efda8494431b6f24f09"
+  "built_at_commit": "8ed1116d1755eed9f4721e9e2ab7bac9a8e79b54"
 }

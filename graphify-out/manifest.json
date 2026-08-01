@@ -15,8 +15,8 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java": {
-    "mtime": 1785546998.2636166,
-    "ast_hash": "2cbc71b5e9b0b2fd55d41fcaac6eba2a",
+    "mtime": 1785547133.936772,
+    "ast_hash": "1ec6f75eaf3dbca9df04029c5f5c4bdc",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java": {
@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1785547009.2622752,
-    "ast_hash": "4c27fc2f6b1e8257e423b4b825ebf6e7",
+    "mtime": 1785547153.9676852,
+    "ast_hash": "e2790830a6abe1e96c10d556078238ed",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785547052.9268546,
-    "ast_hash": "1fb3597d97faa2f32369729206db19af",
+    "mtime": 1785547185.7123332,
+    "ast_hash": "5cc8207ad5429a79748c9c55d55e30ce",
     "semantic_hash": ""
   },
   "README.md": {
@@ -195,13 +195,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java": {
-    "mtime": 1785546993.6005914,
-    "ast_hash": "2b2d752b7091e605abd8b761f6805be3",
+    "mtime": 1785547129.117494,
+    "ast_hash": "9b4c8e18b179ad7c371f84199d6318fd",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java": {
-    "mtime": 1785546990.2327802,
-    "ast_hash": "3d25b6ed2353d01b951393709d1832f5",
+    "mtime": 1785547126.1876552,
+    "ast_hash": "45197f4646e66ade0e1df12e7c585bee",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java": {
@@ -380,8 +380,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/recipe/dark_matter.json": {
-    "mtime": 1785546173.7181437,
-    "ast_hash": "ba598e0aa1e885e6097abc7091c42efb",
+    "mtime": 1785547142.4276276,
+    "ast_hash": "176c0b6880a17a4c082e0c46273ccd6a",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/recipe/klein_star_drei.json": {
@@ -390,8 +390,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/recipe/klein_star_ein.json": {
-    "mtime": 1785546176.3500185,
-    "ast_hash": "907a0617e026b476c16f5800214d4676",
+    "mtime": 1785547145.3966303,
+    "ast_hash": "241d9029e3631ece5932577c7b6bfe9e",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/recipe/klein_star_omega.json": {
@@ -452,6 +452,91 @@
   "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_6.png": {
     "mtime": 1785546986.1070883,
     "ast_hash": "3b106e8affabae586c7c4cd6c24357ef",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/AeternalisFuel.java": {
+    "mtime": 1785547122.1836977,
+    "ast_hash": "a2e0a926578b198f10383f97106363d4",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/AlchemicalCoal.java": {
+    "mtime": 1785547122.0928133,
+    "ast_hash": "3d8d61a28067bbecdab02c6139c0d4ea",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/MobiusFuel.java": {
+    "mtime": 1785547122.139754,
+    "ast_hash": "15819dabfadf00a78c1c3ceed7bbe5e8",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/RedMatter.java": {
+    "mtime": 1785547122.2138712,
+    "ast_hash": "c432678cc25ef33624b5ea6dec7681d3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/aeternalis_fuel.json": {
+    "mtime": 1785547138.024397,
+    "ast_hash": "61ae9131ebd6b32eff6a2f7f593dae9b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/alchemical_coal.json": {
+    "mtime": 1785547137.9418273,
+    "ast_hash": "e5becc1875e7713418e1de7205003ff4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/mobius_fuel.json": {
+    "mtime": 1785547137.9785945,
+    "ast_hash": "fa4693aee39f863b428550f7fc8d293c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter.json": {
+    "mtime": 1785547138.0716858,
+    "ast_hash": "819beedbd319559c0164253f56d9a26b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/aeternalis_fuel.json": {
+    "mtime": 1785547150.4799411,
+    "ast_hash": "7698762e59e123989b8b52aaf48eadff",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/alchemical_coal.json": {
+    "mtime": 1785547150.3771145,
+    "ast_hash": "229c3484da658b893d99e7d295602d8d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/mobius_fuel.json": {
+    "mtime": 1785547150.4336398,
+    "ast_hash": "3f620ac516afd5f1b0a606c543501781",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/red_matter.json": {
+    "mtime": 1785547150.5215557,
+    "ast_hash": "9e9050e8d5b1073c2b510387217621c7",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.8.md": {
+    "mtime": 1785547182.4447196,
+    "ast_hash": "be1b2621aec10d52358b331fce10ef29",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/fuels/aeternalis.png": {
+    "mtime": 1785547112.9431458,
+    "ast_hash": "caabf932248d863e8bfc8999f73ff40f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/fuels/alchemical_coal.png": {
+    "mtime": 1785547112.9899738,
+    "ast_hash": "fa0c58c3509f67fad6787fe797e245c5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/fuels/mobius.png": {
+    "mtime": 1785547113.036115,
+    "ast_hash": "3d7fafc88fda3d0cbb6cd72d38dae032",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/matter/red.png": {
+    "mtime": 1785547113.0849888,
+    "ast_hash": "c1a136073e32eb37a1c45dce02c5a7a4",
     "semantic_hash": ""
   }
 }
