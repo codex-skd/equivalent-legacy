@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785549654.682106,
-    "ast_hash": "1aaa11c9f7581b4b6c7f31f3e6188726",
+    "mtime": 1785549770.649483,
+    "ast_hash": "82abe88a4095918be25d9ca1798ebbab",
     "semantic_hash": ""
   },
   "README.md": {
@@ -1817,6 +1817,41 @@
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/red.png": {
     "mtime": 1785549590.5487614,
     "ast_hash": "cda577ecd5794d1e38887fd4a81e85ea",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/curios/tags/item/klein_star.json": {
+    "mtime": 1785549734.7572231,
+    "ast_hash": "497171b78e242bff8d859b777f930eb6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/curios/entities/equivalent_legacy.json": {
+    "mtime": 1785549734.865199,
+    "ast_hash": "4be7c73b7e79b8af28c82990f870458a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/curios/slots/klein_star.json": {
+    "mtime": 1785549734.8171358,
+    "ast_hash": "3aeb4503085494783b59581a9e0d3fac",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/tags/item/klein_stars.json": {
+    "mtime": 1785549734.9163437,
+    "ast_hash": "27452018ae7862286a135ff553c091d2",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.13.md": {
+    "mtime": 1785549766.201874,
+    "ast_hash": "6db1024a48c3d2ae85dfcfb9d4cfe17a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/curios/empty_klein_star.png": {
+    "mtime": 1785549734.653936,
+    "ast_hash": "81bfe1b152c6162112f3be76cc006748",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/slot/empty_klein_star.png": {
+    "mtime": 1785549735.0483017,
+    "ast_hash": "81bfe1b152c6162112f3be76cc006748",
     "semantic_hash": ""
   }
 }

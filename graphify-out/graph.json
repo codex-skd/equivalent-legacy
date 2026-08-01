@@ -206,7 +206,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient",
-      "community": 51,
+      "community": 2,
       "norm_label": "equivalentlegacyclient.java"
     },
     {
@@ -216,7 +216,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient",
-      "community": 51,
+      "community": 2,
       "norm_label": "equivalentlegacyclient"
     },
     {
@@ -226,7 +226,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_mod",
-      "community": 51,
+      "community": 2,
       "norm_label": "mod"
     },
     {
@@ -236,7 +236,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_eventbussubscriber",
-      "community": 51,
+      "community": 2,
       "norm_label": "eventbussubscriber"
     },
     {
@@ -246,7 +246,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_equivalentlegacyclient",
-      "community": 51,
+      "community": 2,
       "norm_label": ".equivalentlegacyclient()"
     },
     {
@@ -256,7 +256,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_modcontainer",
-      "community": 51,
+      "community": 2,
       "norm_label": "modcontainer"
     },
     {
@@ -266,7 +266,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onclientsetup",
-      "community": 51,
+      "community": 2,
       "norm_label": ".onclientsetup()"
     },
     {
@@ -276,7 +276,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "fmlclientsetupevent",
-      "community": 51,
+      "community": 2,
       "norm_label": "fmlclientsetupevent"
     },
     {
@@ -286,7 +286,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_java_subscribeevent",
-      "community": 51,
+      "community": 2,
       "norm_label": "subscribeevent"
     },
     {
@@ -296,7 +296,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacyclient_equivalentlegacyclient_onregisterscreens",
-      "community": 51,
+      "community": 2,
       "norm_label": ".onregisterscreens()"
     },
     {
@@ -306,7 +306,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "registermenuscreensevent",
-      "community": 51,
+      "community": 2,
       "norm_label": "registermenuscreensevent"
     },
     {
@@ -726,7 +726,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity",
-      "community": 44,
+      "community": 51,
       "norm_label": "basemachineblockentity.java"
     },
     {
@@ -736,7 +736,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity",
-      "community": 44,
+      "community": 51,
       "norm_label": "basemachineblockentity"
     },
     {
@@ -746,7 +746,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "blockentity",
-      "community": 44,
+      "community": 51,
       "norm_label": "blockentity"
     },
     {
@@ -756,7 +756,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_simplecontainer",
-      "community": 44,
+      "community": 51,
       "norm_label": "simplecontainer"
     },
     {
@@ -766,7 +766,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_basemachineblockentity",
-      "community": 44,
+      "community": 51,
       "norm_label": ".basemachineblockentity()"
     },
     {
@@ -776,7 +776,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_blockentitytype",
-      "community": 44,
+      "community": 51,
       "norm_label": "blockentitytype"
     },
     {
@@ -786,7 +786,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_blockpos",
-      "community": 44,
+      "community": 51,
       "norm_label": "blockpos"
     },
     {
@@ -796,7 +796,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_blockstate",
-      "community": 44,
+      "community": 51,
       "norm_label": "blockstate"
     },
     {
@@ -806,7 +806,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_getinventory",
-      "community": 44,
+      "community": 51,
       "norm_label": ".getinventory()"
     },
     {
@@ -816,7 +816,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_getemc",
-      "community": 44,
+      "community": 51,
       "norm_label": ".getemc()"
     },
     {
@@ -826,7 +826,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_addemc",
-      "community": 44,
+      "community": 51,
       "norm_label": ".addemc()"
     },
     {
@@ -836,7 +836,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_takeemc",
-      "community": 44,
+      "community": 51,
       "norm_label": ".takeemc()"
     },
     {
@@ -846,7 +846,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_dropcontents",
-      "community": 44,
+      "community": 51,
       "norm_label": ".dropcontents()"
     },
     {
@@ -856,7 +856,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_stillvalid",
-      "community": 44,
+      "community": 51,
       "norm_label": ".stillvalid()"
     },
     {
@@ -866,7 +866,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_player",
-      "community": 44,
+      "community": 51,
       "norm_label": "player"
     },
     {
@@ -876,7 +876,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_openmenu",
-      "community": 44,
+      "community": 51,
       "norm_label": ".openmenu()"
     },
     {
@@ -886,7 +886,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_createmenuprovider",
-      "community": 44,
+      "community": 51,
       "norm_label": ".createmenuprovider()"
     },
     {
@@ -896,7 +896,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_menuprovider",
-      "community": 44,
+      "community": 51,
       "norm_label": "menuprovider"
     },
     {
@@ -906,7 +906,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity_getdisplayname",
-      "community": 44,
+      "community": 51,
       "norm_label": ".getdisplayname()"
     },
     {
@@ -916,7 +916,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java_component",
-      "community": 44,
+      "community": 51,
       "norm_label": "component"
     },
     {
@@ -1376,7 +1376,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers",
-      "community": 21,
+      "community": 44,
       "norm_label": "machinetiers.java"
     },
     {
@@ -1386,7 +1386,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_machinetiers",
-      "community": 21,
+      "community": 44,
       "norm_label": "machinetiers"
     },
     {
@@ -1396,7 +1396,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_collectortier",
-      "community": 21,
+      "community": 44,
       "norm_label": "collectortier"
     },
     {
@@ -1406,7 +1406,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_collectortier_mk1",
-      "community": 21,
+      "community": 44,
       "norm_label": "mk1"
     },
     {
@@ -1416,7 +1416,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_collectortier_mk2",
-      "community": 21,
+      "community": 44,
       "norm_label": "mk2"
     },
     {
@@ -1426,7 +1426,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_collectortier_mk3",
-      "community": 21,
+      "community": 44,
       "norm_label": "mk3"
     },
     {
@@ -1436,7 +1436,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_of",
-      "community": 21,
+      "community": 44,
       "norm_label": "of()"
     },
     {
@@ -1446,7 +1446,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_java_block",
-      "community": 21,
+      "community": 44,
       "norm_label": "block"
     },
     {
@@ -1526,7 +1526,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_machinetiers_machinetiers_machinetiers",
-      "community": 21,
+      "community": 44,
       "norm_label": ".machinetiers()"
     },
     {
@@ -4936,7 +4936,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes",
-      "community": 51,
+      "community": 43,
       "norm_label": "modmenutypes.java"
     },
     {
@@ -4946,7 +4946,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes",
-      "community": 51,
+      "community": 43,
       "norm_label": "modmenutypes"
     },
     {
@@ -4956,7 +4956,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java_deferredregister",
-      "community": 51,
+      "community": 43,
       "norm_label": "deferredregister"
     },
     {
@@ -4966,7 +4966,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java_menutype",
-      "community": 51,
+      "community": 43,
       "norm_label": "menutype"
     },
     {
@@ -4976,7 +4976,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java_deferredholder",
-      "community": 51,
+      "community": 43,
       "norm_label": "deferredholder"
     },
     {
@@ -4986,7 +4986,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes_modmenutypes",
-      "community": 51,
+      "community": 43,
       "norm_label": ".modmenutypes()"
     },
     {
@@ -7890,10 +7890,20 @@
       "norm_label": "changelog \u2014 equivalent legacy"
     },
     {
-      "label": "0.0.0-beta.12",
+      "label": "0.0.0-beta.13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
       "source_location": "L3",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_13",
+      "community": 15,
+      "norm_label": "0.0.0-beta.13"
+    },
+    {
+      "label": "0.0.0-beta.12",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_12",
       "community": 15,
@@ -7903,7 +7913,7 @@
       "label": "0.0.0-beta.11",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_11",
       "community": 15,
@@ -7913,7 +7923,7 @@
       "label": "0.0.0-beta.10",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L17",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_10",
       "community": 15,
@@ -7923,7 +7933,7 @@
       "label": "0.0.0-beta.9",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L25",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_9",
       "community": 15,
@@ -7933,7 +7943,7 @@
       "label": "0.0.0-beta.8",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L31",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_8",
       "community": 15,
@@ -7943,7 +7953,7 @@
       "label": "0.0.0-beta.7",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L37",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_7",
       "community": 15,
@@ -7953,7 +7963,7 @@
       "label": "0.0.0-beta.6",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L43",
+      "source_location": "L47",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_6",
       "community": 15,
@@ -7963,7 +7973,7 @@
       "label": "0.0.0-beta.5",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L49",
+      "source_location": "L53",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_5",
       "community": 15,
@@ -7973,7 +7983,7 @@
       "label": "0.0.0-beta.4",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L55",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_4",
       "community": 15,
@@ -7983,7 +7993,7 @@
       "label": "0.0.0-beta.3",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L61",
+      "source_location": "L65",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_3",
       "community": 15,
@@ -7993,7 +8003,7 @@
       "label": "0.0.0-beta.2",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L68",
+      "source_location": "L72",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_2",
       "community": 15,
@@ -8003,7 +8013,7 @@
       "label": "0.0.0-beta.1",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L78",
+      "source_location": "L82",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_1",
       "community": 15,
@@ -8408,6 +8418,16 @@
       "id": "docs_curseforge_versions_0_0_0_beta_12",
       "community": 53,
       "norm_label": "0.0.0-beta.12.md"
+    },
+    {
+      "label": "0.0.0-beta.13.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.13.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_13",
+      "community": 54,
+      "norm_label": "0.0.0-beta.13.md"
     },
     {
       "label": "0.0.0-beta.2.md",
@@ -24005,7 +24025,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L78",
+      "source_location": "L82",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_1",
@@ -24015,7 +24035,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L17",
+      "source_location": "L21",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_10",
@@ -24025,7 +24045,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_11",
@@ -24035,7 +24055,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L3",
+      "source_location": "L7",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_12",
@@ -24045,7 +24065,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L68",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "changelog_changelog_equivalent_legacy",
+      "target": "changelog_0_0_0_beta_13",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L72",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_2",
@@ -24055,7 +24085,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L61",
+      "source_location": "L65",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_3",
@@ -24065,7 +24095,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L55",
+      "source_location": "L59",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_4",
@@ -24075,7 +24105,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L49",
+      "source_location": "L53",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_5",
@@ -24085,7 +24115,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L43",
+      "source_location": "L47",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_6",
@@ -24095,7 +24125,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L37",
+      "source_location": "L41",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_7",
@@ -24105,7 +24135,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L31",
+      "source_location": "L35",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_8",
@@ -24115,7 +24145,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L25",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_9",
@@ -24449,5 +24479,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4945e6f6b630b51937bd852f4d4ae1b16b43fa5e"
+  "built_at_commit": "778827b650cc009a3e39460e7a8a85920346286b"
 }

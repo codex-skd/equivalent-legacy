@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-01)
 
 ## Corpus Check
-- 294 files · ~23,394 words
+- 299 files · ~23,546 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 852 nodes · 1489 edges · 54 communities (51 shown, 3 thin omitted)
+- 854 nodes · 1490 edges · 55 communities (52 shown, 3 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 49 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4945e6f6`
+- Built from commit: `778827b6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -74,15 +74,15 @@
   .gitlab-ci.yml → README.md
 - `AlchemicalChestBlockEntity` --inherits--> `BaseMachineBlockEntity`  [EXTRACTED]
   src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java → src/main/java/com/skd/equivalentlegacy/block/entity/BaseMachineBlockEntity.java
+- `CollectorBlockEntity` --inherits--> `BaseMachineBlockEntity`  [EXTRACTED]
+  src/main/java/com/skd/equivalentlegacy/block/entity/CollectorBlockEntity.java → src/main/java/com/skd/equivalentlegacy/block/entity/BaseMachineBlockEntity.java
 - `CondenserBlockEntity` --inherits--> `BaseMachineBlockEntity`  [EXTRACTED]
   src/main/java/com/skd/equivalentlegacy/block/entity/CondenserBlockEntity.java → src/main/java/com/skd/equivalentlegacy/block/entity/BaseMachineBlockEntity.java
-- `RelayBlockEntity` --inherits--> `BaseMachineBlockEntity`  [EXTRACTED]
-  src/main/java/com/skd/equivalentlegacy/block/entity/RelayBlockEntity.java → src/main/java/com/skd/equivalentlegacy/block/entity/BaseMachineBlockEntity.java
 
 ## Import Cycles
 - None detected.
 
-## Communities (54 total, 3 thin omitted)
+## Communities (55 total, 3 thin omitted)
 
 ### Community 0 - "Equivalent Legacy Mod"
 Cohesion: 0.07
@@ -93,8 +93,8 @@ Cohesion: 0.29
 Nodes (7): CommandDispatcher, CommandSourceStack, RegisterCommandsEvent, EventBusSubscriber, ServerPlayer, SubscribeEvent, ModCommands
 
 ### Community 2 - "Client Setup"
-Cohesion: 0.09
-Nodes (21): CollectorScreen, Component, GuiGraphicsExtractor, Inventory, Override, CondenserScreen, Component, GuiGraphicsExtractor (+13 more)
+Cohesion: 0.07
+Nodes (28): FMLClientSetupEvent, RegisterMenuScreensEvent, EquivalentLegacyClient, EventBusSubscriber, Mod, ModContainer, SubscribeEvent, CollectorScreen (+20 more)
 
 ### Community 3 - "Gradle Build Script"
 Cohesion: 0.83
@@ -133,8 +133,8 @@ Cohesion: 0.50
 Nodes (3): CLAUDE.md — equivalent_legacy (26.2), Prioridad de instrucciones, Workflow del mod
 
 ### Community 15 - "Changelog — Equivalent Legacy"
-Cohesion: 0.14
-Nodes (13): 0.0.0-beta.1, 0.0.0-beta.10, 0.0.0-beta.11, 0.0.0-beta.12, 0.0.0-beta.2, 0.0.0-beta.3, 0.0.0-beta.4, 0.0.0-beta.5 (+5 more)
+Cohesion: 0.13
+Nodes (14): 0.0.0-beta.1, 0.0.0-beta.10, 0.0.0-beta.11, 0.0.0-beta.12, 0.0.0-beta.13, 0.0.0-beta.2, 0.0.0-beta.3, 0.0.0-beta.4 (+6 more)
 
 ### Community 16 - "Flujo de trabajo — Equivalent Legacy (NeoForge)"
 Cohesion: 0.15
@@ -145,8 +145,8 @@ Cohesion: 0.18
 Nodes (5): IExtendedMappingCollector, Object2IntMap, IMappingCollector, Object2IntMap, Provider
 
 ### Community 21 - "SimpleGraphMapper"
-Cohesion: 0.07
-Nodes (26): CollectorTier, MK1, MK2, MK3, Block, MachineTiers, of(), RelayTier (+18 more)
+Cohesion: 0.10
+Nodes (19): RelayTier, MK1, MK2, MK3, BlockEntityTicker, BlockPos, BlockState, Component (+11 more)
 
 ### Community 22 - "EquivalentLegacyConfig"
 Cohesion: 0.47
@@ -193,12 +193,12 @@ Cohesion: 0.24
 Nodes (10): ItemLike, DataComponentPatch, Identifier, Item, ItemStack, MapCodec, Override, Registry (+2 more)
 
 ### Community 43 - "CondenserBlockEntity"
-Cohesion: 0.09
-Nodes (18): CondenserBlockEntity, BlockEntityTicker, BlockPos, BlockState, Component, Level, MenuProvider, Override (+10 more)
+Cohesion: 0.08
+Nodes (22): CondenserBlockEntity, BlockEntityTicker, BlockPos, BlockState, Component, Level, MenuProvider, Override (+14 more)
 
 ### Community 44 - "CollectorBlockEntity"
-Cohesion: 0.06
-Nodes (24): BlockEntity, BaseMachineBlockEntity, BlockEntityType, BlockPos, BlockState, Component, MenuProvider, Player (+16 more)
+Cohesion: 0.08
+Nodes (22): CollectorBlockEntity, BlockEntityTicker, BlockPos, BlockState, Component, Level, MenuProvider, Override (+14 more)
 
 ### Community 45 - "BaseMachineBlock.java"
 Cohesion: 0.20
@@ -225,11 +225,11 @@ Cohesion: 0.11
 Nodes (19): IItemHandler, BagMenu, InteractionHand, Inventory, ItemStack, ItemStackHandler, Override, Player (+11 more)
 
 ### Community 51 - "MatterMaterials"
-Cohesion: 0.19
-Nodes (11): FMLClientSetupEvent, RegisterMenuScreensEvent, EquivalentLegacyClient, EventBusSubscriber, Mod, ModContainer, SubscribeEvent, DeferredHolder (+3 more)
+Cohesion: 0.16
+Nodes (9): BlockEntity, BaseMachineBlockEntity, BlockEntityType, BlockPos, BlockState, Component, MenuProvider, Player (+1 more)
 
 ## Knowledge Gaps
-- **58 isolated node(s):** `MK1`, `MK2`, `MK3`, `MK1`, `MK2` (+53 more)
+- **59 isolated node(s):** `MK1`, `MK2`, `MK3`, `MK1`, `MK2` (+54 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -237,16 +237,16 @@ Nodes (11): FMLClientSetupEvent, RegisterMenuScreensEvent, EquivalentLegacyClien
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `NormalizedSimpleStack` connect `Event Bus` to `PlayerEvents`, `Server Start`, `TransmutationContainer`?**
-  _High betweenness centrality (0.104) - this node is a cross-community bridge._
+  _High betweenness centrality (0.103) - this node is a cross-community bridge._
 - **Why does `NSSItem` connect `PlayerEvents` to `AbstractNSSTag`, `Server Start`, `Common Setup`, `CondenserBlockEntity`, `TransmutationContainer`, `PlayerKnowledge`, `NSSTag`?**
   _High betweenness centrality (0.099) - this node is a cross-community bridge._
 - **Why does `PlayerKnowledge` connect `PlayerKnowledge` to `Mod Configuration`, `KnowledgeSyncChangePayload.java`, `PlayerEvents`, `Common Setup`, `TransmutationContainer`, `PlayerEvents`?**
-  _High betweenness centrality (0.087) - this node is a cross-community bridge._
+  _High betweenness centrality (0.086) - this node is a cross-community bridge._
 - **What connects `MK1`, `MK2`, `MK3` to the rest of the system?**
-  _58 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _59 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Equivalent Legacy Mod` be split into smaller, more focused modules?**
   _Cohesion score 0.0743321718931475 - nodes in this community are weakly interconnected._
 - **Should `Client Setup` be split into smaller, more focused modules?**
-  _Cohesion score 0.09041835357624832 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07102040816326531 - nodes in this community are weakly interconnected._
 - **Should `Event Bus` be split into smaller, more focused modules?**
   _Cohesion score 0.058699101004759384 - nodes in this community are weakly interconnected._
