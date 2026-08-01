@@ -8,8 +8,6 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 @Mod(EquivalentLegacy.MODID)
 public class EquivalentLegacy {
@@ -31,8 +29,6 @@ public class EquivalentLegacy {
         com.skd.equivalentlegacy.network.PacketHandler.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
-
-        NeoForge.EVENT_BUS.register(this);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
