@@ -71,6 +71,18 @@ public class EquivalentLegacy {
         var nssRedBlock = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.RED_MATTER_BLOCK.get());
         fixedValues.addSetValueBefore(nssRedBlock, 3_760_128L);
 
+        var nssLowDust = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.LOW_COVALENCE_DUST.get());
+        fixedValues.addSetValueBefore(nssLowDust, 512L);
+
+        var nssMediumDust = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.MEDIUM_COVALENCE_DUST.get());
+        fixedValues.addSetValueBefore(nssMediumDust, 1_024L);
+
+        var nssHighDust = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.HIGH_COVALENCE_DUST.get());
+        fixedValues.addSetValueBefore(nssHighDust, 2_048L);
+
+        var nssTome = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.TOME.get());
+        fixedValues.addSetValueBefore(nssTome, 25_172_992L);
+
         var nssKlein = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.KLEIN_STAR_EIN.get());
         fixedValues.addSetValueBefore(nssKlein, 24_576L);
 

@@ -41,6 +41,11 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG.get());
                         output.accept(EquivalentLegacyItems.ALCHEMICAL_CHEST.get());
 
+                        output.accept(EquivalentLegacyItems.LOW_COVALENCE_DUST.get());
+                        output.accept(EquivalentLegacyItems.MEDIUM_COVALENCE_DUST.get());
+                        output.accept(EquivalentLegacyItems.HIGH_COVALENCE_DUST.get());
+                        output.accept(EquivalentLegacyItems.TOME.get());
+
                         output.accept(EquivalentLegacyItems.DARK_MATTER_SWORD.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_PICKAXE.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_AXE.get());
