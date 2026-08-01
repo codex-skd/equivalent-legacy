@@ -1,5 +1,9 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.26
+
+- **Fix**: Curios dependency version range now accepts `15.0.0-beta.2+26.2` (the MC 26.2 build), fixing the load error.
+
 ## 0.0.0-beta.25
 
 - **Full Star recipes**: custom recipe ingredient matching a maxed (16M) Klein Star Omega; alternative Gem Armor and Tome crafting routes (endgame).
