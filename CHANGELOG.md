@@ -1,5 +1,13 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.17
+
+- **Nova Catalyst / Cataclysm**: TNT + alchemical fuel crafting components.
+- **Divining Rods I-III**: show total EMC in a growing area on right-click.
+- **Destruction Catalyst**: clears 3x3x3 on right-click.
+- **Hyperkinetic / Catalytic Lenses**: explosions on right-click.
+- **Mercurial Eye**: shows player EMC. **Archangel's Smite**: bow component.
+
 ## 0.0.0-beta.16
 
 - **Arcana set**: Iron Band, Black Hole Band, Gem of Eternal Density, Harvest Goddess Band, Ignition Ring, Swiftwolf's Rending Gale, Void Ring, Zero Ring, Arcana Ring, Body/Life/Mind/Soul Stones, Evertide/Volcanite Amulets, Repair Talisman, Watch of Flowing Time.
