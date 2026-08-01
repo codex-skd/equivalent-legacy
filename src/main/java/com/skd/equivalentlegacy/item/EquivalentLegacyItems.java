@@ -204,11 +204,11 @@ public final class EquivalentLegacyItems {
     public static final DeferredItem<KleinStar> KLEIN_STAR_OMEGA = ITEMS.register("klein_star_omega",
             () -> new KleinStar(new Item.Properties(), KleinStarTier.OMEGA));
 
-    public static final DeferredItem<Item> DARK_MATTER_SWORD = ITEMS.register("dark_matter_sword",
-            () -> new Item(new Item.Properties().sword(MatterMaterials.DARK_MATTER, 8.0F, -2.4F)));
+    public static final DeferredItem<MatterSwordItem> DARK_MATTER_SWORD = ITEMS.register("dark_matter_sword",
+            () -> new MatterSwordItem(new Item.Properties().sword(MatterMaterials.DARK_MATTER, 8.0F, -2.4F)));
 
-    public static final DeferredItem<Item> DARK_MATTER_PICKAXE = ITEMS.register("dark_matter_pickaxe",
-            () -> new Item(new Item.Properties().pickaxe(MatterMaterials.DARK_MATTER, 1.0F, -2.8F)));
+    public static final DeferredItem<MatterPickaxeItem> DARK_MATTER_PICKAXE = ITEMS.register("dark_matter_pickaxe",
+            () -> new MatterPickaxeItem(new Item.Properties().pickaxe(MatterMaterials.DARK_MATTER, 1.0F, -2.8F)));
 
     public static final DeferredItem<AxeItem> DARK_MATTER_AXE = ITEMS.register("dark_matter_axe",
             () -> new AxeItem(MatterMaterials.DARK_MATTER, 6.0F, -3.0F, new Item.Properties()));
@@ -238,11 +238,11 @@ public final class EquivalentLegacyItems {
     public static final DeferredItem<Item> DARK_MATTER_BOOTS = ITEMS.register("dark_matter_boots",
             () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.BOOTS)));
 
-    public static final DeferredItem<Item> RED_MATTER_SWORD = ITEMS.register("red_matter_sword",
-            () -> new Item(new Item.Properties().sword(MatterMaterials.RED_MATTER, 12.0F, -2.4F)));
+    public static final DeferredItem<MatterSwordItem> RED_MATTER_SWORD = ITEMS.register("red_matter_sword",
+            () -> new MatterSwordItem(new Item.Properties().sword(MatterMaterials.RED_MATTER, 12.0F, -2.4F)));
 
-    public static final DeferredItem<Item> RED_MATTER_PICKAXE = ITEMS.register("red_matter_pickaxe",
-            () -> new Item(new Item.Properties().pickaxe(MatterMaterials.RED_MATTER, 1.0F, -2.8F)));
+    public static final DeferredItem<MatterPickaxeItem> RED_MATTER_PICKAXE = ITEMS.register("red_matter_pickaxe",
+            () -> new MatterPickaxeItem(new Item.Properties().pickaxe(MatterMaterials.RED_MATTER, 1.0F, -2.8F)));
 
     public static final DeferredItem<AxeItem> RED_MATTER_AXE = ITEMS.register("red_matter_axe",
             () -> new AxeItem(MatterMaterials.RED_MATTER, 9.0F, -3.0F, new Item.Properties()));
@@ -260,11 +260,11 @@ public final class EquivalentLegacyItems {
     public static final DeferredItem<HammerItem> RED_MATTER_HAMMER = ITEMS.register("red_matter_hammer",
             () -> new HammerItem(new Item.Properties().tool(MatterMaterials.RED_MATTER, BlockTags.MINEABLE_WITH_PICKAXE, 8.0F, -3.0F, 0.0F)));
 
-    public static final DeferredItem<Item> RED_MATTER_KATAR = ITEMS.register("red_matter_katar",
-            () -> new Item(new Item.Properties().sword(MatterMaterials.RED_MATTER, 14.0F, -2.0F)));
+    public static final DeferredItem<MatterSwordItem> RED_MATTER_KATAR = ITEMS.register("red_matter_katar",
+            () -> new MatterSwordItem(new Item.Properties().sword(MatterMaterials.RED_MATTER, 14.0F, -2.0F)));
 
-    public static final DeferredItem<Item> RED_MATTER_MORNING_STAR = ITEMS.register("red_matter_morning_star",
-            () -> new Item(new Item.Properties().sword(MatterMaterials.RED_MATTER, 18.0F, -2.4F)));
+    public static final DeferredItem<MatterSwordItem> RED_MATTER_MORNING_STAR = ITEMS.register("red_matter_morning_star",
+            () -> new MatterSwordItem(new Item.Properties().sword(MatterMaterials.RED_MATTER, 18.0F, -2.4F)));
 
     public static final DeferredItem<Item> RED_MATTER_HELMET = ITEMS.register("red_matter_helmet",
             () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.HELMET)));

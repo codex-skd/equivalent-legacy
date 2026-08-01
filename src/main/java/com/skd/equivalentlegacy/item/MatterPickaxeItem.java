@@ -7,8 +7,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class HammerItem extends ChargableItem {
-    public HammerItem(Properties properties) {
+public class MatterPickaxeItem extends ChargableItem {
+    public MatterPickaxeItem(Properties properties) {
         super(properties);
     }
 
@@ -16,7 +16,7 @@ public class HammerItem extends ChargableItem {
     public boolean mineBlock(ItemStack stack, Level level, BlockState state, BlockPos pos, LivingEntity owner) {
         boolean result = super.mineBlock(stack, level, state, pos, owner);
         if (!level.isClientSide() && owner instanceof Player player) {
-            ToolAoe.breakArea(stack, level, pos, player, getCharge(stack) + 1);
+            ToolAoe.breakArea(stack, level, pos, player, getCharge(stack));
         }
         return result;
     }

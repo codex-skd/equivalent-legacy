@@ -19,5 +19,11 @@ public final class EquivalentLegacyDataComponents {
                     .networkSynchronized(ByteBufCodecs.VAR_LONG)
                     .build());
 
+    public static final Supplier<DataComponentType<Integer>> TOOL_CHARGE = DATA_COMPONENT_TYPES.register("tool_charge",
+            () -> DataComponentType.<Integer>builder()
+                    .persistent(Codec.INT)
+                    .networkSynchronized(ByteBufCodecs.VAR_INT)
+                    .build());
+
     private EquivalentLegacyDataComponents() {}
 }

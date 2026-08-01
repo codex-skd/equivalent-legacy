@@ -1,5 +1,11 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.18
+
+- **Transmutation Table** (block) and **Transmutation Tablet** (item): open the transmutation GUI.
+- **Interdiction Torch**: block entity that pushes mobs away.
+- Core ProjectE feature set complete.
+
 ## 0.0.0-beta.17
 
 - **Nova Catalyst / Cataclysm**: TNT + alchemical fuel crafting components.
