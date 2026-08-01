@@ -61,9 +61,42 @@ public final class EquivalentLegacyItems {
 
     public static final DeferredItem<BlockItem> CONDENSER_MK2 = ITEMS.registerSimpleBlockItem("condenser_mk2", EquivalentLegacyBlocks.CONDENSER_MK2);
 
-    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG = ITEMS.register("alchemical_bag",
-            () -> new AlchemicalBag(new Item.Properties().stacksTo(1)
-                    .component(net.minecraft.core.component.DataComponents.CONTAINER, net.minecraft.world.item.component.ItemContainerContents.EMPTY)));
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_BLACK = registerBag("black_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_BLUE = registerBag("blue_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_BROWN = registerBag("brown_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_CYAN = registerBag("cyan_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_GRAY = registerBag("gray_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_GREEN = registerBag("green_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_LIGHT_BLUE = registerBag("light_blue_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_LIGHT_GRAY = registerBag("light_gray_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_LIME = registerBag("lime_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_MAGENTA = registerBag("magenta_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_ORANGE = registerBag("orange_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_PINK = registerBag("pink_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_PURPLE = registerBag("purple_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_RED = registerBag("red_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_WHITE = registerBag("white_alchemical_bag");
+
+    public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_YELLOW = registerBag("yellow_alchemical_bag");
+
+    private static DeferredItem<AlchemicalBag> registerBag(String name) {
+        return ITEMS.register(name, () -> new AlchemicalBag(new Item.Properties().stacksTo(1)
+                .component(net.minecraft.core.component.DataComponents.CONTAINER, net.minecraft.world.item.component.ItemContainerContents.EMPTY)));
+    }
 
     public static final DeferredItem<BlockItem> ALCHEMICAL_CHEST = ITEMS.registerSimpleBlockItem("alchemical_chest", EquivalentLegacyBlocks.ALCHEMICAL_CHEST);
 
