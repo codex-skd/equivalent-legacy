@@ -1,6 +1,7 @@
 package com.skd.equivalentlegacy.item;
 
 import com.skd.equivalentlegacy.EquivalentLegacy;
+import com.skd.equivalentlegacy.block.EquivalentLegacyBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -23,6 +24,11 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyItems.AETERNALIS_FUEL.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER.get());
                         output.accept(EquivalentLegacyItems.RED_MATTER.get());
+                        output.accept(EquivalentLegacyBlocks.ALCHEMICAL_COAL_BLOCK.get());
+                        output.accept(EquivalentLegacyBlocks.MOBIUS_FUEL_BLOCK.get());
+                        output.accept(EquivalentLegacyBlocks.AETERNALIS_FUEL_BLOCK.get());
+                        output.accept(EquivalentLegacyBlocks.DARK_MATTER_BLOCK.get());
+                        output.accept(EquivalentLegacyBlocks.RED_MATTER_BLOCK.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_EIN.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_ZWEI.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_DREI.get());
