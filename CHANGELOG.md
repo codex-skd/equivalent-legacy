@@ -1,5 +1,10 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.22
+
+- **Dark Matter Furnace** (4x) and **Red Matter Furnace** (8x): fast smelting with vanilla recipes and a vanilla-style GUI.
+- Completes the original mod's full block set.
+
 ## 0.0.0-beta.21
 
 - **Gem Armor**: Gem Helmet/Chestplate/Leggings/Boots — the strongest armor set (Red Matter armor + arcana items + Klein Star Omega).
