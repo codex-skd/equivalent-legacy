@@ -9,7 +9,7 @@ Mod NeoForge que revive el sistema EMC (Equivalent Exchange 2 / ProjectE): asign
 - **mod_id**: `equivalent_legacy`
 - **package**: `com.skd.equivalentlegacy`
 - **Minecraft / NeoForge**: `26.2` / `26.2.0.32-beta` — **no subir de versión sin que se pida explícitamente**
-- **mod_version actual**: `0.0.0-beta.21`
+- **mod_version actual**: `0.0.0-beta.23`
 - **Rama**: `minecraft/26.2/neoforge-26.2.0.32-beta/production`
 - **Repo**: `G:\Proyectos\Mods_Minecraft\equivalent_legacy\26.2`
 
@@ -54,6 +54,8 @@ La atribución ya está puesta en `README.md`, `neoforge.mods.toml` (`credits`) 
 | 19 | **Sistema de carga/AOE**: `TOOL_CHARGE` component, shift-RMB cicla 0-3; martillo/pico minan AOE; espadas atacan en área | `item/` |
 | 20 | **Red EMC por dimensión** (`EMCNetwork` pool compartido; las máquinas ya no dependen de bloques adyacentes) | `emc/`, `block/entity/` |
 | 21 | **Gem Armor**: set definitivo (helmet/chestplate/leggings/boots) | `item/` |
+| 22 | **Dark/Red Matter Furnaces**: hornos 4x/8x con recetas vanilla y GUI estilo horno (`AbstractFurnaceMenu`/`AbstractFurnaceScreen`); completa el set de bloques del original | `block/`, `block/entity/`, `gui/` |
+| 23 | **Persistencia del pool EMC** (`EMCNetworkData` SavedData, carga al iniciar / guarda al parar) | `emc/`, `events/` |
 
 Estructura de paquetes actual (todo bajo `src/main/java/com/skd/equivalentlegacy/`):
 ```
@@ -85,10 +87,8 @@ events/       — PlayerEvents
 ## Lo que falta (siguientes betas)
 
 **Fases futuras (no empezadas):**
-- **Dark/Red Matter Furnaces** (hornos acelerados) — único bloque del mod original aún sin portar.
-- Efectos pasivos del set arcana desde slots de Curios (ahora solo funcionan desde el inventario).
-- Persistencia del pool de `EMCNetwork` entre sesiones (ahora es solo en memoria).
-- Colored full-star gem armor / full klein stars como material de mejora.
+- Efectos pasivos del set arcana desde slots de **Curios** (ahora solo funcionan desde el inventario) — requiere la API de Curios como dependencia de compilación (no disponible offline).
+- Colored full-star gem armor / full klein stars como material de mejora (variantes cosméticas del original).
 
 ## Notas sobre el entorno (por qué esto existe)
 
