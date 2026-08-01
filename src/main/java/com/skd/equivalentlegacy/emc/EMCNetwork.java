@@ -16,6 +16,14 @@ public final class EMCNetwork {
         return POOLS.getOrDefault(level.dimension(), 0L);
     }
 
+    public static long getEmc(ResourceKey<Level> dimension) {
+        return POOLS.getOrDefault(dimension, 0L);
+    }
+
+    public static void setEmc(ResourceKey<Level> dimension, long amount) {
+        POOLS.put(dimension, Math.max(0, Math.min(MAX_POOL, amount)));
+    }
+
     public static void addEmc(Level level, long amount) {
         if (amount <= 0) return;
         POOLS.merge(level.dimension(), amount, (current, add) -> Math.min(MAX_POOL, current + add));
