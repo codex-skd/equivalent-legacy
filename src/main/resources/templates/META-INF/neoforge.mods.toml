@@ -82,11 +82,12 @@ Equivalent Legacy for Minecraft ${minecraft_version} / NeoForge. Forked from Equ
     ordering="NONE"
     side="BOTH"
 
-# Curios is required to equip the mod's curio items (Klein Stars, rings, amulets, stones, talisman, watch)
+# Curios is required to equip the mod's curio items (Klein Stars, rings, amulets, stones, talisman, watch).
+# The CurseForge Curios build for MC 26.2 is 15.0.0-beta.2+26.2 (project 1579340, file 8270756).
 [[dependencies.${mod_id}]]
     modId="curios"
     type="required"
-    versionRange="[15.0.0,)"
+    versionRange="[15.0.0-beta.2,)"
     ordering="AFTER"
     side="BOTH"
 

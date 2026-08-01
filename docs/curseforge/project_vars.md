@@ -27,6 +27,12 @@ api_token = ee776b0a-ee95-4850-b554-06be02a8657f
 release_type = beta
 game_versions = 16498,10150,9638
 
+## Dependencia requerida
+
+| Mod | Proyecto CurseForge | Archivo | Versión |
+|-----|---------------------|---------|---------|
+| Curios API | `1579340` | `8270756` | `15.0.0-beta.2+26.2` |
+
 ## Nota
 
 La **primera subida a CurseForge se hace manual** (proyecto recién creado, sin archivos previos que verificar por API). A partir de la segunda subida se puede usar el script `codex-docs/scripts/curseforge-upload.ps1`.
