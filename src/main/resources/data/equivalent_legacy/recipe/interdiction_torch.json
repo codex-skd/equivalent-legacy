@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","key":{"D":"#c:gems/diamond","G":"#c:dusts/glowstone","P":"equivalent_legacy:philosophers_stone","R":"minecraft:redstone_torch"},"pattern":["RDR","DPD","GGG"],"result":{"count":1,"id":"equivalent_legacy:interdiction_torch"}}

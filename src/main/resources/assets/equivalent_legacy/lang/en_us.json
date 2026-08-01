@@ -98,6 +98,10 @@
   "item.equivalent_legacy.mercurial_eye": "Mercurial Eye",
   "item.equivalent_legacy.archangel_smite": "Archangel's Smite",
 
+  "item.equivalent_legacy.transmutation_tablet": "Transmutation Tablet",
+  "block.equivalent_legacy.transmutation_table": "Transmutation Table",
+  "block.equivalent_legacy.interdiction_torch": "Interdiction Torch",
+
   "container.equivalent_legacy.collector": "Collector",
   "container.equivalent_legacy.relay": "Relay",
   "container.equivalent_legacy.condenser": "Condenser",

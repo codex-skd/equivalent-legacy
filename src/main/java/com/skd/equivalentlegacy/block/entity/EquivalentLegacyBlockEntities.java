@@ -32,5 +32,9 @@ public final class EquivalentLegacyBlockEntities {
             BLOCK_ENTITY_TYPES.register("alchemical_chest", () -> new BlockEntityType<>(AlchemicalChestBlockEntity::new,
                     EquivalentLegacyBlocks.ALCHEMICAL_CHEST.get()));
 
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<InterdictionTorchBlockEntity>> INTERDICTION_TORCH =
+            BLOCK_ENTITY_TYPES.register("interdiction_torch", () -> new BlockEntityType<>(InterdictionTorchBlockEntity::new,
+                    EquivalentLegacyBlocks.INTERDICTION_TORCH.get()));
+
     private EquivalentLegacyBlockEntities() {}
 }
