@@ -28,6 +28,12 @@
   "item.equivalent_legacy.aeternalis_fuel": "Aeternalis Fuel",
   "item.equivalent_legacy.dark_matter": "Dark Matter",
   "item.equivalent_legacy.red_matter": "Red Matter",
+
+  "block.equivalent_legacy.alchemical_coal_block": "Alchemical Coal Block",
+  "block.equivalent_legacy.mobius_fuel_block": "Mobius Fuel Block",
+  "block.equivalent_legacy.aeternalis_fuel_block": "Aeternalis Fuel Block",
+  "block.equivalent_legacy.dark_matter_block": "Dark Matter Block",
+  "block.equivalent_legacy.red_matter_block": "Red Matter Block",
   "item.equivalent_legacy.klein_star_ein": "Klein Star Ein",
   "item.equivalent_legacy.klein_star_zwei": "Klein Star Zwei",
   "item.equivalent_legacy.klein_star_drei": "Klein Star Drei",

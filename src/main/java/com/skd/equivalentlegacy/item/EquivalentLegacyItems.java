@@ -1,6 +1,8 @@
 package com.skd.equivalentlegacy.item;
 
 import com.skd.equivalentlegacy.EquivalentLegacy;
+import com.skd.equivalentlegacy.block.EquivalentLegacyBlocks;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -25,6 +27,16 @@ public final class EquivalentLegacyItems {
 
     public static final DeferredItem<RedMatter> RED_MATTER = ITEMS.register("red_matter",
             () -> new RedMatter(new Item.Properties()));
+
+    public static final DeferredItem<BlockItem> ALCHEMICAL_COAL_BLOCK = ITEMS.registerSimpleBlockItem("alchemical_coal_block", EquivalentLegacyBlocks.ALCHEMICAL_COAL_BLOCK);
+
+    public static final DeferredItem<BlockItem> MOBIUS_FUEL_BLOCK = ITEMS.registerSimpleBlockItem("mobius_fuel_block", EquivalentLegacyBlocks.MOBIUS_FUEL_BLOCK);
+
+    public static final DeferredItem<BlockItem> AETERNALIS_FUEL_BLOCK = ITEMS.registerSimpleBlockItem("aeternalis_fuel_block", EquivalentLegacyBlocks.AETERNALIS_FUEL_BLOCK);
+
+    public static final DeferredItem<BlockItem> DARK_MATTER_BLOCK = ITEMS.registerSimpleBlockItem("dark_matter_block", EquivalentLegacyBlocks.DARK_MATTER_BLOCK);
+
+    public static final DeferredItem<BlockItem> RED_MATTER_BLOCK = ITEMS.registerSimpleBlockItem("red_matter_block", EquivalentLegacyBlocks.RED_MATTER_BLOCK);
 
     public static final DeferredItem<KleinStar> KLEIN_STAR_EIN = ITEMS.register("klein_star_ein",
             () -> new KleinStar(new Item.Properties(), KleinStarTier.EIN));
