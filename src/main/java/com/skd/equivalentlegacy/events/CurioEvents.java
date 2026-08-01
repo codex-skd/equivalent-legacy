@@ -7,6 +7,8 @@ import com.skd.equivalentlegacy.item.CurioItem;
 import com.skd.equivalentlegacy.player.PlayerKnowledge;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.neoforged.neoforge.items.IItemHandlerModifiable;
+import top.theillusivec4.curios.api.CuriosApi;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -97,11 +99,17 @@ public final class CurioEvents {
     }
 
     private static Iterable<ItemStack> inventoryItems(Player player) {
-        var inventory = player.getInventory();
         java.util.List<ItemStack> stacks = new java.util.ArrayList<>();
+        var inventory = player.getInventory();
         for (int i = 0; i < inventory.getContainerSize(); i++) {
             stacks.add(inventory.getItem(i));
         }
+        CuriosApi.getCuriosInventory(player).ifPresent(handler -> {
+            IItemHandlerModifiable equipped = handler.getEquippedCurios();
+            for (int i = 0; i < equipped.getSlots(); i++) {
+                stacks.add(equipped.getStackInSlot(i));
+            }
+        });
         return stacks;
     }
 
