@@ -1,5 +1,7 @@
 package com.skd.equivalentlegacy;
 
+import com.skd.equivalentlegacy.gui.BagScreen;
+import com.skd.equivalentlegacy.gui.ChestScreen;
 import com.skd.equivalentlegacy.gui.CondenserScreen;
 import com.skd.equivalentlegacy.gui.CollectorScreen;
 import com.skd.equivalentlegacy.gui.ModMenuTypes;
@@ -33,5 +35,7 @@ public class EquivalentLegacyClient {
         event.register(ModMenuTypes.COLLECTOR.get(), CollectorScreen::new);
         event.register(ModMenuTypes.RELAY.get(), RelayScreen::new);
         event.register(ModMenuTypes.CONDENSER.get(), CondenserScreen::new);
+        event.register(ModMenuTypes.BAG.get(), BagScreen::new);
+        event.register(ModMenuTypes.CHEST.get(), ChestScreen::new);
     }
 }

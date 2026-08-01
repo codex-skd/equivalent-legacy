@@ -44,6 +44,11 @@
   "block.equivalent_legacy.condenser_mk1": "Condenser MK1",
   "block.equivalent_legacy.condenser_mk2": "Condenser MK2",
 
+  "item.equivalent_legacy.alchemical_bag": "Alchemical Bag",
+  "block.equivalent_legacy.alchemical_chest": "Alchemical Chest",
+  "container.equivalent_legacy.alchemical_bag": "Alchemical Bag",
+  "container.equivalent_legacy.alchemical_chest": "Alchemical Chest",
+
   "container.equivalent_legacy.collector": "Collector",
   "container.equivalent_legacy.relay": "Relay",
   "container.equivalent_legacy.condenser": "Condenser",

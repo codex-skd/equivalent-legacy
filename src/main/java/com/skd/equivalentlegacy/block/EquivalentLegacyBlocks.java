@@ -64,5 +64,8 @@ public final class EquivalentLegacyBlocks {
             () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.CONDENSER::get,
                     CondenserBlockEntity.ticker()));
 
+    public static final DeferredBlock<Block> ALCHEMICAL_CHEST = BLOCKS.register("alchemical_chest",
+            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.ALCHEMICAL_CHEST::get, null));
+
     private EquivalentLegacyBlocks() {}
 }

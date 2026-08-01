@@ -38,6 +38,8 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyItems.RELAY_MK3.get());
                         output.accept(EquivalentLegacyItems.CONDENSER_MK1.get());
                         output.accept(EquivalentLegacyItems.CONDENSER_MK2.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_BAG.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_CHEST.get());
 
                         output.accept(EquivalentLegacyItems.DARK_MATTER_SWORD.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_PICKAXE.get());
