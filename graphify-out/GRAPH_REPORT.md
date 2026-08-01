@@ -1,16 +1,16 @@
-# Graph Report - 26.2  (2026-07-31)
+# Graph Report - 26.2  (2026-08-01)
 
 ## Corpus Check
-- 65 files · ~10,513 words
+- 81 files · ~12,611 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 486 nodes · 818 edges · 38 communities (34 shown, 4 thin omitted)
+- 519 nodes · 863 edges · 40 communities (37 shown, 3 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 36 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `831f737e`
+- Built from commit: `db0dd55e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -44,10 +44,11 @@
 - AbstractNSSTag
 - KnowledgeSyncChangePayload.java
 - PlayerEvents
+- Contexto — Equivalent Legacy (para usar directamente con OpenCode/Codex)
 
 ## God Nodes (most connected - your core abstractions)
 1. `NormalizedSimpleStack` - 31 edges
-2. `PlayerKnowledge` - 23 edges
+2. `PlayerKnowledge` - 24 edges
 3. `PlayerKnowledgeAttachment` - 21 edges
 4. `CustomConversion` - 19 edges
 5. `FixedValues` - 19 edges
@@ -72,15 +73,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (38 total, 4 thin omitted)
+## Communities (40 total, 3 thin omitted)
 
 ### Community 0 - "Equivalent Legacy Mod"
 Cohesion: 0.11
 Nodes (16): Blocks, CreativeModeTab, DataComponentType, FMLCommonSetupEvent, EquivalentLegacyBlocks, EquivalentLegacy, Identifier, IEventBus (+8 more)
 
 ### Community 1 - "Mod Configuration"
-Cohesion: 0.24
-Nodes (10): ItemLike, ResourceKey, DataComponentPatch, Identifier, Item, ItemStack, MapCodec, Override (+2 more)
+Cohesion: 0.29
+Nodes (7): CommandDispatcher, CommandSourceStack, RegisterCommandsEvent, EventBusSubscriber, ServerPlayer, SubscribeEvent, ModCommands
 
 ### Community 2 - "Client Setup"
 Cohesion: 0.19
@@ -111,8 +112,8 @@ Cohesion: 0.25
 Nodes (7): CurseForge — Variables del proyecto, Nota, Proyecto, Rama, Tag, Tokens, Variables para script (lectura automática)
 
 ### Community 10 - "Common Setup"
-Cohesion: 0.06
-Nodes (16): AbstractContainerMenu, SimpleContainer, Inventory, ItemStack, Override, Player, ServerPlayer, TransmutationContainer (+8 more)
+Cohesion: 0.05
+Nodes (26): AbstractContainerMenu, ItemLike, ResourceKey, SimpleContainer, DataComponentPatch, Identifier, Item, ItemStack (+18 more)
 
 ### Community 13 - "Equivalent Legacy"
 Cohesion: 0.33
@@ -120,11 +121,15 @@ Nodes (5): Equivalent Legacy, Installation, License, Requirements, Status
 
 ### Community 14 - "CLAUDE.md — equivalent_legacy (26.2)"
 Cohesion: 0.50
-Nodes (3): CLAUDE.md — equivalent_legacy (26.2), Paso 0 obligatorio, Prioridad de instrucciones
+Nodes (3): CLAUDE.md — equivalent_legacy (26.2), Prioridad de instrucciones, Workflow del mod
 
 ### Community 15 - "Changelog — Equivalent Legacy"
-Cohesion: 0.25
-Nodes (7): 0.0.0-beta.1, 0.0.0-beta.2, 0.0.0-beta.3, 0.0.0-beta.4, 0.0.0-beta.5, 0.0.0-beta.6, Changelog — Equivalent Legacy
+Cohesion: 0.22
+Nodes (8): 0.0.0-beta.1, 0.0.0-beta.2, 0.0.0-beta.3, 0.0.0-beta.4, 0.0.0-beta.5, 0.0.0-beta.6, 0.0.0-beta.7, Changelog — Equivalent Legacy
+
+### Community 16 - "Flujo de trabajo — Equivalent Legacy (NeoForge)"
+Cohesion: 0.15
+Nodes (12): Buenas prácticas, Commits (Conventional Commits), Convenciones de nomenclatura, Específico del mod, Estructura del proyecto, Flujo de trabajo — Equivalent Legacy (NeoForge), Flujo por tarea, Idioma (+4 more)
 
 ### Community 19 - "IMappingCollector"
 Cohesion: 0.18
@@ -174,22 +179,26 @@ Nodes (18): Component, InteractionHand, InteractionResult, ItemStack, Level, Ove
 Cohesion: 0.25
 Nodes (6): PlayerChangedDimensionEvent, PlayerLoggedInEvent, PlayerRespawnEvent, EventBusSubscriber, SubscribeEvent, PlayerEvents
 
+### Community 38 - "Contexto — Equivalent Legacy (para usar directamente con OpenCode/Codex)"
+Cohesion: 0.25
+Nodes (7): Contexto — Equivalent Legacy (para usar directamente con OpenCode/Codex), Lo que falta (fase 6 en adelante — quedó a medias, no arrancó), Lo ya implementado (fases 1-5, todo commiteado y compilando), Notas sobre el entorno (por qué esto existe), Origen / atribución (obligatorio mantener), Qué es este mod, Reglas de naming y estilo (obligatorias)
+
 ## Knowledge Gaps
-- **29 isolated node(s):** `EIN`, `ZWEI`, `DREI`, `VIER`, `SPHERE` (+24 more)
+- **45 isolated node(s):** `EIN`, `ZWEI`, `DREI`, `VIER`, `SPHERE` (+40 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `NormalizedSimpleStack` connect `Event Bus` to `Mod Configuration`, `Common Setup`, `Server Start`, `NSSTag`?**
-  _High betweenness centrality (0.169) - this node is a cross-community bridge._
+- **Why does `NormalizedSimpleStack` connect `Event Bus` to `Common Setup`, `Server Start`, `NSSTag`?**
+  _High betweenness centrality (0.153) - this node is a cross-community bridge._
 - **Why does `PlayerKnowledge` connect `Common Setup` to `Mod Configuration`, `KnowledgeSyncChangePayload.java`, `PlayerEvents`?**
-  _High betweenness centrality (0.137) - this node is a cross-community bridge._
-- **Why does `NSSItem` connect `Mod Configuration` to `AbstractNSSTag`, `Common Setup`, `Server Start`, `NSSTag`?**
-  _High betweenness centrality (0.130) - this node is a cross-community bridge._
+  _High betweenness centrality (0.149) - this node is a cross-community bridge._
+- **Why does `NSSItem` connect `Common Setup` to `AbstractNSSTag`, `Server Start`, `NSSTag`?**
+  _High betweenness centrality (0.117) - this node is a cross-community bridge._
 - **What connects `EIN`, `ZWEI`, `DREI` to the rest of the system?**
-  _29 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _45 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Equivalent Legacy Mod` be split into smaller, more focused modules?**
   _Cohesion score 0.10826210826210826 - nodes in this community are weakly interconnected._
 - **Should `Event Bus` be split into smaller, more focused modules?**

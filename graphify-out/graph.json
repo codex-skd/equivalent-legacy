@@ -183,7 +183,7 @@
       "label": ".rl()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L53",
+      "source_location": "L68",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
       "community": 0,
@@ -348,6 +348,136 @@
       "id": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks_equivalentlegacyblocks_equivalentlegacyblocks",
       "community": 0,
       "norm_label": ".equivalentlegacyblocks()"
+    },
+    {
+      "label": "ModCommands.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_command_modcommands",
+      "community": 1,
+      "norm_label": "modcommands.java"
+    },
+    {
+      "label": "ModCommands",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands",
+      "community": 1,
+      "norm_label": "modcommands"
+    },
+    {
+      "label": "EventBusSubscriber",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_command_modcommands_java_eventbussubscriber",
+      "community": 1,
+      "norm_label": "eventbussubscriber"
+    },
+    {
+      "label": ".ModCommands()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_modcommands",
+      "community": 1,
+      "norm_label": ".modcommands()"
+    },
+    {
+      "label": ".onRegisterCommands()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_onregistercommands",
+      "community": 1,
+      "norm_label": ".onregistercommands()"
+    },
+    {
+      "label": "RegisterCommandsEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "registercommandsevent",
+      "community": 1,
+      "norm_label": "registercommandsevent"
+    },
+    {
+      "label": "SubscribeEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_command_modcommands_java_subscribeevent",
+      "community": 1,
+      "norm_label": "subscribeevent"
+    },
+    {
+      "label": ".register()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_register",
+      "community": 1,
+      "norm_label": ".register()"
+    },
+    {
+      "label": "CommandDispatcher",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "commanddispatcher",
+      "community": 1,
+      "norm_label": "commanddispatcher"
+    },
+    {
+      "label": "CommandSourceStack",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "commandsourcestack",
+      "community": 1,
+      "norm_label": "commandsourcestack"
+    },
+    {
+      "label": ".showEmc()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_showemc",
+      "community": 1,
+      "norm_label": ".showemc()"
+    },
+    {
+      "label": ".giveEmc()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_giveemc",
+      "community": 1,
+      "norm_label": ".giveemc()"
+    },
+    {
+      "label": "ServerPlayer",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_command_modcommands_java_serverplayer",
+      "community": 1,
+      "norm_label": "serverplayer"
     },
     {
       "label": "ClientConfig.java",
@@ -2056,7 +2186,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem",
-      "community": 1,
+      "community": 10,
       "norm_label": "nssitem.java"
     },
     {
@@ -2066,7 +2196,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
-      "community": 1,
+      "community": 10,
       "norm_label": "nssitem"
     },
     {
@@ -2076,7 +2206,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_item",
-      "community": 1,
+      "community": 10,
       "norm_label": "item"
     },
     {
@@ -2086,7 +2216,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "resourcekey",
-      "community": 1,
+      "community": 10,
       "norm_label": "resourcekey"
     },
     {
@@ -2096,7 +2226,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_mapcodec",
-      "community": 1,
+      "community": 10,
       "norm_label": "mapcodec"
     },
     {
@@ -2106,7 +2236,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_nssitem",
-      "community": 1,
+      "community": 10,
       "norm_label": ".nssitem()"
     },
     {
@@ -2116,7 +2246,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_identifier",
-      "community": 1,
+      "community": 10,
       "norm_label": "identifier"
     },
     {
@@ -2126,7 +2256,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_datacomponentpatch",
-      "community": 1,
+      "community": 10,
       "norm_label": "datacomponentpatch"
     },
     {
@@ -2136,7 +2266,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem",
-      "community": 1,
+      "community": 10,
       "norm_label": ".createitem()"
     },
     {
@@ -2146,7 +2276,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_itemstack",
-      "community": 1,
+      "community": 10,
       "norm_label": "itemstack"
     },
     {
@@ -2156,7 +2286,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "itemlike",
-      "community": 1,
+      "community": 10,
       "norm_label": "itemlike"
     },
     {
@@ -2166,7 +2296,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createtag",
-      "community": 1,
+      "community": 10,
       "norm_label": ".createtag()"
     },
     {
@@ -2176,7 +2306,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_getregistry",
-      "community": 1,
+      "community": 10,
       "norm_label": ".getregistry()"
     },
     {
@@ -2186,7 +2316,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_registry",
-      "community": 1,
+      "community": 10,
       "norm_label": "registry"
     },
     {
@@ -2196,7 +2326,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java_override",
-      "community": 1,
+      "community": 10,
       "norm_label": "override"
     },
     {
@@ -2206,7 +2336,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_codec",
-      "community": 1,
+      "community": 10,
       "norm_label": ".codec()"
     },
     {
@@ -2973,7 +3103,7 @@
       "label": ".EquivalentLegacyCreativeTab()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
-      "source_location": "L26",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab_equivalentlegacycreativetab",
       "community": 0,
@@ -3073,7 +3203,7 @@
       "label": ".EquivalentLegacyItems()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L20",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_equivalentlegacyitems",
       "community": 23,
@@ -4226,7 +4356,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getknownitems",
-      "community": 1,
+      "community": 10,
       "norm_label": ".getknownitems()"
     },
     {
@@ -4490,20 +4620,20 @@
       "norm_label": "claude.md \u2014 equivalent_legacy (26.2)"
     },
     {
-      "label": "Paso 0 obligatorio",
+      "label": "Workflow del mod",
       "file_type": "document",
       "source_file": ".claude/CLAUDE.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "claude_claude_paso_0_obligatorio",
+      "id": "claude_claude_workflow_del_mod",
       "community": 14,
-      "norm_label": "paso 0 obligatorio"
+      "norm_label": "workflow del mod"
     },
     {
       "label": "Prioridad de instrucciones",
       "file_type": "document",
       "source_file": ".claude/CLAUDE.md",
-      "source_location": "L12",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "claude_claude_prioridad_de_instrucciones",
       "community": 14,
@@ -4530,10 +4660,20 @@
       "norm_label": "changelog \u2014 equivalent legacy"
     },
     {
-      "label": "0.0.0-beta.6",
+      "label": "0.0.0-beta.7",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
       "source_location": "L3",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_7",
+      "community": 15,
+      "norm_label": "0.0.0-beta.7"
+    },
+    {
+      "label": "0.0.0-beta.6",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_6",
       "community": 15,
@@ -4543,7 +4683,7 @@
       "label": "0.0.0-beta.5",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_5",
       "community": 15,
@@ -4553,7 +4693,7 @@
       "label": "0.0.0-beta.4",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L15",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_4",
       "community": 15,
@@ -4563,7 +4703,7 @@
       "label": "0.0.0-beta.3",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L21",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_3",
       "community": 15,
@@ -4573,7 +4713,7 @@
       "label": "0.0.0-beta.2",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L28",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_2",
       "community": 15,
@@ -4583,7 +4723,7 @@
       "label": "0.0.0-beta.1",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L38",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_1",
       "community": 15,
@@ -4650,6 +4790,86 @@
       "norm_label": "license"
     },
     {
+      "label": "CONTEXT_FOR_OPENCODE.md",
+      "file_type": "document",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_context_for_opencode",
+      "community": 38,
+      "norm_label": "context_for_opencode.md"
+    },
+    {
+      "label": "Contexto \u2014 Equivalent Legacy (para usar directamente con OpenCode/Codex)",
+      "file_type": "document",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "community": 38,
+      "norm_label": "contexto \u2014 equivalent legacy (para usar directamente con opencode/codex)"
+    },
+    {
+      "label": "Qu\u00e9 es este mod",
+      "file_type": "document",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_context_for_opencode_qu\u00e9_es_este_mod",
+      "community": 38,
+      "norm_label": "que es este mod"
+    },
+    {
+      "label": "Origen / atribuci\u00f3n (obligatorio mantener)",
+      "file_type": "document",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "docs_context_for_opencode_origen_atribuci\u00f3n_obligatorio_mantener",
+      "community": 38,
+      "norm_label": "origen / atribucion (obligatorio mantener)"
+    },
+    {
+      "label": "Reglas de naming y estilo (obligatorias)",
+      "file_type": "document",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "docs_context_for_opencode_reglas_de_naming_y_estilo_obligatorias",
+      "community": 38,
+      "norm_label": "reglas de naming y estilo (obligatorias)"
+    },
+    {
+      "label": "Lo ya implementado (fases 1-5, todo commiteado y compilando)",
+      "file_type": "document",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "docs_context_for_opencode_lo_ya_implementado_fases_1_5_todo_commiteado_y_compilando",
+      "community": 38,
+      "norm_label": "lo ya implementado (fases 1-5, todo commiteado y compilando)"
+    },
+    {
+      "label": "Lo que falta (fase 6 en adelante \u2014 qued\u00f3 a medias, no arranc\u00f3)",
+      "file_type": "document",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "docs_context_for_opencode_lo_que_falta_fase_6_en_adelante_qued\u00f3_a_medias_no_arranc\u00f3",
+      "community": 38,
+      "norm_label": "lo que falta (fase 6 en adelante \u2014 quedo a medias, no arranco)"
+    },
+    {
+      "label": "Notas sobre el entorno (por qu\u00e9 esto existe)",
+      "file_type": "document",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "docs_context_for_opencode_notas_sobre_el_entorno_por_qu\u00e9_esto_existe",
+      "community": 38,
+      "norm_label": "notas sobre el entorno (por que esto existe)"
+    },
+    {
       "label": "WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
@@ -4670,14 +4890,114 @@
       "norm_label": "flujo de trabajo \u2014 equivalent legacy (neoforge)"
     },
     {
+      "label": "Espec\u00edfico del mod",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2_espec\u00edfico_del_mod",
+      "community": 16,
+      "norm_label": "especifico del mod"
+    },
+    {
       "label": "Notas espec\u00edficas de este mod",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
-      "source_location": "L10",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "docs_workflow_equivalent_legacy_26_2_notas_espec\u00edficas_de_este_mod",
       "community": 16,
       "norm_label": "notas especificas de este mod"
+    },
+    {
+      "label": "Convenciones de nomenclatura",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2_convenciones_de_nomenclatura",
+      "community": 16,
+      "norm_label": "convenciones de nomenclatura"
+    },
+    {
+      "label": "Organizaci\u00f3n y ramas",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2_organizaci\u00f3n_y_ramas",
+      "community": 16,
+      "norm_label": "organizacion y ramas"
+    },
+    {
+      "label": "Estructura del proyecto",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2_estructura_del_proyecto",
+      "community": 16,
+      "norm_label": "estructura del proyecto"
+    },
+    {
+      "label": "Versionado",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2_versionado",
+      "community": 16,
+      "norm_label": "versionado"
+    },
+    {
+      "label": "Commits (Conventional Commits)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2_commits_conventional_commits",
+      "community": 16,
+      "norm_label": "commits (conventional commits)"
+    },
+    {
+      "label": "Tags",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2_tags",
+      "community": 16,
+      "norm_label": "tags"
+    },
+    {
+      "label": "Flujo por tarea",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2_flujo_por_tarea",
+      "community": 16,
+      "norm_label": "flujo por tarea"
+    },
+    {
+      "label": "Buenas pr\u00e1cticas",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2_buenas_pr\u00e1cticas",
+      "community": 16,
+      "norm_label": "buenas practicas"
+    },
+    {
+      "label": "Idioma",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L97",
+      "_origin": "ast",
+      "id": "docs_workflow_equivalent_legacy_26_2_idioma",
+      "community": 16,
+      "norm_label": "idioma"
     },
     {
       "label": "project_description.md",
@@ -4830,6 +5150,16 @@
       "norm_label": "0.0.0-beta.6.md"
     },
     {
+      "label": "0.0.0-beta.7.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.7.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_7",
+      "community": 39,
+      "norm_label": "0.0.0-beta.7.md"
+    },
+    {
       "label": "Publish Public Script",
       "file_type": "code",
       "source_file": ".gitlab-ci.yml",
@@ -4961,6 +5291,17 @@
       "source_location": "L3",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
       "confidence_score": 1.0
     },
@@ -5206,7 +5547,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L53",
+      "source_location": "L68",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
@@ -5282,7 +5623,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java",
-      "source_location": "L53",
+      "source_location": "L68",
       "weight": 1.0,
       "context": "return_type",
       "source": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
@@ -5524,6 +5865,286 @@
       "source": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks_equivalentlegacyblocks",
       "target": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks_equivalentlegacyblocks_equivalentlegacyblocks",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands",
+      "target": "commanddispatcher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands",
+      "target": "commandsourcestack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands",
+      "target": "registercommandsevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_java_eventbussubscriber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_java_serverplayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_java_eventbussubscriber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_giveemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_modcommands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_onregistercommands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_register",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_showemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_onregistercommands",
+      "target": "registercommandsevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_onregistercommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_onregistercommands",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_register",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_register",
+      "target": "commanddispatcher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_register",
+      "target": "commandsourcestack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_register",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_giveemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_register",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_showemc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_giveemc",
+      "target": "commandsourcestack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_showemc",
+      "target": "commandsourcestack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_showemc",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_giveemc",
+      "target": "src_main_java_com_skd_equivalentlegacy_command_modcommands_java_serverplayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_command_modcommands_modcommands_giveemc",
+      "target": "src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of"
     },
     {
       "relation": "contains",
@@ -10497,7 +11118,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java",
-      "source_location": "L26",
+      "source_location": "L31",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab_equivalentlegacycreativetab",
@@ -10614,7 +11235,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L17",
+      "source_location": "L32",
       "weight": 1.0,
       "context": "field",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -10636,7 +11257,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L20",
+      "source_location": "L35",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_equivalentlegacyitems",
@@ -10646,7 +11267,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L17",
+      "source_location": "L32",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -13368,20 +13989,20 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/CLAUDE.md",
-      "source_location": "L5",
+      "source_location": "L11",
       "weight": 1.0,
       "source": "claude_claude_claude_md_equivalent_legacy_26_2",
-      "target": "claude_claude_paso_0_obligatorio",
+      "target": "claude_claude_prioridad_de_instrucciones",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/CLAUDE.md",
-      "source_location": "L12",
+      "source_location": "L5",
       "weight": 1.0,
       "source": "claude_claude_claude_md_equivalent_legacy_26_2",
-      "target": "claude_claude_prioridad_de_instrucciones",
+      "target": "claude_claude_workflow_del_mod",
       "confidence_score": 1.0
     },
     {
@@ -13398,7 +14019,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L38",
+      "source_location": "L44",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_1",
@@ -13408,7 +14029,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L28",
+      "source_location": "L34",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_2",
@@ -13418,7 +14039,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L21",
+      "source_location": "L27",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_3",
@@ -13428,7 +14049,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L15",
+      "source_location": "L21",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_4",
@@ -13438,7 +14059,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_5",
@@ -13448,10 +14069,20 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L3",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy",
       "target": "changelog_0_0_0_beta_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "changelog_changelog_equivalent_legacy",
+      "target": "changelog_0_0_0_beta_7",
       "confidence_score": 1.0
     },
     {
@@ -13507,6 +14138,76 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_context_for_opencode",
+      "target": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "target": "docs_context_for_opencode_lo_que_falta_fase_6_en_adelante_qued\u00f3_a_medias_no_arranc\u00f3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "target": "docs_context_for_opencode_lo_ya_implementado_fases_1_5_todo_commiteado_y_compilando",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "target": "docs_context_for_opencode_notas_sobre_el_entorno_por_qu\u00e9_esto_existe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "target": "docs_context_for_opencode_origen_atribuci\u00f3n_obligatorio_mantener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "target": "docs_context_for_opencode_qu\u00e9_es_este_mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "target": "docs_context_for_opencode_reglas_de_naming_y_estilo_obligatorias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -13518,9 +14219,109 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
-      "source_location": "L10",
+      "source_location": "L90",
       "weight": 1.0,
       "source": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "target": "docs_workflow_equivalent_legacy_26_2_buenas_pr\u00e1cticas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "target": "docs_workflow_equivalent_legacy_26_2_commits_conventional_commits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "target": "docs_workflow_equivalent_legacy_26_2_convenciones_de_nomenclatura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "target": "docs_workflow_equivalent_legacy_26_2_espec\u00edfico_del_mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "target": "docs_workflow_equivalent_legacy_26_2_estructura_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "target": "docs_workflow_equivalent_legacy_26_2_flujo_por_tarea",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "target": "docs_workflow_equivalent_legacy_26_2_idioma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "target": "docs_workflow_equivalent_legacy_26_2_organizaci\u00f3n_y_ramas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "target": "docs_workflow_equivalent_legacy_26_2_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "docs_workflow_equivalent_legacy_26_2_flujo_de_trabajo_equivalent_legacy_neoforge",
+      "target": "docs_workflow_equivalent_legacy_26_2_versionado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "docs_workflow_equivalent_legacy_26_2_espec\u00edfico_del_mod",
       "target": "docs_workflow_equivalent_legacy_26_2_notas_espec\u00edficas_de_este_mod",
       "confidence_score": 1.0
     },
@@ -13612,5 +14413,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "831f737ef0e70a3daa538539acf518a2e7a2e06d"
+  "built_at_commit": "db0dd55ed584c85bbdda0efda8494431b6f24f09"
 }

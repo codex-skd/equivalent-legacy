@@ -15,8 +15,8 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java": {
-    "mtime": 1785452790.9145758,
-    "ast_hash": "59d7674eb1e83c3344879c279b03fe28",
+    "mtime": 1785546998.2636166,
+    "ast_hash": "2cbc71b5e9b0b2fd55d41fcaac6eba2a",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java": {
@@ -25,13 +25,13 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1785452625.782305,
-    "ast_hash": "e4ab747f0997e6e872d418cf63a5381d",
+    "mtime": 1785547009.2622752,
+    "ast_hash": "4c27fc2f6b1e8257e423b4b825ebf6e7",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
-    "mtime": 1785436925.3849103,
-    "ast_hash": "4058eb02153f398192972b3432d4ca82",
+    "mtime": 1785489189.730372,
+    "ast_hash": "4e91031b74400574f15df938664d84d9",
     "semantic_hash": ""
   },
   ".gitlab-ci.yml": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785452947.0320604,
-    "ast_hash": "4deb526ade313d2a0ad0aca0f2979404",
+    "mtime": 1785547052.9268546,
+    "ast_hash": "1fb3597d97faa2f32369729206db19af",
     "semantic_hash": ""
   },
   "README.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md": {
-    "mtime": 1785436907.6070147,
-    "ast_hash": "0b8c1ffb9fae2f96842fbfb478590664",
+    "mtime": 1785489189.6772597,
+    "ast_hash": "97e75eba1be2d60d27a6f1522418ada5",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
@@ -195,13 +195,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java": {
-    "mtime": 1785452608.3453045,
-    "ast_hash": "931c18e9dc0734699165f7d870e9a110",
+    "mtime": 1785546993.6005914,
+    "ast_hash": "2b2d752b7091e605abd8b761f6805be3",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java": {
-    "mtime": 1785452607.2248333,
-    "ast_hash": "655171c0e6443b1d5e45e3902057c1a5",
+    "mtime": 1785546990.2327802,
+    "ast_hash": "3d25b6ed2353d01b951393709d1832f5",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java": {
@@ -347,6 +347,111 @@
   "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_1.png": {
     "mtime": 1785452566.375376,
     "ast_hash": "b37521cc65fdd0b9b841e3de2a36915a",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java": {
+    "mtime": 1785546180.7860987,
+    "ast_hash": "da9d516cb74e1da4edff9eaac8f2758d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/klein_star_drei.json": {
+    "mtime": 1785547001.8061059,
+    "ast_hash": "0c16267c48a5ba369788e7ead1995bd1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/klein_star_omega.json": {
+    "mtime": 1785547001.9600053,
+    "ast_hash": "7a96ae7999cb7ea5642596852fd61cb1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/klein_star_sphere.json": {
+    "mtime": 1785547001.9136598,
+    "ast_hash": "cfd9bf7367f86867f648765de88b44cd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/klein_star_vier.json": {
+    "mtime": 1785547001.8724751,
+    "ast_hash": "5a1ff8caa16c163c49fe49fe3814da8e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/klein_star_zwei.json": {
+    "mtime": 1785547001.7683074,
+    "ast_hash": "2ff567ed9cbd2fac523c21cc17a63627",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/dark_matter.json": {
+    "mtime": 1785546173.7181437,
+    "ast_hash": "ba598e0aa1e885e6097abc7091c42efb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/klein_star_drei.json": {
+    "mtime": 1785547005.827108,
+    "ast_hash": "d6eb9b3891d2198459fc73fe20941336",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/klein_star_ein.json": {
+    "mtime": 1785546176.3500185,
+    "ast_hash": "907a0617e026b476c16f5800214d4676",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/klein_star_omega.json": {
+    "mtime": 1785547005.9341812,
+    "ast_hash": "16af4c0d3f1e63f1ac63bf55e6fd8712",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/klein_star_sphere.json": {
+    "mtime": 1785547005.9013753,
+    "ast_hash": "224e8fa2c8739dffa453d10d8041a9fe",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/klein_star_vier.json": {
+    "mtime": 1785547005.8703754,
+    "ast_hash": "23fe6c8aec92c3859caa379507977f51",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/klein_star_zwei.json": {
+    "mtime": 1785547005.7896671,
+    "ast_hash": "1bc44a92321438cdfa777d3769f03929",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/recipe/philosophers_stone.json": {
+    "mtime": 1785546171.1900182,
+    "ast_hash": "4afafe36d7e834bbf4d57dcea1ba384b",
+    "semantic_hash": ""
+  },
+  "docs/CONTEXT_FOR_OPENCODE.md": {
+    "mtime": 1785546218.4083638,
+    "ast_hash": "caec40da2785af814630661791133218",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.7.md": {
+    "mtime": 1785547049.429645,
+    "ast_hash": "2bb89cd099915ec94de5975bc320fc2c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_2.png": {
+    "mtime": 1785546985.8974123,
+    "ast_hash": "57565587d74c71311af7c17c0fa3e5e3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_3.png": {
+    "mtime": 1785546985.9489028,
+    "ast_hash": "bc9e8746d88b5738a95427292c6a351e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_4.png": {
+    "mtime": 1785546986.0026467,
+    "ast_hash": "23a513f3c406bed468c5c9d95e477223",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_5.png": {
+    "mtime": 1785546986.0606737,
+    "ast_hash": "f464b8b54a6737bad9218e3f2865f158",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_6.png": {
+    "mtime": 1785546986.1070883,
+    "ast_hash": "3b106e8affabae586c7c4cd6c24357ef",
     "semantic_hash": ""
   }
 }
