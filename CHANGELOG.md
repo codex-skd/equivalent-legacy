@@ -1,5 +1,9 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.27
+
+- **Fix**: removed the unused `NeoForge.EVENT_BUS.register(this)` from the main class, which crashed startup on NeoForge 26.2.0.37-beta (class has no `@SubscribeEvent` methods).
+
 ## 0.0.0-beta.26
 
 - **Fix**: Curios dependency version range now accepts `15.0.0-beta.2+26.2` (the MC 26.2 build), fixing the load error.
