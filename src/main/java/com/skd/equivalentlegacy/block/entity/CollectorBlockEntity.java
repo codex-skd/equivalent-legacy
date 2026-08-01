@@ -1,6 +1,7 @@
 package com.skd.equivalentlegacy.block.entity;
 
 import com.skd.equivalentlegacy.block.entity.MachineTiers.CollectorTier;
+import com.skd.equivalentlegacy.emc.EMCNetwork;
 import com.skd.equivalentlegacy.gui.CollectorMenu;
 import com.skd.equivalentlegacy.item.KleinStar;
 import net.minecraft.core.BlockPos;
@@ -9,9 +10,7 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.SimpleMenuProvider;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityTicker;
-import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 
 public class CollectorBlockEntity extends BaseMachineBlockEntity {
@@ -32,6 +31,11 @@ public class CollectorBlockEntity extends BaseMachineBlockEntity {
         return chargeProgress;
     }
 
+    @Override
+    public long getEmc() {
+        return getLevel() != null ? EMCNetwork.getEmc(getLevel()) : 0L;
+    }
+
     public static BlockEntityTicker<CollectorBlockEntity> ticker() {
         return (level, pos, state, be) -> tick(be);
     }
@@ -46,7 +50,10 @@ public class CollectorBlockEntity extends BaseMachineBlockEntity {
         CollectorTier tier = CollectorTier.of(getBlockState().getBlock());
         sunLevel = level.getMaxLocalRawBrightness(worldPosition.above());
         if (sunLevel > 0) {
-            emc = Math.min(tier.emcCapacity, emc + tier.rate * sunLevel / 300.0);
+            long generated = tier.rate * sunLevel / 300;
+            if (generated > 0) {
+                EMCNetwork.addEmc(level, generated);
+            }
         }
         chargeKleinStar(tier);
         setChanged();
@@ -54,7 +61,8 @@ public class CollectorBlockEntity extends BaseMachineBlockEntity {
 
     private void chargeKleinStar(CollectorTier tier) {
         ItemStack stack = inventory.getItem(KLEIN_SLOT);
-        if (emc < 1 || stack.isEmpty() || !(stack.getItem() instanceof KleinStar star)) {
+        Level level = getLevel();
+        if (level == null || stack.isEmpty() || !(stack.getItem() instanceof KleinStar star)) {
             chargeProgress = 0;
             return;
         }
@@ -63,10 +71,11 @@ public class CollectorBlockEntity extends BaseMachineBlockEntity {
             chargeProgress = 100;
             return;
         }
-        long transfer = Math.min((long) emc, Math.min(space, tier.rate));
+        long available = EMCNetwork.getEmc(level);
+        long transfer = Math.min(available, Math.min(space, tier.rate));
         if (transfer > 0) {
             star.insertEmc(stack, transfer, false);
-            emc -= transfer;
+            EMCNetwork.takeEmc(level, transfer);
             chargeProgress = (int) (100 * star.getStoredEmc(stack) / star.getMaxEmc());
         }
     }
