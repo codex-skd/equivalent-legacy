@@ -278,5 +278,17 @@ public final class EquivalentLegacyItems {
     public static final DeferredItem<Item> RED_MATTER_BOOTS = ITEMS.register("red_matter_boots",
             () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.BOOTS)));
 
+    public static final DeferredItem<Item> GEM_HELMET = ITEMS.register("gem_helmet",
+            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.GEM_ARMOR, ArmorType.HELMET)));
+
+    public static final DeferredItem<Item> GEM_CHESTPLATE = ITEMS.register("gem_chestplate",
+            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.GEM_ARMOR, ArmorType.CHESTPLATE)));
+
+    public static final DeferredItem<Item> GEM_LEGGINGS = ITEMS.register("gem_leggings",
+            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.GEM_ARMOR, ArmorType.LEGGINGS)));
+
+    public static final DeferredItem<Item> GEM_BOOTS = ITEMS.register("gem_boots",
+            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.GEM_ARMOR, ArmorType.BOOTS)));
+
     private EquivalentLegacyItems() {}
 }

@@ -38,6 +38,20 @@ public final class MatterMaterials {
     public static final ResourceKey<net.minecraft.world.item.equipment.EquipmentAsset> RED_MATTER_ARMOR_ASSET =
             ResourceKey.create(EquipmentAssets.ROOT_ID, EquivalentLegacy.rl("red_matter"));
 
+    public static final ResourceKey<net.minecraft.world.item.equipment.EquipmentAsset> GEM_ARMOR_ASSET =
+            ResourceKey.create(EquipmentAssets.ROOT_ID, EquivalentLegacy.rl("gem_armor"));
+
+    public static final ArmorMaterial GEM_ARMOR = new ArmorMaterial(
+            16_000,
+            Map.of(ArmorType.HELMET, 5, ArmorType.CHESTPLATE, 10, ArmorType.LEGGINGS, 7, ArmorType.BOOTS, 5),
+            20,
+            SoundEvents.ARMOR_EQUIP_GENERIC,
+            6.0F,
+            0.2F,
+            EquivalentLegacyTags.RED_MATTER,
+            GEM_ARMOR_ASSET
+    );
+
     public static final ArmorMaterial DARK_MATTER_ARMOR = new ArmorMaterial(
             6_000,
             Map.of(ArmorType.HELMET, 4, ArmorType.CHESTPLATE, 8, ArmorType.LEGGINGS, 6, ArmorType.BOOTS, 4),
