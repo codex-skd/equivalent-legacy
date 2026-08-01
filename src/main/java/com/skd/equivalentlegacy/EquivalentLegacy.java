@@ -43,6 +43,18 @@ public class EquivalentLegacy {
         var nssItem = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.DARK_MATTER.get());
         fixedValues.addSetValueBefore(nssItem, 139_264L);
 
+        var nssRed = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.RED_MATTER.get());
+        fixedValues.addSetValueBefore(nssRed, 417_792L);
+
+        var nssAlchemical = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.ALCHEMICAL_COAL.get());
+        fixedValues.addSetValueBefore(nssAlchemical, 1_024L);
+
+        var nssMobius = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.MOBIUS_FUEL.get());
+        fixedValues.addSetValueBefore(nssMobius, 3_072L);
+
+        var nssAeternalis = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.AETERNALIS_FUEL.get());
+        fixedValues.addSetValueBefore(nssAeternalis, 9_216L);
+
         var nssKlein = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.KLEIN_STAR_EIN.get());
         fixedValues.addSetValueBefore(nssKlein, 24_576L);
 

@@ -4,7 +4,7 @@
   "group": "equivalent_legacy:klein_star",
   "key": {
     "D": "#c:gems/diamond",
-    "M": "minecraft:glowstone"
+    "M": "equivalent_legacy:mobius_fuel"
   },
   "pattern": ["MMM", "MDM", "MMM"],
   "result": {"count": 1, "id": "equivalent_legacy:klein_star_ein"}
