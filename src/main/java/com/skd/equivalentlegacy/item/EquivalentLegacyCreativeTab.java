@@ -18,7 +18,11 @@ public final class EquivalentLegacyCreativeTab {
                     .icon(() -> new ItemStack(EquivalentLegacyItems.PHILOSOPHERS_STONE.get()))
                     .displayItems((parameters, output) -> {
                         output.accept(EquivalentLegacyItems.PHILOSOPHERS_STONE.get());
+                        output.accept(EquivalentLegacyItems.ALCHEMICAL_COAL.get());
+                        output.accept(EquivalentLegacyItems.MOBIUS_FUEL.get());
+                        output.accept(EquivalentLegacyItems.AETERNALIS_FUEL.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_EIN.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_ZWEI.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_DREI.get());

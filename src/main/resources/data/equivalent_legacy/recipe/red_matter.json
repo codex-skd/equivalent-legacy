@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "equivalent_legacy:dark_matter",
+  "group": "equivalent_legacy:red_matter",
   "key": {
     "A": "equivalent_legacy:aeternalis_fuel",
-    "D": "#c:storage_blocks/diamond"
+    "D": "equivalent_legacy:dark_matter"
   },
   "pattern": ["AAA", "ADA", "AAA"],
-  "result": {"count": 1, "id": "equivalent_legacy:dark_matter"}
+  "result": {"count": 1, "id": "equivalent_legacy:red_matter"}
 }

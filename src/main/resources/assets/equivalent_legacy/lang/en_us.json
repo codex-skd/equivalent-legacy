@@ -23,7 +23,11 @@
   "equivalent_legacy.configuration.logExploits": "Log EMC Exploits",
 
   "item.equivalent_legacy.philosophers_stone": "Philosopher's Stone",
+  "item.equivalent_legacy.alchemical_coal": "Alchemical Coal",
+  "item.equivalent_legacy.mobius_fuel": "Mobius Fuel",
+  "item.equivalent_legacy.aeternalis_fuel": "Aeternalis Fuel",
   "item.equivalent_legacy.dark_matter": "Dark Matter",
+  "item.equivalent_legacy.red_matter": "Red Matter",
   "item.equivalent_legacy.klein_star_ein": "Klein Star Ein",
   "item.equivalent_legacy.klein_star_zwei": "Klein Star Zwei",
   "item.equivalent_legacy.klein_star_drei": "Klein Star Drei",
