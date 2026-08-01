@@ -148,6 +148,33 @@ public final class EquivalentLegacyItems {
     public static final DeferredItem<Item> ARCANA_RING = ITEMS.register("arcana_ring",
             () -> new Item(new Item.Properties().stacksTo(1)));
 
+    public static final DeferredItem<Item> NOVA_CATALYST = ITEMS.register("nova_catalyst",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> NOVA_CATACLYSM = ITEMS.register("nova_cataclysm",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<MiscToolItem> DIVINING_ROD_1 = registerMiscTool("divining_rod_1", MiscToolItem.Type.DIVINING_ROD_1);
+
+    public static final DeferredItem<MiscToolItem> DIVINING_ROD_2 = registerMiscTool("divining_rod_2", MiscToolItem.Type.DIVINING_ROD_2);
+
+    public static final DeferredItem<MiscToolItem> DIVINING_ROD_3 = registerMiscTool("divining_rod_3", MiscToolItem.Type.DIVINING_ROD_3);
+
+    public static final DeferredItem<MiscToolItem> DESTRUCTION_CATALYST = registerMiscTool("destruction_catalyst", MiscToolItem.Type.DESTRUCTION_CATALYST);
+
+    public static final DeferredItem<MiscToolItem> HYPERKINETIC_LENS = registerMiscTool("hyperkinetic_lens", MiscToolItem.Type.HYPERKINETIC_LENS);
+
+    public static final DeferredItem<MiscToolItem> CATALYTIC_LENS = registerMiscTool("catalytic_lens", MiscToolItem.Type.CATALYTIC_LENS);
+
+    public static final DeferredItem<MiscToolItem> MERCURIAL_EYE = registerMiscTool("mercurial_eye", MiscToolItem.Type.MERCURIAL_EYE);
+
+    public static final DeferredItem<Item> ARCHANGEL_SMITE = ITEMS.register("archangel_smite",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
+    private static DeferredItem<MiscToolItem> registerMiscTool(String name, MiscToolItem.Type type) {
+        return ITEMS.register(name, () -> new MiscToolItem(new Item.Properties(), type));
+    }
+
     private static DeferredItem<CurioItem> registerCurio(String name, CurioItem.Type type) {
         return ITEMS.register(name, () -> new CurioItem(new Item.Properties().stacksTo(1), type));
     }

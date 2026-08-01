@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"equipment","key":{"F":"minecraft:flint_and_steel","M":"equivalent_legacy:mobius_fuel","N":"equivalent_legacy:nova_catalyst"},"pattern":["NMN","MFM","NMN"],"result":{"count":1,"id":"equivalent_legacy:destruction_catalyst"}}

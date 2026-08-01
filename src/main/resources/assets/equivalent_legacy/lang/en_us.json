@@ -87,6 +87,17 @@
   "item.equivalent_legacy.repair_talisman": "Repair Talisman",
   "item.equivalent_legacy.watch_of_flowing_time": "Watch of Flowing Time",
 
+  "item.equivalent_legacy.nova_catalyst": "Nova Catalyst",
+  "item.equivalent_legacy.nova_cataclysm": "Nova Cataclysm",
+  "item.equivalent_legacy.divining_rod_1": "Divining Rod I",
+  "item.equivalent_legacy.divining_rod_2": "Divining Rod II",
+  "item.equivalent_legacy.divining_rod_3": "Divining Rod III",
+  "item.equivalent_legacy.destruction_catalyst": "Destruction Catalyst",
+  "item.equivalent_legacy.hyperkinetic_lens": "Hyperkinetic Lens",
+  "item.equivalent_legacy.catalytic_lens": "Catalytic Lens",
+  "item.equivalent_legacy.mercurial_eye": "Mercurial Eye",
+  "item.equivalent_legacy.archangel_smite": "Archangel's Smite",
+
   "container.equivalent_legacy.collector": "Collector",
   "container.equivalent_legacy.relay": "Relay",
   "container.equivalent_legacy.condenser": "Condenser",
