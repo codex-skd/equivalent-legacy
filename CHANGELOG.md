@@ -1,5 +1,9 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.23
+
+- **Persistent EMC network**: per-dimension pools stored via `SavedData` (loaded on start, saved on stop), surviving restarts.
+
 ## 0.0.0-beta.22
 
 - **Dark Matter Furnace** (4x) and **Red Matter Furnace** (8x): fast smelting with vanilla recipes and a vanilla-style GUI.
