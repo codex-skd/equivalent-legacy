@@ -1,5 +1,13 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.10
+
+- **Dark Matter toolchain**: Sword, Pickaxe, Axe, Shovel, Hoe, Shears, Hammer.
+- **Red Matter toolchain**: Sword, Pickaxe, Axe, Shovel, Hoe, Shears, Hammer, Katar, Morning Star (upgrades from the Dark Matter tools).
+- **Hammer** mines a 3x3 face-aligned area with proper drops and durability.
+- **Armor**: full Dark and Red Matter sets with player-model rendering via equipment assets, netherite-tier stats.
+- Simplified vs ProjectE: no charge/AOE sword attacks or EMC durability yet.
+
 ## 0.0.0-beta.9
 
 - **Storage blocks**: Alchemical Coal, Mobius Fuel, Aeternalis Fuel (9 items), Dark Matter and Red Matter (4 items) blocks with construct/deconstruct recipes and EMC values.
