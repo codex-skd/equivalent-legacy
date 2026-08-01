@@ -1,5 +1,11 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.14
+
+- **Covalence Dusts**: Low/Medium/High (40 per craft) — crafting foundation.
+- **Tome of Knowledge**: right-click unlocks all transmutation knowledge (consumed).
+- Restored original Alchemical Chest/Bag recipes using covalence dusts.
+
 ## 0.0.0-beta.13
 
 - **Curios support**: all six Klein Star tiers are equippable in a dedicated `klein_star` Curios slot (data-driven soft dependency, requires the Curios mod).
