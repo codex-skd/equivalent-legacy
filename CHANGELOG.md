@@ -1,5 +1,9 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.25
+
+- **Full Star recipes**: custom recipe ingredient matching a maxed (16M) Klein Star Omega; alternative Gem Armor and Tome crafting routes (endgame).
+
 ## 0.0.0-beta.24
 
 - **Curios required dependency**: arcana items and Klein Stars work while equipped in Curios slots (effects apply from slots, not only the inventory).
