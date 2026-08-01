@@ -1,5 +1,9 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.15
+
+- **16 Alchemical Bags**: full color set (black, blue, brown, cyan, gray, green, light_blue, light_gray, lime, magenta, orange, pink, purple, red, white, yellow), each crafted with matching wool.
+
 ## 0.0.0-beta.14
 
 - **Covalence Dusts**: Low/Medium/High (40 per craft) — crafting foundation.
