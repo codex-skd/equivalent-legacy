@@ -1,12 +1,12 @@
 package com.skd.equivalentlegacy.block.entity;
 
 import com.skd.equivalentlegacy.block.entity.MachineTiers.CondenserTier;
+import com.skd.equivalentlegacy.emc.EMCNetwork;
 import com.skd.equivalentlegacy.emc.EMCHelper;
 import com.skd.equivalentlegacy.emc.nss.NSSItem;
 import com.skd.equivalentlegacy.gui.CondenserMenu;
 import com.skd.equivalentlegacy.item.KleinStar;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
@@ -14,9 +14,7 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.SimpleMenuProvider;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityTicker;
-import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 
 public class CondenserBlockEntity extends BaseMachineBlockEntity {
@@ -39,6 +37,11 @@ public class CondenserBlockEntity extends BaseMachineBlockEntity {
         return chargeProgress;
     }
 
+    @Override
+    public long getEmc() {
+        return getLevel() != null ? EMCNetwork.getEmc(getLevel()) : 0L;
+    }
+
     public static BlockEntityTicker<CondenserBlockEntity> ticker() {
         return (level, pos, state, be) -> tick(be);
     }
@@ -53,7 +56,6 @@ public class CondenserBlockEntity extends BaseMachineBlockEntity {
         CondenserTier tier = MachineTiers.CondenserTier.of(getBlockState().getBlock());
         learnTarget();
         drainKleinStar(tier);
-        pullFromRelays(level, tier);
         produceTarget();
         setChanged();
     }
@@ -70,33 +72,18 @@ public class CondenserBlockEntity extends BaseMachineBlockEntity {
 
     private void drainKleinStar(CondenserTier tier) {
         ItemStack stack = inventory.getItem(KLEIN_SLOT);
-        if (stack.isEmpty() || !(stack.getItem() instanceof KleinStar star)) return;
-        long space = tier.emcCapacity - (long) emc;
-        if (space <= 0) return;
-        long extract = Math.min(star.getStoredEmc(stack), Math.min(space, tier.transferRate));
+        Level level = getLevel();
+        if (level == null || stack.isEmpty() || !(stack.getItem() instanceof KleinStar star)) return;
+        long extract = Math.min(star.getStoredEmc(stack), tier.transferRate);
         if (extract > 0) {
             star.extractEmc(stack, extract, false);
-            emc += extract;
-        }
-    }
-
-    private void pullFromRelays(Level level, CondenserTier tier) {
-        for (Direction dir : Direction.values()) {
-            BlockEntity be = level.getBlockEntity(worldPosition.relative(dir));
-            if (be instanceof RelayBlockEntity relay) {
-                long available = relay.getEmc();
-                long space = tier.emcCapacity - (long) emc;
-                if (available <= 0 || space <= 0) continue;
-                long take = Math.min(available, Math.min(space, tier.transferRate));
-                if (take > 0) {
-                    emc += relay.takeEmc(take);
-                }
-            }
+            EMCNetwork.addEmc(level, extract);
         }
     }
 
     private void produceTarget() {
-        if (targetId == null || emc < 1) {
+        Level level = getLevel();
+        if (level == null || targetId == null) {
             chargeProgress = 0;
             return;
         }
@@ -106,13 +93,14 @@ public class CondenserBlockEntity extends BaseMachineBlockEntity {
             chargeProgress = 0;
             return;
         }
+        long available = EMCNetwork.getEmc(level);
         ItemStack out = inventory.getItem(OUTPUT_SLOT);
         if (out.getCount() >= out.getMaxStackSize()) {
             chargeProgress = 100;
             return;
         }
-        if (emc < cost) {
-            chargeProgress = (int) (100 * emc / cost);
+        if (available < cost) {
+            chargeProgress = (int) (100 * available / cost);
             return;
         }
         ItemStack result = new ItemStack(BuiltInRegistries.ITEM.getValue(id), 1);
@@ -124,7 +112,7 @@ public class CondenserBlockEntity extends BaseMachineBlockEntity {
         } else {
             return;
         }
-        emc -= cost;
+        EMCNetwork.takeEmc(level, cost);
         chargeProgress = 0;
     }
 
