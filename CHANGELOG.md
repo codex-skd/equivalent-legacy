@@ -1,5 +1,9 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.13
+
+- **Curios support**: all six Klein Star tiers are equippable in a dedicated `klein_star` Curios slot (data-driven soft dependency, requires the Curios mod).
+
 ## 0.0.0-beta.12
 
 - **Alchemical Bag**: portable 13-slot inventory persisted in the item's `DataComponents.CONTAINER`, opens on right-click.
