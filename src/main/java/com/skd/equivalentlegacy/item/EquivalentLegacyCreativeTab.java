@@ -61,6 +61,24 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyItems.HIGH_COVALENCE_DUST.get());
                         output.accept(EquivalentLegacyItems.TOME.get());
 
+                        output.accept(EquivalentLegacyItems.IRON_BAND.get());
+                        output.accept(EquivalentLegacyItems.BLACK_HOLE_BAND.get());
+                        output.accept(EquivalentLegacyItems.GEM_OF_ETERNAL_DENSITY.get());
+                        output.accept(EquivalentLegacyItems.HARVEST_GODDESS_BAND.get());
+                        output.accept(EquivalentLegacyItems.IGNITION_RING.get());
+                        output.accept(EquivalentLegacyItems.SWIFTWOLF_RENDING_GALE.get());
+                        output.accept(EquivalentLegacyItems.VOID_RING.get());
+                        output.accept(EquivalentLegacyItems.ZERO_RING.get());
+                        output.accept(EquivalentLegacyItems.ARCANA_RING.get());
+                        output.accept(EquivalentLegacyItems.BODY_STONE.get());
+                        output.accept(EquivalentLegacyItems.EVERTIDE_AMULET.get());
+                        output.accept(EquivalentLegacyItems.LIFE_STONE.get());
+                        output.accept(EquivalentLegacyItems.MIND_STONE.get());
+                        output.accept(EquivalentLegacyItems.SOUL_STONE.get());
+                        output.accept(EquivalentLegacyItems.VOLCANITE_AMULET.get());
+                        output.accept(EquivalentLegacyItems.REPAIR_TALISMAN.get());
+                        output.accept(EquivalentLegacyItems.WATCH_OF_FLOWING_TIME.get());
+
                         output.accept(EquivalentLegacyItems.DARK_MATTER_SWORD.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_PICKAXE.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_AXE.get());

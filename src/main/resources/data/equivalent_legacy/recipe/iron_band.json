@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"equipment","key":{"I":"#c:ingots/iron","L":"minecraft:lava_bucket"},"pattern":["III","ILI","III"],"result":{"count":1,"id":"equivalent_legacy:iron_band"}}

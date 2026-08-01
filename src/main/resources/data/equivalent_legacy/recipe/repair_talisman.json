@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"equipment","group":"equivalent_legacy:repair_talisman","key":{"H":"equivalent_legacy:high_covalence_dust","L":"equivalent_legacy:low_covalence_dust","M":"equivalent_legacy:medium_covalence_dust","P":"minecraft:paper","S":"#c:strings"},"pattern":["LMH","SPS","HML"],"result":{"count":1,"id":"equivalent_legacy:repair_talisman"}}

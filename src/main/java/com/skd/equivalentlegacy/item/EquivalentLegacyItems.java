@@ -112,6 +112,46 @@ public final class EquivalentLegacyItems {
     public static final DeferredItem<Tome> TOME = ITEMS.register("tome",
             () -> new Tome(new Item.Properties().stacksTo(1)));
 
+    public static final DeferredItem<Item> IRON_BAND = ITEMS.register("iron_band",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<CurioItem> BLACK_HOLE_BAND = registerCurio("black_hole_band", CurioItem.Type.BLACK_HOLE_BAND);
+
+    public static final DeferredItem<CurioItem> BODY_STONE = registerCurio("body_stone", CurioItem.Type.BODY_STONE);
+
+    public static final DeferredItem<CurioItem> EVERTIDE_AMULET = registerCurio("evertide_amulet", CurioItem.Type.EVERTIDE_AMULET);
+
+    public static final DeferredItem<CurioItem> GEM_OF_ETERNAL_DENSITY = registerCurio("gem_of_eternal_density", CurioItem.Type.GEM_OF_ETERNAL_DENSITY);
+
+    public static final DeferredItem<CurioItem> HARVEST_GODDESS_BAND = registerCurio("harvest_goddess_band", CurioItem.Type.HARVEST_GODDESS_BAND);
+
+    public static final DeferredItem<CurioItem> IGNITION_RING = registerCurio("ignition_ring", CurioItem.Type.IGNITION_RING);
+
+    public static final DeferredItem<CurioItem> LIFE_STONE = registerCurio("life_stone", CurioItem.Type.LIFE_STONE);
+
+    public static final DeferredItem<CurioItem> MIND_STONE = registerCurio("mind_stone", CurioItem.Type.MIND_STONE);
+
+    public static final DeferredItem<CurioItem> REPAIR_TALISMAN = registerCurio("repair_talisman", CurioItem.Type.REPAIR_TALISMAN);
+
+    public static final DeferredItem<CurioItem> SOUL_STONE = registerCurio("soul_stone", CurioItem.Type.SOUL_STONE);
+
+    public static final DeferredItem<CurioItem> SWIFTWOLF_RENDING_GALE = registerCurio("swiftwolf_rending_gale", CurioItem.Type.SWIFTWOLF_RENDING_GALE);
+
+    public static final DeferredItem<CurioItem> VOID_RING = registerCurio("void_ring", CurioItem.Type.VOID_RING);
+
+    public static final DeferredItem<CurioItem> VOLCANITE_AMULET = registerCurio("volcanite_amulet", CurioItem.Type.VOLCANITE_AMULET);
+
+    public static final DeferredItem<CurioItem> WATCH_OF_FLOWING_TIME = registerCurio("watch_of_flowing_time", CurioItem.Type.WATCH_OF_FLOWING_TIME);
+
+    public static final DeferredItem<CurioItem> ZERO_RING = registerCurio("zero_ring", CurioItem.Type.ZERO_RING);
+
+    public static final DeferredItem<Item> ARCANA_RING = ITEMS.register("arcana_ring",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
+    private static DeferredItem<CurioItem> registerCurio(String name, CurioItem.Type type) {
+        return ITEMS.register(name, () -> new CurioItem(new Item.Properties().stacksTo(1), type));
+    }
+
     public static final DeferredItem<KleinStar> KLEIN_STAR_EIN = ITEMS.register("klein_star_ein",
             () -> new KleinStar(new Item.Properties(), KleinStarTier.EIN));
 
