@@ -31,5 +31,15 @@ public final class ModMenuTypes {
                     () -> new MenuType<>((IContainerFactory<CondenserMenu>) (id, inv, buf) ->
                             new CondenserMenu(id, inv, buf.readBlockPos()), FeatureFlagSet.of()));
 
+    public static final DeferredHolder<MenuType<?>, MenuType<BagMenu>> BAG =
+            MENU_TYPES.register("bag",
+                    () -> new MenuType<>((IContainerFactory<BagMenu>) (id, inv, buf) ->
+                            new BagMenu(id, inv, buf.readEnum(net.minecraft.world.InteractionHand.class)), FeatureFlagSet.of()));
+
+    public static final DeferredHolder<MenuType<?>, MenuType<ChestMenu>> CHEST =
+            MENU_TYPES.register("chest",
+                    () -> new MenuType<>((IContainerFactory<ChestMenu>) (id, inv, buf) ->
+                            new ChestMenu(id, inv, buf.readBlockPos()), FeatureFlagSet.of()));
+
     private ModMenuTypes() {}
 }

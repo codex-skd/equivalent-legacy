@@ -28,5 +28,9 @@ public final class EquivalentLegacyBlockEntities {
                     EquivalentLegacyBlocks.CONDENSER_MK1.get(),
                     EquivalentLegacyBlocks.CONDENSER_MK2.get()));
 
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<AlchemicalChestBlockEntity>> ALCHEMICAL_CHEST =
+            BLOCK_ENTITY_TYPES.register("alchemical_chest", () -> new BlockEntityType<>(AlchemicalChestBlockEntity::new,
+                    EquivalentLegacyBlocks.ALCHEMICAL_CHEST.get()));
+
     private EquivalentLegacyBlockEntities() {}
 }
