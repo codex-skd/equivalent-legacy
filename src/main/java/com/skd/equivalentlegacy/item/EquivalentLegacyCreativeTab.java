@@ -79,6 +79,17 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyItems.REPAIR_TALISMAN.get());
                         output.accept(EquivalentLegacyItems.WATCH_OF_FLOWING_TIME.get());
 
+                        output.accept(EquivalentLegacyItems.NOVA_CATALYST.get());
+                        output.accept(EquivalentLegacyItems.NOVA_CATACLYSM.get());
+                        output.accept(EquivalentLegacyItems.DIVINING_ROD_1.get());
+                        output.accept(EquivalentLegacyItems.DIVINING_ROD_2.get());
+                        output.accept(EquivalentLegacyItems.DIVINING_ROD_3.get());
+                        output.accept(EquivalentLegacyItems.DESTRUCTION_CATALYST.get());
+                        output.accept(EquivalentLegacyItems.HYPERKINETIC_LENS.get());
+                        output.accept(EquivalentLegacyItems.CATALYTIC_LENS.get());
+                        output.accept(EquivalentLegacyItems.MERCURIAL_EYE.get());
+                        output.accept(EquivalentLegacyItems.ARCHANGEL_SMITE.get());
+
                         output.accept(EquivalentLegacyItems.DARK_MATTER_SWORD.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_PICKAXE.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_AXE.get());
