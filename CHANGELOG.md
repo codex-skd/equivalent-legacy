@@ -1,5 +1,9 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.21
+
+- **Gem Armor**: Gem Helmet/Chestplate/Leggings/Boots — the strongest armor set (Red Matter armor + arcana items + Klein Star Omega).
+
 ## 0.0.0-beta.20
 
 - **World-level EMC network**: per-dimension `EMCNetwork` pool shared by all collectors/relays/condensers (replaces adjacent-block links).
