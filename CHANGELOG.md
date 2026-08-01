@@ -1,5 +1,11 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.12
+
+- **Alchemical Bag**: portable 13-slot inventory persisted in the item's `DataComponents.CONTAINER`, opens on right-click.
+- **Alchemical Chest**: 13-slot storage block with GUI, drops contents on break.
+- Recipes adapted from the original (covalence dusts → alchemical fuels/vanilla).
+
 ## 0.0.0-beta.11
 
 - **Collector MK1-3**: generates EMC from skylight (4/12/40 per second) and charges Klein Stars.
