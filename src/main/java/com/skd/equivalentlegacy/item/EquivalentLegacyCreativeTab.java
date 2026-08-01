@@ -119,6 +119,11 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyItems.RED_MATTER_CHESTPLATE.get());
                         output.accept(EquivalentLegacyItems.RED_MATTER_LEGGINGS.get());
                         output.accept(EquivalentLegacyItems.RED_MATTER_BOOTS.get());
+
+                        output.accept(EquivalentLegacyItems.GEM_HELMET.get());
+                        output.accept(EquivalentLegacyItems.GEM_CHESTPLATE.get());
+                        output.accept(EquivalentLegacyItems.GEM_LEGGINGS.get());
+                        output.accept(EquivalentLegacyItems.GEM_BOOTS.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_EIN.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_ZWEI.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_DREI.get());
