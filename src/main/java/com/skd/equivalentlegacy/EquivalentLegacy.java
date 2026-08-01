@@ -25,6 +25,7 @@ public class EquivalentLegacy {
         com.skd.equivalentlegacy.block.entity.EquivalentLegacyBlockEntities.BLOCK_ENTITY_TYPES.register(modEventBus);
         com.skd.equivalentlegacy.item.EquivalentLegacyCreativeTab.CREATIVE_MODE_TABS.register(modEventBus);
         com.skd.equivalentlegacy.item.EquivalentLegacyDataComponents.DATA_COMPONENT_TYPES.register(modEventBus);
+        com.skd.equivalentlegacy.item.crafting.ModIngredientTypes.INGREDIENT_TYPES.register(modEventBus);
         com.skd.equivalentlegacy.gui.ModMenuTypes.MENU_TYPES.register(modEventBus);
 
         com.skd.equivalentlegacy.network.PacketHandler.register(modEventBus);
