@@ -29,6 +29,32 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyBlocks.AETERNALIS_FUEL_BLOCK.get());
                         output.accept(EquivalentLegacyBlocks.DARK_MATTER_BLOCK.get());
                         output.accept(EquivalentLegacyBlocks.RED_MATTER_BLOCK.get());
+
+                        output.accept(EquivalentLegacyItems.DARK_MATTER_SWORD.get());
+                        output.accept(EquivalentLegacyItems.DARK_MATTER_PICKAXE.get());
+                        output.accept(EquivalentLegacyItems.DARK_MATTER_AXE.get());
+                        output.accept(EquivalentLegacyItems.DARK_MATTER_SHOVEL.get());
+                        output.accept(EquivalentLegacyItems.DARK_MATTER_HOE.get());
+                        output.accept(EquivalentLegacyItems.DARK_MATTER_SHEARS.get());
+                        output.accept(EquivalentLegacyItems.DARK_MATTER_HAMMER.get());
+                        output.accept(EquivalentLegacyItems.DARK_MATTER_HELMET.get());
+                        output.accept(EquivalentLegacyItems.DARK_MATTER_CHESTPLATE.get());
+                        output.accept(EquivalentLegacyItems.DARK_MATTER_LEGGINGS.get());
+                        output.accept(EquivalentLegacyItems.DARK_MATTER_BOOTS.get());
+
+                        output.accept(EquivalentLegacyItems.RED_MATTER_SWORD.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER_PICKAXE.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER_AXE.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER_SHOVEL.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER_HOE.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER_SHEARS.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER_HAMMER.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER_KATAR.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER_MORNING_STAR.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER_HELMET.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER_CHESTPLATE.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER_LEGGINGS.get());
+                        output.accept(EquivalentLegacyItems.RED_MATTER_BOOTS.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_EIN.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_ZWEI.get());
                         output.accept(EquivalentLegacyItems.KLEIN_STAR_DREI.get());

@@ -1,0 +1,6 @@
+{
+  "layers": {
+    "humanoid": [{"texture": "equivalent_legacy:dark_matter"}],
+    "humanoid_leggings": [{"texture": "equivalent_legacy:dark_matter"}]
+  }
+}
