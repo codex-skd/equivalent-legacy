@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "equivalent_legacy:dark_matter",
+  "key": {
+    "A": "#c:storage_blocks/gold",
+    "D": "#c:storage_blocks/diamond"
+  },
+  "pattern": ["AAA", "ADA", "AAA"],
+  "result": {"count": 1, "id": "equivalent_legacy:dark_matter"}
+}

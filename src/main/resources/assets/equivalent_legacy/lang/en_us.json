@@ -32,5 +32,9 @@
   "gui.equivalent_legacy.learn": "Learn",
   "gui.equivalent_legacy.output": "Output",
 
+  "command.equivalent_legacy.emc": "Your EMC: %s",
+  "command.equivalent_legacy.emc.give": "Gave %s EMC to %s",
+  "command.equivalent_legacy.emc.give.target": "You received %s EMC",
+
   "tooltip.equivalent_legacy.stored_emc": "EMC: %s / %s"
 }
