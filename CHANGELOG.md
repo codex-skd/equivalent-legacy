@@ -1,5 +1,10 @@
 # Changelog — Equivalent Legacy
 
+## 0.0.0-beta.20
+
+- **World-level EMC network**: per-dimension `EMCNetwork` pool shared by all collectors/relays/condensers (replaces adjacent-block links).
+- Machine GUIs show network-wide EMC.
+
 ## 0.0.0-beta.19
 
 - **Tool charge system**: shift-right-click cycles 0-3 charge on swords, pickaxes, hammers (Charge tooltip).
