@@ -9,7 +9,7 @@ Mod NeoForge que revive el sistema EMC (Equivalent Exchange 2 / ProjectE): asign
 - **mod_id**: `equivalent_legacy`
 - **package**: `com.skd.equivalentlegacy`
 - **Minecraft / NeoForge**: `26.2` / `26.2.0.32-beta` — **no subir de versión sin que se pida explícitamente**
-- **mod_version actual**: `0.0.0-beta.13`
+- **mod_version actual**: `0.0.0-beta.21`
 - **Rama**: `minecraft/26.2/neoforge-26.2.0.32-beta/production`
 - **Repo**: `G:\Proyectos\Mods_Minecraft\equivalent_legacy\26.2`
 
@@ -46,6 +46,14 @@ La atribución ya está puesta en `README.md`, `neoforge.mods.toml` (`credits`) 
 | 11 | **Máquinas EMC**: Collector MK1-3, Relay MK1-3, Condenser MK1-2 (block entities con tick, menús/screens con DataSlots, red vecinal simplificada, Klein Stars) | `block/`, `block/entity/`, `gui/` |
 | 12 | **Alchemical Bag** (inventario 13 slots persistido en el item vía `DataComponents.CONTAINER`) y **Alchemical Chest** (bloque 13 slots con BE) | `item/`, `block/`, `block/entity/`, `gui/` |
 | 13 | **Curios support** para Klein Stars (dependencia blanda por datos: `data/curios/tags`, slot custom `klein_star`) | `data/` |
+| 14 | **Covalence Dusts** (low/medium/high) + **Tome of Knowledge**; recetas de bolsa/cofre restauradas | `item/` |
+| 15 | **16 Alchemical Bags** de color | `item/` |
+| 16 | **Set Arcana**: anillos/bandas/amuletos/piedras/talismán/reloj con efectos pasivos (tick handler) + tags Curios | `item/`, `events/` |
+| 17 | **Misc tools**: nova catalyst/cataclysm, divining rods, destruction catalyst, lenses, mercurial eye, archangel smite | `item/` |
+| 18 | **Transmutation Table/Tablet** (abren la GUI de transmutación) + **Interdiction Torch** | `block/`, `block/entity/`, `item/` |
+| 19 | **Sistema de carga/AOE**: `TOOL_CHARGE` component, shift-RMB cicla 0-3; martillo/pico minan AOE; espadas atacan en área | `item/` |
+| 20 | **Red EMC por dimensión** (`EMCNetwork` pool compartido; las máquinas ya no dependen de bloques adyacentes) | `emc/`, `block/entity/` |
+| 21 | **Gem Armor**: set definitivo (helmet/chestplate/leggings/boots) | `item/` |
 
 Estructura de paquetes actual (todo bajo `src/main/java/com/skd/equivalentlegacy/`):
 ```
@@ -77,11 +85,10 @@ events/       — PlayerEvents
 ## Lo que falta (siguientes betas)
 
 **Fases futuras (no empezadas):**
-- Anillos/amuletos/talismanes del toolchain original (black hole band, volcanite amulet, etc.) — requieren más infraestructura EMC.
-- Colored variants de Alchemical Bag (ahora solo una bolsa roja).
-- Covalence Dusts (low/medium/high) y Tome of Knowledge (los recipes de bolsa/cofre/máquinas usan sustitutos hasta que existan).
-- Sistema de carga/AOE de ProjectE en el toolchain (espadas con charge, etc.).
-- Red EMC a nivel de mundo (la actual es solo entre bloques vecinos).
+- **Dark/Red Matter Furnaces** (hornos acelerados) — único bloque del mod original aún sin portar.
+- Efectos pasivos del set arcana desde slots de Curios (ahora solo funcionan desde el inventario).
+- Persistencia del pool de `EMCNetwork` entre sesiones (ahora es solo en memoria).
+- Colored full-star gem armor / full klein stars como material de mejora.
 
 ## Notas sobre el entorno (por qué esto existe)
 
