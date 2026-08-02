@@ -9,7 +9,7 @@ Mod NeoForge que revive el sistema EMC (Equivalent Exchange 2 / ProjectE): asign
 - **mod_id**: `equivalent_legacy`
 - **package**: `com.skd.equivalentlegacy`
 - **Minecraft / NeoForge**: `26.2` / `26.2.0.32-beta` — **no subir de versión sin que se pida explícitamente**
-- **mod_version actual**: `0.0.0-beta.25`
+- **mod_version actual**: `1.0.0`
 - **Rama**: `minecraft/26.2/neoforge-26.2.0.32-beta/production`
 - **Repo**: `G:\Proyectos\Mods_Minecraft\equivalent_legacy\26.2`
 
