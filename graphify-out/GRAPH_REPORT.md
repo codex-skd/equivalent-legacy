@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-02)
 
 ## Corpus Check
-- 519 files · ~30,964 words
+- 520 files · ~31,024 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1152 nodes · 1128 edges · 438 communities (62 shown, 376 thin omitted)
+- 1152 nodes · 1145 edges · 431 communities (61 shown, 370 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 58 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f9d61388`
+- Built from commit: `443cae03`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -41,20 +41,18 @@
 - NSSTag
 - ServerConfig
 - ClientConfig
-- CommonConfig
 - MappingConfig
 - 0.0.0-beta.1.md
 - 0.0.0-beta.2.md
+- 0.0.0-beta.3.md
 - KnowledgeSyncPayload.java
 - AbstractNSSTag
 - 0.0.0-beta.4.md
 - KnowledgeSyncChangePayload.java
-- PlayerEvents
 - 0.0.0-beta.5.md
 - 0.0.0-beta.6.md
 - Contexto — Equivalent Legacy (para usar directamente con OpenCode/Codex)
 - 0.0.0-beta.7.md
-- PlayerEvents
 - 0.0.0-beta.9.md
 - 0.0.0-beta.10.md
 - CondenserBlockEntity
@@ -62,13 +60,11 @@
 - BaseMachineBlock.java
 - BaseMachineBlockEntity
 - TransmutationContainer
-- PlayerKnowledge
 - PlayerEvents
 - .syncKnowledgeDataIfChanged
 - MatterMaterials
 - 0.0.0-beta.11.md
 - 0.0.0-beta.12.md
-- CurioEvents.java
 - CurioItem
 - EquivalentLegacyItems
 - MatterMaterials
@@ -179,12 +175,9 @@
 - ModConfigSpec
 - Builder
 - ModConfigSpec
-- Object2IntMap
-- Override
 - Logger
 - Level
 - ResourceKey
-- Override
 - Override
 - Object2IntMap
 - Object2IntMap
@@ -428,11 +421,11 @@
 3. `Changelog — Equivalent Legacy` - 28 edges
 4. `PlayerKnowledge` - 25 edges
 5. `MatterFurnaceBlockEntity` - 24 edges
-6. `NSSItem` - 19 edges
-7. `KleinStar` - 19 edges
-8. `FixedValues` - 18 edges
+6. `FixedValues` - 19 edges
+7. `NSSItem` - 19 edges
+8. `KleinStar` - 19 edges
 9. `BaseMachineBlockEntity` - 16 edges
-10. `CondenserBlockEntity` - 14 edges
+10. `CustomConversion` - 16 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Publish Public Script` ----> `Initial Scaffold from the codex-docs/mod_template/26.2-26.2.0.32-beta NeoForge MDK skeleton`  [EXTRACTED]
@@ -449,11 +442,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (438 total, 376 thin omitted)
-
-### Community 1 - "Mod Configuration"
-Cohesion: 0.38
-Nodes (4): CommandDispatcher, CommandSourceStack, ModCommands, RegisterCommandsEvent
+## Communities (431 total, 370 thin omitted)
 
 ### Community 2 - "Client Setup"
 Cohesion: 0.06
@@ -468,24 +457,28 @@ Cohesion: 0.67
 Nodes (3): Publish Public Script, Initial Scaffold from the codex-docs/mod_template/26.2-26.2.0.32-beta NeoForge MDK skeleton, Equivalent Legacy is an EMC/transmutation mod for Minecraft 26.2 (NeoForge), bringing the classic Equivalent Exchange-style gameplay to modern Minecraft.
 
 ### Community 5 - "Event Bus"
-Cohesion: 0.06
-Nodes (9): ConversionGroup, CustomConversion, EMCHelper, FixedValues, IHasConversions, NormalizedSimpleStack, NSSTag, Object2IntSortedMap (+1 more)
+Cohesion: 0.07
+Nodes (11): ConversionGroup, EMCHelper, IHasConversions, NormalizedSimpleStack, NSSTag, Object2LongMap, CustomConversion, Object2IntMap (+3 more)
 
 ### Community 6 - "Server Start"
 Cohesion: 0.16
 Nodes (8): KleinStar, KleinStarTier, DREI, EIN, OMEGA, SPHERE, VIER, ZWEI
+
+### Community 7 - "Creative Mode Tab"
+Cohesion: 0.05
+Nodes (8): NSSItem, CurioEvents, TransmutationContainer, PhilosophersStone, PlayerKnowledge, PlayerKnowledgeAttachment, ItemLike, Post
 
 ### Community 8 - "Mod Notes"
 Cohesion: 0.11
 Nodes (3): AbstractDataComponentHolderNSSTag, AbstractNSSTag, NSSDataComponentHolder
 
 ### Community 10 - "Common Setup"
-Cohesion: 0.11
+Cohesion: 0.10
 Nodes (17): CurioItem, Type, BLACK_HOLE_BAND, BODY_STONE, EVERTIDE_AMULET, GEM_OF_ETERNAL_DENSITY, HARVEST_GODDESS_BAND, IGNITION_RING (+9 more)
 
 ### Community 14 - "CLAUDE.md — equivalent_legacy (26.2)"
-Cohesion: 0.18
-Nodes (9): CondenserTier, MK1, MK2, MachineTiers, of(), RelayTier, MK1, MK2 (+1 more)
+Cohesion: 0.14
+Nodes (13): CollectorTier, MK1, MK2, MK3, CondenserTier, MK1, MK2, MachineTiers (+5 more)
 
 ### Community 15 - "Changelog — Equivalent Legacy"
 Cohesion: 0.07
@@ -500,8 +493,8 @@ Cohesion: 0.07
 Nodes (18): AbstractFurnaceMenu, BaseContainerBlockEntity, CachedCheck, Container, CreativeModeTab, DeferredBlock, EquivalentLegacyBlockEntities, MatterFurnaceBlockEntity (+10 more)
 
 ### Community 23 - "NSSTag"
-Cohesion: 0.13
-Nodes (8): AeternalisFuel, AlchemicalCoal, DarkMatter, EquivalentLegacyTags, RedMatter, Tome, Item, TagKey
+Cohesion: 0.14
+Nodes (8): AeternalisFuel, AlchemicalCoal, EquivalentLegacyTags, MobiusFuel, RedMatter, Tome, Item, TagKey
 
 ### Community 27 - "MappingConfig"
 Cohesion: 0.22
@@ -527,10 +520,6 @@ Nodes (5): Equivalent Legacy, Installation, License, Requirements, Status
 Cohesion: 0.47
 Nodes (3): EMCNetworkData, SavedData, SavedDataType
 
-### Community 35 - "PlayerEvents"
-Cohesion: 0.40
-Nodes (4): CollectorTier, MK1, MK2, MK3
-
 ### Community 37 - "0.0.0-beta.6.md"
 Cohesion: 0.50
 Nodes (3): CLAUDE.md — equivalent_legacy (26.2), Prioridad de instrucciones, Workflow del mod
@@ -540,8 +529,8 @@ Cohesion: 0.83
 Nodes (3): gradlew script, die(), warn()
 
 ### Community 44 - "CollectorBlockEntity"
-Cohesion: 0.22
-Nodes (4): EMCNetwork, NetworkEvents, ServerStartingEvent, ServerStoppingEvent
+Cohesion: 0.32
+Nodes (3): NetworkEvents, ServerStartingEvent, ServerStoppingEvent
 
 ### Community 45 - "BaseMachineBlock.java"
 Cohesion: 0.05
@@ -552,12 +541,12 @@ Cohesion: 0.38
 Nodes (3): FMLClientSetupEvent, EquivalentLegacyClient, RegisterMenuScreensEvent
 
 ### Community 49 - "PlayerEvents"
-Cohesion: 0.20
-Nodes (4): PlayerEvents, PlayerChangedDimensionEvent, PlayerLoggedInEvent, PlayerRespawnEvent
+Cohesion: 0.15
+Nodes (8): CommandDispatcher, CommandSourceStack, ModCommands, PlayerEvents, PlayerChangedDimensionEvent, PlayerLoggedInEvent, PlayerRespawnEvent, RegisterCommandsEvent
 
 ### Community 50 - ".syncKnowledgeDataIfChanged"
-Cohesion: 0.05
-Nodes (8): AbstractContainerMenu, BagMenu, ChestMenu, CollectorMenu, CondenserMenu, MachineMenu, RelayMenu, IItemHandler
+Cohesion: 0.07
+Nodes (7): AbstractContainerMenu, BagMenu, ChestMenu, CondenserMenu, MachineMenu, RelayMenu, IItemHandler
 
 ### Community 57 - "CurioItem"
 Cohesion: 0.18
@@ -568,23 +557,23 @@ Cohesion: 0.22
 Nodes (9): AxeItem, BlockItem, DeferredItem, AlchemicalBag, HoeItem, ShearsItem, ShovelItem, EquivalentLegacyItems (+1 more)
 
 ### Community 78 - "MatterMaterials"
-Cohesion: 0.13
-Nodes (9): ArmorMaterial, EquipmentAsset, FullKleinStarIngredient, ModIngredientTypes, MatterMaterials, Holder, ICustomIngredient, ItemLike (+1 more)
+Cohesion: 0.15
+Nodes (8): ArmorMaterial, EquipmentAsset, FullKleinStarIngredient, ModIngredientTypes, MatterMaterials, Holder, ICustomIngredient, ToolMaterial
 
 ## Knowledge Gaps
 - **99 isolated node(s):** `MK1`, `MK2`, `MK3`, `MK1`, `MK2` (+94 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **376 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **370 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `NSSItem` connect `CommonConfig` to `Client Setup`, `Creative Mode Tab`, `Mod Notes`, `PlayerEvents`, `MatterMaterials`, `CLAUDE.md — equivalent_legacy (26.2)`, `NSSTag`, `CurioItem`, `0.0.0-beta.3.md`?**
+- **Why does `NSSItem` connect `Creative Mode Tab` to `Client Setup`, `Mod Notes`, `Common Setup`, `CLAUDE.md — equivalent_legacy (26.2)`, `NSSTag`, `CurioItem`?**
   _High betweenness centrality (0.103) - this node is a cross-community bridge._
-- **Why does `NormalizedSimpleStack` connect `Event Bus` to `Mod Notes`, `CommonConfig`, `0.0.0-beta.3.md`, `Creative Mode Tab`?**
-  _High betweenness centrality (0.065) - this node is a cross-community bridge._
-- **Why does `AbstractDataComponentHolderNSSTag` connect `Mod Notes` to `CommonConfig`?**
-  _High betweenness centrality (0.042) - this node is a cross-community bridge._
+- **Why does `NormalizedSimpleStack` connect `Event Bus` to `Mod Notes`, `Creative Mode Tab`?**
+  _High betweenness centrality (0.056) - this node is a cross-community bridge._
+- **Why does `SimpleGraphMapper` connect `0.0.0-beta.1.md` to `ClientConfig`?**
+  _High betweenness centrality (0.038) - this node is a cross-community bridge._
 - **What connects `MK1`, `MK2`, `MK3` to the rest of the system?**
   _99 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Client Setup` be split into smaller, more focused modules?**
@@ -592,4 +581,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `Gradle Build Script` be split into smaller, more focused modules?**
   _Cohesion score 0.11857707509881422 - nodes in this community are weakly interconnected._
 - **Should `Event Bus` be split into smaller, more focused modules?**
-  _Cohesion score 0.06079664570230608 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06753246753246753 - nodes in this community are weakly interconnected._
