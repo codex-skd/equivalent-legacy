@@ -2,26 +2,25 @@ package com.skd.equivalentlegacy.emc;
 
 import com.skd.equivalentlegacy.emc.nss.NormalizedSimpleStack;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
-import it.unimi.dsi.fastutil.objects.Object2IntSortedMap;
-import it.unimi.dsi.fastutil.objects.Object2IntRBTreeMap;
+import it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap;
 
 import java.util.Objects;
 
 public final class CustomConversion {
     private final int count;
     private final NormalizedSimpleStack output;
-    private final Object2IntSortedMap<NormalizedSimpleStack> ingredients;
+    private final Object2IntMap<NormalizedSimpleStack> ingredients;
     private final boolean propagateTags;
 
-    public static final CustomConversion INVALID = new CustomConversion(-1, null, new Object2IntRBTreeMap<>());
+    public static final CustomConversion INVALID = new CustomConversion(-1, null, new Object2IntOpenHashMap<>());
 
     public CustomConversion(int count, NormalizedSimpleStack output,
-                            Object2IntSortedMap<NormalizedSimpleStack> ingredients) {
+                            Object2IntMap<NormalizedSimpleStack> ingredients) {
         this(count, output, ingredients, true);
     }
 
     public CustomConversion(int count, NormalizedSimpleStack output,
-                            Object2IntSortedMap<NormalizedSimpleStack> ingredients, boolean propagateTags) {
+                            Object2IntMap<NormalizedSimpleStack> ingredients, boolean propagateTags) {
         this.count = count;
         this.output = output;
         this.ingredients = ingredients;
@@ -33,16 +32,16 @@ public final class CustomConversion {
         if (count <= 0 || output == null || ingredients == null || ingredients.isEmpty()) {
             return INVALID;
         }
-        Object2IntRBTreeMap<NormalizedSimpleStack> sorted = new Object2IntRBTreeMap<>();
-        sorted.putAll(ingredients);
-        return new CustomConversion(count, output, sorted);
+        Object2IntOpenHashMap<NormalizedSimpleStack> map = new Object2IntOpenHashMap<>();
+        map.putAll(ingredients);
+        return new CustomConversion(count, output, map);
     }
 
     public int count() { return count; }
 
     public NormalizedSimpleStack output() { return output; }
 
-    public Object2IntSortedMap<NormalizedSimpleStack> ingredients() { return ingredients; }
+    public Object2IntMap<NormalizedSimpleStack> ingredients() { return ingredients; }
 
     public boolean propagateTags() { return propagateTags; }
 
