@@ -1,5 +1,9 @@
 # Changelog — Equivalent Legacy
 
+## 1.0.1
+
+- **CurseForge dependency**: Curios API is now declared as a required dependency on the CurseForge file, so the launcher installs it automatically.
+
 ## 1.0.0
 
 - **First stable release.** Full port of the ProjectE / Equivalent Exchange 2 experience for Minecraft 26.2 / NeoForge.
