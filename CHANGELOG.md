@@ -1,5 +1,9 @@
 # Changelog — Equivalent Legacy
 
+## 1.0.2
+
+- **Fix**: CurseForge dependency now targets `curios-api-updated` (project 1579340) instead of the original `curios` project.
+
 ## 1.0.1
 
 - **CurseForge dependency**: Curios API is now declared as a required dependency on the CurseForge file, so the launcher installs it automatically.
