@@ -2,22 +2,21 @@ package com.skd.equivalentlegacy.emc;
 
 import com.skd.equivalentlegacy.emc.nss.NormalizedSimpleStack;
 import it.unimi.dsi.fastutil.objects.Object2LongMap;
-import it.unimi.dsi.fastutil.objects.Object2LongRBTreeMap;
-import it.unimi.dsi.fastutil.objects.Object2LongSortedMap;
+import it.unimi.dsi.fastutil.objects.Object2LongOpenHashMap;
 
 import java.util.*;
 
 public final class FixedValues implements IHasConversions {
-    private final Object2LongSortedMap<NormalizedSimpleStack> setValueBefore;
-    private final Object2LongSortedMap<NormalizedSimpleStack> setValueAfter;
+    private final Object2LongMap<NormalizedSimpleStack> setValueBefore;
+    private final Object2LongMap<NormalizedSimpleStack> setValueAfter;
     private final List<CustomConversion> conversions;
 
     public FixedValues() {
-        this(new Object2LongRBTreeMap<>(), new Object2LongRBTreeMap<>(), new ArrayList<>());
+        this(new Object2LongOpenHashMap<>(), new Object2LongOpenHashMap<>(), new ArrayList<>());
     }
 
-    public FixedValues(Object2LongSortedMap<NormalizedSimpleStack> setValueBefore,
-                       Object2LongSortedMap<NormalizedSimpleStack> setValueAfter,
+    public FixedValues(Object2LongMap<NormalizedSimpleStack> setValueBefore,
+                       Object2LongMap<NormalizedSimpleStack> setValueAfter,
                        List<CustomConversion> conversions) {
         this.setValueBefore = setValueBefore;
         this.setValueAfter = setValueAfter;
@@ -35,11 +34,11 @@ public final class FixedValues implements IHasConversions {
         return setValueBefore.isEmpty() && setValueAfter.isEmpty() && conversions.isEmpty();
     }
 
-    public Object2LongSortedMap<NormalizedSimpleStack> setValueBefore() {
+    public Object2LongMap<NormalizedSimpleStack> setValueBefore() {
         return setValueBefore;
     }
 
-    public Object2LongSortedMap<NormalizedSimpleStack> setValueAfter() {
+    public Object2LongMap<NormalizedSimpleStack> setValueAfter() {
         return setValueAfter;
     }
 
