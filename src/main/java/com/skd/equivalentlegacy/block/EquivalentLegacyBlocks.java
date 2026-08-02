@@ -14,70 +14,71 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public final class EquivalentLegacyBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(EquivalentLegacy.MODID);
 
-    public static final DeferredBlock<Block> ALCHEMICAL_COAL_BLOCK = BLOCKS.register("alchemical_coal_block",
-            () -> new Block(BlockBehaviour.Properties.of().strength(3.0F, 6.0F).sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> ALCHEMICAL_COAL_BLOCK = BLOCKS.registerBlock("alchemical_coal_block",
+            Block::new, () -> BlockBehaviour.Properties.of().strength(3.0F, 6.0F).sound(SoundType.STONE));
 
-    public static final DeferredBlock<Block> MOBIUS_FUEL_BLOCK = BLOCKS.register("mobius_fuel_block",
-            () -> new Block(BlockBehaviour.Properties.of().strength(3.0F, 6.0F).sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> MOBIUS_FUEL_BLOCK = BLOCKS.registerBlock("mobius_fuel_block",
+            Block::new, () -> BlockBehaviour.Properties.of().strength(3.0F, 6.0F).sound(SoundType.STONE));
 
-    public static final DeferredBlock<Block> AETERNALIS_FUEL_BLOCK = BLOCKS.register("aeternalis_fuel_block",
-            () -> new Block(BlockBehaviour.Properties.of().strength(3.0F, 6.0F).sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> AETERNALIS_FUEL_BLOCK = BLOCKS.registerBlock("aeternalis_fuel_block",
+            Block::new, () -> BlockBehaviour.Properties.of().strength(3.0F, 6.0F).sound(SoundType.STONE));
 
-    public static final DeferredBlock<Block> DARK_MATTER_BLOCK = BLOCKS.register("dark_matter_block",
-            () -> new Block(BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> DARK_MATTER_BLOCK = BLOCKS.registerBlock("dark_matter_block",
+            Block::new, () -> BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL));
 
-    public static final DeferredBlock<Block> RED_MATTER_BLOCK = BLOCKS.register("red_matter_block",
-            () -> new Block(BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> RED_MATTER_BLOCK = BLOCKS.registerBlock("red_matter_block",
+            Block::new, () -> BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL));
 
     private static final BlockBehaviour.Properties MACHINE_PROPERTIES = BlockBehaviour.Properties.of()
             .strength(3.0F, 6.0F).sound(SoundType.METAL);
 
-    public static final DeferredBlock<Block> COLLECTOR_MK1 = BLOCKS.register("collector_mk1",
-            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.COLLECTOR::get,
-                    CollectorBlockEntity.ticker()));
+    public static final DeferredBlock<Block> COLLECTOR_MK1 = BLOCKS.registerBlock("collector_mk1",
+            props -> new BaseMachineBlock(props, EquivalentLegacyBlockEntities.COLLECTOR::get, CollectorBlockEntity.ticker()),
+            () -> MACHINE_PROPERTIES);
 
-    public static final DeferredBlock<Block> COLLECTOR_MK2 = BLOCKS.register("collector_mk2",
-            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.COLLECTOR::get,
-                    CollectorBlockEntity.ticker()));
+    public static final DeferredBlock<Block> COLLECTOR_MK2 = BLOCKS.registerBlock("collector_mk2",
+            props -> new BaseMachineBlock(props, EquivalentLegacyBlockEntities.COLLECTOR::get, CollectorBlockEntity.ticker()),
+            () -> MACHINE_PROPERTIES);
 
-    public static final DeferredBlock<Block> COLLECTOR_MK3 = BLOCKS.register("collector_mk3",
-            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.COLLECTOR::get,
-                    CollectorBlockEntity.ticker()));
+    public static final DeferredBlock<Block> COLLECTOR_MK3 = BLOCKS.registerBlock("collector_mk3",
+            props -> new BaseMachineBlock(props, EquivalentLegacyBlockEntities.COLLECTOR::get, CollectorBlockEntity.ticker()),
+            () -> MACHINE_PROPERTIES);
 
-    public static final DeferredBlock<Block> RELAY_MK1 = BLOCKS.register("relay_mk1",
-            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.RELAY::get,
-                    RelayBlockEntity.ticker()));
+    public static final DeferredBlock<Block> RELAY_MK1 = BLOCKS.registerBlock("relay_mk1",
+            props -> new BaseMachineBlock(props, EquivalentLegacyBlockEntities.RELAY::get, RelayBlockEntity.ticker()),
+            () -> MACHINE_PROPERTIES);
 
-    public static final DeferredBlock<Block> RELAY_MK2 = BLOCKS.register("relay_mk2",
-            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.RELAY::get,
-                    RelayBlockEntity.ticker()));
+    public static final DeferredBlock<Block> RELAY_MK2 = BLOCKS.registerBlock("relay_mk2",
+            props -> new BaseMachineBlock(props, EquivalentLegacyBlockEntities.RELAY::get, RelayBlockEntity.ticker()),
+            () -> MACHINE_PROPERTIES);
 
-    public static final DeferredBlock<Block> RELAY_MK3 = BLOCKS.register("relay_mk3",
-            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.RELAY::get,
-                    RelayBlockEntity.ticker()));
+    public static final DeferredBlock<Block> RELAY_MK3 = BLOCKS.registerBlock("relay_mk3",
+            props -> new BaseMachineBlock(props, EquivalentLegacyBlockEntities.RELAY::get, RelayBlockEntity.ticker()),
+            () -> MACHINE_PROPERTIES);
 
-    public static final DeferredBlock<Block> CONDENSER_MK1 = BLOCKS.register("condenser_mk1",
-            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.CONDENSER::get,
-                    CondenserBlockEntity.ticker()));
+    public static final DeferredBlock<Block> CONDENSER_MK1 = BLOCKS.registerBlock("condenser_mk1",
+            props -> new BaseMachineBlock(props, EquivalentLegacyBlockEntities.CONDENSER::get, CondenserBlockEntity.ticker()),
+            () -> MACHINE_PROPERTIES);
 
-    public static final DeferredBlock<Block> CONDENSER_MK2 = BLOCKS.register("condenser_mk2",
-            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.CONDENSER::get,
-                    CondenserBlockEntity.ticker()));
+    public static final DeferredBlock<Block> CONDENSER_MK2 = BLOCKS.registerBlock("condenser_mk2",
+            props -> new BaseMachineBlock(props, EquivalentLegacyBlockEntities.CONDENSER::get, CondenserBlockEntity.ticker()),
+            () -> MACHINE_PROPERTIES);
 
-    public static final DeferredBlock<Block> ALCHEMICAL_CHEST = BLOCKS.register("alchemical_chest",
-            () -> new BaseMachineBlock(MACHINE_PROPERTIES, EquivalentLegacyBlockEntities.ALCHEMICAL_CHEST::get, null));
+    public static final DeferredBlock<Block> ALCHEMICAL_CHEST = BLOCKS.registerBlock("alchemical_chest",
+            props -> new BaseMachineBlock(props, EquivalentLegacyBlockEntities.ALCHEMICAL_CHEST::get, null),
+            () -> MACHINE_PROPERTIES);
 
-    public static final DeferredBlock<Block> TRANSMUTATION_TABLE = BLOCKS.register("transmutation_table",
-            () -> new TransmutationTableBlock(BlockBehaviour.Properties.of().strength(3.0F, 6.0F).sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> TRANSMUTATION_TABLE = BLOCKS.registerBlock("transmutation_table",
+            TransmutationTableBlock::new, () -> BlockBehaviour.Properties.of().strength(3.0F, 6.0F).sound(SoundType.STONE));
 
-    public static final DeferredBlock<Block> INTERDICTION_TORCH = BLOCKS.register("interdiction_torch",
-            () -> new InterdictionTorchBlock(BlockBehaviour.Properties.of().strength(1.0F).noCollision().lightLevel(state -> 14)));
+    public static final DeferredBlock<Block> INTERDICTION_TORCH = BLOCKS.registerBlock("interdiction_torch",
+            InterdictionTorchBlock::new, () -> BlockBehaviour.Properties.of().strength(1.0F).noCollision().lightLevel(state -> 14));
 
-    public static final DeferredBlock<Block> DM_FURNACE = BLOCKS.register("dm_furnace",
-            () -> new MatterFurnaceBlock(BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel(state -> 13)));
+    public static final DeferredBlock<Block> DM_FURNACE = BLOCKS.registerBlock("dm_furnace",
+            MatterFurnaceBlock::new, () -> BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel(state -> 13));
 
-    public static final DeferredBlock<Block> RM_FURNACE = BLOCKS.register("rm_furnace",
-            () -> new MatterFurnaceBlock(BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel(state -> 13)));
+    public static final DeferredBlock<Block> RM_FURNACE = BLOCKS.registerBlock("rm_furnace",
+            MatterFurnaceBlock::new, () -> BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel(state -> 13));
 
     private EquivalentLegacyBlocks() {}
 }

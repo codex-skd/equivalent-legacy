@@ -11,29 +11,30 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ShearsItem;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.equipment.ArmorType;
+import net.minecraft.world.item.component.ItemContainerContents;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public final class EquivalentLegacyItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(EquivalentLegacy.MODID);
 
-    public static final DeferredItem<PhilosophersStone> PHILOSOPHERS_STONE = ITEMS.register("philosophers_stone",
-            () -> new PhilosophersStone(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<PhilosophersStone> PHILOSOPHERS_STONE = ITEMS.registerItem("philosophers_stone",
+            PhilosophersStone::new, () -> new Item.Properties().stacksTo(1));
 
-    public static final DeferredItem<DarkMatter> DARK_MATTER = ITEMS.register("dark_matter",
-            () -> new DarkMatter(new Item.Properties()));
+    public static final DeferredItem<DarkMatter> DARK_MATTER = ITEMS.registerItem("dark_matter",
+            DarkMatter::new, () -> new Item.Properties());
 
-    public static final DeferredItem<AlchemicalCoal> ALCHEMICAL_COAL = ITEMS.register("alchemical_coal",
-            () -> new AlchemicalCoal(new Item.Properties()));
+    public static final DeferredItem<AlchemicalCoal> ALCHEMICAL_COAL = ITEMS.registerItem("alchemical_coal",
+            AlchemicalCoal::new, () -> new Item.Properties());
 
-    public static final DeferredItem<MobiusFuel> MOBIUS_FUEL = ITEMS.register("mobius_fuel",
-            () -> new MobiusFuel(new Item.Properties()));
+    public static final DeferredItem<MobiusFuel> MOBIUS_FUEL = ITEMS.registerItem("mobius_fuel",
+            MobiusFuel::new, () -> new Item.Properties());
 
-    public static final DeferredItem<AeternalisFuel> AETERNALIS_FUEL = ITEMS.register("aeternalis_fuel",
-            () -> new AeternalisFuel(new Item.Properties()));
+    public static final DeferredItem<AeternalisFuel> AETERNALIS_FUEL = ITEMS.registerItem("aeternalis_fuel",
+            AeternalisFuel::new, () -> new Item.Properties());
 
-    public static final DeferredItem<RedMatter> RED_MATTER = ITEMS.register("red_matter",
-            () -> new RedMatter(new Item.Properties()));
+    public static final DeferredItem<RedMatter> RED_MATTER = ITEMS.registerItem("red_matter",
+            RedMatter::new, () -> new Item.Properties());
 
     public static final DeferredItem<BlockItem> ALCHEMICAL_COAL_BLOCK = ITEMS.registerSimpleBlockItem("alchemical_coal_block", EquivalentLegacyBlocks.ALCHEMICAL_COAL_BLOCK);
 
@@ -94,14 +95,14 @@ public final class EquivalentLegacyItems {
     public static final DeferredItem<AlchemicalBag> ALCHEMICAL_BAG_YELLOW = registerBag("yellow_alchemical_bag");
 
     private static DeferredItem<AlchemicalBag> registerBag(String name) {
-        return ITEMS.register(name, () -> new AlchemicalBag(new Item.Properties().stacksTo(1)
-                .component(net.minecraft.core.component.DataComponents.CONTAINER, net.minecraft.world.item.component.ItemContainerContents.EMPTY)));
+        return ITEMS.registerItem(name, AlchemicalBag::new, () -> new Item.Properties().stacksTo(1)
+                .component(DataComponents.CONTAINER, ItemContainerContents.EMPTY));
     }
 
     public static final DeferredItem<BlockItem> ALCHEMICAL_CHEST = ITEMS.registerSimpleBlockItem("alchemical_chest", EquivalentLegacyBlocks.ALCHEMICAL_CHEST);
 
-    public static final DeferredItem<TransmutationTablet> TRANSMUTATION_TABLET = ITEMS.register("transmutation_tablet",
-            () -> new TransmutationTablet(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<TransmutationTablet> TRANSMUTATION_TABLET = ITEMS.registerItem("transmutation_tablet",
+            TransmutationTablet::new, () -> new Item.Properties().stacksTo(1));
 
     public static final DeferredItem<BlockItem> TRANSMUTATION_TABLE = ITEMS.registerSimpleBlockItem("transmutation_table", EquivalentLegacyBlocks.TRANSMUTATION_TABLE);
 
@@ -111,20 +112,20 @@ public final class EquivalentLegacyItems {
 
     public static final DeferredItem<BlockItem> RM_FURNACE = ITEMS.registerSimpleBlockItem("rm_furnace", EquivalentLegacyBlocks.RM_FURNACE);
 
-    public static final DeferredItem<CovalenceDust> LOW_COVALENCE_DUST = ITEMS.register("low_covalence_dust",
-            () -> new CovalenceDust(new Item.Properties()));
+    public static final DeferredItem<CovalenceDust> LOW_COVALENCE_DUST = ITEMS.registerItem("low_covalence_dust",
+            CovalenceDust::new, () -> new Item.Properties());
 
-    public static final DeferredItem<CovalenceDust> MEDIUM_COVALENCE_DUST = ITEMS.register("medium_covalence_dust",
-            () -> new CovalenceDust(new Item.Properties()));
+    public static final DeferredItem<CovalenceDust> MEDIUM_COVALENCE_DUST = ITEMS.registerItem("medium_covalence_dust",
+            CovalenceDust::new, () -> new Item.Properties());
 
-    public static final DeferredItem<CovalenceDust> HIGH_COVALENCE_DUST = ITEMS.register("high_covalence_dust",
-            () -> new CovalenceDust(new Item.Properties()));
+    public static final DeferredItem<CovalenceDust> HIGH_COVALENCE_DUST = ITEMS.registerItem("high_covalence_dust",
+            CovalenceDust::new, () -> new Item.Properties());
 
-    public static final DeferredItem<Tome> TOME = ITEMS.register("tome",
-            () -> new Tome(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Tome> TOME = ITEMS.registerItem("tome",
+            Tome::new, () -> new Item.Properties().stacksTo(1));
 
-    public static final DeferredItem<Item> IRON_BAND = ITEMS.register("iron_band",
-            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> IRON_BAND = ITEMS.registerItem("iron_band",
+            Item::new, () -> new Item.Properties());
 
     public static final DeferredItem<CurioItem> BLACK_HOLE_BAND = registerCurio("black_hole_band", CurioItem.Type.BLACK_HOLE_BAND);
 
@@ -156,14 +157,14 @@ public final class EquivalentLegacyItems {
 
     public static final DeferredItem<CurioItem> ZERO_RING = registerCurio("zero_ring", CurioItem.Type.ZERO_RING);
 
-    public static final DeferredItem<Item> ARCANA_RING = ITEMS.register("arcana_ring",
-            () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> ARCANA_RING = ITEMS.registerItem("arcana_ring",
+            Item::new, () -> new Item.Properties().stacksTo(1));
 
-    public static final DeferredItem<Item> NOVA_CATALYST = ITEMS.register("nova_catalyst",
-            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NOVA_CATALYST = ITEMS.registerItem("nova_catalyst",
+            Item::new, () -> new Item.Properties());
 
-    public static final DeferredItem<Item> NOVA_CATACLYSM = ITEMS.register("nova_cataclysm",
-            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NOVA_CATACLYSM = ITEMS.registerItem("nova_cataclysm",
+            Item::new, () -> new Item.Properties());
 
     public static final DeferredItem<MiscToolItem> DIVINING_ROD_1 = registerMiscTool("divining_rod_1", MiscToolItem.Type.DIVINING_ROD_1);
 
@@ -179,120 +180,120 @@ public final class EquivalentLegacyItems {
 
     public static final DeferredItem<MiscToolItem> MERCURIAL_EYE = registerMiscTool("mercurial_eye", MiscToolItem.Type.MERCURIAL_EYE);
 
-    public static final DeferredItem<Item> ARCHANGEL_SMITE = ITEMS.register("archangel_smite",
-            () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> ARCHANGEL_SMITE = ITEMS.registerItem("archangel_smite",
+            Item::new, () -> new Item.Properties().stacksTo(1));
 
     private static DeferredItem<MiscToolItem> registerMiscTool(String name, MiscToolItem.Type type) {
-        return ITEMS.register(name, () -> new MiscToolItem(new Item.Properties(), type));
+        return ITEMS.registerItem(name, props -> new MiscToolItem(props, type), () -> new Item.Properties());
     }
 
     private static DeferredItem<CurioItem> registerCurio(String name, CurioItem.Type type) {
-        return ITEMS.register(name, () -> new CurioItem(new Item.Properties().stacksTo(1), type));
+        return ITEMS.registerItem(name, props -> new CurioItem(props, type), () -> new Item.Properties().stacksTo(1));
     }
 
-    public static final DeferredItem<KleinStar> KLEIN_STAR_EIN = ITEMS.register("klein_star_ein",
-            () -> new KleinStar(new Item.Properties(), KleinStarTier.EIN));
+    public static final DeferredItem<KleinStar> KLEIN_STAR_EIN = ITEMS.registerItem("klein_star_ein",
+            props -> new KleinStar(props, KleinStarTier.EIN), () -> new Item.Properties());
 
-    public static final DeferredItem<KleinStar> KLEIN_STAR_ZWEI = ITEMS.register("klein_star_zwei",
-            () -> new KleinStar(new Item.Properties(), KleinStarTier.ZWEI));
+    public static final DeferredItem<KleinStar> KLEIN_STAR_ZWEI = ITEMS.registerItem("klein_star_zwei",
+            props -> new KleinStar(props, KleinStarTier.ZWEI), () -> new Item.Properties());
 
-    public static final DeferredItem<KleinStar> KLEIN_STAR_DREI = ITEMS.register("klein_star_drei",
-            () -> new KleinStar(new Item.Properties(), KleinStarTier.DREI));
+    public static final DeferredItem<KleinStar> KLEIN_STAR_DREI = ITEMS.registerItem("klein_star_drei",
+            props -> new KleinStar(props, KleinStarTier.DREI), () -> new Item.Properties());
 
-    public static final DeferredItem<KleinStar> KLEIN_STAR_VIER = ITEMS.register("klein_star_vier",
-            () -> new KleinStar(new Item.Properties(), KleinStarTier.VIER));
+    public static final DeferredItem<KleinStar> KLEIN_STAR_VIER = ITEMS.registerItem("klein_star_vier",
+            props -> new KleinStar(props, KleinStarTier.VIER), () -> new Item.Properties());
 
-    public static final DeferredItem<KleinStar> KLEIN_STAR_SPHERE = ITEMS.register("klein_star_sphere",
-            () -> new KleinStar(new Item.Properties(), KleinStarTier.SPHERE));
+    public static final DeferredItem<KleinStar> KLEIN_STAR_SPHERE = ITEMS.registerItem("klein_star_sphere",
+            props -> new KleinStar(props, KleinStarTier.SPHERE), () -> new Item.Properties());
 
-    public static final DeferredItem<KleinStar> KLEIN_STAR_OMEGA = ITEMS.register("klein_star_omega",
-            () -> new KleinStar(new Item.Properties(), KleinStarTier.OMEGA));
+    public static final DeferredItem<KleinStar> KLEIN_STAR_OMEGA = ITEMS.registerItem("klein_star_omega",
+            props -> new KleinStar(props, KleinStarTier.OMEGA), () -> new Item.Properties());
 
-    public static final DeferredItem<MatterSwordItem> DARK_MATTER_SWORD = ITEMS.register("dark_matter_sword",
-            () -> new MatterSwordItem(new Item.Properties().sword(MatterMaterials.DARK_MATTER, 8.0F, -2.4F)));
+    public static final DeferredItem<MatterSwordItem> DARK_MATTER_SWORD = ITEMS.registerItem("dark_matter_sword",
+            MatterSwordItem::new, () -> new Item.Properties().sword(MatterMaterials.DARK_MATTER, 8.0F, -2.4F));
 
-    public static final DeferredItem<MatterPickaxeItem> DARK_MATTER_PICKAXE = ITEMS.register("dark_matter_pickaxe",
-            () -> new MatterPickaxeItem(new Item.Properties().pickaxe(MatterMaterials.DARK_MATTER, 1.0F, -2.8F)));
+    public static final DeferredItem<MatterPickaxeItem> DARK_MATTER_PICKAXE = ITEMS.registerItem("dark_matter_pickaxe",
+            MatterPickaxeItem::new, () -> new Item.Properties().pickaxe(MatterMaterials.DARK_MATTER, 1.0F, -2.8F));
 
-    public static final DeferredItem<AxeItem> DARK_MATTER_AXE = ITEMS.register("dark_matter_axe",
-            () -> new AxeItem(MatterMaterials.DARK_MATTER, 6.0F, -3.0F, new Item.Properties()));
+    public static final DeferredItem<AxeItem> DARK_MATTER_AXE = ITEMS.registerItem("dark_matter_axe",
+            props -> new AxeItem(MatterMaterials.DARK_MATTER, 6.0F, -3.0F, props), () -> new Item.Properties());
 
-    public static final DeferredItem<ShovelItem> DARK_MATTER_SHOVEL = ITEMS.register("dark_matter_shovel",
-            () -> new ShovelItem(MatterMaterials.DARK_MATTER, 1.5F, -3.0F, new Item.Properties()));
+    public static final DeferredItem<ShovelItem> DARK_MATTER_SHOVEL = ITEMS.registerItem("dark_matter_shovel",
+            props -> new ShovelItem(MatterMaterials.DARK_MATTER, 1.5F, -3.0F, props), () -> new Item.Properties());
 
-    public static final DeferredItem<HoeItem> DARK_MATTER_HOE = ITEMS.register("dark_matter_hoe",
-            () -> new HoeItem(MatterMaterials.DARK_MATTER, 1.0F, -3.0F, new Item.Properties()));
+    public static final DeferredItem<HoeItem> DARK_MATTER_HOE = ITEMS.registerItem("dark_matter_hoe",
+            props -> new HoeItem(MatterMaterials.DARK_MATTER, 1.0F, -3.0F, props), () -> new Item.Properties());
 
-    public static final DeferredItem<ShearsItem> DARK_MATTER_SHEARS = ITEMS.register("dark_matter_shears",
-            () -> new ShearsItem(new Item.Properties().durability(6_000)
-                    .component(DataComponents.TOOL, ShearsItem.createToolProperties())));
+    public static final DeferredItem<ShearsItem> DARK_MATTER_SHEARS = ITEMS.registerItem("dark_matter_shears",
+            ShearsItem::new, () -> new Item.Properties().durability(6_000)
+                    .component(DataComponents.TOOL, ShearsItem.createToolProperties()));
 
-    public static final DeferredItem<HammerItem> DARK_MATTER_HAMMER = ITEMS.register("dark_matter_hammer",
-            () -> new HammerItem(new Item.Properties().tool(MatterMaterials.DARK_MATTER, BlockTags.MINEABLE_WITH_PICKAXE, 5.0F, -3.0F, 0.0F)));
+    public static final DeferredItem<HammerItem> DARK_MATTER_HAMMER = ITEMS.registerItem("dark_matter_hammer",
+            HammerItem::new, () -> new Item.Properties().tool(MatterMaterials.DARK_MATTER, BlockTags.MINEABLE_WITH_PICKAXE, 5.0F, -3.0F, 0.0F));
 
-    public static final DeferredItem<Item> DARK_MATTER_HELMET = ITEMS.register("dark_matter_helmet",
-            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.HELMET)));
+    public static final DeferredItem<Item> DARK_MATTER_HELMET = ITEMS.registerItem("dark_matter_helmet",
+            Item::new, () -> new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.HELMET));
 
-    public static final DeferredItem<Item> DARK_MATTER_CHESTPLATE = ITEMS.register("dark_matter_chestplate",
-            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.CHESTPLATE)));
+    public static final DeferredItem<Item> DARK_MATTER_CHESTPLATE = ITEMS.registerItem("dark_matter_chestplate",
+            Item::new, () -> new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.CHESTPLATE));
 
-    public static final DeferredItem<Item> DARK_MATTER_LEGGINGS = ITEMS.register("dark_matter_leggings",
-            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.LEGGINGS)));
+    public static final DeferredItem<Item> DARK_MATTER_LEGGINGS = ITEMS.registerItem("dark_matter_leggings",
+            Item::new, () -> new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.LEGGINGS));
 
-    public static final DeferredItem<Item> DARK_MATTER_BOOTS = ITEMS.register("dark_matter_boots",
-            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.BOOTS)));
+    public static final DeferredItem<Item> DARK_MATTER_BOOTS = ITEMS.registerItem("dark_matter_boots",
+            Item::new, () -> new Item.Properties().humanoidArmor(MatterMaterials.DARK_MATTER_ARMOR, ArmorType.BOOTS));
 
-    public static final DeferredItem<MatterSwordItem> RED_MATTER_SWORD = ITEMS.register("red_matter_sword",
-            () -> new MatterSwordItem(new Item.Properties().sword(MatterMaterials.RED_MATTER, 12.0F, -2.4F)));
+    public static final DeferredItem<MatterSwordItem> RED_MATTER_SWORD = ITEMS.registerItem("red_matter_sword",
+            MatterSwordItem::new, () -> new Item.Properties().sword(MatterMaterials.RED_MATTER, 12.0F, -2.4F));
 
-    public static final DeferredItem<MatterPickaxeItem> RED_MATTER_PICKAXE = ITEMS.register("red_matter_pickaxe",
-            () -> new MatterPickaxeItem(new Item.Properties().pickaxe(MatterMaterials.RED_MATTER, 1.0F, -2.8F)));
+    public static final DeferredItem<MatterPickaxeItem> RED_MATTER_PICKAXE = ITEMS.registerItem("red_matter_pickaxe",
+            MatterPickaxeItem::new, () -> new Item.Properties().pickaxe(MatterMaterials.RED_MATTER, 1.0F, -2.8F));
 
-    public static final DeferredItem<AxeItem> RED_MATTER_AXE = ITEMS.register("red_matter_axe",
-            () -> new AxeItem(MatterMaterials.RED_MATTER, 9.0F, -3.0F, new Item.Properties()));
+    public static final DeferredItem<AxeItem> RED_MATTER_AXE = ITEMS.registerItem("red_matter_axe",
+            props -> new AxeItem(MatterMaterials.RED_MATTER, 9.0F, -3.0F, props), () -> new Item.Properties());
 
-    public static final DeferredItem<ShovelItem> RED_MATTER_SHOVEL = ITEMS.register("red_matter_shovel",
-            () -> new ShovelItem(MatterMaterials.RED_MATTER, 1.5F, -3.0F, new Item.Properties()));
+    public static final DeferredItem<ShovelItem> RED_MATTER_SHOVEL = ITEMS.registerItem("red_matter_shovel",
+            props -> new ShovelItem(MatterMaterials.RED_MATTER, 1.5F, -3.0F, props), () -> new Item.Properties());
 
-    public static final DeferredItem<HoeItem> RED_MATTER_HOE = ITEMS.register("red_matter_hoe",
-            () -> new HoeItem(MatterMaterials.RED_MATTER, 1.0F, -3.0F, new Item.Properties()));
+    public static final DeferredItem<HoeItem> RED_MATTER_HOE = ITEMS.registerItem("red_matter_hoe",
+            props -> new HoeItem(MatterMaterials.RED_MATTER, 1.0F, -3.0F, props), () -> new Item.Properties());
 
-    public static final DeferredItem<ShearsItem> RED_MATTER_SHEARS = ITEMS.register("red_matter_shears",
-            () -> new ShearsItem(new Item.Properties().durability(12_000)
-                    .component(DataComponents.TOOL, ShearsItem.createToolProperties())));
+    public static final DeferredItem<ShearsItem> RED_MATTER_SHEARS = ITEMS.registerItem("red_matter_shears",
+            ShearsItem::new, () -> new Item.Properties().durability(12_000)
+                    .component(DataComponents.TOOL, ShearsItem.createToolProperties()));
 
-    public static final DeferredItem<HammerItem> RED_MATTER_HAMMER = ITEMS.register("red_matter_hammer",
-            () -> new HammerItem(new Item.Properties().tool(MatterMaterials.RED_MATTER, BlockTags.MINEABLE_WITH_PICKAXE, 8.0F, -3.0F, 0.0F)));
+    public static final DeferredItem<HammerItem> RED_MATTER_HAMMER = ITEMS.registerItem("red_matter_hammer",
+            HammerItem::new, () -> new Item.Properties().tool(MatterMaterials.RED_MATTER, BlockTags.MINEABLE_WITH_PICKAXE, 8.0F, -3.0F, 0.0F));
 
-    public static final DeferredItem<MatterSwordItem> RED_MATTER_KATAR = ITEMS.register("red_matter_katar",
-            () -> new MatterSwordItem(new Item.Properties().sword(MatterMaterials.RED_MATTER, 14.0F, -2.0F)));
+    public static final DeferredItem<MatterSwordItem> RED_MATTER_KATAR = ITEMS.registerItem("red_matter_katar",
+            MatterSwordItem::new, () -> new Item.Properties().sword(MatterMaterials.RED_MATTER, 14.0F, -2.0F));
 
-    public static final DeferredItem<MatterSwordItem> RED_MATTER_MORNING_STAR = ITEMS.register("red_matter_morning_star",
-            () -> new MatterSwordItem(new Item.Properties().sword(MatterMaterials.RED_MATTER, 18.0F, -2.4F)));
+    public static final DeferredItem<MatterSwordItem> RED_MATTER_MORNING_STAR = ITEMS.registerItem("red_matter_morning_star",
+            MatterSwordItem::new, () -> new Item.Properties().sword(MatterMaterials.RED_MATTER, 18.0F, -2.4F));
 
-    public static final DeferredItem<Item> RED_MATTER_HELMET = ITEMS.register("red_matter_helmet",
-            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.HELMET)));
+    public static final DeferredItem<Item> RED_MATTER_HELMET = ITEMS.registerItem("red_matter_helmet",
+            Item::new, () -> new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.HELMET));
 
-    public static final DeferredItem<Item> RED_MATTER_CHESTPLATE = ITEMS.register("red_matter_chestplate",
-            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.CHESTPLATE)));
+    public static final DeferredItem<Item> RED_MATTER_CHESTPLATE = ITEMS.registerItem("red_matter_chestplate",
+            Item::new, () -> new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.CHESTPLATE));
 
-    public static final DeferredItem<Item> RED_MATTER_LEGGINGS = ITEMS.register("red_matter_leggings",
-            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.LEGGINGS)));
+    public static final DeferredItem<Item> RED_MATTER_LEGGINGS = ITEMS.registerItem("red_matter_leggings",
+            Item::new, () -> new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.LEGGINGS));
 
-    public static final DeferredItem<Item> RED_MATTER_BOOTS = ITEMS.register("red_matter_boots",
-            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.BOOTS)));
+    public static final DeferredItem<Item> RED_MATTER_BOOTS = ITEMS.registerItem("red_matter_boots",
+            Item::new, () -> new Item.Properties().humanoidArmor(MatterMaterials.RED_MATTER_ARMOR, ArmorType.BOOTS));
 
-    public static final DeferredItem<Item> GEM_HELMET = ITEMS.register("gem_helmet",
-            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.GEM_ARMOR, ArmorType.HELMET)));
+    public static final DeferredItem<Item> GEM_HELMET = ITEMS.registerItem("gem_helmet",
+            Item::new, () -> new Item.Properties().humanoidArmor(MatterMaterials.GEM_ARMOR, ArmorType.HELMET));
 
-    public static final DeferredItem<Item> GEM_CHESTPLATE = ITEMS.register("gem_chestplate",
-            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.GEM_ARMOR, ArmorType.CHESTPLATE)));
+    public static final DeferredItem<Item> GEM_CHESTPLATE = ITEMS.registerItem("gem_chestplate",
+            Item::new, () -> new Item.Properties().humanoidArmor(MatterMaterials.GEM_ARMOR, ArmorType.CHESTPLATE));
 
-    public static final DeferredItem<Item> GEM_LEGGINGS = ITEMS.register("gem_leggings",
-            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.GEM_ARMOR, ArmorType.LEGGINGS)));
+    public static final DeferredItem<Item> GEM_LEGGINGS = ITEMS.registerItem("gem_leggings",
+            Item::new, () -> new Item.Properties().humanoidArmor(MatterMaterials.GEM_ARMOR, ArmorType.LEGGINGS));
 
-    public static final DeferredItem<Item> GEM_BOOTS = ITEMS.register("gem_boots",
-            () -> new Item(new Item.Properties().humanoidArmor(MatterMaterials.GEM_ARMOR, ArmorType.BOOTS)));
+    public static final DeferredItem<Item> GEM_BOOTS = ITEMS.registerItem("gem_boots",
+            Item::new, () -> new Item.Properties().humanoidArmor(MatterMaterials.GEM_ARMOR, ArmorType.BOOTS));
 
     private EquivalentLegacyItems() {}
 }
