@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-02)
 
 ## Corpus Check
-- 521 files · ~31,355 words
+- 521 files · ~31,358 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1154 nodes · 1146 edges · 441 communities (63 shown, 378 thin omitted)
+- 1154 nodes · 1146 edges · 442 communities (63 shown, 379 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 58 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5f80ae5d`
+- Built from commit: `012c0029`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -422,6 +422,7 @@
 - StreamCodec
 - AlchemicalCoal
 - MobiusFuel
+- CondenserMenu
 
 ## God Nodes (most connected - your core abstractions)
 1. `NormalizedSimpleStack` - 31 edges
@@ -450,7 +451,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (441 total, 378 thin omitted)
+## Communities (442 total, 379 thin omitted)
 
 ### Community 2 - "Client Setup"
 Cohesion: 0.06
@@ -554,7 +555,7 @@ Nodes (4): PlayerEvents, PlayerChangedDimensionEvent, PlayerLoggedInEvent, Playe
 
 ### Community 50 - ".syncKnowledgeDataIfChanged"
 Cohesion: 0.08
-Nodes (6): AbstractContainerMenu, BagMenu, ChestMenu, CondenserMenu, MachineMenu, IItemHandler
+Nodes (6): AbstractContainerMenu, BagMenu, ChestMenu, CollectorMenu, MachineMenu, IItemHandler
 
 ### Community 57 - "CurioItem"
 Cohesion: 0.16
@@ -571,7 +572,7 @@ Nodes (8): ArmorMaterial, EquipmentAsset, FullKleinStarIngredient, ModIngredient
 ## Knowledge Gaps
 - **100 isolated node(s):** `MK1`, `MK2`, `MK3`, `MK1`, `MK2` (+95 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **378 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **379 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

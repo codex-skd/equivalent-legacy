@@ -1656,7 +1656,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_condenserblockentity_condenserblockentity_getchargeprogress",
-      "community": 12,
+      "community": 1,
       "norm_label": ".getchargeprogress()"
     },
     {
@@ -1666,7 +1666,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_condenserblockentity_condenserblockentity_getemc",
-      "community": 12,
+      "community": 1,
       "norm_label": ".getemc()"
     },
     {
@@ -1756,7 +1756,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_condenserblockentity_condenserblockentity_producetarget",
-      "community": 12,
+      "community": 1,
       "norm_label": ".producetarget()"
     },
     {
@@ -3336,7 +3336,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_java",
-      "community": 13,
+      "community": 1,
       "norm_label": "emcnetwork.java"
     },
     {
@@ -3346,7 +3346,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork",
-      "community": 13,
+      "community": 1,
       "norm_label": "emcnetwork"
     },
     {
@@ -3376,7 +3376,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_emcnetwork",
-      "community": 13,
+      "community": 1,
       "norm_label": ".emcnetwork()"
     },
     {
@@ -3386,7 +3386,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_getemc",
-      "community": 13,
+      "community": 1,
       "norm_label": ".getemc()"
     },
     {
@@ -3406,7 +3406,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_addemc",
-      "community": 13,
+      "community": 12,
       "norm_label": ".addemc()"
     },
     {
@@ -3416,7 +3416,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_takeemc",
-      "community": 13,
+      "community": 1,
       "norm_label": ".takeemc()"
     },
     {
@@ -5566,7 +5566,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_collectormenu_java",
-      "community": 1,
+      "community": 50,
       "norm_label": "collectormenu.java"
     },
     {
@@ -5576,7 +5576,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_collectormenu_collectormenu",
-      "community": 1,
+      "community": 50,
       "norm_label": "collectormenu"
     },
     {
@@ -5596,7 +5596,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_collectormenu_collectormenu_collectormenu",
-      "community": 1,
+      "community": 50,
       "norm_label": ".collectormenu()"
     },
     {
@@ -5646,7 +5646,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_collectormenu_collectormenu_getemc",
-      "community": 1,
+      "community": 50,
       "norm_label": ".getemc()"
     },
     {
@@ -5656,7 +5656,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_collectormenu_collectormenu_getsunlevel",
-      "community": 1,
+      "community": 50,
       "norm_label": ".getsunlevel()"
     },
     {
@@ -5666,7 +5666,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_collectormenu_collectormenu_getchargeprogress",
-      "community": 1,
+      "community": 50,
       "norm_label": ".getchargeprogress()"
     },
     {
@@ -5676,7 +5676,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_collectormenu_collectormenu_quickmovestack",
-      "community": 1,
+      "community": 50,
       "norm_label": ".quickmovestack()"
     },
     {
@@ -5706,7 +5706,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_collectormenu_collectormenu_stillvalid",
-      "community": 1,
+      "community": 50,
       "norm_label": ".stillvalid()"
     },
     {
@@ -5806,7 +5806,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condensermenu_java",
-      "community": 50,
+      "community": 441,
       "norm_label": "condensermenu.java"
     },
     {
@@ -5816,7 +5816,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condensermenu_condensermenu",
-      "community": 50,
+      "community": 441,
       "norm_label": "condensermenu"
     },
     {
@@ -5836,7 +5836,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condensermenu_condensermenu_condensermenu",
-      "community": 50,
+      "community": 441,
       "norm_label": ".condensermenu()"
     },
     {
@@ -5866,7 +5866,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condensermenu_condensermenu_broadcastchanges",
-      "community": 12,
+      "community": 1,
       "norm_label": ".broadcastchanges()"
     },
     {
@@ -5886,7 +5886,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condensermenu_condensermenu_getemc",
-      "community": 50,
+      "community": 441,
       "norm_label": ".getemc()"
     },
     {
@@ -5896,7 +5896,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condensermenu_condensermenu_getchargeprogress",
-      "community": 50,
+      "community": 441,
       "norm_label": ".getchargeprogress()"
     },
     {
@@ -5906,7 +5906,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condensermenu_condensermenu_quickmovestack",
-      "community": 50,
+      "community": 441,
       "norm_label": ".quickmovestack()"
     },
     {
@@ -5936,7 +5936,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condensermenu_condensermenu_stillvalid",
-      "community": 50,
+      "community": 441,
       "norm_label": ".stillvalid()"
     },
     {
@@ -10905,7 +10905,7 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_md",
+      "id": "docs_context_for_opencode",
       "community": 29,
       "norm_label": "context_for_opencode.md"
     },
@@ -10915,7 +10915,7 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "id": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
       "community": 29,
       "norm_label": "contexto \u2014 equivalent legacy (para usar directamente con opencode/codex)"
     },
@@ -10925,7 +10925,7 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_qu\u00e9_es_este_mod",
+      "id": "docs_context_for_opencode_qu\u00e9_es_este_mod",
       "community": 29,
       "norm_label": "que es este mod"
     },
@@ -10935,7 +10935,7 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_origen_atribuci\u00f3n_obligatorio_mantener",
+      "id": "docs_context_for_opencode_origen_atribuci\u00f3n_obligatorio_mantener",
       "community": 29,
       "norm_label": "origen / atribucion (obligatorio mantener)"
     },
@@ -10945,7 +10945,7 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_reglas_de_naming_y_estilo_obligatorias",
+      "id": "docs_context_for_opencode_reglas_de_naming_y_estilo_obligatorias",
       "community": 29,
       "norm_label": "reglas de naming y estilo (obligatorias)"
     },
@@ -10955,7 +10955,7 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_lo_ya_implementado_fases_1_13_todo_commiteado_compilando_y_publicado_en_curseforge",
+      "id": "docs_context_for_opencode_lo_ya_implementado_fases_1_13_todo_commiteado_compilando_y_publicado_en_curseforge",
       "community": 29,
       "norm_label": "lo ya implementado (fases 1-13, todo commiteado, compilando y publicado en curseforge)"
     },
@@ -10965,7 +10965,7 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L89",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_lo_que_falta_siguientes_betas",
+      "id": "docs_context_for_opencode_lo_que_falta_siguientes_betas",
       "community": 29,
       "norm_label": "lo que falta (siguientes betas)"
     },
@@ -10975,7 +10975,7 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L93",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_notas_sobre_el_entorno_por_qu\u00e9_esto_existe",
+      "id": "docs_context_for_opencode_notas_sobre_el_entorno_por_qu\u00e9_esto_existe",
       "community": 29,
       "norm_label": "notas sobre el entorno (por que esto existe)"
     },
@@ -11173,7 +11173,7 @@
       "label": "Dependencia requerida",
       "file_type": "document",
       "source_file": "docs/curseforge/project_vars.md",
-      "source_location": "L30",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "docs_curseforge_project_vars_dependencia_requerida",
       "community": 41,
@@ -11183,7 +11183,7 @@
       "label": "Nota",
       "file_type": "document",
       "source_file": "docs/curseforge/project_vars.md",
-      "source_location": "L36",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "docs_curseforge_project_vars_nota",
       "community": 41,
@@ -11193,7 +11193,7 @@
       "label": "Rama",
       "file_type": "document",
       "source_file": "docs/curseforge/project_vars.md",
-      "source_location": "L40",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "docs_curseforge_project_vars_rama",
       "community": 41,
@@ -11203,7 +11203,7 @@
       "label": "Tag",
       "file_type": "document",
       "source_file": "docs/curseforge/project_vars.md",
-      "source_location": "L46",
+      "source_location": "L47",
       "_origin": "ast",
       "id": "docs_curseforge_project_vars_tag",
       "community": 41,
@@ -23255,8 +23255,8 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_md",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "source": "docs_context_for_opencode",
+      "target": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
       "confidence_score": 1.0
     },
     {
@@ -23265,8 +23265,8 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L89",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_lo_que_falta_siguientes_betas",
+      "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "target": "docs_context_for_opencode_lo_que_falta_siguientes_betas",
       "confidence_score": 1.0
     },
     {
@@ -23275,8 +23275,8 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L32",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_lo_ya_implementado_fases_1_13_todo_commiteado_compilando_y_publicado_en_curseforge",
+      "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "target": "docs_context_for_opencode_lo_ya_implementado_fases_1_13_todo_commiteado_compilando_y_publicado_en_curseforge",
       "confidence_score": 1.0
     },
     {
@@ -23285,8 +23285,8 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L93",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_notas_sobre_el_entorno_por_qu\u00e9_esto_existe",
+      "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "target": "docs_context_for_opencode_notas_sobre_el_entorno_por_qu\u00e9_esto_existe",
       "confidence_score": 1.0
     },
     {
@@ -23295,8 +23295,8 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L16",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_origen_atribuci\u00f3n_obligatorio_mantener",
+      "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "target": "docs_context_for_opencode_origen_atribuci\u00f3n_obligatorio_mantener",
       "confidence_score": 1.0
     },
     {
@@ -23305,8 +23305,8 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L5",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_qu\u00e9_es_este_mod",
+      "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "target": "docs_context_for_opencode_qu\u00e9_es_este_mod",
       "confidence_score": 1.0
     },
     {
@@ -23315,8 +23315,8 @@
       "source_file": "docs/CONTEXT_FOR_OPENCODE.md",
       "source_location": "L22",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_docs_context_for_opencode_reglas_de_naming_y_estilo_obligatorias",
+      "source": "docs_context_for_opencode_contexto_equivalent_legacy_para_usar_directamente_con_opencode_codex",
+      "target": "docs_context_for_opencode_reglas_de_naming_y_estilo_obligatorias",
       "confidence_score": 1.0
     },
     {
@@ -23453,7 +23453,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/curseforge/project_vars.md",
-      "source_location": "L30",
+      "source_location": "L31",
       "weight": 1.0,
       "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
       "target": "docs_curseforge_project_vars_dependencia_requerida",
@@ -23463,7 +23463,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/curseforge/project_vars.md",
-      "source_location": "L36",
+      "source_location": "L37",
       "weight": 1.0,
       "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
       "target": "docs_curseforge_project_vars_nota",
@@ -23483,7 +23483,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/curseforge/project_vars.md",
-      "source_location": "L40",
+      "source_location": "L41",
       "weight": 1.0,
       "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
       "target": "docs_curseforge_project_vars_rama",
@@ -23493,7 +23493,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/curseforge/project_vars.md",
-      "source_location": "L46",
+      "source_location": "L47",
       "weight": 1.0,
       "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
       "target": "docs_curseforge_project_vars_tag",
@@ -23537,5 +23537,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5f80ae5d4eb783a986bd6f7a99c2e4d8aa830ac5"
+  "built_at_commit": "012c002964f1fb634cb2ad52f0bd73606b77a98c"
 }
