@@ -1,5 +1,14 @@
 # Changelog — Equivalent Legacy
 
+## 1.0.0
+
+- **First stable release.** Full port of the ProjectE / Equivalent Exchange 2 experience for Minecraft 26.2 / NeoForge.
+- Complete EMC system (values, knowledge, transmutation) with Philosopher's Stone, Transmutation Table/Tablet and Tome of Knowledge.
+- Alchemical fuels, Dark/Red Matter, full tool + armor toolchains with charge/AOE, Gem Armor and Full Star endgame recipes.
+- Klein Stars Ein–Omega, the arcana curio set, misc toolchain items and the Interdiction Torch.
+- Collectors/Relays/Condensers with a persistent per-dimension EMC network, Dark/Red Matter furnaces, Alchemical Chest and 16 colored Alchemical Bags.
+- Requires Curios 15.0.0+.
+
 ## 0.0.0-beta.27
 
 - **Fix**: removed the unused `NeoForge.EVENT_BUS.register(this)` from the main class, which crashed startup on NeoForge 26.2.0.37-beta (class has no `@SubscribeEvent` methods).
