@@ -26,7 +26,7 @@ project_id = 1632317
 api_token = ee776b0a-ee95-4850-b554-06be02a8657f
 release_type = release
 game_versions = 16498,10150,9638
-relations = curios:3
+relations = curios:requiredDependency
 
 ## Dependencia requerida
 
