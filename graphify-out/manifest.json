@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785623220.6799636,
-    "ast_hash": "28e7ab735aabe566c18e5e2964c4b477",
+    "mtime": 1785632312.902474,
+    "ast_hash": "ecbbabc559b0167f6e2fc611fc3769c6",
     "semantic_hash": ""
   },
   "README.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md": {
-    "mtime": 1785489189.6772597,
-    "ast_hash": "97e75eba1be2d60d27a6f1522418ada5",
+    "mtime": 1785626678.1409397,
+    "ast_hash": "0eace5fe02b00d5689319c42be2d0cf2",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
@@ -190,8 +190,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/EquivalentLegacyBlocks.java": {
-    "mtime": 1785610146.8229637,
-    "ast_hash": "4582051f23b196038d6c38e6af35edea",
+    "mtime": 1785632217.4539344,
+    "ast_hash": "e6bf926e6c4eca715d91f8209fbd051c",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java": {
@@ -200,8 +200,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java": {
-    "mtime": 1785610156.6902347,
-    "ast_hash": "bb94efd3da72249f7dcd823bc3faf27c",
+    "mtime": 1785632249.236916,
+    "ast_hash": "11fbbdc6e571389364fbdd7d9c418c9d",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java": {
@@ -3242,6 +3242,11 @@
   "docs/curseforge/versions/0.0.0-beta.27.md": {
     "mtime": 1785623215.8054268,
     "ast_hash": "796114e974a91cb013eab7a05f2403a2",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.28.md": {
+    "mtime": 1785632306.8499494,
+    "ast_hash": "3809e54cc287debd72fa9730444e7c45",
     "semantic_hash": ""
   }
 }
