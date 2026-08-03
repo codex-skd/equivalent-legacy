@@ -47,6 +47,7 @@
   "45": "BaseMachineBlock.java",
   "46": "BaseMachineBlockEntity",
   "47": "TransmutationContainer",
+  "48": "RelayBlockEntity",
   "49": "PlayerEvents",
   "50": ".syncKnowledgeDataIfChanged",
   "51": "MatterMaterials",
@@ -55,6 +56,7 @@
   "54": "0.0.0-beta.13.md",
   "55": "TransmutationContainer",
   "56": ".use",
+  "57": "CondenserBlockEntity",
   "58": ".syncKnowledgeDataIfChanged",
   "59": "KnowledgeSyncChangePayload.java",
   "60": "KnowledgeSyncEmcPayload.java",
@@ -199,6 +201,7 @@
   "199": "Level",
   "200": "ResourceKey",
   "201": "Override",
+  "202": ".getEmc",
   "203": "Object2IntMap",
   "204": "Object2IntMap",
   "205": "Provider",
@@ -434,5 +437,13 @@
   "435": "ByteBuf",
   "436": "MapCodec",
   "437": "StreamCodec",
-  "440": "1.0.0.md"
+  "438": ".getEMC",
+  "439": "AbstractContainerMenu",
+  "440": "1.0.0.md",
+  "441": "NetworkEvents.java",
+  "442": "BagMenu",
+  "443": "CollectorMenu",
+  "444": "AeternalisFuel",
+  "445": "DarkMatter",
+  "446": "1.1.0.md"
 }
