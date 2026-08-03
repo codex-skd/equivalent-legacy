@@ -1,5 +1,9 @@
 # Changelog — Equivalent Legacy
 
+## 1.1.0
+
+- **Localization**: added translations for Portuguese (Brazil), German, French, Russian, Simplified Chinese, Japanese, Korean, Italian, Polish and Dutch, alongside the existing English and Spanish. All 12 languages cover the full set of item, block, GUI, config and command strings.
+
 ## 1.0.2
 
 - **Fix**: CurseForge dependency now targets `curios-api-updated` (project 1579340) instead of the original `curios` project.
