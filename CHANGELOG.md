@@ -1,5 +1,9 @@
 # Changelog — Equivalent Legacy
 
+## 1.1.1
+
+- **Fix**: Transmutation Table now initializes with base vanilla item EMC values (coal, stone, ores, gems, nether_star). The system can now learn from and transmute vanilla objects correctly. Full recipe-based EMC graph calculation infrastructure added for future expansion.
+
 ## 1.1.0
 
 - **Localization**: added translations for Portuguese (Brazil), German, French, Russian, Simplified Chinese, Japanese, Korean, Italian, Polish and Dutch, alongside the existing English and Spanish. All 12 languages cover the full set of item, block, GUI, config and command strings.

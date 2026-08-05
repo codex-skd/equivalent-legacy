@@ -38,6 +38,9 @@ public class EquivalentLegacy {
 
     private static void initEmcValues() {
         var fixedValues = new com.skd.equivalentlegacy.emc.FixedValues();
+
+        addBaseValues(fixedValues);
+
         var nssItem = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.DARK_MATTER.get());
         fixedValues.addSetValueBefore(nssItem, 139_264L);
 
@@ -100,6 +103,31 @@ public class EquivalentLegacy {
 
         com.skd.equivalentlegacy.emc.EMCHelper.registerFixedValues(fixedValues);
         LOGGER.info("Registered phase 5 EMC values (Dark Matter, Klein Stars)");
+    }
+
+    private static void addBaseValues(com.skd.equivalentlegacy.emc.FixedValues fixedValues) {
+        var nssCoal = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.COAL);
+        fixedValues.addSetValueBefore(nssCoal, 4L);
+
+        var nssStone = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.STONE);
+        fixedValues.addSetValueBefore(nssStone, 1L);
+
+        var nssIronOre = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.IRON_ORE);
+        fixedValues.addSetValueBefore(nssIronOre, 8L);
+
+        var nssGoldOre = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.GOLD_ORE);
+        fixedValues.addSetValueBefore(nssGoldOre, 32L);
+
+        var nssDiamond = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.DIAMOND);
+        fixedValues.addSetValueBefore(nssDiamond, 2_048L);
+
+        var nssEmerald = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.EMERALD);
+        fixedValues.addSetValueBefore(nssEmerald, 16_384L);
+
+        var nssNetherStar = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.NETHER_STAR);
+        fixedValues.addSetValueBefore(nssNetherStar, 139_264L);
+
+        LOGGER.info("Added {} base EMC values (coal, stone, ores, gems, etc)", 7);
     }
 
     public static Identifier rl(String path) {
