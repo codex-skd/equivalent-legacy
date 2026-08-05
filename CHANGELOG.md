@@ -1,5 +1,14 @@
 # Changelog — Equivalent Legacy
 
+## 1.2.0-beta.2
+
+- **Fix**: Tome of Knowledge GUI now displays items correctly. The `setFullKnowledge()` method no longer clears the knowledge set.
+
+## 1.2.0-beta.1
+
+- **Added**: RecipeMapper implementation with 200+ vanilla item EMC values (ores, gems, blocks, food, tools, armor, mob drops).
+- **Added**: EMC Vanilla Core foundation for transmutation system.
+
 ## 1.1.1
 
 - **Fix**: Transmutation Table now initializes with base vanilla item EMC values (coal, stone, ores, gems, nether_star). The system can now learn from and transmute vanilla objects correctly. Full recipe-based EMC graph calculation infrastructure added for future expansion.
