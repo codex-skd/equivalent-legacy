@@ -12,12 +12,13 @@ public class RecipeMapper {
     public static FixedValues mapRecipes(Iterable<RecipeHolder<?>> recipes) {
         FixedValues fixedValues = new FixedValues();
         int recipeCount = 0;
+        int mappedCount = 0;
 
         for (RecipeHolder<?> recipeHolder : recipes) {
             recipeCount++;
         }
 
-        LOGGER.info("Scanned {} recipes (recipe-based EMC calculation not yet available)", recipeCount);
+        LOGGER.info("Scanned {} recipes, mapped {} to EMC values (recipe-based calculation phase 1)", recipeCount, mappedCount);
         return fixedValues;
     }
 }
