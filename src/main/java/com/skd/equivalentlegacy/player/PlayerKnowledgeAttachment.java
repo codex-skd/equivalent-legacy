@@ -84,9 +84,6 @@ public final class PlayerKnowledgeAttachment {
 
     public void setFullKnowledge(boolean fullKnowledge) {
         this.fullKnowledge = fullKnowledge;
-        if (fullKnowledge) {
-            knowledge.clear();
-        }
     }
 
     public static final MapCodec<PlayerKnowledgeAttachment> MAP_CODEC = RecordCodecBuilder.mapCodec(instance ->
