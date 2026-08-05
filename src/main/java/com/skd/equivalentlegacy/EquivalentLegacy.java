@@ -106,28 +106,228 @@ public class EquivalentLegacy {
     }
 
     private static void addBaseValues(com.skd.equivalentlegacy.emc.FixedValues fixedValues) {
-        var nssCoal = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.COAL);
-        fixedValues.addSetValueBefore(nssCoal, 4L);
+        int count = 0;
 
-        var nssStone = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.STONE);
-        fixedValues.addSetValueBefore(nssStone, 1L);
+        count += addRawMaterials(fixedValues);
+        count += addOres(fixedValues);
+        count += addGems(fixedValues);
+        count += addBlocks(fixedValues);
+        count += addFood(fixedValues);
+        count += addDyes(fixedValues);
+        count += addTools(fixedValues);
+        count += addArmor(fixedValues);
+        count += addMobDrops(fixedValues);
+        count += addMisc(fixedValues);
 
-        var nssIronOre = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.IRON_ORE);
-        fixedValues.addSetValueBefore(nssIronOre, 8L);
+        LOGGER.info("Added {} vanilla EMC values", count);
+    }
 
-        var nssGoldOre = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.GOLD_ORE);
-        fixedValues.addSetValueBefore(nssGoldOre, 32L);
+    private static int addRawMaterials(com.skd.equivalentlegacy.emc.FixedValues fv) {
+        add(fv, net.minecraft.world.item.Items.COAL, 4);
+        add(fv, net.minecraft.world.item.Items.CHARCOAL, 4);
+        add(fv, net.minecraft.world.item.Items.COBBLESTONE, 1);
+        add(fv, net.minecraft.world.item.Items.STONE, 1);
+        add(fv, net.minecraft.world.item.Items.SAND, 1);
+        add(fv, net.minecraft.world.item.Items.GRAVEL, 1);
+        add(fv, net.minecraft.world.item.Items.DIRT, 1);
+        add(fv, net.minecraft.world.item.Items.GRASS_BLOCK, 2);
+        add(fv, net.minecraft.world.item.Items.CLAY_BALL, 1);
+        add(fv, net.minecraft.world.item.Items.CLAY, 4);
+        add(fv, net.minecraft.world.item.Items.FLINT, 1);
+        return 11;
+    }
 
-        var nssDiamond = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.DIAMOND);
-        fixedValues.addSetValueBefore(nssDiamond, 2_048L);
+    private static int addOres(com.skd.equivalentlegacy.emc.FixedValues fv) {
+        add(fv, net.minecraft.world.item.Items.IRON_ORE, 8);
+        add(fv, net.minecraft.world.item.Items.IRON_INGOT, 8);
+        add(fv, net.minecraft.world.item.Items.GOLD_ORE, 32);
+        add(fv, net.minecraft.world.item.Items.GOLD_INGOT, 32);
+        add(fv, net.minecraft.world.item.Items.COPPER_ORE, 8);
+        add(fv, net.minecraft.world.item.Items.COPPER_INGOT, 8);
+        add(fv, net.minecraft.world.item.Items.LAPIS_ORE, 20);
+        add(fv, net.minecraft.world.item.Items.LAPIS_LAZULI, 5);
+        add(fv, net.minecraft.world.item.Items.DIAMOND_ORE, 2048);
+        add(fv, net.minecraft.world.item.Items.DIAMOND, 2048);
+        add(fv, net.minecraft.world.item.Items.DEEPSLATE_DIAMOND_ORE, 2048);
+        add(fv, net.minecraft.world.item.Items.EMERALD_ORE, 16384);
+        add(fv, net.minecraft.world.item.Items.EMERALD, 16384);
+        add(fv, net.minecraft.world.item.Items.REDSTONE_ORE, 32);
+        add(fv, net.minecraft.world.item.Items.REDSTONE, 8);
+        add(fv, net.minecraft.world.item.Items.DEEPSLATE_REDSTONE_ORE, 32);
+        return 16;
+    }
 
-        var nssEmerald = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.EMERALD);
-        fixedValues.addSetValueBefore(nssEmerald, 16_384L);
+    private static int addGems(com.skd.equivalentlegacy.emc.FixedValues fv) {
+        add(fv, net.minecraft.world.item.Items.DIAMOND, 2048);
+        add(fv, net.minecraft.world.item.Items.EMERALD, 16384);
+        add(fv, net.minecraft.world.item.Items.NETHER_STAR, 139264);
+        add(fv, net.minecraft.world.item.Items.AMETHYST_SHARD, 64);
+        add(fv, net.minecraft.world.item.Items.QUARTZ, 16);
+        add(fv, net.minecraft.world.item.Items.NETHER_QUARTZ_ORE, 16);
+        return 6;
+    }
 
-        var nssNetherStar = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(net.minecraft.world.item.Items.NETHER_STAR);
-        fixedValues.addSetValueBefore(nssNetherStar, 139_264L);
+    private static int addBlocks(com.skd.equivalentlegacy.emc.FixedValues fv) {
+        add(fv, net.minecraft.world.item.Items.OAK_LOG, 1);
+        add(fv, net.minecraft.world.item.Items.OAK_PLANKS, 1);
+        add(fv, net.minecraft.world.item.Items.OAK_LEAVES, 1);
+        add(fv, net.minecraft.world.item.Items.SPRUCE_LOG, 1);
+        add(fv, net.minecraft.world.item.Items.BIRCH_LOG, 1);
+        add(fv, net.minecraft.world.item.Items.JUNGLE_LOG, 1);
+        add(fv, net.minecraft.world.item.Items.ACACIA_LOG, 1);
+        add(fv, net.minecraft.world.item.Items.DARK_OAK_LOG, 1);
+        add(fv, net.minecraft.world.item.Items.MANGROVE_LOG, 1);
+        add(fv, net.minecraft.world.item.Items.CHERRY_LOG, 1);
+        add(fv, net.minecraft.world.item.Items.GLASS, 1);
+        add(fv, net.minecraft.world.item.Items.GLOWSTONE_DUST, 4);
+        add(fv, net.minecraft.world.item.Items.GLOWSTONE, 16);
+        add(fv, net.minecraft.world.item.Items.OBSIDIAN, 64);
+        add(fv, net.minecraft.world.item.Items.NETHERRACK, 1);
+        add(fv, net.minecraft.world.item.Items.END_STONE, 1);
+        add(fv, net.minecraft.world.item.Items.PURPUR_BLOCK, 4);
+        add(fv, net.minecraft.world.item.Items.SOUL_SAND, 2);
+        add(fv, net.minecraft.world.item.Items.SOUL_SOIL, 2);
+        add(fv, net.minecraft.world.item.Items.BLACKSTONE, 1);
+        return 20;
+    }
 
-        LOGGER.info("Added {} base EMC values (coal, stone, ores, gems, etc)", 7);
+    private static int addFood(com.skd.equivalentlegacy.emc.FixedValues fv) {
+        add(fv, net.minecraft.world.item.Items.WHEAT, 1);
+        add(fv, net.minecraft.world.item.Items.APPLE, 8);
+        add(fv, net.minecraft.world.item.Items.GOLDEN_APPLE, 8192);
+        add(fv, net.minecraft.world.item.Items.ENCHANTED_GOLDEN_APPLE, 131072);
+        add(fv, net.minecraft.world.item.Items.CARROT, 2);
+        add(fv, net.minecraft.world.item.Items.GOLDEN_CARROT, 256);
+        add(fv, net.minecraft.world.item.Items.POTATO, 1);
+        add(fv, net.minecraft.world.item.Items.BAKED_POTATO, 1);
+        add(fv, net.minecraft.world.item.Items.POISONOUS_POTATO, 1);
+        add(fv, net.minecraft.world.item.Items.PUMPKIN, 4);
+        add(fv, net.minecraft.world.item.Items.PUMPKIN_SEEDS, 1);
+        add(fv, net.minecraft.world.item.Items.MELON, 2);
+        add(fv, net.minecraft.world.item.Items.MELON_SEEDS, 1);
+        add(fv, net.minecraft.world.item.Items.SUGAR_CANE, 1);
+        add(fv, net.minecraft.world.item.Items.SUGAR, 1);
+        add(fv, net.minecraft.world.item.Items.HONEY_BLOCK, 16);
+        add(fv, net.minecraft.world.item.Items.COCOA_BEANS, 1);
+        add(fv, net.minecraft.world.item.Items.KELP, 1);
+        add(fv, net.minecraft.world.item.Items.DRIED_KELP, 1);
+        add(fv, net.minecraft.world.item.Items.SEA_PICKLE, 2);
+        return 20;
+    }
+
+    private static int addDyes(com.skd.equivalentlegacy.emc.FixedValues fv) {
+        add(fv, net.minecraft.world.item.Items.BONE_MEAL, 1);
+        add(fv, net.minecraft.world.item.Items.INK_SAC, 1);
+        add(fv, net.minecraft.world.item.Items.COCOA_BEANS, 1);
+        add(fv, net.minecraft.world.item.Items.LAPIS_LAZULI, 5);
+        add(fv, net.minecraft.world.item.Items.CACTUS, 1);
+        add(fv, net.minecraft.world.item.Items.PUMPKIN, 4);
+        add(fv, net.minecraft.world.item.Items.DANDELION, 1);
+        add(fv, net.minecraft.world.item.Items.POPPY, 1);
+        add(fv, net.minecraft.world.item.Items.BLUE_ORCHID, 1);
+        add(fv, net.minecraft.world.item.Items.ALLIUM, 1);
+        add(fv, net.minecraft.world.item.Items.AZURE_BLUET, 1);
+        add(fv, net.minecraft.world.item.Items.RED_TULIP, 1);
+        add(fv, net.minecraft.world.item.Items.ORANGE_TULIP, 1);
+        add(fv, net.minecraft.world.item.Items.WHITE_TULIP, 1);
+        add(fv, net.minecraft.world.item.Items.PINK_TULIP, 1);
+        add(fv, net.minecraft.world.item.Items.OXEYE_DAISY, 1);
+        add(fv, net.minecraft.world.item.Items.CORNFLOWER, 1);
+        add(fv, net.minecraft.world.item.Items.LILY_OF_THE_VALLEY, 1);
+        return 18;
+    }
+
+    private static int addTools(com.skd.equivalentlegacy.emc.FixedValues fv) {
+        add(fv, net.minecraft.world.item.Items.WOODEN_PICKAXE, 3);
+        add(fv, net.minecraft.world.item.Items.WOODEN_AXE, 3);
+        add(fv, net.minecraft.world.item.Items.WOODEN_SHOVEL, 2);
+        add(fv, net.minecraft.world.item.Items.WOODEN_HOE, 2);
+        add(fv, net.minecraft.world.item.Items.STONE_PICKAXE, 4);
+        add(fv, net.minecraft.world.item.Items.STONE_AXE, 4);
+        add(fv, net.minecraft.world.item.Items.STONE_SHOVEL, 3);
+        add(fv, net.minecraft.world.item.Items.STONE_HOE, 3);
+        add(fv, net.minecraft.world.item.Items.IRON_PICKAXE, 24);
+        add(fv, net.minecraft.world.item.Items.IRON_AXE, 24);
+        add(fv, net.minecraft.world.item.Items.IRON_SHOVEL, 16);
+        add(fv, net.minecraft.world.item.Items.IRON_HOE, 16);
+        add(fv, net.minecraft.world.item.Items.DIAMOND_PICKAXE, 2048);
+        add(fv, net.minecraft.world.item.Items.DIAMOND_AXE, 2048);
+        add(fv, net.minecraft.world.item.Items.DIAMOND_SHOVEL, 1368);
+        add(fv, net.minecraft.world.item.Items.DIAMOND_HOE, 1368);
+        add(fv, net.minecraft.world.item.Items.NETHERITE_PICKAXE, 8192);
+        add(fv, net.minecraft.world.item.Items.NETHERITE_AXE, 8192);
+        add(fv, net.minecraft.world.item.Items.NETHERITE_SHOVEL, 5456);
+        add(fv, net.minecraft.world.item.Items.NETHERITE_HOE, 5456);
+        return 20;
+    }
+
+    private static int addArmor(com.skd.equivalentlegacy.emc.FixedValues fv) {
+        add(fv, net.minecraft.world.item.Items.LEATHER_HELMET, 5);
+        add(fv, net.minecraft.world.item.Items.LEATHER_CHESTPLATE, 8);
+        add(fv, net.minecraft.world.item.Items.LEATHER_LEGGINGS, 7);
+        add(fv, net.minecraft.world.item.Items.LEATHER_BOOTS, 4);
+        add(fv, net.minecraft.world.item.Items.IRON_HELMET, 24);
+        add(fv, net.minecraft.world.item.Items.IRON_CHESTPLATE, 40);
+        add(fv, net.minecraft.world.item.Items.IRON_LEGGINGS, 35);
+        add(fv, net.minecraft.world.item.Items.IRON_BOOTS, 16);
+        add(fv, net.minecraft.world.item.Items.DIAMOND_HELMET, 2048);
+        add(fv, net.minecraft.world.item.Items.DIAMOND_CHESTPLATE, 3456);
+        add(fv, net.minecraft.world.item.Items.DIAMOND_LEGGINGS, 3024);
+        add(fv, net.minecraft.world.item.Items.DIAMOND_BOOTS, 1368);
+        add(fv, net.minecraft.world.item.Items.NETHERITE_HELMET, 8192);
+        add(fv, net.minecraft.world.item.Items.NETHERITE_CHESTPLATE, 13824);
+        add(fv, net.minecraft.world.item.Items.NETHERITE_LEGGINGS, 12096);
+        add(fv, net.minecraft.world.item.Items.NETHERITE_BOOTS, 5456);
+        return 16;
+    }
+
+    private static int addMobDrops(com.skd.equivalentlegacy.emc.FixedValues fv) {
+        add(fv, net.minecraft.world.item.Items.ROTTEN_FLESH, 1);
+        add(fv, net.minecraft.world.item.Items.BONE, 2);
+        add(fv, net.minecraft.world.item.Items.GUNPOWDER, 8);
+        add(fv, net.minecraft.world.item.Items.STRING, 1);
+        add(fv, net.minecraft.world.item.Items.SPIDER_EYE, 8);
+        add(fv, net.minecraft.world.item.Items.FERMENTED_SPIDER_EYE, 10);
+        add(fv, net.minecraft.world.item.Items.SLIME_BALL, 2);
+        add(fv, net.minecraft.world.item.Items.ENDER_PEARL, 16);
+        add(fv, net.minecraft.world.item.Items.ENDER_EYE, 24);
+        add(fv, net.minecraft.world.item.Items.BLAZE_ROD, 16);
+        add(fv, net.minecraft.world.item.Items.BLAZE_POWDER, 4);
+        add(fv, net.minecraft.world.item.Items.MAGMA_CREAM, 10);
+        add(fv, net.minecraft.world.item.Items.GHAST_TEAR, 32);
+        add(fv, net.minecraft.world.item.Items.SHULKER_SHELL, 128);
+        add(fv, net.minecraft.world.item.Items.PHANTOM_MEMBRANE, 16);
+        add(fv, net.minecraft.world.item.Items.DRAGON_BREATH, 512);
+        return 16;
+    }
+
+    private static int addMisc(com.skd.equivalentlegacy.emc.FixedValues fv) {
+        add(fv, net.minecraft.world.item.Items.PAPER, 1);
+        add(fv, net.minecraft.world.item.Items.BOOK, 4);
+        add(fv, net.minecraft.world.item.Items.ENCHANTED_BOOK, 256);
+        add(fv, net.minecraft.world.item.Items.STICK, 1);
+        add(fv, net.minecraft.world.item.Items.LEATHER, 4);
+        add(fv, net.minecraft.world.item.Items.SADDLE, 32);
+        add(fv, net.minecraft.world.item.Items.NAME_TAG, 32);
+        add(fv, net.minecraft.world.item.Items.ENDER_CHEST, 512);
+        add(fv, net.minecraft.world.item.Items.ANVIL, 456);
+        add(fv, net.minecraft.world.item.Items.BUCKET, 24);
+        add(fv, net.minecraft.world.item.Items.WATER_BUCKET, 24);
+        add(fv, net.minecraft.world.item.Items.LAVA_BUCKET, 48);
+        add(fv, net.minecraft.world.item.Items.MILK_BUCKET, 24);
+        add(fv, net.minecraft.world.item.Items.POWDER_SNOW_BUCKET, 24);
+        add(fv, net.minecraft.world.item.Items.PISTON, 32);
+        add(fv, net.minecraft.world.item.Items.STICKY_PISTON, 40);
+        add(fv, net.minecraft.world.item.Items.REDSTONE_LAMP, 32);
+        add(fv, net.minecraft.world.item.Items.REDSTONE_TORCH, 8);
+        add(fv, net.minecraft.world.item.Items.DETECTOR_RAIL, 24);
+        add(fv, net.minecraft.world.item.Items.POWERED_RAIL, 32);
+        return 20;
+    }
+
+    private static void add(com.skd.equivalentlegacy.emc.FixedValues fv, net.minecraft.world.item.Item item, long emc) {
+        var nss = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(item);
+        fv.addSetValueBefore(nss, emc);
     }
 
     public static Identifier rl(String path) {
