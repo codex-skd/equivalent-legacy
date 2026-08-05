@@ -52,3 +52,6 @@ Ejemplo: `26.2-neoforge-0.0.0-beta.1`
 ## Nota post-subida (manual, obligatorio)
 
 El API de subida de CurseForge no expone el campo de lado (client/server). Tras **cada** subida de archivo hay que entrar en la web de CurseForge → pestaña "Files" → editar el archivo → marcar el entorno como **Client & Server** (este mod es BOTH: block entities, comandos, red EMC, Data Attachments en servidor). Sin este paso, el file queda etiquetado como solo cliente.
+
+**Historial:**
+- v1.1.1: ✅ Marcado como Client & Server en CurseForge
