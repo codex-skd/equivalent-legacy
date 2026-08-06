@@ -1,5 +1,17 @@
 # Changelog — Equivalent Legacy
 
+## 1.2.0-beta.5
+
+- **Fase 2.2 Rendering**: Implementación parcial de renderers custom client-side
+- **PedestalRenderer**: BlockEntityRenderer real para los 3 pedestales (base, DM, RM) — item flotante con rotación suave (360° cada 160 ticks) y bobbing sobre el eje Y. Glow para Philosopher's Stone vía `LightCoordsUtil.FULL_BRIGHT`
+- **PedestalBlockEntity**: Helpers `getItemRenderPos(float)` / `getItemRenderRotation(float)` basados en `level.getGameTime()` (animación client-side fluida, no dependiente del server-only `tickCounter`)
+- **TransmutationRenderingOverlay**: HUD overlay real (NeoForge `GuiLayer`) que aparece al sostener Philosopher's/Transmutation Stone: muestra icono de stone → icono de bloque destino + costo EMC. Colores verde/rojo/gris según affordability. Cache de 20 ticks para el lookup de transmutación/EMC (no se recalcula cada frame)
+- **EquivalentLegacyRenderers**: Dispatcher real (mod bus, `Dist.CLIENT`): registra `PedestalRenderer` para los 3 `BlockEntityType` de pedestales y registra el `transmutation_overlay` GuiLayer vía `RegisterGuiLayersEvent`
+- **Adaptación del plan a la API real de NeoForge 26.2**: el plan original (Fase 2.2) describía la API legacy `render(entity, partialTick, PoseStack, MultiBufferSource, packedLight, packedOverlay)` + `BlockEntityRenderers.register(type, ::new)` + overlay vía `ScreenEvent.Init.Post` + `ItemRenderer.renderGuiItem()`. La API real 26.2 usa `BlockEntityRenderer<T,S>` con `createRenderState`/`extractRenderState`/`submit(state, PoseStack, SubmitNodeCollector, CameraRenderState)`, `Identifier` en vez de `ResourceLocation`, `GuiGraphicsExtractor` en vez de `GuiGraphics`, registro de overlays vía `RegisterGuiLayersEvent` y registro de BlockEntity renderers vía `EntityRenderersEvent.RegisterRenderers#registerBlockEntityRenderer`. Ver sección "Deviations" en el reporte de implementación
+- **ChestRenderer (deferred)**: Animación de tapa de Alchemical Chest NO wired: requiere que `AlchemicalChestBlockEntity` implemente `LidBlockEntity` + tracking de `getOpenNess(partialTick)` ( syncing client del estado de apertura del menu) + un sprite atlas custom para `alchemical_chest.png`. Adicionalmente, `assets/equivalent_legacy/blockstates/alchemical_chest.json` referencia `projecte:block/alchemical_chest` (namespace legacy roto) y `models/block/alchemical_chest.json` no define la textura `#chest`, así que el modelo vanilla del bloque no renderiza correctamente hoy — pre-existente de fases de assets. Se dejó placeholder conservando `computeLidAngle` y se documenta como deviation
+- **ClientEvents (no creado como clase aparte)**: el plan §4 proponía una clase `ClientEvents` con `onClientSetup` + `ScreenEvent.Init.Post`. Esas responsabilidades se folding en `EquivalentLegacyRenderers` (plan §5, dispatcher existente) usando los eventos reales de 26.2; crear `ClientEvents` aparte duplicaría suscripciones
+- **Compilación**: NeoForge 26.2.0.37-beta, build clean (javac 0 errores/warnings nuevos). Sin memory leaks esperados (pushPose/popPose balanceado en `submit`)
+
 ## 1.2.0-beta.4
 
 - **Fase 2 World Transmutation**: Sistema completo de transmutación de bloques en el mundo
