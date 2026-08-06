@@ -1,7 +1,7 @@
 {
   "build.gradle": {
-    "mtime": 1785617242.598634,
-    "ast_hash": "f58ba4a929f8ac56249f4a7887286afa",
+    "mtime": 1786003716.695387,
+    "ast_hash": "94d279ea2fa5cd6696f8ddcec48044ed",
     "semantic_hash": ""
   },
   "gradlew": {
@@ -15,18 +15,18 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java": {
-    "mtime": 1785623160.3190057,
-    "ast_hash": "c0bdb8ceb8393844eecb71b9559421fb",
+    "mtime": 1786003773.3572993,
+    "ast_hash": "6cb3b1a26c1e33dcd30f24948f33973a",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java": {
-    "mtime": 1785610180.7848809,
-    "ast_hash": "79f63bd161f8ead8a56d9416670bb6ac",
+    "mtime": 1785973100.8064542,
+    "ast_hash": "54f771a88c75ca99daef4ef4db56ce51",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1785610253.0957835,
-    "ast_hash": "8f51eab25c12cbf39a289f11303f7697",
+    "mtime": 1786003927.666188,
+    "ast_hash": "4fcdc406e49270f55a401f29b1479239",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -35,13 +35,13 @@
     "semantic_hash": ""
   },
   ".gitlab-ci.yml": {
-    "mtime": 1785436897.2811346,
+    "mtime": 1785801080.9055898,
     "ast_hash": "553d39cdc2b2046cf32708949b2c36bc",
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785785136.3254275,
-    "ast_hash": "29f6ad9a2210a905ba7d2f94fa73c17c",
+    "mtime": 1786004791.510627,
+    "ast_hash": "281cec6c2367abcd06e4ba87e9ab6336",
     "semantic_hash": ""
   },
   "README.md": {
@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1785637121.870731,
-    "ast_hash": "73747175bac4c40a9fae1ede39be59bf",
+    "mtime": 1785999437.363335,
+    "ast_hash": "3739cdc5b27dff8d8615fede42a4030a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/icon.png": {
@@ -70,8 +70,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/config/ClientConfig.java": {
-    "mtime": 1785445908.5746057,
-    "ast_hash": "94b12fb6d70a6a2cb0ede473875a4465",
+    "mtime": 1785972382.1111875,
+    "ast_hash": "0f979e3ef4d732b9c70fa545778a46b9",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/config/CommonConfig.java": {
@@ -80,8 +80,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/config/EquivalentLegacyConfig.java": {
-    "mtime": 1785445913.9735036,
-    "ast_hash": "bde8fcce28bf37e3f5349a47b44a867c",
+    "mtime": 1785972470.211457,
+    "ast_hash": "81e8ea69d2ae7def4d2e91dd8e8cf1b8",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/config/MappingConfig.java": {
@@ -90,8 +90,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/config/ServerConfig.java": {
-    "mtime": 1785446006.5207908,
-    "ast_hash": "4ecc279d337e0acb2a9f4f103ae5736e",
+    "mtime": 1785972376.2790904,
+    "ast_hash": "a493a48a439841edd8cf549dae84a702",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/emc/ConversionGroup.java": {
@@ -190,18 +190,18 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/EquivalentLegacyBlocks.java": {
-    "mtime": 1785632217.4539344,
-    "ast_hash": "e6bf926e6c4eca715d91f8209fbd051c",
+    "mtime": 1785971842.4650278,
+    "ast_hash": "cf8a6083a878bd7c49f437840fddf6d2",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java": {
-    "mtime": 1785610186.0746157,
-    "ast_hash": "b6c19f771fa38c3f7e29f9cc340303c9",
+    "mtime": 1785971887.039192,
+    "ast_hash": "090db6acd706bddc00d563e9bb7dce79",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java": {
-    "mtime": 1785632249.236916,
-    "ast_hash": "11fbbdc6e571389364fbdd7d9c418c9d",
+    "mtime": 1785971882.8848507,
+    "ast_hash": "269fd9a1bc8c19a255e9bf0e969a4ed9",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java": {
@@ -210,8 +210,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/philosophers_stone.json": {
-    "mtime": 1785449755.0965414,
-    "ast_hash": "5fb8c8a54376e89f76a627a31b93c32d",
+    "mtime": 1748968670.0,
+    "ast_hash": "69032f99043bb90df489111f0ad3897d",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.2.md": {
@@ -225,13 +225,13 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/philosophers_stone.png": {
-    "mtime": 1785449717.8190541,
-    "ast_hash": "32c5d203378090b7c6741a284a98b4f0",
+    "mtime": 1748968670.0,
+    "ast_hash": "3ce5ba29a2c8578c3b50478b32becff8",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java": {
-    "mtime": 1785450301.9619262,
-    "ast_hash": "8780da942ac5826541e2854684b104a3",
+    "mtime": 1785972517.554432,
+    "ast_hash": "520d36fdb8d9f5d8c966279c1d425743",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java": {
@@ -265,8 +265,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java": {
-    "mtime": 1785450275.6664827,
-    "ast_hash": "230da751cf4fb28a495f6efd69f007db",
+    "mtime": 1785952822.0320685,
+    "ast_hash": "099be7763101b2b4addba639a64b4b0a",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.4.md": {
@@ -280,7 +280,7 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java": {
-    "mtime": 1785549277.595402,
+    "mtime": 1785952991.363107,
     "ast_hash": "6dc07b258aa61a634cb58bdfb06a8342",
     "semantic_hash": ""
   },
@@ -325,13 +325,13 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/dark_matter.json": {
-    "mtime": 1785452623.9893348,
-    "ast_hash": "b54db8f97433371ad2c13511d7cfa4e5",
+    "mtime": 1748968670.0,
+    "ast_hash": "c284144fbacde311ef99a85ea521ddbc",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/klein_star_ein.json": {
-    "mtime": 1785452624.0604188,
-    "ast_hash": "9268c2756cece6c54ad93fb2339868c2",
+    "mtime": 1748968670.0,
+    "ast_hash": "75f8d0642190f1867a2bd567f6397d95",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.6.md": {
@@ -340,43 +340,43 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/matter/dark.png": {
-    "mtime": 1785452566.1946945,
-    "ast_hash": "d99b2ff55e142f12f1e6d8c7eac665a1",
+    "mtime": 1748968670.0,
+    "ast_hash": "bb1b26695b3df31fe7dfd7dd505da333",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_1.png": {
-    "mtime": 1785452566.375376,
-    "ast_hash": "b37521cc65fdd0b9b841e3de2a36915a",
+    "mtime": 1748968670.0,
+    "ast_hash": "ead0eb17ca3e6a2de331956268372b5f",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/command/ModCommands.java": {
-    "mtime": 1785546180.7860987,
-    "ast_hash": "da9d516cb74e1da4edff9eaac8f2758d",
+    "mtime": 1785973161.4066346,
+    "ast_hash": "866d6a7a15335a1e82df688b0947bd4e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/klein_star_drei.json": {
-    "mtime": 1785547001.8061059,
-    "ast_hash": "0c16267c48a5ba369788e7ead1995bd1",
+    "mtime": 1748968670.0,
+    "ast_hash": "ff9b528f157494f18fdf5fb1eed17c4f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/klein_star_omega.json": {
-    "mtime": 1785547001.9600053,
-    "ast_hash": "7a96ae7999cb7ea5642596852fd61cb1",
+    "mtime": 1748968670.0,
+    "ast_hash": "8b1401105cc88ce3892e7184f157589b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/klein_star_sphere.json": {
-    "mtime": 1785547001.9136598,
-    "ast_hash": "cfd9bf7367f86867f648765de88b44cd",
+    "mtime": 1748968670.0,
+    "ast_hash": "62bb33445470b478836842d9565922cf",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/klein_star_vier.json": {
-    "mtime": 1785547001.8724751,
-    "ast_hash": "5a1ff8caa16c163c49fe49fe3814da8e",
+    "mtime": 1748968670.0,
+    "ast_hash": "5a868857aac756364bc7be3ebab7c8e4",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/klein_star_zwei.json": {
-    "mtime": 1785547001.7683074,
-    "ast_hash": "2ff567ed9cbd2fac523c21cc17a63627",
+    "mtime": 1748968670.0,
+    "ast_hash": "d54b424359aba5d897904fc2765b8d42",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/recipe/dark_matter.json": {
@@ -430,28 +430,28 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_2.png": {
-    "mtime": 1785546985.8974123,
-    "ast_hash": "57565587d74c71311af7c17c0fa3e5e3",
+    "mtime": 1748968670.0,
+    "ast_hash": "cbe79356944eeb7115351b013dce2adf",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_3.png": {
-    "mtime": 1785546985.9489028,
-    "ast_hash": "bc9e8746d88b5738a95427292c6a351e",
+    "mtime": 1748968670.0,
+    "ast_hash": "9ea64a66e086b431b95d7c647367d5b2",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_4.png": {
-    "mtime": 1785546986.0026467,
-    "ast_hash": "23a513f3c406bed468c5c9d95e477223",
+    "mtime": 1748968670.0,
+    "ast_hash": "9fd5e664069198fb5944d1402ca75f2b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_5.png": {
-    "mtime": 1785546986.0606737,
-    "ast_hash": "f464b8b54a6737bad9218e3f2865f158",
+    "mtime": 1748968670.0,
+    "ast_hash": "ce2eb3955fad33ce8b545dec008e33f1",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/stars/klein_star_6.png": {
-    "mtime": 1785546986.1070883,
-    "ast_hash": "3b106e8affabae586c7c4cd6c24357ef",
+    "mtime": 1748968670.0,
+    "ast_hash": "f799b3ac2fdc69822dba961e34879329",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/AeternalisFuel.java": {
@@ -475,23 +475,23 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/aeternalis_fuel.json": {
-    "mtime": 1785547138.024397,
-    "ast_hash": "61ae9131ebd6b32eff6a2f7f593dae9b",
+    "mtime": 1748968670.0,
+    "ast_hash": "31340035c298a93e196015d2b1e2f61c",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/alchemical_coal.json": {
-    "mtime": 1785547137.9418273,
-    "ast_hash": "e5becc1875e7713418e1de7205003ff4",
+    "mtime": 1748968670.0,
+    "ast_hash": "7d194773891dea0ab45b9e7502936529",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/mobius_fuel.json": {
-    "mtime": 1785547137.9785945,
-    "ast_hash": "fa4693aee39f863b428550f7fc8d293c",
+    "mtime": 1748968670.0,
+    "ast_hash": "9b00cc7d09525c630a131d9855a82291",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/red_matter.json": {
-    "mtime": 1785547138.0716858,
-    "ast_hash": "819beedbd319559c0164253f56d9a26b",
+    "mtime": 1748968670.0,
+    "ast_hash": "71aa3160c90ea49e6b53694010ae826b",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/recipe/aeternalis_fuel.json": {
@@ -520,48 +520,48 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/fuels/aeternalis.png": {
-    "mtime": 1785547112.9431458,
-    "ast_hash": "caabf932248d863e8bfc8999f73ff40f",
+    "mtime": 1748968670.0,
+    "ast_hash": "b00cb172f43519accc00669845688494",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/fuels/alchemical_coal.png": {
-    "mtime": 1785547112.9899738,
-    "ast_hash": "fa0c58c3509f67fad6787fe797e245c5",
+    "mtime": 1748968670.0,
+    "ast_hash": "108157e0702e00ddeca4774dae613eb5",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/fuels/mobius.png": {
-    "mtime": 1785547113.036115,
-    "ast_hash": "3d7fafc88fda3d0cbb6cd72d38dae032",
+    "mtime": 1748968670.0,
+    "ast_hash": "22befdba7dba89f97b2d0129b71f030c",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/matter/red.png": {
-    "mtime": 1785547113.0849888,
-    "ast_hash": "c1a136073e32eb37a1c45dce02c5a7a4",
+    "mtime": 1748968670.0,
+    "ast_hash": "95eed8fd7c70577425bfa2a582f8ef5b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/aeternalis_fuel_block.json": {
-    "mtime": 1785547346.1518495,
-    "ast_hash": "a872b519702300060c43a7a6e571656c",
+    "mtime": 1748968670.0,
+    "ast_hash": "ae8365564b4044125d0522fd2cecb96b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/alchemical_coal_block.json": {
-    "mtime": 1785547346.149609,
-    "ast_hash": "83a5af10ba0e94668fb0761b5b25ee84",
+    "mtime": 1748968670.0,
+    "ast_hash": "195b55f004e135f410fef2acf1146212",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/dark_matter_block.json": {
-    "mtime": 1785547346.1533837,
-    "ast_hash": "5991df39658fe96fa3de56a4124fd6fc",
+    "mtime": 1748968670.0,
+    "ast_hash": "33ba202350638b4491f45690ad7575fb",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/mobius_fuel_block.json": {
-    "mtime": 1785547346.1508572,
-    "ast_hash": "da8b0f3b51734460e74d8d9809ebc186",
+    "mtime": 1748968670.0,
+    "ast_hash": "441a2eab2d5580450a11d21d7e07fd80",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/red_matter_block.json": {
-    "mtime": 1785547346.1543865,
-    "ast_hash": "1e325af3d4bb53d794f6b65cbcdedd84",
+    "mtime": 1748968670.0,
+    "ast_hash": "bd73d6418689e2893aac2a5f0796c52d",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/items/aeternalis_fuel.json": {
@@ -650,28 +650,28 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/aeternalis_fuel_block.json": {
-    "mtime": 1785547346.1518495,
-    "ast_hash": "c6d099f2b427909fdc2649049fac0ddd",
+    "mtime": 1748968670.0,
+    "ast_hash": "b915566b6b2f91508e6e195e95fafb43",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/alchemical_coal_block.json": {
-    "mtime": 1785547346.1503613,
-    "ast_hash": "d7c2e2bff775d15f9ab467695338acb8",
+    "mtime": 1748968670.0,
+    "ast_hash": "fb513cfd067ab2c763b06162ef13c1b3",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/dark_matter_block.json": {
-    "mtime": 1785547346.1533837,
-    "ast_hash": "82c7aafc6a37bb3e2dbe285edab9d650",
+    "mtime": 1748968670.0,
+    "ast_hash": "2e2848f5400380a48b34ad93cf882c02",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/mobius_fuel_block.json": {
-    "mtime": 1785547346.151353,
-    "ast_hash": "52521696c75ad71fe7c75a1a8186900e",
+    "mtime": 1748968670.0,
+    "ast_hash": "2b8788415b45fbb152214241c0fb7d2a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/red_matter_block.json": {
-    "mtime": 1785547346.1549258,
-    "ast_hash": "ccc7d04affcedb3ff115bad55a696872",
+    "mtime": 1748968670.0,
+    "ast_hash": "79478041efc1bc63b57d96218d551cc4",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/loot_table/blocks/aeternalis_fuel_block.json": {
@@ -755,28 +755,28 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/aeternalis_fuel_block.png": {
-    "mtime": 1785547322.0991037,
-    "ast_hash": "170bcf083ccabf39553d26e9be44fd70",
+    "mtime": 1748968670.0,
+    "ast_hash": "187c2402b2836e425693368e48a1d336",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/alchemical_coal_block.png": {
-    "mtime": 1785547322.1473594,
-    "ast_hash": "c50819527ae35b5b02e4d005b403734a",
+    "mtime": 1748968670.0,
+    "ast_hash": "fc938880b8d5d1804d0a22a179f2e246",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/dark_matter_block.png": {
-    "mtime": 1785547322.1946547,
-    "ast_hash": "60b6661976b88fa9472004fea92ea8e9",
+    "mtime": 1748968670.0,
+    "ast_hash": "1a9f11ef4abc88d2fcbc54d5067dc94e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/mobius_fuel_block.png": {
-    "mtime": 1785547322.2337124,
-    "ast_hash": "cd478c60c596e39b66f31d4bbd6d638c",
+    "mtime": 1748968670.0,
+    "ast_hash": "852f58a98158e2e6cd1f89b2d2e3108a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/red_matter_block.png": {
-    "mtime": 1785547322.2872806,
-    "ast_hash": "079057909b353ec17d74cd08bf7b43e1",
+    "mtime": 1748968670.0,
+    "ast_hash": "d61b0b32bbbb200b745c1bece733df6a",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java": {
@@ -1205,143 +1205,143 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/entity/equipment/humanoid/dark_matter.png": {
-    "mtime": 1785548157.1039019,
+    "mtime": 318204000.0,
     "ast_hash": "3d7dcc4e888baf1adbcfba3c1147fcf4",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/entity/equipment/humanoid/red_matter.png": {
-    "mtime": 1785548157.3815975,
+    "mtime": 318204000.0,
     "ast_hash": "6783625ff8e526e03947133584c17bdd",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/entity/equipment/humanoid_leggings/dark_matter.png": {
-    "mtime": 1785548157.163939,
+    "mtime": 318204000.0,
     "ast_hash": "8b83921c004462cc632a85ae74346f48",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/entity/equipment/humanoid_leggings/red_matter.png": {
-    "mtime": 1785548157.4464395,
+    "mtime": 318204000.0,
     "ast_hash": "a73b72303ee83ed0fb5ddd5dfda95389",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/dm_armor/chest.png": {
-    "mtime": 1785548156.2976935,
-    "ast_hash": "48848dd13628c3ffd1ce7a383d21adfd",
+    "mtime": 1748968670.0,
+    "ast_hash": "325cd404d11f50d3e39d443fc864a1bf",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/dm_armor/feet.png": {
-    "mtime": 1785548156.4802177,
-    "ast_hash": "f51eb39ac8510b87babe88b54d9da55b",
+    "mtime": 1748968670.0,
+    "ast_hash": "9b2ab648a071c1580f392ecd2ab10975",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/dm_armor/head.png": {
-    "mtime": 1785548156.1946926,
-    "ast_hash": "4e38aa35fac72d969b4147c27e160e3e",
+    "mtime": 1748968670.0,
+    "ast_hash": "28d7464709d070882c402e99f51db44b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/dm_armor/legs.png": {
-    "mtime": 1785548156.3706293,
+    "mtime": 1748968670.0,
     "ast_hash": "d7bb00f026b6f74666f3a135d8df45b8",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/axe.png": {
-    "mtime": 1785548154.186432,
-    "ast_hash": "1a059a27e2d38fee0602541be4e4fe23",
+    "mtime": 1748968670.0,
+    "ast_hash": "22f8daf2db18b6c60a25400ca2c62f88",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/hammer.png": {
-    "mtime": 1785548154.2775824,
-    "ast_hash": "1fc92775bae4a36e3881e76268e708d1",
+    "mtime": 1748968670.0,
+    "ast_hash": "fe51bac56cb8def6aca79d53a890c305",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/hoe.png": {
-    "mtime": 1785548154.3715453,
-    "ast_hash": "6b1eda2edff03f363446958b72c6e381",
+    "mtime": 1748968670.0,
+    "ast_hash": "d8597d4c9535506d30b55fd9c66b73d3",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/pickaxe.png": {
-    "mtime": 1785548154.5612688,
-    "ast_hash": "55d2f0312a2d7503f5ca8e200801abe6",
+    "mtime": 1748968670.0,
+    "ast_hash": "2a3cf186476127753deff3209f9dee63",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/shears.png": {
-    "mtime": 1785548154.6808283,
-    "ast_hash": "b337e966d92ebb4f4edd483e7d5e0d16",
+    "mtime": 1748968670.0,
+    "ast_hash": "4a522b6485c8d7969054196fa82b210b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/shovel.png": {
-    "mtime": 1785548154.9478765,
-    "ast_hash": "cf61f54b38890ccd50367986b258ab4f",
+    "mtime": 1748968670.0,
+    "ast_hash": "bb0cf8b57ddd4a493732842a4e0ee408",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/dm_tools/sword.png": {
-    "mtime": 1785548155.051416,
-    "ast_hash": "3380663d22e3ac6851296c09c3603f9a",
+    "mtime": 1748968670.0,
+    "ast_hash": "b822cc95591f616faf99c4e0d9b32b71",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_armor/chest.png": {
-    "mtime": 1785548156.7205954,
-    "ast_hash": "d01cb1f663a2be9cf6e086244c5727b8",
+    "mtime": 1748968670.0,
+    "ast_hash": "f03b8bc6a6c9ebb2943a73b015f0bb18",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_armor/feet.png": {
-    "mtime": 1785548156.9768906,
-    "ast_hash": "929eba15dc890e6d45394d19c39c6e63",
+    "mtime": 1748968670.0,
+    "ast_hash": "b39c3da52b9d14f400cd169058a063e2",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_armor/head.png": {
-    "mtime": 1785548156.5699208,
-    "ast_hash": "5f0597659ae93049a30b4a73f8066fe3",
+    "mtime": 1748968670.0,
+    "ast_hash": "7524c97cd4ae4fa8354b2f6aa47f8396",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_armor/legs.png": {
-    "mtime": 1785548156.8453596,
-    "ast_hash": "89a47e18e9b23062cde837967e679f87",
+    "mtime": 1748968670.0,
+    "ast_hash": "dca69ed32cbebfa5814d44f4938aa3c7",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/axe.png": {
-    "mtime": 1785548155.1461618,
-    "ast_hash": "f7ada3dd06321f2038dd778045066521",
+    "mtime": 1748968670.0,
+    "ast_hash": "c609b5096667b85d472130f750d31a5f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/hammer.png": {
-    "mtime": 1785548155.2419963,
-    "ast_hash": "9f38f1ef17d47c96940c866d9ebbbf5f",
+    "mtime": 1748968670.0,
+    "ast_hash": "f19f54e1ad9127a4e98cb4ca3823931e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/hoe.png": {
-    "mtime": 1785548155.3458815,
-    "ast_hash": "367cca3d74b28cd3fcc2b278a8f784a2",
+    "mtime": 1748968670.0,
+    "ast_hash": "45e9161bb37c3ca5071cab6ce0388546",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/katar.png": {
-    "mtime": 1785548155.4476967,
-    "ast_hash": "9cb73f2dfc74cc8eaa50faafd0797f0a",
+    "mtime": 1748968670.0,
+    "ast_hash": "d135c4b9fdb3404f38990426d06535ef",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/morning_star.png": {
-    "mtime": 1785548155.5686693,
-    "ast_hash": "18d6997883fbe1c06d21ef560f029bdf",
+    "mtime": 1748968670.0,
+    "ast_hash": "7a3c6f0250b88cf52fdb6f51f10bbb79",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/pickaxe.png": {
-    "mtime": 1785548155.7204766,
-    "ast_hash": "c54702cbbe138bc368210e78c6fe8ba4",
+    "mtime": 1748968670.0,
+    "ast_hash": "1c3b00c2fdd1c81d68ff9486bc86f616",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/shears.png": {
-    "mtime": 1785548155.8339336,
-    "ast_hash": "2c8d7bb0f65cabdaf20d95188c429732",
+    "mtime": 1748968670.0,
+    "ast_hash": "6c4ed2b43dc25473f03413b541725e81",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/shovel.png": {
-    "mtime": 1785548155.946857,
-    "ast_hash": "ab185a9f688e5c90d46bb9aeabfb8f19",
+    "mtime": 1748968670.0,
+    "ast_hash": "4d04cfdd0b7103fcca6828c717f464e2",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_tools/sword.png": {
-    "mtime": 1785548156.0787556,
-    "ast_hash": "d4551e0c70324cb878355add3f56f56a",
+    "mtime": 1748968670.0,
+    "ast_hash": "307a0db7d004d7d3dee929bbe8b09ad0",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/BaseMachineBlock.java": {
@@ -1365,8 +1365,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/EquivalentLegacyBlockEntities.java": {
-    "mtime": 1785610152.3090398,
-    "ast_hash": "2de29cd655355f2e38c827cb405326d6",
+    "mtime": 1785971828.574984,
+    "ast_hash": "ea518d8f9b54f15ade87ca054943d004",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/MachineTiers.java": {
@@ -1420,43 +1420,43 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/collector_mk1.json": {
-    "mtime": 1785549306.7616851,
-    "ast_hash": "ff47a965fb98fa22b831bc2540087c11",
+    "mtime": 1748968670.0,
+    "ast_hash": "a4f193fbc9fee8fa1205ad575af09813",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/collector_mk2.json": {
-    "mtime": 1785549306.7650876,
-    "ast_hash": "2df16159de6e8a6b46b24e6a9e08ad10",
+    "mtime": 1748968670.0,
+    "ast_hash": "634ec27aa906101d2bdca6cc9da8e4dd",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/collector_mk3.json": {
-    "mtime": 1785549306.7819374,
-    "ast_hash": "4ae179167b3703e0567fc4dcd34da210",
+    "mtime": 1748968670.0,
+    "ast_hash": "0e55d58571f62000884290015f0630ac",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/condenser_mk1.json": {
-    "mtime": 1785549306.7941468,
-    "ast_hash": "17364323e4cb7814a1f2d70d8f346ad1",
+    "mtime": 1748968670.0,
+    "ast_hash": "02edfc005cac886094661bbcac600392",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/condenser_mk2.json": {
-    "mtime": 1785549306.7981658,
-    "ast_hash": "42cae010ff0102ad3a03041e8c5f4f75",
+    "mtime": 1748968670.0,
+    "ast_hash": "61c2213200dd2e9637fd03074e2c37e9",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/relay_mk1.json": {
-    "mtime": 1785549306.7627628,
-    "ast_hash": "eb5e0d9c13ec91c49a7c89a8b1a45afb",
+    "mtime": 1748968670.0,
+    "ast_hash": "f299dc316d846a9d1dd21c2317a092ec",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/relay_mk2.json": {
-    "mtime": 1785549306.779941,
-    "ast_hash": "c1247f0c2ce4178670b97e2d1f265df8",
+    "mtime": 1748968670.0,
+    "ast_hash": "395ca65da5e78d456dfa8c38d42436d4",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/relay_mk3.json": {
-    "mtime": 1785549306.7906275,
-    "ast_hash": "f8a4c0ae9e7b2f52f832444e41f47bf6",
+    "mtime": 1748968670.0,
+    "ast_hash": "8a8e4221f4d306faacab1bd7ff8d2de7",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/items/collector_mk1.json": {
@@ -1500,43 +1500,43 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/collector_mk1.json": {
-    "mtime": 1785549306.7627628,
-    "ast_hash": "94734f423e0559ed6fde0f46caa9df25",
+    "mtime": 1748968670.0,
+    "ast_hash": "e5996f2792070f9914ae013891c1ded9",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/collector_mk2.json": {
-    "mtime": 1785549306.7713692,
-    "ast_hash": "7579c8094aceb20145980335d590fdfc",
+    "mtime": 1748968670.0,
+    "ast_hash": "8dc72d1647232db85d859f888fb9f688",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/collector_mk3.json": {
-    "mtime": 1785549306.785021,
-    "ast_hash": "2d7a857906fa592241cf5e389cb452c3",
+    "mtime": 1748968670.0,
+    "ast_hash": "1efd1e1125ee7c5e41429c546c2b1b14",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/condenser_mk1.json": {
-    "mtime": 1785549306.7956376,
-    "ast_hash": "3266dcb71612e15134a61b6396d3e25d",
+    "mtime": 1748968670.0,
+    "ast_hash": "90a3bce8ee2c69d8aad7331e2600f835",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/condenser_mk2.json": {
-    "mtime": 1785549306.7986627,
-    "ast_hash": "a1d97a18594e0bb1c1591dc5664c85a1",
+    "mtime": 1748968670.0,
+    "ast_hash": "ca78a6d8b26df503a3da1da3ac5f4a32",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/relay_mk1.json": {
-    "mtime": 1785549306.7627628,
-    "ast_hash": "cd5f68deedc973b9777b44773cca7d3e",
+    "mtime": 1748968670.0,
+    "ast_hash": "6966382d72c1c489597c9b42d4cb0573",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/relay_mk2.json": {
-    "mtime": 1785549306.7809355,
-    "ast_hash": "92bf0f0b71c57d6205a6cbb39e953e8d",
+    "mtime": 1748968670.0,
+    "ast_hash": "e6660417ac8ea31d0da734e45d25ddf3",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/relay_mk3.json": {
-    "mtime": 1785549306.79212,
-    "ast_hash": "4c31a1d2e53302a4b21da25c9a674492",
+    "mtime": 1748968670.0,
+    "ast_hash": "dce6f4c5b1118d06aa5531707ed8fb5a",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/loot_table/blocks/collector_mk1.json": {
@@ -1625,102 +1625,102 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/collectors/front.png": {
-    "mtime": 1785548739.3303888,
-    "ast_hash": "72c8a5dc459f66c0778153a915ee2361",
+    "mtime": 1748968670.0,
+    "ast_hash": "a99afd29b5c4671d4b2e80e64dde6493",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/collectors/other.png": {
-    "mtime": 1785548739.4188075,
-    "ast_hash": "1b5dd34726b1bc66e20f781952ed87e8",
+    "mtime": 1748968670.0,
+    "ast_hash": "24bbf646840362d25fe873bb45643b9d",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/collectors/top_1.png": {
-    "mtime": 1785548739.51236,
-    "ast_hash": "e2dd0f062755c4d4d7e9b304698f5e0d",
+    "mtime": 1748968670.0,
+    "ast_hash": "49d4bec15050c1d32ed51de523c7eedc",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/collectors/top_2.png": {
-    "mtime": 1785548739.6110501,
-    "ast_hash": "7ed316d5b3bb11168621da9be35858c6",
+    "mtime": 1748968670.0,
+    "ast_hash": "9ed480c67e7e4077566dca1b50bb285c",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/collectors/top_3.png": {
-    "mtime": 1785548739.6995163,
-    "ast_hash": "cc0d130ff17c890c207756eb6e487294",
+    "mtime": 1748968670.0,
+    "ast_hash": "53909193c7528a47b1ffb694bd59c0cc",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/condenser_mk1.png": {
-    "mtime": 1785548739.235551,
+    "mtime": 1748968670.0,
     "ast_hash": "a43bbfbd5ff99181354da27e79a4c510",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/condenser_mk2.png": {
-    "mtime": 1785548739.28557,
+    "mtime": 1748968670.0,
     "ast_hash": "de578e5e3e9a9c40621c48a4748bf77f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/relays/front.png": {
-    "mtime": 1785548739.380338,
-    "ast_hash": "401e0535deaca4df700b83f57c82cbf5",
+    "mtime": 1748968670.0,
+    "ast_hash": "23ad50d90030b3a8e864bd005e6b0db1",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/relays/other.png": {
-    "mtime": 1785548739.4666917,
-    "ast_hash": "8ed695998b0e03ef6bfab8ecf88b37cd",
+    "mtime": 1748968670.0,
+    "ast_hash": "30be849d21dd673af60fcc7737f79269",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/relays/top_1.png": {
-    "mtime": 1785548739.5572896,
-    "ast_hash": "bceb2a03e44b8a8a362c036405a7e548",
+    "mtime": 1748968670.0,
+    "ast_hash": "52eaccddcb090e85a384dbc5b084cad5",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/relays/top_2.png": {
-    "mtime": 1785548739.6515863,
-    "ast_hash": "202d0d741b38ed680ebb9127c639be5d",
+    "mtime": 1748968670.0,
+    "ast_hash": "08e32f736dc7b832ac6fa4a6e7dc35b8",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/relays/top_3.png": {
-    "mtime": 1785548739.7426884,
-    "ast_hash": "0ed7624be326bfc7f04a0f3262470870",
+    "mtime": 1748968670.0,
+    "ast_hash": "9717bbea37901d6a8bc80c64a7b8cb47",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/gui/collector1.png": {
-    "mtime": 1785548738.8381279,
+    "mtime": 1748968670.0,
     "ast_hash": "ce348af412bf822a466dd11f6239c597",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/gui/collector2.png": {
-    "mtime": 1785548738.8808494,
+    "mtime": 1748968670.0,
     "ast_hash": "b4186770f02b0e8c8839ad9c21e053e8",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/gui/collector3.png": {
-    "mtime": 1785548738.9253156,
+    "mtime": 1748968670.0,
     "ast_hash": "233137f635b5b7cd45619203c3e77cf4",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/gui/condenser.png": {
-    "mtime": 1785548739.1119325,
+    "mtime": 1748968670.0,
     "ast_hash": "ac227ec578b90d1433ee292db49777a2",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/gui/condenser_mk2.png": {
-    "mtime": 1785548739.1859498,
+    "mtime": 1748968670.0,
     "ast_hash": "25ff1001ee4c15f7b810f0a4b56d91de",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/gui/relay1.png": {
-    "mtime": 1785548738.9716535,
+    "mtime": 1748968670.0,
     "ast_hash": "5c016e8a5c8ecbcb3532b3568aa1a006",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/gui/relay2.png": {
-    "mtime": 1785548739.016127,
+    "mtime": 1748968670.0,
     "ast_hash": "13164c68f9297692d9bff8e39d0a40ac",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/gui/relay3.png": {
-    "mtime": 1785548739.0631592,
+    "mtime": 1748968670.0,
     "ast_hash": "3ff5306be98441541a02ce42b3aa0060",
     "semantic_hash": ""
   },
@@ -1760,8 +1760,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/alchemical_chest.json": {
-    "mtime": 1785549603.4716036,
-    "ast_hash": "27ae9896eb5111339da4a56478077357",
+    "mtime": 1748968670.0,
+    "ast_hash": "6c28b51a01cced4b9562bde755df3e4b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/items/alchemical_chest.json": {
@@ -1770,8 +1770,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/alchemical_chest.json": {
-    "mtime": 1785549603.4725983,
-    "ast_hash": "11b6bc3592dfda19a21c1dde6cf6ed7c",
+    "mtime": 1748968670.0,
+    "ast_hash": "c3514eb0111a71ce3262834a2aecaba6",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/loot_table/blocks/alchemical_chest.json": {
@@ -1790,18 +1790,18 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/alchemical_chest.png": {
-    "mtime": 1785549590.6192255,
+    "mtime": 1748968670.0,
     "ast_hash": "9410471e4aab7ede0b4451b681014da3",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/gui/alchchest.png": {
-    "mtime": 1785549590.6872609,
+    "mtime": 1748968670.0,
     "ast_hash": "d2b50c3e5f6d55701c2ea37faf562c90",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/red.png": {
-    "mtime": 1785551474.4355128,
-    "ast_hash": "cda577ecd5794d1e38887fd4a81e85ea",
+    "mtime": 1748968670.0,
+    "ast_hash": "9c277751fe18694b673e11ddd0e2b20d",
     "semantic_hash": ""
   },
   "src/main/resources/data/curios/tags/item/klein_star.json": {
@@ -1830,13 +1830,13 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/curios/empty_klein_star.png": {
-    "mtime": 1785549734.653936,
+    "mtime": 1748968670.0,
     "ast_hash": "81bfe1b152c6162112f3be76cc006748",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/slot/empty_klein_star.png": {
-    "mtime": 1785549735.0483017,
-    "ast_hash": "81bfe1b152c6162112f3be76cc006748",
+    "mtime": 318204000.0,
+    "ast_hash": "ead0eb17ca3e6a2de331956268372b5f",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java": {
@@ -2045,188 +2045,188 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/arcana_ring.json": {
-    "mtime": 1785551644.1431222,
-    "ast_hash": "3eb3702a516d2e90f294f6f32c382763",
+    "mtime": 1748968670.0,
+    "ast_hash": "215617e7d0c98f4c27d3fb1c99e63314",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/black_alchemical_bag.json": {
-    "mtime": 1785551474.6363468,
-    "ast_hash": "96ed8961bc95d11a3c47b37dcd91d1a4",
+    "mtime": 1748968670.0,
+    "ast_hash": "868cb5a6148c7d70fcd66118b90fe622",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/black_hole_band.json": {
-    "mtime": 1785551644.122711,
-    "ast_hash": "1f4530837b60053a22ae7683ca6c477b",
+    "mtime": 1748968670.0,
+    "ast_hash": "76cea6d4f4c9bdb8e548e6daae30fb66",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/blue_alchemical_bag.json": {
-    "mtime": 1785551474.6363468,
-    "ast_hash": "15d4f0cd6e40b0d2ec4129d472f395dc",
+    "mtime": 1748968670.0,
+    "ast_hash": "d82be955cb00eae74c0ddb14ea6e236f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/body_stone.json": {
-    "mtime": 1785551644.1242218,
-    "ast_hash": "6b224001b122201c84e971b87a21afb0",
+    "mtime": 1748968670.0,
+    "ast_hash": "a40afe699314b5a761d068fb0ec71554",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/brown_alchemical_bag.json": {
-    "mtime": 1785551474.6379573,
-    "ast_hash": "f994218d6392d6d85461d5706a3ad26d",
+    "mtime": 1748968670.0,
+    "ast_hash": "9e6f547d92e6cec453dacf9cd5636803",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/cyan_alchemical_bag.json": {
-    "mtime": 1785551474.6394825,
-    "ast_hash": "d5ea2ed0e09c48d64d7f963e45862fe9",
+    "mtime": 1748968670.0,
+    "ast_hash": "eef7b88a4cb7049c5ef396072a3dedaa",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/evertide_amulet.json": {
-    "mtime": 1785551644.1252239,
-    "ast_hash": "c2b4ac159d25951e4f8295c903ad73f8",
+    "mtime": 1748968670.0,
+    "ast_hash": "3717eeb1933176fe92277da12297f764",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/gem_of_eternal_density.json": {
-    "mtime": 1785551644.1267521,
-    "ast_hash": "1a2fc10ac2d28376b0000f83efece495",
+    "mtime": 1748968670.0,
+    "ast_hash": "f8a336adf9fdab59e9aef4ece822dbff",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/gray_alchemical_bag.json": {
-    "mtime": 1785551474.6425345,
-    "ast_hash": "d63edae5549819181e8133a825bfd7d4",
+    "mtime": 1748968670.0,
+    "ast_hash": "74cf27194cde704e8a6be3de08c7e306",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/green_alchemical_bag.json": {
-    "mtime": 1785551474.651177,
-    "ast_hash": "849ac1c77996f83fa5a01d6980fb22a8",
+    "mtime": 1748968670.0,
+    "ast_hash": "de26c8925bcfea266ccabc9e1cfacd3e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/harvest_goddess_band.json": {
-    "mtime": 1785551644.1282797,
-    "ast_hash": "2e06427b2f232b15a68ad481a1be82d0",
+    "mtime": 1748968670.0,
+    "ast_hash": "666708478e5f27b377e4cf07fd674265",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/high_covalence_dust.json": {
-    "mtime": 1785551360.4689455,
-    "ast_hash": "27919b6fd1fbeb7b964d131be54dc140",
+    "mtime": 1748968670.0,
+    "ast_hash": "7d28c63c59a3d5d86e33244c54d92d69",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/ignition_ring.json": {
-    "mtime": 1785551644.1282797,
-    "ast_hash": "c97691d2eda27b4cdc9072ee7386e640",
+    "mtime": 1748968670.0,
+    "ast_hash": "a6e947358dbdd3b2ac24988524104023",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/iron_band.json": {
-    "mtime": 1785551644.1211424,
-    "ast_hash": "df2b0ababb923175bf5786e59c16cfc6",
+    "mtime": 1748968670.0,
+    "ast_hash": "d9c89b1487300427a4bedb09a6fb8347",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/life_stone.json": {
-    "mtime": 1785551644.1298144,
-    "ast_hash": "3a12a213f22f9ce1dea170837f399e97",
+    "mtime": 1748968670.0,
+    "ast_hash": "516bfd3f6fbffcc7671e497fe9527fdd",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/light_blue_alchemical_bag.json": {
-    "mtime": 1785551474.6527958,
-    "ast_hash": "12f13fab03b7e57b3810fd0034fbf74a",
+    "mtime": 1748968670.0,
+    "ast_hash": "57b3e85be2696da4132a2d74abccca48",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/light_gray_alchemical_bag.json": {
-    "mtime": 1785551474.6548645,
-    "ast_hash": "0fb56b87773d490b62d183f61006873a",
+    "mtime": 1748968670.0,
+    "ast_hash": "3ee8cad6ee064fa31c93279173ea56d1",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/lime_alchemical_bag.json": {
-    "mtime": 1785551474.6573713,
-    "ast_hash": "f87df39e96e5759b003a435d90967db8",
+    "mtime": 1748968670.0,
+    "ast_hash": "722de252b9a2f153a08e72d3d887e900",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/low_covalence_dust.json": {
-    "mtime": 1785551360.463418,
-    "ast_hash": "2056e006f69e29c460848d1959a709e9",
+    "mtime": 1748968670.0,
+    "ast_hash": "9a6938b6f4282d4b6ca22fbcb29bc700",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/magenta_alchemical_bag.json": {
-    "mtime": 1785551474.6645246,
-    "ast_hash": "98ba4c64fae979afaac2f4a50ea1c4a5",
+    "mtime": 1748968670.0,
+    "ast_hash": "7de4ebccbaccf9a4309325a9fe6da70a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/medium_covalence_dust.json": {
-    "mtime": 1785551360.4659522,
-    "ast_hash": "2ce0ffad3e613710a9b322ebb88e2572",
+    "mtime": 1748968670.0,
+    "ast_hash": "892852cf00d95f84a60168f1410839db",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/mind_stone.json": {
-    "mtime": 1785551644.131346,
-    "ast_hash": "2ce89f4b587d32ff3ed28aa8e5e489dc",
+    "mtime": 1748968670.0,
+    "ast_hash": "4c45e1b88e8ed5872e30c7cc986b8dc8",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/orange_alchemical_bag.json": {
-    "mtime": 1785551474.6670496,
-    "ast_hash": "4451db94244208a8e80bb42795579a2e",
+    "mtime": 1748968670.0,
+    "ast_hash": "debd710051b38747db703738d0974696",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/pink_alchemical_bag.json": {
-    "mtime": 1785551474.669084,
-    "ast_hash": "3c330d5301e754150134d5cf84dd7040",
+    "mtime": 1748968670.0,
+    "ast_hash": "69311197c481be21cfd8cb1c7627b4b0",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/purple_alchemical_bag.json": {
-    "mtime": 1785551474.670624,
-    "ast_hash": "b92dda528a6723dc0a88216874f414c9",
+    "mtime": 1748968670.0,
+    "ast_hash": "f7184ce6e8cc330c9dc6865e7fa39d73",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/red_alchemical_bag.json": {
-    "mtime": 1785551474.678313,
-    "ast_hash": "5cf7cdcbe7d815cbb236dccb7ba246b7",
+    "mtime": 1748968670.0,
+    "ast_hash": "0a87e61fb2d2dfe0c46660f4a09c0a1f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/repair_talisman.json": {
-    "mtime": 1785551644.1359315,
-    "ast_hash": "9ab36dce1e363887a8ea0d9ed44328b9",
+    "mtime": 1748968670.0,
+    "ast_hash": "e99868cc1b91c0b21de8618d6a92d60b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/soul_stone.json": {
-    "mtime": 1785551644.1374435,
-    "ast_hash": "ecde6c443ca86a393b341fd18ec947bb",
+    "mtime": 1748968670.0,
+    "ast_hash": "1d3a6799fd6bcf68f2366e73f67e7f4e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/swiftwolf_rending_gale.json": {
-    "mtime": 1785551644.1374435,
-    "ast_hash": "99f6b6dc22cdb336bbbd6600a3416c90",
+    "mtime": 1748968670.0,
+    "ast_hash": "cae1a347d49f934017f3b1350aac9136",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/tome.json": {
-    "mtime": 1785551360.4699414,
-    "ast_hash": "fdd7a1b70c37e366ed7fab366d734a64",
+    "mtime": 1748968670.0,
+    "ast_hash": "cb3da8c98b3b5347819760ba901f408a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/void_ring.json": {
-    "mtime": 1785551644.1390796,
-    "ast_hash": "f256f5bfda61ab39e51cee24f7ddf340",
+    "mtime": 1748968670.0,
+    "ast_hash": "39a13f0d7486e0534db051b0f5fb792c",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/volcanite_amulet.json": {
-    "mtime": 1785551644.1405928,
-    "ast_hash": "1543bb5482bbede523adde3247fa1e1c",
+    "mtime": 1748968670.0,
+    "ast_hash": "ca2286de164dd5b8bd9e97d394e07613",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/watch_of_flowing_time.json": {
-    "mtime": 1785551644.1415951,
-    "ast_hash": "d834276e0f9de47aeaf90d5ae75e06df",
+    "mtime": 1748968670.0,
+    "ast_hash": "52585326d512a1216336abc5369d3c25",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/white_alchemical_bag.json": {
-    "mtime": 1785551474.680829,
-    "ast_hash": "a75864b456aa4c860fb216e72a2ec464",
+    "mtime": 1748968670.0,
+    "ast_hash": "05ab697b543172a997e6a963dde0eb70",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/yellow_alchemical_bag.json": {
-    "mtime": 1785551474.6839645,
-    "ast_hash": "beec6a851fd306e230c802dd5ecaf72b",
+    "mtime": 1748968670.0,
+    "ast_hash": "f801aff04a4f6718664879fc768edb37",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/zero_ring.json": {
-    "mtime": 1785551644.1431222,
-    "ast_hash": "7461b33004e96b970b4634bf899736ea",
+    "mtime": 1748968670.0,
+    "ast_hash": "a5ff6f85751af67b1aaf5b7c09afa709",
     "semantic_hash": ""
   },
   "src/main/resources/data/curios/tags/item/belt.json": {
@@ -2445,183 +2445,183 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/black.png": {
-    "mtime": 1785551473.972061,
-    "ast_hash": "13b6d5e91787c7dcf208c42638c52618",
+    "mtime": 1748968670.0,
+    "ast_hash": "2d84ba2bdcf5b7400d75f13cc6fca5ec",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/blue.png": {
-    "mtime": 1785551474.0079396,
-    "ast_hash": "cb65bc5fd50e58aa5f62ee2c1656b476",
+    "mtime": 1748968670.0,
+    "ast_hash": "b9edac204c2b4c388269acc67b76b477",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/brown.png": {
-    "mtime": 1785551474.0411873,
-    "ast_hash": "1f3995034fe084ddc047eb05e540495d",
+    "mtime": 1748968670.0,
+    "ast_hash": "9f2d5083f63c0065c65a3fb6f05943c9",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/cyan.png": {
-    "mtime": 1785551474.069524,
-    "ast_hash": "52feb617b3775cae3ba5f7900bff7101",
+    "mtime": 1748968670.0,
+    "ast_hash": "7b6996d75df87079314c2f1d9ddd6a55",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/gray.png": {
-    "mtime": 1785551474.101754,
-    "ast_hash": "d21b5628d02a65dce1b697fd2779f95c",
+    "mtime": 1748968670.0,
+    "ast_hash": "352bcf1bece3e3e77a23cdbfec877124",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/green.png": {
-    "mtime": 1785551474.134546,
-    "ast_hash": "8b95a6cf29d4cc9c8a14ca38aa825014",
+    "mtime": 1748968670.0,
+    "ast_hash": "f25693c0d91bd2f4ab1b31ca8be484ae",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/light_blue.png": {
-    "mtime": 1785551474.1686702,
-    "ast_hash": "0ba98b7fee815e7d7900e3073e57df8c",
+    "mtime": 1748968670.0,
+    "ast_hash": "f653b78a7df18f79c25bfe01eec44ea9",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/light_gray.png": {
-    "mtime": 1785551474.213231,
-    "ast_hash": "da5213d84a1e6a9012f8978b57b380f6",
+    "mtime": 1748968670.0,
+    "ast_hash": "bbd1205dc79e61f9dc3419e6bfa91c0c",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/lime.png": {
-    "mtime": 1785551474.2457922,
-    "ast_hash": "199ebd2315c1b0424ea829ed7bf75a10",
+    "mtime": 1748968670.0,
+    "ast_hash": "56186f64d7462910183c21d624492c76",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/magenta.png": {
-    "mtime": 1785551474.281414,
-    "ast_hash": "4ad79937c06683c53963c23aeb301213",
+    "mtime": 1748968670.0,
+    "ast_hash": "4977abf9c7350507d85364e01efd5d5e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/orange.png": {
-    "mtime": 1785551474.331659,
-    "ast_hash": "a4aed5534410f63c44fdb7c1d49e1048",
+    "mtime": 1748968670.0,
+    "ast_hash": "feba9642a92a4f038ceff53a96d16b9f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/pink.png": {
-    "mtime": 1785551474.3716989,
-    "ast_hash": "32555fc309bcb82d21cc7ca121a91da4",
+    "mtime": 1748968670.0,
+    "ast_hash": "d37339ad771987dce0361f352d77447c",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/purple.png": {
-    "mtime": 1785551474.4025042,
-    "ast_hash": "26c6ca1522dc31dd13bcb0b50148adb6",
+    "mtime": 1748968670.0,
+    "ast_hash": "bf4bcca7e50e6d4eacd78cc3a44091f0",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/white.png": {
-    "mtime": 1785551474.46778,
-    "ast_hash": "f1216e4f40c3448772f35b60ac785fef",
+    "mtime": 1748968670.0,
+    "ast_hash": "70fdf71cfae972ff7bd4734c24d57ea9",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/alchemy_bags/yellow.png": {
-    "mtime": 1785551474.488636,
-    "ast_hash": "be6a4e97753f3686d0e067d1ca6607d9",
+    "mtime": 1748968670.0,
+    "ast_hash": "30d4050c751a495081a3c52a5cbab155",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/covalence_dust/high.png": {
-    "mtime": 1785551330.3310642,
-    "ast_hash": "bfb7de1492a5665679df73928773c1f2",
+    "mtime": 1748968670.0,
+    "ast_hash": "73116ea3762ef270e56004d3faa86c92",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/covalence_dust/low.png": {
-    "mtime": 1785551330.2413385,
-    "ast_hash": "1ff62d545199a505211860c05c6475b0",
+    "mtime": 1748968670.0,
+    "ast_hash": "ff7cac568f144607817c7fb9f6759900",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/covalence_dust/medium.png": {
-    "mtime": 1785551330.2875023,
-    "ast_hash": "884248c8219fa4e2d87249a16974d572",
+    "mtime": 1748968670.0,
+    "ast_hash": "980986c52c2b20ed81773448db8017b0",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/dense_gem_off.png": {
-    "mtime": 1785551643.6219637,
-    "ast_hash": "fcf40e5e699f2fd4946a3d7da886d04d",
+    "mtime": 1748968670.0,
+    "ast_hash": "60acf8dee4d9bf6021c9329801260178",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/repair_talisman.png": {
-    "mtime": 1785551643.8398416,
-    "ast_hash": "56cfe458c8a6f44f95078845beb22af9",
+    "mtime": 1748968670.0,
+    "ast_hash": "bc919b0718b4c868ac9f3dbeea5974e5",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/arcana_0.png": {
-    "mtime": 1785551643.4619367,
+    "mtime": 1748968670.0,
     "ast_hash": "5d187d8b42fd99cccbdff6394dfd33fe",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/black_hole_off.png": {
-    "mtime": 1785551643.4987776,
-    "ast_hash": "0f04c13975ffed32da4940adff25dc6c",
+    "mtime": 1748968670.0,
+    "ast_hash": "e8584858cb791251eeb3e6568484764d",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/body_stone_off.png": {
-    "mtime": 1785551643.533359,
-    "ast_hash": "52a9b5199bf3b401c2ba85e1821e4854",
+    "mtime": 1748968670.0,
+    "ast_hash": "9a5342d905ef158ebc8bcc38a0996836",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/evertide_amulet.png": {
-    "mtime": 1785551643.574737,
+    "mtime": 1748968670.0,
     "ast_hash": "042c4e7a92f90f34ab5a934137c0d76f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/harvest_god_off.png": {
-    "mtime": 1785551643.6677887,
-    "ast_hash": "04a79cf3a8078afb64770200de113ffb",
+    "mtime": 1748968670.0,
+    "ast_hash": "3554f0ce93bc0a6bfda67559d34fc940",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/ignition_off.png": {
-    "mtime": 1785551643.7127268,
-    "ast_hash": "783c4c7fb2313a58a9c506cec58ac94e",
+    "mtime": 1748968670.0,
+    "ast_hash": "dd5b6173d1f4c8fce707d601829221c8",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/iron_band.png": {
-    "mtime": 1785551643.7452042,
-    "ast_hash": "11a4fa468ea3eec5ae4f211af69aca8d",
+    "mtime": 1748968670.0,
+    "ast_hash": "b14b3763888e583aabc69eb089352b57",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/life_stone_off.png": {
-    "mtime": 1785551643.7763104,
-    "ast_hash": "ce4c2e568945e02c3c4d2e5ab4b18ea2",
+    "mtime": 1748968670.0,
+    "ast_hash": "a077b49884db04a2d46c40d906654fdb",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/mind_stone_off.png": {
-    "mtime": 1785551643.805645,
-    "ast_hash": "8869343548adecc4f71a4c19f0877b18",
+    "mtime": 1748968670.0,
+    "ast_hash": "32d80ac377a760fab0f541a2865c1284",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/soul_stone_off.png": {
-    "mtime": 1785551643.8747413,
-    "ast_hash": "10800a5c552ee05c08c4d5c2d7de4b50",
+    "mtime": 1748968670.0,
+    "ast_hash": "155c92e2be1182b1fb8d4c6339f21cf3",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/swrg_off.png": {
-    "mtime": 1785551643.921477,
-    "ast_hash": "395ca51e1390c0dded30516e51b4f388",
+    "mtime": 1748968670.0,
+    "ast_hash": "78508ba99741fd881083db376448ef6e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/time_watch_off.png": {
-    "mtime": 1785551644.0666213,
-    "ast_hash": "8192e4dcdddac83c21395d0e2c1e7d3d",
+    "mtime": 1748968670.0,
+    "ast_hash": "fbf8a6eb752f3dcb5f8899730c13db5a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/void_off.png": {
-    "mtime": 1785551643.9721682,
+    "mtime": 1748968670.0,
     "ast_hash": "0c34119ba68eb39c0c25cf25bab17873",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/volcanite_amulet.png": {
-    "mtime": 1785551644.016928,
+    "mtime": 1748968670.0,
     "ast_hash": "7c19a71a7803acda206c104cc57893e1",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/rings/zero_off.png": {
-    "mtime": 1785551644.1088653,
-    "ast_hash": "8efc05033c1a7959344bd9ea3e71a46a",
+    "mtime": 1748968670.0,
+    "ast_hash": "b6d22d686bca2ea176e5408851f0cd1d",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/tome.png": {
-    "mtime": 1785551330.3788352,
-    "ast_hash": "32518e95ac8542141a1dce77a35fe7f0",
+    "mtime": 1748968670.0,
+    "ast_hash": "1bb5143f8db294a32ead748f53dde81d",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/InterdictionTorchBlock.java": {
@@ -2675,13 +2675,13 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/interdiction_torch.json": {
-    "mtime": 1785552084.845818,
-    "ast_hash": "dfce8cd045311ffbd3b7cc2e40e5560d",
+    "mtime": 1748968670.0,
+    "ast_hash": "399f97dd0e4b73d653d45afbef039b06",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/transmutation_table.json": {
-    "mtime": 1785552084.8443186,
-    "ast_hash": "85def70e26b54cb8600516d11fdd8853",
+    "mtime": 1748968670.0,
+    "ast_hash": "296ac8d34df87cbe1bb8c3501dc17ce5",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/equipment/gem_armor.json": {
@@ -2775,88 +2775,88 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/interdiction_torch.json": {
-    "mtime": 1785552084.8443186,
-    "ast_hash": "d81ecd5d65a4e688cc1c6ae56c4200a6",
+    "mtime": 1748968670.0,
+    "ast_hash": "51595f3b8ad538a3f0cbfa2a8dda3f52",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/transmutation_table.json": {
-    "mtime": 1785552084.8433213,
-    "ast_hash": "22739ebaf7dd51da2842648ce92faa40",
+    "mtime": 1748968670.0,
+    "ast_hash": "0523b7ba48a8c2c307c61779f9cca38d",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/archangel_smite.json": {
-    "mtime": 1785551960.86056,
-    "ast_hash": "b8f974c527973e1a2988a4e2f28c9562",
+    "mtime": 1748968670.0,
+    "ast_hash": "a7d7a737e64d017a91b4714f8f6beec0",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/catalytic_lens.json": {
-    "mtime": 1785551960.8435185,
-    "ast_hash": "94ed745e13acb8acf26689e8b9916448",
+    "mtime": 1748968670.0,
+    "ast_hash": "9c9095f0dbb0d02cef752e891796038c",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/destruction_catalyst.json": {
-    "mtime": 1785551960.8405287,
-    "ast_hash": "a0935d360e1733f4ae973a621fdd7ef1",
+    "mtime": 1748968670.0,
+    "ast_hash": "b326f6574bc02a3c25e3e93efcfd060b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/divining_rod_1.json": {
-    "mtime": 1785551960.836032,
-    "ast_hash": "45ca3894144ddec3358e3b5c1fbc273f",
+    "mtime": 1748968670.0,
+    "ast_hash": "2cbec5073204973a40ec776bc2359ee4",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/divining_rod_2.json": {
-    "mtime": 1785551960.8385355,
-    "ast_hash": "1d4564ed442d52f99bbb8ccfd390ad49",
+    "mtime": 1748968670.0,
+    "ast_hash": "f41e214de9a124da60670e24e9c144bc",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/divining_rod_3.json": {
-    "mtime": 1785551960.8395321,
-    "ast_hash": "9783aa0cf0dc8da261edf51dd5420544",
+    "mtime": 1748968670.0,
+    "ast_hash": "8a7c128a8ac67b2f8debd76254936b26",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/gem_boots.json": {
-    "mtime": 1785552462.1744404,
-    "ast_hash": "a09ce3aae05b58a311833d456a4c83ab",
+    "mtime": 1748968670.0,
+    "ast_hash": "17d0f211982fd1b19afb1ce1a829c919",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/gem_chestplate.json": {
-    "mtime": 1785552462.1733596,
-    "ast_hash": "71096f6b6a613d00f97bf4bd6ee01f41",
+    "mtime": 1748968670.0,
+    "ast_hash": "e3a9a3f41fcdf871806e667b5e93b308",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/gem_helmet.json": {
-    "mtime": 1785552462.1733596,
-    "ast_hash": "2c13df13d44a848e35cc3b8a4e9184b5",
+    "mtime": 1748968670.0,
+    "ast_hash": "8aec9f33787b9d466fa262ee6c31b804",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/gem_leggings.json": {
-    "mtime": 1785552462.1733596,
-    "ast_hash": "c6e450e06fa65daff81f0e6c66e1355e",
+    "mtime": 1748968670.0,
+    "ast_hash": "94728a02ac99f9c4d1adb8ee1d592e54",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/hyperkinetic_lens.json": {
-    "mtime": 1785551960.8415253,
-    "ast_hash": "a52a3bc17db5fa20a8dd749cdc5bdc1b",
+    "mtime": 1748968670.0,
+    "ast_hash": "4e5e56ea192f4918036f0ed2b7e196a2",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/mercurial_eye.json": {
-    "mtime": 1785551960.8435185,
-    "ast_hash": "0cebcab04a792246fc3f4f215c82cdff",
+    "mtime": 1748968670.0,
+    "ast_hash": "a6c7ed88dade47ea914b510568e3f676",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/nova_cataclysm.json": {
-    "mtime": 1785551960.8345232,
-    "ast_hash": "1013d746a6e6aaca7b57e68156ca3f37",
+    "mtime": 1748968670.0,
+    "ast_hash": "0e8ea3a99f737c7a8c4eeef9cfcd603a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/nova_catalyst.json": {
-    "mtime": 1785551960.8334608,
-    "ast_hash": "b0662495da897f007cc660c6b5d1cf57",
+    "mtime": 1748968670.0,
+    "ast_hash": "4995548b7a018ff165c4313a9758a96c",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/item/transmutation_tablet.json": {
-    "mtime": 1785552084.8423252,
-    "ast_hash": "1d01ffe365c6618795eda68e2c4ce4af",
+    "mtime": 1748968670.0,
+    "ast_hash": "c54e207c34b2b1d1dc951c0faa62795f",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/loot_table/blocks/interdiction_torch.json": {
@@ -2980,97 +2980,92 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/interdiction_torch.png": {
-    "mtime": 1785552084.6789706,
+    "mtime": 1748968670.0,
     "ast_hash": "4256d665c23fbb45579422547106763a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/transmutation_stone/bottom.png": {
-    "mtime": 1785552084.8286488,
+    "mtime": 1748968670.0,
     "ast_hash": "d8517f08450b002afc1550e06f67a010",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/transmutation_stone/side.png": {
-    "mtime": 1785552084.7832408,
+    "mtime": 1748968670.0,
     "ast_hash": "f6a1dfdda599f4cd1bc166b5e745c45d",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/transmutation_stone/top.png": {
-    "mtime": 1785552084.7376943,
+    "mtime": 1748968670.0,
     "ast_hash": "622397f591b98e8e22bd5c24e8011c69",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/entity/equipment/humanoid/gem_armor.png": {
-    "mtime": 1785552462.0584521,
+    "mtime": 318204000.0,
     "ast_hash": "f16fb791e9a34bcf2fb823aed4346c2d",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/entity/equipment/humanoid_leggings/gem_armor.png": {
-    "mtime": 1785552462.0986373,
+    "mtime": 318204000.0,
     "ast_hash": "ce362f833edb483a74f268560e06af47",
     "semantic_hash": ""
   },
-  "src/main/resources/assets/equivalent_legacy/textures/item/archangel_smite.png": {
-    "mtime": 1785551923.2453842,
-    "ast_hash": "ef04202fad6cfa2f80247cf35c8c4fdb",
-    "semantic_hash": ""
-  },
   "src/main/resources/assets/equivalent_legacy/textures/item/catalytic_lens.png": {
-    "mtime": 1785551922.9640489,
-    "ast_hash": "db6fb4b90b902e17209f9832bc9d626e",
+    "mtime": 1748968670.0,
+    "ast_hash": "d7afe789c73ca6f5d460d55172a234d0",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/destruction_catalyst.png": {
-    "mtime": 1785551923.0094042,
-    "ast_hash": "775b6ae5fd965d2c5a253931d721f344",
+    "mtime": 1748968670.0,
+    "ast_hash": "4c837c3506409b2f56f190302770744f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/divining_rod_1.png": {
-    "mtime": 1785551923.0563102,
-    "ast_hash": "a4a34df90493820dd325af9366e396d0",
+    "mtime": 1748968670.0,
+    "ast_hash": "c0a4405d24e9e07395ca80cb49e64875",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/divining_rod_2.png": {
-    "mtime": 1785551923.1021166,
-    "ast_hash": "58f84ffa4a0b49eba75f1b2f3692fff4",
+    "mtime": 1748968670.0,
+    "ast_hash": "3f42e0d1a2b7c1782e236dd47767e4f7",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/divining_rod_3.png": {
-    "mtime": 1785551923.1474078,
-    "ast_hash": "a92d036af94bf4c84b9446b646eefb32",
+    "mtime": 1748968670.0,
+    "ast_hash": "08f45ceea85709418276e08a65feffd6",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/gem_armor/chest.png": {
-    "mtime": 1785552461.929177,
-    "ast_hash": "eaa354ca958764d6d81a0915d7ffc688",
+    "mtime": 1748968670.0,
+    "ast_hash": "0edbbfca08e442630618bff274c2ba5c",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/gem_armor/feet.png": {
-    "mtime": 1785552462.0093002,
-    "ast_hash": "4f13e2ec34d63206a062d2733d6ff18e",
+    "mtime": 1748968670.0,
+    "ast_hash": "b7677a6faee3c8cf6a9f1605fe7c8122",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/gem_armor/head.png": {
-    "mtime": 1785552461.8965116,
-    "ast_hash": "277cc0172c02c95d7f525769ab03d8fe",
+    "mtime": 1748968670.0,
+    "ast_hash": "3569c530bde300f634d5ac2429d5d5a9",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/gem_armor/legs.png": {
-    "mtime": 1785552461.9731672,
-    "ast_hash": "324aab1249685870de5546bc04381072",
+    "mtime": 1748968670.0,
+    "ast_hash": "5b8b5df6e4a67cca6cdcdc66dac86628",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/hyperkinetic_lens.png": {
-    "mtime": 1785551923.1699758,
-    "ast_hash": "799eaf2edc57aaca4533c77bf744c75b",
+    "mtime": 1748968670.0,
+    "ast_hash": "dc10bd7ac07d87b6244e1aff64c59ab4",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/mercurial_eye.png": {
-    "mtime": 1785551923.2086902,
-    "ast_hash": "ef0abfdc749055531c6c214406479d5a",
+    "mtime": 1748968670.0,
+    "ast_hash": "e85b85557e95629259b6a10a9ab6d016",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/item/transmutation_tablet.png": {
-    "mtime": 1785552084.636216,
+    "mtime": 1748968670.0,
     "ast_hash": "ce2eb354996437e72421d10c2bcceb4c",
     "semantic_hash": ""
   },
@@ -3090,8 +3085,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/events/NetworkEvents.java": {
-    "mtime": 1785610374.16993,
-    "ast_hash": "e3cf08df616108a37871414d77980186",
+    "mtime": 1785942576.1431684,
+    "ast_hash": "364a439ffc4194ddb2d2f43d95a7563f",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/MatterFurnaceMenu.java": {
@@ -3105,13 +3100,13 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/dm_furnace.json": {
-    "mtime": 1785610248.317565,
-    "ast_hash": "652f1de751f19fafcd1df55c17a8ada9",
+    "mtime": 1748968670.0,
+    "ast_hash": "88eb704e4313b907fc98369e483a4c93",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/rm_furnace.json": {
-    "mtime": 1785610248.320976,
-    "ast_hash": "047ea75b7203982a657acdbe2b517ee7",
+    "mtime": 1748968670.0,
+    "ast_hash": "d680992f82c2c211f6c455c54b0df10f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/items/dm_furnace.json": {
@@ -3125,13 +3120,13 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/dm_furnace.json": {
-    "mtime": 1785610248.317565,
-    "ast_hash": "045a5ba75d6bb18f886467c2c1cc2ea4",
+    "mtime": 1748968670.0,
+    "ast_hash": "0245431b5ec5827c8f8346417c981be0",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/rm_furnace.json": {
-    "mtime": 1785610248.3189807,
-    "ast_hash": "d7188e3042dfbe7212a9e1c4b3473c33",
+    "mtime": 1748968670.0,
+    "ast_hash": "84041c2ed6d2a8dc4a68286f2b2b8643",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/loot_table/blocks/dm_furnace.json": {
@@ -3165,23 +3160,23 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/matter_furnace/dm_off.png": {
-    "mtime": 1785610248.1959014,
-    "ast_hash": "482286624cb124aa10937c295053624e",
+    "mtime": 1748968670.0,
+    "ast_hash": "687824d4cdd76cc32131b37bcfaf18a6",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/matter_furnace/dm_on.png": {
-    "mtime": 1785610248.2385392,
-    "ast_hash": "ebfa802e6ba6e2cd1be0e61266aba1cc",
+    "mtime": 1748968670.0,
+    "ast_hash": "2ae8a8d3093208a5f7cec90d605f2f0e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/matter_furnace/rm_off.png": {
-    "mtime": 1785610248.2719429,
-    "ast_hash": "48b874157a515857ac34ae31d17758de",
+    "mtime": 1748968670.0,
+    "ast_hash": "c83cfd40eef5080c98d7bf1d4859170a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/textures/block/matter_furnace/rm_on.png": {
-    "mtime": 1785610248.3026419,
-    "ast_hash": "47b93acf4390a9ac1aa050275405dd91",
+    "mtime": 1748968670.0,
+    "ast_hash": "2c118c496c5ecfc544bd69ace0ebc4fb",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.24.md": {
@@ -3270,63 +3265,1783 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/de_de.json": {
-    "mtime": 1785784802.8333528,
-    "ast_hash": "eb727dd116bc77f52c4435861545db98",
+    "mtime": 1786003927.6631885,
+    "ast_hash": "d5c579c943d1b9a2fe351829f60b6448",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/es_es.json": {
-    "mtime": 1785778605.8376424,
-    "ast_hash": "384b3cf54c04bbc79a758557e6272f01",
+    "mtime": 1786003927.666188,
+    "ast_hash": "7b72ca269d55b9e6e8835e7a59ed41d1",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/fr_fr.json": {
-    "mtime": 1785784819.214743,
-    "ast_hash": "6e64e9c248dc1153a94d4fe9b1f779e8",
+    "mtime": 1786003927.667477,
+    "ast_hash": "1c6b7bba5a30984bb7a44b20783ed8a6",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/it_it.json": {
-    "mtime": 1785784907.7391412,
-    "ast_hash": "3f10b8b59247339242404ade9a6e87c8",
+    "mtime": 1786003927.6685264,
+    "ast_hash": "c3d9004d364b6c53fa89b5eb0354db58",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ja_jp.json": {
-    "mtime": 1785784871.0514407,
-    "ast_hash": "80104c9bfadeb3c397bc7894296f32af",
+    "mtime": 1786003927.6685264,
+    "ast_hash": "f2c9f52d478801b93583e873fed3a48c",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ko_kr.json": {
-    "mtime": 1785784889.8884234,
-    "ast_hash": "1965d21523cc542e0ab11b3672006edd",
+    "mtime": 1786003927.6695368,
+    "ast_hash": "57407ebadbaa7ed13252986864b730c2",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/nl_nl.json": {
-    "mtime": 1785784944.3085136,
-    "ast_hash": "0b50a487acfb099ca45f6bb539cb9a79",
+    "mtime": 1786003927.6695368,
+    "ast_hash": "3c4037b6366341ecc613cdf8dcca7be1",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/pl_pl.json": {
-    "mtime": 1785784925.641857,
-    "ast_hash": "ab5cc53edc7b391b83a086713d349aea",
+    "mtime": 1786003927.6705987,
+    "ast_hash": "3185173a182839552d16f127bd2d6b72",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/pt_br.json": {
-    "mtime": 1785784785.1060667,
-    "ast_hash": "53e25009643a6aef6204be111599e90a",
+    "mtime": 1786003927.6705987,
+    "ast_hash": "44f16edcbf44cb8348ce7a41ef5baf4a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ru_ru.json": {
-    "mtime": 1785784837.3723712,
-    "ast_hash": "bb950429fd2d0106fd6737cb02fb99d5",
+    "mtime": 1786003927.6716833,
+    "ast_hash": "22e71a7c5b3eb14e65f25c28236f17ba",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/zh_cn.json": {
-    "mtime": 1785784852.8459926,
-    "ast_hash": "ee842ab325f2dc1ee86a3802f7f50004",
+    "mtime": 1786003957.741403,
+    "ast_hash": "e13d200c211e8a3865c655a2e31954c2",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.1.0.md": {
     "mtime": 1785785140.5915282,
     "ast_hash": "de00e2e46290c9a3cd347497c2328e49",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyEntities.java": {
+    "mtime": 1785972065.957652,
+    "ast_hash": "e91fc5b643727fc0aa2fdffca9a4e264",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/api/IEMCProvider.java": {
+    "mtime": 1785972268.0204809,
+    "ast_hash": "8ec03e709a78048c119ec93218bca70b",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/api/IEMCStorage.java": {
+    "mtime": 1785972253.8816788,
+    "ast_hash": "10ae33401b4e836a9e2eb80dca66a383",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/api/IEmcReceptor.java": {
+    "mtime": 1785972254.6013293,
+    "ast_hash": "5ce7fb7214ed06aba75139797246b96d",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/api/IKnowledgeProvider.java": {
+    "mtime": 1785972253.5165486,
+    "ast_hash": "0ea6040ae6b8f24a3750ab12080f4722",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/api/ITransmutationAllowed.java": {
+    "mtime": 1785972252.962528,
+    "ast_hash": "36a1892dc923828f3903d19f83d8ed78",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/api/events/EMCDiscoveryEvent.java": {
+    "mtime": 1785972930.5905836,
+    "ast_hash": "6b9ee422ac4590231bdc4796cf64b792",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/api/events/EMCTransmutationEvent.java": {
+    "mtime": 1785972258.8038995,
+    "ast_hash": "14ea20a4f78120ddf38b9db128e45ac0",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/api/events/WorldTransmutationEvent.java": {
+    "mtime": 1785972921.96557,
+    "ast_hash": "27dd26e488f466c951257c9ec9a06036",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/DMPedestal.java": {
+    "mtime": 1785971758.9801946,
+    "ast_hash": "67fa56e9dfc8e6f54e6fe6d779b3f1a1",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/DestructionCatalyst.java": {
+    "mtime": 1785972107.742747,
+    "ast_hash": "699fd8884ca1ac08f2225d016827a1d3",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/Pedestal.java": {
+    "mtime": 1785973191.1100934,
+    "ast_hash": "8b38330b3843b2ab56713bf936fcaab4",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/RMPedestal.java": {
+    "mtime": 1785971759.5036838,
+    "ast_hash": "ec14ad9cfd20bbe6b68e8620f4bd7f70",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/entity/DMPedestalBlockEntity.java": {
+    "mtime": 1785971788.419974,
+    "ast_hash": "a8101347fca725b0f9c87c6da5a4155d",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/entity/DestructionCatalystBlockEntity.java": {
+    "mtime": 1785971792.7532833,
+    "ast_hash": "20ab75459981a1e44cd9b5c9cbcee140",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java": {
+    "mtime": 1786001529.797862,
+    "ast_hash": "774de1747be0666b173d1eccb206ad3d",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/entity/RMPedestalBlockEntity.java": {
+    "mtime": 1785971788.909423,
+    "ast_hash": "ffd765cdc06a3b0df3c6c9c91c8ed67f",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/emc/RecipeMapper.java": {
+    "mtime": 1785952686.9375992,
+    "ast_hash": "9971dba3d499fe7fa119264fffd9a552",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/entity/EntityNovaCataclysmPrimed.java": {
+    "mtime": 1785972103.6139925,
+    "ast_hash": "85aadb4c10632399d7c9ae3b2d948dc0",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/entity/EntityNovaCatalystPrimed.java": {
+    "mtime": 1785972099.0642016,
+    "ast_hash": "878b6edaa36db4cbe52f7cec9ce5eebb",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/entity/EntityNovaPrimed.java": {
+    "mtime": 1785972117.592647,
+    "ast_hash": "a3d3c24012383ef2b97e0bfce4f28af6",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/integration/jei/EquivalentLegacyJeiPlugin.java": {
+    "mtime": 1786004058.05915,
+    "ast_hash": "856445f89023ec07baba4e50cdc1039b",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/integration/jei/TransmutationRecipeCategory.java": {
+    "mtime": 1786004343.4712198,
+    "ast_hash": "1f8de7c8be811baaea1a9b64d7567baa",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/integration/jei/TransmutationRecipeDisplay.java": {
+    "mtime": 1786003806.3106568,
+    "ast_hash": "47610397ed2d39edce4de791820f52af",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/integration/wthit/EquivalentLegacyWthitPlugin.java": {
+    "mtime": 1786004042.581452,
+    "ast_hash": "6f22b64a9f289f7a9f20a3de1e1e8aa7",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/integration/wthit/TransmutationComponentProvider.java": {
+    "mtime": 1786003836.8003185,
+    "ast_hash": "57470a92a654338ef7c6531fa88f163d",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/PEAxe.java": {
+    "mtime": 1785971745.6306975,
+    "ast_hash": "9005de9dc6d34cbff8226849f6d1adf4",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/PEPickaxe.java": {
+    "mtime": 1785971747.1504283,
+    "ast_hash": "cb2e8de6ae062066bb5d526f9dd09523",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/PESaw.java": {
+    "mtime": 1785971747.953816,
+    "ast_hash": "f6b93167c3f3c04e53c1c912d77bcb58",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/item/TransmutationStone.java": {
+    "mtime": 1785971744.8470554,
+    "ast_hash": "565bff92d4f43d5fbfeae4f659500773",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java": {
+    "mtime": 1785972302.8974733,
+    "ast_hash": "d430cf95546e25e1c90882c09562d0fa",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/rendering/EquivalentLegacyRenderers.java": {
+    "mtime": 1786001590.241582,
+    "ast_hash": "aa245fa3bcc444c1b69064905e3bceb6",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java": {
+    "mtime": 1786001583.1640894,
+    "ast_hash": "94227edd92fd299a6be48669e218a06b",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/rendering/TransmutationRenderingOverlay.java": {
+    "mtime": 1786001710.7163727,
+    "ast_hash": "b5a4bac82a845401868a1ada2748f744",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/world_transmutation/TransmutationConfig.java": {
+    "mtime": 1785972285.064051,
+    "ast_hash": "fd439f3117ebb8a5f808484606bf6a37",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/world_transmutation/TransmutationResult.java": {
+    "mtime": 1786003743.4531198,
+    "ast_hash": "168aad696687d704454fc10e45ee34f5",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/world_transmutation/WorldTransmutationManager.java": {
+    "mtime": 1786003766.7990305,
+    "ast_hash": "714b24e596172ab4ee0d98b8ad262548",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/blockstates/destruction_catalyst_block.json": {
+    "mtime": 1785972182.5671115,
+    "ast_hash": "73c3f978d01939cec4dfc34b5afcc934",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/blockstates/dm_pedestal.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "b2e9b0e656405297d6a5e9ab7b717647",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/blockstates/nova_cataclysm.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "47e88393170af0dd5038b8c6e4c4bc24",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/blockstates/nova_catalyst.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "75c842dfcb73f52254ddec22c0895b7c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/blockstates/pedestal.json": {
+    "mtime": 1785972182.550542,
+    "ast_hash": "d84f77f353008cb7191e381e312bd837",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/blockstates/rm_pedestal.json": {
+    "mtime": 1785972182.5528843,
+    "ast_hash": "35e6c5f539a8cce3423ad3ce7b35876a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/blockstates/wall_interdiction_torch.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "3679687b6eac45d81c787fae070533ef",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/lang/cs_cz.json": {
+    "mtime": 1786003927.6626863,
+    "ast_hash": "ef0d8eddb6bbab3b3d94c25f826e0343",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/lang/en_au.json": {
+    "mtime": 1786003927.6631885,
+    "ast_hash": "0aaff4fd567b8d8a3a07b16dbd8877a4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/lang/en_gb.json": {
+    "mtime": 1786003927.6631885,
+    "ast_hash": "0aaff4fd567b8d8a3a07b16dbd8877a4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/lang/en_ud.json": {
+    "mtime": 1786003927.6651917,
+    "ast_hash": "23c37a4bd9d30f4db0bfdf28c25c093f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/lang/tr_tr.json": {
+    "mtime": 1786003927.672834,
+    "ast_hash": "a75fa5a1536d81c9781693c57de98ff9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/lang/uk_ua.json": {
+    "mtime": 1786003927.6738987,
+    "ast_hash": "626daefd30aa5b5c81ffceb809b2ab5a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/base_chest.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "75c48498418cabd0aca83f49727b9b77",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/destruction_catalyst_block.json": {
+    "mtime": 1785972182.567608,
+    "ast_hash": "77227441603121797f294a1de4899e36",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/dm_furnace_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "7f22c0cd7aff949cbc9df175ed8707c9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/dm_pedestal.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "96e53ee864d8801776b9b8e4ef4b8960",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/nova_cataclysm.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "e467a0adc89c6ce3db695fb1660b09b5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/nova_catalyst.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "9131aa02b01cfd65bd13c7382b8d2c06",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/pedestal.json": {
+    "mtime": 1785972182.550542,
+    "ast_hash": "dd245dccab048b3bf3a21998e71525f1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/rm_furnace_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "f625b2c4c26de14796bc89e3cacf1c2a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/rm_pedestal.json": {
+    "mtime": 1785972182.5538995,
+    "ast_hash": "952e4aab3ebd3e3771dab86546210c22",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/block/wall_interdiction_torch.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "931ac14115db52adc6194bac8ef5b450",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/aeternalis_fuel_block.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ae2f46eb59a788350a4cc90331ca69e8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/alchemical_chest.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "2e103f703740b26b147d933be1f8cbe0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/alchemical_coal_block.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "7878b00ed6139735ee1f0ba51fe99ed6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/arcana_harv_off.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "27619adc8937306395b5d046d2199030",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/arcana_harv_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "07856af27fefa608819dd7fbf9cecafa",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/arcana_ignition_off.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "e0994cbd19e45fcc65454f8e78fa0de1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/arcana_ignition_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "27c883a040db0ac247f8eb463547095a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/arcana_swrg_off.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ab610e64270f4050cd1c7e6bf3df0a04",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/arcana_swrg_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "98275cad03945c06e399a0b51511a6b1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/arcana_zero_off.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "e715e781be356ebfc102d73b53de06ad",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/arcana_zero_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "3c53baa816a22fd1a0b4e73bf47952d8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/black_hole_band_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "0e2214185240db5ea264d9e0acf8f2ac",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/body_stone_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "818e241b1f97f2f72592ef1a67140a33",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/collector_mk1.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "8e5e33f55bdf4ef037f6c47cce8ba990",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/collector_mk2.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "397a212911f7eac579a0c309eb25c6b1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/collector_mk3.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "84b385f3720749c5fba4a7a980221654",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/condenser_mk1.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "6832730f8c315204e9882ce9a35f5f69",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/condenser_mk2.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "371a0f56615527fdbd67e3e691838713",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_block.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "4f538a72c59d8f5be1389ba4eccb9c8f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_axe.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "5ee01e6c01ca875e9168b9c912b0e89a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_boots.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "de188c21c4c732f54da0530b6d8a8359",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_boots_amethyst_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "c898fd38bee2cb742b84a3ede4071953",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_boots_copper_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ac5c16de4fb4d18f722fad7f6a8523f3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_boots_diamond_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "0c5a4214e12a113f48699fc46c066857",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_boots_emerald_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "c61b925987214fc0c60bcb57ebf8ee86",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_boots_gold_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "2621b6b3dfddcf17f292026c3b1d0d8a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_boots_iron_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "9606e9ebd933c6fcd249bcfc6cfd9189",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_boots_lapis_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "dac5f42e11c8881783a14ae503c51713",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_boots_netherite_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "82807765ccf595f7cc5bf94d6374e238",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_boots_quartz_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "3c55ac53e6c6abaaa7c49d266964315f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_boots_redstone_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "24299f9d4296e1fa2eb6ddc7f27eb669",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_chestplate.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "a2711276283af3953053ea156d96c4ec",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_chestplate_amethyst_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "888b65e5e15939fd166e3309146969cd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_chestplate_copper_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "9e845552cdd456c3d165ddedd207f17b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_chestplate_diamond_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "d15520db2e6397b4262e6dc6ee54aac5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_chestplate_emerald_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "e6f4db76809adc481c4b3fa29271e23b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_chestplate_gold_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "006b1bd05567945d52a9c1204348214e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_chestplate_iron_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ecb5a5e58fdea8f29e988ce3a6237b84",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_chestplate_lapis_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "2412913b855d7d0ed5a57f8873ce6368",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_chestplate_netherite_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "797a27ac5a2b5aec5b9c523e0e685647",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_chestplate_quartz_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "d7a747f5d90949df5c46daa85fc334b0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_chestplate_redstone_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "8cb1479ef8e6a8e3b7bdf031fc647928",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_furnace.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "3770a3c17be1d65cec3eab392e91768a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_hammer.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "da6232dfc123efcc0397ed307c0d0fd8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_helmet.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "480ead0a6ecb85d6f145732ea1d677d7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_helmet_amethyst_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "dcac17bc2c3557bd1c19272b227b145f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_helmet_copper_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "8f313975c7677ce31b794b92b8cce471",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_helmet_diamond_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "c31de8dae9f8e074c56bcedaa10a89f8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_helmet_emerald_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "555f184bf408b646202c60bc48309727",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_helmet_gold_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "671c3095494a0abc3103cf08494142c5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_helmet_iron_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "7d76b6f538d2eaa7b842af957aa556b5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_helmet_lapis_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "e7615eecc1e53807fc0e9cf632400706",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_helmet_netherite_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "6f40e798a3deb5b8a9576d6d3a8f5598",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_helmet_quartz_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "0071207b8f262663dd369f087b810eba",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_helmet_redstone_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "b4a71e470873df4d5692f557472cd0ac",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_hoe.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "b9516fe8834c75cc0375651d735d71a0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_leggings.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "6640dcc67cd66c40fdb3e43e2fc4bcfb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_leggings_amethyst_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "69dc60dc9a5c3599ef66c5b82f03c9a8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_leggings_copper_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "b19464615e5d0c053861aee0f487063e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_leggings_diamond_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "456a4a4e86713dbdc5f1f88657972a9d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_leggings_emerald_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "bae7182e08fa627156c046dcff968962",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_leggings_gold_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ace80fa0c9deec124956c63f7b567941",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_leggings_iron_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "1b167d8b1324011c827d32072927f6a5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_leggings_lapis_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ef1ff833cc1aaa03e4c7bf1884a2d73e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_leggings_netherite_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "dcf85d4ef5b212b715852705a9642659",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_leggings_quartz_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "1987aefc1d161bffac1a927b469f6374",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_leggings_redstone_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "d78f22e7e8a070e121e606c8deed450c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_pedestal.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "07f477c3ba86e14082866d610983d288",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_pick.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "3b8871f017a8d8f70350330110133560",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_shears.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ef94b45ec97e74b101d6ee83ea861f91",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_shovel.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "6dcdd501621a869b3f53e490433c9498",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_sword.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "5c19fffd17ede1b3bad7b344709b9d74",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_boots_amethyst_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "4d61eb662fa26137e190dd86fa10a741",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_boots_copper_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ceb3f535f802caa0ffca86fb61a0ac29",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_boots_diamond_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "51a39328620f2e80454a30601af2c957",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_boots_emerald_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "83f1eda42e862f057b51dab642d95e80",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_boots_gold_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "46adcf25da80804e5d73a4af9b8c32c5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_boots_iron_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "a611aebf5aa30dd16c22cabe0cef28b4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_boots_lapis_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "fa000d36f49d533a6e8351049c176c3f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_boots_netherite_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "7aaacc8f48e2ec3fc502c8293ae329cf",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_boots_quartz_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "a1c90e2064738929473e4925c3d529a8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_boots_redstone_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "6d15371750e1f2b29a89297f64f571ed",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_chestplate_amethyst_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "49ab67644040edef62984f96b6a0cd97",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_chestplate_copper_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "3758e43f7ff59b344556a8a57540cec4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_chestplate_diamond_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "51cbf8a620905badd9924ca9a59ab104",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_chestplate_emerald_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "81ad625d5b91167efffb17dc06b734d1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_chestplate_gold_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "a91fcdb1465efc52629fb4af21962684",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_chestplate_iron_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "a6c793addeec7fa8097dba952527e7ed",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_chestplate_lapis_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "a7e166dc3df48744ac4eb4f0bd9d3749",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_chestplate_netherite_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "55c89d94067fefbbce69b6b480c90cd3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_chestplate_quartz_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "658ebd5b44186a94b3e5d1367a5442ee",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_chestplate_redstone_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "aec9be1009812daacff75407369f5e53",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_helmet_amethyst_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "3c7ff26336b64fcaa42a149ef5105208",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_helmet_copper_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "12d5d6128caaa8d23e479a228695017f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_helmet_diamond_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "65d28ebf7e04fc42bc8a51c34845c6d9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_helmet_emerald_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "3f72f1981d7a7f3921faf3d2014acdc2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_helmet_gold_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "b8b3439854914d884567ab73e5ce152d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_helmet_iron_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "b9652ef23d90d75a40ec7ab1b68d4688",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_helmet_lapis_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "5ea2e402de6e46cf7c9a41bdfd11038b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_helmet_netherite_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "847e6468e4cdf6746985f18e3d8540c3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_helmet_quartz_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "edb0ed077d52ef6314cfb67f148c322e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_helmet_redstone_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "041b302a6effe5e58db1fde401962d27",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_leggings_amethyst_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "bd6ec6da7a440ecdd9bc00b65ed111e4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_leggings_copper_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "900a5e5c058e5f31b1311922c3500a51",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_leggings_diamond_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "7bba46009c70631baa817dff1c304603",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_leggings_emerald_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "944b115584e528885f9debff07a535c5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_leggings_gold_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "1fcc08e6172a1338918f4284b626c274",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_leggings_iron_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "89591422c247fce252a3c0fa9ad0672d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_leggings_lapis_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "8ad0e904f811cd75c9fdad001eaa907b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_leggings_netherite_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "9a8ffcc4ce4659f49a4526c244efcb1d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_leggings_quartz_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "02f6415c1208a52282ae515d1fa5c6cb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_leggings_redstone_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "f8e2fafa17d6587a7f2d8c5561b8e5d1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/gem_of_eternal_density_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "52d44756cb7826a270c0f02241b6829e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/harvest_goddess_band_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "18008292bf02bdb90ded8a09fefbd9ad",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/ignition_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "41000113cf8dd5e576e8c340429aa7bc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/interdiction_torch.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "652fc61626c765c0348e10782afb17e3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/life_stone_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "7bcac5a790990c142d4d8329399fc978",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/manual.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "c8ba837527e0646c8b9908c3eb46db3a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/mind_stone_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "b6aeda8d92a69e98e058704167b66c61",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/mobius_fuel_block.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "62648e9fb9e34cd3eca3b98c155a8ca4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/pe_axe.json": {
+    "mtime": 1785972172.3836982,
+    "ast_hash": "4dbf9d9213621ac5fd35404d9cd72f31",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/pe_pickaxe.json": {
+    "mtime": 1785972172.3846917,
+    "ast_hash": "0b331bba90a5161985a12d8e8eaf0abf",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/pe_saw.json": {
+    "mtime": 1785972172.3862197,
+    "ast_hash": "5362793a5ece3bfa804392ea6497da1e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_block.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "47b43ec7781908ce9de33fa940f16915",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/relay_mk1.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "f41310ada71589f519354832307043c1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/relay_mk2.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "51824b053a83e3560230f2ad78adaa3f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/relay_mk3.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "60630224479f1f0f6dcdf23d55566977",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_axe.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "1d9787538ae209acf293362af3530921",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_boots.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "442f0eb04fa364efaced46521c8264af",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_boots_amethyst_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "97194bae155966b7a9b2a3b6acedf78b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_boots_copper_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "50476d135b060ba0a331d11143b8c1db",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_boots_diamond_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "6fbfc821559150cc97ac9b0a7b3a367d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_boots_emerald_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "29fad006ef048aaa8007f4a3ecb39746",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_boots_gold_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "5872b5ab4608d74a91750b22194c2c79",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_boots_iron_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "44905d9ab95542ebf119b1ff2a94edb7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_boots_lapis_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "1efc0aa4eb4c800fe83873bc13ccffd1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_boots_netherite_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "4965e7936b9a59d72a30311f420c2391",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_boots_quartz_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "6bb92e21a502f0327d51df4eba1ef869",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_boots_redstone_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "d75d1ad214b01d8db3a47ada247374d8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_chestplate.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "7f80b493ab47c1061f9b88d3ef24695f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_chestplate_amethyst_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "abdbfe186f41d7faf0c51545b323e271",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_chestplate_copper_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "2c7f81b786cba3f3976067726ac7bfa8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_chestplate_diamond_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "fb8eeba7430232db23c544696a02ecd6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_chestplate_emerald_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "8ab4d4da319c3e51f8e18d56e58c1e01",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_chestplate_gold_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "7a45baca00df56f114235458684dba37",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_chestplate_iron_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "60675659797f976f07e1a24da30271e0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_chestplate_lapis_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "0a54ab020a044ddb52aa1ba1eb2e3ff6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_chestplate_netherite_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "a175719d6f27a040f4f8c50b84cdd11b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_chestplate_quartz_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ac5b5e9c7d055bbd715529c2e80d3efc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_chestplate_redstone_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "425dc42373a39be5493af971751d5fe7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_furnace.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "125a280e07a44464e9a51665241751de",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_hammer.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "a0a07f138b74c43b2f7e8ade2c9b39d7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_helmet.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "c2cc5186419be71913becf92f1132a78",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_helmet_amethyst_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "4c1b74286fccfae454adcb468ef322ef",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_helmet_copper_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "20ef7c70adf1bf724c7ac7e8f8a493e8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_helmet_diamond_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "368b11cfc6804d0e77a8614f3736377d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_helmet_emerald_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "7ab5d274c663a04b68dbf9c28142e391",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_helmet_gold_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "7130b941925c8b6310ad963d46458d82",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_helmet_iron_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "97c2873f0368338448cc0e79de014207",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_helmet_lapis_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "04224bffaea3a09147e5484f9c599e25",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_helmet_netherite_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ff3899bfab24b80c36c4a20d3beebb99",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_helmet_quartz_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "01754cbdd7ac84bddf4f35fbe645e1fc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_helmet_redstone_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "16a703a343209775e8d033b7ebdc76d3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_hoe.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "61388560656b27f1ed3b9cb388423c2f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_katar.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "efdacde34538cfa4133ce36215dfae76",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_leggings.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "dffa685d3f480d025ed50a7ebf6d4241",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_leggings_amethyst_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "9060c68787c2a479ef1f86235aa79751",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_leggings_copper_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "67f8ef5315dc17a80a8f593a23a168f8",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_leggings_diamond_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "94cb4201d5dcd938df1a28ad1612b1c1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_leggings_emerald_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "b03cea5bb0faca70258a7c75aec34c67",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_leggings_gold_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "fbd7b85afb0b94ed10da056dfdfddc8c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_leggings_iron_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ebd8765927bab8d17cb65dad1b43f321",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_leggings_lapis_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "005559f84f7ba0c01f622301de8f5916",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_leggings_netherite_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "65b6737a51cd6b1de13bb2b77d5456b0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_leggings_quartz_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "e94a4d25e89eb3a381d2186dce967fcb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_leggings_redstone_trim.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "723cb53eecc0c04c540a895673070827",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_morning_star.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "0592e764cb0966742ef6c91bd0471189",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_pick.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "1317dc424f1bb10e717576644b48fc05",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_shears.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "01570ae89b97aac79824933350b7c8f1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_shovel.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "2d341619f866f6f44b0f8c6720b55cba",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_sword.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "c5b3481895279007a5921aa120880024",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/soul_stone_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "d1d31899353e0c4e8b4220e5275b9e42",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/swiftwolf_rending_gale_fly.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "b20cf102ff76857a2961fcedbe114be4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/swiftwolf_rending_gale_fly_repel.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "aa53bcfefa0558377f63bb462eaa5ebb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/swiftwolf_rending_gale_repel.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "71c2a277f45b9d39e69ca04862de4303",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/transmutation_stone.json": {
+    "mtime": 1785972172.3821733,
+    "ast_hash": "ef0c772e7ea659acaf2afe5cc9eb1c8f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/transmutation_table.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "0fae1ff535e5357eb5dbcb5e4df4cbb4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/void_ring_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "36af9a1f66aec512f05028ad990f5d76",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/watch_of_flowing_time_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "66e54435a2e89174fb5a12a3c3f03cc9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/zero_ring_on.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "84e983d66c2298f6288eb6e31b79e390",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds.json": {
+    "mtime": 1748968670.0,
+    "ast_hash": "e4685e1cb9b56522435553cf7c2aab78",
+    "semantic_hash": ""
+  },
+  "src/main/resources/wthit_plugins.json": {
+    "mtime": 1786004528.4451954,
+    "ast_hash": "f119592ee3fc4a7a5925b2c455f0dc71",
+    "semantic_hash": ""
+  },
+  ".claude/plans/equivalent-legacy-phase1-2.md": {
+    "mtime": 1785971160.962263,
+    "ast_hash": "c928f15be8ae631217f796cdea764a53",
+    "semantic_hash": ""
+  },
+  ".claude/plans/jei-wthit-phase-2.4.md": {
+    "mtime": 1786002926.3585024,
+    "ast_hash": "35dfd3ab13304a722300b15745e6c302",
+    "semantic_hash": ""
+  },
+  ".claude/plans/rendering-phase-2.2.md": {
+    "mtime": 1785999761.9926612,
+    "ast_hash": "2fab0f142ab4cb34ead6f91833e531c2",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.1.1.md": {
+    "mtime": 1785942982.8589103,
+    "ast_hash": "b34fc655d0695cc809fa9351a891ed03",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.2.0-beta.1.md": {
+    "mtime": 1785953193.6983812,
+    "ast_hash": "c347f3dd8db626a4ed7e3b751da07ba9",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.2.0-beta.2.md": {
+    "mtime": 1785953198.7581487,
+    "ast_hash": "66afc894ec09a203f89b9e9b0494f400",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.2.0-beta.3.md": {
+    "mtime": 1785975645.7313993,
+    "ast_hash": "806874033a1f9d597f1c070ccf05b38c",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.2.0-beta.4.md": {
+    "mtime": 1785999405.33548,
+    "ast_hash": "7f5dd856441366bf6af5939db6e9f016",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.2.0-beta.5.md": {
+    "mtime": 1786002159.449267,
+    "ast_hash": "b4f64c9e8e05aaa5b9f5532f68c1db40",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.2.0-beta.6.md": {
+    "mtime": 1786004700.2667084,
+    "ast_hash": "15fe34293318580eeadedb00c9e9c902",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/kappa/philokappa112.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "f134d65edd2881b3a374eae63664dc2a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/kappa/philokappa28.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "052012e4f47d594c55161c4df9f54039",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/kappa/philokappa56.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "dbf29ba4032401779169a94e76ef685d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/explosives/bottom.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ba2a884613de2a3df3888c1c238f0a84",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/explosives/nova1_side.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "72ac7e0eda41ee1816480f02fdc60049",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/explosives/nova_side.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "96e13915ccf6de49b4dbd7928f81c3b3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/block/explosives/top.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "83979ee9685a4fd7db4dc5e2a9fc81a5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/entity/fireball.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "e96116e18fba31e62bc86f6ea96b295d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/entity/lava_orb.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "dc10a4516097bdee220b668e6f3cf70c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/entity/lens_explosive.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "0ff77187e8dd54696f97bdedf3bba380",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/entity/lightning.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "4b100aadbbee44a45fb607c8ffae2667",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/entity/randomizer.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "dacdd7d8a6ee19a0184c38dff6073da9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/entity/water_orb.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "16c6f06163724ba66542a4c424f21ed4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/gui/book_texture.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "463c69c47ec5a74acd3c50fcc511e2fc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/gui/dmfurnace.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "2f9c2a88944d29e6f6f6e0c3a9085e34",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/gui/eternal_density.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "f0ba87f0a82531db655a7566ca2ac828",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/gui/mercurial_eye.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "c8071ed547eb00d77c1533533016b96b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/gui/nei.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "103849cd20865385ae0ab93353268cc2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/gui/portaldevice.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "37bdd70c29a653db111d3cab13c2c0bd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/gui/rmfurnace.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "6a9b0a9e330eeb6fd4b618871792b619",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/gui/transmute.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "2543ee0cc0fd9d3611e6d8a90a1a6ad4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/book.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "0645f2c10ff677aa65f3e7e4bfce4d7e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/dense_gem_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "7c8c909029d1d2a3bfac83e2fd149b2b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/arcana_0_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "9a9a4f34ee40f3bb97f7b36ac4f2ebcc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/arcana_1.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "34a2368f36dee84d1f4bb6a022adac5a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/arcana_1_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "1b6d9342696b6e9e8edf58361871ee62",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/arcana_2.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "17a04fa1b1f1b4e1e006cfbf84bfbbff",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/arcana_2_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "d7cd7b7afda9bc04d31b7a94ca6ebaa5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/arcana_3.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "669ea93a2a01d890f58429580aa99e4f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/arcana_3_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "b5a458a65669d79559a5a8e95e82fce7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/archangel_smite.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "1aac75afc287b6307f8965d525c9e971",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/black_hole_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "f9991bbf02c3f1d3147290d77d35f75c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/body_stone_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "4bfdaa3dcd40d45f23cbc301271488fb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/harvest_god_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "25d8c2ea32b47520b541973c04d68ca0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/ignition_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "a0dc0092e02d36b0fe75f817ae3d5f89",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/life_stone_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "6fec250eede15a1e5b85772a67dcf9c5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/mind_stone_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "35470581ea6e37a9c04540fe6ad91c23",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/soul_stone_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "36f5ae3fbeda22ad83bd5bf00319f36d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/swrg_on1.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "b9c6849b33465f2f00827668baad92e4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/swrg_on2.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "1e7e07c0ef8dea14eda4087cdc5d1bda",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/swrg_on3.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "929d56e659f0645a1b2af4ab612a70ca",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/time_watch_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "1fa98da539bd9207d37ca14503c1f63e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/void_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "4a9734de2ce7bae7a825b6a048f1a89a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/item/rings/zero_on.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "94927fa4488f880206155247e23e4dd6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/models/armor/dark_matter_layer_1.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "9df9a3b98c2d06dbab41baa8c98fc357",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/models/armor/dark_matter_layer_2.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "78736368a80b321f76ce98ba6fa5b03e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/models/armor/gem_armor_layer_1.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "5e36588d91c4b679e872616dc3611368",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/models/armor/gem_armor_layer_2.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "21828390d7f7a7c9b94a7194acc78bd3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/models/armor/red_matter_layer_1.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "62d1c3caa3e0ca33a68549ef2fbe4050",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/models/armor/red_matter_layer_2.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "57b0c9be124e28e8ef3f24b589948995",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/models/heartcircle.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "1efa051eebe10e8379653c3c1a09d484",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/textures/models/yuecircle.png": {
+    "mtime": 1748968670.0,
+    "ast_hash": "f65b5c6429fea26a92597634de2d6235",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/chargetick.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "5babbfc563df37c3b7e8449c709dfbdc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/gust.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "5e4170a1f54a74d3f8d7bfa7ddc22e03",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/kinesis.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "72c575744376dccf668829f530fca9aa",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/launch.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "e8d9d1b14a4af69ce0488f09850e5a5b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/nova.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "212a7e58a6eb3f55863a5df38efee4a2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/pecharge.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "ef2ddc2b6e29072cc98f191f091c8b12",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/pedestruct.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "bc52832e24ed4fd9a2c5b3a8b2ae3695",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/peheal.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "7bcf6ddb86e60c6ce52f75ad43519a21",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/pepower.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "91e1aa4bf8a1ad29ea5c2321aad59c0b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/petransmute.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "19875da5bca5964d015b160132855f65",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/peuncharge.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "31b9b568e3603ed0e1ac1955d26919b4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/pewatermagic.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "4b03f482b187302fdcd3e4ef28463247",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/pewindmagic.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "ecb200351bc735cbb6dcf3c28d3beac7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/philball.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "e9f9eb29e82f2319f8c519f77a203611",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/item/tock.ogg": {
+    "mtime": 318204000.0,
+    "ast_hash": "a198eb204d970c398a9db4f09d01aa6b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/chargetick.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "5babbfc563df37c3b7e8449c709dfbdc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/gust.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "5e4170a1f54a74d3f8d7bfa7ddc22e03",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/kinesis.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "72c575744376dccf668829f530fca9aa",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/launch.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "e8d9d1b14a4af69ce0488f09850e5a5b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/nova.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "212a7e58a6eb3f55863a5df38efee4a2",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/pecharge.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ef2ddc2b6e29072cc98f191f091c8b12",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/pedestruct.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "bc52832e24ed4fd9a2c5b3a8b2ae3695",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/peheal.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "7bcf6ddb86e60c6ce52f75ad43519a21",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/pepower.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "91e1aa4bf8a1ad29ea5c2321aad59c0b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/petransmute.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "19875da5bca5964d015b160132855f65",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/peuncharge.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "31b9b568e3603ed0e1ac1955d26919b4",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/pewatermagic.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "4b03f482b187302fdcd3e4ef28463247",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/pewindmagic.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "ecb200351bc735cbb6dcf3c28d3beac7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/philball.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "e9f9eb29e82f2319f8c519f77a203611",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/sounds/item/tock.ogg": {
+    "mtime": 1748968670.0,
+    "ast_hash": "a198eb204d970c398a9db4f09d01aa6b",
     "semantic_hash": ""
   }
 }
