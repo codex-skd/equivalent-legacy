@@ -35,6 +35,7 @@ public class EquivalentLegacy {
     private void commonSetup(FMLCommonSetupEvent event) {
         LOGGER.info("Equivalent Legacy loading...");
         initEmcValues();
+        com.skd.equivalentlegacy.world_transmutation.WorldTransmutationManager.registerDefaultTransmutations();
     }
 
     private static void initEmcValues() {
