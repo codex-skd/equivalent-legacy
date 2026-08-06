@@ -1,5 +1,60 @@
 # Changelog — Equivalent Legacy
 
+## 1.2.0-beta.6
+
+- **Fase 2.4 JEI/WTHIT Integration**: integración de JEI (recetas de transmutación) y WTHIT/Jade (tooltips de EMC al hacer hover)
+- **JEI**:
+  - Nueva categoría **Transmutation** (`equivalent_legacy:transmutation`) con todas las conversiones de bloque y su coste EMC
+  - `TransmutationRecipeCategory`: layout `input → flecha → output` + texto de coste (verde "Free" si no cuesta) y tooltip al pasar el ratón
+  - `EquivalentLegacyJeiPlugin`: carga las recetas desde `WorldTransmutationManager` una sola vez en startup; Philosopher's/Transmutation Stone registradas como crafting stations (lookup con click derecho)
+- **WTHIT/Jade**:
+  - `TransmutationComponentProvider`: al hacer hover sobre un bloque transmutable muestra "Transmutable: <bloque>" (oro) y "Coste: <n> EMC" (verde si asequible, rojo si no, gris si es gratis)
+  - `EquivalentLegacyWthitPlugin` (`IWailaClientPlugin`) registrado vía `wthit_plugins.json` con el formato `entrypoints` de WTHIT 20.x
+- **WorldTransmutationManager**: helpers nuevos `isTransmutable`, `getTransmutation`, `getTransmutationMap`, record `TransmutationResult` y `registerDefaultTransmutations()` (~90 mappings vanilla bidireccionales: piedra, tierra/arena/grava, nether, end, maderas y menas)
+- **Dependencias opcionales**: JEI `30.15.0.121`, WTHIT `neo-20.0.0` y Bad Packets `0.12.2` en `build.gradle` (`compileOnly` + `localRuntime`), repos BlameJared y Bai Maven, dependencias opcionales en `neoforge.mods.toml`. El mod funciona sin JEI ni WTHIT
+- **Idiomas**: 6 claves nuevas (`jei.equivalent_legacy.*` y `tooltip.equivalent_legacy.*`) añadidas a los 18 lang files con traducciones
+- **Notas**: el plan proponía JEI `19.14.0` / WTHIT `11.7.1`, pero las versiones reales para MC 26.2 son JEI `30.x` y WTHIT `neo-20.0.0`; se registró un set por defecto de transmutaciones porque la Fase 2 dejó `REGISTRY` vacío (sin mappings no habría nada que mostrar en JEI/WTHIT)
+- **Compilación**: NeoForge 26.2.0.37-beta, build clean (javac 0 errores/warnings). Verificado con `runServer` y `runClient` con JEI + WTHIT cargados sin crashes
+
+## 1.2.0-beta.5
+
+- **Fase 2.2 Rendering**: Implementación parcial de renderers custom client-side
+- **PedestalRenderer**: BlockEntityRenderer real para los 3 pedestales (base, DM, RM) — item flotante con rotación suave (360° cada 160 ticks) y bobbing sobre el eje Y. Glow para Philosopher's Stone vía `LightCoordsUtil.FULL_BRIGHT`
+- **PedestalBlockEntity**: Helpers `getItemRenderPos(float)` / `getItemRenderRotation(float)` basados en `level.getGameTime()` (animación client-side fluida, no dependiente del server-only `tickCounter`)
+- **TransmutationRenderingOverlay**: HUD overlay real (NeoForge `GuiLayer`) que aparece al sostener Philosopher's/Transmutation Stone: muestra icono de stone → icono de bloque destino + costo EMC. Colores verde/rojo/gris según affordability. Cache de 20 ticks para el lookup de transmutación/EMC (no se recalcula cada frame)
+- **EquivalentLegacyRenderers**: Dispatcher real (mod bus, `Dist.CLIENT`): registra `PedestalRenderer` para los 3 `BlockEntityType` de pedestales y registra el `transmutation_overlay` GuiLayer vía `RegisterGuiLayersEvent`
+- **Adaptación del plan a la API real de NeoForge 26.2**: el plan original (Fase 2.2) describía la API legacy `render(entity, partialTick, PoseStack, MultiBufferSource, packedLight, packedOverlay)` + `BlockEntityRenderers.register(type, ::new)` + overlay vía `ScreenEvent.Init.Post` + `ItemRenderer.renderGuiItem()`. La API real 26.2 usa `BlockEntityRenderer<T,S>` con `createRenderState`/`extractRenderState`/`submit(state, PoseStack, SubmitNodeCollector, CameraRenderState)`, `Identifier` en vez de `ResourceLocation`, `GuiGraphicsExtractor` en vez de `GuiGraphics`, registro de overlays vía `RegisterGuiLayersEvent` y registro de BlockEntity renderers vía `EntityRenderersEvent.RegisterRenderers#registerBlockEntityRenderer`. Ver sección "Deviations" en el reporte de implementación
+- **ChestRenderer (deferred)**: Animación de tapa de Alchemical Chest NO wired: requiere que `AlchemicalChestBlockEntity` implemente `LidBlockEntity` + tracking de `getOpenNess(partialTick)` ( syncing client del estado de apertura del menu) + un sprite atlas custom para `alchemical_chest.png`. Adicionalmente, `assets/equivalent_legacy/blockstates/alchemical_chest.json` referencia `projecte:block/alchemical_chest` (namespace legacy roto) y `models/block/alchemical_chest.json` no define la textura `#chest`, así que el modelo vanilla del bloque no renderiza correctamente hoy — pre-existente de fases de assets. Se dejó placeholder conservando `computeLidAngle` y se documenta como deviation
+- **ClientEvents (no creado como clase aparte)**: el plan §4 proponía una clase `ClientEvents` con `onClientSetup` + `ScreenEvent.Init.Post`. Esas responsabilidades se folding en `EquivalentLegacyRenderers` (plan §5, dispatcher existente) usando los eventos reales de 26.2; crear `ClientEvents` aparte duplicaría suscripciones
+- **Compilación**: NeoForge 26.2.0.37-beta, build clean (javac 0 errores/warnings nuevos). Sin memory leaks esperados (pushPose/popPose balanceado en `submit`)
+
+## 1.2.0-beta.4
+
+- **Fase 2 World Transmutation**: Sistema completo de transmutación de bloques en el mundo
+- **WorldTransmutationManager**: Lógica central para transmutación con consumo/ganancia de EMC
+- **PlayerEvents.onRightClickBlock()**: Detecta clicks con Philosopher's Stone o Transmutation Stone
+- **Pedestales**: 3 tiers (base, DM, RM) con inventario y rendering personalizado
+- **Nova Entities**: 3 tipos (Nova, Catalyst, Cataclysm) con explosiones
+- **PE Tools**: Hacha, pico, sierra con propiedades especiales
+- **Destruction Catalyst**: Bloque que dispara explosiones de nova
+- **Transmutation Stone**: Item alternativo para transmutación
+- **API Events**: WorldTransmutationEvent para integraciones de mods
+- **API Interfaces**: IEMCProvider, ITransmutationAllowed, IKnowledgeProvider, IEMCStorage, IEmcReceptor
+- **Verificado en modpack**: Todas las características de Fase 1-2 testeadas y funcionando
+- **Compilación**: NeoForge 26.2.0.37-beta, JAR 1.2 MB, 42 archivos nuevos
+
+## 1.2.0-beta.3
+
+- **Assets completados**: Integración de 670 archivos de assets (modelos, blockstates, texturas, sonidos, idiomas)
+- **Fase 1-2 visual**: JSON models para 278 items + 28 bloques, blockstates completos para pedestales, novas y destruction catalyst
+- **Texturas**: 177 archivos PNG cubriendo todos los items, bloques y equipos
+- **Sonidos**: 15 efectos OGG + sounds.json configurado
+- **Idiomas**: 18 paquetes de idioma (en_us, es_es, de_de, fr_fr, ja_jp, etc.)
+- **Entidades**: 3 tipos de nova entities (Nova, Catalyst, Cataclysm) con soporte ResourceKey para MC 26.2
+- **Block Entities**: Pedestales con inventario de una ranura, destruction catalyst con configuración
+- **Items nuevos**: Herramientas PE (axe, pickaxe, saw), transmutation_stone, pedestals en sus 3 tiers
+- **Compilación**: NeoForge 26.2.0.37-beta, JAR funcional (1.2 MB), listo para testing en modpacks
+
 ## 1.2.0-beta.2
 
 - **Fix**: Tome of Knowledge GUI now displays items correctly. The `setFullKnowledge()` method no longer clears the knowledge set.

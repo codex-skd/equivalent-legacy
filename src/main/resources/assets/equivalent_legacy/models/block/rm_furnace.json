@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/orientable_with_bottom","textures":{"bottom":"equivalent_legacy:block/collectors/other","front":"equivalent_legacy:block/matter_furnace/rm_on","side":"equivalent_legacy:block/matter_furnace/rm_off","top":"equivalent_legacy:block/collectors/other"}}
+{"parent":"minecraft:block/orientable","textures":{"front":"projecte:block/matter_furnace/rm_off","side":"projecte:block/red_matter_block","top":"projecte:block/red_matter_block"}}

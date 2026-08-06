@@ -8,12 +8,15 @@ import com.skd.equivalentlegacy.gui.MatterFurnaceScreen;
 import com.skd.equivalentlegacy.gui.ModMenuTypes;
 import com.skd.equivalentlegacy.gui.RelayScreen;
 import com.skd.equivalentlegacy.gui.TransmutationScreen;
+import com.skd.equivalentlegacy.EquivalentLegacyEntities;
+import net.minecraft.client.renderer.entity.NoopRenderer;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
@@ -39,5 +42,12 @@ public class EquivalentLegacyClient {
         event.register(ModMenuTypes.BAG.get(), BagScreen::new);
         event.register(ModMenuTypes.CHEST.get(), ChestScreen::new);
         event.register(ModMenuTypes.FURNACE.get(), MatterFurnaceScreen::new);
+    }
+
+    @SubscribeEvent
+    static void onRegisterEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
+        event.registerEntityRenderer(EquivalentLegacyEntities.NOVA.get(), NoopRenderer::new);
+        event.registerEntityRenderer(EquivalentLegacyEntities.NOVA_CATALYST.get(), NoopRenderer::new);
+        event.registerEntityRenderer(EquivalentLegacyEntities.NOVA_CATACLYSM.get(), NoopRenderer::new);
     }
 }

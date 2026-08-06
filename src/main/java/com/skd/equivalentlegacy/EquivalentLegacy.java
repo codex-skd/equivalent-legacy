@@ -21,6 +21,7 @@ public class EquivalentLegacy {
         com.skd.equivalentlegacy.item.EquivalentLegacyItems.ITEMS.register(modEventBus);
         com.skd.equivalentlegacy.block.EquivalentLegacyBlocks.BLOCKS.register(modEventBus);
         com.skd.equivalentlegacy.block.entity.EquivalentLegacyBlockEntities.BLOCK_ENTITY_TYPES.register(modEventBus);
+        com.skd.equivalentlegacy.EquivalentLegacyEntities.ENTITIES.register(modEventBus);
         com.skd.equivalentlegacy.item.EquivalentLegacyCreativeTab.CREATIVE_MODE_TABS.register(modEventBus);
         com.skd.equivalentlegacy.item.EquivalentLegacyDataComponents.DATA_COMPONENT_TYPES.register(modEventBus);
         com.skd.equivalentlegacy.item.crafting.ModIngredientTypes.INGREDIENT_TYPES.register(modEventBus);
@@ -34,12 +35,15 @@ public class EquivalentLegacy {
     private void commonSetup(FMLCommonSetupEvent event) {
         LOGGER.info("Equivalent Legacy loading...");
         initEmcValues();
+        com.skd.equivalentlegacy.world_transmutation.WorldTransmutationManager.registerDefaultTransmutations();
     }
 
     private static void initEmcValues() {
         var fixedValues = new com.skd.equivalentlegacy.emc.FixedValues();
 
         addBaseValues(fixedValues);
+
+        addEmcPhase12(fixedValues);
 
         var nssItem = com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(com.skd.equivalentlegacy.item.EquivalentLegacyItems.DARK_MATTER.get());
         fixedValues.addSetValueBefore(nssItem, 139_264L);
@@ -103,6 +107,18 @@ public class EquivalentLegacy {
 
         com.skd.equivalentlegacy.emc.EMCHelper.registerFixedValues(fixedValues);
         LOGGER.info("Registered phase 5 EMC values (Dark Matter, Klein Stars)");
+    }
+
+    private static void addEmcPhase12(com.skd.equivalentlegacy.emc.FixedValues fv) {
+        add(fv, com.skd.equivalentlegacy.item.EquivalentLegacyItems.PHILOSOPHERS_STONE.get(), 24_576L);
+        add(fv, com.skd.equivalentlegacy.item.EquivalentLegacyItems.TRANSMUTATION_STONE.get(), 32_768L);
+        add(fv, com.skd.equivalentlegacy.item.EquivalentLegacyItems.PE_AXE.get(), 9_216L);
+        add(fv, com.skd.equivalentlegacy.item.EquivalentLegacyItems.PE_PICKAXE.get(), 16_384L);
+        add(fv, com.skd.equivalentlegacy.item.EquivalentLegacyItems.PE_SAW.get(), 16_384L);
+        add(fv, com.skd.equivalentlegacy.item.EquivalentLegacyItems.PEDESTAL.get(), 512L);
+        add(fv, com.skd.equivalentlegacy.item.EquivalentLegacyItems.DM_PEDESTAL.get(), 1_253_376L);
+        add(fv, com.skd.equivalentlegacy.item.EquivalentLegacyItems.RM_PEDESTAL.get(), 3_760_128L);
+        add(fv, com.skd.equivalentlegacy.item.EquivalentLegacyItems.DESTRUCTION_CATALYST_BLOCK.get(), 4_096L);
     }
 
     private static void addBaseValues(com.skd.equivalentlegacy.emc.FixedValues fixedValues) {

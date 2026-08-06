@@ -112,6 +112,26 @@ public final class EquivalentLegacyItems {
 
     public static final DeferredItem<BlockItem> RM_FURNACE = ITEMS.registerSimpleBlockItem("rm_furnace", EquivalentLegacyBlocks.RM_FURNACE);
 
+    public static final DeferredItem<BlockItem> PEDESTAL = ITEMS.registerSimpleBlockItem("pedestal", EquivalentLegacyBlocks.PEDESTAL);
+
+    public static final DeferredItem<BlockItem> DM_PEDESTAL = ITEMS.registerSimpleBlockItem("dm_pedestal", EquivalentLegacyBlocks.DM_PEDESTAL);
+
+    public static final DeferredItem<BlockItem> RM_PEDESTAL = ITEMS.registerSimpleBlockItem("rm_pedestal", EquivalentLegacyBlocks.RM_PEDESTAL);
+
+    public static final DeferredItem<BlockItem> DESTRUCTION_CATALYST_BLOCK = ITEMS.registerSimpleBlockItem("destruction_catalyst_block", EquivalentLegacyBlocks.DESTRUCTION_CATALYST);
+
+    public static final DeferredItem<TransmutationStone> TRANSMUTATION_STONE = ITEMS.registerItem("transmutation_stone",
+            TransmutationStone::new, () -> new Item.Properties().stacksTo(1));
+
+    public static final DeferredItem<PEAxe> PE_AXE = ITEMS.registerItem("pe_axe",
+            PEAxe::new, () -> new Item.Properties().tool(MatterMaterials.DARK_MATTER, net.minecraft.tags.BlockTags.MINEABLE_WITH_AXE, 6.0F, -3.0F, 0.0F).stacksTo(1));
+
+    public static final DeferredItem<PEPickaxe> PE_PICKAXE = ITEMS.registerItem("pe_pickaxe",
+            PEPickaxe::new, () -> new Item.Properties().tool(MatterMaterials.RED_MATTER, net.minecraft.tags.BlockTags.MINEABLE_WITH_PICKAXE, 5.0F, -2.8F, 0.0F).stacksTo(1));
+
+    public static final DeferredItem<PESaw> PE_SAW = ITEMS.registerItem("pe_saw",
+            PESaw::new, () -> new Item.Properties().tool(MatterMaterials.RED_MATTER, net.minecraft.tags.BlockTags.MINEABLE_WITH_AXE, 4.0F, -3.0F, 0.0F).stacksTo(1));
+
     public static final DeferredItem<CovalenceDust> LOW_COVALENCE_DUST = ITEMS.registerItem("low_covalence_dust",
             CovalenceDust::new, () -> new Item.Properties());
 
@@ -190,6 +210,9 @@ public final class EquivalentLegacyItems {
     private static DeferredItem<CurioItem> registerCurio(String name, CurioItem.Type type) {
         return ITEMS.registerItem(name, props -> new CurioItem(props, type), () -> new Item.Properties().stacksTo(1));
     }
+
+    public static final DeferredItem<SpawnerControlItem> SPAWNER_CONTROL_WAND = ITEMS.registerItem("spawner_control_wand",
+            SpawnerControlItem::new, () -> new Item.Properties().stacksTo(1));
 
     public static final DeferredItem<KleinStar> KLEIN_STAR_EIN = ITEMS.registerItem("klein_star_ein",
             props -> new KleinStar(props, KleinStarTier.EIN), () -> new Item.Properties());

@@ -96,6 +96,16 @@ public final class EquivalentLegacyCreativeTab {
                         output.accept(EquivalentLegacyItems.DM_FURNACE.get());
                         output.accept(EquivalentLegacyItems.RM_FURNACE.get());
 
+                        output.accept(EquivalentLegacyItems.PEDESTAL.get());
+                        output.accept(EquivalentLegacyItems.DM_PEDESTAL.get());
+                        output.accept(EquivalentLegacyItems.RM_PEDESTAL.get());
+                        output.accept(EquivalentLegacyItems.DESTRUCTION_CATALYST_BLOCK.get());
+
+                        output.accept(EquivalentLegacyItems.TRANSMUTATION_STONE.get());
+                        output.accept(EquivalentLegacyItems.PE_AXE.get());
+                        output.accept(EquivalentLegacyItems.PE_PICKAXE.get());
+                        output.accept(EquivalentLegacyItems.PE_SAW.get());
+
                         output.accept(EquivalentLegacyItems.DARK_MATTER_SWORD.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_PICKAXE.get());
                         output.accept(EquivalentLegacyItems.DARK_MATTER_AXE.get());
