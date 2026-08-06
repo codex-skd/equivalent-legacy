@@ -16,4 +16,8 @@ public final class EquivalentLegacyConfig {
         container.registerConfig(ModConfig.Type.SERVER, ServerConfig.SPEC);
         LOGGER.info("Registered configs: common, client, server");
     }
+
+    public static void reload() {
+        LOGGER.info("(reload) Configs are file-backed and reload automatically on change; nothing to do.");
+    }
 }

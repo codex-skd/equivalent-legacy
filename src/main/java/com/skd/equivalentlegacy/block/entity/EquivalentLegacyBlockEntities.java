@@ -41,5 +41,21 @@ public final class EquivalentLegacyBlockEntities {
                     EquivalentLegacyBlocks.DM_FURNACE.get(),
                     EquivalentLegacyBlocks.RM_FURNACE.get()));
 
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<PedestalBlockEntity>> PEDESTAL =
+            BLOCK_ENTITY_TYPES.register("pedestal", () -> new BlockEntityType<>(PedestalBlockEntity::new,
+                    EquivalentLegacyBlocks.PEDESTAL.get()));
+
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<DMPedestalBlockEntity>> DM_PEDESTAL =
+            BLOCK_ENTITY_TYPES.register("dm_pedestal", () -> new BlockEntityType<>(DMPedestalBlockEntity::new,
+                    EquivalentLegacyBlocks.DM_PEDESTAL.get()));
+
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<RMPedestalBlockEntity>> RM_PEDESTAL =
+            BLOCK_ENTITY_TYPES.register("rm_pedestal", () -> new BlockEntityType<>(RMPedestalBlockEntity::new,
+                    EquivalentLegacyBlocks.RM_PEDESTAL.get()));
+
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<DestructionCatalystBlockEntity>> DESTRUCTION_CATALYST =
+            BLOCK_ENTITY_TYPES.register("destruction_catalyst", () -> new BlockEntityType<>(DestructionCatalystBlockEntity::new,
+                    EquivalentLegacyBlocks.DESTRUCTION_CATALYST.get()));
+
     private EquivalentLegacyBlockEntities() {}
 }
