@@ -1,5 +1,16 @@
 # Changelog — Equivalent Legacy
 
+## 1.2.0-beta.10
+
+- **Fix Critical: Asset Namespace Migration** — Corrección de referencias de namespace de `projecte:` a `equivalent_legacy:` en 297+ archivos de assets
+- **Problema**: Incompleta migración desde el fork Equivox/ProjectE — todos los JSON de blockstates, modelos de items y sounds todavía referenciaban el namespace `projecte:` que no existe, causando que los iconos de items y texturas de bloques no cargaran en el juego
+- **Solución**:
+  - Reemplazo masivo de `projecte:` → `equivalent_legacy:` en 23 blockstates, 278 modelos de items, 1 archivo sounds.json y 28 modelos de bloques
+  - Eliminación del directorio duplicado `items/` (106 archivos innecesarios)
+  - Corrección de 3 blockstate JSON malformados (braces cerrados faltantes)
+  - Validación completa de 335 archivos JSON de assets
+- **Resultado**: Todos los iconos y texturas ahora cargan correctamente. Build limpio, todas las referencias resuelven correctamente
+
 ## 1.2.0-beta.6
 
 - **Fase 2.4 JEI/WTHIT Integration**: integración de JEI (recetas de transmutación) y WTHIT/Jade (tooltips de EMC al hacer hover)
