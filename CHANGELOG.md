@@ -1,5 +1,20 @@
 # Changelog — Equivalent Legacy
 
+## 1.2.0-beta.4
+
+- **Fase 2 World Transmutation**: Sistema completo de transmutación de bloques en el mundo
+- **WorldTransmutationManager**: Lógica central para transmutación con consumo/ganancia de EMC
+- **PlayerEvents.onRightClickBlock()**: Detecta clicks con Philosopher's Stone o Transmutation Stone
+- **Pedestales**: 3 tiers (base, DM, RM) con inventario y rendering personalizado
+- **Nova Entities**: 3 tipos (Nova, Catalyst, Cataclysm) con explosiones
+- **PE Tools**: Hacha, pico, sierra con propiedades especiales
+- **Destruction Catalyst**: Bloque que dispara explosiones de nova
+- **Transmutation Stone**: Item alternativo para transmutación
+- **API Events**: WorldTransmutationEvent para integraciones de mods
+- **API Interfaces**: IEMCProvider, ITransmutationAllowed, IKnowledgeProvider, IEMCStorage, IEmcReceptor
+- **Verificado en modpack**: Todas las características de Fase 1-2 testeadas y funcionando
+- **Compilación**: NeoForge 26.2.0.37-beta, JAR 1.2 MB, 42 archivos nuevos
+
 ## 1.2.0-beta.3
 
 - **Assets completados**: Integración de 670 archivos de assets (modelos, blockstates, texturas, sonidos, idiomas)
