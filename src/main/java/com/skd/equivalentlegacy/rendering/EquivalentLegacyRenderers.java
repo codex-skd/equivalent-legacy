@@ -32,6 +32,7 @@ public final class EquivalentLegacyRenderers {
         event.registerBlockEntityRenderer(EquivalentLegacyBlockEntities.PEDESTAL.get(), PedestalRenderer::new);
         event.registerBlockEntityRenderer(EquivalentLegacyBlockEntities.DM_PEDESTAL.get(), PedestalRenderer::new);
         event.registerBlockEntityRenderer(EquivalentLegacyBlockEntities.RM_PEDESTAL.get(), PedestalRenderer::new);
+        event.registerBlockEntityRenderer(EquivalentLegacyBlockEntities.ALCHEMICAL_CHEST.get(), ChestRenderer::new);
     }
 
     @SubscribeEvent

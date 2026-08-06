@@ -5,15 +5,20 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.inventory.ContainerData;
+import net.minecraft.world.inventory.SimpleContainerData;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
 
 public class ChestMenu extends AbstractContainerMenu {
     public final AlchemicalChestBlockEntity blockEntity;
+    private final ContainerData containerData;
 
     public ChestMenu(int containerId, Inventory playerInventory, BlockPos pos) {
         super(ModMenuTypes.CHEST.get(), containerId);
         this.blockEntity = (AlchemicalChestBlockEntity) playerInventory.player.level().getBlockEntity(pos);
+        this.containerData = new SimpleContainerData(1);
+        addDataSlots(containerData);
         for (int i = 0; i < 7; i++) {
             addSlot(new Slot(blockEntity.getInventory(), i, 8 + i * 18, 18));
         }
@@ -49,5 +54,11 @@ public class ChestMenu extends AbstractContainerMenu {
     @Override
     public boolean stillValid(Player player) {
         return blockEntity.stillValid(player);
+    }
+
+    @Override
+    public void broadcastChanges() {
+        super.broadcastChanges();
+        containerData.set(0, blockEntity.getOpenNess());
     }
 }
