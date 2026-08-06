@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/cube_all","textures":{"all":"equivalent_legacy:block/alchemical_chest"}}
+{"textures":{"particle":"projecte:block/alchemical_chest"}}

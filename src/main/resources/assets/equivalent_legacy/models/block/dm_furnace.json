@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/orientable_with_bottom","textures":{"bottom":"equivalent_legacy:block/collectors/other","front":"equivalent_legacy:block/matter_furnace/dm_on","side":"equivalent_legacy:block/matter_furnace/dm_off","top":"equivalent_legacy:block/collectors/other"}}
+{"parent":"minecraft:block/orientable","textures":{"front":"projecte:block/matter_furnace/dm_off","side":"projecte:block/dark_matter_block","top":"projecte:block/dark_matter_block"}}

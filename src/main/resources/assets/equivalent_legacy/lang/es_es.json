@@ -156,5 +156,20 @@
   "command.equivalent_legacy.emc.give": "Diste %s de EMC a %s",
   "command.equivalent_legacy.emc.give.target": "Recibiste %s de EMC",
 
-  "tooltip.equivalent_legacy.stored_emc": "EMC: %s / %s"
+  "tooltip.equivalent_legacy.stored_emc": "EMC: %s / %s",
+
+  "item.equivalent_legacy.transmutation_stone": "Piedra de Transmutación",
+  "item.equivalent_legacy.pe_axe": "Hacha ProjectE",
+  "item.equivalent_legacy.pe_pickaxe": "Pico ProjectE",
+  "item.equivalent_legacy.pe_saw": "Sierra ProjectE",
+  "block.equivalent_legacy.pedestal": "Pedestal",
+  "block.equivalent_legacy.dm_pedestal": "Pedestal de Materia Oscura",
+  "block.equivalent_legacy.rm_pedestal": "Pedestal de Materia Roja",
+  "block.equivalent_legacy.destruction_catalyst_block": "Bloque Catalizador de Destrucción",
+  "container.equivalent_legacy.matter_furnace": "Horno de Materia",
+  "container.equivalent_legacy.pedestal": "Pedestal",
+  "command.equivalent_legacy.emc.view": "Valor EMC de %s: %s",
+  "command.equivalent_legacy.transmute": "Transmutados %s bloques",
+  "command.equivalent_legacy.knowledge": "Conocimiento de %s: %s items",
+  "command.equivalent_legacy.reload": "Configuración recargada"
 }

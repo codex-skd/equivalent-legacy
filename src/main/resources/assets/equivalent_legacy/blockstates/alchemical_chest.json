@@ -1,1 +1,1 @@
-{"variants":{"facing=east":{"model":"equivalent_legacy:block/alchemical_chest","y":90},"facing=north":{"model":"equivalent_legacy:block/alchemical_chest"},"facing=south":{"model":"equivalent_legacy:block/alchemical_chest","y":180},"facing=west":{"model":"equivalent_legacy:block/alchemical_chest","y":270}}}
+{"variants":{"":{"model":"projecte:block/alchemical_chest"}}}

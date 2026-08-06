@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/orientable_with_bottom","textures":{"bottom":"equivalent_legacy:block/collectors/other","front":"equivalent_legacy:block/collectors/front","side":"equivalent_legacy:block/collectors/other","top":"equivalent_legacy:block/collectors/top_1"}}
+{"parent":"minecraft:block/orientable_with_bottom","textures":{"bottom":"projecte:block/collectors/other","front":"projecte:block/collectors/front","side":"projecte:block/collectors/other","top":"projecte:block/collectors/top_1"}}
