@@ -12,18 +12,15 @@ import mezz.jei.api.recipe.RecipeIngredientRole;
 import mezz.jei.api.recipe.category.IRecipeCategory;
 import mezz.jei.api.recipe.types.IRecipeType;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
-import net.neoforged.api.distmarker.Dist;
-import net.neoforged.api.distmarker.OnlyIn;
 
 /**
  * JEI recipe category rendering a transmutation as {@code [input block] → [output block]} with the EMC
  * cost drawn underneath. Uses the vanilla JEI slot/arrow drawables so no custom assets are required.
+ * Only ever instantiated by {@link EquivalentLegacyJeiPlugin} on the client (JEI is a client-side mod).
  */
-@OnlyIn(Dist.CLIENT)
 public class TransmutationRecipeCategory implements IRecipeCategory<TransmutationRecipeDisplay> {
     private static final int WIDTH = 116;
     private static final int HEIGHT = 44;
@@ -76,8 +73,8 @@ public class TransmutationRecipeCategory implements IRecipeCategory<Transmutatio
 
     @Override
     public void setRecipe(IRecipeLayoutBuilder builder, TransmutationRecipeDisplay recipe, IFocusGroup focuses) {
-        builder.addSlot(RecipeIngredientRole.INPUT, INPUT_X, SLOT_Y).addItemStack(recipe.inputBlock());
-        builder.addSlot(RecipeIngredientRole.OUTPUT, OUTPUT_X, SLOT_Y).addItemStack(recipe.outputBlock());
+        builder.addSlot(RecipeIngredientRole.INPUT, INPUT_X, SLOT_Y).add(recipe.inputBlock());
+        builder.addSlot(RecipeIngredientRole.OUTPUT, OUTPUT_X, SLOT_Y).add(recipe.outputBlock());
     }
 
     @Override

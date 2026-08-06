@@ -1,0 +1,13 @@
+﻿powershell.exe : El argumento '../../codex-docs/scripts/curseforge-upload.ps1' para el parámetro -File no existe. 
+Proporcione la ruta de acceso a un archivo '.ps1' existente como argumento para el parámetro -File.
+En línea: 3 Carácter: 1
++ & powershell -File "../../codex-docs/scripts/curseforge-upload.ps1" 2 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (El argumento '....arámetro -File.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Instale la versión más reciente de PowerShell para obtener nuevas características y mejoras. https://aka.ms/PSWindows
+

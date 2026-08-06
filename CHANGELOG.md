@@ -1,5 +1,21 @@
 # Changelog — Equivalent Legacy
 
+## 1.2.0-beta.6
+
+- **Fase 2.4 JEI/WTHIT Integration**: integración de JEI (recetas de transmutación) y WTHIT/Jade (tooltips de EMC al hacer hover)
+- **JEI**:
+  - Nueva categoría **Transmutation** (`equivalent_legacy:transmutation`) con todas las conversiones de bloque y su coste EMC
+  - `TransmutationRecipeCategory`: layout `input → flecha → output` + texto de coste (verde "Free" si no cuesta) y tooltip al pasar el ratón
+  - `EquivalentLegacyJeiPlugin`: carga las recetas desde `WorldTransmutationManager` una sola vez en startup; Philosopher's/Transmutation Stone registradas como crafting stations (lookup con click derecho)
+- **WTHIT/Jade**:
+  - `TransmutationComponentProvider`: al hacer hover sobre un bloque transmutable muestra "Transmutable: <bloque>" (oro) y "Coste: <n> EMC" (verde si asequible, rojo si no, gris si es gratis)
+  - `EquivalentLegacyWthitPlugin` (`IWailaClientPlugin`) registrado vía `wthit_plugins.json` con el formato `entrypoints` de WTHIT 20.x
+- **WorldTransmutationManager**: helpers nuevos `isTransmutable`, `getTransmutation`, `getTransmutationMap`, record `TransmutationResult` y `registerDefaultTransmutations()` (~90 mappings vanilla bidireccionales: piedra, tierra/arena/grava, nether, end, maderas y menas)
+- **Dependencias opcionales**: JEI `30.15.0.121`, WTHIT `neo-20.0.0` y Bad Packets `0.12.2` en `build.gradle` (`compileOnly` + `localRuntime`), repos BlameJared y Bai Maven, dependencias opcionales en `neoforge.mods.toml`. El mod funciona sin JEI ni WTHIT
+- **Idiomas**: 6 claves nuevas (`jei.equivalent_legacy.*` y `tooltip.equivalent_legacy.*`) añadidas a los 18 lang files con traducciones
+- **Notas**: el plan proponía JEI `19.14.0` / WTHIT `11.7.1`, pero las versiones reales para MC 26.2 son JEI `30.x` y WTHIT `neo-20.0.0`; se registró un set por defecto de transmutaciones porque la Fase 2 dejó `REGISTRY` vacío (sin mappings no habría nada que mostrar en JEI/WTHIT)
+- **Compilación**: NeoForge 26.2.0.37-beta, build clean (javac 0 errores/warnings). Verificado con `runServer` y `runClient` con JEI + WTHIT cargados sin crashes
+
 ## 1.2.0-beta.5
 
 - **Fase 2.2 Rendering**: Implementación parcial de renderers custom client-side

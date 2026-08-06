@@ -6,7 +6,7 @@ import com.skd.equivalentlegacy.world_transmutation.TransmutationResult;
 import com.skd.equivalentlegacy.world_transmutation.WorldTransmutationManager;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
-import mezz.jei.api.recipe.RecipeType;
+import mezz.jei.api.recipe.types.IRecipeType;
 import mezz.jei.api.registration.IRecipeCatalystRegistration;
 import mezz.jei.api.registration.IRecipeCategoryRegistration;
 import mezz.jei.api.registration.IRecipeRegistration;
@@ -25,8 +25,8 @@ import java.util.List;
 @JeiPlugin
 public class EquivalentLegacyJeiPlugin implements IModPlugin {
     public static final Identifier UID = EquivalentLegacy.rl("transmutation");
-    public static final RecipeType<TransmutationRecipeDisplay> TRANSMUTATION_TYPE =
-            RecipeType.create(EquivalentLegacy.MODID, "transmutation", TransmutationRecipeDisplay.class);
+    public static final IRecipeType<TransmutationRecipeDisplay> TRANSMUTATION_TYPE =
+            IRecipeType.create(EquivalentLegacy.rl("transmutation"), TransmutationRecipeDisplay.class);
 
     @Override
     public Identifier getPluginUid() {
@@ -46,7 +46,7 @@ public class EquivalentLegacyJeiPlugin implements IModPlugin {
 
     @Override
     public void registerRecipeCatalysts(IRecipeCatalystRegistration registration) {
-        registration.addRecipeCatalysts(TRANSMUTATION_TYPE,
+        registration.addCraftingStation(TRANSMUTATION_TYPE,
                 EquivalentLegacyItems.PHILOSOPHERS_STONE.get(),
                 EquivalentLegacyItems.TRANSMUTATION_STONE.get());
     }
