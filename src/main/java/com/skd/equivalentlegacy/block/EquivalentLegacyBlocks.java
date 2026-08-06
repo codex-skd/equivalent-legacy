@@ -80,5 +80,22 @@ public final class EquivalentLegacyBlocks {
     public static final DeferredBlock<Block> RM_FURNACE = BLOCKS.registerBlock("rm_furnace",
             MatterFurnaceBlock::new, () -> BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel(state -> 13));
 
+public static final DeferredBlock<com.skd.equivalentlegacy.block.Pedestal> PEDESTAL = BLOCKS.registerBlock("pedestal",
+            props -> new com.skd.equivalentlegacy.block.Pedestal(props, com.skd.equivalentlegacy.block.entity.EquivalentLegacyBlockEntities.PEDESTAL::get),
+            () -> BlockBehaviour.Properties.of().strength(2.0F, 6.0F).sound(SoundType.STONE));
+
+    public static final DeferredBlock<com.skd.equivalentlegacy.block.DMPedestal> DM_PEDESTAL = BLOCKS.registerBlock("dm_pedestal",
+            props -> new com.skd.equivalentlegacy.block.DMPedestal(props),
+            () -> BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL));
+
+    public static final DeferredBlock<com.skd.equivalentlegacy.block.RMPedestal> RM_PEDESTAL = BLOCKS.registerBlock("rm_pedestal",
+            props -> new com.skd.equivalentlegacy.block.RMPedestal(props),
+            () -> BlockBehaviour.Properties.of().strength(6.0F, 7.0F).sound(SoundType.METAL));
+
+    public static final DeferredBlock<com.skd.equivalentlegacy.block.DestructionCatalyst> DESTRUCTION_CATALYST = BLOCKS.registerBlock(
+            "destruction_catalyst",
+            props -> new com.skd.equivalentlegacy.block.DestructionCatalyst(props),
+            () -> BlockBehaviour.Properties.of().strength(3.0F, 6.0F).sound(SoundType.WOOD));
+
     private EquivalentLegacyBlocks() {}
 }
