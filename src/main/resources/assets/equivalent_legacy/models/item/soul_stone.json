@@ -1,1 +1,1 @@
-{"parent":"minecraft:item/generated","overrides":[{"model":"projecte:item/soul_stone_on","predicate":{"projecte:active":1.0}}],"textures":{"layer0":"projecte:item/rings/soul_stone_off"}}
+{"parent":"minecraft:item/generated","overrides":[{"model":"equivalent_legacy:item/soul_stone_on","predicate":{"equivalent_legacy:active":1.0}}],"textures":{"layer0":"equivalent_legacy:item/rings/soul_stone_off"}}
