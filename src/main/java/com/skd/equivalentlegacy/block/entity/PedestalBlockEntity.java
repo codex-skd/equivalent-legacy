@@ -124,4 +124,19 @@ public class PedestalBlockEntity extends BlockEntity {
     public float getItemRenderRotation() {
         return (tickCounter * 2.0F) % 360.0F;
     }
+
+    public net.minecraft.world.phys.Vec3 getItemRenderPos(float partialTick) {
+        long time = level != null ? level.getGameTime() : tickCounter;
+        double bob = 0.06 * Math.sin((time + partialTick) * 0.05);
+        return new net.minecraft.world.phys.Vec3(
+                worldPosition.getX() + 0.5,
+                worldPosition.getY() + 0.5 + bob,
+                worldPosition.getZ() + 0.5
+        );
+    }
+
+    public float getItemRenderRotation(float partialTick) {
+        long time = level != null ? level.getGameTime() : tickCounter;
+        return ((time + partialTick) * 2.25F) % 360.0F;
+    }
 }
