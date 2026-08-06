@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-06)
 
 ## Corpus Check
-- 799 files · ~76,249 words
+- 801 files · ~77,801 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1728 nodes · 2281 edges · 433 communities (96 shown, 337 thin omitted)
+- 1749 nodes · 2300 edges · 444 communities (99 shown, 345 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 68 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4eb28a03`
+- Built from commit: `8e7e9285`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -219,6 +219,7 @@
 - EventBusSubscriber
 - SubscribeEvent
 - EventBusSubscriber
+- AbstractDataComponentHolderNSSTag
 - InteractionHand
 - Inventory
 - ItemStack
@@ -227,6 +228,11 @@
 - Player
 - Component
 - Inventory
+- AbstractContainerMenu
+- ConversionGroup
+- MatterMaterials.java
+- EMCNetworkData
+- KnowledgeSyncChangePayload
 - Component
 - Inventory
 - BlockPos
@@ -319,6 +325,8 @@
 - InteractionResult
 - Override
 - UseOnContext
+- Container
+- NSSTag
 - DeferredRegister
 - Item
 - BlockPos
@@ -400,7 +408,8 @@
 - Identifier
 - Player
 - ServerPlayer
-- .getEMC
+- EquivalentLegacyDataComponents
+- PacketHandler
 - NetworkEvents.java
 - BagMenu
 - CollectorMenu
@@ -422,20 +431,20 @@
   .gitlab-ci.yml → CHANGELOG.md
 - `Publish Public Script` ----> `Equivalent Legacy is an EMC/transmutation mod for Minecraft 26.2 (NeoForge), bringing the classic Equivalent Exchange-style gameplay to modern Minecraft.`  [EXTRACTED]
   .gitlab-ci.yml → README.md
-- `EquivalentLegacyEntities` --references--> `EntityNovaCataclysmPrimed`  [EXTRACTED]
-  src/main/java/com/skd/equivalentlegacy/EquivalentLegacyEntities.java → src/main/java/com/skd/equivalentlegacy/entity/EntityNovaCataclysmPrimed.java
 - `DMPedestal` --inherits--> `Pedestal`  [EXTRACTED]
   src/main/java/com/skd/equivalentlegacy/block/DMPedestal.java → src/main/java/com/skd/equivalentlegacy/block/Pedestal.java
 - `EquivalentLegacyBlocks` --references--> `DestructionCatalyst`  [EXTRACTED]
   src/main/java/com/skd/equivalentlegacy/block/EquivalentLegacyBlocks.java → src/main/java/com/skd/equivalentlegacy/block/DestructionCatalyst.java
+- `EquivalentLegacyBlocks` --references--> `Pedestal`  [EXTRACTED]
+  src/main/java/com/skd/equivalentlegacy/block/EquivalentLegacyBlocks.java → src/main/java/com/skd/equivalentlegacy/block/Pedestal.java
 
 ## Import Cycles
 - None detected.
 
-## Communities (433 total, 337 thin omitted)
+## Communities (444 total, 345 thin omitted)
 
 ### Community 0 - "Equivalent Legacy Mod"
-Cohesion: 0.10
+Cohesion: 0.11
 Nodes (13): BlockEntityTicker, BlockEntityType, BlockPos, BlockState, InteractionResult, ItemStack, NonNullList, Override (+5 more)
 
 ### Community 2 - "Client Setup"
@@ -451,20 +460,16 @@ Cohesion: 0.67
 Nodes (3): Publish Public Script, Initial Scaffold from the codex-docs/mod_template/26.2-26.2.0.32-beta NeoForge MDK skeleton, Equivalent Legacy is an EMC/transmutation mod for Minecraft 26.2 (NeoForge), bringing the classic Equivalent Exchange-style gameplay to modern Minecraft.
 
 ### Community 5 - "Event Bus"
-Cohesion: 0.11
-Nodes (5): ConversionGroup, EMCHelper, NormalizedSimpleStack, NSSTag, Object2LongMap
+Cohesion: 0.16
+Nodes (3): EMCHelper, NormalizedSimpleStack, Object2LongMap
 
 ### Community 6 - "Server Start"
-Cohesion: 0.08
-Nodes (16): ArmorMaterial, EquipmentAsset, FullKleinStarIngredient, ModIngredientTypes, KleinStar, KleinStarTier, DREI, EIN (+8 more)
+Cohesion: 0.16
+Nodes (8): KleinStar, KleinStarTier, DREI, EIN, OMEGA, SPHERE, VIER, ZWEI
 
 ### Community 7 - "Creative Mode Tab"
-Cohesion: 0.21
-Nodes (4): ByteBuf, MapCodec, StreamCodec, PlayerKnowledgeAttachment
-
-### Community 8 - "Mod Notes"
-Cohesion: 0.08
-Nodes (7): AbstractDataComponentHolderNSSTag, AbstractNSSTag, NSSDataComponentHolder, NSSItem, ItemLike, IKnowledgeProvider, ServerPlayer
+Cohesion: 0.14
+Nodes (7): AttachmentType, KnowledgeSyncPayload, EquivalentLegacyAttachments, ByteBuf, MapCodec, StreamCodec, PlayerKnowledgeAttachment
 
 ### Community 10 - "Common Setup"
 Cohesion: 0.10
@@ -475,8 +480,8 @@ Cohesion: 0.13
 Nodes (13): CollectorTier, MK1, MK2, MK3, CondenserTier, MK1, MK2, MachineTiers (+5 more)
 
 ### Community 13 - "Equivalent Legacy"
-Cohesion: 0.25
-Nodes (4): Block, BlockPos, ServerPlayer, WorldTransmutationManager
+Cohesion: 0.10
+Nodes (19): 10. Definition of Done, 11. Fases posteriores, 12. Notas de Implementación, 13. Archivos que se crearán/modificarán, 1. Crear TransmutationScreen (nueva clase), 2. Crear TransmutationMenu (si no existe), 3. Crear/Actualizar TransmutationContainer, 4. Crear/Actualizar PlayerEMCData (Data Attachment) (+11 more)
 
 ### Community 14 - "CLAUDE.md — equivalent_legacy (26.2)"
 Cohesion: 0.18
@@ -491,11 +496,11 @@ Cohesion: 0.15
 Nodes (12): Buenas prácticas, Commits (Conventional Commits), Convenciones de nomenclatura, Específico del mod, Estructura del proyecto, Flujo de trabajo — Equivalent Legacy (NeoForge), Flujo por tarea, Idioma (+4 more)
 
 ### Community 19 - "IMappingCollector"
-Cohesion: 0.10
-Nodes (8): AbstractFurnaceMenu, BaseContainerBlockEntity, CachedCheck, Container, MatterFurnaceBlockEntity, MatterFurnaceMenu, SingleRecipeInput, SmeltingRecipe
+Cohesion: 0.15
+Nodes (5): BaseContainerBlockEntity, CachedCheck, MatterFurnaceBlockEntity, SingleRecipeInput, SmeltingRecipe
 
 ### Community 20 - "LongArithmetic"
-Cohesion: 0.22
+Cohesion: 0.21
 Nodes (15): BlockGetter, CollisionContext, BlockEntity, BlockEntityTicker, BlockEntityType, BlockHitResult, BlockPos, BlockState (+7 more)
 
 ### Community 23 - "NSSTag"
@@ -511,12 +516,12 @@ Cohesion: 0.25
 Nodes (7): Contexto — Equivalent Legacy (para usar directamente con OpenCode/Codex), Lo que falta (siguientes betas), Lo ya implementado (fases 1-13, todo commiteado, compilando y publicado en CurseForge), Notas sobre el entorno (por qué esto existe), Origen / atribución (obligatorio mantener), Qué es este mod, Reglas de naming y estilo (obligatorias)
 
 ### Community 30 - "0.0.0-beta.3.md"
-Cohesion: 0.08
-Nodes (24): DamageSource, Entity, EntityDataAccessor, Explosion, ExplosionInteraction, MovementEmission, EntityType, Level (+16 more)
+Cohesion: 0.09
+Nodes (25): DamageSource, Entity, EntityDataAccessor, Explosion, ExplosionInteraction, MovementEmission, EntityNovaCataclysmPrimed, EntityType (+17 more)
 
 ### Community 31 - "KnowledgeSyncPayload.java"
-Cohesion: 0.16
-Nodes (5): CustomPacketPayload, KnowledgeDataPayload, KnowledgeSyncChangePayload, KnowledgeSyncEmcPayload, TransmuteRequestPayload
+Cohesion: 0.22
+Nodes (4): CustomPacketPayload, KnowledgeDataPayload, KnowledgeSyncEmcPayload, TransmuteRequestPayload
 
 ### Community 32 - "AbstractNSSTag"
 Cohesion: 0.11
@@ -531,12 +536,12 @@ Cohesion: 0.14
 Nodes (13): 1. AlchemicalChestBlockEntity — Implementar LidBlockEntity, 2. ChestRenderer — Implementar BlockEntityRenderer Completo, 3. EquivalentLegacyRenderers — Registrar ChestRenderer, 4. ChestMenu — Sincronización ContainerData, 5. BlockState / Modelo — Verificar Asset, 6. Definición de Hecho, 7. Restricciones Técnicas, 8. Deviaciones del Plan 2.2 (+5 more)
 
 ### Community 35 - "ModCommands"
-Cohesion: 0.23
+Cohesion: 0.24
 Nodes (9): CommandBuildContext, CommandDispatcher, CommandSourceStack, ItemInput, RegisterCommandsEvent, EventBusSubscriber, ServerPlayer, SubscribeEvent (+1 more)
 
 ### Community 36 - "0.0.0-beta.5.md"
-Cohesion: 0.10
-Nodes (12): DataComponentType, FMLCommonSetupEvent, EMCNetworkData, EquivalentLegacyDataComponents, PacketHandler, SavedData, SavedDataType, Identifier (+4 more)
+Cohesion: 0.25
+Nodes (6): FMLCommonSetupEvent, Identifier, IEventBus, Logger, Mod, ModContainer
 
 ### Community 37 - "0.0.0-beta.6.md"
 Cohesion: 0.50
@@ -572,22 +577,22 @@ Nodes (3): FixedValues, EquivalentLegacy, Item
 
 ### Community 45 - "BaseMachineBlock.java"
 Cohesion: 0.05
-Nodes (27): Block, BlockEntity, Direction, EntityBlock, BaseMachineBlock, InterdictionTorchBlockEntity, InterdictionTorchBlock, MatterFurnaceBlock (+19 more)
+Nodes (26): Block, BlockEntity, Direction, EntityBlock, BaseMachineBlock, InterdictionTorchBlockEntity, InterdictionTorchBlock, MatterFurnaceBlock (+18 more)
 
 ### Community 46 - "BaseMachineBlockEntity"
 Cohesion: 0.26
 Nodes (8): FMLClientSetupEvent, RegisterMenuScreensEvent, EquivalentLegacyClient, EventBusSubscriber, Mod, ModContainer, RegisterRenderers, SubscribeEvent
 
 ### Community 49 - "PlayerEvents"
-Cohesion: 0.14
-Nodes (12): IntValue, PlayerChangedDimensionEvent, PlayerLoggedInEvent, PlayerRespawnEvent, RightClickBlock, BooleanValue, Builder, ModConfigSpec (+4 more)
+Cohesion: 0.07
+Nodes (28): IBlockAccessor, IBlockComponentProvider, IClientRegistrar, IntValue, IPluginConfig, ITooltip, IWailaClientPlugin, PlayerChangedDimensionEvent (+20 more)
 
 ### Community 51 - "MatterMaterials"
 Cohesion: 0.11
 Nodes (17): 1. PedestalRenderer (Completo), 2. ChestRenderer (Simplificado), 3. TransmutationRenderingOverlay (Minimalist), 4. ClientEvents (Nueva clase), 5. EquivalentLegacyRenderers (Dispatcher), 6. Modificaciones a Existing Classes, AlchemicalChestBlockEntity.java, Definition of Done (+9 more)
 
 ### Community 56 - ".use"
-Cohesion: 0.23
+Cohesion: 0.26
 Nodes (3): CustomConversion, Object2IntMap, Override
 
 ### Community 69 - "EquivalentLegacyItems"
@@ -598,9 +603,13 @@ Nodes (9): AxeItem, BlockItem, DeferredItem, AlchemicalBag, HoeItem, ShearsItem,
 Cohesion: 0.31
 Nodes (6): RegisterGuiLayersEvent, EquivalentLegacyRenderers, EventBusSubscriber, OnlyIn, RegisterRenderers, SubscribeEvent
 
+### Community 88 - "EquivalentLegacyAttachments.java"
+Cohesion: 0.18
+Nodes (5): FullKleinStarIngredient, ModIngredientTypes, Holder, ICustomIngredient, ItemLike
+
 ### Community 103 - "BlockPos"
-Cohesion: 0.27
-Nodes (8): IBlockAccessor, IBlockComponentProvider, IPluginConfig, ITooltip, Override, TransmutationComponentProvider, Block, TransmutationResult
+Cohesion: 0.31
+Nodes (3): NSSItem, IKnowledgeProvider, ServerPlayer
 
 ### Community 104 - "BlockState"
 Cohesion: 0.27
@@ -613,10 +622,6 @@ Nodes (3): EquivalentLegacyConfig, Logger, ModContainer
 ### Community 106 - "MenuProvider"
 Cohesion: 0.53
 Nodes (4): CreativeModeTab, EquivalentLegacyCreativeTab, DeferredHolder, DeferredRegister
-
-### Community 107 - "Override"
-Cohesion: 0.47
-Nodes (4): IClientRegistrar, IWailaClientPlugin, EquivalentLegacyWthitPlugin, Override
 
 ### Community 180 - "EventBusSubscriber"
 Cohesion: 0.60
@@ -634,32 +639,40 @@ Nodes (4): ClientConfig, BooleanValue, Builder, ModConfigSpec
 Cohesion: 0.06
 Nodes (40): BlockEntityRenderer, BlockEntityRenderState, ChestScreen, ModMenuTypes, ItemModelResolver, ItemStackRenderState, LidBlockEntity, AlchemicalChestBlockEntity (+32 more)
 
+### Community 257 - "MatterMaterials.java"
+Cohesion: 0.47
+Nodes (4): ArmorMaterial, EquipmentAsset, MatterMaterials, ToolMaterial
+
+### Community 258 - "EMCNetworkData"
+Cohesion: 0.47
+Nodes (3): EMCNetworkData, SavedData, SavedDataType
+
+### Community 352 - "Container"
+Cohesion: 0.60
+Nodes (3): AbstractFurnaceMenu, Container, MatterFurnaceMenu
+
 ### Community 441 - "NetworkEvents.java"
 Cohesion: 0.18
 Nodes (9): RecipeHolder, ServerStartingEvent, ServerStoppingEvent, Logger, RecipeMapper, EventBusSubscriber, Logger, SubscribeEvent (+1 more)
 
-### Community 442 - "BagMenu"
-Cohesion: 0.21
-Nodes (3): AbstractContainerMenu, BagMenu, IItemHandler
-
 ## Knowledge Gaps
-- **216 isolated node(s):** `MK1`, `MK2`, `MK3`, `MK1`, `MK2` (+211 more)
+- **233 isolated node(s):** `MK1`, `MK2`, `MK3`, `MK1`, `MK2` (+228 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **337 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **345 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `PlayerKnowledge` connect `.getEMC` to `AbstractNSSTag`, `ModCommands`, `Creative Mode Tab`, `BlockPos`, `Common Setup`, `Settings File`, `Equivalent Legacy`, `CLAUDE.md — equivalent_legacy (26.2)`, `PlayerEvents`, `TransmutationContainer`, `NSSTag`, `BagMenu`?**
-  _High betweenness centrality (0.045) - this node is a cross-community bridge._
 - **Why does `SimpleGraphMapper` connect `0.0.0-beta.1.md` to `ClientConfig`?**
-  _High betweenness centrality (0.045) - this node is a cross-community bridge._
+  _High betweenness centrality (0.044) - this node is a cross-community bridge._
+- **Why does `PlayerKnowledge` connect `Settings File` to `AbstractNSSTag`, `KnowledgeSyncChangePayload`, `ModCommands`, `Creative Mode Tab`, `Common Setup`, `CLAUDE.md — equivalent_legacy (26.2)`, `PlayerEvents`, `TransmutationContainer`, `NSSTag`, `AbstractContainerMenu`?**
+  _High betweenness centrality (0.044) - this node is a cross-community bridge._
 - **Why does `MappingCollector` connect `ClientConfig` to `0.0.0-beta.1.md`, `EquivalentLegacyConfig`?**
-  _High betweenness centrality (0.043) - this node is a cross-community bridge._
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
 - **What connects `MK1`, `MK2`, `MK3` to the rest of the system?**
-  _216 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _233 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Equivalent Legacy Mod` be split into smaller, more focused modules?**
-  _Cohesion score 0.1010752688172043 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10574712643678161 - nodes in this community are weakly interconnected._
 - **Should `Client Setup` be split into smaller, more focused modules?**
   _Cohesion score 0.06423034330011074 - nodes in this community are weakly interconnected._
 - **Should `Gradle Build Script` be split into smaller, more focused modules?**

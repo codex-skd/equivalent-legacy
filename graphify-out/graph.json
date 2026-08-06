@@ -706,7 +706,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_api_iknowledgeprovider",
-      "community": 8,
+      "community": 103,
       "norm_label": "iknowledgeprovider.java"
     },
     {
@@ -716,7 +716,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_api_iknowledgeprovider_iknowledgeprovider",
-      "community": 8,
+      "community": 103,
       "norm_label": "iknowledgeprovider"
     },
     {
@@ -726,7 +726,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_api_iknowledgeprovider_iknowledgeprovider_hasknowledge",
-      "community": 8,
+      "community": 103,
       "norm_label": ".hasknowledge()"
     },
     {
@@ -736,7 +736,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_api_iknowledgeprovider_java_serverplayer",
-      "community": 8,
+      "community": 103,
       "norm_label": "serverplayer"
     },
     {
@@ -746,7 +746,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_api_iknowledgeprovider_iknowledgeprovider_learnitem",
-      "community": 8,
+      "community": 103,
       "norm_label": ".learnitem()"
     },
     {
@@ -756,7 +756,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_api_iknowledgeprovider_iknowledgeprovider_forgetitem",
-      "community": 8,
+      "community": 103,
       "norm_label": ".forgetitem()"
     },
     {
@@ -1936,7 +1936,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_matterfurnaceblock_matterfurnaceblock_getticker",
-      "community": 19,
+      "community": 437,
       "norm_label": ".getticker()"
     },
     {
@@ -2086,7 +2086,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_pedestal_pedestal_pedestal",
-      "community": 0,
+      "community": 20,
       "norm_label": ".pedestal()"
     },
     {
@@ -2566,7 +2566,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java",
-      "community": 45,
+      "community": 27,
       "norm_label": "basemachineblockentity.java"
     },
     {
@@ -2886,7 +2886,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_collectorblockentity_collectorblockentity_tickserver",
-      "community": 1,
+      "community": 107,
       "norm_label": ".tickserver()"
     },
     {
@@ -2906,7 +2906,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_collectorblockentity_collectorblockentity_chargekleinstar",
-      "community": 1,
+      "community": 107,
       "norm_label": ".chargekleinstar()"
     },
     {
@@ -3726,7 +3726,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_matterfurnaceblockentity_matterfurnaceblockentity_ticker",
-      "community": 19,
+      "community": 437,
       "norm_label": ".ticker()"
     },
     {
@@ -3896,7 +3896,7 @@
       "source_location": "L223",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_matterfurnaceblockentity_matterfurnaceblockentity_createmenu",
-      "community": 442,
+      "community": 255,
       "norm_label": ".createmenu()"
     },
     {
@@ -4936,7 +4936,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_conversiongroup_conversiongroup",
-      "community": 5,
+      "community": 256,
       "norm_label": "conversiongroup"
     },
     {
@@ -4946,7 +4946,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_conversiongroup_conversiongroup_addvalue",
-      "community": 5,
+      "community": 256,
       "norm_label": ".addvalue()"
     },
     {
@@ -4956,7 +4956,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_conversiongroup_conversiongroup_addconversion",
-      "community": 5,
+      "community": 256,
       "norm_label": ".addconversion()"
     },
     {
@@ -4966,7 +4966,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_conversiongroup_conversiongroup_getvalues",
-      "community": 5,
+      "community": 256,
       "norm_label": ".getvalues()"
     },
     {
@@ -4976,7 +4976,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_conversiongroup_conversiongroup_getconversions",
-      "community": 5,
+      "community": 256,
       "norm_label": ".getconversions()"
     },
     {
@@ -4986,7 +4986,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_conversiongroup_conversiongroup_isempty",
-      "community": 5,
+      "community": 256,
       "norm_label": ".isempty()"
     },
     {
@@ -4996,7 +4996,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion",
-      "community": 5,
+      "community": 256,
       "norm_label": "customconversion.java"
     },
     {
@@ -5056,7 +5056,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_customconversion_output",
-      "community": 56,
+      "community": 5,
       "norm_label": ".output()"
     },
     {
@@ -5166,7 +5166,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemc",
-      "community": 129,
+      "community": 55,
       "norm_label": ".getemc()"
     },
     {
@@ -5236,7 +5236,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_hasmappings",
-      "community": 441,
+      "community": 5,
       "norm_label": ".hasmappings()"
     },
     {
@@ -5246,7 +5246,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_java",
-      "community": 1,
+      "community": 107,
       "norm_label": "emcnetwork.java"
     },
     {
@@ -5256,7 +5256,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork",
-      "community": 1,
+      "community": 107,
       "norm_label": "emcnetwork"
     },
     {
@@ -5286,7 +5286,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_emcnetwork",
-      "community": 1,
+      "community": 107,
       "norm_label": ".emcnetwork()"
     },
     {
@@ -5296,7 +5296,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_getemc",
-      "community": 1,
+      "community": 107,
       "norm_label": ".getemc()"
     },
     {
@@ -5306,7 +5306,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_setemc",
-      "community": 1,
+      "community": 107,
       "norm_label": ".setemc()"
     },
     {
@@ -5316,7 +5316,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_addemc",
-      "community": 1,
+      "community": 107,
       "norm_label": ".addemc()"
     },
     {
@@ -5326,7 +5326,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_takeemc",
-      "community": 1,
+      "community": 107,
       "norm_label": ".takeemc()"
     },
     {
@@ -5336,7 +5336,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetworkdata_java",
-      "community": 36,
+      "community": 258,
       "norm_label": "emcnetworkdata.java"
     },
     {
@@ -5346,7 +5346,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetworkdata_emcnetworkdata",
-      "community": 36,
+      "community": 258,
       "norm_label": "emcnetworkdata"
     },
     {
@@ -5356,7 +5356,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "saveddata",
-      "community": 36,
+      "community": 258,
       "norm_label": "saveddata"
     },
     {
@@ -5366,7 +5366,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "saveddatatype",
-      "community": 36,
+      "community": 258,
       "norm_label": "saveddatatype"
     },
     {
@@ -5376,7 +5376,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetworkdata_emcnetworkdata_emcnetworkdata",
-      "community": 36,
+      "community": 258,
       "norm_label": ".emcnetworkdata()"
     },
     {
@@ -5386,7 +5386,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetworkdata_emcnetworkdata_isdirty",
-      "community": 36,
+      "community": 258,
       "norm_label": ".isdirty()"
     },
     {
@@ -5456,7 +5456,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_isempty",
-      "community": 182,
+      "community": 441,
       "norm_label": ".isempty()"
     },
     {
@@ -6306,7 +6306,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_abstractdatacomponentholdernsstag_java",
-      "community": 8,
+      "community": 246,
       "norm_label": "abstractdatacomponentholdernsstag.java"
     },
     {
@@ -6316,7 +6316,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_abstractdatacomponentholdernsstag_abstractdatacomponentholdernsstag",
-      "community": 8,
+      "community": 246,
       "norm_label": "abstractdatacomponentholdernsstag"
     },
     {
@@ -6336,7 +6336,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_abstractdatacomponentholdernsstag_abstractdatacomponentholdernsstag_abstractdatacomponentholdernsstag",
-      "community": 8,
+      "community": 246,
       "norm_label": ".abstractdatacomponentholdernsstag()"
     },
     {
@@ -6356,7 +6356,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_abstractdatacomponentholdernsstag_abstractdatacomponentholdernsstag_getcomponentspatch",
-      "community": 8,
+      "community": 246,
       "norm_label": ".getcomponentspatch()"
     },
     {
@@ -6376,7 +6376,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_abstractdatacomponentholdernsstag_abstractdatacomponentholdernsstag_equals",
-      "community": 8,
+      "community": 246,
       "norm_label": ".equals()"
     },
     {
@@ -6386,7 +6386,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_abstractdatacomponentholdernsstag_abstractdatacomponentholdernsstag_hashcode",
-      "community": 8,
+      "community": 246,
       "norm_label": ".hashcode()"
     },
     {
@@ -6536,7 +6536,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssdatacomponentholder_java",
-      "community": 8,
+      "community": 246,
       "norm_label": "nssdatacomponentholder.java"
     },
     {
@@ -6546,7 +6546,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssdatacomponentholder_nssdatacomponentholder",
-      "community": 8,
+      "community": 246,
       "norm_label": "nssdatacomponentholder"
     },
     {
@@ -6556,7 +6556,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssdatacomponentholder_nssdatacomponentholder_getcomponentspatch",
-      "community": 8,
+      "community": 246,
       "norm_label": ".getcomponentspatch()"
     },
     {
@@ -6576,7 +6576,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java",
-      "community": 8,
+      "community": 88,
       "norm_label": "nssitem.java"
     },
     {
@@ -6586,7 +6586,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem",
-      "community": 8,
+      "community": 103,
       "norm_label": "nssitem"
     },
     {
@@ -6626,7 +6626,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_nssitem",
-      "community": 8,
+      "community": 103,
       "norm_label": ".nssitem()"
     },
     {
@@ -6656,7 +6656,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem",
-      "community": 8,
+      "community": 55,
       "norm_label": ".createitem()"
     },
     {
@@ -6676,7 +6676,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "itemlike",
-      "community": 8,
+      "community": 88,
       "norm_label": "itemlike"
     },
     {
@@ -6686,7 +6686,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createtag",
-      "community": 8,
+      "community": 103,
       "norm_label": ".createtag()"
     },
     {
@@ -6696,7 +6696,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_getregistry",
-      "community": 8,
+      "community": 103,
       "norm_label": ".getregistry()"
     },
     {
@@ -6726,7 +6726,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_codec",
-      "community": 8,
+      "community": 103,
       "norm_label": ".codec()"
     },
     {
@@ -6736,7 +6736,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_java",
-      "community": 5,
+      "community": 353,
       "norm_label": "nsstag.java"
     },
     {
@@ -6746,7 +6746,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag",
-      "community": 5,
+      "community": 353,
       "norm_label": "nsstag"
     },
     {
@@ -6756,7 +6756,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_representstag",
-      "community": 5,
+      "community": 353,
       "norm_label": ".representstag()"
     },
     {
@@ -6766,7 +6766,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_foreachelement",
-      "community": 5,
+      "community": 353,
       "norm_label": ".foreachelement()"
     },
     {
@@ -6776,7 +6776,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_forselfandeachelement",
-      "community": 5,
+      "community": 353,
       "norm_label": ".forselfandeachelement()"
     },
     {
@@ -6856,7 +6856,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_entity_entitynovacataclysmprimed_entitynovacataclysmprimed",
-      "community": 45,
+      "community": 30,
       "norm_label": "entitynovacataclysmprimed"
     },
     {
@@ -7596,7 +7596,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "abstractcontainermenu",
-      "community": 442,
+      "community": 255,
       "norm_label": "abstractcontainermenu"
     },
     {
@@ -8416,7 +8416,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_java",
-      "community": 50,
+      "community": 255,
       "norm_label": "machinemenu.java"
     },
     {
@@ -8426,7 +8426,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu",
-      "community": 50,
+      "community": 255,
       "norm_label": "machinemenu"
     },
     {
@@ -8436,7 +8436,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu_machinemenu",
-      "community": 50,
+      "community": 255,
       "norm_label": ".machinemenu()"
     },
     {
@@ -8456,7 +8456,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu_addplayerinventory",
-      "community": 50,
+      "community": 255,
       "norm_label": ".addplayerinventory()"
     },
     {
@@ -8606,7 +8606,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_matterfurnacemenu_java",
-      "community": 19,
+      "community": 352,
       "norm_label": "matterfurnacemenu.java"
     },
     {
@@ -8616,7 +8616,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_matterfurnacemenu_matterfurnacemenu",
-      "community": 19,
+      "community": 352,
       "norm_label": "matterfurnacemenu"
     },
     {
@@ -8626,7 +8626,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "abstractfurnacemenu",
-      "community": 19,
+      "community": 352,
       "norm_label": "abstractfurnacemenu"
     },
     {
@@ -8636,7 +8636,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_matterfurnacemenu_matterfurnacemenu_matterfurnacemenu",
-      "community": 19,
+      "community": 352,
       "norm_label": ".matterfurnacemenu()"
     },
     {
@@ -8656,7 +8656,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "container",
-      "community": 19,
+      "community": 352,
       "norm_label": "container"
     },
     {
@@ -9136,7 +9136,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java",
-      "community": 442,
+      "community": 255,
       "norm_label": "transmutationcontainer.java"
     },
     {
@@ -9176,7 +9176,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmutationcontainer",
-      "community": 55,
+      "community": 12,
       "norm_label": ".transmutationcontainer()"
     },
     {
@@ -9256,7 +9256,7 @@
       "source_location": "L122",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmute",
-      "community": 438,
+      "community": 55,
       "norm_label": ".transmute()"
     },
     {
@@ -9916,7 +9916,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin",
-      "community": 107,
+      "community": 49,
       "norm_label": "equivalentlegacywthitplugin.java"
     },
     {
@@ -9926,7 +9926,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin_equivalentlegacywthitplugin",
-      "community": 107,
+      "community": 49,
       "norm_label": "equivalentlegacywthitplugin"
     },
     {
@@ -9936,7 +9936,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iwailaclientplugin",
-      "community": 107,
+      "community": 49,
       "norm_label": "iwailaclientplugin"
     },
     {
@@ -9946,7 +9946,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin_equivalentlegacywthitplugin_register",
-      "community": 107,
+      "community": 49,
       "norm_label": ".register()"
     },
     {
@@ -9956,7 +9956,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iclientregistrar",
-      "community": 107,
+      "community": 49,
       "norm_label": "iclientregistrar"
     },
     {
@@ -9966,7 +9966,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin_java_override",
-      "community": 107,
+      "community": 49,
       "norm_label": "override"
     },
     {
@@ -9976,7 +9976,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_transmutationcomponentprovider",
-      "community": 103,
+      "community": 49,
       "norm_label": "transmutationcomponentprovider.java"
     },
     {
@@ -9986,7 +9986,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_transmutationcomponentprovider_transmutationcomponentprovider",
-      "community": 103,
+      "community": 49,
       "norm_label": "transmutationcomponentprovider"
     },
     {
@@ -9996,7 +9996,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iblockcomponentprovider",
-      "community": 103,
+      "community": 49,
       "norm_label": "iblockcomponentprovider"
     },
     {
@@ -10006,7 +10006,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_transmutationcomponentprovider_transmutationcomponentprovider_appendbody",
-      "community": 103,
+      "community": 49,
       "norm_label": ".appendbody()"
     },
     {
@@ -10016,7 +10016,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "itooltip",
-      "community": 103,
+      "community": 49,
       "norm_label": "itooltip"
     },
     {
@@ -10026,7 +10026,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iblockaccessor",
-      "community": 103,
+      "community": 49,
       "norm_label": "iblockaccessor"
     },
     {
@@ -10036,7 +10036,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "ipluginconfig",
-      "community": 103,
+      "community": 49,
       "norm_label": "ipluginconfig"
     },
     {
@@ -10046,7 +10046,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_transmutationcomponentprovider_java_override",
-      "community": 103,
+      "community": 49,
       "norm_label": "override"
     },
     {
@@ -10776,7 +10776,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_equivalentlegacydatacomponents_java",
-      "community": 36,
+      "community": 435,
       "norm_label": "equivalentlegacydatacomponents.java"
     },
     {
@@ -10786,7 +10786,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_equivalentlegacydatacomponents_equivalentlegacydatacomponents",
-      "community": 36,
+      "community": 435,
       "norm_label": "equivalentlegacydatacomponents"
     },
     {
@@ -10806,7 +10806,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "datacomponenttype",
-      "community": 36,
+      "community": 435,
       "norm_label": "datacomponenttype"
     },
     {
@@ -10816,7 +10816,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_equivalentlegacydatacomponents_equivalentlegacydatacomponents_equivalentlegacydatacomponents",
-      "community": 36,
+      "community": 435,
       "norm_label": ".equivalentlegacydatacomponents()"
     },
     {
@@ -11126,7 +11126,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_java",
-      "community": 438,
+      "community": 12,
       "norm_label": "kleinstar.java"
     },
     {
@@ -11466,7 +11466,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_mattermaterials_java",
-      "community": 6,
+      "community": 257,
       "norm_label": "mattermaterials.java"
     },
     {
@@ -11476,7 +11476,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials",
-      "community": 6,
+      "community": 257,
       "norm_label": "mattermaterials"
     },
     {
@@ -11486,7 +11486,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "toolmaterial",
-      "community": 6,
+      "community": 257,
       "norm_label": "toolmaterial"
     },
     {
@@ -11506,7 +11506,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "equipmentasset",
-      "community": 6,
+      "community": 257,
       "norm_label": "equipmentasset"
     },
     {
@@ -11516,7 +11516,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "armormaterial",
-      "community": 6,
+      "community": 257,
       "norm_label": "armormaterial"
     },
     {
@@ -11526,7 +11526,7 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials_mattermaterials",
-      "community": 6,
+      "community": 257,
       "norm_label": ".mattermaterials()"
     },
     {
@@ -11826,7 +11826,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_misctoolitem_misctoolitem_useon",
-      "community": 129,
+      "community": 55,
       "norm_label": ".useon()"
     },
     {
@@ -12716,7 +12716,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_fullkleinstaringredient_java",
-      "community": 6,
+      "community": 88,
       "norm_label": "fullkleinstaringredient.java"
     },
     {
@@ -12726,7 +12726,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_fullkleinstaringredient_fullkleinstaringredient",
-      "community": 6,
+      "community": 88,
       "norm_label": "fullkleinstaringredient"
     },
     {
@@ -12736,7 +12736,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "icustomingredient",
-      "community": 6,
+      "community": 88,
       "norm_label": "icustomingredient"
     },
     {
@@ -12756,7 +12756,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_fullkleinstaringredient_fullkleinstaringredient_test",
-      "community": 6,
+      "community": 88,
       "norm_label": ".test()"
     },
     {
@@ -12786,7 +12786,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_fullkleinstaringredient_fullkleinstaringredient_items",
-      "community": 6,
+      "community": 88,
       "norm_label": ".items()"
     },
     {
@@ -12796,7 +12796,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "holder",
-      "community": 6,
+      "community": 88,
       "norm_label": "holder"
     },
     {
@@ -12816,7 +12816,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_fullkleinstaringredient_fullkleinstaringredient_issimple",
-      "community": 6,
+      "community": 88,
       "norm_label": ".issimple()"
     },
     {
@@ -12826,7 +12826,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_fullkleinstaringredient_fullkleinstaringredient_gettype",
-      "community": 6,
+      "community": 88,
       "norm_label": ".gettype()"
     },
     {
@@ -12846,7 +12846,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_modingredienttypes_java",
-      "community": 6,
+      "community": 88,
       "norm_label": "modingredienttypes.java"
     },
     {
@@ -12856,7 +12856,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_modingredienttypes_modingredienttypes",
-      "community": 6,
+      "community": 88,
       "norm_label": "modingredienttypes"
     },
     {
@@ -12896,7 +12896,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_modingredienttypes_modingredienttypes_modingredienttypes",
-      "community": 6,
+      "community": 88,
       "norm_label": ".modingredienttypes()"
     },
     {
@@ -12906,7 +12906,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_packethandler_java",
-      "community": 36,
+      "community": 436,
       "norm_label": "packethandler.java"
     },
     {
@@ -12916,7 +12916,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler",
-      "community": 36,
+      "community": 436,
       "norm_label": "packethandler"
     },
     {
@@ -12926,7 +12926,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_packethandler",
-      "community": 36,
+      "community": 436,
       "norm_label": ".packethandler()"
     },
     {
@@ -12936,7 +12936,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_packethandler_packethandler_register",
-      "community": 36,
+      "community": 436,
       "norm_label": ".register()"
     },
     {
@@ -13056,7 +13056,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java",
-      "community": 31,
+      "community": 259,
       "norm_label": "knowledgesyncchangepayload.java"
     },
     {
@@ -13066,7 +13066,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
-      "community": 31,
+      "community": 259,
       "norm_label": "knowledgesyncchangepayload"
     },
     {
@@ -13106,7 +13106,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_type",
-      "community": 31,
+      "community": 259,
       "norm_label": ".type()"
     },
     {
@@ -13126,7 +13126,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_handle",
-      "community": 31,
+      "community": 259,
       "norm_label": ".handle()"
     },
     {
@@ -13236,7 +13236,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java",
-      "community": 12,
+      "community": 7,
       "norm_label": "knowledgesyncpayload.java"
     },
     {
@@ -13246,7 +13246,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
-      "community": 12,
+      "community": 7,
       "norm_label": "knowledgesyncpayload"
     },
     {
@@ -13286,7 +13286,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_type",
-      "community": 12,
+      "community": 7,
       "norm_label": ".type()"
     },
     {
@@ -13306,7 +13306,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_handle",
-      "community": 12,
+      "community": 7,
       "norm_label": ".handle()"
     },
     {
@@ -13416,7 +13416,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_java",
-      "community": 88,
+      "community": 7,
       "norm_label": "equivalentlegacyattachments.java"
     },
     {
@@ -13426,7 +13426,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments",
-      "community": 88,
+      "community": 7,
       "norm_label": "equivalentlegacyattachments"
     },
     {
@@ -13446,7 +13446,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "attachmenttype",
-      "community": 88,
+      "community": 7,
       "norm_label": "attachmenttype"
     },
     {
@@ -13456,7 +13456,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments_equivalentlegacyattachments",
-      "community": 88,
+      "community": 7,
       "norm_label": ".equivalentlegacyattachments()"
     },
     {
@@ -13466,7 +13466,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java",
-      "community": 438,
+      "community": 12,
       "norm_label": "playerknowledge.java"
     },
     {
@@ -13476,7 +13476,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
-      "community": 438,
+      "community": 12,
       "norm_label": "playerknowledge"
     },
     {
@@ -13496,7 +13496,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_playerknowledge",
-      "community": 438,
+      "community": 12,
       "norm_label": ".playerknowledge()"
     },
     {
@@ -13506,7 +13506,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of",
-      "community": 35,
+      "community": 12,
       "norm_label": ".of()"
     },
     {
@@ -13526,7 +13526,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setemc",
-      "community": 438,
+      "community": 7,
       "norm_label": ".setemc()"
     },
     {
@@ -13536,7 +13536,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_addemc",
-      "community": 7,
+      "community": 12,
       "norm_label": ".addemc()"
     },
     {
@@ -13546,7 +13546,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_subtractemc",
-      "community": 438,
+      "community": 55,
       "norm_label": ".subtractemc()"
     },
     {
@@ -13556,7 +13556,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasknowledge",
-      "community": 438,
+      "community": 55,
       "norm_label": ".hasknowledge()"
     },
     {
@@ -13586,7 +13586,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_unlearnitem",
-      "community": 7,
+      "community": 259,
       "norm_label": ".unlearnitem()"
     },
     {
@@ -13656,7 +13656,7 @@
       "source_location": "L94",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_syncemc",
-      "community": 438,
+      "community": 55,
       "norm_label": ".syncemc()"
     },
     {
@@ -13716,7 +13716,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setemc",
-      "community": 438,
+      "community": 7,
       "norm_label": ".setemc()"
     },
     {
@@ -13726,7 +13726,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_addemc",
-      "community": 7,
+      "community": 12,
       "norm_label": ".addemc()"
     },
     {
@@ -13736,7 +13736,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_subtractemc",
-      "community": 438,
+      "community": 55,
       "norm_label": ".subtractemc()"
     },
     {
@@ -13756,7 +13756,7 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_hasknowledge",
-      "community": 438,
+      "community": 55,
       "norm_label": ".hasknowledge()"
     },
     {
@@ -13776,7 +13776,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_removeknowledge",
-      "community": 7,
+      "community": 259,
       "norm_label": ".removeknowledge()"
     },
     {
@@ -14516,7 +14516,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationresult",
-      "community": 103,
+      "community": 49,
       "norm_label": "transmutationresult.java"
     },
     {
@@ -14526,7 +14526,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationresult_transmutationresult",
-      "community": 103,
+      "community": 49,
       "norm_label": "transmutationresult"
     },
     {
@@ -14536,7 +14536,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationresult_java_block",
-      "community": 103,
+      "community": 49,
       "norm_label": "block"
     },
     {
@@ -14546,7 +14546,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager",
-      "community": 13,
+      "community": 49,
       "norm_label": "worldtransmutationmanager.java"
     },
     {
@@ -14556,7 +14556,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager",
-      "community": 13,
+      "community": 49,
       "norm_label": "worldtransmutationmanager"
     },
     {
@@ -14566,7 +14566,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_java_block",
-      "community": 13,
+      "community": 49,
       "norm_label": "block"
     },
     {
@@ -14576,7 +14576,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_worldtransmutationmanager",
-      "community": 13,
+      "community": 49,
       "norm_label": ".worldtransmutationmanager()"
     },
     {
@@ -14586,7 +14586,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_register",
-      "community": 13,
+      "community": 49,
       "norm_label": ".register()"
     },
     {
@@ -14596,7 +14596,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_blacklist",
-      "community": 13,
+      "community": 49,
       "norm_label": ".blacklist()"
     },
     {
@@ -14606,7 +14606,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_cantransmute",
-      "community": 13,
+      "community": 49,
       "norm_label": ".cantransmute()"
     },
     {
@@ -14616,7 +14616,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_istransmutable",
-      "community": 13,
+      "community": 49,
       "norm_label": ".istransmutable()"
     },
     {
@@ -14626,7 +14626,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_gettransmutation",
-      "community": 13,
+      "community": 49,
       "norm_label": ".gettransmutation()"
     },
     {
@@ -14636,7 +14636,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_gettransmutationmap",
-      "community": 13,
+      "community": 49,
       "norm_label": ".gettransmutationmap()"
     },
     {
@@ -14646,7 +14646,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_gettransmutationtarget",
-      "community": 13,
+      "community": 49,
       "norm_label": ".gettransmutationtarget()"
     },
     {
@@ -14656,7 +14656,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_gettransmutationcost",
-      "community": 13,
+      "community": 49,
       "norm_label": ".gettransmutationcost()"
     },
     {
@@ -14666,7 +14666,7 @@
       "source_location": "L76",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_transmute",
-      "community": 13,
+      "community": 49,
       "norm_label": ".transmute()"
     },
     {
@@ -14676,7 +14676,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_java_serverplayer",
-      "community": 13,
+      "community": 49,
       "norm_label": "serverplayer"
     },
     {
@@ -14686,7 +14686,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_java_blockpos",
-      "community": 13,
+      "community": 49,
       "norm_label": "blockpos"
     },
     {
@@ -14696,7 +14696,7 @@
       "source_location": "L103",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_emcofblockitem",
-      "community": 13,
+      "community": 49,
       "norm_label": ".emcofblockitem()"
     },
     {
@@ -14706,7 +14706,7 @@
       "source_location": "L114",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_registerdefaulttransmutations",
-      "community": 13,
+      "community": 49,
       "norm_label": ".registerdefaulttransmutations()"
     },
     {
@@ -14716,7 +14716,7 @@
       "source_location": "L197",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_worldtransmutationmanager_worldtransmutationmanager_registerpair",
-      "community": 13,
+      "community": 49,
       "norm_label": ".registerpair()"
     },
     {
@@ -15238,6 +15238,206 @@
       "id": "claude_plans_equivalent_legacy_phase1_2_success_criteria_end_state",
       "community": 39,
       "norm_label": "success criteria (end state)"
+    },
+    {
+      "label": "gui-improvements-phase-3.md",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3",
+      "community": 13,
+      "norm_label": "gui-improvements-phase-3.md"
+    },
+    {
+      "label": "Plan: Fase 3 - GUI Improvements (Equivalent Legacy)",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "community": 13,
+      "norm_label": "plan: fase 3 - gui improvements (equivalent legacy)"
+    },
+    {
+      "label": "Resumen",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_resumen",
+      "community": 13,
+      "norm_label": "resumen"
+    },
+    {
+      "label": "1. Crear TransmutationScreen (nueva clase)",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_1_crear_transmutationscreen_nueva_clase",
+      "community": 13,
+      "norm_label": "1. crear transmutationscreen (nueva clase)"
+    },
+    {
+      "label": "2. Crear TransmutationMenu (si no existe)",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L103",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_2_crear_transmutationmenu_si_no_existe",
+      "community": 13,
+      "norm_label": "2. crear transmutationmenu (si no existe)"
+    },
+    {
+      "label": "3. Crear/Actualizar TransmutationContainer",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_3_crear_actualizar_transmutationcontainer",
+      "community": 13,
+      "norm_label": "3. crear/actualizar transmutationcontainer"
+    },
+    {
+      "label": "4. Crear/Actualizar PlayerEMCData (Data Attachment)",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L130",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_4_crear_actualizar_playeremcdata_data_attachment",
+      "community": 13,
+      "norm_label": "4. crear/actualizar playeremcdata (data attachment)"
+    },
+    {
+      "label": "5. Registrar Screen en ModScreens (si es necesario)",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L144",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_5_registrar_screen_en_modscreens_si_es_necesario",
+      "community": 13,
+      "norm_label": "5. registrar screen en modscreens (si es necesario)"
+    },
+    {
+      "label": "6. Right-click Philosopher's Stone para abrir GUI",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L160",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_6_right_click_philosopher_s_stone_para_abrir_gui",
+      "community": 13,
+      "norm_label": "6. right-click philosopher's stone para abrir gui"
+    },
+    {
+      "label": "7. Localization (lenguajes)",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L183",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_7_localization_lenguajes",
+      "community": 13,
+      "norm_label": "7. localization (lenguajes)"
+    },
+    {
+      "label": "8. Event Handlers para abrir GUI en cliente",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L198",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_8_event_handlers_para_abrir_gui_en_cliente",
+      "community": 13,
+      "norm_label": "8. event handlers para abrir gui en cliente"
+    },
+    {
+      "label": "9. Restricciones T\u00e9cnicas",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L211",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_9_restricciones_t\u00e9cnicas",
+      "community": 13,
+      "norm_label": "9. restricciones tecnicas"
+    },
+    {
+      "label": "NeoForge 26.2",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L213",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_neoforge_26_2",
+      "community": 13,
+      "norm_label": "neoforge 26.2"
+    },
+    {
+      "label": "UI/UX",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L219",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_ui_ux",
+      "community": 13,
+      "norm_label": "ui/ux"
+    },
+    {
+      "label": "Performance",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L226",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_performance",
+      "community": 13,
+      "norm_label": "performance"
+    },
+    {
+      "label": "Compatibility",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L231",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_compatibility",
+      "community": 13,
+      "norm_label": "compatibility"
+    },
+    {
+      "label": "10. Definition of Done",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L238",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_10_definition_of_done",
+      "community": 13,
+      "norm_label": "10. definition of done"
+    },
+    {
+      "label": "11. Fases posteriores",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L257",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_11_fases_posteriores",
+      "community": 13,
+      "norm_label": "11. fases posteriores"
+    },
+    {
+      "label": "12. Notas de Implementaci\u00f3n",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L265",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_12_notas_de_implementaci\u00f3n",
+      "community": 13,
+      "norm_label": "12. notas de implementacion"
+    },
+    {
+      "label": "13. Archivos que se crear\u00e1n/modificar\u00e1n",
+      "file_type": "document",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L275",
+      "_origin": "ast",
+      "id": "claude_plans_gui_improvements_phase_3_13_archivos_que_se_crear\u00e1n_modificar\u00e1n",
+      "community": 13,
+      "norm_label": "13. archivos que se crearan/modificaran"
     },
     {
       "label": "jei-wthit-phase-2.4.md",
@@ -17248,6 +17448,16 @@
       "id": "docs_curseforge_versions_1_2_0_beta_7",
       "community": 183,
       "norm_label": "1.2.0-beta.7.md"
+    },
+    {
+      "label": "1.2.0-beta.8.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.2.0-beta.8.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_2_0_beta_8",
+      "community": 438,
+      "norm_label": "1.2.0-beta.8.md"
     },
     {
       "label": "Publish Public Script",
@@ -39854,6 +40064,196 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3",
+      "target": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_10_definition_of_done",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L257",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_11_fases_posteriores",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L265",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_12_notas_de_implementaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L275",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_13_archivos_que_se_crear\u00e1n_modificar\u00e1n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_1_crear_transmutationscreen_nueva_clase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_2_crear_transmutationmenu_si_no_existe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_3_crear_actualizar_transmutationcontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_4_crear_actualizar_playeremcdata_data_attachment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_5_registrar_screen_en_modscreens_si_es_necesario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_6_right_click_philosopher_s_stone_para_abrir_gui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_7_localization_lenguajes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L198",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_8_event_handlers_para_abrir_gui_en_cliente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_9_restricciones_t\u00e9cnicas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_plan_fase_3_gui_improvements_equivalent_legacy",
+      "target": "claude_plans_gui_improvements_phase_3_resumen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L231",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_9_restricciones_t\u00e9cnicas",
+      "target": "claude_plans_gui_improvements_phase_3_compatibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_9_restricciones_t\u00e9cnicas",
+      "target": "claude_plans_gui_improvements_phase_3_neoforge_26_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_9_restricciones_t\u00e9cnicas",
+      "target": "claude_plans_gui_improvements_phase_3_performance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/gui-improvements-phase-3.md",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "claude_plans_gui_improvements_phase_3_9_restricciones_t\u00e9cnicas",
+      "target": "claude_plans_gui_improvements_phase_3_ui_ux",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".claude/plans/jei-wthit-phase-2.4.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -41389,5 +41789,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4eb28a033b3ddd25070dee63875ae9eb10d287b4"
+  "built_at_commit": "8e7e92859f491adc0469693bf86a7b5a47d58dcd"
 }

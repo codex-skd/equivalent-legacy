@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1786003927.666188,
-    "ast_hash": "4fcdc406e49270f55a401f29b1479239",
+    "mtime": 1786018466.049782,
+    "ast_hash": "c2f69f888278072cd5f96d22c03a4e8e",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -3265,8 +3265,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/de_de.json": {
-    "mtime": 1786003927.6631885,
-    "ast_hash": "d5c579c943d1b9a2fe351829f60b6448",
+    "mtime": 1786018466.5296729,
+    "ast_hash": "dcab66edb688f2bc24c17faea1c7215f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/es_es.json": {
@@ -3275,18 +3275,18 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/fr_fr.json": {
-    "mtime": 1786003927.667477,
-    "ast_hash": "1c6b7bba5a30984bb7a44b20783ed8a6",
+    "mtime": 1786018466.2968771,
+    "ast_hash": "6b529a717eef32db160e5739679b581d",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/it_it.json": {
-    "mtime": 1786003927.6685264,
-    "ast_hash": "c3d9004d364b6c53fa89b5eb0354db58",
+    "mtime": 1786018466.7163415,
+    "ast_hash": "b39b9fec88fdbff54d73c4b745181c2e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ja_jp.json": {
-    "mtime": 1786003927.6685264,
-    "ast_hash": "f2c9f52d478801b93583e873fed3a48c",
+    "mtime": 1786018466.3898115,
+    "ast_hash": "1b62dd16331b46764abeb66bd8ced7d8",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ko_kr.json": {
@@ -3310,13 +3310,13 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ru_ru.json": {
-    "mtime": 1786003927.6716833,
-    "ast_hash": "22e71a7c5b3eb14e65f25c28236f17ba",
+    "mtime": 1786018466.8560297,
+    "ast_hash": "83cdee1f6ad2599644591af8ae144bbc",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/zh_cn.json": {
-    "mtime": 1786003957.741403,
-    "ast_hash": "e13d200c211e8a3865c655a2e31954c2",
+    "mtime": 1786018466.1283917,
+    "ast_hash": "d5451ea559cb58b294decf65cd3acfc1",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.1.0.md": {
@@ -3545,33 +3545,33 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/cs_cz.json": {
-    "mtime": 1786003927.6626863,
-    "ast_hash": "ef0d8eddb6bbab3b3d94c25f826e0343",
+    "mtime": 1786018466.7941704,
+    "ast_hash": "0cde141b2463203030c620a9dbbab4a8",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_au.json": {
-    "mtime": 1786003927.6631885,
-    "ast_hash": "0aaff4fd567b8d8a3a07b16dbd8877a4",
+    "mtime": 1786018466.4534476,
+    "ast_hash": "327bdd47b45fb47d10cb6e86efc4b6e2",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_gb.json": {
-    "mtime": 1786003927.6631885,
-    "ast_hash": "0aaff4fd567b8d8a3a07b16dbd8877a4",
+    "mtime": 1786018466.6289997,
+    "ast_hash": "327bdd47b45fb47d10cb6e86efc4b6e2",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_ud.json": {
-    "mtime": 1786003927.6651917,
-    "ast_hash": "23c37a4bd9d30f4db0bfdf28c25c093f",
+    "mtime": 1786018465.9620285,
+    "ast_hash": "8b405d7811fb0f53d8757343f4cff52a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/tr_tr.json": {
-    "mtime": 1786003927.672834,
-    "ast_hash": "a75fa5a1536d81c9781693c57de98ff9",
+    "mtime": 1786018466.936576,
+    "ast_hash": "70e5595e0d0f68c31b86d936f0118691",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/uk_ua.json": {
-    "mtime": 1786003927.6738987,
-    "ast_hash": "626daefd30aa5b5c81ffceb809b2ab5a",
+    "mtime": 1786018466.2214901,
+    "ast_hash": "4e143bd6c738e95819bc5e93bdd73c29",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/base_chest.json": {
@@ -5052,6 +5052,16 @@
   "docs/curseforge/versions/1.2.0-beta.7.md": {
     "mtime": 1786013392.2460265,
     "ast_hash": "13d0ea6cbc927b6c96334464bcd87a3f",
+    "semantic_hash": ""
+  },
+  ".claude/plans/gui-improvements-phase-3.md": {
+    "mtime": 1786014423.4059248,
+    "ast_hash": "df6ccdc8d4c941a5b0e05c1d9a0077d9",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.2.0-beta.8.md": {
+    "mtime": 1786018502.933958,
+    "ast_hash": "6cb99894e608167e5b12d78b6fb51447",
     "semantic_hash": ""
   }
 }
