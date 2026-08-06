@@ -438,9 +438,16 @@
   "436": "PacketHandler",
   "437": ".ticker",
   "438": ".getEMC",
+  "439": "DestructionCatalystBlockEntity",
   "440": "1.0.0.md",
   "441": "NetworkEvents.java",
   "442": "BagMenu",
   "443": "CollectorMenu",
-  "446": "1.1.0.md"
+  "444": "EquivalentLegacyWthitPlugin.java",
+  "445": "RecipeMapper.java",
+  "446": "1.1.0.md",
+  "447": "KnowledgeSyncEmcPayload",
+  "448": "IEmcReceptor",
+  "449": "1.2.0-beta.9.md",
+  "450": "Post"
 }

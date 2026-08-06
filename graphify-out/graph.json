@@ -326,7 +326,7 @@
       "source_location": "L349",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
-      "community": 36,
+      "community": 78,
       "norm_label": ".rl()"
     },
     {
@@ -336,7 +336,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_identifier",
-      "community": 36,
+      "community": 78,
       "norm_label": "identifier"
     },
     {
@@ -656,7 +656,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_api_iemcreceptor",
-      "community": 45,
+      "community": 448,
       "norm_label": "iemcreceptor.java"
     },
     {
@@ -666,7 +666,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_api_iemcreceptor_iemcreceptor",
-      "community": 45,
+      "community": 448,
       "norm_label": "iemcreceptor"
     },
     {
@@ -676,7 +676,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_api_iemcreceptor_iemcreceptor_acceptsemcfrom",
-      "community": 45,
+      "community": 448,
       "norm_label": ".acceptsemcfrom()"
     },
     {
@@ -686,7 +686,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "direction",
-      "community": 45,
+      "community": 88,
       "norm_label": "direction"
     },
     {
@@ -696,7 +696,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_api_iemcreceptor_iemcreceptor_receiveemc",
-      "community": 45,
+      "community": 448,
       "norm_label": ".receiveemc()"
     },
     {
@@ -1116,7 +1116,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_basemachineblock_java",
-      "community": 45,
+      "community": 88,
       "norm_label": "basemachineblock.java"
     },
     {
@@ -1126,7 +1126,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_basemachineblock_basemachineblock",
-      "community": 45,
+      "community": 107,
       "norm_label": "basemachineblock"
     },
     {
@@ -1136,7 +1136,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "block",
-      "community": 45,
+      "community": 107,
       "norm_label": "block"
     },
     {
@@ -1146,7 +1146,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "entityblock",
-      "community": 45,
+      "community": 88,
       "norm_label": "entityblock"
     },
     {
@@ -1176,7 +1176,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_basemachineblock_basemachineblock_basemachineblock",
-      "community": 45,
+      "community": 107,
       "norm_label": ".basemachineblock()"
     },
     {
@@ -1186,7 +1186,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_basemachineblock_basemachineblock_createblockstatedefinition",
-      "community": 45,
+      "community": 107,
       "norm_label": ".createblockstatedefinition()"
     },
     {
@@ -1226,7 +1226,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_basemachineblock_basemachineblock_getstateforplacement",
-      "community": 45,
+      "community": 107,
       "norm_label": ".getstateforplacement()"
     },
     {
@@ -1246,7 +1246,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_basemachineblock_basemachineblock_newblockentity",
-      "community": 45,
+      "community": 107,
       "norm_label": ".newblockentity()"
     },
     {
@@ -1276,7 +1276,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_basemachineblock_basemachineblock_getticker",
-      "community": 45,
+      "community": 107,
       "norm_label": ".getticker()"
     },
     {
@@ -1296,7 +1296,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_basemachineblock_basemachineblock_usewithoutitem",
-      "community": 45,
+      "community": 107,
       "norm_label": ".usewithoutitem()"
     },
     {
@@ -1336,7 +1336,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_basemachineblock_basemachineblock_playerwilldestroy",
-      "community": 45,
+      "community": 107,
       "norm_label": ".playerwilldestroy()"
     },
     {
@@ -1346,7 +1346,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_basemachineblock_basemachineblock_getrendershape",
-      "community": 45,
+      "community": 107,
       "norm_label": ".getrendershape()"
     },
     {
@@ -1676,7 +1676,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_interdictiontorchblock_java",
-      "community": 45,
+      "community": 88,
       "norm_label": "interdictiontorchblock.java"
     },
     {
@@ -1686,7 +1686,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_interdictiontorchblock_interdictiontorchblock",
-      "community": 45,
+      "community": 88,
       "norm_label": "interdictiontorchblock"
     },
     {
@@ -1696,7 +1696,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_interdictiontorchblock_interdictiontorchblock_interdictiontorchblock",
-      "community": 45,
+      "community": 88,
       "norm_label": ".interdictiontorchblock()"
     },
     {
@@ -1706,7 +1706,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_interdictiontorchblock_interdictiontorchblock_newblockentity",
-      "community": 45,
+      "community": 88,
       "norm_label": ".newblockentity()"
     },
     {
@@ -1756,7 +1756,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_interdictiontorchblock_interdictiontorchblock_getticker",
-      "community": 45,
+      "community": 88,
       "norm_label": ".getticker()"
     },
     {
@@ -1796,7 +1796,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_interdictiontorchblock_interdictiontorchblock_getrendershape",
-      "community": 45,
+      "community": 88,
       "norm_label": ".getrendershape()"
     },
     {
@@ -1816,7 +1816,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_matterfurnaceblock_java",
-      "community": 45,
+      "community": 88,
       "norm_label": "matterfurnaceblock.java"
     },
     {
@@ -1826,7 +1826,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_matterfurnaceblock_matterfurnaceblock",
-      "community": 45,
+      "community": 437,
       "norm_label": "matterfurnaceblock"
     },
     {
@@ -1836,7 +1836,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_matterfurnaceblock_matterfurnaceblock_matterfurnaceblock",
-      "community": 45,
+      "community": 437,
       "norm_label": ".matterfurnaceblock()"
     },
     {
@@ -1846,7 +1846,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_matterfurnaceblock_matterfurnaceblock_createblockstatedefinition",
-      "community": 45,
+      "community": 437,
       "norm_label": ".createblockstatedefinition()"
     },
     {
@@ -1886,7 +1886,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_matterfurnaceblock_matterfurnaceblock_getstateforplacement",
-      "community": 45,
+      "community": 437,
       "norm_label": ".getstateforplacement()"
     },
     {
@@ -1906,7 +1906,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_matterfurnaceblock_matterfurnaceblock_newblockentity",
-      "community": 45,
+      "community": 437,
       "norm_label": ".newblockentity()"
     },
     {
@@ -1976,7 +1976,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_matterfurnaceblock_matterfurnaceblock_usewithoutitem",
-      "community": 45,
+      "community": 437,
       "norm_label": ".usewithoutitem()"
     },
     {
@@ -2016,7 +2016,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_matterfurnaceblock_matterfurnaceblock_playerwilldestroy",
-      "community": 45,
+      "community": 437,
       "norm_label": ".playerwilldestroy()"
     },
     {
@@ -2026,7 +2026,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_matterfurnaceblock_matterfurnaceblock_getrendershape",
-      "community": 45,
+      "community": 437,
       "norm_label": ".getrendershape()"
     },
     {
@@ -2326,7 +2326,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_transmutationtableblock_java",
-      "community": 45,
+      "community": 107,
       "norm_label": "transmutationtableblock.java"
     },
     {
@@ -2336,7 +2336,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_transmutationtableblock_transmutationtableblock",
-      "community": 45,
+      "community": 107,
       "norm_label": "transmutationtableblock"
     },
     {
@@ -2346,7 +2346,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_transmutationtableblock_transmutationtableblock_transmutationtableblock",
-      "community": 45,
+      "community": 107,
       "norm_label": ".transmutationtableblock()"
     },
     {
@@ -2356,7 +2356,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_transmutationtableblock_transmutationtableblock_usewithoutitem",
-      "community": 45,
+      "community": 107,
       "norm_label": ".usewithoutitem()"
     },
     {
@@ -2586,7 +2586,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "blockentity",
-      "community": 45,
+      "community": 88,
       "norm_label": "blockentity"
     },
     {
@@ -2886,7 +2886,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_collectorblockentity_collectorblockentity_tickserver",
-      "community": 107,
+      "community": 1,
       "norm_label": ".tickserver()"
     },
     {
@@ -2906,7 +2906,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_collectorblockentity_collectorblockentity_chargekleinstar",
-      "community": 107,
+      "community": 1,
       "norm_label": ".chargekleinstar()"
     },
     {
@@ -3216,7 +3216,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_destructioncatalystblockentity",
-      "community": 45,
+      "community": 439,
       "norm_label": "destructioncatalystblockentity.java"
     },
     {
@@ -3226,7 +3226,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_destructioncatalystblockentity_destructioncatalystblockentity",
-      "community": 45,
+      "community": 439,
       "norm_label": "destructioncatalystblockentity"
     },
     {
@@ -3236,7 +3236,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_destructioncatalystblockentity_destructioncatalystblockentity_destructioncatalystblockentity",
-      "community": 45,
+      "community": 439,
       "norm_label": ".destructioncatalystblockentity()"
     },
     {
@@ -3246,7 +3246,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_destructioncatalystblockentity_java_blockpos",
-      "community": 45,
+      "community": 439,
       "norm_label": "blockpos"
     },
     {
@@ -3256,7 +3256,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_destructioncatalystblockentity_java_blockstate",
-      "community": 45,
+      "community": 439,
       "norm_label": "blockstate"
     },
     {
@@ -3266,7 +3266,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_destructioncatalystblockentity_destructioncatalystblockentity_getfuse",
-      "community": 45,
+      "community": 439,
       "norm_label": ".getfuse()"
     },
     {
@@ -3276,7 +3276,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_destructioncatalystblockentity_destructioncatalystblockentity_setfuse",
-      "community": 45,
+      "community": 439,
       "norm_label": ".setfuse()"
     },
     {
@@ -3346,7 +3346,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_interdictiontorchblockentity_java",
-      "community": 45,
+      "community": 88,
       "norm_label": "interdictiontorchblockentity.java"
     },
     {
@@ -3356,7 +3356,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_interdictiontorchblockentity_interdictiontorchblockentity",
-      "community": 45,
+      "community": 88,
       "norm_label": "interdictiontorchblockentity"
     },
     {
@@ -3366,7 +3366,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_interdictiontorchblockentity_interdictiontorchblockentity_interdictiontorchblockentity",
-      "community": 45,
+      "community": 88,
       "norm_label": ".interdictiontorchblockentity()"
     },
     {
@@ -3396,7 +3396,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_interdictiontorchblockentity_interdictiontorchblockentity_ticker",
-      "community": 45,
+      "community": 88,
       "norm_label": ".ticker()"
     },
     {
@@ -3416,7 +3416,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_interdictiontorchblockentity_interdictiontorchblockentity_tick",
-      "community": 45,
+      "community": 88,
       "norm_label": ".tick()"
     },
     {
@@ -3896,7 +3896,7 @@
       "source_location": "L223",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_matterfurnaceblockentity_matterfurnaceblockentity_createmenu",
-      "community": 255,
+      "community": 55,
       "norm_label": ".createmenu()"
     },
     {
@@ -4218,6 +4218,76 @@
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_getitemrenderrotation",
       "community": 0,
       "norm_label": ".getitemrenderrotation()"
+    },
+    {
+      "label": ".isMobFarmingSetup()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L143",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_ismobfarmingsetup",
+      "community": 0,
+      "norm_label": ".ismobfarmingsetup()"
+    },
+    {
+      "label": ".getMobsNearby()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L149",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_getmobsnearby",
+      "community": 7,
+      "norm_label": ".getmobsnearby()"
+    },
+    {
+      "label": "Mob",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "mob",
+      "community": 7,
+      "norm_label": "mob"
+    },
+    {
+      "label": ".collectNearbyXp()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L155",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_collectnearbyxp",
+      "community": 0,
+      "norm_label": ".collectnearbyxp()"
+    },
+    {
+      "label": ".collectNearbyDrops()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L167",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_collectnearbydrops",
+      "community": 0,
+      "norm_label": ".collectnearbydrops()"
+    },
+    {
+      "label": ".registerControlledSpawner()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L179",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_registercontrolledspawner",
+      "community": 0,
+      "norm_label": ".registercontrolledspawner()"
+    },
+    {
+      "label": ".updateSpawnerBehavior()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L187",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_updatespawnerbehavior",
+      "community": 0,
+      "norm_label": ".updatespawnerbehavior()"
     },
     {
       "label": "RMPedestalBlockEntity.java",
@@ -4866,7 +4936,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_serverconfig",
-      "community": 49,
+      "community": 246,
       "norm_label": "serverconfig.java"
     },
     {
@@ -4876,7 +4946,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_serverconfig_serverconfig",
-      "community": 49,
+      "community": 246,
       "norm_label": "serverconfig"
     },
     {
@@ -4886,7 +4956,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_serverconfig_java_builder",
-      "community": 49,
+      "community": 246,
       "norm_label": "builder"
     },
     {
@@ -4896,7 +4966,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "intvalue",
-      "community": 49,
+      "community": 246,
       "norm_label": "intvalue"
     },
     {
@@ -4906,7 +4976,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_serverconfig_java_booleanvalue",
-      "community": 49,
+      "community": 246,
       "norm_label": "booleanvalue"
     },
     {
@@ -4916,7 +4986,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_serverconfig_java_modconfigspec",
-      "community": 49,
+      "community": 246,
       "norm_label": "modconfigspec"
     },
     {
@@ -4926,7 +4996,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_conversiongroup_java",
-      "community": 5,
+      "community": 256,
       "norm_label": "conversiongroup.java"
     },
     {
@@ -5056,7 +5126,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_customconversion_output",
-      "community": 5,
+      "community": 56,
       "norm_label": ".output()"
     },
     {
@@ -5236,7 +5306,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_hasmappings",
-      "community": 5,
+      "community": 441,
       "norm_label": ".hasmappings()"
     },
     {
@@ -5246,7 +5316,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_java",
-      "community": 107,
+      "community": 441,
       "norm_label": "emcnetwork.java"
     },
     {
@@ -5256,7 +5326,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork",
-      "community": 107,
+      "community": 441,
       "norm_label": "emcnetwork"
     },
     {
@@ -5286,7 +5356,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_emcnetwork",
-      "community": 107,
+      "community": 441,
       "norm_label": ".emcnetwork()"
     },
     {
@@ -5296,7 +5366,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_getemc",
-      "community": 107,
+      "community": 1,
       "norm_label": ".getemc()"
     },
     {
@@ -5306,7 +5376,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_setemc",
-      "community": 107,
+      "community": 441,
       "norm_label": ".setemc()"
     },
     {
@@ -5316,7 +5386,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_addemc",
-      "community": 107,
+      "community": 57,
       "norm_label": ".addemc()"
     },
     {
@@ -5326,7 +5396,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_takeemc",
-      "community": 107,
+      "community": 1,
       "norm_label": ".takeemc()"
     },
     {
@@ -5456,7 +5526,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_isempty",
-      "community": 441,
+      "community": 182,
       "norm_label": ".isempty()"
     },
     {
@@ -5516,7 +5586,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_addsetvalueafter",
-      "community": 5,
+      "community": 256,
       "norm_label": ".addsetvalueafter()"
     },
     {
@@ -5596,7 +5666,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_recipemapper",
-      "community": 441,
+      "community": 445,
       "norm_label": "recipemapper.java"
     },
     {
@@ -5606,7 +5676,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_recipemapper_recipemapper",
-      "community": 441,
+      "community": 445,
       "norm_label": "recipemapper"
     },
     {
@@ -5616,7 +5686,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_recipemapper_java_logger",
-      "community": 441,
+      "community": 445,
       "norm_label": "logger"
     },
     {
@@ -5626,7 +5696,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_recipemapper_recipemapper_recipemapper",
-      "community": 441,
+      "community": 445,
       "norm_label": ".recipemapper()"
     },
     {
@@ -5636,7 +5706,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_recipemapper_recipemapper_maprecipes",
-      "community": 441,
+      "community": 445,
       "norm_label": ".maprecipes()"
     },
     {
@@ -5646,7 +5716,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "recipeholder",
-      "community": 441,
+      "community": 445,
       "norm_label": "recipeholder"
     },
     {
@@ -6306,7 +6376,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_abstractdatacomponentholdernsstag_java",
-      "community": 246,
+      "community": 8,
       "norm_label": "abstractdatacomponentholdernsstag.java"
     },
     {
@@ -6316,7 +6386,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_abstractdatacomponentholdernsstag_abstractdatacomponentholdernsstag",
-      "community": 246,
+      "community": 8,
       "norm_label": "abstractdatacomponentholdernsstag"
     },
     {
@@ -6336,7 +6406,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_abstractdatacomponentholdernsstag_abstractdatacomponentholdernsstag_abstractdatacomponentholdernsstag",
-      "community": 246,
+      "community": 8,
       "norm_label": ".abstractdatacomponentholdernsstag()"
     },
     {
@@ -6356,7 +6426,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_abstractdatacomponentholdernsstag_abstractdatacomponentholdernsstag_getcomponentspatch",
-      "community": 246,
+      "community": 8,
       "norm_label": ".getcomponentspatch()"
     },
     {
@@ -6376,7 +6446,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_abstractdatacomponentholdernsstag_abstractdatacomponentholdernsstag_equals",
-      "community": 246,
+      "community": 8,
       "norm_label": ".equals()"
     },
     {
@@ -6386,7 +6456,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_abstractdatacomponentholdernsstag_abstractdatacomponentholdernsstag_hashcode",
-      "community": 246,
+      "community": 8,
       "norm_label": ".hashcode()"
     },
     {
@@ -6536,7 +6606,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssdatacomponentholder_java",
-      "community": 246,
+      "community": 8,
       "norm_label": "nssdatacomponentholder.java"
     },
     {
@@ -6546,7 +6616,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssdatacomponentholder_nssdatacomponentholder",
-      "community": 246,
+      "community": 8,
       "norm_label": "nssdatacomponentholder"
     },
     {
@@ -6556,7 +6626,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssdatacomponentholder_nssdatacomponentholder_getcomponentspatch",
-      "community": 246,
+      "community": 8,
       "norm_label": ".getcomponentspatch()"
     },
     {
@@ -6576,7 +6646,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java",
-      "community": 88,
+      "community": 103,
       "norm_label": "nssitem.java"
     },
     {
@@ -6656,7 +6726,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem",
-      "community": 55,
+      "community": 103,
       "norm_label": ".createitem()"
     },
     {
@@ -6676,7 +6746,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "itemlike",
-      "community": 88,
+      "community": 103,
       "norm_label": "itemlike"
     },
     {
@@ -6736,7 +6806,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_java",
-      "community": 353,
+      "community": 256,
       "norm_label": "nsstag.java"
     },
     {
@@ -6746,7 +6816,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag",
-      "community": 353,
+      "community": 256,
       "norm_label": "nsstag"
     },
     {
@@ -6756,7 +6826,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_representstag",
-      "community": 353,
+      "community": 256,
       "norm_label": ".representstag()"
     },
     {
@@ -6766,7 +6836,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_foreachelement",
-      "community": 353,
+      "community": 256,
       "norm_label": ".foreachelement()"
     },
     {
@@ -6776,7 +6846,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_forselfandeachelement",
-      "community": 353,
+      "community": 256,
       "norm_label": ".forselfandeachelement()"
     },
     {
@@ -6796,7 +6866,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_normalizedsimplestack_java",
-      "community": 5,
+      "community": 256,
       "norm_label": "normalizedsimplestack.java"
     },
     {
@@ -6806,7 +6876,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_normalizedsimplestack_normalizedsimplestack",
-      "community": 5,
+      "community": 256,
       "norm_label": "normalizedsimplestack"
     },
     {
@@ -6816,7 +6886,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_normalizedsimplestack_normalizedsimplestack_codec",
-      "community": 5,
+      "community": 256,
       "norm_label": ".codec()"
     },
     {
@@ -6836,7 +6906,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_normalizedsimplestack_normalizedsimplestack_forselfandeachelement",
-      "community": 5,
+      "community": 256,
       "norm_label": ".forselfandeachelement()"
     },
     {
@@ -7255,8 +7325,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "post",
-      "community": 129,
+      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_events_curioevents_java_post",
+      "community": 450,
       "norm_label": "post"
     },
     {
@@ -7338,6 +7408,66 @@
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlerepair",
       "community": 129,
       "norm_label": ".handlerepair()"
+    },
+    {
+      "label": "MobFarmingTickHandler.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler",
+      "community": 7,
+      "norm_label": "mobfarmingtickhandler.java"
+    },
+    {
+      "label": "MobFarmingTickHandler",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_mobfarmingtickhandler",
+      "community": 7,
+      "norm_label": "mobfarmingtickhandler"
+    },
+    {
+      "label": "EventBusSubscriber",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_java_eventbussubscriber",
+      "community": 7,
+      "norm_label": "eventbussubscriber"
+    },
+    {
+      "label": ".onServerTick()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_mobfarmingtickhandler_onservertick",
+      "community": 7,
+      "norm_label": ".onservertick()"
+    },
+    {
+      "label": "Post",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_java_post",
+      "community": 7,
+      "norm_label": "post"
+    },
+    {
+      "label": "SubscribeEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_java_subscribeevent",
+      "community": 7,
+      "norm_label": "subscribeevent"
     },
     {
       "label": "NetworkEvents.java",
@@ -7446,7 +7576,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents",
-      "community": 49,
+      "community": 255,
       "norm_label": "playerevents.java"
     },
     {
@@ -7456,7 +7586,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents",
-      "community": 49,
+      "community": 255,
       "norm_label": "playerevents"
     },
     {
@@ -7466,7 +7596,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_eventbussubscriber",
-      "community": 49,
+      "community": 255,
       "norm_label": "eventbussubscriber"
     },
     {
@@ -7476,7 +7606,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_playerevents",
-      "community": 49,
+      "community": 255,
       "norm_label": ".playerevents()"
     },
     {
@@ -7486,7 +7616,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerlogin",
-      "community": 49,
+      "community": 255,
       "norm_label": ".onplayerlogin()"
     },
     {
@@ -7496,7 +7626,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerloggedinevent",
-      "community": 49,
+      "community": 255,
       "norm_label": "playerloggedinevent"
     },
     {
@@ -7506,7 +7636,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_java_subscribeevent",
-      "community": 49,
+      "community": 255,
       "norm_label": "subscribeevent"
     },
     {
@@ -7516,7 +7646,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerrespawn",
-      "community": 49,
+      "community": 255,
       "norm_label": ".onplayerrespawn()"
     },
     {
@@ -7526,7 +7656,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerrespawnevent",
-      "community": 49,
+      "community": 255,
       "norm_label": "playerrespawnevent"
     },
     {
@@ -7536,7 +7666,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onplayerchangeddimension",
-      "community": 49,
+      "community": 255,
       "norm_label": ".onplayerchangeddimension()"
     },
     {
@@ -7546,7 +7676,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "playerchangeddimensionevent",
-      "community": 49,
+      "community": 255,
       "norm_label": "playerchangeddimensionevent"
     },
     {
@@ -7576,7 +7706,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_bagmenu_java",
-      "community": 442,
+      "community": 55,
       "norm_label": "bagmenu.java"
     },
     {
@@ -7586,7 +7716,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_bagmenu_bagmenu",
-      "community": 442,
+      "community": 55,
       "norm_label": "bagmenu"
     },
     {
@@ -7596,7 +7726,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "abstractcontainermenu",
-      "community": 255,
+      "community": 55,
       "norm_label": "abstractcontainermenu"
     },
     {
@@ -7636,7 +7766,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_bagmenu_bagmenu_bagmenu",
-      "community": 442,
+      "community": 55,
       "norm_label": ".bagmenu()"
     },
     {
@@ -7656,7 +7786,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_bagmenu_bagmenu_addplayerinventory",
-      "community": 442,
+      "community": 55,
       "norm_label": ".addplayerinventory()"
     },
     {
@@ -7666,7 +7796,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_bagmenu_bagmenu_getinventory",
-      "community": 442,
+      "community": 55,
       "norm_label": ".getinventory()"
     },
     {
@@ -7676,7 +7806,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iitemhandler",
-      "community": 442,
+      "community": 55,
       "norm_label": "iitemhandler"
     },
     {
@@ -7686,7 +7816,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_bagmenu_bagmenu_quickmovestack",
-      "community": 442,
+      "community": 55,
       "norm_label": ".quickmovestack()"
     },
     {
@@ -7716,7 +7846,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_bagmenu_bagmenu_stillvalid",
-      "community": 442,
+      "community": 55,
       "norm_label": ".stillvalid()"
     },
     {
@@ -8416,7 +8546,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_java",
-      "community": 255,
+      "community": 50,
       "norm_label": "machinemenu.java"
     },
     {
@@ -8426,7 +8556,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu",
-      "community": 255,
+      "community": 50,
       "norm_label": "machinemenu"
     },
     {
@@ -8436,7 +8566,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu_machinemenu",
-      "community": 255,
+      "community": 50,
       "norm_label": ".machinemenu()"
     },
     {
@@ -8456,7 +8586,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu_addplayerinventory",
-      "community": 255,
+      "community": 50,
       "norm_label": ".addplayerinventory()"
     },
     {
@@ -8676,7 +8806,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_matterfurnacescreen_java",
-      "community": 32,
+      "community": 442,
       "norm_label": "matterfurnacescreen.java"
     },
     {
@@ -8686,7 +8816,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_matterfurnacescreen_matterfurnacescreen",
-      "community": 32,
+      "community": 442,
       "norm_label": "matterfurnacescreen"
     },
     {
@@ -8696,7 +8826,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "abstractfurnacescreen",
-      "community": 32,
+      "community": 442,
       "norm_label": "abstractfurnacescreen"
     },
     {
@@ -8726,7 +8856,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "tabinfo",
-      "community": 32,
+      "community": 442,
       "norm_label": "tabinfo"
     },
     {
@@ -8736,7 +8866,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_matterfurnacescreen_matterfurnacescreen_matterfurnacescreen",
-      "community": 32,
+      "community": 442,
       "norm_label": ".matterfurnacescreen()"
     },
     {
@@ -9040,6 +9170,96 @@
       "norm_label": ".extractlabels()"
     },
     {
+      "label": "SpawnerConfigScreen.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen",
+      "community": 353,
+      "norm_label": "spawnerconfigscreen.java"
+    },
+    {
+      "label": "SpawnerConfigScreen",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen",
+      "community": 353,
+      "norm_label": "spawnerconfigscreen"
+    },
+    {
+      "label": "Screen",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "screen",
+      "community": 353,
+      "norm_label": "screen"
+    },
+    {
+      "label": ".SpawnerConfigScreen()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen_spawnerconfigscreen",
+      "community": 353,
+      "norm_label": ".spawnerconfigscreen()"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen_init",
+      "community": 353,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_java_override",
+      "community": 353,
+      "norm_label": "override"
+    },
+    {
+      "label": ".extractBackground()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen_extractbackground",
+      "community": 353,
+      "norm_label": ".extractbackground()"
+    },
+    {
+      "label": "GuiGraphicsExtractor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_java_guigraphicsextractor",
+      "community": 353,
+      "norm_label": "guigraphicsextractor"
+    },
+    {
+      "label": ".isPauseScreen()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen_ispausescreen",
+      "community": 353,
+      "norm_label": ".ispausescreen()"
+    },
+    {
       "label": "StorageScreen.java",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/gui/StorageScreen.java",
@@ -9136,7 +9356,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java",
-      "community": 255,
+      "community": 55,
       "norm_label": "transmutationcontainer.java"
     },
     {
@@ -9176,7 +9396,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmutationcontainer",
-      "community": 12,
+      "community": 55,
       "norm_label": ".transmutationcontainer()"
     },
     {
@@ -9916,7 +10136,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin",
-      "community": 49,
+      "community": 444,
       "norm_label": "equivalentlegacywthitplugin.java"
     },
     {
@@ -9926,7 +10146,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin_equivalentlegacywthitplugin",
-      "community": 49,
+      "community": 444,
       "norm_label": "equivalentlegacywthitplugin"
     },
     {
@@ -9936,7 +10156,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iwailaclientplugin",
-      "community": 49,
+      "community": 444,
       "norm_label": "iwailaclientplugin"
     },
     {
@@ -9946,7 +10166,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin_equivalentlegacywthitplugin_register",
-      "community": 49,
+      "community": 444,
       "norm_label": ".register()"
     },
     {
@@ -9956,7 +10176,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iclientregistrar",
-      "community": 49,
+      "community": 444,
       "norm_label": "iclientregistrar"
     },
     {
@@ -9966,7 +10186,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin_java_override",
-      "community": 49,
+      "community": 444,
       "norm_label": "override"
     },
     {
@@ -9976,7 +10196,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_transmutationcomponentprovider",
-      "community": 49,
+      "community": 185,
       "norm_label": "transmutationcomponentprovider.java"
     },
     {
@@ -9986,7 +10206,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_transmutationcomponentprovider_transmutationcomponentprovider",
-      "community": 49,
+      "community": 185,
       "norm_label": "transmutationcomponentprovider"
     },
     {
@@ -9996,7 +10216,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iblockcomponentprovider",
-      "community": 49,
+      "community": 185,
       "norm_label": "iblockcomponentprovider"
     },
     {
@@ -10006,7 +10226,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_transmutationcomponentprovider_transmutationcomponentprovider_appendbody",
-      "community": 49,
+      "community": 185,
       "norm_label": ".appendbody()"
     },
     {
@@ -10016,7 +10236,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "itooltip",
-      "community": 49,
+      "community": 185,
       "norm_label": "itooltip"
     },
     {
@@ -10026,7 +10246,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iblockaccessor",
-      "community": 49,
+      "community": 185,
       "norm_label": "iblockaccessor"
     },
     {
@@ -10036,7 +10256,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "ipluginconfig",
-      "community": 49,
+      "community": 185,
       "norm_label": "ipluginconfig"
     },
     {
@@ -10046,7 +10266,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_transmutationcomponentprovider_java_override",
-      "community": 49,
+      "community": 185,
       "norm_label": "override"
     },
     {
@@ -10126,7 +10346,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_alchemicalbag_createinventory",
-      "community": 442,
+      "community": 55,
       "norm_label": ".createinventory()"
     },
     {
@@ -10846,7 +11066,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "items",
-      "community": 32,
+      "community": 442,
       "norm_label": "items"
     },
     {
@@ -10953,7 +11173,7 @@
       "label": ".EquivalentLegacyItems()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L318",
+      "source_location": "L321",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_equivalentlegacyitems",
       "community": 69,
@@ -11126,7 +11346,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_java",
-      "community": 12,
+      "community": 55,
       "norm_label": "kleinstar.java"
     },
     {
@@ -11466,7 +11686,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_mattermaterials_java",
-      "community": 257,
+      "community": 6,
       "norm_label": "mattermaterials.java"
     },
     {
@@ -11476,7 +11696,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials",
-      "community": 257,
+      "community": 6,
       "norm_label": "mattermaterials"
     },
     {
@@ -11486,7 +11706,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "toolmaterial",
-      "community": 257,
+      "community": 6,
       "norm_label": "toolmaterial"
     },
     {
@@ -11506,7 +11726,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "equipmentasset",
-      "community": 257,
+      "community": 6,
       "norm_label": "equipmentasset"
     },
     {
@@ -11516,7 +11736,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "armormaterial",
-      "community": 257,
+      "community": 6,
       "norm_label": "armormaterial"
     },
     {
@@ -11526,7 +11746,7 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials_mattermaterials",
-      "community": 257,
+      "community": 6,
       "norm_label": ".mattermaterials()"
     },
     {
@@ -11826,7 +12046,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_misctoolitem_misctoolitem_useon",
-      "community": 55,
+      "community": 103,
       "norm_label": ".useon()"
     },
     {
@@ -12286,7 +12506,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_getemcvalue",
-      "community": 197,
+      "community": 103,
       "norm_label": ".getemcvalue()"
     },
     {
@@ -12330,6 +12550,76 @@
       "norm_label": ".redmatter()"
     },
     {
+      "label": "SpawnerControlItem.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem",
+      "community": 7,
+      "norm_label": "spawnercontrolitem.java"
+    },
+    {
+      "label": "SpawnerControlItem",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem",
+      "community": 7,
+      "norm_label": "spawnercontrolitem"
+    },
+    {
+      "label": ".SpawnerControlItem()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem_spawnercontrolitem",
+      "community": 7,
+      "norm_label": ".spawnercontrolitem()"
+    },
+    {
+      "label": ".onStopUsing()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem_onstopusing",
+      "community": 7,
+      "norm_label": ".onstopusing()"
+    },
+    {
+      "label": "ItemStack",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_java_itemstack",
+      "community": 7,
+      "norm_label": "itemstack"
+    },
+    {
+      "label": "LivingEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_java_livingentity",
+      "community": 7,
+      "norm_label": "livingentity"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_java_override",
+      "community": 7,
+      "norm_label": "override"
+    },
+    {
       "label": "Tome.java",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
@@ -12366,7 +12656,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
-      "community": 12,
+      "community": 55,
       "norm_label": ".use()"
     },
     {
@@ -12626,7 +12916,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_transmutationtablet_java",
-      "community": 185,
+      "community": 23,
       "norm_label": "transmutationtablet.java"
     },
     {
@@ -12636,7 +12926,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_transmutationtablet_transmutationtablet",
-      "community": 185,
+      "community": 23,
       "norm_label": "transmutationtablet"
     },
     {
@@ -12646,7 +12936,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_transmutationtablet_transmutationtablet_transmutationtablet",
-      "community": 185,
+      "community": 23,
       "norm_label": ".transmutationtablet()"
     },
     {
@@ -12656,7 +12946,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_transmutationtablet_transmutationtablet_use",
-      "community": 185,
+      "community": 23,
       "norm_label": ".use()"
     },
     {
@@ -12716,7 +13006,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_fullkleinstaringredient_java",
-      "community": 88,
+      "community": 6,
       "norm_label": "fullkleinstaringredient.java"
     },
     {
@@ -12726,7 +13016,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_fullkleinstaringredient_fullkleinstaringredient",
-      "community": 88,
+      "community": 6,
       "norm_label": "fullkleinstaringredient"
     },
     {
@@ -12736,7 +13026,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "icustomingredient",
-      "community": 88,
+      "community": 6,
       "norm_label": "icustomingredient"
     },
     {
@@ -12756,7 +13046,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_fullkleinstaringredient_fullkleinstaringredient_test",
-      "community": 88,
+      "community": 6,
       "norm_label": ".test()"
     },
     {
@@ -12786,7 +13076,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_fullkleinstaringredient_fullkleinstaringredient_items",
-      "community": 88,
+      "community": 6,
       "norm_label": ".items()"
     },
     {
@@ -12796,7 +13086,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "holder",
-      "community": 88,
+      "community": 6,
       "norm_label": "holder"
     },
     {
@@ -12816,7 +13106,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_fullkleinstaringredient_fullkleinstaringredient_issimple",
-      "community": 88,
+      "community": 6,
       "norm_label": ".issimple()"
     },
     {
@@ -12826,7 +13116,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_fullkleinstaringredient_fullkleinstaringredient_gettype",
-      "community": 88,
+      "community": 6,
       "norm_label": ".gettype()"
     },
     {
@@ -12846,7 +13136,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_modingredienttypes_java",
-      "community": 88,
+      "community": 6,
       "norm_label": "modingredienttypes.java"
     },
     {
@@ -12856,7 +13146,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_modingredienttypes_modingredienttypes",
-      "community": 88,
+      "community": 6,
       "norm_label": "modingredienttypes"
     },
     {
@@ -12896,8 +13186,138 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_crafting_modingredienttypes_modingredienttypes_modingredienttypes",
-      "community": 88,
+      "community": 6,
       "norm_label": ".modingredienttypes()"
+    },
+    {
+      "label": "MobFarmingManager.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager",
+      "community": 7,
+      "norm_label": "mobfarmingmanager.java"
+    },
+    {
+      "label": "MobFarmingManager",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager",
+      "community": 7,
+      "norm_label": "mobfarmingmanager"
+    },
+    {
+      "label": "BlockPos",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockpos",
+      "community": 7,
+      "norm_label": "blockpos"
+    },
+    {
+      "label": "SpawnerState",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate",
+      "community": 7,
+      "norm_label": "spawnerstate"
+    },
+    {
+      "label": "BlockEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockentity",
+      "community": 7,
+      "norm_label": "blockentity"
+    },
+    {
+      "label": ".SpawnerState()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate_spawnerstate",
+      "community": 7,
+      "norm_label": ".spawnerstate()"
+    },
+    {
+      "label": ".registerSpawner()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_registerspawner",
+      "community": 7,
+      "norm_label": ".registerspawner()"
+    },
+    {
+      "label": ".unregisterSpawner()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_unregisterspawner",
+      "community": 7,
+      "norm_label": ".unregisterspawner()"
+    },
+    {
+      "label": ".getSpawnerState()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_getspawnerstate",
+      "community": 7,
+      "norm_label": ".getspawnerstate()"
+    },
+    {
+      "label": ".updateSpawnerConfig()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_updatespawnerconfig",
+      "community": 7,
+      "norm_label": ".updatespawnerconfig()"
+    },
+    {
+      "label": ".toggleSpawner()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_togglespawner",
+      "community": 7,
+      "norm_label": ".togglespawner()"
+    },
+    {
+      "label": ".getActiveSpawners()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_getactivespawners",
+      "community": 7,
+      "norm_label": ".getactivespawners()"
+    },
+    {
+      "label": ".clear()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_clear",
+      "community": 7,
+      "norm_label": ".clear()"
     },
     {
       "label": "PacketHandler.java",
@@ -13056,7 +13476,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_java",
-      "community": 259,
+      "community": 31,
       "norm_label": "knowledgesyncchangepayload.java"
     },
     {
@@ -13066,7 +13486,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload",
-      "community": 259,
+      "community": 31,
       "norm_label": "knowledgesyncchangepayload"
     },
     {
@@ -13106,7 +13526,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_type",
-      "community": 259,
+      "community": 31,
       "norm_label": ".type()"
     },
     {
@@ -13126,7 +13546,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncchangepayload_knowledgesyncchangepayload_handle",
-      "community": 259,
+      "community": 31,
       "norm_label": ".handle()"
     },
     {
@@ -13146,7 +13566,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_java",
-      "community": 31,
+      "community": 447,
       "norm_label": "knowledgesyncemcpayload.java"
     },
     {
@@ -13156,7 +13576,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload",
-      "community": 31,
+      "community": 447,
       "norm_label": "knowledgesyncemcpayload"
     },
     {
@@ -13196,7 +13616,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_type",
-      "community": 31,
+      "community": 447,
       "norm_label": ".type()"
     },
     {
@@ -13216,7 +13636,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncemcpayload_knowledgesyncemcpayload_handle",
-      "community": 31,
+      "community": 447,
       "norm_label": ".handle()"
     },
     {
@@ -13236,7 +13656,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java",
-      "community": 7,
+      "community": 31,
       "norm_label": "knowledgesyncpayload.java"
     },
     {
@@ -13246,7 +13666,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload",
-      "community": 7,
+      "community": 31,
       "norm_label": "knowledgesyncpayload"
     },
     {
@@ -13286,7 +13706,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_type",
-      "community": 7,
+      "community": 31,
       "norm_label": ".type()"
     },
     {
@@ -13306,7 +13726,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload_handle",
-      "community": 7,
+      "community": 31,
       "norm_label": ".handle()"
     },
     {
@@ -13317,6 +13737,206 @@
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_java_ipayloadcontext",
       "community": 422,
+      "norm_label": "ipayloadcontext"
+    },
+    {
+      "label": "MobFarmingStatePayload.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload",
+      "community": 257,
+      "norm_label": "mobfarmingstatepayload.java"
+    },
+    {
+      "label": "MobFarmingStatePayload",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload",
+      "community": 257,
+      "norm_label": "mobfarmingstatepayload"
+    },
+    {
+      "label": "BlockPos",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_blockpos",
+      "community": 257,
+      "norm_label": "blockpos"
+    },
+    {
+      "label": "Type",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_type",
+      "community": 257,
+      "norm_label": "type"
+    },
+    {
+      "label": "StreamCodec",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_streamcodec",
+      "community": 257,
+      "norm_label": "streamcodec"
+    },
+    {
+      "label": "ByteBuf",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_bytebuf",
+      "community": 257,
+      "norm_label": "bytebuf"
+    },
+    {
+      "label": ".type()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload_type",
+      "community": 257,
+      "norm_label": ".type()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_override",
+      "community": 257,
+      "norm_label": "override"
+    },
+    {
+      "label": ".handle()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload_handle",
+      "community": 257,
+      "norm_label": ".handle()"
+    },
+    {
+      "label": "IPayloadContext",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_ipayloadcontext",
+      "community": 257,
+      "norm_label": "ipayloadcontext"
+    },
+    {
+      "label": "SpawnerConfigPayload.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload",
+      "community": 259,
+      "norm_label": "spawnerconfigpayload.java"
+    },
+    {
+      "label": "SpawnerConfigPayload",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload",
+      "community": 259,
+      "norm_label": "spawnerconfigpayload"
+    },
+    {
+      "label": "BlockPos",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_blockpos",
+      "community": 259,
+      "norm_label": "blockpos"
+    },
+    {
+      "label": "Type",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_type",
+      "community": 259,
+      "norm_label": "type"
+    },
+    {
+      "label": "StreamCodec",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_streamcodec",
+      "community": 259,
+      "norm_label": "streamcodec"
+    },
+    {
+      "label": "ByteBuf",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_bytebuf",
+      "community": 259,
+      "norm_label": "bytebuf"
+    },
+    {
+      "label": ".type()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload_type",
+      "community": 259,
+      "norm_label": ".type()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_override",
+      "community": 259,
+      "norm_label": "override"
+    },
+    {
+      "label": ".handle()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload_handle",
+      "community": 259,
+      "norm_label": ".handle()"
+    },
+    {
+      "label": "IPayloadContext",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_ipayloadcontext",
+      "community": 259,
       "norm_label": "ipayloadcontext"
     },
     {
@@ -13416,7 +14036,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_java",
-      "community": 7,
+      "community": 36,
       "norm_label": "equivalentlegacyattachments.java"
     },
     {
@@ -13426,7 +14046,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments",
-      "community": 7,
+      "community": 36,
       "norm_label": "equivalentlegacyattachments"
     },
     {
@@ -13446,7 +14066,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "attachmenttype",
-      "community": 7,
+      "community": 36,
       "norm_label": "attachmenttype"
     },
     {
@@ -13456,7 +14076,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments_equivalentlegacyattachments",
-      "community": 7,
+      "community": 36,
       "norm_label": ".equivalentlegacyattachments()"
     },
     {
@@ -13466,7 +14086,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java",
-      "community": 12,
+      "community": 55,
       "norm_label": "playerknowledge.java"
     },
     {
@@ -13476,7 +14096,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
-      "community": 12,
+      "community": 55,
       "norm_label": "playerknowledge"
     },
     {
@@ -13496,7 +14116,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_playerknowledge",
-      "community": 12,
+      "community": 55,
       "norm_label": ".playerknowledge()"
     },
     {
@@ -13506,7 +14126,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of",
-      "community": 12,
+      "community": 35,
       "norm_label": ".of()"
     },
     {
@@ -13526,7 +14146,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setemc",
-      "community": 7,
+      "community": 55,
       "norm_label": ".setemc()"
     },
     {
@@ -13536,7 +14156,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_addemc",
-      "community": 12,
+      "community": 55,
       "norm_label": ".addemc()"
     },
     {
@@ -13586,7 +14206,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_unlearnitem",
-      "community": 259,
+      "community": 55,
       "norm_label": ".unlearnitem()"
     },
     {
@@ -13606,7 +14226,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasfullknowledge",
-      "community": 12,
+      "community": 55,
       "norm_label": ".hasfullknowledge()"
     },
     {
@@ -13616,7 +14236,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setfullknowledge",
-      "community": 12,
+      "community": 55,
       "norm_label": ".setfullknowledge()"
     },
     {
@@ -13626,7 +14246,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_clearknowledge",
-      "community": 7,
+      "community": 55,
       "norm_label": ".clearknowledge()"
     },
     {
@@ -13636,7 +14256,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_sync",
-      "community": 12,
+      "community": 55,
       "norm_label": ".sync()"
     },
     {
@@ -13666,7 +14286,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment",
-      "community": 7,
+      "community": 55,
       "norm_label": "playerknowledgeattachment.java"
     },
     {
@@ -13676,7 +14296,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment",
-      "community": 7,
+      "community": 55,
       "norm_label": "playerknowledgeattachment"
     },
     {
@@ -13686,7 +14306,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_playerknowledgeattachment",
-      "community": 7,
+      "community": 55,
       "norm_label": ".playerknowledgeattachment()"
     },
     {
@@ -13696,7 +14316,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_copy",
-      "community": 7,
+      "community": 55,
       "norm_label": ".copy()"
     },
     {
@@ -13716,7 +14336,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setemc",
-      "community": 7,
+      "community": 55,
       "norm_label": ".setemc()"
     },
     {
@@ -13726,7 +14346,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_addemc",
-      "community": 12,
+      "community": 55,
       "norm_label": ".addemc()"
     },
     {
@@ -13776,7 +14396,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_removeknowledge",
-      "community": 259,
+      "community": 55,
       "norm_label": ".removeknowledge()"
     },
     {
@@ -13786,7 +14406,7 @@
       "source_location": "L76",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_clearknowledge",
-      "community": 7,
+      "community": 55,
       "norm_label": ".clearknowledge()"
     },
     {
@@ -13796,7 +14416,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_hasfullknowledge",
-      "community": 12,
+      "community": 55,
       "norm_label": ".hasfullknowledge()"
     },
     {
@@ -13806,7 +14426,7 @@
       "source_location": "L85",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setfullknowledge",
-      "community": 12,
+      "community": 55,
       "norm_label": ".setfullknowledge()"
     },
     {
@@ -13816,7 +14436,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_java_mapcodec",
-      "community": 7,
+      "community": 55,
       "norm_label": "mapcodec"
     },
     {
@@ -13826,7 +14446,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_java_streamcodec",
-      "community": 7,
+      "community": 55,
       "norm_label": "streamcodec"
     },
     {
@@ -13836,7 +14456,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_java_bytebuf",
-      "community": 7,
+      "community": 55,
       "norm_label": "bytebuf"
     },
     {
@@ -14456,7 +15076,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationconfig",
-      "community": 32,
+      "community": 246,
       "norm_label": "transmutationconfig.java"
     },
     {
@@ -14466,7 +15086,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationconfig_transmutationconfig",
-      "community": 32,
+      "community": 246,
       "norm_label": "transmutationconfig"
     },
     {
@@ -14476,7 +15096,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationconfig_transmutationconfig_transmutationconfig",
-      "community": 32,
+      "community": 246,
       "norm_label": ".transmutationconfig()"
     },
     {
@@ -14496,7 +15116,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationconfig_transmutationconfig_getcooldown",
-      "community": 32,
+      "community": 246,
       "norm_label": ".getcooldown()"
     },
     {
@@ -14506,7 +15126,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationconfig_transmutationconfig_emitsparticles",
-      "community": 32,
+      "community": 246,
       "norm_label": ".emitsparticles()"
     },
     {
@@ -14516,7 +15136,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationresult",
-      "community": 49,
+      "community": 185,
       "norm_label": "transmutationresult.java"
     },
     {
@@ -14526,7 +15146,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationresult_transmutationresult",
-      "community": 49,
+      "community": 185,
       "norm_label": "transmutationresult"
     },
     {
@@ -14536,7 +15156,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationresult_java_block",
-      "community": 49,
+      "community": 185,
       "norm_label": "block"
     },
     {
@@ -15708,6 +16328,226 @@
       "id": "claude_plans_jei_wthit_phase_2_4_12_pr\u00f3ximas_fases",
       "community": 42,
       "norm_label": "12. proximas fases"
+    },
+    {
+      "label": "mob-farming-phase-4.md",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4",
+      "community": 12,
+      "norm_label": "mob-farming-phase-4.md"
+    },
+    {
+      "label": "Plan: Fase 4 - Mob Farming System (Equivalent Legacy)",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "community": 12,
+      "norm_label": "plan: fase 4 - mob farming system (equivalent legacy)"
+    },
+    {
+      "label": "Resumen",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_resumen",
+      "community": 12,
+      "norm_label": "resumen"
+    },
+    {
+      "label": "1. Crear MobFarmingManager (nueva clase)",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_1_crear_mobfarmingmanager_nueva_clase",
+      "community": 12,
+      "norm_label": "1. crear mobfarmingmanager (nueva clase)"
+    },
+    {
+      "label": "2. Crear MobFarmingTickHandler (event listener)",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L74",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_2_crear_mobfarmingtickhandler_event_listener",
+      "community": 12,
+      "norm_label": "2. crear mobfarmingtickhandler (event listener)"
+    },
+    {
+      "label": "3. Actualizar PedestalBlockEntity para Mob Farming",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_3_actualizar_pedestalblockentity_para_mob_farming",
+      "community": 12,
+      "norm_label": "3. actualizar pedestalblockentity para mob farming"
+    },
+    {
+      "label": "4. Crear SpawnerControlItem (item para configurar spawners)",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L136",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_4_crear_spawnercontrolitem_item_para_configurar_spawners",
+      "community": 12,
+      "norm_label": "4. crear spawnercontrolitem (item para configurar spawners)"
+    },
+    {
+      "label": "5. Crear SpawnerConfigScreen (GUI de configuraci\u00f3n)",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L162",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_5_crear_spawnerconfigscreen_gui_de_configuraci\u00f3n",
+      "community": 12,
+      "norm_label": "5. crear spawnerconfigscreen (gui de configuracion)"
+    },
+    {
+      "label": "6. Crear packets para sincronizaci\u00f3n cliente-servidor",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L208",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_6_crear_packets_para_sincronizaci\u00f3n_cliente_servidor",
+      "community": 12,
+      "norm_label": "6. crear packets para sincronizacion cliente-servidor"
+    },
+    {
+      "label": "7. Integraci\u00f3n con bloques existentes",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L245",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_7_integraci\u00f3n_con_bloques_existentes",
+      "community": 12,
+      "norm_label": "7. integracion con bloques existentes"
+    },
+    {
+      "label": "8. Configuraci\u00f3n y limites",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L258",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_8_configuraci\u00f3n_y_limites",
+      "community": 12,
+      "norm_label": "8. configuracion y limites"
+    },
+    {
+      "label": "9. Localization (nuevas claves)",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L275",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_9_localization_nuevas_claves",
+      "community": 12,
+      "norm_label": "9. localization (nuevas claves)"
+    },
+    {
+      "label": "10. Definition of Done",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L295",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_10_definition_of_done",
+      "community": 12,
+      "norm_label": "10. definition of done"
+    },
+    {
+      "label": "11. Fases posteriores",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L315",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_11_fases_posteriores",
+      "community": 12,
+      "norm_label": "11. fases posteriores"
+    },
+    {
+      "label": "12. Restricciones y consideraciones",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L322",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_12_restricciones_y_consideraciones",
+      "community": 12,
+      "norm_label": "12. restricciones y consideraciones"
+    },
+    {
+      "label": "Minecraft Mechanics",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L324",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_minecraft_mechanics",
+      "community": 12,
+      "norm_label": "minecraft mechanics"
+    },
+    {
+      "label": "NeoForge 26.2",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L330",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_neoforge_26_2",
+      "community": 12,
+      "norm_label": "neoforge 26.2"
+    },
+    {
+      "label": "Performance",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L336",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_performance",
+      "community": 12,
+      "norm_label": "performance"
+    },
+    {
+      "label": "Compatibility",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L342",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_compatibility",
+      "community": 12,
+      "norm_label": "compatibility"
+    },
+    {
+      "label": "13. Archivos que se crear\u00e1n/modificar\u00e1n",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L349",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_13_archivos_que_se_crear\u00e1n_modificar\u00e1n",
+      "community": 12,
+      "norm_label": "13. archivos que se crearan/modificaran"
+    },
+    {
+      "label": "14. Notas de implementaci\u00f3n",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L367",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_14_notas_de_implementaci\u00f3n",
+      "community": 12,
+      "norm_label": "14. notas de implementacion"
+    },
+    {
+      "label": "15. Alternativas y trade-offs",
+      "file_type": "document",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L377",
+      "_origin": "ast",
+      "id": "claude_plans_mob_farming_phase_4_15_alternativas_y_trade_offs",
+      "community": 12,
+      "norm_label": "15. alternativas y trade-offs"
     },
     {
       "label": "rendering-phase-2.2.md",
@@ -17460,6 +18300,16 @@
       "norm_label": "1.2.0-beta.8.md"
     },
     {
+      "label": "1.2.0-beta.9.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.2.0-beta.9.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_2_0_beta_9",
+      "community": 449,
+      "norm_label": "1.2.0-beta.9.md"
+    },
+    {
       "label": "Publish Public Script",
       "file_type": "code",
       "source_file": ".gitlab-ci.yml",
@@ -17850,6 +18700,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/events/NetworkEvents.java",
       "source_location": "L3",
       "weight": 1.0,
@@ -17898,6 +18759,28 @@
       "source_location": "L3",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy",
       "confidence_score": 1.0
     },
@@ -24760,6 +25643,26 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_collectnearbydrops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_collectnearbyxp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
       "source_location": "L64",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity",
@@ -24810,6 +25713,16 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_getmobsnearby",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
       "source_location": "L86",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity",
@@ -24830,6 +25743,16 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_ismobfarmingsetup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
       "source_location": "L104",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity",
@@ -24844,6 +25767,16 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity",
       "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_pedestalblockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_registercontrolledspawner",
       "confidence_score": 1.0
     },
     {
@@ -24905,6 +25838,16 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity",
       "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_toggleitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_updatespawnerbehavior",
       "confidence_score": 1.0
     },
     {
@@ -25006,6 +25949,28 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L179",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_registercontrolledspawner",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L187",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_updatespawnerbehavior",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -25013,6 +25978,17 @@
       "source_location": "L36",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_insertitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_getdisplayeditem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_ismobfarmingsetup",
       "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_getdisplayeditem",
       "confidence_score": 1.0
     },
@@ -25146,6 +26122,28 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_getitemrenderpos",
       "target": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_java_vec3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java",
+      "source_location": "L149",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_pedestalblockentity_pedestalblockentity_getmobsnearby",
+      "target": "mob",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler",
+      "target": "mob",
       "confidence_score": 1.0
     },
     {
@@ -29742,17 +30740,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java",
-      "source_location": "L29",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_onplayertick",
-      "target": "post",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -29795,6 +30782,103 @@
       "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_handlerepair",
       "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_events_curioevents_curioevents_inventoryitems",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_java_eventbussubscriber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_mobfarmingtickhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_mobfarmingtickhandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_java_eventbussubscriber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_mobfarmingtickhandler",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_mobfarmingtickhandler_onservertick",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_mobfarmingtickhandler_onservertick",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_java_post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_mobfarmingtickhandler_onservertick",
+      "target": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_java_subscribeevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/events/MobFarmingTickHandler.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_events_mobfarmingtickhandler_mobfarmingtickhandler_onservertick",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_getactivespawners"
     },
     {
       "relation": "imports",
@@ -31518,6 +32602,132 @@
       "weight": 1.0,
       "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_relayscreen_relayscreen",
       "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_relayscreen_relayscreen_renderslotboxes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen",
+      "target": "screen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_java_guigraphicsextractor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen",
+      "target": "screen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen_extractbackground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen_ispausescreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen_spawnerconfigscreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen_init",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen_extractbackground",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen_ispausescreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/SpawnerConfigScreen.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_spawnerconfigscreen_extractbackground",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_spawnerconfigscreen_java_guigraphicsextractor",
       "confidence_score": 1.0
     },
     {
@@ -33581,6 +34791,27 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem",
+      "target": "item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/TransmutationStone.java",
       "source_location": "L11",
       "weight": 1.0,
@@ -34512,7 +35743,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L272",
+      "source_location": "L275",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -34534,7 +35765,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L315",
+      "source_location": "L318",
       "weight": 1.0,
       "context": "field",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -34545,7 +35776,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L285",
+      "source_location": "L288",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -34556,7 +35787,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L229",
+      "source_location": "L232",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -34567,7 +35798,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L269",
+      "source_location": "L272",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -34578,7 +35809,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L291",
+      "source_location": "L294",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -34655,7 +35886,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L278",
+      "source_location": "L281",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -34677,7 +35908,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L281",
+      "source_location": "L284",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -34688,7 +35919,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L275",
+      "source_location": "L278",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -34699,7 +35930,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L318",
+      "source_location": "L321",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
       "target": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_equivalentlegacyitems",
@@ -34739,7 +35970,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
-      "source_location": "L315",
+      "source_location": "L318",
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
@@ -34777,6 +36008,17 @@
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
       "target": "src_main_java_com_skd_equivalentlegacy_item_pesaw_pesaw",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java",
+      "source_location": "L214",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem",
       "confidence_score": 1.0
     },
     {
@@ -36343,6 +37585,113 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem_onstopusing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem_spawnercontrolitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem_onstopusing",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem_onstopusing",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_java_livingentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem_onstopusing",
+      "target": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem_onstopusing",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_registerspawner"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/item/SpawnerControlItem.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_item_spawnercontrolitem_spawnercontrolitem_onstopusing",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_unregisterspawner"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/item/Tome.java",
@@ -36794,6 +38143,326 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_clear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_getactivespawners",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_getspawnerstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_registerspawner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_togglespawner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_unregisterspawner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_updatespawnerconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_getactivespawners",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_getspawnerstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_registerspawner",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_togglespawner",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_unregisterspawner",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_updatespawnerconfig",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate_spawnerstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_getactivespawners",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_getspawnerstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate_spawnerstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_registerspawner",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate_spawnerstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_java_blockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/mob_farming/MobFarmingManager.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_registerspawner",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_spawnerstate_spawnerstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_mob_farming_mobfarmingmanager_mobfarmingmanager_updatespawnerconfig"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java",
@@ -36982,6 +38651,70 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload_type",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload_type",
+      "target": "custompacketpayload",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java",
@@ -37142,6 +38875,310 @@
       "weight": 1.0,
       "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_sync",
       "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_network_payload_knowledgesyncpayload_knowledgesyncpayload"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_ipayloadcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/MobFarmingStatePayload.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_mobfarmingstatepayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_mobfarmingstatepayload_java_ipayloadcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_ipayloadcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_bytebuf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_streamcodec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload_type",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/network/payload/SpawnerConfigPayload.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_spawnerconfigpayload_handle",
+      "target": "src_main_java_com_skd_equivalentlegacy_network_payload_spawnerconfigpayload_java_ipayloadcontext",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -40514,6 +42551,216 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4",
+      "target": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L295",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_10_definition_of_done",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L315",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_11_fases_posteriores",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L322",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_12_restricciones_y_consideraciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L349",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_13_archivos_que_se_crear\u00e1n_modificar\u00e1n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L367",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_14_notas_de_implementaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L377",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_15_alternativas_y_trade_offs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_1_crear_mobfarmingmanager_nueva_clase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_2_crear_mobfarmingtickhandler_event_listener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_3_actualizar_pedestalblockentity_para_mob_farming",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_4_crear_spawnercontrolitem_item_para_configurar_spawners",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_5_crear_spawnerconfigscreen_gui_de_configuraci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L208",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_6_crear_packets_para_sincronizaci\u00f3n_cliente_servidor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_7_integraci\u00f3n_con_bloques_existentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L258",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_8_configuraci\u00f3n_y_limites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L275",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_9_localization_nuevas_claves",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_plan_fase_4_mob_farming_system_equivalent_legacy",
+      "target": "claude_plans_mob_farming_phase_4_resumen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L342",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_12_restricciones_y_consideraciones",
+      "target": "claude_plans_mob_farming_phase_4_compatibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L324",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_12_restricciones_y_consideraciones",
+      "target": "claude_plans_mob_farming_phase_4_minecraft_mechanics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L330",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_12_restricciones_y_consideraciones",
+      "target": "claude_plans_mob_farming_phase_4_neoforge_26_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/mob-farming-phase-4.md",
+      "source_location": "L336",
+      "weight": 1.0,
+      "source": "claude_plans_mob_farming_phase_4_12_restricciones_y_consideraciones",
+      "target": "claude_plans_mob_farming_phase_4_performance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".claude/plans/rendering-phase-2.2.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -41789,5 +44036,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8e7e92859f491adc0469693bf86a7b5a47d58dcd"
+  "built_at_commit": "f05edad1afe83df7da98cd286d2b5ccb1d89b496"
 }
