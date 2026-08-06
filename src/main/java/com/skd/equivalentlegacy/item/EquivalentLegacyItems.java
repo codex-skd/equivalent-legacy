@@ -211,6 +211,9 @@ public final class EquivalentLegacyItems {
         return ITEMS.registerItem(name, props -> new CurioItem(props, type), () -> new Item.Properties().stacksTo(1));
     }
 
+    public static final DeferredItem<SpawnerControlItem> SPAWNER_CONTROL_WAND = ITEMS.registerItem("spawner_control_wand",
+            SpawnerControlItem::new, () -> new Item.Properties().stacksTo(1));
+
     public static final DeferredItem<KleinStar> KLEIN_STAR_EIN = ITEMS.registerItem("klein_star_ein",
             props -> new KleinStar(props, KleinStarTier.EIN), () -> new Item.Properties());
 
