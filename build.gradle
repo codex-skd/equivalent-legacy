@@ -28,7 +28,24 @@ sourceSets.main.resources {
 }
 
 repositories {
-    // Add here additional repositories if required by some of the dependencies below.
+    // JEI (mezz.jei) — optional integration dependency
+    maven {
+        name = 'BlameJared Maven'
+        url = 'https://maven.blamejared.com'
+        content {
+            includeGroup 'mezz.jei'
+        }
+    }
+
+    // WTHIT (mcp.mobius.waila) + Bad Packets (lol.bai) — optional integration dependencies
+    maven {
+        name = 'Bai Maven'
+        url = 'https://maven2.bai.lol'
+        content {
+            includeGroup 'mcp.mobius.waila'
+            includeGroup 'lol.bai'
+        }
+    }
 }
 
 base {
@@ -122,6 +139,18 @@ dependencies {
     // compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
     // We add the full version to localRuntime, not runtimeOnly, so that we do not publish a dependency on it
     // localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
+
+    // JEI (optional mod dependency — Phase 2.4): compile against the API, run against the full artifact.
+    // Both JEI and WTHIT are optional; the mod loads and works without them.
+    compileOnly "mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"
+    compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}"
+    localRuntime "mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}"
+
+    // WTHIT (optional mod dependency — Phase 2.4): compile against the API, run against the full artifact.
+    // Bad Packets is a required runtime companion of WTHIT on NeoForge.
+    compileOnly "mcp.mobius.waila:wthit-api:neo-${wthit_version}"
+    localRuntime "mcp.mobius.waila:wthit:neo-${wthit_version}"
+    localRuntime "lol.bai:badpackets:neo-${badpackets_version}"
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
