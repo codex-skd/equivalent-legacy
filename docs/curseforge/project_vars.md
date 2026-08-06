@@ -24,8 +24,8 @@ Autenticación Core: cabecera `x-api-key`
 
 project_id = 1632317
 api_token = ee776b0a-ee95-4850-b554-06be02a8657f
-release_type = release
-game_versions = 16498,10150,9638
+release_type = beta
+game_versions = 9638,9639,16498,10150
 relations = curios-api-updated:requiredDependency
 
 ## Dependencia requerida
@@ -54,4 +54,5 @@ Ejemplo: `26.2-neoforge-0.0.0-beta.1`
 El API de subida de CurseForge no expone el campo de lado (client/server). Tras **cada** subida de archivo hay que entrar en la web de CurseForge → pestaña "Files" → editar el archivo → marcar el entorno como **Client & Server** (este mod es BOTH: block entities, comandos, red EMC, Data Attachments en servidor). Sin este paso, el file queda etiquetado como solo cliente.
 
 **Historial:**
+- v1.2.0-beta.3: ✅ Subido (File ID: 8585660), Client & Server automático
 - v1.1.1: ✅ Marcado como Client & Server en CurseForge
