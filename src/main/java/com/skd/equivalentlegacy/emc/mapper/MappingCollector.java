@@ -73,6 +73,18 @@ public class MappingCollector<T, V extends Comparable<V>, A extends IValueArithm
         return arithmetic;
     }
 
+    public List<Conversion<T>> getConversions() {
+        return Collections.unmodifiableList(conversions);
+    }
+
+    public Map<T, V> getValueBefore() {
+        return Collections.unmodifiableMap(valueBefore);
+    }
+
+    public Map<T, V> getValueAfter() {
+        return Collections.unmodifiableMap(valueAfter);
+    }
+
     public static class Conversion<T> {
         public final int count;
         public final T output;

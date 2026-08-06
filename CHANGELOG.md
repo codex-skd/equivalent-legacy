@@ -1,459 +1,222 @@
-# Changelog — Equivalent Legacy
-
-## 1.2.0-beta.10
-
-- **Fix Critical: Asset Namespace Migration** — Corrección de referencias de namespace de `projecte:` a `equivalent_legacy:` en 297+ archivos de assets
-- **Problema**: Incompleta migración desde el fork Equivox/ProjectE — todos los JSON de blockstates, modelos de items y sounds todavía referenciaban el namespace `projecte:` que no existe, causando que los iconos de items y texturas de bloques no cargaran en el juego
-- **Solución**:
-  - Reemplazo masivo de `projecte:` → `equivalent_legacy:` en 23 blockstates, 278 modelos de items, 1 archivo sounds.json y 28 modelos de bloques
-  - Eliminación del directorio duplicado `items/` (106 archivos innecesarios)
-  - Corrección de 3 blockstate JSON malformados (braces cerrados faltantes)
-  - Validación completa de 335 archivos JSON de assets
-- **Resultado**: Todos los iconos y texturas ahora cargan correctamente. Build limpio, todas las referencias resuelven correctamente
-
-## 1.2.0-beta.6
-
-- **Fase 2.4 JEI/WTHIT Integration**: integración de JEI (recetas de transmutación) y WTHIT/Jade (tooltips de EMC al hacer hover)
-- **JEI**:
-  - Nueva categoría **Transmutation** (`equivalent_legacy:transmutation`) con todas las conversiones de bloque y su coste EMC
-  - `TransmutationRecipeCategory`: layout `input → flecha → output` + texto de coste (verde "Free" si no cuesta) y tooltip al pasar el ratón
-  - `EquivalentLegacyJeiPlugin`: carga las recetas desde `WorldTransmutationManager` una sola vez en startup; Philosopher's/Transmutation Stone registradas como crafting stations (lookup con click derecho)
-- **WTHIT/Jade**:
-  - `TransmutationComponentProvider`: al hacer hover sobre un bloque transmutable muestra "Transmutable: <bloque>" (oro) y "Coste: <n> EMC" (verde si asequible, rojo si no, gris si es gratis)
-  - `EquivalentLegacyWthitPlugin` (`IWailaClientPlugin`) registrado vía `wthit_plugins.json` con el formato `entrypoints` de WTHIT 20.x
-- **WorldTransmutationManager**: helpers nuevos `isTransmutable`, `getTransmutation`, `getTransmutationMap`, record `TransmutationResult` y `registerDefaultTransmutations()` (~90 mappings vanilla bidireccionales: piedra, tierra/arena/grava, nether, end, maderas y menas)
-- **Dependencias opcionales**: JEI `30.15.0.121`, WTHIT `neo-20.0.0` y Bad Packets `0.12.2` en `build.gradle` (`compileOnly` + `localRuntime`), repos BlameJared y Bai Maven, dependencias opcionales en `neoforge.mods.toml`. El mod funciona sin JEI ni WTHIT
-- **Idiomas**: 6 claves nuevas (`jei.equivalent_legacy.*` y `tooltip.equivalent_legacy.*`) añadidas a los 18 lang files con traducciones
-- **Notas**: el plan proponía JEI `19.14.0` / WTHIT `11.7.1`, pero las versiones reales para MC 26.2 son JEI `30.x` y WTHIT `neo-20.0.0`; se registró un set por defecto de transmutaciones porque la Fase 2 dejó `REGISTRY` vacío (sin mappings no habría nada que mostrar en JEI/WTHIT)
-- **Compilación**: NeoForge 26.2.0.37-beta, build clean (javac 0 errores/warnings). Verificado con `runServer` y `runClient` con JEI + WTHIT cargados sin crashes
-
-## 1.2.0-beta.5
-
-- **Fase 2.2 Rendering**: Implementación parcial de renderers custom client-side
-- **PedestalRenderer**: BlockEntityRenderer real para los 3 pedestales (base, DM, RM) — item flotante con rotación suave (360° cada 160 ticks) y bobbing sobre el eje Y. Glow para Philosopher's Stone vía `LightCoordsUtil.FULL_BRIGHT`
-- **PedestalBlockEntity**: Helpers `getItemRenderPos(float)` / `getItemRenderRotation(float)` basados en `level.getGameTime()` (animación client-side fluida, no dependiente del server-only `tickCounter`)
-- **TransmutationRenderingOverlay**: HUD overlay real (NeoForge `GuiLayer`) que aparece al sostener Philosopher's/Transmutation Stone: muestra icono de stone → icono de bloque destino + costo EMC. Colores verde/rojo/gris según affordability. Cache de 20 ticks para el lookup de transmutación/EMC (no se recalcula cada frame)
-- **EquivalentLegacyRenderers**: Dispatcher real (mod bus, `Dist.CLIENT`): registra `PedestalRenderer` para los 3 `BlockEntityType` de pedestales y registra el `transmutation_overlay` GuiLayer vía `RegisterGuiLayersEvent`
-- **Adaptación del plan a la API real de NeoForge 26.2**: el plan original (Fase 2.2) describía la API legacy `render(entity, partialTick, PoseStack, MultiBufferSource, packedLight, packedOverlay)` + `BlockEntityRenderers.register(type, ::new)` + overlay vía `ScreenEvent.Init.Post` + `ItemRenderer.renderGuiItem()`. La API real 26.2 usa `BlockEntityRenderer<T,S>` con `createRenderState`/`extractRenderState`/`submit(state, PoseStack, SubmitNodeCollector, CameraRenderState)`, `Identifier` en vez de `ResourceLocation`, `GuiGraphicsExtractor` en vez de `GuiGraphics`, registro de overlays vía `RegisterGuiLayersEvent` y registro de BlockEntity renderers vía `EntityRenderersEvent.RegisterRenderers#registerBlockEntityRenderer`. Ver sección "Deviations" en el reporte de implementación
-- **ChestRenderer (deferred)**: Animación de tapa de Alchemical Chest NO wired: requiere que `AlchemicalChestBlockEntity` implemente `LidBlockEntity` + tracking de `getOpenNess(partialTick)` ( syncing client del estado de apertura del menu) + un sprite atlas custom para `alchemical_chest.png`. Adicionalmente, `assets/equivalent_legacy/blockstates/alchemical_chest.json` referencia `projecte:block/alchemical_chest` (namespace legacy roto) y `models/block/alchemical_chest.json` no define la textura `#chest`, así que el modelo vanilla del bloque no renderiza correctamente hoy — pre-existente de fases de assets. Se dejó placeholder conservando `computeLidAngle` y se documenta como deviation
-- **ClientEvents (no creado como clase aparte)**: el plan §4 proponía una clase `ClientEvents` con `onClientSetup` + `ScreenEvent.Init.Post`. Esas responsabilidades se folding en `EquivalentLegacyRenderers` (plan §5, dispatcher existente) usando los eventos reales de 26.2; crear `ClientEvents` aparte duplicaría suscripciones
-- **Compilación**: NeoForge 26.2.0.37-beta, build clean (javac 0 errores/warnings nuevos). Sin memory leaks esperados (pushPose/popPose balanceado en `submit`)
-
-## 1.2.0-beta.4
-
-- **Fase 2 World Transmutation**: Sistema completo de transmutación de bloques en el mundo
-- **WorldTransmutationManager**: Lógica central para transmutación con consumo/ganancia de EMC
-- **PlayerEvents.onRightClickBlock()**: Detecta clicks con Philosopher's Stone o Transmutation Stone
-- **Pedestales**: 3 tiers (base, DM, RM) con inventario y rendering personalizado
-- **Nova Entities**: 3 tipos (Nova, Catalyst, Cataclysm) con explosiones
-- **PE Tools**: Hacha, pico, sierra con propiedades especiales
-- **Destruction Catalyst**: Bloque que dispara explosiones de nova
-- **Transmutation Stone**: Item alternativo para transmutación
-- **API Events**: WorldTransmutationEvent para integraciones de mods
-- **API Interfaces**: IEMCProvider, ITransmutationAllowed, IKnowledgeProvider, IEMCStorage, IEmcReceptor
-- **Verificado en modpack**: Todas las características de Fase 1-2 testeadas y funcionando
-- **Compilación**: NeoForge 26.2.0.37-beta, JAR 1.2 MB, 42 archivos nuevos
-
-## 1.2.0-beta.3
-
-- **Assets completados**: Integración de 670 archivos de assets (modelos, blockstates, texturas, sonidos, idiomas)
-- **Fase 1-2 visual**: JSON models para 278 items + 28 bloques, blockstates completos para pedestales, novas y destruction catalyst
-- **Texturas**: 177 archivos PNG cubriendo todos los items, bloques y equipos
-- **Sonidos**: 15 efectos OGG + sounds.json configurado
-- **Idiomas**: 18 paquetes de idioma (en_us, es_es, de_de, fr_fr, ja_jp, etc.)
-- **Entidades**: 3 tipos de nova entities (Nova, Catalyst, Cataclysm) con soporte ResourceKey para MC 26.2
-- **Block Entities**: Pedestales con inventario de una ranura, destruction catalyst con configuración
-- **Items nuevos**: Herramientas PE (axe, pickaxe, saw), transmutation_stone, pedestals en sus 3 tiers
-- **Compilación**: NeoForge 26.2.0.37-beta, JAR funcional (1.2 MB), listo para testing en modpacks
-
-## 1.2.0-beta.2
-
-- **Fix**: Tome of Knowledge GUI now displays items correctly. The `setFullKnowledge()` method no longer clears the knowledge set.
-
-## 1.2.0-beta.1
-
-- **Added**: RecipeMapper implementation with 200+ vanilla item EMC values (ores, gems, blocks, food, tools, armor, mob drops).
-- **Added**: EMC Vanilla Core foundation for transmutation system.
-
-## 1.1.1
-
-- **Fix**: Transmutation Table now initializes with base vanilla item EMC values (coal, stone, ores, gems, nether_star). The system can now learn from and transmute vanilla objects correctly. Full recipe-based EMC graph calculation infrastructure added for future expansion.
-
-## 1.1.0
-
-- **Localization**: added translations for Portuguese (Brazil), German, French, Russian, Simplified Chinese, Japanese, Korean, Italian, Polish and Dutch, alongside the existing English and Spanish. All 12 languages cover the full set of item, block, GUI, config and command strings.
-
-## 1.0.2
-
-- **Fix**: CurseForge dependency now targets `curios-api-updated` (project 1579340) instead of the original `curios` project.
-
-## 1.0.1
-
-- **CurseForge dependency**: Curios API is now declared as a required dependency on the CurseForge file, so the launcher installs it automatically.
-
-## 1.0.0
-
-- **First stable release.** Full port of the ProjectE / Equivalent Exchange 2 experience for Minecraft 26.2 / NeoForge.
-- Complete EMC system (values, knowledge, transmutation) with Philosopher's Stone, Transmutation Table/Tablet and Tome of Knowledge.
-- Alchemical fuels, Dark/Red Matter, full tool + armor toolchains with charge/AOE, Gem Armor and Full Star endgame recipes.
-- Klein Stars Ein–Omega, the arcana curio set, misc toolchain items and the Interdiction Torch.
-- Collectors/Relays/Condensers with a persistent per-dimension EMC network, Dark/Red Matter furnaces, Alchemical Chest and 16 colored Alchemical Bags.
-- Requires Curios 15.0.0+.
-
-## 0.0.0-beta.27
-
-- **Fix**: removed the unused `NeoForge.EVENT_BUS.register(this)` from the main class, which crashed startup on NeoForge 26.2.0.37-beta (class has no `@SubscribeEvent` methods).
-
-## 0.0.0-beta.26
-
-- **Fix**: Curios dependency version range now accepts `15.0.0-beta.2+26.2` (the MC 26.2 build), fixing the load error.
-
-## 0.0.0-beta.25
-
-- **Full Star recipes**: custom recipe ingredient matching a maxed (16M) Klein Star Omega; alternative Gem Armor and Tome crafting routes (endgame).
-
-## 0.0.0-beta.24
-
-- **Curios required dependency**: arcana items and Klein Stars work while equipped in Curios slots (effects apply from slots, not only the inventory).
-- **Critical packaging fix**: `META-INF/neoforge.mods.toml` is now included in the built JAR (previous releases shipped without mod metadata and would not load when installed).
-
-## 0.0.0-beta.23
-
-- **Persistent EMC network**: per-dimension pools stored via `SavedData` (loaded on start, saved on stop), surviving restarts.
-
-## 0.0.0-beta.22
-
-- **Dark Matter Furnace** (4x) and **Red Matter Furnace** (8x): fast smelting with vanilla recipes and a vanilla-style GUI.
-- Completes the original mod's full block set.
-
-## 0.0.0-beta.21
-
-- **Gem Armor**: Gem Helmet/Chestplate/Leggings/Boots — the strongest armor set (Red Matter armor + arcana items + Klein Star Omega).
-
-## 0.0.0-beta.20
-
-- **World-level EMC network**: per-dimension `EMCNetwork` pool shared by all collectors/relays/condensers (replaces adjacent-block links).
-- Machine GUIs show network-wide EMC.
-
-## 0.0.0-beta.19
-
-- **Tool charge system**: shift-right-click cycles 0-3 charge on swords, pickaxes, hammers (Charge tooltip).
-- **Area mining**: hammers and pickaxes mine a face-aligned AOE scaled by charge.
-- **Area attacks**: matter swords damage nearby mobs scaled by charge.
-
-## 0.0.0-beta.18
-
-- **Transmutation Table** (block) and **Transmutation Tablet** (item): open the transmutation GUI.
-- **Interdiction Torch**: block entity that pushes mobs away.
-- Core ProjectE feature set complete.
-
-## 0.0.0-beta.17
-
-- **Nova Catalyst / Cataclysm**: TNT + alchemical fuel crafting components.
-- **Divining Rods I-III**: show total EMC in a growing area on right-click.
-- **Destruction Catalyst**: clears 3x3x3 on right-click.
-- **Hyperkinetic / Catalytic Lenses**: explosions on right-click.
-- **Mercurial Eye**: shows player EMC. **Archangel's Smite**: bow component.
-
-## 0.0.0-beta.16
-
-- **Arcana set**: Iron Band, Black Hole Band, Gem of Eternal Density, Harvest Goddess Band, Ignition Ring, Swiftwolf's Rending Gale, Void Ring, Zero Ring, Arcana Ring, Body/Life/Mind/Soul Stones, Evertide/Volcanite Amulets, Repair Talisman, Watch of Flowing Time.
-- Passive inventory effects (regen, fire resistance, water breathing, saturation, speed, haste, slow falling), magnet/void behaviors, right-click block effects, auto-repair.
-- Curios tags for belt/necklace/ring slots.
-
-## 0.0.0-beta.15
-
-- **16 Alchemical Bags**: full color set (black, blue, brown, cyan, gray, green, light_blue, light_gray, lime, magenta, orange, pink, purple, red, white, yellow), each crafted with matching wool.
-
-## 0.0.0-beta.14
-
-- **Covalence Dusts**: Low/Medium/High (40 per craft) — crafting foundation.
-- **Tome of Knowledge**: right-click unlocks all transmutation knowledge (consumed).
-- Restored original Alchemical Chest/Bag recipes using covalence dusts.
-
-## 0.0.0-beta.13
-
-- **Curios support**: all six Klein Star tiers are equippable in a dedicated `klein_star` Curios slot (data-driven soft dependency, requires the Curios mod).
-
-## 0.0.0-beta.12
-
-- **Alchemical Bag**: portable 13-slot inventory persisted in the item's `DataComponents.CONTAINER`, opens on right-click.
-- **Alchemical Chest**: 13-slot storage block with GUI, drops contents on break.
-- Recipes adapted from the original (covalence dusts → alchemical fuels/vanilla).
-
-## 0.0.0-beta.11
-
-- **Collector MK1-3**: generates EMC from skylight (4/12/40 per second) and charges Klein Stars.
-- **Relay MK1-3**: pulls EMC from adjacent collectors into a 100k–10M buffer and charges Klein Stars.
-- **Condenser MK1-2**: learns a target item, drains EMC from Klein Stars and adjacent relays, produces the target.
-- Block entities with GUIs (EMC/sun/progress via DataSlots), original ProjectE progression recipes.
-- Simplified: neighbor-only EMC network, single-slot condenser output.
-
-## 0.0.0-beta.10
-
-- **Dark Matter toolchain**: Sword, Pickaxe, Axe, Shovel, Hoe, Shears, Hammer.
-- **Red Matter toolchain**: Sword, Pickaxe, Axe, Shovel, Hoe, Shears, Hammer, Katar, Morning Star (upgrades from the Dark Matter tools).
-- **Hammer** mines a 3x3 face-aligned area with proper drops and durability.
-- **Armor**: full Dark and Red Matter sets with player-model rendering via equipment assets, netherite-tier stats.
-- Simplified vs ProjectE: no charge/AOE sword attacks or EMC durability yet.
-
-## 0.0.0-beta.9
-
-- **Storage blocks**: Alchemical Coal, Mobius Fuel, Aeternalis Fuel (9 items), Dark Matter and Red Matter (4 items) blocks with construct/deconstruct recipes and EMC values.
-- **Fix**: added the `items/<id>.json` model bindings required by Minecraft 26.2 — all mod items were rendering with the missing-model placeholder.
-- Full blockstates, block models, loot tables; all blocks in the creative tab.
-
-## 0.0.0-beta.8
-
-- **Fuel chain**: Alchemical Coal (1,024 EMC), Mobius Fuel (3,072), Aeternalis Fuel (9,216) — each crafted from 4 of the previous tier plus the Philosopher's Stone.
-- **Red Matter**: 417,792 EMC, second rung of the matter toolchain (8 Aeternalis Fuel around Dark Matter).
-- **Original recipes restored**: Dark Matter and Klein Star Ein now use the alchemical fuels instead of the beta.7 vanilla substitutes.
-
-## 0.0.0-beta.7
-
-- **Higher Klein Star tiers**: Zwei, Drei, Vier, Sphere, Omega — full portable EMC battery line (1M–16M capacity), each crafted from 4 of the previous tier.
-- **Crafting recipes**: Philosopher's Stone, Dark Matter and every Klein Star tier are now craftable (fuel ingredients adapted to vanilla until the alchemical fuels exist).
-- **EMC commands**: `/equivalent_legacy emc` (your EMC) and `/equivalent_legacy emc give <player> <amount>` (operator-only), via Brigadier.
-
-## 0.0.0-beta.6
-
-- **Dark Matter**: high-EMC (139,264) intermediate crafting item, first rung above the Philosopher's Stone.
-- **Klein Star Ein**: portable EMC battery. Right-click charges it from the player's EMC (up to 10k/click), shift-right-click discharges back to the player. Durability bar shows charge level, tooltip shows exact stored EMC.
-- Both items have EMC values and appear in the creative tab.
-
-## 0.0.0-beta.5
-
-- **Philosopher's Stone transmutation GUI**: right-click opens a screen with a scrollable list of known items (sorted by EMC), an input slot to learn new items, an output slot, and the player's current EMC visible.
-- Transmuting a known item spends EMC server-side and produces a copy in the output slot.
-- Fix: EMC was being charged twice (once on transmute, again on picking up the output item) — now charged only once.
-
-## 0.0.0-beta.4
-
-- Persistent player EMC/knowledge data via NeoForge Data Attachments (`PlayerKnowledgeAttachment`, `PlayerKnowledge` API), carried over on death.
-- Server→client sync networking (full sync, EMC-only, single-item-learned) on login, respawn, and dimension change.
-- Still no transmutation logic or GUI — foundation for the next phase.
-
-## 0.0.0-beta.3
-
-- Item/block registration framework (`EquivalentLegacyItems`, `EquivalentLegacyBlocks`), wired into the mod's deferred registers.
-- Added the mod's own creative mode tab.
-- First functional item: **Philosopher's Stone**, hooked into the existing EMC system (`EMCHelper`/`NSSItem`) for value lookups. No transmutation logic yet.
-- Fixed `archivesName` in `build.gradle` to follow the `<mod_id>-<mc-version>-neoforge` naming convention (previous betas produced a wrongly-named jar).
-
-## 0.0.0-beta.2
-
-- Ported the core EMC system from Equivox/ProjectE (fase 1):
-  - Config framework: `CommonConfig`, `ClientConfig`, `ServerConfig`, `MappingConfig` via NeoForge `ModConfigSpec`.
-  - NSS (NormalizedSimpleStack) item identification system, with data component support.
-  - EMC mapper: `MappingCollector`, `SimpleGraphMapper`, `LongArithmetic`.
-  - `FixedValues`/`CustomConversion` for EMC value overrides, `EMCHelper` runtime API.
-- Removed the leftover skeleton example item/block and old `Config.java`.
-- Still no items, blocks, commands, networking, or GUI — those are next.
-
-## 0.0.0-beta.1
-
-- Initial scaffold from the `codex-docs/mod_template/26.2-26.2.0.32-beta` NeoForge MDK skeleton.
-- Project set up as a fork of [Equivox](https://github.com/Yaskulsky/projecte-26-port) (itself a fork of ProjectE), targeting Minecraft 26.2 / NeoForge 26.2.0.32-beta.
-- Mod icon added (cropped from promotional artwork), wired via `logoFile` in `neoforge.mods.toml`.
-- CurseForge project description expanded with the full planned feature set (EMC, transmutation, Philosopher's Stone toolchain, collectors/condensers, Klein Star).
-- CurseForge project registered (`curseforge_project_id=1632317`).---
-
-## [1.2.0-beta.3] - 2026-08-05
-
-### Change
-
-- **Recompilado contra NeoForge `26.2.0.37-beta`**: bump de `neo_version` en `gradle.properties` (`26.2.0.32-beta` -> `26.2.0.37-beta`). Verificado con `runServer` (arranque sin errores).
-
-## [angelog — Equivalent Legacy
-
-## 1.2.0-beta.2
-
-- **Fix**: Tome of Knowledge GUI now displays items correctly. The `setFullKnowledge()` method no longer clears the knowledge set.
-
-## 1.2.0-beta.1
-
-- **Added**: RecipeMapper implementation with 200+ vanilla item EMC values (ores, gems, blocks, food, tools, armor, mob drops).
-- **Added**: EMC Vanilla Core foundation for transmutation system.
-
-## 1.1.1
-
-- **Fix**: Transmutation Table now initializes with base vanilla item EMC values (coal, stone, ores, gems, nether_star). The system can now learn from and transmute vanilla objects correctly. Full recipe-based EMC graph calculation infrastructure added for future expansion.
-
-## 1.1.0
-
-- **Localization**: added translations for Portuguese (Brazil), German, French, Russian, Simplified Chinese, Japanese, Korean, Italian, Polish and Dutch, alongside the existing English and Spanish. All 12 languages cover the full set of item, block, GUI, config and command strings.
-
-## 1.0.2
-
-- **Fix**: CurseForge dependency now targets `curios-api-updated` (project 1579340) instead of the original `curios` project.
-
-## 1.0.1
-
-- **CurseForge dependency**: Curios API is now declared as a required dependency on the CurseForge file, so the launcher installs it automatically.
-
-## 1.0.0
-
-- **First stable release.** Full port of the ProjectE / Equivalent Exchange 2 experience for Minecraft 26.2 / NeoForge.
-- Complete EMC system (values, knowledge, transmutation) with Philosopher's Stone, Transmutation Table/Tablet and Tome of Knowledge.
-- Alchemical fuels, Dark/Red Matter, full tool + armor toolchains with charge/AOE, Gem Armor and Full Star endgame recipes.
-- Klein Stars Ein–Omega, the arcana curio set, misc toolchain items and the Interdiction Torch.
-- Collectors/Relays/Condensers with a persistent per-dimension EMC network, Dark/Red Matter furnaces, Alchemical Chest and 16 colored Alchemical Bags.
-- Requires Curios 15.0.0+.
-
-## 0.0.0-beta.27
-
-- **Fix**: removed the unused `NeoForge.EVENT_BUS.register(this)` from the main class, which crashed startup on NeoForge 26.2.0.37-beta (class has no `@SubscribeEvent` methods).
-
-## 0.0.0-beta.26
-
-- **Fix**: Curios dependency version range now accepts `15.0.0-beta.2+26.2` (the MC 26.2 build), fixing the load error.
-
-## 0.0.0-beta.25
-
-- **Full Star recipes**: custom recipe ingredient matching a maxed (16M) Klein Star Omega; alternative Gem Armor and Tome crafting routes (endgame).
-
-## 0.0.0-beta.24
-
-- **Curios required dependency**: arcana items and Klein Stars work while equipped in Curios slots (effects apply from slots, not only the inventory).
-- **Critical packaging fix**: `META-INF/neoforge.mods.toml` is now included in the built JAR (previous releases shipped without mod metadata and would not load when installed).
-
-## 0.0.0-beta.23
-
-- **Persistent EMC network**: per-dimension pools stored via `SavedData` (loaded on start, saved on stop), surviving restarts.
-
-## 0.0.0-beta.22
-
-- **Dark Matter Furnace** (4x) and **Red Matter Furnace** (8x): fast smelting with vanilla recipes and a vanilla-style GUI.
-- Completes the original mod's full block set.
-
-## 0.0.0-beta.21
-
-- **Gem Armor**: Gem Helmet/Chestplate/Leggings/Boots — the strongest armor set (Red Matter armor + arcana items + Klein Star Omega).
-
-## 0.0.0-beta.20
-
-- **World-level EMC network**: per-dimension `EMCNetwork` pool shared by all collectors/relays/condensers (replaces adjacent-block links).
-- Machine GUIs show network-wide EMC.
-
-## 0.0.0-beta.19
-
-- **Tool charge system**: shift-right-click cycles 0-3 charge on swords, pickaxes, hammers (Charge tooltip).
-- **Area mining**: hammers and pickaxes mine a face-aligned AOE scaled by charge.
-- **Area attacks**: matter swords damage nearby mobs scaled by charge.
-
-## 0.0.0-beta.18
-
-- **Transmutation Table** (block) and **Transmutation Tablet** (item): open the transmutation GUI.
-- **Interdiction Torch**: block entity that pushes mobs away.
-- Core ProjectE feature set complete.
-
-## 0.0.0-beta.17
-
-- **Nova Catalyst / Cataclysm**: TNT + alchemical fuel crafting components.
-- **Divining Rods I-III**: show total EMC in a growing area on right-click.
-- **Destruction Catalyst**: clears 3x3x3 on right-click.
-- **Hyperkinetic / Catalytic Lenses**: explosions on right-click.
-- **Mercurial Eye**: shows player EMC. **Archangel's Smite**: bow component.
-
-## 0.0.0-beta.16
-
-- **Arcana set**: Iron Band, Black Hole Band, Gem of Eternal Density, Harvest Goddess Band, Ignition Ring, Swiftwolf's Rending Gale, Void Ring, Zero Ring, Arcana Ring, Body/Life/Mind/Soul Stones, Evertide/Volcanite Amulets, Repair Talisman, Watch of Flowing Time.
-- Passive inventory effects (regen, fire resistance, water breathing, saturation, speed, haste, slow falling), magnet/void behaviors, right-click block effects, auto-repair.
-- Curios tags for belt/necklace/ring slots.
-
-## 0.0.0-beta.15
-
-- **16 Alchemical Bags**: full color set (black, blue, brown, cyan, gray, green, light_blue, light_gray, lime, magenta, orange, pink, purple, red, white, yellow), each crafted with matching wool.
-
-## 0.0.0-beta.14
-
-- **Covalence Dusts**: Low/Medium/High (40 per craft) — crafting foundation.
-- **Tome of Knowledge**: right-click unlocks all transmutation knowledge (consumed).
-- Restored original Alchemical Chest/Bag recipes using covalence dusts.
-
-## 0.0.0-beta.13
-
-- **Curios support**: all six Klein Star tiers are equippable in a dedicated `klein_star` Curios slot (data-driven soft dependency, requires the Curios mod).
-
-## 0.0.0-beta.12
-
-- **Alchemical Bag**: portable 13-slot inventory persisted in the item's `DataComponents.CONTAINER`, opens on right-click.
-- **Alchemical Chest**: 13-slot storage block with GUI, drops contents on break.
-- Recipes adapted from the original (covalence dusts → alchemical fuels/vanilla).
-
-## 0.0.0-beta.11
-
-- **Collector MK1-3**: generates EMC from skylight (4/12/40 per second) and charges Klein Stars.
-- **Relay MK1-3**: pulls EMC from adjacent collectors into a 100k–10M buffer and charges Klein Stars.
-- **Condenser MK1-2**: learns a target item, drains EMC from Klein Stars and adjacent relays, produces the target.
-- Block entities with GUIs (EMC/sun/progress via DataSlots), original ProjectE progression recipes.
-- Simplified: neighbor-only EMC network, single-slot condenser output.
-
-## 0.0.0-beta.10
-
-- **Dark Matter toolchain**: Sword, Pickaxe, Axe, Shovel, Hoe, Shears, Hammer.
-- **Red Matter toolchain**: Sword, Pickaxe, Axe, Shovel, Hoe, Shears, Hammer, Katar, Morning Star (upgrades from the Dark Matter tools).
-- **Hammer** mines a 3x3 face-aligned area with proper drops and durability.
-- **Armor**: full Dark and Red Matter sets with player-model rendering via equipment assets, netherite-tier stats.
-- Simplified vs ProjectE: no charge/AOE sword attacks or EMC durability yet.
-
-## 0.0.0-beta.9
-
-- **Storage blocks**: Alchemical Coal, Mobius Fuel, Aeternalis Fuel (9 items), Dark Matter and Red Matter (4 items) blocks with construct/deconstruct recipes and EMC values.
-- **Fix**: added the `items/<id>.json` model bindings required by Minecraft 26.2 — all mod items were rendering with the missing-model placeholder.
-- Full blockstates, block models, loot tables; all blocks in the creative tab.
-
-## 0.0.0-beta.8
-
-- **Fuel chain**: Alchemical Coal (1,024 EMC), Mobius Fuel (3,072), Aeternalis Fuel (9,216) — each crafted from 4 of the previous tier plus the Philosopher's Stone.
-- **Red Matter**: 417,792 EMC, second rung of the matter toolchain (8 Aeternalis Fuel around Dark Matter).
-- **Original recipes restored**: Dark Matter and Klein Star Ein now use the alchemical fuels instead of the beta.7 vanilla substitutes.
-
-## 0.0.0-beta.7
-
-- **Higher Klein Star tiers**: Zwei, Drei, Vier, Sphere, Omega — full portable EMC battery line (1M–16M capacity), each crafted from 4 of the previous tier.
-- **Crafting recipes**: Philosopher's Stone, Dark Matter and every Klein Star tier are now craftable (fuel ingredients adapted to vanilla until the alchemical fuels exist).
-- **EMC commands**: `/equivalent_legacy emc` (your EMC) and `/equivalent_legacy emc give <player> <amount>` (operator-only), via Brigadier.
-
-## 0.0.0-beta.6
-
-- **Dark Matter**: high-EMC (139,264) intermediate crafting item, first rung above the Philosopher's Stone.
-- **Klein Star Ein**: portable EMC battery. Right-click charges it from the player's EMC (up to 10k/click), shift-right-click discharges back to the player. Durability bar shows charge level, tooltip shows exact stored EMC.
-- Both items have EMC values and appear in the creative tab.
-
-## 0.0.0-beta.5
-
-- **Philosopher's Stone transmutation GUI**: right-click opens a screen with a scrollable list of known items (sorted by EMC), an input slot to learn new items, an output slot, and the player's current EMC visible.
-- Transmuting a known item spends EMC server-side and produces a copy in the output slot.
-- Fix: EMC was being charged twice (once on transmute, again on picking up the output item) — now charged only once.
-
-## 0.0.0-beta.4
-
-- Persistent player EMC/knowledge data via NeoForge Data Attachments (`PlayerKnowledgeAttachment`, `PlayerKnowledge` API), carried over on death.
-- Server→client sync networking (full sync, EMC-only, single-item-learned) on login, respawn, and dimension change.
-- Still no transmutation logic or GUI — foundation for the next phase.
-
-## 0.0.0-beta.3
-
-- Item/block registration framework (`EquivalentLegacyItems`, `EquivalentLegacyBlocks`), wired into the mod's deferred registers.
-- Added the mod's own creative mode tab.
-- First functional item: **Philosopher's Stone**, hooked into the existing EMC system (`EMCHelper`/`NSSItem`) for value lookups. No transmutation logic yet.
-- Fixed `archivesName` in `build.gradle` to follow the `<mod_id>-<mc-version>-neoforge` naming convention (previous betas produced a wrongly-named jar).
-
-## 0.0.0-beta.2
-
-- Ported the core EMC system from Equivox/ProjectE (fase 1):
-  - Config framework: `CommonConfig`, `ClientConfig`, `ServerConfig`, `MappingConfig` via NeoForge `ModConfigSpec`.
-  - NSS (NormalizedSimpleStack) item identification system, with data component support.
-  - EMC mapper: `MappingCollector`, `SimpleGraphMapper`, `LongArithmetic`.
-  - `FixedValues`/`CustomConversion` for EMC value overrides, `EMCHelper` runtime API.
-- Removed the leftover skeleton example item/block and old `Config.java`.
-- Still no items, blocks, commands, networking, or GUI — those are next.
-
-## 0.0.0-beta.1
-
-- Initial scaffold from the `codex-docs/mod_template/26.2-26.2.0.32-beta` NeoForge MDK skeleton.
-- Project set up as a fork of [Equivox](https://github.com/Yaskulsky/projecte-26-port) (itself a fork of ProjectE), targeting Minecraft 26.2 / NeoForge 26.2.0.32-beta.
-- Mod icon added (cropped from promotional artwork), wired via `logoFile` in `neoforge.mods.toml`.
-- CurseForge project description expanded with the full planned feature set (EMC, transmutation, Philosopher's Stone toolchain, collectors/condensers, Klein Star).
-- CurseForge project registered (`curseforge_project_id=1632317`).
+# Changelog - Equivalent Legacy 26.2
+
+## [1.2.0-RELEASE] - 2026-08-07
+
+### ✨ Major Features
+
+#### Phase 1A: Container Infrastructure Rewrite
+- **New Base Class: PEContainer** — Abstract container extending MachineMenu with built-in EMC synchronization
+  - Manages `BoxedLong` fields for 64-bit EMC values (supports > Integer.MAX_VALUE)
+  - Inherits `addPlayerInventory()` for consistent player inventory handling
+  - Thread-safe `broadcastChanges()` with `broadcastPE()` hook for EMC sync
+  
+- **5 Menus Rewritten**:
+  - **CollectorMenu**: 1 validated slot for Klein Star, syncs network EMC + sun level + charge progress
+  - **CondenserMenu**: 3 slots (TARGET, KLEIN, OUTPUT), syncs EMC cost calculation
+  - **RelayMenu**: 1 validated slot for Klein Star, syncs relay power
+  - **BagMenu**: 13 item slots (7+6), simplified with PEContainer inheritance
+  - **ChestMenu**: 13 storage slots (7+6), syncs openness state
+
+- **Slot Infrastructure**:
+  - `ValidatedSlot` — slot validation with `Predicate<ItemStack>` for IItemHandler-based containers
+  - `ValidatedContainerSlot` — variant for SimpleContainer (non-NeoForge) containers
+  - `SlotGhost` — display-only ghost slots (count=1, no pickup/placement, auto-set count=1)
+  - `ISlotGhost` interface — marks ghost slot behavior
+  - `SlotPredicates` — reusable validators:
+    - `ALWAYS_FALSE` — block all placements
+    - `HAS_EMC` — accept any non-empty item
+    - `COLLECTOR_INV` — collector-specific validation
+    - `CONDENSER_LOCK` — condenser lock slot validation
+    - `RELAY_INV` — relay inventory validation
+
+#### Phase 1B: EMC Registry System (Complete Port from Equivox 26.1.2)
+
+The EMC Registry is the "heart" of Equivalent Legacy. It handles all value lookups, calculations, and conversions.
+
+##### Subsystem 1: Hardcoded EMC Values (235+ items)
+- **File**: `EmcValues.java`
+- **Categories**:
+  - Raw Materials: dirt, logs, wood, stone, coal, etc.
+  - Ores: iron, gold, diamond, emerald, etc.
+  - Gems: diamond (2048), emerald (2048), nether star, etc.
+  - Ingots: iron (256), gold (32), copper (8), netherite (8192), etc.
+  - Blocks: furnaces, crafting tables, etc.
+  - Food: apples, wheat, etc.
+  - Dyes: all 16 colors
+  - Tools & Armor: pickaxes, swords, chestplates, etc.
+  - Mob Drops: bones, string, etc.
+  - Equivalent Legacy specific: Klein Stars, upgrades, etc.
+
+**Key Values**:
+- `oak_log` = 2
+- `stone` = 1
+- `iron_ingot` = 256
+- `gold_ingot` = 32
+- `diamond` = 2048
+- `emerald` = 2048
+- `netherite_ingot` = 8192
+
+##### Subsystem 2: EMCMappingHandler (Central Coordinator)
+- **File**: `EMCMappingHandler.java`
+- **Purpose**: Resolve EMC values from all sources with priority ordering
+- **Architecture**:
+  1. **FixedValues** (highest priority) — hardcoded values
+  2. **Recipe Mappers** — derive values from crafting, smelting, brewing
+  3. **Data Component Processors** — add EMC for enchantments, damage, container contents
+  4. **Special Mappers** — handle edge cases (ore blacklist, tag grouping, custom conversions)
+  5. **Graph Mapper** (fallback) — derive from complex recipe chains
+
+- **Public API**:
+  - `getEMCValue(ItemStack)` — get EMC with data component bonuses
+  - `getBaseEMCValue(NormalizedSimpleStack)` — get base EMC (no components)
+  - `getEMCValue(Fluid)` — get fluid EMC (0 in Phase 1B)
+  - `getEMCValue(TagKey)` — get lowest EMC in tag
+  - `hasEMCValue(ItemStack)` — check if item has EMC
+  - `invalidateCache()` — force recomputation
+  - `registerMapper(IEMCMapper)` — add new mapper
+  - `registerComponentEnhancer(IComponentEnhancer)` — add component processor
+
+- **Thread-safe**: Uses `synchronized` blocks and volatile fields for concurrent access
+- **Singleton**: `EMCMappingHandler.INSTANCE`
+
+##### Subsystem 3: DataComponentMapper (8 Component Processors)
+Adds EMC for item data components (NBT in 1.20+):
+
+1. **EnchantmentProcessor** — enchanted items get bonus EMC per enchantment level
+2. **DamageProcessor** — damaged items lose EMC proportional to damage
+3. **ContainerProcessor** — containers (chests, barrels, shulkers) include contents EMC
+4. **SimpleContainerProcessor** — generic container contents
+5. **PersistentComponentProcessor** — custom NBT data
+6. **ArmorTrimProcessor** — armor trim variations
+7. **BundleProcessor** — bundle contents
+8. **WrittenBookProcessor** — book content (text adds EMC)
+
+Each processor implements `IComponentProcessor`:
+```java
+long calculateComponentEMC(ItemStack stack, EMCMappingHandler handler)
+```
+
+##### Subsystem 4: Special Mappers (4 Mappers)
+- **OreBlacklistMapper** — marks all ores as 0 EMC (prevents circular loops between ore → ingot recipes)
+- **RawMaterialsBlacklistMapper** — marks raw materials (raw_iron, raw_copper, etc.) as 0 EMC
+- **CustomConversionMapper** — player-defined custom conversions (public static API for mods)
+- **TagMapper** — placeholder for Phase 2 (full tag-to-tag grouping deferred due to API limitations)
+
+##### Subsystem 5: Capabilities & Public API
+- **IEmcStorage** — capability for EMC storage (Klein Stars, Collectors, Condensers, Relays)
+  - `getStoredEmc()`, `setStoredEmc()`, `getMaxEmc()`
+  - `addEmc()`, `removeEmc()`
+
+- **IKnowledgeProvider** — capability for player transmutation knowledge
+  - `knows()`, `learn()`, `getKnownItems()`, `reset()`
+
+- **IEmcProvider** — capability for custom EMC providers (addon API)
+  - `getEmc(NormalizedSimpleStack)` → `Optional<Long>`
+  - `getName()`
+
+- **EquivalentLegacyEMCAPI** — public entry point
+  - `initialize(EMCMappingHandler)` — set up at mod load
+  - `getEMCValue(ItemStack)` → long
+  - `getBaseEMCValue(NormalizedSimpleStack)` → long
+  - `getHandler()` → EMCMappingHandler
+  - `invalidateCache()` → void
+
+### 🐛 Bug Fixes
+- Fixed texture loading issue (restored `items/` folder with BlockItem definitions)
+- Fixed namespace references (projecte → equivalent_legacy)
+- Fixed type mismatches in containers (ItemStack handling in PEContainer)
+
+### 📋 Technical Details
+
+#### Normalized Simple Stack (NSS)
+All items are represented as `NormalizedSimpleStack` for consistent comparison:
+- `NSSItem` — vanilla/mod items
+- `NSSTag` — item tags (oak_wood, spruce_wood grouped together)
+- `NSSFluid` — fluids (Phase 2)
+- Custom NSS for special items
+
+#### BoxedLong Pattern
+For values > `Integer.MAX_VALUE`, EMC uses 64-bit split into high/low ints:
+```
+64-bit EMC = (high_int << 32) | (low_int & 0xFFFFFFFF)
+```
+Synchronized via two `DataSlot` fields for network sync.
+
+#### Priority Resolution
+When multiple mappers provide values, highest-priority source wins:
+1. FixedValues (configured first)
+2. RecipeMappers
+3. ComponentEnhancers
+4. SpecialMappers
+5. GraphMapper (fallback only)
+
+### ⚙️ Architecture Improvements
+- **Separation of Concerns**: Containers (UI) vs EMC (values) cleanly separated
+- **Extensibility**: Public API allows addons to hook into EMC system without modifying core
+- **Thread Safety**: EMCMappingHandler uses sync + volatile for concurrent queries
+- **Performance**: Caching + lazy remapping minimizes recalculation
+- **Testability**: NSS normalization enables unit tests without full game bootstrap
+
+### 🚀 Ready for Phase 2
+- ✅ Data files generation (recipes, loot tables, lang files)
+- ✅ Missing items + block definitions
+- ✅ Graph-based EMC resolution (for complex recipe chains)
+- ✅ Fluid EMC support
+- ✅ Full tag-to-tag grouping (TagMapper)
+- ✅ Client-side knowledge sync (player transmutation progress)
+
+### 📝 Known Limitations (Phase 1B)
+- **No Fluid EMC** — fluids return 0 (deferred to Phase 2)
+- **No graph-based resolution** — circular dependencies detected as errors (Phase 2 will resolve via graph)
+- **No BigFraction arithmetic** — uses simple `long` math only
+- **No datagen integration** — hardcoded values only (Phase 2 adds dynamic mapping)
+- **TagMapper placeholder** — full tag iteration deferred to Phase 2
+
+### 📦 Files Changed
+- **Phase 1A (Containers)**:
+  - `PEContainer.java` (new)
+  - `BoxedLong.java` (new)
+  - `CollectorMenu.java` (rewritten)
+  - `CondenserMenu.java` (rewritten)
+  - `RelayMenu.java` (rewritten)
+  - `BagMenu.java` (rewritten)
+  - `ChestMenu.java` (rewritten)
+  - `slots/ValidatedSlot.java` (new)
+  - `slots/ValidatedContainerSlot.java` (new)
+  - `slots/SlotGhost.java` (new)
+  - `slots/ISlotGhost.java` (new)
+  - `slots/SlotPredicates.java` (new)
+
+- **Phase 1B (EMC Registry)**:
+  - `EmcValues.java` (new, 235+ values)
+  - `mapper/EMCMappingHandler.java` (new)
+  - `mapper/IEMCMapper.java` (new)
+  - `mapper/MappingResult.java` (new)
+  - `components/DataComponentMapper.java` (new)
+  - `components/processor/IComponentProcessor.java` (new)
+  - `components/processor/*Processor.java` (8 new files)
+  - `mappers/OreBlacklistMapper.java` (new)
+  - `mappers/RawMaterialsBlacklistMapper.java` (new)
+  - `mappers/CustomConversionMapper.java` (new)
+  - `mappers/TagMapper.java` (new)
+  - `capability/IEmcStorage.java` (new)
+  - `capability/IKnowledgeProvider.java` (new)
+  - `capability/IEmcProvider.java` (new)
+  - `EquivalentLegacyEMCAPI.java` (new)
+
+### 🔗 Commits
+- `a541117` — feat: add base slot infrastructure
+- `a472328` — Phase 1A: Rewrite CollectorMenu
+- `38ccf68` — Phase 1A: Rewrite CondenserMenu
+- `fd09f40` — Phase 1A: Rewrite RelayMenu
+- `6275031` — Phase 1A: Rewrite BagMenu
+- `0f75836` — Phase 1A: Rewrite ChestMenu
+- `8cfd338` — Phase 1B: Add hardcoded EMC values registry
+- `36714fc` — Phase 1B: Add EMCMappingHandler
+- `be39842` — Phase 1B: Add DataComponentMapper + processors
+- `1395e36` — Phase 1B: Add Capabilities & Public API
+
+---
+
+## [1.2.0-beta.10] - Previous Release
+(See git history for earlier versions)
