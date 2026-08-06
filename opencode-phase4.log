@@ -1,0 +1,323 @@
+[0m
+> build · deepseek-v4-flash
+[0m
+[0m→ [0mRead docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md
+[0m
+[0m$ [0mecho "[graphify] knowledge graph at graphify-out/. For focused questions, run graphify query with your question (scoped subgraph, usually much smaller than GRAPH_REPORT.md) instead of grepping raw files. Read GRAPH_REPORT.md only for broad architecture context." ; find src/main/java -type f -name "*.java" | head -50
+[graphify] knowledge graph at graphify-out/. For focused questions, run graphify query with your question (scoped subgraph, usually much smaller than GRAPH_REPORT.md) instead of grepping raw files. Read GRAPH_REPORT.md only for broad architecture context.
+src/main/java/com/skd/equivalentlegacy/api/events/EMCDiscoveryEvent.java
+src/main/java/com/skd/equivalentlegacy/api/events/EMCTransmutationEvent.java
+src/main/java/com/skd/equivalentlegacy/api/events/WorldTransmutationEvent.java
+src/main/java/com/skd/equivalentlegacy/api/IEMCProvider.java
+src/main/java/com/skd/equivalentlegacy/api/IEmcReceptor.java
+src/main/java/com/skd/equivalentlegacy/api/IEMCStorage.java
+src/main/java/com/skd/equivalentlegacy/api/IKnowledgeProvider.java
+src/main/java/com/skd/equivalentlegacy/api/ITransmutationAllowed.java
+src/main/java/com/skd/equivalentlegacy/block/BaseMachineBlock.java
+src/main/java/com/skd/equivalentlegacy/block/DestructionCatalyst.java
+src/main/java/com/skd/equivalentlegacy/block/DMPedestal.java
+src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/BaseMachineBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/CollectorBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/CondenserBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/DestructionCatalystBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/DMPedestalBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/EquivalentLegacyBlockEntities.java
+src/main/java/com/skd/equivalentlegacy/block/entity/InterdictionTorchBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/MachineTiers.java
+src/main/java/com/skd/equivalentlegacy/block/entity/MatterFurnaceBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/RelayBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/RMPedestalBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/EquivalentLegacyBlocks.java
+src/main/java/com/skd/equivalentlegacy/block/InterdictionTorchBlock.java
+src/main/java/com/skd/equivalentlegacy/block/MatterFurnaceBlock.java
+src/main/java/com/skd/equivalentlegacy/block/Pedestal.java
+src/main/java/com/skd/equivalentlegacy/block/RMPedestal.java
+src/main/java/com/skd/equivalentlegacy/block/TransmutationTableBlock.java
+src/main/java/com/skd/equivalentlegacy/command/ModCommands.java
+src/main/java/com/skd/equivalentlegacy/config/ClientConfig.java
+src/main/java/com/skd/equivalentlegacy/config/CommonConfig.java
+src/main/java/com/skd/equivalentlegacy/config/EquivalentLegacyConfig.java
+src/main/java/com/skd/equivalentlegacy/config/MappingConfig.java
+src/main/java/com/skd/equivalentlegacy/config/ServerConfig.java
+src/main/java/com/skd/equivalentlegacy/emc/ConversionGroup.java
+src/main/java/com/skd/equivalentlegacy/emc/CustomConversion.java
+src/main/java/com/skd/equivalentlegacy/emc/EMCHelper.java
+src/main/java/com/skd/equivalentlegacy/emc/EMCNetwork.java
+src/main/java/com/skd/equivalentlegacy/emc/EMCNetworkData.java
+src/main/java/com/skd/equivalentlegacy/emc/FixedValues.java
+src/main/java/com/skd/equivalentlegacy/emc/IHasConversions.java
+src/main/java/com/skd/equivalentlegacy/emc/mapper/IExtendedMappingCollector.java
+src/main/java/com/skd/equivalentlegacy/emc/mapper/IMappingCollector.java
+src/main/java/com/skd/equivalentlegacy/emc/mapper/IValueArithmetic.java
+src/main/java/com/skd/equivalentlegacy/emc/mapper/IValueGenerator.java
+src/main/java/com/skd/equivalentlegacy/emc/mapper/LongArithmetic.java
+src/main/java/com/skd/equivalentlegacy/emc/mapper/MappingCollector.java
+src/main/java/com/skd/equivalentlegacy/emc/mapper/SimpleGraphMapper.java
+[0m
+[0m$ [0mfind src/main/java -type f -name "*.java" | wc -l ; echo "---" ; find src/main/java -type f -name "*.java" | grep -v -E "emc/|api/" | sort
+135
+---
+src/main/java/com/skd/equivalentlegacy/block/BaseMachineBlock.java
+src/main/java/com/skd/equivalentlegacy/block/DestructionCatalyst.java
+src/main/java/com/skd/equivalentlegacy/block/DMPedestal.java
+src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/BaseMachineBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/CollectorBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/CondenserBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/DestructionCatalystBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/DMPedestalBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/EquivalentLegacyBlockEntities.java
+src/main/java/com/skd/equivalentlegacy/block/entity/InterdictionTorchBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/MachineTiers.java
+src/main/java/com/skd/equivalentlegacy/block/entity/MatterFurnaceBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/RelayBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/entity/RMPedestalBlockEntity.java
+src/main/java/com/skd/equivalentlegacy/block/EquivalentLegacyBlocks.java
+src/main/java/com/skd/equivalentlegacy/block/InterdictionTorchBlock.java
+src/main/java/com/skd/equivalentlegacy/block/MatterFurnaceBlock.java
+src/main/java/com/skd/equivalentlegacy/block/Pedestal.java
+src/main/java/com/skd/equivalentlegacy/block/RMPedestal.java
+src/main/java/com/skd/equivalentlegacy/block/TransmutationTableBlock.java
+src/main/java/com/skd/equivalentlegacy/command/ModCommands.java
+src/main/java/com/skd/equivalentlegacy/config/ClientConfig.java
+src/main/java/com/skd/equivalentlegacy/config/CommonConfig.java
+src/main/java/com/skd/equivalentlegacy/config/EquivalentLegacyConfig.java
+src/main/java/com/skd/equivalentlegacy/config/MappingConfig.java
+src/main/java/com/skd/equivalentlegacy/config/ServerConfig.java
+src/main/java/com/skd/equivalentlegacy/entity/EntityNovaCataclysmPrimed.java
+src/main/java/com/skd/equivalentlegacy/entity/EntityNovaCatalystPrimed.java
+src/main/java/com/skd/equivalentlegacy/entity/EntityNovaPrimed.java
+src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java
+src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java
+src/main/java/com/skd/equivalentlegacy/EquivalentLegacyEntities.java
+src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java
+src/main/java/com/skd/equivalentlegacy/events/NetworkEvents.java
+src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java
+src/main/java/com/skd/equivalentlegacy/gui/BagMenu.java
+src/main/java/com/skd/equivalentlegacy/gui/BagScreen.java
+src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java
+src/main/java/com/skd/equivalentlegacy/gui/ChestScreen.java
+src/main/java/com/skd/equivalentlegacy/gui/CollectorMenu.java
+src/main/java/com/skd/equivalentlegacy/gui/CollectorScreen.java
+src/main/java/com/skd/equivalentlegacy/gui/CondenserMenu.java
+src/main/java/com/skd/equivalentlegacy/gui/CondenserScreen.java
+src/main/java/com/skd/equivalentlegacy/gui/MachineMenu.java
+src/main/java/com/skd/equivalentlegacy/gui/MachineScreen.java
+src/main/java/com/skd/equivalentlegacy/gui/MatterFurnaceMenu.java
+src/main/java/com/skd/equivalentlegacy/gui/MatterFurnaceScreen.java
+src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java
+src/main/java/com/skd/equivalentlegacy/gui/RelayMenu.java
+src/main/java/com/skd/equivalentlegacy/gui/RelayScreen.java
+src/main/java/com/skd/equivalentlegacy/gui/StorageScreen.java
+src/main/java/com/skd/equivalentlegacy/gui/TransmutationContainer.java
+src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java
+src/main/java/com/skd/equivalentlegacy/integration/jei/EquivalentLegacyJeiPlugin.java
+src/main/java/com/skd/equivalentlegacy/integration/jei/TransmutationRecipeCategory.java
+src/main/java/com/skd/equivalentlegacy/integration/jei/TransmutationRecipeDisplay.java
+src/main/java/com/skd/equivalentlegacy/integration/wthit/EquivalentLegacyWthitPlugin.java
+src/main/java/com/skd/equivalentlegacy/integration/wthit/TransmutationComponentProvider.java
+src/main/java/com/skd/equivalentlegacy/item/AeternalisFuel.java
+src/main/java/com/skd/equivalentlegacy/item/AlchemicalBag.java
+src/main/java/com/skd/equivalentlegacy/item/AlchemicalCoal.java
+src/main/java/com/skd/equivalentlegacy/item/ChargableItem.java
+src/main/java/com/skd/equivalentlegacy/item/CovalenceDust.java
+src/main/java/com/skd/equivalentlegacy/item/crafting/FullKleinStarIngredient.java
+src/main/java/com/skd/equivalentlegacy/item/crafting/ModIngredientTypes.java
+src/main/java/com/skd/equivalentlegacy/item/CurioItem.java
+src/main/java/com/skd/equivalentlegacy/item/DarkMatter.java
+src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java
+src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyDataComponents.java
+src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java
+src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyTags.java
+src/main/java/com/skd/equivalentlegacy/item/HammerItem.java
+src/main/java/com/skd/equivalentlegacy/item/KleinStar.java
+src/main/java/com/skd/equivalentlegacy/item/KleinStarTier.java
+src/main/java/com/skd/equivalentlegacy/item/MatterMaterials.java
+src/main/java/com/skd/equivalentlegacy/item/MatterPickaxeItem.java
+src/main/java/com/skd/equivalentlegacy/item/MatterSwordItem.java
+src/main/java/com/skd/equivalentlegacy/item/MiscToolItem.java
+src/main/java/com/skd/equivalentlegacy/item/MobiusFuel.java
+src/main/java/com/skd/equivalentlegacy/item/PEAxe.java
+src/main/java/com/skd/equivalentlegacy/item/PEPickaxe.java
+src/main/java/com/skd/equivalentlegacy/item/PESaw.java
+src/main/java/com/skd/equivalentlegacy/item/PhilosophersStone.java
+src/main/java/com/skd/equivalentlegacy/item/RedMatter.java
+src/main/java/com/skd/equivalentlegacy/item/Tome.java
+src/main/java/com/skd/equivalentlegacy/item/ToolAoe.java
+src/main/java/com/skd/equivalentlegacy/item/TransmutationStone.java
+src/main/java/com/skd/equivalentlegacy/item/TransmutationTablet.java
+src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java
+src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java
+src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java
+src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncEmcPayload.java
+src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncPayload.java
+src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java
+src/main/java/com/skd/equivalentlegacy/player/EquivalentLegacyAttachments.java
+src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledge.java
+src/main/java/com/skd/equivalentlegacy/player/PlayerKnowledgeAttachment.java
+src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java
+src/main/java/com/skd/equivalentlegacy/rendering/EquivalentLegacyRenderers.java
+src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java
+src/main/java/com/skd/equivalentlegacy/rendering/TransmutationRenderingOverlay.java
+src/main/java/com/skd/equivalentlegacy/world_transmutation/TransmutationConfig.java
+src/main/java/com/skd/equivalentlegacy/world_transmutation/TransmutationResult.java
+src/main/java/com/skd/equivalentlegacy/world_transmutation/WorldTransmutationManager.java
+[0m
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java
+Let me explore the codebase structure to understand existing conventions before implementing.
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/block/entity/DMPedestalBlockEntity.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/block/entity/RMPedestalBlockEntity.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/block/DMPedestal.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/block/RMPedestal.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/block/Pedestal.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/events/NetworkEvents.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/network/payload/TransmuteRequestPayload.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyItems.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/events/PlayerEvents.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/item/CurioItem.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/config/ServerConfig.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/events/CurioEvents.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/config/EquivalentLegacyConfig.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java
+[0m→ [0mRead build.gradle
+[0m→ [0mRead gradle.properties
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/item/MiscToolItem.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/gui/BagScreen.java
+Let me look at the GUI/menu registration and lang files structure.
+[0m
+[0m$ [0mls src/main/resources/assets/equivalent_legacy/lang/
+cs_cz.json
+de_de.json
+en_au.json
+en_gb.json
+en_ud.json
+en_us.json
+es_es.json
+fr_fr.json
+it_it.json
+ja_jp.json
+ko_kr.json
+nl_nl.json
+pl_pl.json
+pt_br.json
+ru_ru.json
+tr_tr.json
+uk_ua.json
+zh_cn.json
+[0m
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/gui/CollectorScreen.java
+[0m→ [0mRead src/main/java/com/skd/equivalentlegacy/gui/StorageScreen.java
+[0m✱ [0mGrep "CreatureSpawner|BaseSpawner|SpawnerBlockEntity"[90m in src/main/java · 0 matches[0m
+Let me check the GUI API and vanilla spawner classes available in this MC version.
+[0m
+[0m$ [0mfind ~/.gradle/caches -name "*.jar" 2>/dev/null | grep -iE "neoform|minecraft|neoForge" | head; echo "---LIB EXT---"; ls lib_ext/ 2>/dev/null; echo "---LIBS---"; ls libs/ 2>/dev/null
+/c/Users/llagu/.gradle/caches/fabric-loom/26.1/minecraft-client.jar
+/c/Users/llagu/.gradle/caches/fabric-loom/26.1/minecraft-extracted_server.jar
+/c/Users/llagu/.gradle/caches/fabric-loom/26.1/minecraft-merged.jar
+/c/Users/llagu/.gradle/caches/fabric-loom/26.1/minecraft-server.jar
+/c/Users/llagu/.gradle/caches/fabric-loom/26.2/minecraft-client-only.jar
+/c/Users/llagu/.gradle/caches/fabric-loom/26.2/minecraft-client.jar
+/c/Users/llagu/.gradle/caches/fabric-loom/26.2/minecraft-common.jar
+/c/Users/llagu/.gradle/caches/fabric-loom/26.2/minecraft-extracted_server.jar
+/c/Users/llagu/.gradle/caches/fabric-loom/26.2/minecraft-server.jar
+/c/Users/llagu/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/minecraft-clientonly-deobf/26.2/minecraft-clientonly-deobf-26.2.jar
+---LIB EXT---
+curios-neoforge-15.0.0-beta.2+26.2.jar
+equivox-1.0.0.jar
+ProjectE-1.21.1-PE1.1.0.jar
+---LIBS---
+[0m
+[0m$ [0mfind ~/.gradle/caches -path "*neoforge*" -name "*.jar" 2>/dev/null | grep -v sources | head -20; echo "---"; find ~/.gradle/caches -path "*net/minecraft*" -name "*.jar" 2>/dev/null | grep -v fabric | grep -v sources | head -20
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/dev.isxander/yet-another-config-lib/3.9.1+26.1-neoforge/6a9f515037669af4e54700da0ab23cbf7a70cf99/yet-another-config-lib-3.9.1+26.1-neoforge.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/dev.isxander/yet-another-config-lib/3.9.6+26.2-neoforge/fc6466ee07ea67dfd76f3489dc2001823dbb1e70/yet-another-config-lib-3.9.6+26.2-neoforge.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-neoforge/0.5.3/a0919957808de97707c5fb4ce073e66aeef3e187/mixinextras-neoforge-0.5.3.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-neoforge/0.5.4/3cb0fec08c25e18fddf797fbdc1b9db83dc4e92f/mixinextras-neoforge-0.5.4.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/maven.modrinth/jade/26.2.8+neoforge/ef0778b036e7af1b5cc8fc14be7326afe419e16b/jade-26.2.8+neoforge.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/mezz.jei/jei-26.2-neoforge/30.15.0.121/6e64d9c0e1356c4af9ed4a0c3991419ec9fe5e15/jei-26.2-neoforge-30.15.0.121.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/mezz.jei/jei-26.2-neoforge/30.16.0.124/250c346585b1946439bc228df4df8c520c53d908/jei-26.2-neoforge-30.16.0.124.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/mezz.jei/jei-26.2-neoforge/30.16.0.125/39a3826974dca14a8ccc08b3d241673c1bbe2f8f/jei-26.2-neoforge-30.16.0.125.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/mezz.jei/jei-26.2-neoforge-api/30.15.0.121/bd09b4e6a3996083ee2c2ac4e8daf8222893ec3b/jei-26.2-neoforge-api-30.15.0.121.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/mezz.jei/jei-26.2-neoforge-api/30.16.0.124/694a5bd0ac38cc9850ec7eeff76f42d4669d83bf/jei-26.2-neoforge-api-30.16.0.124.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/mezz.jei/jei-26.2-neoforge-api/30.16.0.125/6cdc39a5a5eb0ced1d687ecf9c751f6bb9a6bd4e/jei-26.2-neoforge-api-30.16.0.125.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/accesstransformers/10.0.1/fd83b5725f76eae9115e9355fa1c456a6a441400/accesstransformers-10.0.1.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/accesstransformers/11.0.2/25dcb69c78b16669935f0ab91dff830ce192379d/accesstransformers-11.0.2.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/accesstransformers/13.0.1/5c6200bc80dc1d38b984a106a04d488dddcd642c/accesstransformers-13.0.1.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/AutoRenamingTool/2.0.16/767ab00cbf284475c989531f3436282a3a62905b/AutoRenamingTool-2.0.16.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/AutoRenamingTool/2.0.17/453980338983da2c30a37774d625fd2dac7cea4f/AutoRenamingTool-2.0.17.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/AutoRenamingTool/2.0.17/9388df4c3589faf10c35d9154cfb2451c83bd717/AutoRenamingTool-2.0.17-all.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/AutoRenamingTool/2.0.3/d9890c71b4366f886c2b1006782043a6a6816eb6/AutoRenamingTool-2.0.3-all.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/bus/8.0.5/5b2d33285ab5d1554e9798ad98c40d6ea3868bd5/bus-8.0.5.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/coremods/7.0.3/9147e6f638b4272b3bd5fc8f92ad37802512c6c/coremods-7.0.3.jar
+---
+[0m
+[0m$ [0mfind ~/.gradle -iname "*neoforge*26.2*" -name "*.jar" 2>/dev/null | grep -v sources | head; echo "---MODDEV---"; find ~/.gradle -path "*moddev*" -name "*.jar" 2>/dev/null | head -20; echo "---JOINED---"; find ~/.gradle -path "*neoform*" 2>/dev/null | head -20
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.32-beta/8b2b6ca4c7363f405c35bb41c3e3496e75c2400e/neoforge-26.2.0.32-beta-universal.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.32-beta/9b00a1518883480865fb60848143ee922ee5cc8/neoforge-26.2.0.32-beta-userdev.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.35-beta/4581c7be36ec2803bc09e613fbf26cf4947f4978/neoforge-26.2.0.35-beta-universal.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.35-beta/58288e70f0ff1bd7794b8f288820e40fff31f1c8/neoforge-26.2.0.35-beta-userdev.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.37-beta/445a15cadbcf3d51ca45b2925d53acf919dcbc74/neoforge-26.2.0.37-beta-universal.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.37-beta/b7661b71f87d5148bfc2da0087f78ab9ccd2e33b/neoforge-26.2.0.37-beta-userdev.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.41-beta/cf64b174582dc21f9dac9ad9e9830d35a58d0453/neoforge-26.2.0.41-beta-userdev.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.41-beta/fab4f5a3c38db948864fb668cc54ac7e3630b766/neoforge-26.2.0.41-beta-universal.jar
+---MODDEV---
+/c/Users/llagu/.gradle/caches/9.2.1/transforms/1ce037f0048412db9ed6b7d865b76834/workspace/transformed/instrumented/instrumented-moddev-gradle-2.0.141.jar
+/c/Users/llagu/.gradle/caches/9.2.1/transforms/b71b69b6c876223adebab8b7dbd3a1bf/workspace/transformed/instrumented/instrumented-moddev-gradle-2.0.142.jar
+/c/Users/llagu/.gradle/caches/9.4.0/transforms/86733dac8f4c41ae1b5832ee23b4e3ce/transformed/instrumented/instrumented-moddev-gradle-2.0.141.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/moddev-gradle/2.0.141/cf02dff073ef2f2a1ff6d4b41566c25470c26877/moddev-gradle-2.0.141.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/moddev-gradle/2.0.142/457f0b0b878deed04e797265af656bf194a91dfa/moddev-gradle-2.0.142.jar
+---JOINED---
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/1.21.1-20240808.144430
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/1.21.1-20240808.144430/36c923983a8b5d767810b5e46dd59a947f176fcd
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/1.21.1-20240808.144430/36c923983a8b5d767810b5e46dd59a947f176fcd/neoform-1.21.1-20240808.144430.module
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/1.21.1-20240808.144430/62f6c671091a3772a9c51c15aaecf074d160c2fb
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/1.21.1-20240808.144430/62f6c671091a3772a9c51c15aaecf074d160c2fb/neoform-1.21.1-20240808.144430.pom
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/1.21.1-20240808.144430/811e2bd86fa2cda2812e5e8e51d718ea8bd6d3f4
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/1.21.1-20240808.144430/811e2bd86fa2cda2812e5e8e51d718ea8bd6d3f4/neoform-1.21.1-20240808.144430.zip
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/26.1.2-1
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/26.1.2-1/194355a3ab209fbdf6f970a05be03a7888599fb
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/26.1.2-1/194355a3ab209fbdf6f970a05be03a7888599fb/neoform-26.1.2-1.zip
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/26.1.2-1/51216f7a10f46ed57b2694964ec9407d3cec673b
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/26.1.2-1/51216f7a10f46ed57b2694964ec9407d3cec673b/neoform-26.1.2-1.pom
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/26.1.2-1/f88a945e8f1c56537bd725cd4d497195d9b13e84
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/26.1.2-1/f88a945e8f1c56537bd725cd4d497195d9b13e84/neoform-26.1.2-1.module
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/26.2-2
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/26.2-2/356ecf16e77778a21992fc7c80ca032499be3fac
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/26.2-2/356ecf16e77778a21992fc7c80ca032499be3fac/neoform-26.2-2.module
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/26.2-2/3d2a141ade741ddf729e22f48db391c9b3f5da0
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoform/26.2-2/3d2a141ade741ddf729e22f48db391c9b3f5da0/neoform-26.2-2.zip
+[0m
+[0m$ [0mfind ~/.gradle/caches -iname "*26.2*" -name "*.jar" 2>/dev/null | grep -viE "fabric|jei|jade|yacl|modrinth|curios" | head -20; echo "=== PROJECT BUILD ==="; find . -path "*build*" -name "*.jar" 2>/dev/null | head; echo "=== moddev dir ==="; find ~/.gradle -maxdepth 3 -iname "*moddev*" -type d 2>/dev/null
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/dev.isxander/yet-another-config-lib/3.9.6+26.2-neoforge/2bc6a566b9ddea762dbd2025a0ad509538a4a17f/yet-another-config-lib-3.9.6+26.2-neoforge-sources.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/dev.isxander/yet-another-config-lib/3.9.6+26.2-neoforge/fc6466ee07ea67dfd76f3489dc2001823dbb1e70/yet-another-config-lib-3.9.6+26.2-neoforge.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.32-beta/8b2b6ca4c7363f405c35bb41c3e3496e75c2400e/neoforge-26.2.0.32-beta-universal.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.32-beta/9b00a1518883480865fb60848143ee922ee5cc8/neoforge-26.2.0.32-beta-userdev.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.32-beta/caefe1f83fde8084e2eaba1b675afb0a21a03fb9/neoforge-26.2.0.32-beta-sources.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.35-beta/4581c7be36ec2803bc09e613fbf26cf4947f4978/neoforge-26.2.0.35-beta-universal.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.35-beta/5626f30d963ad24f9121817f13677c2a3dec7f8e/neoforge-26.2.0.35-beta-sources.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.35-beta/58288e70f0ff1bd7794b8f288820e40fff31f1c8/neoforge-26.2.0.35-beta-userdev.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.37-beta/445a15cadbcf3d51ca45b2925d53acf919dcbc74/neoforge-26.2.0.37-beta-universal.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.37-beta/b7661b71f87d5148bfc2da0087f78ab9ccd2e33b/neoforge-26.2.0.37-beta-userdev.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.37-beta/df3ed1289f0dc0eef49883230ebc2a2fe58bfc0/neoforge-26.2.0.37-beta-sources.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.41-beta/5971c5aa1bf9a11445041f4508d4f8efc9be01d6/neoforge-26.2.0.41-beta-sources.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.41-beta/cf64b174582dc21f9dac9ad9e9830d35a58d0453/neoforge-26.2.0.41-beta-userdev.jar
+/c/Users/llagu/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.41-beta/fab4f5a3c38db948864fb668cc54ac7e3630b766/neoforge-26.2.0.41-beta-universal.jar
+/c/Users/llagu/.gradle/caches/neoformruntime/artifacts/minecraft_26.2_client.jar
+/c/Users/llagu/.gradle/caches/neoformruntime/artifacts/minecraft_26.2_server.jar
+=== PROJECT BUILD ===
+./build/libs/equivalent_legacy-26.2-neoforge-1.2.0-beta.8.jar
+./build/moddev/artifacts/minecraft-patched-26.2.0.37-beta-merged.jar
+./build/moddev/artifacts/minecraft-patched-26.2.0.37-beta-sources.jar
+./build/moddev/artifacts/minecraft-patched-26.2.0.37-beta.jar
+=== moddev dir ===
+[0m
+[93m[1m! [0mpermission requested: external_directory (C:\Users\llagu\AppData\Local\Temp\*); auto-rejecting
+[0m✗ [0mcd /tmp && unzip -l "G:/Proyectos/Mods_Minecraft/equivalent_legacy/neoforge/26.2/build/moddev/artifacts/minecraft-patched-26.2.0.37-beta-sources.jar" 2>/dev/null | grep -iE "Spawner|spawner" | head -40 failed
+[91m[1mError: [0mThe user rejected permission to use this specific tool call.

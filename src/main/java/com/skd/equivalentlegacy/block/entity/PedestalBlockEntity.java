@@ -139,4 +139,52 @@ public class PedestalBlockEntity extends BlockEntity {
         long time = level != null ? level.getGameTime() : tickCounter;
         return ((time + partialTick) * 2.25F) % 360.0F;
     }
+
+    public boolean isMobFarmingSetup() {
+        ItemStack item = getDisplayedItem();
+        return !item.isEmpty() && (item.getItem().toString().contains("mind_stone") ||
+                                    item.getItem().toString().contains("black_hole_band"));
+    }
+
+    public java.util.List<net.minecraft.world.entity.Mob> getMobsNearby() {
+        if (level == null || level.isClientSide()) return java.util.Collections.emptyList();
+        net.minecraft.world.phys.AABB range = new net.minecraft.world.phys.AABB(worldPosition).inflate(16);
+        return level.getEntitiesOfClass(net.minecraft.world.entity.Mob.class, range);
+    }
+
+    public long collectNearbyXp() {
+        if (level == null || level.isClientSide()) return 0;
+        long totalXp = 0;
+        net.minecraft.world.phys.AABB range = new net.minecraft.world.phys.AABB(worldPosition).inflate(16);
+        var xpOrbs = level.getEntitiesOfClass(net.minecraft.world.entity.ExperienceOrb.class, range);
+        for (var orb : xpOrbs) {
+            totalXp += orb.getValue();
+            orb.discard();
+        }
+        return totalXp;
+    }
+
+    public int collectNearbyDrops() {
+        if (level == null || level.isClientSide()) return 0;
+        int collected = 0;
+        net.minecraft.world.phys.AABB range = new net.minecraft.world.phys.AABB(worldPosition).inflate(16);
+        var items = level.getEntitiesOfClass(net.minecraft.world.entity.item.ItemEntity.class, range);
+        for (var item : items) {
+            collected++;
+            item.discard();
+        }
+        return collected;
+    }
+
+    public void registerControlledSpawner(BlockPos spawnerPos) {
+        if (level == null) return;
+        var spawner = level.getBlockEntity(spawnerPos);
+        if (spawner != null) {
+            com.skd.equivalentlegacy.mob_farming.MobFarmingManager.registerSpawner(spawnerPos, spawner);
+        }
+    }
+
+    public void updateSpawnerBehavior(BlockPos spawnerPos, int delay, int count, int maxNearby) {
+        com.skd.equivalentlegacy.mob_farming.MobFarmingManager.updateSpawnerConfig(spawnerPos, delay, count, maxNearby);
+    }
 }
