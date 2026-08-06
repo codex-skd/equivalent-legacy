@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/orientable_with_bottom","textures":{"bottom":"projecte:block/relays/other","front":"projecte:block/relays/front","side":"projecte:block/relays/other","top":"projecte:block/relays/top_1"}}
+{"parent":"minecraft:block/orientable_with_bottom","textures":{"bottom":"equivalent_legacy:block/relays/other","front":"equivalent_legacy:block/relays/front","side":"equivalent_legacy:block/relays/other","top":"equivalent_legacy:block/relays/top_1"}}

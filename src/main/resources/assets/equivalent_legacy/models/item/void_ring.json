@@ -1,1 +1,1 @@
-{"parent":"minecraft:item/generated","overrides":[{"model":"projecte:item/void_ring_on","predicate":{"projecte:active":1.0}}],"textures":{"layer0":"projecte:item/rings/void_off"}}
+{"parent":"minecraft:item/generated","overrides":[{"model":"equivalent_legacy:item/void_ring_on","predicate":{"equivalent_legacy:active":1.0}}],"textures":{"layer0":"equivalent_legacy:item/rings/void_off"}}
