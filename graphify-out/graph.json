@@ -1366,7 +1366,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_dmpedestal",
-      "community": 20,
+      "community": 24,
       "norm_label": "dmpedestal.java"
     },
     {
@@ -1376,7 +1376,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_dmpedestal_dmpedestal",
-      "community": 20,
+      "community": 24,
       "norm_label": "dmpedestal"
     },
     {
@@ -1386,7 +1386,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_dmpedestal_dmpedestal_dmpedestal",
-      "community": 20,
+      "community": 24,
       "norm_label": ".dmpedestal()"
     },
     {
@@ -1616,7 +1616,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks",
-      "community": 20,
+      "community": 24,
       "norm_label": "equivalentlegacyblocks.java"
     },
     {
@@ -1626,7 +1626,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks_equivalentlegacyblocks",
-      "community": 20,
+      "community": 24,
       "norm_label": "equivalentlegacyblocks"
     },
     {
@@ -1646,7 +1646,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "deferredblock",
-      "community": 20,
+      "community": 24,
       "norm_label": "deferredblock"
     },
     {
@@ -1656,7 +1656,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks_java_block",
-      "community": 20,
+      "community": 24,
       "norm_label": "block"
     },
     {
@@ -1666,7 +1666,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_equivalentlegacyblocks_equivalentlegacyblocks_equivalentlegacyblocks",
-      "community": 20,
+      "community": 24,
       "norm_label": ".equivalentlegacyblocks()"
     },
     {
@@ -2086,7 +2086,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_pedestal_pedestal_pedestal",
-      "community": 20,
+      "community": 0,
       "norm_label": ".pedestal()"
     },
     {
@@ -2296,7 +2296,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_rmpedestal",
-      "community": 20,
+      "community": 24,
       "norm_label": "rmpedestal.java"
     },
     {
@@ -2306,7 +2306,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_rmpedestal_rmpedestal",
-      "community": 20,
+      "community": 24,
       "norm_label": "rmpedestal"
     },
     {
@@ -2316,7 +2316,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_rmpedestal_rmpedestal_rmpedestal",
-      "community": 20,
+      "community": 24,
       "norm_label": ".rmpedestal()"
     },
     {
@@ -2435,28 +2435,38 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java",
-      "community": 181,
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity",
+      "community": 194,
       "norm_label": "alchemicalchestblockentity.java"
     },
     {
       "label": "AlchemicalChestBlockEntity",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
-      "source_location": "L10",
+      "source_location": "L11",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
-      "community": 181,
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "community": 194,
       "norm_label": "alchemicalchestblockentity"
+    },
+    {
+      "label": "LidBlockEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "lidblockentity",
+      "community": 194,
+      "norm_label": "lidblockentity"
     },
     {
       "label": ".AlchemicalChestBlockEntity()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
-      "source_location": "L13",
+      "source_location": "L15",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_alchemicalchestblockentity",
-      "community": 181,
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "community": 194,
       "norm_label": ".alchemicalchestblockentity()"
     },
     {
@@ -2465,8 +2475,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_blockpos",
-      "community": 103,
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_blockpos",
+      "community": 194,
       "norm_label": "blockpos"
     },
     {
@@ -2475,18 +2485,48 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_blockstate",
-      "community": 104,
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_blockstate",
+      "community": 194,
       "norm_label": "blockstate"
+    },
+    {
+      "label": ".getOpenNess()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getopenness",
+      "community": 194,
+      "norm_label": ".getopenness()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_override",
+      "community": 194,
+      "norm_label": "override"
+    },
+    {
+      "label": ".setOpenNess()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_setopenness",
+      "community": 194,
+      "norm_label": ".setopenness()"
     },
     {
       "label": ".createMenuProvider()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
-      "source_location": "L17",
+      "source_location": "L32",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_createmenuprovider",
-      "community": 181,
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_createmenuprovider",
+      "community": 194,
       "norm_label": ".createmenuprovider()"
     },
     {
@@ -2495,28 +2535,18 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_menuprovider",
-      "community": 106,
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_menuprovider",
+      "community": 194,
       "norm_label": "menuprovider"
-    },
-    {
-      "label": "Override",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_override",
-      "community": 107,
-      "norm_label": "override"
     },
     {
       "label": ".getDisplayName()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
-      "source_location": "L22",
+      "source_location": "L37",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getdisplayname",
-      "community": 181,
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getdisplayname",
+      "community": 194,
       "norm_label": ".getdisplayname()"
     },
     {
@@ -2525,8 +2555,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_component",
-      "community": 105,
+      "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_component",
+      "community": 194,
       "norm_label": "component"
     },
     {
@@ -2536,7 +2566,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_java",
-      "community": 27,
+      "community": 45,
       "norm_label": "basemachineblockentity.java"
     },
     {
@@ -3136,7 +3166,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_dmpedestalblockentity",
-      "community": 0,
+      "community": 180,
       "norm_label": "dmpedestalblockentity.java"
     },
     {
@@ -3146,7 +3176,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_dmpedestalblockentity_dmpedestalblockentity",
-      "community": 0,
+      "community": 180,
       "norm_label": "dmpedestalblockentity"
     },
     {
@@ -3156,7 +3186,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_dmpedestalblockentity_dmpedestalblockentity_dmpedestalblockentity",
-      "community": 0,
+      "community": 180,
       "norm_label": ".dmpedestalblockentity()"
     },
     {
@@ -3166,7 +3196,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_dmpedestalblockentity_java_blockpos",
-      "community": 0,
+      "community": 180,
       "norm_label": "blockpos"
     },
     {
@@ -3176,7 +3206,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_dmpedestalblockentity_java_blockstate",
-      "community": 0,
+      "community": 180,
       "norm_label": "blockstate"
     },
     {
@@ -3256,7 +3286,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_equivalentlegacyblockentities",
-      "community": 20,
+      "community": 24,
       "norm_label": "equivalentlegacyblockentities.java"
     },
     {
@@ -3266,7 +3296,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_equivalentlegacyblockentities_equivalentlegacyblockentities",
-      "community": 20,
+      "community": 24,
       "norm_label": "equivalentlegacyblockentities"
     },
     {
@@ -3276,7 +3306,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_equivalentlegacyblockentities_java_deferredregister",
-      "community": 20,
+      "community": 24,
       "norm_label": "deferredregister"
     },
     {
@@ -3286,7 +3316,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_equivalentlegacyblockentities_java_blockentitytype",
-      "community": 20,
+      "community": 24,
       "norm_label": "blockentitytype"
     },
     {
@@ -3296,7 +3326,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_equivalentlegacyblockentities_java_deferredholder",
-      "community": 20,
+      "community": 24,
       "norm_label": "deferredholder"
     },
     {
@@ -3306,7 +3336,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_equivalentlegacyblockentities_equivalentlegacyblockentities_equivalentlegacyblockentities",
-      "community": 20,
+      "community": 24,
       "norm_label": ".equivalentlegacyblockentities()"
     },
     {
@@ -3866,7 +3896,7 @@
       "source_location": "L223",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_matterfurnaceblockentity_matterfurnaceblockentity_createmenu",
-      "community": 439,
+      "community": 442,
       "norm_label": ".createmenu()"
     },
     {
@@ -4196,7 +4226,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_rmpedestalblockentity",
-      "community": 0,
+      "community": 181,
       "norm_label": "rmpedestalblockentity.java"
     },
     {
@@ -4206,7 +4236,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_rmpedestalblockentity_rmpedestalblockentity",
-      "community": 0,
+      "community": 181,
       "norm_label": "rmpedestalblockentity"
     },
     {
@@ -4216,7 +4246,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_rmpedestalblockentity_rmpedestalblockentity_rmpedestalblockentity",
-      "community": 0,
+      "community": 181,
       "norm_label": ".rmpedestalblockentity()"
     },
     {
@@ -4226,7 +4256,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_rmpedestalblockentity_java_blockpos",
-      "community": 0,
+      "community": 181,
       "norm_label": "blockpos"
     },
     {
@@ -4236,7 +4266,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_rmpedestalblockentity_java_blockstate",
-      "community": 0,
+      "community": 181,
       "norm_label": "blockstate"
     },
     {
@@ -4716,7 +4746,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_equivalentlegacyconfig",
-      "community": 35,
+      "community": 105,
       "norm_label": "equivalentlegacyconfig.java"
     },
     {
@@ -4726,7 +4756,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_equivalentlegacyconfig_equivalentlegacyconfig",
-      "community": 35,
+      "community": 105,
       "norm_label": "equivalentlegacyconfig"
     },
     {
@@ -4736,7 +4766,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_equivalentlegacyconfig_java_logger",
-      "community": 35,
+      "community": 105,
       "norm_label": "logger"
     },
     {
@@ -4746,7 +4776,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_equivalentlegacyconfig_equivalentlegacyconfig_equivalentlegacyconfig",
-      "community": 35,
+      "community": 105,
       "norm_label": ".equivalentlegacyconfig()"
     },
     {
@@ -4756,7 +4786,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_equivalentlegacyconfig_equivalentlegacyconfig_register",
-      "community": 35,
+      "community": 105,
       "norm_label": ".register()"
     },
     {
@@ -4766,7 +4796,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_equivalentlegacyconfig_java_modcontainer",
-      "community": 35,
+      "community": 105,
       "norm_label": "modcontainer"
     },
     {
@@ -4776,7 +4806,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_equivalentlegacyconfig_equivalentlegacyconfig_reload",
-      "community": 35,
+      "community": 105,
       "norm_label": ".reload()"
     },
     {
@@ -4836,7 +4866,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_serverconfig",
-      "community": 24,
+      "community": 49,
       "norm_label": "serverconfig.java"
     },
     {
@@ -4846,7 +4876,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_serverconfig_serverconfig",
-      "community": 24,
+      "community": 49,
       "norm_label": "serverconfig"
     },
     {
@@ -4856,7 +4886,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_serverconfig_java_builder",
-      "community": 24,
+      "community": 49,
       "norm_label": "builder"
     },
     {
@@ -4866,7 +4896,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "intvalue",
-      "community": 24,
+      "community": 49,
       "norm_label": "intvalue"
     },
     {
@@ -4876,7 +4906,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_serverconfig_java_booleanvalue",
-      "community": 24,
+      "community": 49,
       "norm_label": "booleanvalue"
     },
     {
@@ -4886,7 +4916,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_config_serverconfig_java_modconfigspec",
-      "community": 24,
+      "community": 49,
       "norm_label": "modconfigspec"
     },
     {
@@ -5136,7 +5166,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemc",
-      "community": 438,
+      "community": 129,
       "norm_label": ".getemc()"
     },
     {
@@ -5216,7 +5246,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_java",
-      "community": 57,
+      "community": 1,
       "norm_label": "emcnetwork.java"
     },
     {
@@ -5226,7 +5256,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork",
-      "community": 57,
+      "community": 1,
       "norm_label": "emcnetwork"
     },
     {
@@ -5256,7 +5286,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_emcnetwork",
-      "community": 57,
+      "community": 1,
       "norm_label": ".emcnetwork()"
     },
     {
@@ -5276,7 +5306,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_setemc",
-      "community": 441,
+      "community": 1,
       "norm_label": ".setemc()"
     },
     {
@@ -5286,7 +5316,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_addemc",
-      "community": 57,
+      "community": 1,
       "norm_label": ".addemc()"
     },
     {
@@ -5296,7 +5326,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_takeemc",
-      "community": 57,
+      "community": 1,
       "norm_label": ".takeemc()"
     },
     {
@@ -5306,7 +5336,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetworkdata_java",
-      "community": 34,
+      "community": 36,
       "norm_label": "emcnetworkdata.java"
     },
     {
@@ -5316,7 +5346,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetworkdata_emcnetworkdata",
-      "community": 34,
+      "community": 36,
       "norm_label": "emcnetworkdata"
     },
     {
@@ -5326,7 +5356,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "saveddata",
-      "community": 34,
+      "community": 36,
       "norm_label": "saveddata"
     },
     {
@@ -5336,7 +5366,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "saveddatatype",
-      "community": 34,
+      "community": 36,
       "norm_label": "saveddatatype"
     },
     {
@@ -5346,7 +5376,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetworkdata_emcnetworkdata_emcnetworkdata",
-      "community": 34,
+      "community": 36,
       "norm_label": ".emcnetworkdata()"
     },
     {
@@ -5356,7 +5386,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetworkdata_emcnetworkdata_isdirty",
-      "community": 34,
+      "community": 36,
       "norm_label": ".isdirty()"
     },
     {
@@ -5426,7 +5456,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_isempty",
-      "community": 44,
+      "community": 182,
       "norm_label": ".isempty()"
     },
     {
@@ -5436,7 +5466,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_java_override",
-      "community": 44,
+      "community": 182,
       "norm_label": "override"
     },
     {
@@ -5506,7 +5536,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_tostring",
-      "community": 44,
+      "community": 182,
       "norm_label": ".tostring()"
     },
     {
@@ -5516,7 +5546,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_equals",
-      "community": 44,
+      "community": 182,
       "norm_label": ".equals()"
     },
     {
@@ -5526,7 +5556,7 @@
       "source_location": "L76",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_hashcode",
-      "community": 44,
+      "community": 182,
       "norm_label": ".hashcode()"
     },
     {
@@ -6706,7 +6736,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_java",
-      "community": 182,
+      "community": 5,
       "norm_label": "nsstag.java"
     },
     {
@@ -6716,7 +6746,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag",
-      "community": 182,
+      "community": 5,
       "norm_label": "nsstag"
     },
     {
@@ -6726,7 +6756,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_representstag",
-      "community": 182,
+      "community": 5,
       "norm_label": ".representstag()"
     },
     {
@@ -6736,7 +6766,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_foreachelement",
-      "community": 182,
+      "community": 5,
       "norm_label": ".foreachelement()"
     },
     {
@@ -6746,7 +6776,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nsstag_nsstag_forselfandeachelement",
-      "community": 182,
+      "community": 5,
       "norm_label": ".forselfandeachelement()"
     },
     {
@@ -6826,7 +6856,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_entity_entitynovacataclysmprimed_entitynovacataclysmprimed",
-      "community": 30,
+      "community": 45,
       "norm_label": "entitynovacataclysmprimed"
     },
     {
@@ -7526,7 +7556,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_events_playerevents_playerevents_onrightclickblock",
-      "community": 13,
+      "community": 49,
       "norm_label": ".onrightclickblock()"
     },
     {
@@ -7536,7 +7566,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "rightclickblock",
-      "community": 13,
+      "community": 49,
       "norm_label": "rightclickblock"
     },
     {
@@ -7566,7 +7596,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "abstractcontainermenu",
-      "community": 439,
+      "community": 442,
       "norm_label": "abstractcontainermenu"
     },
     {
@@ -7745,28 +7775,38 @@
       "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java",
-      "community": 439,
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "community": 194,
       "norm_label": "chestmenu.java"
     },
     {
       "label": "ChestMenu",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
-      "source_location": "L11",
+      "source_location": "L13",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
-      "community": 439,
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
+      "community": 194,
       "norm_label": "chestmenu"
+    },
+    {
+      "label": "ContainerData",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_containerdata",
+      "community": 194,
+      "norm_label": "containerdata"
     },
     {
       "label": ".ChestMenu()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
-      "source_location": "L14",
+      "source_location": "L17",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_chestmenu",
-      "community": 439,
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_chestmenu",
+      "community": 194,
       "norm_label": ".chestmenu()"
     },
     {
@@ -7775,8 +7815,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_inventory",
-      "community": 256,
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_inventory",
+      "community": 194,
       "norm_label": "inventory"
     },
     {
@@ -7785,18 +7825,18 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_blockpos",
-      "community": 255,
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_blockpos",
+      "community": 194,
       "norm_label": "blockpos"
     },
     {
       "label": ".quickMoveStack()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
-      "source_location": "L33",
+      "source_location": "L38",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_quickmovestack",
-      "community": 439,
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_quickmovestack",
+      "community": 194,
       "norm_label": ".quickmovestack()"
     },
     {
@@ -7805,8 +7845,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_player",
-      "community": 259,
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_player",
+      "community": 194,
       "norm_label": "player"
     },
     {
@@ -7815,8 +7855,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_itemstack",
-      "community": 257,
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_itemstack",
+      "community": 194,
       "norm_label": "itemstack"
     },
     {
@@ -7825,19 +7865,29 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_override",
-      "community": 258,
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_override",
+      "community": 194,
       "norm_label": "override"
     },
     {
       "label": ".stillValid()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
-      "source_location": "L49",
+      "source_location": "L54",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_stillvalid",
-      "community": 439,
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_stillvalid",
+      "community": 194,
       "norm_label": ".stillvalid()"
+    },
+    {
+      "label": ".broadcastChanges()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_broadcastchanges",
+      "community": 194,
+      "norm_label": ".broadcastchanges()"
     },
     {
       "label": "ChestScreen.java",
@@ -7846,7 +7896,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestscreen_java",
-      "community": 2,
+      "community": 194,
       "norm_label": "chestscreen.java"
     },
     {
@@ -7856,7 +7906,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestscreen_chestscreen",
-      "community": 2,
+      "community": 194,
       "norm_label": "chestscreen"
     },
     {
@@ -7866,7 +7916,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestscreen_chestscreen_chestscreen",
-      "community": 2,
+      "community": 194,
       "norm_label": ".chestscreen()"
     },
     {
@@ -8366,7 +8416,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_java",
-      "community": 439,
+      "community": 50,
       "norm_label": "machinemenu.java"
     },
     {
@@ -8376,7 +8426,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu",
-      "community": 439,
+      "community": 50,
       "norm_label": "machinemenu"
     },
     {
@@ -8386,7 +8436,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu_machinemenu",
-      "community": 439,
+      "community": 50,
       "norm_label": ".machinemenu()"
     },
     {
@@ -8406,7 +8456,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu_addplayerinventory",
-      "community": 439,
+      "community": 50,
       "norm_label": ".addplayerinventory()"
     },
     {
@@ -8556,7 +8606,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_matterfurnacemenu_java",
-      "community": 180,
+      "community": 19,
       "norm_label": "matterfurnacemenu.java"
     },
     {
@@ -8566,7 +8616,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_matterfurnacemenu_matterfurnacemenu",
-      "community": 180,
+      "community": 19,
       "norm_label": "matterfurnacemenu"
     },
     {
@@ -8576,7 +8626,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "abstractfurnacemenu",
-      "community": 180,
+      "community": 19,
       "norm_label": "abstractfurnacemenu"
     },
     {
@@ -8586,7 +8636,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_matterfurnacemenu_matterfurnacemenu_matterfurnacemenu",
-      "community": 180,
+      "community": 19,
       "norm_label": ".matterfurnacemenu()"
     },
     {
@@ -8606,7 +8656,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "container",
-      "community": 180,
+      "community": 19,
       "norm_label": "container"
     },
     {
@@ -8706,7 +8756,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java",
-      "community": 36,
+      "community": 194,
       "norm_label": "modmenutypes.java"
     },
     {
@@ -8716,7 +8766,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes",
-      "community": 36,
+      "community": 194,
       "norm_label": "modmenutypes"
     },
     {
@@ -8756,7 +8806,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes_modmenutypes",
-      "community": 36,
+      "community": 194,
       "norm_label": ".modmenutypes()"
     },
     {
@@ -9086,7 +9136,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java",
-      "community": 55,
+      "community": 442,
       "norm_label": "transmutationcontainer.java"
     },
     {
@@ -9126,7 +9176,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmutationcontainer",
-      "community": 49,
+      "community": 55,
       "norm_label": ".transmutationcontainer()"
     },
     {
@@ -9456,7 +9506,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin",
-      "community": 13,
+      "community": 43,
       "norm_label": "equivalentlegacyjeiplugin.java"
     },
     {
@@ -9466,7 +9516,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_equivalentlegacyjeiplugin",
-      "community": 13,
+      "community": 43,
       "norm_label": "equivalentlegacyjeiplugin"
     },
     {
@@ -9476,7 +9526,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "imodplugin",
-      "community": 13,
+      "community": 43,
       "norm_label": "imodplugin"
     },
     {
@@ -9486,7 +9536,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "jeiplugin",
-      "community": 13,
+      "community": 43,
       "norm_label": "jeiplugin"
     },
     {
@@ -9496,7 +9546,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_java_identifier",
-      "community": 13,
+      "community": 43,
       "norm_label": "identifier"
     },
     {
@@ -9506,7 +9556,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_java_irecipetype",
-      "community": 13,
+      "community": 43,
       "norm_label": "irecipetype"
     },
     {
@@ -9516,7 +9566,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_equivalentlegacyjeiplugin_getpluginuid",
-      "community": 13,
+      "community": 43,
       "norm_label": ".getpluginuid()"
     },
     {
@@ -9526,7 +9576,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_java_override",
-      "community": 13,
+      "community": 43,
       "norm_label": "override"
     },
     {
@@ -9536,7 +9586,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_equivalentlegacyjeiplugin_registercategories",
-      "community": 13,
+      "community": 43,
       "norm_label": ".registercategories()"
     },
     {
@@ -9546,7 +9596,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "irecipecategoryregistration",
-      "community": 13,
+      "community": 43,
       "norm_label": "irecipecategoryregistration"
     },
     {
@@ -9556,7 +9606,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_equivalentlegacyjeiplugin_registerrecipes",
-      "community": 13,
+      "community": 43,
       "norm_label": ".registerrecipes()"
     },
     {
@@ -9566,7 +9616,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "ireciperegistration",
-      "community": 13,
+      "community": 43,
       "norm_label": "ireciperegistration"
     },
     {
@@ -9576,7 +9626,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_equivalentlegacyjeiplugin_registerrecipecatalysts",
-      "community": 13,
+      "community": 43,
       "norm_label": ".registerrecipecatalysts()"
     },
     {
@@ -9586,7 +9636,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "irecipecatalystregistration",
-      "community": 13,
+      "community": 43,
       "norm_label": "irecipecatalystregistration"
     },
     {
@@ -9596,7 +9646,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_equivalentlegacyjeiplugin_loadtransmutationrecipes",
-      "community": 13,
+      "community": 43,
       "norm_label": ".loadtransmutationrecipes()"
     },
     {
@@ -9866,7 +9916,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin",
-      "community": 13,
+      "community": 107,
       "norm_label": "equivalentlegacywthitplugin.java"
     },
     {
@@ -9876,7 +9926,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin_equivalentlegacywthitplugin",
-      "community": 13,
+      "community": 107,
       "norm_label": "equivalentlegacywthitplugin"
     },
     {
@@ -9886,7 +9936,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iwailaclientplugin",
-      "community": 13,
+      "community": 107,
       "norm_label": "iwailaclientplugin"
     },
     {
@@ -9896,7 +9946,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin_equivalentlegacywthitplugin_register",
-      "community": 13,
+      "community": 107,
       "norm_label": ".register()"
     },
     {
@@ -9906,7 +9956,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iclientregistrar",
-      "community": 13,
+      "community": 107,
       "norm_label": "iclientregistrar"
     },
     {
@@ -9916,7 +9966,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin_java_override",
-      "community": 13,
+      "community": 107,
       "norm_label": "override"
     },
     {
@@ -9926,7 +9976,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_transmutationcomponentprovider",
-      "community": 13,
+      "community": 103,
       "norm_label": "transmutationcomponentprovider.java"
     },
     {
@@ -9936,7 +9986,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_transmutationcomponentprovider_transmutationcomponentprovider",
-      "community": 13,
+      "community": 103,
       "norm_label": "transmutationcomponentprovider"
     },
     {
@@ -9946,7 +9996,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iblockcomponentprovider",
-      "community": 13,
+      "community": 103,
       "norm_label": "iblockcomponentprovider"
     },
     {
@@ -9956,7 +10006,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_transmutationcomponentprovider_transmutationcomponentprovider_appendbody",
-      "community": 13,
+      "community": 103,
       "norm_label": ".appendbody()"
     },
     {
@@ -9966,7 +10016,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "itooltip",
-      "community": 13,
+      "community": 103,
       "norm_label": "itooltip"
     },
     {
@@ -9976,7 +10026,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iblockaccessor",
-      "community": 13,
+      "community": 103,
       "norm_label": "iblockaccessor"
     },
     {
@@ -9986,7 +10036,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "ipluginconfig",
-      "community": 13,
+      "community": 103,
       "norm_label": "ipluginconfig"
     },
     {
@@ -9996,7 +10046,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_transmutationcomponentprovider_java_override",
-      "community": 13,
+      "community": 103,
       "norm_label": "override"
     },
     {
@@ -10666,7 +10716,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab",
-      "community": 20,
+      "community": 106,
       "norm_label": "equivalentlegacycreativetab.java"
     },
     {
@@ -10676,7 +10726,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab",
-      "community": 20,
+      "community": 106,
       "norm_label": "equivalentlegacycreativetab"
     },
     {
@@ -10686,7 +10736,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_java_deferredregister",
-      "community": 20,
+      "community": 106,
       "norm_label": "deferredregister"
     },
     {
@@ -10696,7 +10746,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "creativemodetab",
-      "community": 20,
+      "community": 106,
       "norm_label": "creativemodetab"
     },
     {
@@ -10706,7 +10756,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_java_deferredholder",
-      "community": 20,
+      "community": 106,
       "norm_label": "deferredholder"
     },
     {
@@ -10716,7 +10766,7 @@
       "source_location": "L148",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacycreativetab_equivalentlegacycreativetab_equivalentlegacycreativetab",
-      "community": 20,
+      "community": 106,
       "norm_label": ".equivalentlegacycreativetab()"
     },
     {
@@ -10846,7 +10896,7 @@
       "source_location": "L206",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_equivalentlegacyitems_equivalentlegacyitems_registermisctool",
-      "community": 14,
+      "community": 69,
       "norm_label": ".registermisctool()"
     },
     {
@@ -10916,7 +10966,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_java",
-      "community": 183,
+      "community": 23,
       "norm_label": "equivalentlegacytags.java"
     },
     {
@@ -10926,7 +10976,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags",
-      "community": 183,
+      "community": 23,
       "norm_label": "equivalentlegacytags"
     },
     {
@@ -10936,7 +10986,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "tagkey",
-      "community": 183,
+      "community": 23,
       "norm_label": "tagkey"
     },
     {
@@ -10956,7 +11006,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags_itemtag",
-      "community": 183,
+      "community": 23,
       "norm_label": ".itemtag()"
     },
     {
@@ -10966,7 +11016,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags_equivalentlegacytags",
-      "community": 183,
+      "community": 23,
       "norm_label": ".equivalentlegacytags()"
     },
     {
@@ -11076,7 +11126,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_java",
-      "community": 23,
+      "community": 438,
       "norm_label": "kleinstar.java"
     },
     {
@@ -11776,7 +11826,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_misctoolitem_misctoolitem_useon",
-      "community": 438,
+      "community": 129,
       "norm_label": ".useon()"
     },
     {
@@ -12466,7 +12516,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_transmutationstone",
-      "community": 8,
+      "community": 104,
       "norm_label": "transmutationstone.java"
     },
     {
@@ -12476,7 +12526,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_transmutationstone_transmutationstone",
-      "community": 8,
+      "community": 104,
       "norm_label": "transmutationstone"
     },
     {
@@ -12486,7 +12536,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_transmutationstone_transmutationstone_transmutationstone",
-      "community": 8,
+      "community": 104,
       "norm_label": ".transmutationstone()"
     },
     {
@@ -12496,7 +12546,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_transmutationstone_transmutationstone_use",
-      "community": 8,
+      "community": 104,
       "norm_label": ".use()"
     },
     {
@@ -12506,7 +12556,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_transmutationstone_java_level",
-      "community": 8,
+      "community": 104,
       "norm_label": "level"
     },
     {
@@ -12516,7 +12566,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_transmutationstone_java_player",
-      "community": 8,
+      "community": 104,
       "norm_label": "player"
     },
     {
@@ -12526,7 +12576,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_transmutationstone_java_interactionhand",
-      "community": 8,
+      "community": 104,
       "norm_label": "interactionhand"
     },
     {
@@ -12536,7 +12586,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_transmutationstone_java_interactionresult",
-      "community": 8,
+      "community": 104,
       "norm_label": "interactionresult"
     },
     {
@@ -12546,7 +12596,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_transmutationstone_java_override",
-      "community": 8,
+      "community": 104,
       "norm_label": "override"
     },
     {
@@ -12556,7 +12606,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_transmutationstone_transmutationstone_getemcvalue",
-      "community": 8,
+      "community": 104,
       "norm_label": ".getemcvalue()"
     },
     {
@@ -12566,7 +12616,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_transmutationstone_java_itemstack",
-      "community": 8,
+      "community": 104,
       "norm_label": "itemstack"
     },
     {
@@ -13416,7 +13466,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_java",
-      "community": 55,
+      "community": 438,
       "norm_label": "playerknowledge.java"
     },
     {
@@ -13426,7 +13476,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge",
-      "community": 55,
+      "community": 438,
       "norm_label": "playerknowledge"
     },
     {
@@ -13446,7 +13496,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_playerknowledge",
-      "community": 49,
+      "community": 438,
       "norm_label": ".playerknowledge()"
     },
     {
@@ -13456,7 +13506,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_of",
-      "community": 49,
+      "community": 35,
       "norm_label": ".of()"
     },
     {
@@ -13476,7 +13526,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setemc",
-      "community": 7,
+      "community": 438,
       "norm_label": ".setemc()"
     },
     {
@@ -13666,7 +13716,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setemc",
-      "community": 7,
+      "community": 438,
       "norm_label": ".setemc()"
     },
     {
@@ -13803,31 +13853,161 @@
       "label": "ChestRenderer",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
-      "source_location": "L8",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer",
       "community": 194,
       "norm_label": "chestrenderer"
     },
     {
+      "label": "BlockEntityRenderer",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "blockentityrenderer",
+      "community": 194,
+      "norm_label": "blockentityrenderer"
+    },
+    {
+      "label": "OnlyIn",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_onlyin",
+      "community": 194,
+      "norm_label": "onlyin"
+    },
+    {
       "label": ".ChestRenderer()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
-      "source_location": "L9",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_chestrenderer",
       "community": 194,
       "norm_label": ".chestrenderer()"
     },
     {
-      "label": ".computeLidAngle()",
+      "label": "Context",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_context",
+      "community": 194,
+      "norm_label": "context"
+    },
+    {
+      "label": ".createRenderState()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
-      "source_location": "L14",
+      "source_location": "L24",
       "_origin": "ast",
-      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_computelidangle",
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_createrenderstate",
       "community": 194,
-      "norm_label": ".computelidangle()"
+      "norm_label": ".createrenderstate()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_override",
+      "community": 194,
+      "norm_label": "override"
+    },
+    {
+      "label": ".extractRenderState()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_extractrenderstate",
+      "community": 194,
+      "norm_label": ".extractrenderstate()"
+    },
+    {
+      "label": "Vec3",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_vec3",
+      "community": 194,
+      "norm_label": "vec3"
+    },
+    {
+      "label": "@Nullable CrumblingOverlay",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_nullable_crumblingoverlay",
+      "community": 194,
+      "norm_label": "@nullable crumblingoverlay"
+    },
+    {
+      "label": ".submit()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_submit",
+      "community": 194,
+      "norm_label": ".submit()"
+    },
+    {
+      "label": "PoseStack",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_posestack",
+      "community": 194,
+      "norm_label": "posestack"
+    },
+    {
+      "label": "SubmitNodeCollector",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_submitnodecollector",
+      "community": 194,
+      "norm_label": "submitnodecollector"
+    },
+    {
+      "label": "CameraRenderState",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_camerarenderstate",
+      "community": 194,
+      "norm_label": "camerarenderstate"
+    },
+    {
+      "label": "State",
+      "file_type": "code",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_state",
+      "community": 194,
+      "norm_label": "state"
+    },
+    {
+      "label": "BlockEntityRenderState",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "blockentityrenderstate",
+      "community": 194,
+      "norm_label": "blockentityrenderstate"
     },
     {
       "label": "EquivalentLegacyRenderers.java",
@@ -13913,7 +14093,7 @@
       "label": ".onRegisterGuiLayers()",
       "file_type": "code",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/EquivalentLegacyRenderers.java",
-      "source_location": "L37",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_equivalentlegacyrenderers_equivalentlegacyrenderers_onregisterguilayers",
       "community": 78,
@@ -13936,7 +14116,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer",
-      "community": 0,
+      "community": 194,
       "norm_label": "pedestalrenderer.java"
     },
     {
@@ -13946,18 +14126,8 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer",
-      "community": 0,
+      "community": 194,
       "norm_label": "pedestalrenderer"
-    },
-    {
-      "label": "BlockEntityRenderer",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "blockentityrenderer",
-      "community": 0,
-      "norm_label": "blockentityrenderer"
     },
     {
       "label": "OnlyIn",
@@ -13966,7 +14136,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_onlyin",
-      "community": 0,
+      "community": 194,
       "norm_label": "onlyin"
     },
     {
@@ -13976,7 +14146,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "itemmodelresolver",
-      "community": 0,
+      "community": 194,
       "norm_label": "itemmodelresolver"
     },
     {
@@ -13986,7 +14156,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_pedestalrenderer",
-      "community": 0,
+      "community": 194,
       "norm_label": ".pedestalrenderer()"
     },
     {
@@ -13995,8 +14165,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "context",
-      "community": 0,
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_context",
+      "community": 194,
       "norm_label": "context"
     },
     {
@@ -14006,7 +14176,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_createrenderstate",
-      "community": 0,
+      "community": 194,
       "norm_label": ".createrenderstate()"
     },
     {
@@ -14016,7 +14186,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_override",
-      "community": 0,
+      "community": 194,
       "norm_label": "override"
     },
     {
@@ -14026,7 +14196,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_extractrenderstate",
-      "community": 0,
+      "community": 194,
       "norm_label": ".extractrenderstate()"
     },
     {
@@ -14036,7 +14206,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_vec3",
-      "community": 0,
+      "community": 194,
       "norm_label": "vec3"
     },
     {
@@ -14045,8 +14215,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "nullable_crumblingoverlay",
-      "community": 0,
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_nullable_crumblingoverlay",
+      "community": 194,
       "norm_label": "@nullable crumblingoverlay"
     },
     {
@@ -14056,7 +14226,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_submit",
-      "community": 0,
+      "community": 194,
       "norm_label": ".submit()"
     },
     {
@@ -14065,8 +14235,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "posestack",
-      "community": 0,
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_posestack",
+      "community": 194,
       "norm_label": "posestack"
     },
     {
@@ -14075,8 +14245,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "submitnodecollector",
-      "community": 0,
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_submitnodecollector",
+      "community": 194,
       "norm_label": "submitnodecollector"
     },
     {
@@ -14085,8 +14255,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "camerarenderstate",
-      "community": 0,
+      "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_camerarenderstate",
+      "community": 194,
       "norm_label": "camerarenderstate"
     },
     {
@@ -14096,18 +14266,8 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_state",
-      "community": 0,
+      "community": 194,
       "norm_label": "state"
-    },
-    {
-      "label": "BlockEntityRenderState",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "blockentityrenderstate",
-      "community": 0,
-      "norm_label": "blockentityrenderstate"
     },
     {
       "label": "ItemStackRenderState",
@@ -14116,7 +14276,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "itemstackrenderstate",
-      "community": 0,
+      "community": 194,
       "norm_label": "itemstackrenderstate"
     },
     {
@@ -14356,7 +14516,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationresult",
-      "community": 13,
+      "community": 103,
       "norm_label": "transmutationresult.java"
     },
     {
@@ -14366,7 +14526,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationresult_transmutationresult",
-      "community": 13,
+      "community": 103,
       "norm_label": "transmutationresult"
     },
     {
@@ -14376,7 +14536,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_world_transmutation_transmutationresult_java_block",
-      "community": 13,
+      "community": 103,
       "norm_label": "block"
     },
     {
@@ -14598,6 +14758,146 @@
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_claude_claude_prioridad_de_instrucciones",
       "community": 37,
       "norm_label": "prioridad de instrucciones"
+    },
+    {
+      "label": "chestrenderer-phase-2.4b.md",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b",
+      "community": 34,
+      "norm_label": "chestrenderer-phase-2.4b.md"
+    },
+    {
+      "label": "Plan: Fase 2.4b - ChestRenderer Full (Equivalent Legacy)",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_plan_fase_2_4b_chestrenderer_full_equivalent_legacy",
+      "community": 34,
+      "norm_label": "plan: fase 2.4b - chestrenderer full (equivalent legacy)"
+    },
+    {
+      "label": "1. AlchemicalChestBlockEntity \u2014 Implementar LidBlockEntity",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_1_alchemicalchestblockentity_implementar_lidblockentity",
+      "community": 34,
+      "norm_label": "1. alchemicalchestblockentity \u2014 implementar lidblockentity"
+    },
+    {
+      "label": "2. ChestRenderer \u2014 Implementar BlockEntityRenderer Completo",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_2_chestrenderer_implementar_blockentityrenderer_completo",
+      "community": 34,
+      "norm_label": "2. chestrenderer \u2014 implementar blockentityrenderer completo"
+    },
+    {
+      "label": "3. EquivalentLegacyRenderers \u2014 Registrar ChestRenderer",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L113",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_3_equivalentlegacyrenderers_registrar_chestrenderer",
+      "community": 34,
+      "norm_label": "3. equivalentlegacyrenderers \u2014 registrar chestrenderer"
+    },
+    {
+      "label": "4. ChestMenu \u2014 Sincronizaci\u00f3n ContainerData",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L128",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_4_chestmenu_sincronizaci\u00f3n_containerdata",
+      "community": 34,
+      "norm_label": "4. chestmenu \u2014 sincronizacion containerdata"
+    },
+    {
+      "label": "5. BlockState / Modelo \u2014 Verificar Asset",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L148",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_5_blockstate_modelo_verificar_asset",
+      "community": 34,
+      "norm_label": "5. blockstate / modelo \u2014 verificar asset"
+    },
+    {
+      "label": "6. Definici\u00f3n de Hecho",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L161",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_6_definici\u00f3n_de_hecho",
+      "community": 34,
+      "norm_label": "6. definicion de hecho"
+    },
+    {
+      "label": "7. Restricciones T\u00e9cnicas",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L181",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_7_restricciones_t\u00e9cnicas",
+      "community": 34,
+      "norm_label": "7. restricciones tecnicas"
+    },
+    {
+      "label": "NeoForge 26.2",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L183",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_neoforge_26_2",
+      "community": 34,
+      "norm_label": "neoforge 26.2"
+    },
+    {
+      "label": "Performance",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L189",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_performance",
+      "community": 34,
+      "norm_label": "performance"
+    },
+    {
+      "label": "Compatibility",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L194",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_compatibility",
+      "community": 34,
+      "norm_label": "compatibility"
+    },
+    {
+      "label": "8. Deviaciones del Plan 2.2",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L200",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_8_deviaciones_del_plan_2_2",
+      "community": 34,
+      "norm_label": "8. deviaciones del plan 2.2"
+    },
+    {
+      "label": "9. Pr\u00f3ximas Fases",
+      "file_type": "document",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L214",
+      "_origin": "ast",
+      "id": "claude_plans_chestrenderer_phase_2_4b_9_pr\u00f3ximas_fases",
+      "community": 34,
+      "norm_label": "9. proximas fases"
     },
     {
       "label": "equivalent-legacy-phase1-2.md",
@@ -16940,6 +17240,16 @@
       "norm_label": "1.2.0-beta.6.md"
     },
     {
+      "label": "1.2.0-beta.7.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.2.0-beta.7.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_2_0_beta_7",
+      "community": 183,
+      "norm_label": "1.2.0-beta.7.md"
+    },
+    {
       "label": "Publish Public Script",
       "file_type": "code",
       "source_file": ".gitlab-ci.yml",
@@ -18096,7 +18406,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/EquivalentLegacyRenderers.java",
-      "source_location": "L40",
+      "source_location": "L41",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_equivalentlegacyrenderers_equivalentlegacyrenderers_onregisterguilayers",
       "target": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl"
@@ -21994,53 +22304,149 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity",
+      "target": "lidblockentity",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
       "confidence_score": 1.0
     },
     {
-      "relation": "method",
+      "relation": "imports",
+      "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
-      "source_location": "L13",
+      "source_location": "L4",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_blockpos",
       "confidence_score": 1.0
     },
     {
-      "relation": "method",
+      "relation": "imports",
+      "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
-      "source_location": "L17",
+      "source_location": "L9",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_createmenuprovider",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_blockstate",
       "confidence_score": 1.0
     },
     {
-      "relation": "method",
+      "relation": "imports",
+      "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
-      "source_location": "L22",
+      "source_location": "L5",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getdisplayname",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_component",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_menuprovider",
       "confidence_score": 1.0
     },
     {
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
       "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_basemachineblockentity_basemachineblockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "target": "lidblockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_createmenuprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getdisplayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getopenness",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_setopenness",
       "confidence_score": 1.0
     },
     {
@@ -22051,7 +22457,139 @@
       "weight": 1.0,
       "context": "generic_arg",
       "source": "src_main_java_com_skd_equivalentlegacy_block_entity_equivalentlegacyblockentities_equivalentlegacyblockentities",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_extractrenderstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_alchemicalchestblockentity",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_blockstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getopenness",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_broadcastchanges",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getopenness"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_extractrenderstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getopenness"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_createmenuprovider",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getdisplayname",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_override",
       "confidence_score": 1.0
     },
     {
@@ -22059,10 +22597,32 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
-      "source_location": "L19",
+      "source_location": "L34",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_createmenuprovider",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getdisplayname",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_createmenuprovider",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getdisplayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_createmenuprovider",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_menuprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getdisplayname",
+      "target": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_component",
       "confidence_score": 1.0
     },
     {
@@ -29571,27 +30131,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "inherits",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
-      "target": "abstractcontainermenu",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java",
-      "target": "abstractcontainermenu",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -29641,6 +30180,27 @@
       "source_location": "L21",
       "weight": 1.0,
       "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer",
+      "target": "abstractcontainermenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "target": "abstractcontainermenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
       "target": "abstractcontainermenu",
       "confidence_score": 1.0
     },
@@ -29708,43 +30268,240 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestScreen.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestscreen_chestscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestScreen.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestscreen_chestscreen_chestscreen",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ModMenuTypes.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_containerdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_inventory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
       "source_location": "L11",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_player",
       "confidence_score": 1.0
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
-      "source_location": "L14",
+      "source_location": "L59",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_chestmenu",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_broadcastchanges",
       "confidence_score": 1.0
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
-      "source_location": "L33",
+      "source_location": "L17",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_quickmovestack",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_chestmenu",
       "confidence_score": 1.0
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
-      "source_location": "L49",
+      "source_location": "L38",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
-      "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_stillvalid",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_quickmovestack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_stillvalid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_containerdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_blockpos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_chestmenu",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_inventory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_quickmovestack",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_itemstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_quickmovestack",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_quickmovestack",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_stillvalid",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_player",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L59",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_broadcastchanges",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_stillvalid",
+      "target": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_override",
       "confidence_score": 1.0
     },
     {
@@ -36849,20 +37606,117 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer",
+      "target": "blockentityrenderer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer",
+      "target": "blockentityrenderstate",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
-      "source_location": "L8",
+      "source_location": "L17",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer",
       "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer",
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_camerarenderstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_onlyin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_posestack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_submitnodecollector",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_vec3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer",
+      "target": "blockentityrenderer",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
-      "source_location": "L9",
+      "source_location": "L21",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer",
       "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_chestrenderer",
@@ -36872,10 +37726,291 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
-      "source_location": "L14",
+      "source_location": "L24",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer",
-      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_computelidangle",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_createrenderstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_extractrenderstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_submit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_onlyin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer",
+      "target": "blockentityrenderer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer",
+      "target": "blockentityrenderer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_state",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_onlyin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_chestrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_createrenderstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_createrenderstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_extractrenderstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_submit",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_extractrenderstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_nullable_crumblingoverlay",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_extractrenderstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_vec3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_extractrenderstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_submit",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_camerarenderstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_submit",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_posestack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_submit",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_java_submitnodecollector",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_chestrenderer_submit",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/ChestRenderer.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_state",
+      "target": "blockentityrenderstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_createrenderstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_extractrenderstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_submit",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_chestrenderer_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer",
+      "target": "blockentityrenderstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_state",
+      "target": "blockentityrenderstate",
       "confidence_score": 1.0
     },
     {
@@ -36946,7 +38081,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/EquivalentLegacyRenderers.java",
-      "source_location": "L37",
+      "source_location": "L38",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_equivalentlegacyrenderers_equivalentlegacyrenderers",
       "target": "src_main_java_com_skd_equivalentlegacy_rendering_equivalentlegacyrenderers_equivalentlegacyrenderers_onregisterguilayers",
@@ -37010,7 +38145,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/EquivalentLegacyRenderers.java",
-      "source_location": "L37",
+      "source_location": "L38",
       "weight": 1.0,
       "context": "attribute",
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_equivalentlegacyrenderers_equivalentlegacyrenderers_onregisterguilayers",
@@ -37021,44 +38156,11 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/EquivalentLegacyRenderers.java",
-      "source_location": "L37",
+      "source_location": "L38",
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_equivalentlegacyrenderers_equivalentlegacyrenderers_onregisterguilayers",
       "target": "registerguilayersevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer",
-      "target": "blockentityrenderer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer",
-      "target": "blockentityrenderstate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer",
-      "target": "camerarenderstate",
       "confidence_score": 1.0
     },
     {
@@ -37088,10 +38190,10 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
-      "source_location": "L3",
+      "source_location": "L14",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer",
-      "target": "posestack",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_camerarenderstate",
       "confidence_score": 1.0
     },
     {
@@ -37103,6 +38205,28 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer",
       "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_onlyin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_posestack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_submitnodecollector",
       "confidence_score": 1.0
     },
     {
@@ -37134,27 +38258,6 @@
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer",
       "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_state",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer",
-      "target": "submitnodecollector",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer",
-      "target": "blockentityrenderer",
       "confidence_score": 1.0
     },
     {
@@ -37223,17 +38326,6 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
-      "source_location": "L24",
-      "weight": 1.0,
-      "context": "generic_arg",
-      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer",
-      "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_state",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
       "source_location": "L82",
       "weight": 1.0,
       "context": "attribute",
@@ -37249,7 +38341,7 @@
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_pedestalrenderer",
-      "target": "context",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_context",
       "confidence_score": 1.0
     },
     {
@@ -37264,11 +38356,11 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "references",
-      "context": "return_type",
+      "relation": "calls",
+      "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
-      "source_location": "L37",
+      "source_location": "L39",
       "weight": 1.0,
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_createrenderstate",
       "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_state",
@@ -37304,7 +38396,7 @@
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_extractrenderstate",
-      "target": "nullable_crumblingoverlay",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_nullable_crumblingoverlay",
       "confidence_score": 1.0
     },
     {
@@ -37322,11 +38414,11 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
-      "source_location": "L42",
+      "source_location": "L70",
       "weight": 1.0,
       "context": "parameter_type",
-      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_extractrenderstate",
-      "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_state",
+      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_submit",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_camerarenderstate",
       "confidence_score": 1.0
     },
     {
@@ -37337,7 +38429,7 @@
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_submit",
-      "target": "camerarenderstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_posestack",
       "confidence_score": 1.0
     },
     {
@@ -37348,39 +38440,7 @@
       "weight": 1.0,
       "context": "parameter_type",
       "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_submit",
-      "target": "posestack",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
-      "source_location": "L70",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_submit",
-      "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_state",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
-      "source_location": "L70",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_pedestalrenderer_submit",
-      "target": "submitnodecollector",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "inherits",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/skd/equivalentlegacy/rendering/PedestalRenderer.java",
-      "source_location": "L82",
-      "weight": 1.0,
-      "source": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_state",
-      "target": "blockentityrenderstate",
+      "target": "src_main_java_com_skd_equivalentlegacy_rendering_pedestalrenderer_java_submitnodecollector",
       "confidence_score": 1.0
     },
     {
@@ -38329,6 +39389,136 @@
       "weight": 1.0,
       "source": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_claude_claude_claude_md_equivalent_legacy_26_2",
       "target": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_claude_claude_workflow_del_mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b",
+      "target": "claude_plans_chestrenderer_phase_2_4b_plan_fase_2_4b_chestrenderer_full_equivalent_legacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b_plan_fase_2_4b_chestrenderer_full_equivalent_legacy",
+      "target": "claude_plans_chestrenderer_phase_2_4b_1_alchemicalchestblockentity_implementar_lidblockentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b_plan_fase_2_4b_chestrenderer_full_equivalent_legacy",
+      "target": "claude_plans_chestrenderer_phase_2_4b_2_chestrenderer_implementar_blockentityrenderer_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b_plan_fase_2_4b_chestrenderer_full_equivalent_legacy",
+      "target": "claude_plans_chestrenderer_phase_2_4b_3_equivalentlegacyrenderers_registrar_chestrenderer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b_plan_fase_2_4b_chestrenderer_full_equivalent_legacy",
+      "target": "claude_plans_chestrenderer_phase_2_4b_4_chestmenu_sincronizaci\u00f3n_containerdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b_plan_fase_2_4b_chestrenderer_full_equivalent_legacy",
+      "target": "claude_plans_chestrenderer_phase_2_4b_5_blockstate_modelo_verificar_asset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b_plan_fase_2_4b_chestrenderer_full_equivalent_legacy",
+      "target": "claude_plans_chestrenderer_phase_2_4b_6_definici\u00f3n_de_hecho",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b_plan_fase_2_4b_chestrenderer_full_equivalent_legacy",
+      "target": "claude_plans_chestrenderer_phase_2_4b_7_restricciones_t\u00e9cnicas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L200",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b_plan_fase_2_4b_chestrenderer_full_equivalent_legacy",
+      "target": "claude_plans_chestrenderer_phase_2_4b_8_deviaciones_del_plan_2_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b_plan_fase_2_4b_chestrenderer_full_equivalent_legacy",
+      "target": "claude_plans_chestrenderer_phase_2_4b_9_pr\u00f3ximas_fases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b_7_restricciones_t\u00e9cnicas",
+      "target": "claude_plans_chestrenderer_phase_2_4b_compatibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b_7_restricciones_t\u00e9cnicas",
+      "target": "claude_plans_chestrenderer_phase_2_4b_neoforge_26_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/plans/chestrenderer-phase-2.4b.md",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "claude_plans_chestrenderer_phase_2_4b_7_restricciones_t\u00e9cnicas",
+      "target": "claude_plans_chestrenderer_phase_2_4b_performance",
       "confidence_score": 1.0
     },
     {
@@ -40199,5 +41389,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "13743fa765a635ed9e0e0ccee23ddeaf15ff1292"
+  "built_at_commit": "4eb28a033b3ddd25070dee63875ae9eb10d287b4"
 }
