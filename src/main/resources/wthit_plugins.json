@@ -1,6 +1,8 @@
 {
   "equivalent_legacy:plugin": {
-    "initializer": "com.skd.equivalentlegacy.integration.wthit.EquivalentLegacyWthitPlugin",
-    "side": "*"
+    "entrypoints": {
+      "client": "com.skd.equivalentlegacy.integration.wthit.EquivalentLegacyWthitPlugin"
+    },
+    "side": "client"
   }
 }
