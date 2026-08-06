@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/cube_all","textures":{"all":"equivalent_legacy:block/condenser_mk2"}}
+{"textures":{"particle":"projecte:block/condenser_mk2"}}

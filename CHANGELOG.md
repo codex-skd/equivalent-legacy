@@ -1,5 +1,17 @@
 # Changelog — Equivalent Legacy
 
+## 1.2.0-beta.3
+
+- **Assets completados**: Integración de 670 archivos de assets (modelos, blockstates, texturas, sonidos, idiomas)
+- **Fase 1-2 visual**: JSON models para 278 items + 28 bloques, blockstates completos para pedestales, novas y destruction catalyst
+- **Texturas**: 177 archivos PNG cubriendo todos los items, bloques y equipos
+- **Sonidos**: 15 efectos OGG + sounds.json configurado
+- **Idiomas**: 18 paquetes de idioma (en_us, es_es, de_de, fr_fr, ja_jp, etc.)
+- **Entidades**: 3 tipos de nova entities (Nova, Catalyst, Cataclysm) con soporte ResourceKey para MC 26.2
+- **Block Entities**: Pedestales con inventario de una ranura, destruction catalyst con configuración
+- **Items nuevos**: Herramientas PE (axe, pickaxe, saw), transmutation_stone, pedestals en sus 3 tiers
+- **Compilación**: NeoForge 26.2.0.37-beta, JAR funcional (1.2 MB), listo para testing en modpacks
+
 ## 1.2.0-beta.2
 
 - **Fix**: Tome of Knowledge GUI now displays items correctly. The `setFullKnowledge()` method no longer clears the knowledge set.
