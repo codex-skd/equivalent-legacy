@@ -17,7 +17,7 @@ public class CollectorScreen extends MachineScreen<CollectorMenu> {
     @Override
     protected void extractLabels(GuiGraphicsExtractor graphics, int mouseX, int mouseY) {
         super.extractLabels(graphics, mouseX, mouseY);
-        drawEmc(graphics, menu.getEmc());
+        drawEmc(graphics, menu.getNetworkEmc());
         graphics.text(font, "Sun: " + menu.getSunLevel(), 8, 16, 0x404040);
     }
 }

@@ -2,7 +2,6 @@ package com.skd.equivalentlegacy.gui;
 
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
@@ -11,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class PEContainer extends AbstractContainerMenu {
+public abstract class PEContainer extends MachineMenu {
     protected final List<BoxedLong> longFields = new ArrayList<>();
 
     protected PEContainer(MenuType<?> type, int windowId) {
