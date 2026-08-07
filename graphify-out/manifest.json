@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1786062225.5195985,
-    "ast_hash": "4ad11aa0bef2a91d137d05a98ad80e8b",
+    "mtime": 1786064774.1381412,
+    "ast_hash": "76c733b04fb841fffd65713cc78d4601",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1786058679.2561412,
-    "ast_hash": "6419d87b6875a1f645862bda131bc8e1",
+    "mtime": 1786062385.0783193,
+    "ast_hash": "429e0908f9368ce4bdd4cd243a225124",
     "semantic_hash": ""
   },
   "README.md": {
@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1786059626.4438102,
-    "ast_hash": "d16e7743b57f9932cee8cecdb47c2d6f",
+    "mtime": 1786062709.2211783,
+    "ast_hash": "6e691680219c547dd084019ef3e1a662",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/icon.png": {
@@ -285,8 +285,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/TransmutationScreen.java": {
-    "mtime": 1785451950.8621233,
-    "ast_hash": "4311c8da337544c968eccf281d3696c5",
+    "mtime": 1786064829.753334,
+    "ast_hash": "637ce296990994ac0a1e839fa819ab13",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeDataPayload.java": {
@@ -3260,58 +3260,58 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/de_de.json": {
-    "mtime": 1786062258.34983,
-    "ast_hash": "3e3e06a356e473fca3fbdab361aa29d9",
+    "mtime": 1786064774.1381412,
+    "ast_hash": "6d5ead252cd661bfaafcd95743102420",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/es_es.json": {
-    "mtime": 1786062258.3525252,
-    "ast_hash": "4455363a54e812a0878c4a7a7d2a7054",
+    "mtime": 1786064774.1396606,
+    "ast_hash": "db003eaed1ed0656fedccb6c58f98ab0",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/fr_fr.json": {
-    "mtime": 1786062258.37002,
-    "ast_hash": "405368787d0157f3a1a180f250513f27",
+    "mtime": 1786064774.1427927,
+    "ast_hash": "e223d1b5f4041a87681cf8dc27ef8af0",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/it_it.json": {
-    "mtime": 1786062258.3806193,
-    "ast_hash": "a0a2bfb06913e63f577598452e3420b8",
+    "mtime": 1786064774.1427927,
+    "ast_hash": "bf72d0235a331603d134f2349a536849",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ja_jp.json": {
-    "mtime": 1786062258.3852863,
-    "ast_hash": "b6b4555084950833b80e182ecd38d294",
+    "mtime": 1786064774.1443233,
+    "ast_hash": "005820b19f8825d6d9bde7791290d830",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ko_kr.json": {
-    "mtime": 1786062258.3914979,
-    "ast_hash": "d6a6f9f2a92cad1d07b24f9e61b99bd5",
+    "mtime": 1786064774.1443233,
+    "ast_hash": "8b1261c07b5aae2410e8fa03752e91b2",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/nl_nl.json": {
-    "mtime": 1786062258.3950498,
-    "ast_hash": "c5fa53041d32f3a8a5d1c69c8bf5d094",
+    "mtime": 1786064774.1458564,
+    "ast_hash": "3e0a799b139ea85fd239dea7c35200cb",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/pl_pl.json": {
-    "mtime": 1786062258.409683,
-    "ast_hash": "c75e913486b119fef8750c673e581bf0",
+    "mtime": 1786064774.1488917,
+    "ast_hash": "07f8d2d09373e4e62964a8720f3d0c0c",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/pt_br.json": {
-    "mtime": 1786062258.413749,
-    "ast_hash": "e263dc14a7759d642bffb503b573a323",
+    "mtime": 1786064774.1488917,
+    "ast_hash": "696b0a05a115df0a8f5887f27fcde71f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ru_ru.json": {
-    "mtime": 1786062258.4411771,
-    "ast_hash": "916e30e9b5b1078f6e1649a8f47f04ca",
+    "mtime": 1786064774.1525152,
+    "ast_hash": "d29a19e74b4f58d4aad8c4da3e132b49",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/zh_cn.json": {
-    "mtime": 1786062258.4754846,
-    "ast_hash": "6ca0867734ef8a153c26c26b0f7d5caf",
+    "mtime": 1786064774.1555657,
+    "ast_hash": "40fdd2967f3d59999c58c356c50dd2a1",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.1.0.md": {
@@ -3540,8 +3540,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/tr_tr.json": {
-    "mtime": 1786062258.466403,
-    "ast_hash": "4fe5406701e52647fc0fd10064017c4e",
+    "mtime": 1786064774.1555657,
+    "ast_hash": "13eac5d7531bd01536d36f1102ebdd10",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/base_chest.json": {
@@ -5220,33 +5220,33 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/da_dk.json": {
-    "mtime": 1786062258.3298724,
-    "ast_hash": "4ad11aa0bef2a91d137d05a98ad80e8b",
+    "mtime": 1786064774.1376276,
+    "ast_hash": "76c733b04fb841fffd65713cc78d4601",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/fi_fi.json": {
-    "mtime": 1786062258.3639803,
-    "ast_hash": "4ad11aa0bef2a91d137d05a98ad80e8b",
+    "mtime": 1786064774.1411834,
+    "ast_hash": "76c733b04fb841fffd65713cc78d4601",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/no_no.json": {
-    "mtime": 1786062258.407174,
-    "ast_hash": "4ad11aa0bef2a91d137d05a98ad80e8b",
+    "mtime": 1786064774.1473672,
+    "ast_hash": "76c733b04fb841fffd65713cc78d4601",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/pt_pt.json": {
-    "mtime": 1786062258.431771,
-    "ast_hash": "4ad11aa0bef2a91d137d05a98ad80e8b",
+    "mtime": 1786064774.1504185,
+    "ast_hash": "76c733b04fb841fffd65713cc78d4601",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/sv_se.json": {
-    "mtime": 1786062258.4605477,
-    "ast_hash": "4ad11aa0bef2a91d137d05a98ad80e8b",
+    "mtime": 1786064774.154049,
+    "ast_hash": "76c733b04fb841fffd65713cc78d4601",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/zh_tw.json": {
-    "mtime": 1786062258.49336,
-    "ast_hash": "4ad11aa0bef2a91d137d05a98ad80e8b",
+    "mtime": 1786064774.1577325,
+    "ast_hash": "76c733b04fb841fffd65713cc78d4601",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/aeternalis_fuel.json": {
@@ -5297,6 +5297,11 @@
   "docs/curseforge/versions/1.2.0-beta.10.md": {
     "mtime": 1786037303.1973538,
     "ast_hash": "9cfbdf116589d3bc12e4907552814871",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.2.1-RELEASE.md": {
+    "mtime": 1786062657.5728645,
+    "ast_hash": "cec81d817f83805c53dcdcbbdd647e2d",
     "semantic_hash": ""
   }
 }

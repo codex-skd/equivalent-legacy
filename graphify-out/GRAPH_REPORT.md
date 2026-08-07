@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-07)
 
 ## Corpus Check
-- 847 files · ~89,236 words
+- 848 files · ~89,943 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2106 nodes · 3078 edges · 424 communities (122 shown, 302 thin omitted)
+- 2108 nodes · 3100 edges · 433 communities (136 shown, 297 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 88 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `581ed62b`
+- Built from commit: `35f4301f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -235,6 +235,20 @@
 - Inventory
 - BlockPos
 - DataSlot
+- AlchemicalChestBlockEntity
+- PEContainer
+- CustomConversion
+- ChestMenu.java
+- EquivalentLegacyEMCAPI
+- EnchantmentProcessor.java
+- WrittenBookProcessor
+- PersistentComponentProcessor
+- Slot
+- CurioEvents
+- EquivalentLegacyConfig
+- ValidatedContainerSlot.java
+- ArmorTrimProcessor
+- PhilosophersStone
 - Component
 - GuiGraphicsExtractor
 - Inventory
@@ -254,6 +268,8 @@
 - DeferredHolder
 - DeferredRegister
 - MenuType
+- IEmcReceptor
+- SlotPredicates.java
 - Component
 - GuiGraphicsExtractor
 - Inventory
@@ -269,12 +285,6 @@
 - Player
 - ServerPlayer
 - SimpleContainer
-- Component
-- GuiGraphicsExtractor
-- Identifier
-- Inventory
-- ItemStack
-- Override
 - InteractionHand
 - InteractionResult
 - ItemStack
@@ -386,10 +396,8 @@
 - Identifier
 - Player
 - ServerPlayer
-- PacketHandler
 - DestructionCatalystBlockEntity
 - NetworkEvents.java
-- EquivalentLegacyWthitPlugin.java
 - Post
 
 ## God Nodes (most connected - your core abstractions)
@@ -419,7 +427,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (424 total, 302 thin omitted)
+## Communities (433 total, 297 thin omitted)
 
 ### Community 0 - "Equivalent Legacy Mod"
 Cohesion: 0.09
@@ -427,7 +435,7 @@ Nodes (13): BlockEntityTicker, BlockEntityType, BlockPos, BlockState, Interactio
 
 ### Community 2 - "Client Setup"
 Cohesion: 0.05
-Nodes (21): AbstractContainerScreen, FMLClientSetupEvent, CondenserScreen, MachineScreen, RelayScreen, StorageScreen, ItemEntry, TransmutationScreen (+13 more)
+Nodes (27): AbstractContainerScreen, FMLClientSetupEvent, CondenserScreen, MachineScreen, RelayScreen, StorageScreen, MouseButtonEvent, RegisterMenuScreensEvent (+19 more)
 
 ### Community 3 - "Gradle Build Script"
 Cohesion: 0.06
@@ -438,12 +446,12 @@ Cohesion: 0.67
 Nodes (3): Publish Public Script, Initial Scaffold from the codex-docs/mod_template/26.2-26.2.0.32-beta NeoForge MDK skeleton, Equivalent Legacy is an EMC/transmutation mod for Minecraft 26.2 (NeoForge), bringing the classic Equivalent Exchange-style gameplay to modern Minecraft.
 
 ### Community 5 - "Event Bus"
-Cohesion: 0.09
-Nodes (16): DataComponentMapper, ItemStack, ArmorTrimProcessor, ItemStack, Override, IComponentProcessor, ItemStack, DataComponentType (+8 more)
+Cohesion: 0.20
+Nodes (4): DataComponentMapper, ItemStack, IComponentProcessor, ItemStack
 
 ### Community 6 - "Server Start"
-Cohesion: 0.17
-Nodes (7): KleinStarTier, DREI, EIN, OMEGA, SPHERE, VIER, ZWEI
+Cohesion: 0.16
+Nodes (8): KleinStar, KleinStarTier, DREI, EIN, OMEGA, SPHERE, VIER, ZWEI
 
 ### Community 7 - "Creative Mode Tab"
 Cohesion: 0.13
@@ -475,18 +483,18 @@ Nodes (10): Blocks, MiscToolItem, Type, CATALYTIC_LENS, DESTRUCTION_CATALYST, DI
 
 ### Community 15 - "Changelog — Equivalent Legacy"
 Cohesion: 0.09
-Nodes (21): [1.2.0-beta.10] - Previous Release, [1.2.0-RELEASE] - 2026-08-07, ⚙️ Architecture Improvements, BoxedLong Pattern, 🐛 Bug Fixes, Changelog - Equivalent Legacy 26.2, 🔗 Commits, 📦 Files Changed (+13 more)
+Nodes (22): [1.2.0-beta.10] - Previous Release, [1.2.0-RELEASE] - 2026-08-07, ⚙️ Architecture Improvements, BoxedLong Pattern, 🐛 Bug Fixes, Changelog - Equivalent Legacy 26.2, 🔗 Commits, 📦 Files Changed (+14 more)
 
 ### Community 16 - "Flujo de trabajo — Equivalent Legacy (NeoForge)"
 Cohesion: 0.15
 Nodes (12): Buenas prácticas, Commits (Conventional Commits), Convenciones de nomenclatura, Específico del mod, Estructura del proyecto, Flujo de trabajo — Equivalent Legacy (NeoForge), Flujo por tarea, Idioma (+4 more)
 
 ### Community 17 - "project_description.md"
-Cohesion: 0.06
-Nodes (7): IValueArithmetic, LongArithmetic, Conversion, Object2IntMap, Override, Provider, MappingCollector
+Cohesion: 0.09
+Nodes (7): IExtendedMappingCollector, IValueArithmetic, Conversion, Object2IntMap, Override, Provider, MappingCollector
 
 ### Community 19 - "IMappingCollector"
-Cohesion: 0.13
+Cohesion: 0.15
 Nodes (5): BaseContainerBlockEntity, CachedCheck, MatterFurnaceBlockEntity, SingleRecipeInput, SmeltingRecipe
 
 ### Community 20 - "LongArithmetic"
@@ -494,12 +502,12 @@ Cohesion: 0.21
 Nodes (15): BlockGetter, CollisionContext, BlockEntity, BlockEntityTicker, BlockEntityType, BlockHitResult, BlockPos, BlockState (+7 more)
 
 ### Community 21 - "SimpleGraphMapper"
-Cohesion: 0.10
-Nodes (12): Fluid, Nullable, EquivalentLegacyEMCAPI, ItemStack, EMCMappingHandler, IComponentEnhancer, FunctionalInterface, ItemStack (+4 more)
+Cohesion: 0.18
+Nodes (7): EMCMappingHandler, IComponentEnhancer, FunctionalInterface, ItemStack, Logger, Object2LongMap, TagKey
 
 ### Community 22 - "EquivalentLegacyConfig"
-Cohesion: 0.09
-Nodes (10): IExtendedMappingCollector, IMappingCollector, IEMCMapper, FunctionalInterface, Override, OreBlacklistMapper, Override, RawMaterialsBlacklistMapper (+2 more)
+Cohesion: 0.10
+Nodes (11): IMappingCollector, Holder, ItemLike, IEMCMapper, FunctionalInterface, Override, OreBlacklistMapper, Override (+3 more)
 
 ### Community 23 - "NSSTag"
 Cohesion: 0.10
@@ -514,8 +522,8 @@ Cohesion: 0.06
 Nodes (34): 1. **Base Classes** (CREAR NUEVO), 2. **Mappers** — Sistemas que CALCULAN EMC, 3. **Collection Strategy**, 4. **Main Coordinator**, A. `FixedValues.java` — Valores hardcodeados, A. `IEMCMapper` — Interface base, 🎯 ARCHITECTURE OVERVIEW, 📦 ARCHIVOS A PORTAR (+26 more)
 
 ### Community 28 - "0.0.0-beta.1.md"
-Cohesion: 0.18
-Nodes (3): IValueGenerator, SimpleGraphMapper, Object2LongMap
+Cohesion: 0.13
+Nodes (4): EMCHelper, IValueGenerator, SimpleGraphMapper, Object2LongMap
 
 ### Community 29 - "0.0.0-beta.2.md"
 Cohesion: 0.25
@@ -530,8 +538,8 @@ Cohesion: 0.16
 Nodes (5): CustomPacketPayload, KnowledgeDataPayload, KnowledgeSyncChangePayload, KnowledgeSyncEmcPayload, TransmuteRequestPayload
 
 ### Community 32 - "AbstractNSSTag"
-Cohesion: 0.07
-Nodes (24): AbstractFurnaceScreen, DeltaTracker, MatterFurnaceScreen, IntValue, ItemEnchantments, Items, BooleanValue, Builder (+16 more)
+Cohesion: 0.09
+Nodes (19): AbstractFurnaceScreen, DeltaTracker, MatterFurnaceScreen, IntValue, Items, BooleanValue, Builder, ModConfigSpec (+11 more)
 
 ### Community 33 - "0.0.0-beta.4.md"
 Cohesion: 0.33
@@ -542,12 +550,12 @@ Cohesion: 0.14
 Nodes (13): 1. AlchemicalChestBlockEntity — Implementar LidBlockEntity, 2. ChestRenderer — Implementar BlockEntityRenderer Completo, 3. EquivalentLegacyRenderers — Registrar ChestRenderer, 4. ChestMenu — Sincronización ContainerData, 5. BlockState / Modelo — Verificar Asset, 6. Definición de Hecho, 7. Restricciones Técnicas, 8. Deviaciones del Plan 2.2 (+5 more)
 
 ### Community 35 - "ModCommands"
-Cohesion: 0.05
-Nodes (32): CommandBuildContext, CommandDispatcher, CommandSourceStack, CurioEvents, IBlockAccessor, IBlockComponentProvider, IPluginConfig, ItemInput (+24 more)
+Cohesion: 0.06
+Nodes (32): IBlockAccessor, IBlockComponentProvider, IClientRegistrar, IModPlugin, IPluginConfig, IRecipeCatalystRegistration, IRecipeCategoryRegistration, IRecipeRegistration (+24 more)
 
 ### Community 36 - "0.0.0-beta.5.md"
-Cohesion: 0.17
-Nodes (7): FMLCommonSetupEvent, ModIngredientTypes, EquivalentLegacyDataComponents, IEventBus, Logger, Mod, ModContainer
+Cohesion: 0.15
+Nodes (7): FMLCommonSetupEvent, EquivalentLegacyDataComponents, PacketHandler, IEventBus, Logger, Mod, ModContainer
 
 ### Community 37 - "0.0.0-beta.6.md"
 Cohesion: 0.50
@@ -574,8 +582,8 @@ Cohesion: 0.07
 Nodes (26): 10. Restricciones Técnicas, 11. Notas de Implementación, 12. Próximas Fases, 1. Dependencias en build.gradle, 2.1 TransmutationRecipeDisplay (NUEVO), 2.2 TransmutationRecipeCategory (NUEVO), 2.3 EquivalentLegacyJeiPlugin (NUEVO), 2. JEI Integration (+18 more)
 
 ### Community 43 - "CondenserBlockEntity"
-Cohesion: 0.10
-Nodes (24): IDrawable, IDrawableStatic, IFocusGroup, IGuiHelper, IModPlugin, IRecipeCatalystRegistration, IRecipeCategory, IRecipeCategoryRegistration (+16 more)
+Cohesion: 0.15
+Nodes (15): IDrawable, IDrawableStatic, IFocusGroup, IGuiHelper, IRecipeCategory, IRecipeLayoutBuilder, IRecipeSlotsView, ITooltipBuilder (+7 more)
 
 ### Community 44 - "CollectorBlockEntity"
 Cohesion: 0.13
@@ -590,23 +598,23 @@ Cohesion: 0.07
 Nodes (29): 1. **CollectorMK1Menu** (requiere reescritura completa), 1. **ValidatedSlot** — Permite inserción/extracción con validación, 2. **CondenserMenu** (reescritura), 2. **SlotGhost** — Display-only (no se puede remover, solo reemplazar), 3. **ComponentSlotGhost** — Variante para componentes, 3. **RelayMenu** (reescritura), 4. **MatterFurnaceMenu** (reescritura), 4. **SlotPredicates** — Utilidad con predicados reutilizables (+21 more)
 
 ### Community 49 - "PlayerEvents"
-Cohesion: 0.13
+Cohesion: 0.14
 Nodes (14): BundleContents, ItemContainerContents, BundleProcessor, DataComponentType, ItemStack, Override, ContainerProcessor, DataComponentType (+6 more)
 
 ### Community 50 - ".syncKnowledgeDataIfChanged"
-Cohesion: 0.05
-Nodes (34): AbstractContainerMenu, BagScreen, MachineMenu, NotNull, Slot, SlotItemHandler, BagMenu, IItemHandler (+26 more)
+Cohesion: 0.15
+Nodes (12): SlotItemHandler, ISlotGhost, Slot, IItemHandler, ItemStack, Override, Player, SlotGhost (+4 more)
 
 ### Community 51 - "MatterMaterials"
 Cohesion: 0.11
 Nodes (17): 1. PedestalRenderer (Completo), 2. ChestRenderer (Simplificado), 3. TransmutationRenderingOverlay (Minimalist), 4. ClientEvents (Nueva clase), 5. EquivalentLegacyRenderers (Dispatcher), 6. Modificaciones a Existing Classes, AlchemicalChestBlockEntity.java, Definition of Done (+9 more)
 
 ### Community 56 - ".use"
-Cohesion: 0.10
-Nodes (6): ConversionGroup, CustomConversion, Object2IntMap, Override, CustomConversionMapper, Override
+Cohesion: 0.17
+Nodes (3): ConversionGroup, CustomConversionMapper, Override
 
 ### Community 69 - "EquivalentLegacyItems"
-Cohesion: 0.22
+Cohesion: 0.18
 Nodes (9): AxeItem, BlockItem, DeferredItem, AlchemicalBag, HoeItem, ShearsItem, ShovelItem, EquivalentLegacyItems (+1 more)
 
 ### Community 78 - "MatterMaterials"
@@ -614,20 +622,20 @@ Cohesion: 0.31
 Nodes (6): RegisterGuiLayersEvent, EquivalentLegacyRenderers, EventBusSubscriber, OnlyIn, RegisterRenderers, SubscribeEvent
 
 ### Community 88 - "EquivalentLegacyAttachments.java"
-Cohesion: 0.21
+Cohesion: 0.19
 Nodes (3): BlockEntity, InterdictionTorchBlockEntity, InterdictionTorchBlock
 
 ### Community 103 - "BlockPos"
-Cohesion: 0.16
-Nodes (5): NSSItem, PhilosophersStone, ItemLike, IKnowledgeProvider, ServerPlayer
+Cohesion: 0.31
+Nodes (3): NSSItem, IKnowledgeProvider, ServerPlayer
 
 ### Community 104 - "BlockState"
 Cohesion: 0.27
 Nodes (7): InteractionHand, InteractionResult, ItemStack, Level, Override, Player, TransmutationStone
 
 ### Community 105 - "Component"
-Cohesion: 0.19
-Nodes (7): ModMenuTypes, CollectorMenu, BlockPos, DataSlot, Inventory, Override, Player
+Cohesion: 0.25
+Nodes (6): CollectorMenu, BlockPos, DataSlot, Inventory, Override, Player
 
 ### Community 106 - "MenuProvider"
 Cohesion: 0.53
@@ -635,11 +643,11 @@ Nodes (4): CreativeModeTab, EquivalentLegacyCreativeTab, DeferredHolder, Deferre
 
 ### Community 107 - "Override"
 Cohesion: 0.10
-Nodes (7): Block, Direction, EntityBlock, BaseMachineBlock, MatterFurnaceBlock, TransmutationTableBlock, IEmcReceptor
+Nodes (6): Block, Direction, EntityBlock, BaseMachineBlock, MatterFurnaceBlock, TransmutationTableBlock
 
 ### Community 130 - "DeferredHolder"
-Cohesion: 0.20
-Nodes (8): BlockPos, DataSlot, Inventory, Override, Player, RelayMenu, ItemStack, SlotPredicates
+Cohesion: 0.21
+Nodes (7): ModMenuTypes, BlockPos, DataSlot, Inventory, Override, Player, RelayMenu
 
 ### Community 180 - "EventBusSubscriber"
 Cohesion: 0.60
@@ -658,12 +666,12 @@ Cohesion: 0.50
 Nodes (4): ClientConfig, BooleanValue, Builder, ModConfigSpec
 
 ### Community 185 - "ModConfigSpec"
-Cohesion: 0.21
-Nodes (4): ByteBuf, MapCodec, StreamCodec, PlayerKnowledgeAttachment
+Cohesion: 0.16
+Nodes (7): AttachmentType, KnowledgeSyncPayload, EquivalentLegacyAttachments, ByteBuf, MapCodec, StreamCodec, PlayerKnowledgeAttachment
 
 ### Community 194 - "Builder"
-Cohesion: 0.06
-Nodes (38): BlockEntityRenderer, BlockEntityRenderState, ChestScreen, ItemModelResolver, ItemStackRenderState, LidBlockEntity, AlchemicalChestBlockEntity, BlockPos (+30 more)
+Cohesion: 0.12
+Nodes (24): BlockEntityRenderer, BlockEntityRenderState, ItemModelResolver, ItemStackRenderState, ChestRenderer, CameraRenderState, Context, @Nullable CrumblingOverlay (+16 more)
 
 ### Community 195 - "ModConfigSpec"
 Cohesion: 0.17
@@ -673,9 +681,13 @@ Nodes (11): 1. **Hardcoded EMC Values** (Subsystem A), 2. **EMCMappingHandler** 
 Cohesion: 0.18
 Nodes (10): 1. **Data Files Generation** (Subsystem A), 2. **Localization/Language Files** (Subsystem B), 3. **Item Registry & Block Definitions** (Subsystem C), Current State Analysis, Deliverables, Integration Checkpoints, Known Limitations (Phase 2), Next Steps (After Phase 2) (+2 more)
 
+### Community 202 - ".getEmc"
+Cohesion: 0.23
+Nodes (9): CommandBuildContext, CommandDispatcher, CommandSourceStack, ItemInput, RegisterCommandsEvent, EventBusSubscriber, ServerPlayer, SubscribeEvent (+1 more)
+
 ### Community 209 - "Provider"
-Cohesion: 0.28
-Nodes (3): FullKleinStarIngredient, Holder, ICustomIngredient
+Cohesion: 0.22
+Nodes (3): FullKleinStarIngredient, ModIngredientTypes, ICustomIngredient
 
 ### Community 247 - "InteractionHand"
 Cohesion: 0.47
@@ -685,9 +697,13 @@ Nodes (4): ArmorMaterial, EquipmentAsset, MatterMaterials, ToolMaterial
 Cohesion: 0.47
 Nodes (3): DamageProcessor, ItemStack, Override
 
+### Community 250 - "ItemStackHandler"
+Cohesion: 0.23
+Nodes (8): BagScreen, BagMenu, IItemHandler, InteractionHand, Inventory, ItemStackHandler, Override, Player
+
 ### Community 256 - "ConversionGroup"
-Cohesion: 0.10
-Nodes (5): EMCHelper, NormalizedSimpleStack, NSSTag, IEmcProvider, IKnowledgeProvider
+Cohesion: 0.11
+Nodes (5): NormalizedSimpleStack, NSSTag, IEmcProvider, IKnowledgeProvider, MappingResult
 
 ### Community 257 - "MatterMaterials.java"
 Cohesion: 0.31
@@ -701,6 +717,54 @@ Nodes (3): EMCNetworkData, SavedData, SavedDataType
 Cohesion: 0.31
 Nodes (7): BlockPos, ByteBuf, IPayloadContext, Override, StreamCodec, Type, SpawnerConfigPayload
 
+### Community 264 - "AlchemicalChestBlockEntity"
+Cohesion: 0.23
+Nodes (7): LidBlockEntity, AlchemicalChestBlockEntity, BlockPos, BlockState, Component, MenuProvider, Override
+
+### Community 265 - "PEContainer"
+Cohesion: 0.24
+Nodes (7): NotNull, Inventory, ItemStack, MenuType, Override, Player, PEContainer
+
+### Community 266 - "CustomConversion"
+Cohesion: 0.21
+Nodes (3): CustomConversion, Object2IntMap, Override
+
+### Community 267 - "ChestMenu.java"
+Cohesion: 0.22
+Nodes (7): ChestScreen, ChestMenu, BlockPos, DataSlot, Inventory, Override, Player
+
+### Community 268 - "EquivalentLegacyEMCAPI"
+Cohesion: 0.20
+Nodes (4): Fluid, Nullable, EquivalentLegacyEMCAPI, ItemStack
+
+### Community 269 - "EnchantmentProcessor.java"
+Cohesion: 0.44
+Nodes (5): ItemEnchantments, EnchantmentProcessor, DataComponentType, ItemStack, Override
+
+### Community 270 - "WrittenBookProcessor"
+Cohesion: 0.44
+Nodes (5): DataComponentType, ItemStack, Override, WrittenBookProcessor, WrittenBookContent
+
+### Community 271 - "PersistentComponentProcessor"
+Cohesion: 0.44
+Nodes (4): DataComponentType, ItemStack, Override, PersistentComponentProcessor
+
+### Community 272 - "Slot"
+Cohesion: 0.36
+Nodes (3): AbstractContainerMenu, MachineMenu, Slot
+
+### Community 274 - "EquivalentLegacyConfig"
+Cohesion: 0.38
+Nodes (3): EquivalentLegacyConfig, Logger, ModContainer
+
+### Community 275 - "ValidatedContainerSlot.java"
+Cohesion: 0.48
+Nodes (4): Container, ItemStack, Override, ValidatedContainerSlot
+
+### Community 276 - "ArmorTrimProcessor"
+Cohesion: 0.47
+Nodes (3): ArmorTrimProcessor, ItemStack, Override
+
 ### Community 353 - "NSSTag"
 Cohesion: 0.33
 Nodes (4): Screen, GuiGraphicsExtractor, Override, SpawnerConfigScreen
@@ -713,29 +777,25 @@ Nodes (3): DestructionCatalystBlockEntity, BlockPos, BlockState
 Cohesion: 0.18
 Nodes (9): RecipeHolder, ServerStartingEvent, ServerStoppingEvent, Logger, RecipeMapper, EventBusSubscriber, Logger, SubscribeEvent (+1 more)
 
-### Community 444 - "EquivalentLegacyWthitPlugin.java"
-Cohesion: 0.47
-Nodes (4): IClientRegistrar, IWailaClientPlugin, EquivalentLegacyWthitPlugin, Override
-
 ## Knowledge Gaps
-- **257 isolated node(s):** `MK1`, `MK2`, `MK3`, `MK1`, `MK2` (+252 more)
+- **258 isolated node(s):** `MK1`, `MK2`, `MK3`, `MK1`, `MK2` (+253 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **302 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **297 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `NormalizedSimpleStack` connect `ConversionGroup` to `ModCommands`, `BlockPos`, `Mod Notes`, `CollectorBlockEntity`, `Provider`, `SimpleGraphMapper`, `EquivalentLegacyConfig`, `TransmutationContainer`, `.use`, `0.0.0-beta.1.md`?**
+- **Why does `NormalizedSimpleStack` connect `ConversionGroup` to `BlockPos`, `Mod Notes`, `CustomConversion`, `EquivalentLegacyEMCAPI`, `CollectorBlockEntity`, `Override`, `SimpleGraphMapper`, `EquivalentLegacyConfig`, `TransmutationContainer`, `.use`, `0.0.0-beta.1.md`?**
   _High betweenness centrality (0.057) - this node is a cross-community bridge._
 - **Why does `EntityNovaCataclysmPrimed` connect `0.0.0-beta.3.md` to `BaseMachineBlock.java`?**
-  _High betweenness centrality (0.046) - this node is a cross-community bridge._
-- **Why does `EMCMappingHandler` connect `SimpleGraphMapper` to `AbstractNSSTag`, `ConversionGroup`, `Event Bus`, `CollectorBlockEntity`, `PlayerEvents`, `EquivalentLegacyConfig`, `ItemStack`, `0.0.0-beta.1.md`?**
+  _High betweenness centrality (0.043) - this node is a cross-community bridge._
+- **Why does `EMCMappingHandler` connect `SimpleGraphMapper` to `ConversionGroup`, `Event Bus`, `EquivalentLegacyEMCAPI`, `EnchantmentProcessor.java`, `WrittenBookProcessor`, `PersistentComponentProcessor`, `CollectorBlockEntity`, `PlayerEvents`, `Override`, `ArmorTrimProcessor`, `EquivalentLegacyConfig`, `ItemStack`, `0.0.0-beta.1.md`?**
   _High betweenness centrality (0.040) - this node is a cross-community bridge._
 - **What connects `MK1`, `MK2`, `MK3` to the rest of the system?**
-  _257 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _258 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Equivalent Legacy Mod` be split into smaller, more focused modules?**
   _Cohesion score 0.0907563025210084 - nodes in this community are weakly interconnected._
 - **Should `Client Setup` be split into smaller, more focused modules?**
-  _Cohesion score 0.05325814536340852 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05325140809011777 - nodes in this community are weakly interconnected._
 - **Should `Gradle Build Script` be split into smaller, more focused modules?**
   _Cohesion score 0.0573025856044724 - nodes in this community are weakly interconnected._
