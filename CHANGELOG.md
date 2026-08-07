@@ -121,10 +121,30 @@ long calculateComponentEMC(ItemStack stack, EMCMappingHandler handler)
   - `getHandler()` → EMCMappingHandler
   - `invalidateCache()` → void
 
+#### Phase 2: Data Files & Localization (Complete Port) ✅
+- **Data Files** (142 JSON files):
+  - Recipes: collectors (MK1-MK3), condenser, relay, furnace, transmutation, bags, chests
+  - Loot tables: block drops for all machines
+  - Tags: item/block grouping for transmutation targets
+  - Advancements: unlock tree for progression
+  - World generation: custom feature registration
+  - Curios: Klein Star slot integration
+
+- **Localization** (19 languages):
+  - `en_us.json`: 729 keys (primary language, complete coverage)
+  - 18 translations: de_de, es_es, fr_fr, it_it, ja_jp, ko_kr, nl_nl, pl_pl, pt_br, pt_pt, ru_ru, sv_se, tr_tr, zh_cn, zh_tw, no_no, fi_fi, da_dk
+  - UTF-8 encoding (BOM removed for proper JSON parsing)
+  - Keys cover: item/block names, tooltips, GUI strings, messages, advancements
+
+- **Fixed Issues**:
+  - UTF-8 BOM in all language files (was preventing JSON parsing)
+  - Language coverage: 18 → 19 files (added pt_pt, zh_tw, sv_se, no_no, fi_fi, da_dk; removed non-planned: cs_cz, en_au, en_gb, en_ud, uk_ua)
+
 ### 🐛 Bug Fixes
 - Fixed texture loading issue (restored `items/` folder with BlockItem definitions)
 - Fixed namespace references (projecte → equivalent_legacy)
 - Fixed type mismatches in containers (ItemStack handling in PEContainer)
+- Fixed UTF-8 BOM in language files (JSON parsing errors)
 
 ### 📋 Technical Details
 
