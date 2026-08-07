@@ -52,7 +52,6 @@ public class Pedestal extends Block implements EntityBlock {
         return InteractionResult.PASS;
     }
 
-    @Override
     public BlockState playerWillDestroy(Level level, BlockPos pos, BlockState state, Player player) {
         if (!level.isClientSide() && level.getBlockEntity(pos) instanceof PedestalBlockEntity be) {
             be.dropContents();

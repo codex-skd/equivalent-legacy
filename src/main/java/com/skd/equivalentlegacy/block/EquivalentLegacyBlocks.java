@@ -75,10 +75,12 @@ public final class EquivalentLegacyBlocks {
             InterdictionTorchBlock::new, () -> BlockBehaviour.Properties.of().strength(1.0F).noCollision().lightLevel(state -> 14));
 
     public static final DeferredBlock<Block> DM_FURNACE = BLOCKS.registerBlock("dm_furnace",
-            MatterFurnaceBlock::new, () -> BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel(state -> 13));
+            props -> new MatterFurnaceBlock(props, EquivalentLegacyBlockEntities.DM_FURNACE::get),
+            () -> BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel(state -> state.getValue(MatterFurnaceBlock.LIT) ? 13 : 0));
 
     public static final DeferredBlock<Block> RM_FURNACE = BLOCKS.registerBlock("rm_furnace",
-            MatterFurnaceBlock::new, () -> BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel(state -> 13));
+            props -> new MatterFurnaceBlock(props, EquivalentLegacyBlockEntities.RM_FURNACE::get),
+            () -> BlockBehaviour.Properties.of().strength(5.0F, 6.0F).sound(SoundType.METAL).lightLevel(state -> state.getValue(MatterFurnaceBlock.LIT) ? 13 : 0));
 
 public static final DeferredBlock<com.skd.equivalentlegacy.block.Pedestal> PEDESTAL = BLOCKS.registerBlock("pedestal",
             props -> new com.skd.equivalentlegacy.block.Pedestal(props, com.skd.equivalentlegacy.block.entity.EquivalentLegacyBlockEntities.PEDESTAL::get),
