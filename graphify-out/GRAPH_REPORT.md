@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-07)
 
 ## Corpus Check
-- 849 files · ~90,618 words
+- 850 files · ~90,982 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2115 nodes · 3122 edges · 439 communities (143 shown, 296 thin omitted)
+- 2116 nodes · 3122 edges · 440 communities (144 shown, 296 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 88 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f94cd9c7`
+- Built from commit: `2d1ad449`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -432,11 +432,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (439 total, 296 thin omitted)
+## Communities (440 total, 296 thin omitted)
 
 ### Community 0 - "Equivalent Legacy Mod"
 Cohesion: 0.09
 Nodes (13): BlockEntityTicker, BlockEntityType, BlockPos, BlockState, InteractionResult, ItemStack, NonNullList, Override (+5 more)
+
+### Community 1 - "Mod Configuration"
+Cohesion: 0.14
+Nodes (7): CollectorBlockEntity, CollectorMenu, BlockPos, DataSlot, Inventory, Override, Player
 
 ### Community 2 - "Client Setup"
 Cohesion: 0.05
@@ -638,10 +642,6 @@ Nodes (3): NSSItem, IKnowledgeProvider, ServerPlayer
 Cohesion: 0.27
 Nodes (7): InteractionHand, InteractionResult, ItemStack, Level, Override, Player, TransmutationStone
 
-### Community 105 - "Component"
-Cohesion: 0.19
-Nodes (7): ModMenuTypes, CollectorMenu, BlockPos, DataSlot, Inventory, Override, Player
-
 ### Community 106 - "MenuProvider"
 Cohesion: 0.53
 Nodes (4): CreativeModeTab, EquivalentLegacyCreativeTab, DeferredHolder, DeferredRegister
@@ -663,8 +663,8 @@ Cohesion: 0.60
 Nodes (3): BlockPos, BlockState, RMPedestalBlockEntity
 
 ### Community 182 - "SubscribeEvent"
-Cohesion: 0.22
-Nodes (6): CondenserMenu, BlockPos, DataSlot, Inventory, Override, Player
+Cohesion: 0.21
+Nodes (7): ModMenuTypes, CondenserMenu, BlockPos, DataSlot, Inventory, Override, Player
 
 ### Community 184 - "Builder"
 Cohesion: 0.50
@@ -727,7 +727,7 @@ Cohesion: 0.31
 Nodes (7): BlockPos, ByteBuf, IPayloadContext, Override, StreamCodec, Type, SpawnerConfigPayload
 
 ### Community 264 - "AlchemicalChestBlockEntity"
-Cohesion: 0.26
+Cohesion: 0.23
 Nodes (7): LidBlockEntity, AlchemicalChestBlockEntity, BlockPos, BlockState, Component, MenuProvider, Override
 
 ### Community 265 - "PEContainer"
@@ -739,7 +739,7 @@ Cohesion: 0.21
 Nodes (3): CustomConversion, Object2IntMap, Override
 
 ### Community 267 - "ChestMenu.java"
-Cohesion: 0.21
+Cohesion: 0.22
 Nodes (7): ChestScreen, ChestMenu, BlockPos, DataSlot, Inventory, Override, Player
 
 ### Community 268 - "EquivalentLegacyEMCAPI"
@@ -817,14 +817,14 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `NormalizedSimpleStack` connect `ConversionGroup` to `BlockPos`, `Mod Notes`, `CustomConversion`, `CollectorBlockEntity`, `EquivalentLegacyEMCAPI`, `CurioEvents`, `SimpleGraphMapper`, `EquivalentLegacyConfig`, `TransmutationContainer`, `.use`, `0.0.0-beta.1.md`?**
   _High betweenness centrality (0.058) - this node is a cross-community bridge._
 - **Why does `PedestalBlockEntity` connect `Equivalent Legacy Mod` to `Builder`, `Creative Mode Tab`, `EventBusSubscriber`, `ServerPlayer`, `LongArithmetic`, `ServerConfig`, `EquivalentLegacyAttachments.java`?**
-  _High betweenness centrality (0.045) - this node is a cross-community bridge._
+  _High betweenness centrality (0.044) - this node is a cross-community bridge._
 - **Why does `EntityNovaCataclysmPrimed` connect `0.0.0-beta.3.md` to `BaseMachineBlock.java`?**
   _High betweenness centrality (0.044) - this node is a cross-community bridge._
 - **What connects `MK1`, `MK2`, `MK3` to the rest of the system?**
   _258 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Equivalent Legacy Mod` be split into smaller, more focused modules?**
   _Cohesion score 0.0907563025210084 - nodes in this community are weakly interconnected._
+- **Should `Mod Configuration` be split into smaller, more focused modules?**
+  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Client Setup` be split into smaller, more focused modules?**
   _Cohesion score 0.05325140809011777 - nodes in this community are weakly interconnected._
-- **Should `Gradle Build Script` be split into smaller, more focused modules?**
-  _Cohesion score 0.0573025856044724 - nodes in this community are weakly interconnected._
