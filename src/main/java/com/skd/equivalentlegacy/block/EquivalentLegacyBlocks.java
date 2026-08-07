@@ -65,7 +65,7 @@ public final class EquivalentLegacyBlocks {
             () -> MACHINE_PROPERTIES);
 
     public static final DeferredBlock<Block> ALCHEMICAL_CHEST = BLOCKS.registerBlock("alchemical_chest",
-            props -> new BaseMachineBlock(props, EquivalentLegacyBlockEntities.ALCHEMICAL_CHEST::get, null),
+            props -> new AlchemicalChestBlock(props, EquivalentLegacyBlockEntities.ALCHEMICAL_CHEST::get),
             () -> MACHINE_PROPERTIES);
 
     public static final DeferredBlock<Block> TRANSMUTATION_TABLE = BLOCKS.registerBlock("transmutation_table",
