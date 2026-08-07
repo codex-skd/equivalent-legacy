@@ -95,7 +95,7 @@ public class PedestalBlockEntity extends BlockEntity {
         tickCounter++;
     }
 
-    private void sync() {
+    protected void sync() {
         if (level != null && !level.isClientSide()) {
             level.sendBlockUpdated(worldPosition, getBlockState(), getBlockState(), 3);
         }
