@@ -336,7 +336,7 @@
       "source_location": "L384",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_equivalentlegacy_rl",
-      "community": 169,
+      "community": 23,
       "norm_label": ".rl()"
     },
     {
@@ -346,7 +346,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_equivalentlegacy_java_identifier",
-      "community": 169,
+      "community": 23,
       "norm_label": "identifier"
     },
     {
@@ -2906,7 +2906,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getopenness",
-      "community": 100,
+      "community": 101,
       "norm_label": ".getopenness()"
     },
     {
@@ -2916,7 +2916,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_override",
-      "community": 100,
+      "community": 101,
       "norm_label": "override"
     },
     {
@@ -2936,7 +2936,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_startopen",
-      "community": 100,
+      "community": 49,
       "norm_label": ".startopen()"
     },
     {
@@ -2946,7 +2946,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_java_player",
-      "community": 100,
+      "community": 49,
       "norm_label": "player"
     },
     {
@@ -2956,7 +2956,7 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_stopopen",
-      "community": 100,
+      "community": 49,
       "norm_label": ".stopopen()"
     },
     {
@@ -3066,7 +3066,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getnetwork",
-      "community": 100,
+      "community": 101,
       "norm_label": ".getnetwork()"
     },
     {
@@ -3076,7 +3076,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_isinnetwork",
-      "community": 100,
+      "community": 101,
       "norm_label": ".isinnetwork()"
     },
     {
@@ -3086,7 +3086,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getnetworkchestcount",
-      "community": 100,
+      "community": 101,
       "norm_label": ".getnetworkchestcount()"
     },
     {
@@ -3096,7 +3096,7 @@
       "source_location": "L111",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_onload",
-      "community": 100,
+      "community": 101,
       "norm_label": ".onload()"
     },
     {
@@ -3106,7 +3106,7 @@
       "source_location": "L122",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_setremoved",
-      "community": 100,
+      "community": 101,
       "norm_label": ".setremoved()"
     },
     {
@@ -3116,7 +3116,7 @@
       "source_location": "L130",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getstoredemc",
-      "community": 100,
+      "community": 101,
       "norm_label": ".getstoredemc()"
     },
     {
@@ -3126,7 +3126,7 @@
       "source_location": "L139",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_getmaximumemc",
-      "community": 100,
+      "community": 101,
       "norm_label": ".getmaximumemc()"
     },
     {
@@ -3136,7 +3136,7 @@
       "source_location": "L148",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_receiveemc",
-      "community": 100,
+      "community": 101,
       "norm_label": ".receiveemc()"
     },
     {
@@ -3146,7 +3146,7 @@
       "source_location": "L167",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_block_entity_alchemicalchestblockentity_alchemicalchestblockentity_extractemc",
-      "community": 100,
+      "community": 101,
       "norm_label": ".extractemc()"
     },
     {
@@ -3746,7 +3746,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_block_entity_condenserblockentity_condenserblockentity_producetarget",
-      "community": 1,
+      "community": 57,
       "norm_label": ".producetarget()"
     },
     {
@@ -5316,7 +5316,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork",
-      "community": 103,
+      "community": 143,
       "norm_label": "chestnetwork.java"
     },
     {
@@ -5326,7 +5326,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork",
-      "community": 103,
+      "community": 143,
       "norm_label": "chestnetwork"
     },
     {
@@ -5336,7 +5336,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_java_blockpos",
-      "community": 103,
+      "community": 143,
       "norm_label": "blockpos"
     },
     {
@@ -5346,7 +5346,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_chestnetwork",
-      "community": 103,
+      "community": 143,
       "norm_label": ".chestnetwork()"
     },
     {
@@ -5366,7 +5366,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_getchestpositions",
-      "community": 103,
+      "community": 143,
       "norm_label": ".getchestpositions()"
     },
     {
@@ -5376,7 +5376,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_getchestcount",
-      "community": 103,
+      "community": 101,
       "norm_label": ".getchestcount()"
     },
     {
@@ -5386,7 +5386,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_contains",
-      "community": 103,
+      "community": 143,
       "norm_label": ".contains()"
     },
     {
@@ -5416,7 +5416,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_removechest",
-      "community": 103,
+      "community": 143,
       "norm_label": ".removechest()"
     },
     {
@@ -5426,7 +5426,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_gettotalemc",
-      "community": 103,
+      "community": 143,
       "norm_label": ".gettotalemc()"
     },
     {
@@ -5436,7 +5436,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_getmaxemc",
-      "community": 100,
+      "community": 101,
       "norm_label": ".getmaxemc()"
     },
     {
@@ -5446,7 +5446,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_receiveemc",
-      "community": 100,
+      "community": 101,
       "norm_label": ".receiveemc()"
     },
     {
@@ -5456,7 +5456,7 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_extractemc",
-      "community": 100,
+      "community": 101,
       "norm_label": ".extractemc()"
     },
     {
@@ -5466,7 +5466,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_setnetworkemc",
-      "community": 100,
+      "community": 101,
       "norm_label": ".setnetworkemc()"
     },
     {
@@ -5476,7 +5476,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_save",
-      "community": 103,
+      "community": 143,
       "norm_label": ".save()"
     },
     {
@@ -5486,7 +5486,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "compoundtag",
-      "community": 103,
+      "community": 143,
       "norm_label": "compoundtag"
     },
     {
@@ -5496,7 +5496,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_load",
-      "community": 103,
+      "community": 143,
       "norm_label": ".load()"
     },
     {
@@ -5506,7 +5506,7 @@
       "source_location": "L121",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_equals",
-      "community": 103,
+      "community": 143,
       "norm_label": ".equals()"
     },
     {
@@ -5516,7 +5516,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_java_override",
-      "community": 103,
+      "community": 143,
       "norm_label": "override"
     },
     {
@@ -5526,7 +5526,7 @@
       "source_location": "L128",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetwork_chestnetwork_hashcode",
-      "community": 103,
+      "community": 143,
       "norm_label": ".hashcode()"
     },
     {
@@ -5606,7 +5606,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworkmanager_chestnetworkmanager_getinstance",
-      "community": 100,
+      "community": 101,
       "norm_label": ".getinstance()"
     },
     {
@@ -5616,7 +5616,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworkmanager_chestnetworkmanager_onlevelload",
-      "community": 103,
+      "community": 55,
       "norm_label": ".onlevelload()"
     },
     {
@@ -5626,7 +5626,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworkmanager_java_serverlevel",
-      "community": 103,
+      "community": 55,
       "norm_label": "serverlevel"
     },
     {
@@ -5636,7 +5636,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworkmanager_chestnetworkmanager_onlevelsave",
-      "community": 103,
+      "community": 55,
       "norm_label": ".onlevelsave()"
     },
     {
@@ -5746,7 +5746,7 @@
       "source_location": "L157",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworkmanager_chestnetworkmanager_sendnetworksyncto",
-      "community": 103,
+      "community": 143,
       "norm_label": ".sendnetworksyncto()"
     },
     {
@@ -5776,7 +5776,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworksaveddata",
-      "community": 103,
+      "community": 55,
       "norm_label": "chestnetworksaveddata.java"
     },
     {
@@ -5786,7 +5786,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworksaveddata_chestnetworksaveddata",
-      "community": 103,
+      "community": 55,
       "norm_label": "chestnetworksaveddata"
     },
     {
@@ -5796,7 +5796,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "saveddata",
-      "community": 103,
+      "community": 55,
       "norm_label": "saveddata"
     },
     {
@@ -5806,7 +5806,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworksaveddata_java_saveddatatype",
-      "community": 103,
+      "community": 55,
       "norm_label": "saveddatatype"
     },
     {
@@ -5816,7 +5816,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworksaveddata_chestnetworksaveddata_chestnetworksaveddata",
-      "community": 103,
+      "community": 55,
       "norm_label": ".chestnetworksaveddata()"
     },
     {
@@ -5826,7 +5826,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworksaveddata_chestnetworksaveddata_get",
-      "community": 103,
+      "community": 55,
       "norm_label": ".get()"
     },
     {
@@ -5836,7 +5836,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworksaveddata_java_serverlevel",
-      "community": 103,
+      "community": 55,
       "norm_label": "serverlevel"
     },
     {
@@ -5846,7 +5846,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworksaveddata_chestnetworksaveddata_getnetworks",
-      "community": 103,
+      "community": 55,
       "norm_label": ".getnetworks()"
     },
     {
@@ -5856,7 +5856,7 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworksaveddata_chestnetworksaveddata_setnetworks",
-      "community": 103,
+      "community": 55,
       "norm_label": ".setnetworks()"
     },
     {
@@ -5866,7 +5866,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworksaveddata_chestnetworksaveddata_isdirty",
-      "community": 103,
+      "community": 55,
       "norm_label": ".isdirty()"
     },
     {
@@ -5876,7 +5876,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_chest_chestnetworksaveddata_java_override",
-      "community": 103,
+      "community": 55,
       "norm_label": "override"
     },
     {
@@ -6436,7 +6436,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_customconversion",
-      "community": 266,
+      "community": 56,
       "norm_label": "customconversion"
     },
     {
@@ -6446,7 +6446,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_java_object2intmap",
-      "community": 266,
+      "community": 56,
       "norm_label": "object2intmap"
     },
     {
@@ -6456,7 +6456,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_customconversion_customconversion",
-      "community": 266,
+      "community": 56,
       "norm_label": ".customconversion()"
     },
     {
@@ -6466,7 +6466,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_customconversion_getfor",
-      "community": 266,
+      "community": 56,
       "norm_label": ".getfor()"
     },
     {
@@ -6476,7 +6476,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_customconversion_count",
-      "community": 266,
+      "community": 56,
       "norm_label": ".count()"
     },
     {
@@ -6486,7 +6486,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_customconversion_output",
-      "community": 266,
+      "community": 56,
       "norm_label": ".output()"
     },
     {
@@ -6496,7 +6496,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_customconversion_ingredients",
-      "community": 266,
+      "community": 56,
       "norm_label": ".ingredients()"
     },
     {
@@ -6506,7 +6506,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_customconversion_propagatetags",
-      "community": 266,
+      "community": 56,
       "norm_label": ".propagatetags()"
     },
     {
@@ -6516,7 +6516,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_customconversion_equals",
-      "community": 266,
+      "community": 56,
       "norm_label": ".equals()"
     },
     {
@@ -6526,7 +6526,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_java_override",
-      "community": 266,
+      "community": 56,
       "norm_label": "override"
     },
     {
@@ -6536,7 +6536,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_customconversion_hashcode",
-      "community": 266,
+      "community": 56,
       "norm_label": ".hashcode()"
     },
     {
@@ -6546,7 +6546,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_customconversion_customconversion_tostring",
-      "community": 266,
+      "community": 56,
       "norm_label": ".tostring()"
     },
     {
@@ -6676,7 +6676,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_java",
-      "community": 1,
+      "community": 57,
       "norm_label": "emcnetwork.java"
     },
     {
@@ -6686,7 +6686,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork",
-      "community": 1,
+      "community": 57,
       "norm_label": "emcnetwork"
     },
     {
@@ -6716,7 +6716,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_emcnetwork",
-      "community": 1,
+      "community": 57,
       "norm_label": ".emcnetwork()"
     },
     {
@@ -6736,7 +6736,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_setemc",
-      "community": 1,
+      "community": 57,
       "norm_label": ".setemc()"
     },
     {
@@ -6746,7 +6746,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_addemc",
-      "community": 1,
+      "community": 57,
       "norm_label": ".addemc()"
     },
     {
@@ -6756,7 +6756,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetwork_emcnetwork_takeemc",
-      "community": 1,
+      "community": 57,
       "norm_label": ".takeemc()"
     },
     {
@@ -6766,7 +6766,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetworkdata_java",
-      "community": 103,
+      "community": 55,
       "norm_label": "emcnetworkdata.java"
     },
     {
@@ -6776,7 +6776,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetworkdata_emcnetworkdata",
-      "community": 103,
+      "community": 55,
       "norm_label": "emcnetworkdata"
     },
     {
@@ -6796,7 +6796,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetworkdata_emcnetworkdata_emcnetworkdata",
-      "community": 103,
+      "community": 55,
       "norm_label": ".emcnetworkdata()"
     },
     {
@@ -6806,7 +6806,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emcnetworkdata_emcnetworkdata_isdirty",
-      "community": 103,
+      "community": 55,
       "norm_label": ".isdirty()"
     },
     {
@@ -6826,7 +6826,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_emcvalues",
-      "community": 44,
+      "community": 256,
       "norm_label": "emcvalues.java"
     },
     {
@@ -7116,7 +7116,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_fixedvalues",
-      "community": 266,
+      "community": 28,
       "norm_label": ".fixedvalues()"
     },
     {
@@ -7176,7 +7176,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_conversions",
-      "community": 266,
+      "community": 28,
       "norm_label": ".conversions()"
     },
     {
@@ -7206,7 +7206,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_emc_fixedvalues_fixedvalues_addconversion",
-      "community": 266,
+      "community": 56,
       "norm_label": ".addconversion()"
     },
     {
@@ -8776,7 +8776,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_mapper_ivaluearithmetic_java",
-      "community": 17,
+      "community": 144,
       "norm_label": "ivaluearithmetic.java"
     },
     {
@@ -8786,7 +8786,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_mapper_ivaluearithmetic_ivaluearithmetic",
-      "community": 17,
+      "community": 144,
       "norm_label": "ivaluearithmetic"
     },
     {
@@ -8796,7 +8796,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_mapper_ivaluearithmetic_ivaluearithmetic_add",
-      "community": 17,
+      "community": 144,
       "norm_label": ".add()"
     },
     {
@@ -8806,7 +8806,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_mapper_ivaluearithmetic_ivaluearithmetic_multiply",
-      "community": 17,
+      "community": 144,
       "norm_label": ".multiply()"
     },
     {
@@ -8816,7 +8816,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_mapper_ivaluearithmetic_ivaluearithmetic_getzero",
-      "community": 17,
+      "community": 144,
       "norm_label": ".getzero()"
     },
     {
@@ -8826,7 +8826,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_mapper_ivaluearithmetic_ivaluearithmetic_getone",
-      "community": 17,
+      "community": 144,
       "norm_label": ".getone()"
     },
     {
@@ -8836,7 +8836,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_mapper_ivaluearithmetic_ivaluearithmetic_getinfinite",
-      "community": 17,
+      "community": 144,
       "norm_label": ".getinfinite()"
     },
     {
@@ -8846,7 +8846,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_mapper_ivaluearithmetic_ivaluearithmetic_iszero",
-      "community": 17,
+      "community": 144,
       "norm_label": ".iszero()"
     },
     {
@@ -8856,7 +8856,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_mapper_ivaluearithmetic_ivaluearithmetic_isinfinite",
-      "community": 17,
+      "community": 144,
       "norm_label": ".isinfinite()"
     },
     {
@@ -8866,7 +8866,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_mapper_ivaluearithmetic_ivaluearithmetic_compare",
-      "community": 17,
+      "community": 144,
       "norm_label": ".compare()"
     },
     {
@@ -8876,7 +8876,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_mapper_ivaluearithmetic_ivaluearithmetic_divide",
-      "community": 17,
+      "community": 144,
       "norm_label": ".divide()"
     },
     {
@@ -8886,7 +8886,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_mapper_ivaluearithmetic_ivaluearithmetic_min",
-      "community": 17,
+      "community": 144,
       "norm_label": ".min()"
     },
     {
@@ -9876,7 +9876,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_java",
-      "community": 22,
+      "community": 277,
       "norm_label": "nssitem.java"
     },
     {
@@ -9976,7 +9976,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "itemlike",
-      "community": 22,
+      "community": 277,
       "norm_label": "itemlike"
     },
     {
@@ -11206,7 +11206,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_bagmenu",
-      "community": 50,
+      "community": 265,
       "norm_label": "bagmenu.java"
     },
     {
@@ -11216,7 +11216,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_bagmenu_bagmenu",
-      "community": 50,
+      "community": 265,
       "norm_label": "bagmenu"
     },
     {
@@ -11226,7 +11226,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_bagmenu_java_itemstackhandler",
-      "community": 50,
+      "community": 265,
       "norm_label": "itemstackhandler"
     },
     {
@@ -11236,7 +11236,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_bagmenu_java_player",
-      "community": 50,
+      "community": 265,
       "norm_label": "player"
     },
     {
@@ -11246,7 +11246,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_bagmenu_java_interactionhand",
-      "community": 50,
+      "community": 265,
       "norm_label": "interactionhand"
     },
     {
@@ -11256,7 +11256,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_bagmenu_bagmenu_bagmenu",
-      "community": 50,
+      "community": 265,
       "norm_label": ".bagmenu()"
     },
     {
@@ -11266,7 +11266,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_bagmenu_java_inventory",
-      "community": 50,
+      "community": 265,
       "norm_label": "inventory"
     },
     {
@@ -11276,7 +11276,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_bagmenu_bagmenu_getinventory",
-      "community": 50,
+      "community": 265,
       "norm_label": ".getinventory()"
     },
     {
@@ -11286,7 +11286,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_bagmenu_java_iitemhandler",
-      "community": 50,
+      "community": 265,
       "norm_label": "iitemhandler"
     },
     {
@@ -11296,7 +11296,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_bagmenu_bagmenu_stillvalid",
-      "community": 50,
+      "community": 265,
       "norm_label": ".stillvalid()"
     },
     {
@@ -11306,7 +11306,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_bagmenu_java_override",
-      "community": 50,
+      "community": 265,
       "norm_label": "override"
     },
     {
@@ -11316,7 +11316,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_bagscreen_java",
-      "community": 50,
+      "community": 265,
       "norm_label": "bagscreen.java"
     },
     {
@@ -11326,7 +11326,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_bagscreen_bagscreen",
-      "community": 50,
+      "community": 265,
       "norm_label": "bagscreen"
     },
     {
@@ -11336,7 +11336,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_bagscreen_bagscreen_bagscreen",
-      "community": 50,
+      "community": 265,
       "norm_label": ".bagscreen()"
     },
     {
@@ -11446,7 +11446,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu",
-      "community": 100,
+      "community": 49,
       "norm_label": "chestmenu.java"
     },
     {
@@ -11456,7 +11456,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu",
-      "community": 100,
+      "community": 49,
       "norm_label": "chestmenu"
     },
     {
@@ -11466,7 +11466,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_dataslot",
-      "community": 100,
+      "community": 49,
       "norm_label": "dataslot"
     },
     {
@@ -11476,7 +11476,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_chestmenu",
-      "community": 100,
+      "community": 49,
       "norm_label": ".chestmenu()"
     },
     {
@@ -11486,7 +11486,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_inventory",
-      "community": 100,
+      "community": 49,
       "norm_label": "inventory"
     },
     {
@@ -11496,7 +11496,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_blockpos",
-      "community": 100,
+      "community": 49,
       "norm_label": "blockpos"
     },
     {
@@ -11506,7 +11506,7 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_addplayerinventory",
-      "community": 100,
+      "community": 49,
       "norm_label": ".addplayerinventory()"
     },
     {
@@ -11516,7 +11516,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_removed",
-      "community": 100,
+      "community": 49,
       "norm_label": ".removed()"
     },
     {
@@ -11526,7 +11526,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_player",
-      "community": 100,
+      "community": 49,
       "norm_label": "player"
     },
     {
@@ -11536,7 +11536,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_override",
-      "community": 100,
+      "community": 49,
       "norm_label": "override"
     },
     {
@@ -11546,7 +11546,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_broadcastpe",
-      "community": 100,
+      "community": 101,
       "norm_label": ".broadcastpe()"
     },
     {
@@ -11556,7 +11556,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_stillvalid",
-      "community": 100,
+      "community": 49,
       "norm_label": ".stillvalid()"
     },
     {
@@ -11566,7 +11566,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_quickmovestack",
-      "community": 100,
+      "community": 49,
       "norm_label": ".quickmovestack()"
     },
     {
@@ -11576,7 +11576,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_itemstack",
-      "community": 100,
+      "community": 49,
       "norm_label": "itemstack"
     },
     {
@@ -11586,7 +11586,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_java_notnull",
-      "community": 100,
+      "community": 49,
       "norm_label": "notnull"
     },
     {
@@ -11596,7 +11596,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_getopenness",
-      "community": 100,
+      "community": 49,
       "norm_label": ".getopenness()"
     },
     {
@@ -11606,7 +11606,7 @@
       "source_location": "L120",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_chestmenu_chestmenu_getnetworkchestcount",
-      "community": 100,
+      "community": 49,
       "norm_label": ".getnetworkchestcount()"
     },
     {
@@ -11716,7 +11716,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_collectormenu",
-      "community": 275,
+      "community": 1,
       "norm_label": "collectormenu.java"
     },
     {
@@ -11726,7 +11726,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_collectormenu_collectormenu",
-      "community": 275,
+      "community": 1,
       "norm_label": "collectormenu"
     },
     {
@@ -11736,7 +11736,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_collectormenu_java_dataslot",
-      "community": 275,
+      "community": 1,
       "norm_label": "dataslot"
     },
     {
@@ -11746,7 +11746,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_collectormenu_collectormenu_collectormenu",
-      "community": 275,
+      "community": 1,
       "norm_label": ".collectormenu()"
     },
     {
@@ -11756,7 +11756,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_collectormenu_java_inventory",
-      "community": 275,
+      "community": 1,
       "norm_label": "inventory"
     },
     {
@@ -11766,7 +11766,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_collectormenu_java_blockpos",
-      "community": 275,
+      "community": 1,
       "norm_label": "blockpos"
     },
     {
@@ -11786,7 +11786,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_collectormenu_java_override",
-      "community": 275,
+      "community": 1,
       "norm_label": "override"
     },
     {
@@ -11796,7 +11796,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_collectormenu_collectormenu_stillvalid",
-      "community": 275,
+      "community": 1,
       "norm_label": ".stillvalid()"
     },
     {
@@ -11806,7 +11806,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_collectormenu_java_player",
-      "community": 275,
+      "community": 1,
       "norm_label": "player"
     },
     {
@@ -11826,7 +11826,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_collectormenu_collectormenu_getsunlevel",
-      "community": 275,
+      "community": 1,
       "norm_label": ".getsunlevel()"
     },
     {
@@ -11836,7 +11836,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_collectormenu_collectormenu_getkleinchargeprogress",
-      "community": 275,
+      "community": 1,
       "norm_label": ".getkleinchargeprogress()"
     },
     {
@@ -12056,7 +12056,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condenserscreen_java",
-      "community": 182,
+      "community": 130,
       "norm_label": "condenserscreen.java"
     },
     {
@@ -12066,7 +12066,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condenserscreen_condenserscreen",
-      "community": 182,
+      "community": 130,
       "norm_label": "condenserscreen"
     },
     {
@@ -12076,7 +12076,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condenserscreen_condenserscreen_condenserscreen",
-      "community": 182,
+      "community": 130,
       "norm_label": ".condenserscreen()"
     },
     {
@@ -12106,7 +12106,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condenserscreen_condenserscreen_renderslotboxes",
-      "community": 182,
+      "community": 130,
       "norm_label": ".renderslotboxes()"
     },
     {
@@ -12136,7 +12136,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_condenserscreen_condenserscreen_extractlabels",
-      "community": 142,
+      "community": 130,
       "norm_label": ".extractlabels()"
     },
     {
@@ -12206,7 +12206,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_java",
-      "community": 272,
+      "community": 170,
       "norm_label": "machinemenu.java"
     },
     {
@@ -12216,7 +12216,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu",
-      "community": 272,
+      "community": 170,
       "norm_label": "machinemenu"
     },
     {
@@ -12226,7 +12226,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "abstractcontainermenu",
-      "community": 272,
+      "community": 170,
       "norm_label": "abstractcontainermenu"
     },
     {
@@ -12236,7 +12236,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu_machinemenu",
-      "community": 272,
+      "community": 170,
       "norm_label": ".machinemenu()"
     },
     {
@@ -12256,7 +12256,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinemenu_machinemenu_addplayerinventory",
-      "community": 272,
+      "community": 170,
       "norm_label": ".addplayerinventory()"
     },
     {
@@ -12276,7 +12276,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinescreen_java",
-      "community": 2,
+      "community": 130,
       "norm_label": "machinescreen.java"
     },
     {
@@ -12286,7 +12286,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinescreen_machinescreen",
-      "community": 2,
+      "community": 130,
       "norm_label": "machinescreen"
     },
     {
@@ -12306,7 +12306,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinescreen_machinescreen_machinescreen",
-      "community": 2,
+      "community": 130,
       "norm_label": ".machinescreen()"
     },
     {
@@ -12336,7 +12336,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinescreen_machinescreen_extractbackground",
-      "community": 2,
+      "community": 130,
       "norm_label": ".extractbackground()"
     },
     {
@@ -12366,7 +12366,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinescreen_machinescreen_renderslotboxes",
-      "community": 2,
+      "community": 130,
       "norm_label": ".renderslotboxes()"
     },
     {
@@ -12376,7 +12376,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinescreen_machinescreen_drawslotbox",
-      "community": 2,
+      "community": 130,
       "norm_label": ".drawslotbox()"
     },
     {
@@ -12386,7 +12386,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_machinescreen_machinescreen_drawemc",
-      "community": 142,
+      "community": 130,
       "norm_label": ".drawemc()"
     },
     {
@@ -13016,7 +13016,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_relayscreen_java",
-      "community": 48,
+      "community": 130,
       "norm_label": "relayscreen.java"
     },
     {
@@ -13026,7 +13026,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_relayscreen_relayscreen",
-      "community": 48,
+      "community": 130,
       "norm_label": "relayscreen"
     },
     {
@@ -13036,7 +13036,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_relayscreen_relayscreen_relayscreen",
-      "community": 48,
+      "community": 130,
       "norm_label": ".relayscreen()"
     },
     {
@@ -13066,7 +13066,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_relayscreen_relayscreen_renderslotboxes",
-      "community": 48,
+      "community": 130,
       "norm_label": ".renderslotboxes()"
     },
     {
@@ -13096,7 +13096,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_relayscreen_relayscreen_extractlabels",
-      "community": 142,
+      "community": 130,
       "norm_label": ".extractlabels()"
     },
     {
@@ -13286,7 +13286,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_java",
-      "community": 272,
+      "community": 170,
       "norm_label": "transmutationcontainer.java"
     },
     {
@@ -13326,7 +13326,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmutationcontainer",
-      "community": 272,
+      "community": 170,
       "norm_label": ".transmutationcontainer()"
     },
     {
@@ -13376,7 +13376,7 @@
       "source_location": "L93",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_computeknowledgehash",
-      "community": 272,
+      "community": 106,
       "norm_label": ".computeknowledgehash()"
     },
     {
@@ -13836,7 +13836,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_slotpredicates",
-      "community": 275,
+      "community": 48,
       "norm_label": "slotpredicates.java"
     },
     {
@@ -13846,7 +13846,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_slotpredicates_slotpredicates",
-      "community": 275,
+      "community": 48,
       "norm_label": "slotpredicates"
     },
     {
@@ -13856,7 +13856,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_slotpredicates_java_itemstack",
-      "community": 275,
+      "community": 48,
       "norm_label": "itemstack"
     },
     {
@@ -13866,7 +13866,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_slotpredicates_slotpredicates_slotpredicates",
-      "community": 275,
+      "community": 48,
       "norm_label": ".slotpredicates()"
     },
     {
@@ -13876,7 +13876,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_validatedcontainerslot",
-      "community": 101,
+      "community": 182,
       "norm_label": "validatedcontainerslot.java"
     },
     {
@@ -13886,7 +13886,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_validatedcontainerslot_validatedcontainerslot",
-      "community": 101,
+      "community": 182,
       "norm_label": "validatedcontainerslot"
     },
     {
@@ -13896,7 +13896,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "slot",
-      "community": 272,
+      "community": 170,
       "norm_label": "slot"
     },
     {
@@ -13906,7 +13906,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_validatedcontainerslot_java_itemstack",
-      "community": 101,
+      "community": 182,
       "norm_label": "itemstack"
     },
     {
@@ -13916,7 +13916,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_validatedcontainerslot_validatedcontainerslot_validatedcontainerslot",
-      "community": 101,
+      "community": 182,
       "norm_label": ".validatedcontainerslot()"
     },
     {
@@ -13926,7 +13926,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "container",
-      "community": 101,
+      "community": 182,
       "norm_label": "container"
     },
     {
@@ -13936,7 +13936,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_validatedcontainerslot_validatedcontainerslot_mayplace",
-      "community": 101,
+      "community": 182,
       "norm_label": ".mayplace()"
     },
     {
@@ -13946,7 +13946,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_validatedcontainerslot_java_override",
-      "community": 101,
+      "community": 182,
       "norm_label": "override"
     },
     {
@@ -14026,7 +14026,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin",
-      "community": 49,
+      "community": 43,
       "norm_label": "equivalentlegacyjeiplugin.java"
     },
     {
@@ -14036,7 +14036,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_equivalentlegacyjeiplugin",
-      "community": 49,
+      "community": 43,
       "norm_label": "equivalentlegacyjeiplugin"
     },
     {
@@ -14046,7 +14046,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "imodplugin",
-      "community": 49,
+      "community": 43,
       "norm_label": "imodplugin"
     },
     {
@@ -14056,7 +14056,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "jeiplugin",
-      "community": 49,
+      "community": 43,
       "norm_label": "jeiplugin"
     },
     {
@@ -14066,7 +14066,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_java_identifier",
-      "community": 49,
+      "community": 43,
       "norm_label": "identifier"
     },
     {
@@ -14076,7 +14076,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_java_irecipetype",
-      "community": 49,
+      "community": 43,
       "norm_label": "irecipetype"
     },
     {
@@ -14086,7 +14086,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_equivalentlegacyjeiplugin_getpluginuid",
-      "community": 49,
+      "community": 43,
       "norm_label": ".getpluginuid()"
     },
     {
@@ -14096,7 +14096,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_java_override",
-      "community": 49,
+      "community": 43,
       "norm_label": "override"
     },
     {
@@ -14106,7 +14106,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_equivalentlegacyjeiplugin_registercategories",
-      "community": 49,
+      "community": 43,
       "norm_label": ".registercategories()"
     },
     {
@@ -14116,7 +14116,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "irecipecategoryregistration",
-      "community": 49,
+      "community": 43,
       "norm_label": "irecipecategoryregistration"
     },
     {
@@ -14126,7 +14126,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_equivalentlegacyjeiplugin_registerrecipes",
-      "community": 49,
+      "community": 43,
       "norm_label": ".registerrecipes()"
     },
     {
@@ -14136,7 +14136,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "ireciperegistration",
-      "community": 49,
+      "community": 43,
       "norm_label": "ireciperegistration"
     },
     {
@@ -14146,7 +14146,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_equivalentlegacyjeiplugin_registerrecipecatalysts",
-      "community": 49,
+      "community": 43,
       "norm_label": ".registerrecipecatalysts()"
     },
     {
@@ -14156,7 +14156,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "irecipecatalystregistration",
-      "community": 49,
+      "community": 43,
       "norm_label": "irecipecatalystregistration"
     },
     {
@@ -14166,7 +14166,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_jei_equivalentlegacyjeiplugin_equivalentlegacyjeiplugin_loadtransmutationrecipes",
-      "community": 49,
+      "community": 43,
       "norm_label": ".loadtransmutationrecipes()"
     },
     {
@@ -14436,7 +14436,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin",
-      "community": 171,
+      "community": 88,
       "norm_label": "equivalentlegacywthitplugin.java"
     },
     {
@@ -14446,7 +14446,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin_equivalentlegacywthitplugin",
-      "community": 171,
+      "community": 88,
       "norm_label": "equivalentlegacywthitplugin"
     },
     {
@@ -14456,7 +14456,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iwailaclientplugin",
-      "community": 171,
+      "community": 88,
       "norm_label": "iwailaclientplugin"
     },
     {
@@ -14466,7 +14466,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin_equivalentlegacywthitplugin_register",
-      "community": 171,
+      "community": 88,
       "norm_label": ".register()"
     },
     {
@@ -14476,7 +14476,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iclientregistrar",
-      "community": 171,
+      "community": 88,
       "norm_label": "iclientregistrar"
     },
     {
@@ -14486,7 +14486,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_integration_wthit_equivalentlegacywthitplugin_java_override",
-      "community": 171,
+      "community": 88,
       "norm_label": "override"
     },
     {
@@ -14616,7 +14616,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_java",
-      "community": 69,
+      "community": 265,
       "norm_label": "alchemicalbag.java"
     },
     {
@@ -14646,7 +14646,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_alchemicalbag_alchemicalbag_createinventory",
-      "community": 50,
+      "community": 265,
       "norm_label": ".createinventory()"
     },
     {
@@ -15366,7 +15366,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "items",
-      "community": 32,
+      "community": 30,
       "norm_label": "items"
     },
     {
@@ -15486,7 +15486,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_java",
-      "community": 169,
+      "community": 23,
       "norm_label": "equivalentlegacytags.java"
     },
     {
@@ -15496,7 +15496,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags",
-      "community": 169,
+      "community": 23,
       "norm_label": "equivalentlegacytags"
     },
     {
@@ -15526,7 +15526,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags_itemtag",
-      "community": 169,
+      "community": 23,
       "norm_label": ".itemtag()"
     },
     {
@@ -15536,7 +15536,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_equivalentlegacytags_equivalentlegacytags_equivalentlegacytags",
-      "community": 169,
+      "community": 23,
       "norm_label": ".equivalentlegacytags()"
     },
     {
@@ -15656,7 +15656,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_kleinstar",
-      "community": 6,
+      "community": 160,
       "norm_label": "kleinstar"
     },
     {
@@ -15686,7 +15686,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_kleinstar_getstoredemc",
-      "community": 6,
+      "community": 160,
       "norm_label": ".getstoredemc()"
     },
     {
@@ -15706,7 +15706,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_kleinstar_getmaxemc",
-      "community": 6,
+      "community": 160,
       "norm_label": ".getmaxemc()"
     },
     {
@@ -15716,7 +15716,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_kleinstar_getspace",
-      "community": 6,
+      "community": 160,
       "norm_label": ".getspace()"
     },
     {
@@ -15726,7 +15726,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_kleinstar_insertemc",
-      "community": 6,
+      "community": 160,
       "norm_label": ".insertemc()"
     },
     {
@@ -15736,7 +15736,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_kleinstar_extractemc",
-      "community": 6,
+      "community": 160,
       "norm_label": ".extractemc()"
     },
     {
@@ -15746,7 +15746,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_kleinstar_use",
-      "community": 6,
+      "community": 160,
       "norm_label": ".use()"
     },
     {
@@ -15806,7 +15806,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_kleinstar_isbarvisible",
-      "community": 6,
+      "community": 160,
       "norm_label": ".isbarvisible()"
     },
     {
@@ -15816,7 +15816,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_kleinstar_getbarwidth",
-      "community": 6,
+      "community": 160,
       "norm_label": ".getbarwidth()"
     },
     {
@@ -15826,7 +15826,7 @@
       "source_location": "L99",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_kleinstar_getbarcolor",
-      "community": 6,
+      "community": 160,
       "norm_label": ".getbarcolor()"
     },
     {
@@ -15836,7 +15836,7 @@
       "source_location": "L109",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_kleinstar_kleinstar_appendhovertext",
-      "community": 6,
+      "community": 160,
       "norm_label": ".appendhovertext()"
     },
     {
@@ -15986,7 +15986,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_mattermaterials_java",
-      "community": 247,
+      "community": 209,
       "norm_label": "mattermaterials.java"
     },
     {
@@ -15996,7 +15996,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials",
-      "community": 247,
+      "community": 209,
       "norm_label": "mattermaterials"
     },
     {
@@ -16006,7 +16006,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "toolmaterial",
-      "community": 247,
+      "community": 209,
       "norm_label": "toolmaterial"
     },
     {
@@ -16026,7 +16026,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "equipmentasset",
-      "community": 247,
+      "community": 209,
       "norm_label": "equipmentasset"
     },
     {
@@ -16036,7 +16036,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "armormaterial",
-      "community": 247,
+      "community": 209,
       "norm_label": "armormaterial"
     },
     {
@@ -16046,7 +16046,7 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_mattermaterials_mattermaterials_mattermaterials",
-      "community": 247,
+      "community": 209,
       "norm_label": ".mattermaterials()"
     },
     {
@@ -16346,7 +16346,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_misctoolitem_misctoolitem_useon",
-      "community": 102,
+      "community": 277,
       "norm_label": ".useon()"
     },
     {
@@ -16416,7 +16416,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_peaxe",
-      "community": 3,
+      "community": 161,
       "norm_label": "peaxe.java"
     },
     {
@@ -16426,7 +16426,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_peaxe_peaxe",
-      "community": 3,
+      "community": 161,
       "norm_label": "peaxe"
     },
     {
@@ -16436,7 +16436,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_peaxe_peaxe_peaxe",
-      "community": 3,
+      "community": 161,
       "norm_label": ".peaxe()"
     },
     {
@@ -16446,7 +16446,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_peaxe_peaxe_mineblock",
-      "community": 3,
+      "community": 161,
       "norm_label": ".mineblock()"
     },
     {
@@ -16456,7 +16456,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_peaxe_java_itemstack",
-      "community": 3,
+      "community": 161,
       "norm_label": "itemstack"
     },
     {
@@ -16466,7 +16466,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_peaxe_java_level",
-      "community": 3,
+      "community": 161,
       "norm_label": "level"
     },
     {
@@ -16476,7 +16476,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_peaxe_java_blockstate",
-      "community": 3,
+      "community": 161,
       "norm_label": "blockstate"
     },
     {
@@ -16486,7 +16486,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_peaxe_java_blockpos",
-      "community": 3,
+      "community": 161,
       "norm_label": "blockpos"
     },
     {
@@ -16496,7 +16496,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_peaxe_java_livingentity",
-      "community": 3,
+      "community": 161,
       "norm_label": "livingentity"
     },
     {
@@ -16506,7 +16506,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_peaxe_java_override",
-      "community": 3,
+      "community": 161,
       "norm_label": "override"
     },
     {
@@ -16516,7 +16516,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pepickaxe",
-      "community": 3,
+      "community": 168,
       "norm_label": "pepickaxe.java"
     },
     {
@@ -16526,7 +16526,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pepickaxe_pepickaxe",
-      "community": 3,
+      "community": 168,
       "norm_label": "pepickaxe"
     },
     {
@@ -16536,7 +16536,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pepickaxe_pepickaxe_pepickaxe",
-      "community": 3,
+      "community": 168,
       "norm_label": ".pepickaxe()"
     },
     {
@@ -16546,7 +16546,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pepickaxe_pepickaxe_mineblock",
-      "community": 3,
+      "community": 168,
       "norm_label": ".mineblock()"
     },
     {
@@ -16556,7 +16556,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pepickaxe_java_itemstack",
-      "community": 3,
+      "community": 168,
       "norm_label": "itemstack"
     },
     {
@@ -16566,7 +16566,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pepickaxe_java_level",
-      "community": 3,
+      "community": 168,
       "norm_label": "level"
     },
     {
@@ -16576,7 +16576,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pepickaxe_java_blockstate",
-      "community": 3,
+      "community": 168,
       "norm_label": "blockstate"
     },
     {
@@ -16586,7 +16586,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pepickaxe_java_blockpos",
-      "community": 3,
+      "community": 168,
       "norm_label": "blockpos"
     },
     {
@@ -16596,7 +16596,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pepickaxe_java_livingentity",
-      "community": 3,
+      "community": 168,
       "norm_label": "livingentity"
     },
     {
@@ -16606,7 +16606,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pepickaxe_java_override",
-      "community": 3,
+      "community": 168,
       "norm_label": "override"
     },
     {
@@ -16616,7 +16616,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pesaw",
-      "community": 3,
+      "community": 169,
       "norm_label": "pesaw.java"
     },
     {
@@ -16626,7 +16626,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pesaw_pesaw",
-      "community": 3,
+      "community": 169,
       "norm_label": "pesaw"
     },
     {
@@ -16636,7 +16636,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pesaw_pesaw_pesaw",
-      "community": 3,
+      "community": 169,
       "norm_label": ".pesaw()"
     },
     {
@@ -16646,7 +16646,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pesaw_pesaw_mineblock",
-      "community": 3,
+      "community": 169,
       "norm_label": ".mineblock()"
     },
     {
@@ -16656,7 +16656,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pesaw_java_itemstack",
-      "community": 3,
+      "community": 169,
       "norm_label": "itemstack"
     },
     {
@@ -16666,7 +16666,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pesaw_java_level",
-      "community": 3,
+      "community": 169,
       "norm_label": "level"
     },
     {
@@ -16676,7 +16676,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pesaw_java_blockstate",
-      "community": 3,
+      "community": 169,
       "norm_label": "blockstate"
     },
     {
@@ -16686,7 +16686,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pesaw_java_blockpos",
-      "community": 3,
+      "community": 169,
       "norm_label": "blockpos"
     },
     {
@@ -16696,7 +16696,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pesaw_java_livingentity",
-      "community": 3,
+      "community": 169,
       "norm_label": "livingentity"
     },
     {
@@ -16706,7 +16706,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_item_pesaw_java_override",
-      "community": 3,
+      "community": 169,
       "norm_label": "override"
     },
     {
@@ -16716,7 +16716,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_philosophersstone_java",
-      "community": 130,
+      "community": 277,
       "norm_label": "philosophersstone.java"
     },
     {
@@ -16726,7 +16726,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone",
-      "community": 130,
+      "community": 277,
       "norm_label": "philosophersstone"
     },
     {
@@ -16736,7 +16736,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_philosophersstone",
-      "community": 130,
+      "community": 277,
       "norm_label": ".philosophersstone()"
     },
     {
@@ -16746,7 +16746,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_use",
-      "community": 130,
+      "community": 277,
       "norm_label": ".use()"
     },
     {
@@ -16806,7 +16806,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_philosophersstone_philosophersstone_getemcvalue",
-      "community": 130,
+      "community": 277,
       "norm_label": ".getemcvalue()"
     },
     {
@@ -16956,7 +16956,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
-      "community": 106,
+      "community": 243,
       "norm_label": ".use()"
     },
     {
@@ -17386,7 +17386,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "holder",
-      "community": 22,
+      "community": 209,
       "norm_label": "holder"
     },
     {
@@ -17716,7 +17716,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_chestlinkpayload",
-      "community": 55,
+      "community": 92,
       "norm_label": "chestlinkpayload.java"
     },
     {
@@ -17726,7 +17726,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_chestlinkpayload_chestlinkpayload",
-      "community": 55,
+      "community": 92,
       "norm_label": "chestlinkpayload"
     },
     {
@@ -17746,7 +17746,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_chestlinkpayload_java_blockpos",
-      "community": 55,
+      "community": 92,
       "norm_label": "blockpos"
     },
     {
@@ -17756,7 +17756,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_chestlinkpayload_java_type",
-      "community": 55,
+      "community": 92,
       "norm_label": "type"
     },
     {
@@ -17766,7 +17766,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_chestlinkpayload_java_streamcodec",
-      "community": 55,
+      "community": 92,
       "norm_label": "streamcodec"
     },
     {
@@ -17776,7 +17776,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_chestlinkpayload_java_bytebuf",
-      "community": 55,
+      "community": 92,
       "norm_label": "bytebuf"
     },
     {
@@ -17786,7 +17786,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_chestlinkpayload_chestlinkpayload_type",
-      "community": 55,
+      "community": 92,
       "norm_label": ".type()"
     },
     {
@@ -17796,7 +17796,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_chestlinkpayload_java_override",
-      "community": 55,
+      "community": 92,
       "norm_label": "override"
     },
     {
@@ -17806,7 +17806,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_chestlinkpayload_chestlinkpayload_handle",
-      "community": 55,
+      "community": 92,
       "norm_label": ".handle()"
     },
     {
@@ -17816,7 +17816,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_chestlinkpayload_java_ipayloadcontext",
-      "community": 55,
+      "community": 92,
       "norm_label": "ipayloadcontext"
     },
     {
@@ -18386,7 +18386,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload",
-      "community": 103,
+      "community": 137,
       "norm_label": "syncnetworkdatapayload.java"
     },
     {
@@ -18396,7 +18396,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_syncnetworkdatapayload",
-      "community": 103,
+      "community": 137,
       "norm_label": "syncnetworkdatapayload"
     },
     {
@@ -18406,7 +18406,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_java_blockpos",
-      "community": 103,
+      "community": 137,
       "norm_label": "blockpos"
     },
     {
@@ -18416,7 +18416,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_java_type",
-      "community": 103,
+      "community": 137,
       "norm_label": "type"
     },
     {
@@ -18426,7 +18426,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_java_streamcodec",
-      "community": 103,
+      "community": 137,
       "norm_label": "streamcodec"
     },
     {
@@ -18436,7 +18436,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_java_bytebuf",
-      "community": 103,
+      "community": 137,
       "norm_label": "bytebuf"
     },
     {
@@ -18446,7 +18446,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_syncnetworkdatapayload_type",
-      "community": 103,
+      "community": 137,
       "norm_label": ".type()"
     },
     {
@@ -18456,7 +18456,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_java_override",
-      "community": 103,
+      "community": 137,
       "norm_label": "override"
     },
     {
@@ -18466,7 +18466,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_syncnetworkdatapayload_handle",
-      "community": 103,
+      "community": 137,
       "norm_label": ".handle()"
     },
     {
@@ -18476,7 +18476,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_java_ipayloadcontext",
-      "community": 103,
+      "community": 137,
       "norm_label": "ipayloadcontext"
     },
     {
@@ -18486,7 +18486,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_clientnetworkcache",
-      "community": 103,
+      "community": 137,
       "norm_label": "clientnetworkcache"
     },
     {
@@ -18496,7 +18496,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_clientnetworkcache_handle",
-      "community": 103,
+      "community": 137,
       "norm_label": ".handle()"
     },
     {
@@ -18506,7 +18506,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_clientnetworkcache_getnetworkfor",
-      "community": 103,
+      "community": 137,
       "norm_label": ".getnetworkfor()"
     },
     {
@@ -18516,7 +18516,7 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_clientnetworkcache_getnetworkchestcount",
-      "community": 103,
+      "community": 137,
       "norm_label": ".getnetworkchestcount()"
     },
     {
@@ -18526,7 +18526,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_clientnetworkcache_getnetworktotalemc",
-      "community": 103,
+      "community": 137,
       "norm_label": ".getnetworktotalemc()"
     },
     {
@@ -18536,7 +18536,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_network_payload_syncnetworkdatapayload_clientnetworkcache_clear",
-      "community": 103,
+      "community": 137,
       "norm_label": ".clear()"
     },
     {
@@ -18636,7 +18636,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_java",
-      "community": 129,
+      "community": 136,
       "norm_label": "equivalentlegacyattachments.java"
     },
     {
@@ -18646,7 +18646,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments",
-      "community": 129,
+      "community": 136,
       "norm_label": "equivalentlegacyattachments"
     },
     {
@@ -18666,7 +18666,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "attachmenttype",
-      "community": 129,
+      "community": 136,
       "norm_label": "attachmenttype"
     },
     {
@@ -18676,7 +18676,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_equivalentlegacyattachments_equivalentlegacyattachments_equivalentlegacyattachments",
-      "community": 129,
+      "community": 136,
       "norm_label": ".equivalentlegacyattachments()"
     },
     {
@@ -18756,7 +18756,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_addemc",
-      "community": 106,
+      "community": 129,
       "norm_label": ".addemc()"
     },
     {
@@ -18786,7 +18786,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_learnitem",
-      "community": 277,
+      "community": 272,
       "norm_label": ".learnitem()"
     },
     {
@@ -18806,7 +18806,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_unlearnitem",
-      "community": 31,
+      "community": 129,
       "norm_label": ".unlearnitem()"
     },
     {
@@ -18816,7 +18816,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getknownitems",
-      "community": 272,
+      "community": 106,
       "norm_label": ".getknownitems()"
     },
     {
@@ -18826,7 +18826,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasfullknowledge",
-      "community": 106,
+      "community": 243,
       "norm_label": ".hasfullknowledge()"
     },
     {
@@ -18836,7 +18836,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setfullknowledge",
-      "community": 106,
+      "community": 243,
       "norm_label": ".setfullknowledge()"
     },
     {
@@ -18856,7 +18856,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_sync",
-      "community": 106,
+      "community": 243,
       "norm_label": ".sync()"
     },
     {
@@ -18946,7 +18946,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_addemc",
-      "community": 106,
+      "community": 129,
       "norm_label": ".addemc()"
     },
     {
@@ -18966,7 +18966,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_getknowledge",
-      "community": 272,
+      "community": 106,
       "norm_label": ".getknowledge()"
     },
     {
@@ -18986,7 +18986,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_addknowledge",
-      "community": 277,
+      "community": 272,
       "norm_label": ".addknowledge()"
     },
     {
@@ -18996,7 +18996,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_removeknowledge",
-      "community": 31,
+      "community": 129,
       "norm_label": ".removeknowledge()"
     },
     {
@@ -19016,7 +19016,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_hasfullknowledge",
-      "community": 106,
+      "community": 243,
       "norm_label": ".hasfullknowledge()"
     },
     {
@@ -19026,7 +19026,7 @@
       "source_location": "L85",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setfullknowledge",
-      "community": 106,
+      "community": 243,
       "norm_label": ".setfullknowledge()"
     },
     {
@@ -22210,10 +22210,70 @@
       "norm_label": "changelog - equivalent legacy 26.2"
     },
     {
-      "label": "[1.3.0-beta.7] - 2026-08-07",
+      "label": "[1.3.0-beta.9] - 2026-08-08",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
       "source_location": "L3",
+      "_origin": "ast",
+      "id": "changelog_1_3_0_beta_9_2026_08_08",
+      "community": 15,
+      "norm_label": "[1.3.0-beta.9] - 2026-08-08"
+    },
+    {
+      "label": "\ud83d\udc1b Bug Fixes",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "changelog_bug_fixes",
+      "community": 15,
+      "norm_label": "\ud83d\udc1b bug fixes"
+    },
+    {
+      "label": "\u2699\ufe0f Technical",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "changelog_technical",
+      "community": 15,
+      "norm_label": "\u2699\ufe0f technical"
+    },
+    {
+      "label": "[1.3.0-beta.8] - 2026-08-07",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "changelog_1_3_0_beta_8_2026_08_07",
+      "community": 15,
+      "norm_label": "[1.3.0-beta.8] - 2026-08-07"
+    },
+    {
+      "label": "\ud83d\udc1b Bug Fixes",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "changelog_bug_fixes_15",
+      "community": 15,
+      "norm_label": "\ud83d\udc1b bug fixes"
+    },
+    {
+      "label": "\u2699\ufe0f Technical",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "changelog_technical_19",
+      "community": 15,
+      "norm_label": "\u2699\ufe0f technical"
+    },
+    {
+      "label": "[1.3.0-beta.7] - 2026-08-07",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "changelog_1_3_0_beta_7_2026_08_07",
       "community": 15,
@@ -22223,7 +22283,7 @@
       "label": "\u2728 Features Complete",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L5",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "changelog_features_complete",
       "community": 15,
@@ -22233,7 +22293,7 @@
       "label": "[1.2.0-RELEASE] - 2026-08-07",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L14",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "changelog_1_2_0_release_2026_08_07",
       "community": 15,
@@ -22243,7 +22303,7 @@
       "label": "\u2728 Major Features",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L16",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "changelog_major_features",
       "community": 15,
@@ -22253,7 +22313,7 @@
       "label": "Phase 1A: Container Infrastructure Rewrite",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L18",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "changelog_phase_1a_container_infrastructure_rewrite",
       "community": 15,
@@ -22263,7 +22323,7 @@
       "label": "Phase 1B: EMC Registry System (Complete Port from Equivox 26.1.2)",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L43",
+      "source_location": "L64",
       "_origin": "ast",
       "id": "changelog_phase_1b_emc_registry_system_complete_port_from_equivox_26_1_2",
       "community": 15,
@@ -22273,7 +22333,7 @@
       "label": "Subsystem 1: Hardcoded EMC Values (235+ items)",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L47",
+      "source_location": "L68",
       "_origin": "ast",
       "id": "changelog_subsystem_1_hardcoded_emc_values_235_items",
       "community": 15,
@@ -22283,7 +22343,7 @@
       "label": "Subsystem 2: EMCMappingHandler (Central Coordinator)",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L70",
+      "source_location": "L91",
       "_origin": "ast",
       "id": "changelog_subsystem_2_emcmappinghandler_central_coordinator",
       "community": 15,
@@ -22293,7 +22353,7 @@
       "label": "Subsystem 3: DataComponentMapper (8 Component Processors)",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L93",
+      "source_location": "L114",
       "_origin": "ast",
       "id": "changelog_subsystem_3_datacomponentmapper_8_component_processors",
       "community": 15,
@@ -22303,7 +22363,7 @@
       "label": "Subsystem 4: Special Mappers (4 Mappers)",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L110",
+      "source_location": "L131",
       "_origin": "ast",
       "id": "changelog_subsystem_4_special_mappers_4_mappers",
       "community": 15,
@@ -22313,7 +22373,7 @@
       "label": "Subsystem 5: Capabilities & Public API",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L116",
+      "source_location": "L137",
       "_origin": "ast",
       "id": "changelog_subsystem_5_capabilities_public_api",
       "community": 15,
@@ -22323,7 +22383,7 @@
       "label": "Phase 2: Data Files & Localization (Complete Port) \u2705",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L135",
+      "source_location": "L156",
       "_origin": "ast",
       "id": "changelog_phase_2_data_files_localization_complete_port",
       "community": 15,
@@ -22333,9 +22393,9 @@
       "label": "\ud83d\udc1b Bug Fixes",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L154",
+      "source_location": "L175",
       "_origin": "ast",
-      "id": "changelog_bug_fixes",
+      "id": "changelog_bug_fixes_175",
       "community": 15,
       "norm_label": "\ud83d\udc1b bug fixes"
     },
@@ -22343,7 +22403,7 @@
       "label": "\ud83d\udccb Technical Details",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L160",
+      "source_location": "L181",
       "_origin": "ast",
       "id": "changelog_technical_details",
       "community": 15,
@@ -22353,7 +22413,7 @@
       "label": "Normalized Simple Stack (NSS)",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L162",
+      "source_location": "L183",
       "_origin": "ast",
       "id": "changelog_normalized_simple_stack_nss",
       "community": 15,
@@ -22363,7 +22423,7 @@
       "label": "BoxedLong Pattern",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L169",
+      "source_location": "L190",
       "_origin": "ast",
       "id": "changelog_boxedlong_pattern",
       "community": 15,
@@ -22373,7 +22433,7 @@
       "label": "Priority Resolution",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L176",
+      "source_location": "L197",
       "_origin": "ast",
       "id": "changelog_priority_resolution",
       "community": 15,
@@ -22383,7 +22443,7 @@
       "label": "\u2699\ufe0f Architecture Improvements",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L184",
+      "source_location": "L205",
       "_origin": "ast",
       "id": "changelog_architecture_improvements",
       "community": 15,
@@ -22393,7 +22453,7 @@
       "label": "\ud83d\ude80 Ready for Phase 2",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L191",
+      "source_location": "L212",
       "_origin": "ast",
       "id": "changelog_ready_for_phase_2",
       "community": 15,
@@ -22403,7 +22463,7 @@
       "label": "\ud83d\udcdd Known Limitations (Phase 1B)",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L199",
+      "source_location": "L220",
       "_origin": "ast",
       "id": "changelog_known_limitations_phase_1b",
       "community": 15,
@@ -22413,7 +22473,7 @@
       "label": "\ud83d\udce6 Files Changed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L206",
+      "source_location": "L227",
       "_origin": "ast",
       "id": "changelog_files_changed",
       "community": 15,
@@ -22423,7 +22483,7 @@
       "label": "\ud83d\udd17 Commits",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L238",
+      "source_location": "L259",
       "_origin": "ast",
       "id": "changelog_commits",
       "community": 15,
@@ -22433,7 +22493,7 @@
       "label": "[1.2.0-beta.10] - Previous Release",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L252",
+      "source_location": "L273",
       "_origin": "ast",
       "id": "changelog_1_2_0_beta_10_previous_release",
       "community": 15,
@@ -23988,6 +24048,86 @@
       "id": "docs_curseforge_versions_1_3_0_beta_7",
       "community": 131,
       "norm_label": "1.3.0-beta.7.md"
+    },
+    {
+      "label": "1.3.0-beta.8.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_3_0_beta_8",
+      "community": 171,
+      "norm_label": "1.3.0-beta.8.md"
+    },
+    {
+      "label": "Equivalent Legacy 1.3.0-beta.8 \u2014 Block Rendering & Translation Fixes",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_3_0_beta_8_equivalent_legacy_1_3_0_beta_8_block_rendering_translation_fixes",
+      "community": 171,
+      "norm_label": "equivalent legacy 1.3.0-beta.8 \u2014 block rendering & translation fixes"
+    },
+    {
+      "label": "\ud83d\udc1b Bug Fixes",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_3_0_beta_8_bug_fixes",
+      "community": 171,
+      "norm_label": "\ud83d\udc1b bug fixes"
+    },
+    {
+      "label": "Block Rendering",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_3_0_beta_8_block_rendering",
+      "community": 171,
+      "norm_label": "block rendering"
+    },
+    {
+      "label": "Translations",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_3_0_beta_8_translations",
+      "community": 171,
+      "norm_label": "translations"
+    },
+    {
+      "label": "\ud83d\udce6 What's Included",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_3_0_beta_8_what_s_included",
+      "community": 171,
+      "norm_label": "\ud83d\udce6 what's included"
+    },
+    {
+      "label": "\u2705 Testing Notes",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_3_0_beta_8_testing_notes",
+      "community": 171,
+      "norm_label": "\u2705 testing notes"
+    },
+    {
+      "label": "1.3.0-beta.9.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.9.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_3_0_beta_9",
+      "community": 244,
+      "norm_label": "1.3.0-beta.9.md"
     },
     {
       "label": "1.3.0.md",
@@ -63567,7 +63707,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L252",
+      "source_location": "L273",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy_26_2",
       "target": "changelog_1_2_0_beta_10_previous_release",
@@ -63577,7 +63717,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L14",
+      "source_location": "L35",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy_26_2",
       "target": "changelog_1_2_0_release_2026_08_07",
@@ -63587,7 +63727,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L3",
+      "source_location": "L24",
       "weight": 1.0,
       "source": "changelog_changelog_equivalent_legacy_26_2",
       "target": "changelog_1_3_0_beta_7_2026_08_07",
@@ -63597,7 +63737,67 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "changelog_changelog_equivalent_legacy_26_2",
+      "target": "changelog_1_3_0_beta_8_2026_08_07",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "changelog_changelog_equivalent_legacy_26_2",
+      "target": "changelog_1_3_0_beta_9_2026_08_08",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
       "source_location": "L5",
+      "weight": 1.0,
+      "source": "changelog_1_3_0_beta_9_2026_08_08",
+      "target": "changelog_bug_fixes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "changelog_1_3_0_beta_9_2026_08_08",
+      "target": "changelog_technical",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "changelog_1_3_0_beta_8_2026_08_07",
+      "target": "changelog_bug_fixes_15",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "changelog_1_3_0_beta_8_2026_08_07",
+      "target": "changelog_technical_19",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L26",
       "weight": 1.0,
       "source": "changelog_1_3_0_beta_7_2026_08_07",
       "target": "changelog_features_complete",
@@ -63607,7 +63807,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L184",
+      "source_location": "L205",
       "weight": 1.0,
       "source": "changelog_1_2_0_release_2026_08_07",
       "target": "changelog_architecture_improvements",
@@ -63617,17 +63817,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L154",
+      "source_location": "L175",
       "weight": 1.0,
       "source": "changelog_1_2_0_release_2026_08_07",
-      "target": "changelog_bug_fixes",
+      "target": "changelog_bug_fixes_175",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L238",
+      "source_location": "L259",
       "weight": 1.0,
       "source": "changelog_1_2_0_release_2026_08_07",
       "target": "changelog_commits",
@@ -63637,7 +63837,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L206",
+      "source_location": "L227",
       "weight": 1.0,
       "source": "changelog_1_2_0_release_2026_08_07",
       "target": "changelog_files_changed",
@@ -63647,7 +63847,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L199",
+      "source_location": "L220",
       "weight": 1.0,
       "source": "changelog_1_2_0_release_2026_08_07",
       "target": "changelog_known_limitations_phase_1b",
@@ -63657,7 +63857,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L16",
+      "source_location": "L37",
       "weight": 1.0,
       "source": "changelog_1_2_0_release_2026_08_07",
       "target": "changelog_major_features",
@@ -63667,7 +63867,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L191",
+      "source_location": "L212",
       "weight": 1.0,
       "source": "changelog_1_2_0_release_2026_08_07",
       "target": "changelog_ready_for_phase_2",
@@ -63677,7 +63877,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L160",
+      "source_location": "L181",
       "weight": 1.0,
       "source": "changelog_1_2_0_release_2026_08_07",
       "target": "changelog_technical_details",
@@ -63687,7 +63887,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L18",
+      "source_location": "L39",
       "weight": 1.0,
       "source": "changelog_major_features",
       "target": "changelog_phase_1a_container_infrastructure_rewrite",
@@ -63697,7 +63897,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L43",
+      "source_location": "L64",
       "weight": 1.0,
       "source": "changelog_major_features",
       "target": "changelog_phase_1b_emc_registry_system_complete_port_from_equivox_26_1_2",
@@ -63707,7 +63907,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L135",
+      "source_location": "L156",
       "weight": 1.0,
       "source": "changelog_major_features",
       "target": "changelog_phase_2_data_files_localization_complete_port",
@@ -63717,7 +63917,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L47",
+      "source_location": "L68",
       "weight": 1.0,
       "source": "changelog_phase_1b_emc_registry_system_complete_port_from_equivox_26_1_2",
       "target": "changelog_subsystem_1_hardcoded_emc_values_235_items",
@@ -63727,7 +63927,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L70",
+      "source_location": "L91",
       "weight": 1.0,
       "source": "changelog_phase_1b_emc_registry_system_complete_port_from_equivox_26_1_2",
       "target": "changelog_subsystem_2_emcmappinghandler_central_coordinator",
@@ -63737,7 +63937,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L93",
+      "source_location": "L114",
       "weight": 1.0,
       "source": "changelog_phase_1b_emc_registry_system_complete_port_from_equivox_26_1_2",
       "target": "changelog_subsystem_3_datacomponentmapper_8_component_processors",
@@ -63747,7 +63947,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L110",
+      "source_location": "L131",
       "weight": 1.0,
       "source": "changelog_phase_1b_emc_registry_system_complete_port_from_equivox_26_1_2",
       "target": "changelog_subsystem_4_special_mappers_4_mappers",
@@ -63757,7 +63957,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L116",
+      "source_location": "L137",
       "weight": 1.0,
       "source": "changelog_phase_1b_emc_registry_system_complete_port_from_equivox_26_1_2",
       "target": "changelog_subsystem_5_capabilities_public_api",
@@ -63767,7 +63967,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L169",
+      "source_location": "L190",
       "weight": 1.0,
       "source": "changelog_technical_details",
       "target": "changelog_boxedlong_pattern",
@@ -63777,7 +63977,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L162",
+      "source_location": "L183",
       "weight": 1.0,
       "source": "changelog_technical_details",
       "target": "changelog_normalized_simple_stack_nss",
@@ -63787,7 +63987,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L176",
+      "source_location": "L197",
       "weight": 1.0,
       "source": "changelog_technical_details",
       "target": "changelog_priority_resolution",
@@ -64754,6 +64954,66 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_curseforge_versions_1_3_0_beta_8",
+      "target": "docs_curseforge_versions_1_3_0_beta_8_equivalent_legacy_1_3_0_beta_8_block_rendering_translation_fixes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_curseforge_versions_1_3_0_beta_8_equivalent_legacy_1_3_0_beta_8_block_rendering_translation_fixes",
+      "target": "docs_curseforge_versions_1_3_0_beta_8_bug_fixes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_curseforge_versions_1_3_0_beta_8_equivalent_legacy_1_3_0_beta_8_block_rendering_translation_fixes",
+      "target": "docs_curseforge_versions_1_3_0_beta_8_testing_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "docs_curseforge_versions_1_3_0_beta_8_equivalent_legacy_1_3_0_beta_8_block_rendering_translation_fixes",
+      "target": "docs_curseforge_versions_1_3_0_beta_8_what_s_included",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_curseforge_versions_1_3_0_beta_8_bug_fixes",
+      "target": "docs_curseforge_versions_1_3_0_beta_8_block_rendering",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.8.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_curseforge_versions_1_3_0_beta_8_bug_fixes",
+      "target": "docs_curseforge_versions_1_3_0_beta_8_translations",
+      "confidence_score": 1.0
+    },
+    {
       "from": ".gitlab-ci.yml_publish-public_script",
       "to": "CHANGELOG.md_0.0.0-beta.1",
       "source_file": ".gitlab-ci.yml",
@@ -64771,5 +65031,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ddf73b0120362669cc8de23ef97536871183c93d"
+  "built_at_commit": "74f465a905aa95e360e82173399cdb27962a7fb9"
 }

@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1786098131.6932313,
-    "ast_hash": "5fc09b8f20270906967beff6152240f9",
+    "mtime": 1786123661.1824744,
+    "ast_hash": "4fd887aed2afdbcc7d5674d9f7a7b00e",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1786100746.1594708,
-    "ast_hash": "2962414911263d03523fd7733f414c61",
+    "mtime": 1786146183.8082607,
+    "ast_hash": "875756794774ced559758f83e4cc17a8",
     "semantic_hash": ""
   },
   "README.md": {
@@ -1510,13 +1510,13 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/condenser_mk1.json": {
-    "mtime": 1786036833.932981,
-    "ast_hash": "38bb4c551d1f95c3b17a939fc0d4cfbd",
+    "mtime": 1786123679.6994133,
+    "ast_hash": "ded15f2072604887c2538097ae7b323f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/condenser_mk2.json": {
-    "mtime": 1786036833.9384906,
-    "ast_hash": "c9150f82cac119ab0cee66d5b96054a2",
+    "mtime": 1786123680.2015326,
+    "ast_hash": "c633d9faad11d36a675f12c37a6f4eed",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/relay_mk1.json": {
@@ -1765,8 +1765,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/alchemical_chest.json": {
-    "mtime": 1786036833.8882885,
-    "ast_hash": "865ea02c257b0b90e52c397c4f3b5946",
+    "mtime": 1786123680.6948068,
+    "ast_hash": "b0c02b0b0497ed3f8614428f6a100599",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/loot_table/blocks/alchemical_chest.json": {
@@ -3250,58 +3250,58 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/de_de.json": {
-    "mtime": 1786094680.765797,
-    "ast_hash": "ac834c0160c99c4c5d5902e9738dd94d",
+    "mtime": 1786123661.1456718,
+    "ast_hash": "8c60a7f18dfdc7bec43affa5f2d40b01",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/es_es.json": {
-    "mtime": 1786094680.7688308,
+    "mtime": 1786123544.875626,
     "ast_hash": "292791b50e15071b4883aceb45a1356e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/fr_fr.json": {
-    "mtime": 1786094680.770352,
-    "ast_hash": "675c95d0e05d43675134ba06950dba74",
+    "mtime": 1786123661.2327912,
+    "ast_hash": "6bdcfbf367da7b5adfcef5fbf8026138",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/it_it.json": {
-    "mtime": 1786094680.770352,
-    "ast_hash": "7830f8cb63ec20795a2d09565a0cb008",
+    "mtime": 1786123661.2460563,
+    "ast_hash": "b9860c039df99f5315bca0d34a9d7680",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ja_jp.json": {
-    "mtime": 1786094680.7719579,
-    "ast_hash": "0f63c99b12e103bc4d6e6596f8aa13ef",
+    "mtime": 1786123661.2546873,
+    "ast_hash": "12f9e4a47f4f9e054c05c4ef93c81861",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ko_kr.json": {
-    "mtime": 1786094680.7719579,
+    "mtime": 1786123544.8772752,
     "ast_hash": "daead4d49554582d256bfb521779883f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/nl_nl.json": {
-    "mtime": 1786094680.7719579,
+    "mtime": 1786123544.8788,
     "ast_hash": "c27b443033f0e6a0415c4dede677f8fb",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/pl_pl.json": {
-    "mtime": 1786094680.773483,
+    "mtime": 1786123544.8788,
     "ast_hash": "2e8d067a4f4fb7b40c2446369b8a675b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/pt_br.json": {
-    "mtime": 1786094680.773483,
+    "mtime": 1786123544.8803189,
     "ast_hash": "d0507d3882327fa6b2c0bf4d351e66a3",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ru_ru.json": {
-    "mtime": 1786094680.7765234,
-    "ast_hash": "a4c4d4352fae3848c0e6a68b2c8a0f52",
+    "mtime": 1786123661.3370922,
+    "ast_hash": "af02f58718b2c00590003c5fdc011c9b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/zh_cn.json": {
-    "mtime": 1786094680.7795541,
-    "ast_hash": "ac2bf0036c85995007584c53cb68493b",
+    "mtime": 1786123661.3874705,
+    "ast_hash": "9e78af29697cae6577caab39d17afb10",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.1.0.md": {
@@ -3530,8 +3530,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/tr_tr.json": {
-    "mtime": 1786094680.778025,
-    "ast_hash": "4ab062cc549698dd1bd5c6d58cb93ae8",
+    "mtime": 1786123661.3773227,
+    "ast_hash": "97ed8b7426458153136b52e0406d5fad",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/base_chest.json": {
@@ -3540,8 +3540,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/destruction_catalyst_block.json": {
-    "mtime": 1786036833.9526956,
-    "ast_hash": "77227441603121797f294a1de4899e36",
+    "mtime": 1786140207.0673213,
+    "ast_hash": "c0705d340d57c4bf175dec93ac4cbee4",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/dm_furnace_on.json": {
@@ -3550,8 +3550,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/dm_pedestal.json": {
-    "mtime": 1786036833.9723043,
-    "ast_hash": "037669280a091a633be96a92bb89d139",
+    "mtime": 1786140205.4729753,
+    "ast_hash": "18dc2cb1a283eb73d041f2c68426f6c2",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/nova_cataclysm.json": {
@@ -3565,8 +3565,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/pedestal.json": {
-    "mtime": 1786036834.0075548,
-    "ast_hash": "dd245dccab048b3bf3a21998e71525f1",
+    "mtime": 1786140196.1934075,
+    "ast_hash": "b0c02b0b0497ed3f8614428f6a100599",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/rm_furnace_on.json": {
@@ -3575,8 +3575,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/rm_pedestal.json": {
-    "mtime": 1786036834.0646467,
-    "ast_hash": "952e4aab3ebd3e3771dab86546210c22",
+    "mtime": 1786140198.8270884,
+    "ast_hash": "931c15209bec1784e97ab0180af2021a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/wall_interdiction_torch.json": {
@@ -5210,33 +5210,33 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/da_dk.json": {
-    "mtime": 1786094680.765797,
-    "ast_hash": "74eb37a56ac8c28347aebde52c9c6b5a",
+    "mtime": 1786123661.1338582,
+    "ast_hash": "60a02c6b6b104d138bd23da66c61e84b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/fi_fi.json": {
-    "mtime": 1786094680.7688308,
-    "ast_hash": "f17771f4451520a9c64111a9240d5924",
+    "mtime": 1786123661.2224774,
+    "ast_hash": "d6de613f3f29ab97724d6ee48a21a90e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/no_no.json": {
-    "mtime": 1786094680.773483,
-    "ast_hash": "2e30817a361dafb6f535c26a8e9b2616",
+    "mtime": 1786123661.2892392,
+    "ast_hash": "9cfd574e214317d5dca21af6fb5b042a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/pt_pt.json": {
-    "mtime": 1786094680.774997,
-    "ast_hash": "24fdb611f525d4012cef7dd1962ea2e9",
+    "mtime": 1786123661.3238618,
+    "ast_hash": "4deddd9e931cf180ee99982ea9c067e9",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/sv_se.json": {
-    "mtime": 1786094680.7775226,
-    "ast_hash": "f46d92286159bdfc9ce16f55d20819c2",
+    "mtime": 1786123661.367961,
+    "ast_hash": "46fbb463f83950cc9d0e07ca748ce325",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/zh_tw.json": {
-    "mtime": 1786094680.7810736,
-    "ast_hash": "e5d83c949be3f5dca97e59feba96cbad",
+    "mtime": 1786123661.4159422,
+    "ast_hash": "f37801eeb85e7537348a0d2920c944f4",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/aeternalis_fuel.json": {
@@ -5402,6 +5402,36 @@
   "docs/curseforge/versions/1.3.0-beta.7.md": {
     "mtime": 1786100738.2777202,
     "ast_hash": "b1bfdd100172f44cdc6cfee7b33dca9b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/destruction_catalyst_block.json": {
+    "mtime": 1786139860.9154336,
+    "ast_hash": "6cc49d37faa55727a1cf2cc29ac83235",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/pedestal.json": {
+    "mtime": 1786139390.6730893,
+    "ast_hash": "ebdbce50bfe3c5936f980207aab76422",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_pedestal.json": {
+    "mtime": 1786139383.8128839,
+    "ast_hash": "015f35e176e9be7c0cd7af9e8999ac26",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/spawner_control_wand.json": {
+    "mtime": 1786139890.6270356,
+    "ast_hash": "b7d7f0f361043233649a2d14761ceff8",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.3.0-beta.8.md": {
+    "mtime": 1786123904.212281,
+    "ast_hash": "cc674e82777cc7b25611641a1e59b954",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.3.0-beta.9.md": {
+    "mtime": 1786146204.7416286,
+    "ast_hash": "c51053fdeafea678773d427f6e3f6dd2",
     "semantic_hash": ""
   }
 }
