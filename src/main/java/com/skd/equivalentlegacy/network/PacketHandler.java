@@ -5,6 +5,8 @@ import com.skd.equivalentlegacy.network.payload.KnowledgeDataPayload;
 import com.skd.equivalentlegacy.network.payload.KnowledgeSyncChangePayload;
 import com.skd.equivalentlegacy.network.payload.KnowledgeSyncEmcPayload;
 import com.skd.equivalentlegacy.network.payload.KnowledgeSyncPayload;
+import com.skd.equivalentlegacy.network.payload.MobFarmingStatePayload;
+import com.skd.equivalentlegacy.network.payload.SpawnerConfigPayload;
 import com.skd.equivalentlegacy.network.payload.TransmuteRequestPayload;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
@@ -45,6 +47,18 @@ public final class PacketHandler {
                     TransmuteRequestPayload.TYPE,
                     TransmuteRequestPayload.STREAM_CODEC,
                     TransmuteRequestPayload::handle
+            );
+
+            registrar.playToClient(
+                    MobFarmingStatePayload.TYPE,
+                    MobFarmingStatePayload.STREAM_CODEC,
+                    MobFarmingStatePayload::handle
+            );
+
+            registrar.playToServer(
+                    SpawnerConfigPayload.TYPE,
+                    SpawnerConfigPayload.STREAM_CODEC,
+                    SpawnerConfigPayload::handle
             );
         });
     }
