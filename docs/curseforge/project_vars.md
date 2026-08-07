@@ -54,6 +54,7 @@ Ejemplo: `26.2-neoforge-0.0.0-beta.1`
 El API de subida de CurseForge no expone el campo de lado (client/server). Tras **cada** subida de archivo hay que entrar en la web de CurseForge → pestaña "Files" → editar el archivo → marcar el entorno como **Client & Server** (este mod es BOTH: block entities, comandos, red EMC, Data Attachments en servidor). Sin este paso, el file queda etiquetado como solo cliente.
 
 **Historial:**
+- v1.3.0-beta.2: ✅ Subido (File ID: 8593400), Phase 4 - Mob Farming System Complete
 - v1.3.0-beta.1: ✅ Subido (File ID: 8591843), Phase 3 - Transmutation GUI Improvements
 - v1.2.1-RELEASE: 🗂️ ARCHIVED en CurseForge (File ID: 8591686)
 - v1.2.0-RELEASE: 🗂️ ARCHIVED en CurseForge (File ID: 8591472)
