@@ -5236,7 +5236,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_emchelper_emchelper_getemc",
-      "community": 55,
+      "community": 273,
       "norm_label": ".getemc()"
     },
     {
@@ -8606,7 +8606,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_emc_nss_nssitem_nssitem_createitem",
-      "community": 55,
+      "community": 273,
       "norm_label": ".createitem()"
     },
     {
@@ -10766,7 +10766,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_java",
-      "community": 130,
+      "community": 105,
       "norm_label": "modmenutypes.java"
     },
     {
@@ -10776,7 +10776,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes",
-      "community": 130,
+      "community": 105,
       "norm_label": "modmenutypes"
     },
     {
@@ -10816,7 +10816,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_modmenutypes_modmenutypes_modmenutypes",
-      "community": 130,
+      "community": 105,
       "norm_label": ".modmenutypes()"
     },
     {
@@ -11476,7 +11476,7 @@
       "source_location": "L122",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_gui_transmutationcontainer_transmutationcontainer_transmute",
-      "community": 55,
+      "community": 273,
       "norm_label": ".transmute()"
     },
     {
@@ -11906,7 +11906,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_slotpredicates",
-      "community": 298,
+      "community": 130,
       "norm_label": "slotpredicates.java"
     },
     {
@@ -11916,7 +11916,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_slotpredicates_slotpredicates",
-      "community": 298,
+      "community": 130,
       "norm_label": "slotpredicates"
     },
     {
@@ -11926,7 +11926,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_slotpredicates_java_itemstack",
-      "community": 298,
+      "community": 130,
       "norm_label": "itemstack"
     },
     {
@@ -11936,7 +11936,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_gui_slots_slotpredicates_slotpredicates_slotpredicates",
-      "community": 298,
+      "community": 130,
       "norm_label": ".slotpredicates()"
     },
     {
@@ -14416,7 +14416,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_misctoolitem_misctoolitem_useon",
-      "community": 55,
+      "community": 273,
       "norm_label": ".useon()"
     },
     {
@@ -15026,7 +15026,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_item_tome_tome_use",
-      "community": 129,
+      "community": 185,
       "norm_label": ".use()"
     },
     {
@@ -16506,7 +16506,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_getemc",
-      "community": 55,
+      "community": 129,
       "norm_label": ".getemc()"
     },
     {
@@ -16536,7 +16536,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_subtractemc",
-      "community": 55,
+      "community": 129,
       "norm_label": ".subtractemc()"
     },
     {
@@ -16546,7 +16546,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasknowledge",
-      "community": 55,
+      "community": 273,
       "norm_label": ".hasknowledge()"
     },
     {
@@ -16576,7 +16576,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_unlearnitem",
-      "community": 185,
+      "community": 129,
       "norm_label": ".unlearnitem()"
     },
     {
@@ -16596,7 +16596,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_hasfullknowledge",
-      "community": 129,
+      "community": 185,
       "norm_label": ".hasfullknowledge()"
     },
     {
@@ -16606,7 +16606,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_setfullknowledge",
-      "community": 129,
+      "community": 185,
       "norm_label": ".setfullknowledge()"
     },
     {
@@ -16626,7 +16626,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_sync",
-      "community": 129,
+      "community": 185,
       "norm_label": ".sync()"
     },
     {
@@ -16646,7 +16646,7 @@
       "source_location": "L94",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_equivalent_legacy_26_2_src_main_java_com_skd_equivalentlegacy_player_playerknowledge_playerknowledge_syncemc",
-      "community": 55,
+      "community": 129,
       "norm_label": ".syncemc()"
     },
     {
@@ -16696,7 +16696,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_getemc",
-      "community": 55,
+      "community": 129,
       "norm_label": ".getemc()"
     },
     {
@@ -16726,7 +16726,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_subtractemc",
-      "community": 55,
+      "community": 129,
       "norm_label": ".subtractemc()"
     },
     {
@@ -16746,7 +16746,7 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_hasknowledge",
-      "community": 55,
+      "community": 273,
       "norm_label": ".hasknowledge()"
     },
     {
@@ -16766,7 +16766,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_removeknowledge",
-      "community": 185,
+      "community": 129,
       "norm_label": ".removeknowledge()"
     },
     {
@@ -16786,7 +16786,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_hasfullknowledge",
-      "community": 129,
+      "community": 185,
       "norm_label": ".hasfullknowledge()"
     },
     {
@@ -16796,7 +16796,7 @@
       "source_location": "L85",
       "_origin": "ast",
       "id": "src_main_java_com_skd_equivalentlegacy_player_playerknowledgeattachment_playerknowledgeattachment_setfullknowledge",
-      "community": 129,
+      "community": 185,
       "norm_label": ".setfullknowledge()"
     },
     {
@@ -21048,6 +21048,16 @@
       "id": "docs_curseforge_versions_1_2_1_release",
       "community": 299,
       "norm_label": "1.2.1-release.md"
+    },
+    {
+      "label": "1.3.0-beta.1.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.3.0-beta.1.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_3_0_beta_1",
+      "community": 298,
+      "norm_label": "1.3.0-beta.1.md"
     },
     {
       "label": "Publish Public Script",
@@ -53928,5 +53938,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "35f4301f6b3736b9edfb79472265c87524d170e5"
+  "built_at_commit": "a29e47ac3f6520dab0140cff14a6424d132a298a"
 }

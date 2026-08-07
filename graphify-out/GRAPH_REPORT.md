@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-07)
 
 ## Corpus Check
-- 848 files · ~89,943 words
+- 849 files · ~90,259 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2108 nodes · 3100 edges · 433 communities (136 shown, 297 thin omitted)
+- 2109 nodes · 3100 edges · 433 communities (137 shown, 296 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 88 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `35f4301f`
+- Built from commit: `a29e47ac`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -269,7 +269,6 @@
 - DeferredRegister
 - MenuType
 - IEmcReceptor
-- SlotPredicates.java
 - Component
 - GuiGraphicsExtractor
 - Inventory
@@ -427,7 +426,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (433 total, 297 thin omitted)
+## Communities (433 total, 296 thin omitted)
 
 ### Community 0 - "Equivalent Legacy Mod"
 Cohesion: 0.09
@@ -634,8 +633,8 @@ Cohesion: 0.27
 Nodes (7): InteractionHand, InteractionResult, ItemStack, Level, Override, Player, TransmutationStone
 
 ### Community 105 - "Component"
-Cohesion: 0.25
-Nodes (6): CollectorMenu, BlockPos, DataSlot, Inventory, Override, Player
+Cohesion: 0.19
+Nodes (7): ModMenuTypes, CollectorMenu, BlockPos, DataSlot, Inventory, Override, Player
 
 ### Community 106 - "MenuProvider"
 Cohesion: 0.53
@@ -646,8 +645,8 @@ Cohesion: 0.10
 Nodes (6): Block, Direction, EntityBlock, BaseMachineBlock, MatterFurnaceBlock, TransmutationTableBlock
 
 ### Community 130 - "DeferredHolder"
-Cohesion: 0.21
-Nodes (7): ModMenuTypes, BlockPos, DataSlot, Inventory, Override, Player, RelayMenu
+Cohesion: 0.20
+Nodes (8): BlockPos, DataSlot, Inventory, Override, Player, RelayMenu, ItemStack, SlotPredicates
 
 ### Community 180 - "EventBusSubscriber"
 Cohesion: 0.60
@@ -666,7 +665,7 @@ Cohesion: 0.50
 Nodes (4): ClientConfig, BooleanValue, Builder, ModConfigSpec
 
 ### Community 185 - "ModConfigSpec"
-Cohesion: 0.16
+Cohesion: 0.13
 Nodes (7): AttachmentType, KnowledgeSyncPayload, EquivalentLegacyAttachments, ByteBuf, MapCodec, StreamCodec, PlayerKnowledgeAttachment
 
 ### Community 194 - "Builder"
@@ -780,12 +779,12 @@ Nodes (9): RecipeHolder, ServerStartingEvent, ServerStoppingEvent, Logger, Recip
 ## Knowledge Gaps
 - **258 isolated node(s):** `MK1`, `MK2`, `MK3`, `MK1`, `MK2` (+253 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **297 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **296 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `NormalizedSimpleStack` connect `ConversionGroup` to `BlockPos`, `Mod Notes`, `CustomConversion`, `EquivalentLegacyEMCAPI`, `CollectorBlockEntity`, `Override`, `SimpleGraphMapper`, `EquivalentLegacyConfig`, `TransmutationContainer`, `.use`, `0.0.0-beta.1.md`?**
+- **Why does `NormalizedSimpleStack` connect `ConversionGroup` to `BlockPos`, `Mod Notes`, `CustomConversion`, `EquivalentLegacyEMCAPI`, `CollectorBlockEntity`, `Override`, `CurioEvents`, `SimpleGraphMapper`, `EquivalentLegacyConfig`, `TransmutationContainer`, `.use`, `0.0.0-beta.1.md`?**
   _High betweenness centrality (0.057) - this node is a cross-community bridge._
 - **Why does `EntityNovaCataclysmPrimed` connect `0.0.0-beta.3.md` to `BaseMachineBlock.java`?**
   _High betweenness centrality (0.043) - this node is a cross-community bridge._
