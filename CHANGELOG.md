@@ -1,5 +1,16 @@
 # Changelog - Equivalent Legacy 26.2
 
+## [1.3.0-beta.7] - 2026-08-07
+
+### ✨ Features Complete
+- All Phases 1-6 implemented and ready for testing
+- Phase 1: EMC Registry + Container Infrastructure (235+ values, PEContainer)
+- Phase 2: Data Files + Localization (142+ JSON, 19 languages)
+- Phase 3: Transmutation System (GUI, cost visualization)
+- Phase 4: Mob Farming System (spawner detection, pedestal integration)
+- Phase 5: Matter Furnace + Alchemical Chests (Dark/Red Matter, 104-slot storage)
+- Phase 6: Alchemical Chest Network (multi-chest linking, shared EMC pool)
+
 ## [1.2.0-RELEASE] - 2026-08-07
 
 ### ✨ Major Features
