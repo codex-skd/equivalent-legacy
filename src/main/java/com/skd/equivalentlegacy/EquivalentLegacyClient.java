@@ -4,8 +4,9 @@ import com.skd.equivalentlegacy.gui.BagScreen;
 import com.skd.equivalentlegacy.gui.ChestScreen;
 import com.skd.equivalentlegacy.gui.CondenserScreen;
 import com.skd.equivalentlegacy.gui.CollectorScreen;
-import com.skd.equivalentlegacy.gui.MatterFurnaceScreen;
+import com.skd.equivalentlegacy.gui.DMFurnaceScreen;
 import com.skd.equivalentlegacy.gui.ModMenuTypes;
+import com.skd.equivalentlegacy.gui.RMFurnaceScreen;
 import com.skd.equivalentlegacy.gui.RelayScreen;
 import com.skd.equivalentlegacy.gui.TransmutationScreen;
 import com.skd.equivalentlegacy.EquivalentLegacyEntities;
@@ -41,7 +42,8 @@ public class EquivalentLegacyClient {
         event.register(ModMenuTypes.CONDENSER.get(), CondenserScreen::new);
         event.register(ModMenuTypes.BAG.get(), BagScreen::new);
         event.register(ModMenuTypes.CHEST.get(), ChestScreen::new);
-        event.register(ModMenuTypes.FURNACE.get(), MatterFurnaceScreen::new);
+        event.register(ModMenuTypes.DM_FURNACE.get(), DMFurnaceScreen::new);
+        event.register(ModMenuTypes.RM_FURNACE.get(), RMFurnaceScreen::new);
     }
 
     @SubscribeEvent

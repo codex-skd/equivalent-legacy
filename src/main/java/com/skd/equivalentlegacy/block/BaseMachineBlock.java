@@ -60,7 +60,6 @@ public class BaseMachineBlock extends Block implements EntityBlock {
         return InteractionResult.SUCCESS;
     }
 
-    @Override
     public BlockState playerWillDestroy(Level level, BlockPos pos, BlockState state, Player player) {
         if (!level.isClientSide() && level.getBlockEntity(pos) instanceof com.skd.equivalentlegacy.block.entity.BaseMachineBlockEntity be) {
             be.dropContents();
