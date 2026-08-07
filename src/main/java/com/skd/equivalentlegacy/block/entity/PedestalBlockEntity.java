@@ -164,16 +164,23 @@ public class PedestalBlockEntity extends BlockEntity {
         return totalXp;
     }
 
-    public int collectNearbyDrops() {
+    public long collectNearbyDrops() {
         if (level == null || level.isClientSide()) return 0;
-        int collected = 0;
+        long totalEmc = 0;
         net.minecraft.world.phys.AABB range = new net.minecraft.world.phys.AABB(worldPosition).inflate(16);
         var items = level.getEntitiesOfClass(net.minecraft.world.entity.item.ItemEntity.class, range);
         for (var item : items) {
-            collected++;
+            ItemStack stack = item.getItem();
+            if (!stack.isEmpty()) {
+                long emc = com.skd.equivalentlegacy.emc.EMCHelper.getEMC(
+                        com.skd.equivalentlegacy.emc.nss.NSSItem.createItem(stack));
+                if (emc > 0) {
+                    totalEmc += emc * stack.getCount();
+                }
+            }
             item.discard();
         }
-        return collected;
+        return totalEmc;
     }
 
     public void registerControlledSpawner(BlockPos spawnerPos) {

@@ -1,14 +1,21 @@
 package com.skd.equivalentlegacy.mob_farming;
 
+import com.skd.equivalentlegacy.block.entity.PedestalBlockEntity;
 import net.minecraft.core.BlockPos;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.phys.AABB;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MobFarmingManager {
     private static final Map<BlockPos, SpawnerState> activeSpawners = new HashMap<>();
     public static final int DETECTION_RANGE = 16;
+    public static final int XP_TO_EMC_RATIO = 7;
 
     public static class SpawnerState {
         public BlockPos pos;
@@ -17,6 +24,9 @@ public class MobFarmingManager {
         public int delay = 20;
         public int spawnCount = 4;
         public int maxNearby = 6;
+        public int tickCooldown;
+        public int totalXpCollected;
+        public int totalDropsCollected;
 
         public SpawnerState(BlockPos pos, BlockEntity entity) {
             this.pos = pos;
@@ -61,5 +71,84 @@ public class MobFarmingManager {
 
     public static void clear() {
         activeSpawners.clear();
+    }
+
+    public static void tick(ServerLevel level) {
+        List<BlockPos> toRemove = new ArrayList<>();
+
+        for (Map.Entry<BlockPos, SpawnerState> entry : activeSpawners.entrySet()) {
+            BlockPos pos = entry.getKey();
+            SpawnerState state = entry.getValue();
+
+            if (!state.enabled) continue;
+
+            BlockEntity be = level.getBlockEntity(pos);
+            if (be == null || be.isRemoved()) {
+                toRemove.add(pos);
+                continue;
+            }
+
+            state.blockEntity = be;
+
+            if (state.tickCooldown > 0) {
+                state.tickCooldown--;
+            }
+
+            List<PedestalBlockEntity> pedestals = findNearbyPedestals(level, pos);
+            for (PedestalBlockEntity pedestal : pedestals) {
+                if (!pedestal.isMobFarmingSetup()) continue;
+                ItemStack displayed = pedestal.getDisplayedItem();
+                String itemName = displayed.getItem().toString();
+
+                if (itemName.contains("mind_stone")) {
+                    long xp = pedestal.collectNearbyXp();
+                    if (xp > 0) {
+                        pedestal.addEmc(xp * XP_TO_EMC_RATIO);
+                        state.totalXpCollected += (int)xp;
+                        pedestal.setChanged();
+                    }
+                }
+                if (itemName.contains("black_hole_band")) {
+                    long emcGained = pedestal.collectNearbyDrops();
+                    if (emcGained > 0) {
+                        pedestal.addEmc(emcGained);
+                        state.totalDropsCollected++;
+                        pedestal.setChanged();
+                    }
+                }
+            }
+        }
+
+        for (BlockPos pos : toRemove) {
+            unregisterSpawner(pos);
+        }
+    }
+
+    private static List<PedestalBlockEntity> findNearbyPedestals(ServerLevel level, BlockPos center) {
+        List<PedestalBlockEntity> result = new ArrayList<>();
+        int r = DETECTION_RANGE / 2;
+        for (BlockPos pos : BlockPos.betweenClosed(
+                center.offset(-r, -r, -r),
+                center.offset(r, r, r))) {
+            BlockEntity be = level.getBlockEntity(pos);
+            if (be instanceof PedestalBlockEntity pedestal) {
+                result.add(pedestal);
+            }
+        }
+        if (result.isEmpty()) {
+            BlockPos self = new BlockPos(
+                    center.getX() + DETECTION_RANGE / 2,
+                    center.getY(),
+                    center.getZ());
+            BlockEntity be = level.getBlockEntity(self);
+            if (be instanceof PedestalBlockEntity ped) {
+                result.add(ped);
+            }
+        }
+        return result;
+    }
+
+    public static boolean isSpawnerRegistered(BlockPos pos) {
+        return activeSpawners.containsKey(pos);
     }
 }
