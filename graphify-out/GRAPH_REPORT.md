@@ -1,16 +1,16 @@
 # Graph Report - 26.2  (2026-08-07)
 
 ## Corpus Check
-- 866 files · ~100,337 words
+- 867 files · ~101,388 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2399 nodes · 3834 edges · 409 communities (160 shown, 249 thin omitted)
+- 2400 nodes · 3834 edges · 410 communities (160 shown, 250 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 125 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e80cd00e`
+- Built from commit: `f632fef6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -397,7 +397,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (409 total, 249 thin omitted)
+## Communities (410 total, 250 thin omitted)
 
 ### Community 0 - "Equivalent Legacy Mod"
 Cohesion: 0.09
@@ -484,8 +484,8 @@ Cohesion: 0.10
 Nodes (9): AeternalisFuel, AlchemicalCoal, CovalenceDust, DarkMatter, MobiusFuel, RedMatter, Tome, TransmutationTablet (+1 more)
 
 ### Community 24 - "ServerConfig"
-Cohesion: 0.21
-Nodes (8): DeferredBlock, DMPedestal, EquivalentLegacyBlockEntities, BlockEntityType, DeferredHolder, DeferredRegister, EquivalentLegacyBlocks, Block
+Cohesion: 0.20
+Nodes (8): CreativeModeTab, DeferredBlock, DMPedestal, EquivalentLegacyBlocks, Block, EquivalentLegacyCreativeTab, DeferredHolder, DeferredRegister
 
 ### Community 25 - "ClientConfig"
 Cohesion: 0.06
@@ -655,16 +655,12 @@ Nodes (7): InteractionHand, InteractionResult, ItemStack, Level, Override, Playe
 Cohesion: 0.11
 Nodes (17): Alternativa si Phase 6.1 es demasiado:, Criteria de Éxito Phase 6.1, Data Files, Estimado, Modified Classes, Network Packets, New Classes, Objetivo (+9 more)
 
-### Community 106 - "MenuProvider"
-Cohesion: 0.53
-Nodes (4): CreativeModeTab, EquivalentLegacyCreativeTab, DeferredHolder, DeferredRegister
-
 ### Community 107 - "ChestRenderer.java"
 Cohesion: 0.24
 Nodes (8): ClientNetworkCache, BlockPos, ByteBuf, IPayloadContext, Override, StreamCodec, Type, SyncNetworkDataPayload
 
 ### Community 129 - "BlockEntityType"
-Cohesion: 0.15
+Cohesion: 0.18
 Nodes (5): KnowledgeSyncPayload, ByteBuf, MapCodec, StreamCodec, PlayerKnowledgeAttachment
 
 ### Community 130 - "BlockEntity"
@@ -724,8 +720,8 @@ Cohesion: 0.47
 Nodes (4): IClientRegistrar, IWailaClientPlugin, EquivalentLegacyWthitPlugin, Override
 
 ### Community 180 - "EventBusSubscriber"
-Cohesion: 0.60
-Nodes (3): DMPedestalBlockEntity, BlockPos, BlockState
+Cohesion: 0.27
+Nodes (7): DMPedestalBlockEntity, BlockPos, BlockState, EquivalentLegacyBlockEntities, BlockEntityType, DeferredHolder, DeferredRegister
 
 ### Community 181 - "ServerPlayer"
 Cohesion: 0.22
@@ -822,7 +818,7 @@ Nodes (4): Screen, GuiGraphicsExtractor, Override, SpawnerConfigScreen
 ## Knowledge Gaps
 - **310 isolated node(s):** `MK1`, `MK2`, `MK3`, `MK1`, `MK2` (+305 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **249 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **250 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -831,7 +827,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.080) - this node is a cross-community bridge._
 - **Why does `KleinStar` connect `ValidatedContainerSlot.java` to `EquivalentLegacyItems`, `Server Start`, `Gradle Build File`, `BaseMachineBlock.java`, `NSSTag`, `0.0.0-beta.24.md`?**
   _High betweenness centrality (0.038) - this node is a cross-community bridge._
-- **Why does `AlchemicalChestBlockEntity` connect `AlchemicalChestBlockEntity` to `Builder`, `DeferredRegister`, `ChestMenu`, `ServerConfig`, `MappingConfig`, `0.0.0-beta.26.md`?**
+- **Why does `AlchemicalChestBlockEntity` connect `AlchemicalChestBlockEntity` to `Builder`, `DeferredRegister`, `ChestMenu`, `EventBusSubscriber`, `MappingConfig`, `0.0.0-beta.26.md`?**
   _High betweenness centrality (0.037) - this node is a cross-community bridge._
 - **What connects `MK1`, `MK2`, `MK3` to the rest of the system?**
   _310 weakly-connected nodes found - possible documentation gaps or missing edges._

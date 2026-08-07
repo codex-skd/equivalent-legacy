@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1786100047.3756714,
-    "ast_hash": "c98ce33943f653267be3f636ab142793",
+    "mtime": 1786100355.5639262,
+    "ast_hash": "37ae90be5ff47023da475199da993de7",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/icon.png": {
@@ -5392,6 +5392,11 @@
   "docs/curseforge/versions/1.3.0-beta.5.md": {
     "mtime": 1786100009.6177988,
     "ast_hash": "821847ee8c59ab16b3515749d6431faa",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.3.0.md": {
+    "mtime": 1786100303.4867754,
+    "ast_hash": "6563cc15a149c4dac29bf04811065bfb",
     "semantic_hash": ""
   }
 }
