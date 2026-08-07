@@ -15,8 +15,8 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacy.java": {
-    "mtime": 1786032324.0745213,
-    "ast_hash": "da60e67a0dbb29416e46b2854fd06c1b",
+    "mtime": 1786099776.9924688,
+    "ast_hash": "230552cedbf4a42fdbd1930f4f5e30ea",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/EquivalentLegacyClient.java": {
@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1786094680.7673059,
-    "ast_hash": "381867cf9365d52c763c5007ded1651a",
+    "mtime": 1786098131.6932313,
+    "ast_hash": "5fc09b8f20270906967beff6152240f9",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1786095398.246445,
-    "ast_hash": "47a18a7f3725b0c3b521650488e0c092",
+    "mtime": 1786100047.3756714,
+    "ast_hash": "c98ce33943f653267be3f636ab142793",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/icon.png": {
@@ -235,8 +235,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/network/PacketHandler.java": {
-    "mtime": 1786087884.5361588,
-    "ast_hash": "41fdc6718ec55d0923c02cada8ceeec7",
+    "mtime": 1786097906.031541,
+    "ast_hash": "32aaef91f8f51b035f77d54e7f929eff",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/network/payload/KnowledgeSyncChangePayload.java": {
@@ -1720,8 +1720,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java": {
-    "mtime": 1786095248.6156433,
-    "ast_hash": "f69ea480c518e66cea3fe3683a6cccf2",
+    "mtime": 1786098195.1791978,
+    "ast_hash": "15b8a10ff272ce12809f9239b07435e3",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/BagMenu.java": {
@@ -1735,13 +1735,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java": {
-    "mtime": 1786094561.1440253,
-    "ast_hash": "0fbfc6a206e77aa575460e011399913b",
+    "mtime": 1786097999.3523512,
+    "ast_hash": "e911a812c89528757e548db3cfffb130",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/ChestScreen.java": {
-    "mtime": 1786094607.8627386,
-    "ast_hash": "24233640cbdffd59fe6dfb7de5d6fc90",
+    "mtime": 1786099963.4164274,
+    "ast_hash": "6e0a9a06710a3421c76c823bbd27402e",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/StorageScreen.java": {
@@ -3370,8 +3370,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/RMPedestal.java": {
-    "mtime": 1786032324.080731,
-    "ast_hash": "39c7dfc8304952262bf321983bcbad45",
+    "mtime": 1786099769.6948316,
+    "ast_hash": "a4d7c43adf5c336369254fdb9051d7db",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/DMPedestalBlockEntity.java": {
@@ -3385,13 +3385,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/PedestalBlockEntity.java": {
-    "mtime": 1786087869.8186705,
-    "ast_hash": "ae9611f70a383dd727a8133a5437b682",
+    "mtime": 1786098179.2804022,
+    "ast_hash": "b6e5b942eaf96e978da6f26f42527b40",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/RMPedestalBlockEntity.java": {
-    "mtime": 1786032324.0828917,
-    "ast_hash": "115c9e9373948255e15cd9c180ba8915",
+    "mtime": 1786098038.8041828,
+    "ast_hash": "ba962e53d6c972375a3ce27b24a7a614",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/emc/RecipeMapper.java": {
@@ -5345,8 +5345,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/AlchemicalChestBlock.java": {
-    "mtime": 1786095290.9047563,
-    "ast_hash": "db01479d1ff2ad9c6d40c95efaeaea02",
+    "mtime": 1786098857.891876,
+    "ast_hash": "6dd3b8c7c94eeae76fbab422f4b86366",
     "semantic_hash": ""
   },
   ".claude/plans/phase-5-2-alchemical-chests.md": {
@@ -5357,6 +5357,41 @@
   "docs/curseforge/versions/1.3.0-beta.4.md": {
     "mtime": 1786095351.761796,
     "ast_hash": "ca62d446b2dfde4fd57eb7f82cf639af",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/chest/ChestNetwork.java": {
+    "mtime": 1786098980.0969453,
+    "ast_hash": "0c6c8cc362aaef3453a6c6618b7ca6fd",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/chest/ChestNetworkManager.java": {
+    "mtime": 1786099773.398981,
+    "ast_hash": "d2ea2386881d9d1ec553d36b4d15c4e9",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/chest/ChestNetworkSavedData.java": {
+    "mtime": 1786099041.800066,
+    "ast_hash": "69bec278332956086365127e0a04b491",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/network/payload/ChestLinkPayload.java": {
+    "mtime": 1786099805.8664975,
+    "ast_hash": "5928ce4699647cb9e056b1ec129131b7",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/network/payload/SyncNetworkDataPayload.java": {
+    "mtime": 1786097894.715148,
+    "ast_hash": "972a88103f23d6270a3a301342dad16a",
+    "semantic_hash": ""
+  },
+  ".claude/plans/phase-6-advanced-features.md": {
+    "mtime": 1786096935.3390129,
+    "ast_hash": "5e960c80064a593bc5717861839061de",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.3.0-beta.5.md": {
+    "mtime": 1786100009.6177988,
+    "ast_hash": "821847ee8c59ab16b3515749d6431faa",
     "semantic_hash": ""
   }
 }
