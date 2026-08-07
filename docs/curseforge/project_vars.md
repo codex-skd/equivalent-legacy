@@ -54,8 +54,9 @@ Ejemplo: `26.2-neoforge-0.0.0-beta.1`
 El API de subida de CurseForge no expone el campo de lado (client/server). Tras **cada** subida de archivo hay que entrar en la web de CurseForge → pestaña "Files" → editar el archivo → marcar el entorno como **Client & Server** (este mod es BOTH: block entities, comandos, red EMC, Data Attachments en servidor). Sin este paso, el file queda etiquetado como solo cliente.
 
 **Historial:**
-- v1.2.1-RELEASE: ✅ Subido (File ID: 8591686), Phase 2 Complete - Data Files + Localization (19 idiomas)
-- v1.2.0-RELEASE: ✅ Subido (File ID: 8591472), Phase 1 Complete - Containers + EMC Registry
+- v1.3.0-beta.1: ✅ Subido (File ID: 8591843), Phase 3 - Transmutation GUI Improvements
+- v1.2.1-RELEASE: 🗂️ ARCHIVED en CurseForge (File ID: 8591686)
+- v1.2.0-RELEASE: 🗂️ ARCHIVED en CurseForge (File ID: 8591472)
 - v1.2.0-beta.10: ✅ Subido (File ID: 8589845), Asset Namespace Migration Fix
 - v1.2.0-beta.4: ✅ Subido (File ID: 8587006), Phase 2 World Transmutation
 - v1.2.0-beta.3: ✅ Subido (File ID: 8585660), Assets completos
