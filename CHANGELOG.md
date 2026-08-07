@@ -1,5 +1,15 @@
 # Changelog - Equivalent Legacy 26.2
 
+## [1.3.0-beta.9] - 2026-08-08
+
+### 🐛 Bug Fixes
+- **Fixed missing item model JSONs** — pedestals (base, dm, rm), destruction_catalyst_block, and spawner_control_wand now have proper item model definitions, resolving magenta texture glitches in inventory
+- **Fixed missing block texture references** — pedestal variants and destruction_catalyst_block now use existing PNG textures (alchemical_chest, dark_matter_block, red_matter_block) instead of non-existent files
+
+### ⚙️ Technical
+- Added `models/item/{pedestal,rm_pedestal,destruction_catalyst_block,spawner_control_wand}.json` with proper parent model inheritance
+- Updated `models/block/{pedestal,dm_pedestal,rm_pedestal,destruction_catalyst_block}.json` texture mappings to reference existing assets
+
 ## [1.3.0-beta.8] - 2026-08-07
 
 ### 🐛 Bug Fixes
