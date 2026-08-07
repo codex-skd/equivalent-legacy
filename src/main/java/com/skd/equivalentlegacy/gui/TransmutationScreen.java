@@ -27,7 +27,7 @@ public class TransmutationScreen extends AbstractContainerScreen<TransmutationCo
     private static final int COLS = 6;
     private static final int ITEM_SIZE = 18;
     private static final int LIST_LEFT = 8;
-    private static final int LIST_TOP = 22;
+    private static final int LIST_TOP = 36;
     private static final int LIST_WIDTH = COLS * ITEM_SIZE;
     private static final int LIST_HEIGHT = 72;
     private static final int ROWS_VISIBLE = LIST_HEIGHT / ITEM_SIZE;
@@ -35,7 +35,6 @@ public class TransmutationScreen extends AbstractContainerScreen<TransmutationCo
     private int scrollOffset = 0;
     private int maxScroll = 0;
     private List<ItemEntry> sortedItems = List.of();
-
     public record ItemEntry(String itemId, ItemStack stack, long emcValue) {}
 
     public TransmutationScreen(TransmutationContainer menu, Inventory playerInventory, Component title) {
@@ -80,18 +79,23 @@ public class TransmutationScreen extends AbstractContainerScreen<TransmutationCo
         graphics.blit(RenderPipelines.GUI_TEXTURED, BG_TEXTURE, x, y, 0, 0,
                 imageWidth, imageHeight, 256, 256);
         graphics.blit(RenderPipelines.GUI_TEXTURED, BG_TEXTURE,
-                x + 25, y + 21, 7, 7, 18, 18, 256, 256);
+                x + 25, y + 35, 7, 7, 18, 18, 256, 256);
         graphics.blit(RenderPipelines.GUI_TEXTURED, BG_TEXTURE,
-                x + 133, y + 21, 7, 7, 18, 18, 256, 256);
+                x + 133, y + 35, 7, 7, 18, 18, 256, 256);
     }
 
     @Override
     protected void extractLabels(GuiGraphicsExtractor graphics, int mouseX, int mouseY) {
         long emc = menu.getKnowledge().getEmc();
-        graphics.text(font, "EMC: " + emc, 8, 6, 0x404040);
 
-        graphics.text(font, Component.translatable("gui.equivalent_legacy.learn"), 8, 120, 0x404040);
-        graphics.text(font, Component.translatable("gui.equivalent_legacy.output"), 116, 120, 0x404040);
+        graphics.text(font,
+                Component.translatable("gui.equivalent_legacy.transmutation.emc", emc),
+                8, 6, 0x404040);
+
+        graphics.text(font, Component.translatable("gui.equivalent_legacy.transmutation.input"),
+                8, 22, 0x5E5E5E);
+        graphics.text(font, Component.translatable("gui.equivalent_legacy.transmutation.output"),
+                116, 22, 0x5E5E5E);
 
         renderKnownItemsList(graphics, mouseX, mouseY);
     }
@@ -111,7 +115,15 @@ public class TransmutationScreen extends AbstractContainerScreen<TransmutationCo
             if (!affordable) {
                 graphics.fill(RenderPipelines.GUI, itemX, itemY, itemX + 16, itemY + 16, 0x80_000000);
             }
-            graphics.fakeItem(entry.stack(), itemX, itemY, itemX + itemY * imageWidth);
+
+            int color = affordable ? 0x00FF00 : 0xFF5555;
+            String costText = "EMC " + entry.emcValue();
+            int textWidth = font.width(costText);
+            int textX = itemX + (ITEM_SIZE - textWidth) / 2 - 1;
+            int textY = itemY + 1;
+            graphics.text(font, costText, textX, textY, color);
+
+            graphics.fakeItem(entry.stack(), itemX, itemY + 8, itemX + (itemY + 8) * imageWidth);
         }
     }
 
