@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1786093156.870493,
-    "ast_hash": "1b85394b58073cf82b439e22864bedd1",
+    "mtime": 1786094680.7673059,
+    "ast_hash": "381867cf9365d52c763c5007ded1651a",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1786094033.660634,
-    "ast_hash": "a7b282c5d0005b05bbfafc7df8c6d3f7",
+    "mtime": 1786095398.246445,
+    "ast_hash": "47a18a7f3725b0c3b521650488e0c092",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/icon.png": {
@@ -190,8 +190,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/EquivalentLegacyBlocks.java": {
-    "mtime": 1786092965.268121,
-    "ast_hash": "e4c64565702d1ee516bca4f553194589",
+    "mtime": 1786094513.6320817,
+    "ast_hash": "f890b2642cf4c53b0d5b8eb1cfe4b3fc",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/item/EquivalentLegacyCreativeTab.java": {
@@ -1720,8 +1720,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/block/entity/AlchemicalChestBlockEntity.java": {
-    "mtime": 1786032324.080731,
-    "ast_hash": "bb8db8cf44faa0ae87a59c0d419b07b0",
+    "mtime": 1786095248.6156433,
+    "ast_hash": "f69ea480c518e66cea3fe3683a6cccf2",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/BagMenu.java": {
@@ -1735,13 +1735,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/ChestMenu.java": {
-    "mtime": 1786056596.1910553,
-    "ast_hash": "863e6ee54221479780a7f4d6202073f7",
+    "mtime": 1786094561.1440253,
+    "ast_hash": "0fbfc6a206e77aa575460e011399913b",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/ChestScreen.java": {
-    "mtime": 1785549514.4219353,
-    "ast_hash": "5456798dfa09781393b56cdd70dcf357",
+    "mtime": 1786094607.8627386,
+    "ast_hash": "24233640cbdffd59fe6dfb7de5d6fc90",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gui/StorageScreen.java": {
@@ -1755,8 +1755,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/blockstates/alchemical_chest.json": {
-    "mtime": 1786036833.7193358,
-    "ast_hash": "a0afb60958a3acf0b4e457f38b22dbc1",
+    "mtime": 1786094621.7428055,
+    "ast_hash": "5afc2ba359c60653fceaf347fe5ad1cf",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/items/alchemical_chest.json": {
@@ -3250,58 +3250,58 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/de_de.json": {
-    "mtime": 1786093156.8689845,
-    "ast_hash": "3d970addfa1a77194dfbed5af27ce284",
+    "mtime": 1786094680.765797,
+    "ast_hash": "ac834c0160c99c4c5d5902e9738dd94d",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/es_es.json": {
-    "mtime": 1786093156.870493,
-    "ast_hash": "d539bf8b7b15b72d15e1854e3187df55",
+    "mtime": 1786094680.7688308,
+    "ast_hash": "292791b50e15071b4883aceb45a1356e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/fr_fr.json": {
-    "mtime": 1786093156.87201,
-    "ast_hash": "d06dc0a15150367f758648ddc1f96643",
+    "mtime": 1786094680.770352,
+    "ast_hash": "675c95d0e05d43675134ba06950dba74",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/it_it.json": {
-    "mtime": 1786093156.873528,
-    "ast_hash": "7a05a8fc9e912dc1a2ccf7c608801b86",
+    "mtime": 1786094680.770352,
+    "ast_hash": "7830f8cb63ec20795a2d09565a0cb008",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ja_jp.json": {
-    "mtime": 1786093156.873528,
-    "ast_hash": "9488630ea264035926abcaeed1ac6b7b",
+    "mtime": 1786094680.7719579,
+    "ast_hash": "0f63c99b12e103bc4d6e6596f8aa13ef",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ko_kr.json": {
-    "mtime": 1786093156.873528,
-    "ast_hash": "955fbbfe7658469c8d942093db53f8d3",
+    "mtime": 1786094680.7719579,
+    "ast_hash": "daead4d49554582d256bfb521779883f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/nl_nl.json": {
-    "mtime": 1786093156.8750408,
-    "ast_hash": "3a80ee7f7389b57ffc61b58c3415d9b8",
+    "mtime": 1786094680.7719579,
+    "ast_hash": "c27b443033f0e6a0415c4dede677f8fb",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/pl_pl.json": {
-    "mtime": 1786093156.8765543,
-    "ast_hash": "994b1613e4ffb8d0607f68d45015d70b",
+    "mtime": 1786094680.773483,
+    "ast_hash": "2e8d067a4f4fb7b40c2446369b8a675b",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/pt_br.json": {
-    "mtime": 1786093156.8765543,
-    "ast_hash": "0e51ef6b08e849324cada7ece069ed35",
+    "mtime": 1786094680.773483,
+    "ast_hash": "d0507d3882327fa6b2c0bf4d351e66a3",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ru_ru.json": {
-    "mtime": 1786093156.8787093,
-    "ast_hash": "6cd0f938faa71c5ba55ed45cbe98916f",
+    "mtime": 1786094680.7765234,
+    "ast_hash": "a4c4d4352fae3848c0e6a68b2c8a0f52",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/zh_cn.json": {
-    "mtime": 1786093156.881737,
-    "ast_hash": "b2f289d87ac90bcfcd1cec0cd835e512",
+    "mtime": 1786094680.7795541,
+    "ast_hash": "ac2bf0036c85995007584c53cb68493b",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.1.0.md": {
@@ -3530,8 +3530,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/tr_tr.json": {
-    "mtime": 1786093156.880225,
-    "ast_hash": "cd00a1dfe2805884eea0d1c3db34fbe6",
+    "mtime": 1786094680.778025,
+    "ast_hash": "4ab062cc549698dd1bd5c6d58cb93ae8",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/base_chest.json": {
@@ -5210,33 +5210,33 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/da_dk.json": {
-    "mtime": 1786093156.8689845,
-    "ast_hash": "2ad2e1fc237e361061177690b72d9626",
+    "mtime": 1786094680.765797,
+    "ast_hash": "74eb37a56ac8c28347aebde52c9c6b5a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/fi_fi.json": {
-    "mtime": 1786093156.87201,
-    "ast_hash": "eda25a9fe24f5c8baed6685db42779f9",
+    "mtime": 1786094680.7688308,
+    "ast_hash": "f17771f4451520a9c64111a9240d5924",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/no_no.json": {
-    "mtime": 1786093156.8765543,
-    "ast_hash": "6330762472886e108628f2219bd8b67b",
+    "mtime": 1786094680.773483,
+    "ast_hash": "2e30817a361dafb6f535c26a8e9b2616",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/pt_pt.json": {
-    "mtime": 1786093156.8775592,
-    "ast_hash": "b9779c6dbdb1e6fe27dc3f0f133ccde0",
+    "mtime": 1786094680.774997,
+    "ast_hash": "24fdb611f525d4012cef7dd1962ea2e9",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/sv_se.json": {
-    "mtime": 1786093156.880225,
-    "ast_hash": "fafba4e25e303c5d4ea1c295a67184aa",
+    "mtime": 1786094680.7775226,
+    "ast_hash": "f46d92286159bdfc9ce16f55d20819c2",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/zh_tw.json": {
-    "mtime": 1786093156.881737,
-    "ast_hash": "b94c893934de1fd4915a5bd5d86a8701",
+    "mtime": 1786094680.7810736,
+    "ast_hash": "e5d83c949be3f5dca97e59feba96cbad",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/aeternalis_fuel.json": {
@@ -5342,6 +5342,21 @@
   "docs/curseforge/versions/1.3.0-beta.3.md": {
     "mtime": 1786094020.6671543,
     "ast_hash": "fb96c45d60b96781bd3c9d588d505862",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/skd/equivalentlegacy/block/AlchemicalChestBlock.java": {
+    "mtime": 1786095290.9047563,
+    "ast_hash": "db01479d1ff2ad9c6d40c95efaeaea02",
+    "semantic_hash": ""
+  },
+  ".claude/plans/phase-5-2-alchemical-chests.md": {
+    "mtime": 1786094114.3679132,
+    "ast_hash": "63d5f65fee3fc6fc754bb8d0166dd020",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.3.0-beta.4.md": {
+    "mtime": 1786095351.761796,
+    "ast_hash": "ca62d446b2dfde4fd57eb7f82cf639af",
     "semantic_hash": ""
   }
 }
