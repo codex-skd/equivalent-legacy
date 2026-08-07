@@ -22,12 +22,16 @@ public class ChestMenu extends PEContainer {
 
     public final AlchemicalChestBlockEntity blockEntity;
     private final DataSlot openness = DataSlot.standalone();
+    private final DataSlot networkChestCount = DataSlot.standalone();
+    private final BoxedLong networkEmc = new BoxedLong();
 
     public ChestMenu(int containerId, Inventory playerInventory, BlockPos pos) {
         super(ModMenuTypes.CHEST.get(), containerId);
         this.blockEntity = (AlchemicalChestBlockEntity) playerInventory.player.level().getBlockEntity(pos);
 
         addDataSlot(openness);
+        addDataSlot(networkChestCount);
+        longFields.add(networkEmc);
 
         if (blockEntity != null) {
             var inventory = blockEntity.getInventory();
@@ -68,6 +72,8 @@ public class ChestMenu extends PEContainer {
     protected void broadcastPE(boolean all) {
         if (blockEntity != null) {
             openness.set(blockEntity.getOpenNess());
+            networkChestCount.set(blockEntity.getNetworkChestCount());
+            networkEmc.set(blockEntity.getStoredEmc());
         }
         super.broadcastPE(all);
     }
@@ -109,5 +115,13 @@ public class ChestMenu extends PEContainer {
 
     public int getOpenness() {
         return openness.get();
+    }
+
+    public int getNetworkChestCount() {
+        return networkChestCount.get();
+    }
+
+    public long getNetworkEmc() {
+        return networkEmc.get();
     }
 }

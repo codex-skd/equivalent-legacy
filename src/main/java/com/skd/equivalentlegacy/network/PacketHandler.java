@@ -1,12 +1,14 @@
 package com.skd.equivalentlegacy.network;
 
 import com.skd.equivalentlegacy.EquivalentLegacy;
+import com.skd.equivalentlegacy.network.payload.ChestLinkPayload;
 import com.skd.equivalentlegacy.network.payload.KnowledgeDataPayload;
 import com.skd.equivalentlegacy.network.payload.KnowledgeSyncChangePayload;
 import com.skd.equivalentlegacy.network.payload.KnowledgeSyncEmcPayload;
 import com.skd.equivalentlegacy.network.payload.KnowledgeSyncPayload;
 import com.skd.equivalentlegacy.network.payload.MobFarmingStatePayload;
 import com.skd.equivalentlegacy.network.payload.SpawnerConfigPayload;
+import com.skd.equivalentlegacy.network.payload.SyncNetworkDataPayload;
 import com.skd.equivalentlegacy.network.payload.TransmuteRequestPayload;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
@@ -59,6 +61,18 @@ public final class PacketHandler {
                     SpawnerConfigPayload.TYPE,
                     SpawnerConfigPayload.STREAM_CODEC,
                     SpawnerConfigPayload::handle
+            );
+
+            registrar.playToServer(
+                    ChestLinkPayload.TYPE,
+                    ChestLinkPayload.STREAM_CODEC,
+                    ChestLinkPayload::handle
+            );
+
+            registrar.playToClient(
+                    SyncNetworkDataPayload.TYPE,
+                    SyncNetworkDataPayload.STREAM_CODEC,
+                    SyncNetworkDataPayload::handle
             );
         });
     }

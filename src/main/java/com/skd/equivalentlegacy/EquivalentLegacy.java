@@ -8,6 +8,9 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.event.level.LevelEvent;
+import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 
 @Mod(EquivalentLegacy.MODID)
 public class EquivalentLegacy {
@@ -29,7 +32,39 @@ public class EquivalentLegacy {
 
         com.skd.equivalentlegacy.network.PacketHandler.register(modEventBus);
 
+        registerNetworkEvents();
+
         modEventBus.addListener(this::commonSetup);
+    }
+
+    private static void registerNetworkEvents() {
+        var forgeBus = NeoForge.EVENT_BUS;
+
+        forgeBus.addListener((LevelEvent.Load event) -> {
+            if (event.getLevel() instanceof net.minecraft.server.level.ServerLevel serverLevel) {
+                com.skd.equivalentlegacy.chest.ChestNetworkManager.getInstance().onLevelLoad(serverLevel);
+            }
+        });
+
+        forgeBus.addListener((LevelEvent.Save event) -> {
+            if (event.getLevel() instanceof net.minecraft.server.level.ServerLevel serverLevel) {
+                com.skd.equivalentlegacy.chest.ChestNetworkManager.getInstance().onLevelSave(serverLevel);
+            }
+        });
+
+        forgeBus.addListener((PlayerEvent.PlayerLoggedInEvent event) -> {
+            if (event.getEntity() instanceof net.minecraft.server.level.ServerPlayer player) {
+                com.skd.equivalentlegacy.chest.ChestNetworkManager.getInstance().sendAllNetworksTo(player);
+            }
+        });
+
+        forgeBus.addListener((PlayerEvent.PlayerChangedDimensionEvent event) -> {
+            if (event.getEntity() instanceof net.minecraft.server.level.ServerPlayer player) {
+                com.skd.equivalentlegacy.chest.ChestNetworkManager.getInstance().sendAllNetworksTo(player);
+            }
+        });
+
+
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

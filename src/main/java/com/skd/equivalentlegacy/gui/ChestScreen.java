@@ -1,11 +1,15 @@
 package com.skd.equivalentlegacy.gui;
 
+import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.entity.player.Inventory;
+
+import java.text.NumberFormat;
+import java.util.Locale;
 
 public class ChestScreen extends AbstractContainerScreen<ChestMenu> {
     private static final Identifier BG_TEXTURE = Identifier.parse("equivalent_legacy:textures/gui/alchchest");
@@ -33,6 +37,18 @@ public class ChestScreen extends AbstractContainerScreen<ChestMenu> {
                         x + ChestMenu.CHEST_X + col * 18, y + ChestMenu.CHEST_Y + row * 18,
                         7, 7, 18, 18, TEX_WIDTH, TEX_HEIGHT);
             }
+        }
+
+        int networkCount = menu.getNetworkChestCount();
+        if (networkCount > 1) {
+            Font font = this.font;
+            Component networkLabel = Component.translatable("gui.equivalent_legacy.network_status", networkCount);
+            graphics.text(font, networkLabel, x + 5, y + 6, 0x55FF55);
+
+            long networkEmc = menu.getNetworkEmc();
+            NumberFormat fmt = NumberFormat.getNumberInstance(Locale.US);
+            Component emcLabel = Component.literal(fmt.format(networkEmc) + " EMC");
+            graphics.text(font, emcLabel, x + 5, y + imageHeight - 6 - font.lineHeight, 0x55FFFF);
         }
     }
 }
