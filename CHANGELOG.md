@@ -1,5 +1,16 @@
 # Changelog - Equivalent Legacy 26.2
 
+## [1.3.0-beta.8] - 2026-08-07
+
+### 🐛 Bug Fixes
+- **Fixed incomplete block models** — condenser_mk1, condenser_mk2, alchemical_chest, pedestal, dm_pedestal, rm_pedestal now render with proper geometry instead of magenta/black missing textures
+- **Fixed translation namespace mismatch** — 6,813+ translation keys updated from `projecte` to `equivalent_legacy` namespace across 14 language files (all items/blocks now display correct names in tooltips)
+
+### ⚙️ Technical
+- Applied parent block reference (`base_chest`) to chest-like machines for proper model rendering
+- Verified all translation files (19 total) for namespace consistency and JSON validity
+- All supported languages: en_us, es_es, da_dk, de_de, fi_fi, fr_fr, it_it, ja_jp, ko_kr, nl_nl, no_no, pl_pl, pt_br, pt_pt, ru_ru, sv_se, tr_tr, zh_cn, zh_tw
+
 ## [1.3.0-beta.7] - 2026-08-07
 
 ### ✨ Features Complete

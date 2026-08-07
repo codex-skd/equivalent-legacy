@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/cube_all","textures":{"all":"equivalent_legacy:block/pedestal"}}
+{"parent":"equivalent_legacy:block/base_chest","textures":{"chest":"equivalent_legacy:block/pedestal"}}
