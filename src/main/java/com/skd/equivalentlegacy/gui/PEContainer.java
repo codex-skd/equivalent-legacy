@@ -36,8 +36,6 @@ public abstract class PEContainer extends MachineMenu {
     protected void broadcastPE(boolean all) {
         for (BoxedLong field : longFields) {
             field.sync(all);
-            addDataSlot(field.highSlot);
-            addDataSlot(field.lowSlot);
         }
     }
 

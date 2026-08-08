@@ -1,5 +1,22 @@
 # Changelog - Equivalent Legacy 26.2
 
+## [1.3.0-beta.10] - 2026-08-08
+
+### 🐛 Bug Fixes
+- **Fixed transmutation_table blockstate** — Added `FACING` property to `TransmutationTableBlock` to match blockstate JSON
+- **Fixed destruction_catalyst blockstate** — Renamed `destruction_catalyst_block.json` to `destruction_catalyst.json` to match registry name
+- **Fixed missing particle textures** — Added `particle` entry to `base_chest.json`, fixing warnings on alchemical_chest, pedestal, condensers
+- **Fixed arcana_ring item model** — Added missing `parent` and `textures` to base model
+- **Fixed spawner_control_wand model** — Corrected parent from `item/handheld` to `minecraft:item/handheld`
+- **Fixed IndexOutOfBoundsException on GUIs** — Removed duplicate `addDataSlot()` calls from `PEContainer.broadcastPE()` that were incrementing slot count every tick
+- **Fixed missing item textures** — Created placeholder textures for pe_axe, pe_pickaxe, pe_saw, transmutation_stone, spawner_control_wand
+- **Removed empty test_recipe.json** causing data parse errors
+
+### ⚙️ Technical
+- `TransmutationTableBlock`: added `EnumProperty<Direction> FACING` with `createBlockStateDefinition()`
+- `ChestMenu`: added manual `addDataSlot(networkEmc.highSlot/lowSlot)` in constructor
+- Deleted `test_recipe.json` (empty file causing JSON parse errors)
+
 ## [1.3.0-beta.9] - 2026-08-08
 
 ### 🐛 Bug Fixes
