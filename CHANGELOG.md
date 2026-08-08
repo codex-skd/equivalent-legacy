@@ -1,5 +1,13 @@
 # Changelog - Equivalent Legacy 26.2
 
+## [1.3.0-beta.12] - 2026-08-08
+
+### 🐛 Bug Fixes
+- **Fixed 9 missing item models (MC 26.2 item model system)** — Added missing item definition files under `assets/equivalent_legacy/items/` for pedestal, dm_pedestal, rm_pedestal, destruction_catalyst_block, transmutation_stone, pe_axe, pe_pickaxe, pe_saw, and spawner_control_wand, resolving "Missing item model for location" warnings at load
+
+### ⚙️ Technical
+- New-format item definitions (`assets/equivalent_legacy/items/*.json`) required by Minecraft 26.2: blocks reference `equivalent_legacy:block/<id>`, items reference `equivalent_legacy:item/<id>`
+
 ## [1.3.0-beta.11] - 2026-08-08
 
 ### 🐛 Bug Fixes
