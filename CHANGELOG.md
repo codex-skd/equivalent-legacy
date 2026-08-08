@@ -1,6 +1,12 @@
 # Changelog - Equivalent Legacy 26.2
 
-## [1.3.0-beta.10] - 2026-08-08
+## [1.3.0-beta.11] - 2026-08-08
+
+### 🐛 Bug Fixes
+- **Fixed missing item models** — Added explicit `particle` textures to all block models extending `base_chest` (pedestal, dm_pedestal, rm_pedestal, alchemical_chest, condenser_mk1, condenser_mk2), resolving "Missing item model" warnings
+
+### ⚙️ Technical
+- Moved `particle` texture from `base_chest.json` to individual child models to fix NeoForge model validation
 
 ### 🐛 Bug Fixes
 - **Fixed transmutation_table blockstate** — Added `FACING` property to `TransmutationTableBlock` to match blockstate JSON
