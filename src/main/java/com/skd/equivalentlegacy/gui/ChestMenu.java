@@ -32,6 +32,8 @@ public class ChestMenu extends PEContainer {
         addDataSlot(openness);
         addDataSlot(networkChestCount);
         longFields.add(networkEmc);
+        addDataSlot(networkEmc.highSlot);
+        addDataSlot(networkEmc.lowSlot);
 
         if (blockEntity != null) {
             var inventory = blockEntity.getInventory();
