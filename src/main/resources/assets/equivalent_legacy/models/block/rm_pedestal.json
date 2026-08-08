@@ -1,1 +1,1 @@
-{"parent":"equivalent_legacy:block/base_chest","textures":{"chest":"equivalent_legacy:block/red_matter_block"}}
+{"parent":"equivalent_legacy:block/base_chest","textures":{"chest":"equivalent_legacy:block/red_matter_block","particle":"equivalent_legacy:block/red_matter_block"}}
