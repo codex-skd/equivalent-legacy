@@ -1,5 +1,13 @@
 # Changelog - Equivalent Legacy 26.2
 
+## [1.3.0-beta.14] - 2026-08-11
+
+### ✨ Nuevo
+- **Traducción al español (es_es)**: traducción completa de las 718 claves de idioma — el mod nunca había tenido traducción al español.
+
+### 🐛 Bug Fixes
+- **Nombre del mod sin espacio** ("EquivalentLegacy") en la pestaña de creativo y varios tooltips/pantallas de configuración en todos los idiomas — ahora "Equivalent Legacy".
+
 ## [1.3.0-beta.13] - 2026-08-10
 
 ### ✨ Reescritura completa (re-port desde la referencia Equivox)
