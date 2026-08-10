@@ -1,33 +1,62 @@
 package com.skd.equivalentlegacy.config;
 
+import com.skd.equivalentlegacy.config.value.CachedBooleanValue;
+import net.neoforged.fml.config.ModConfig;
 import net.neoforged.neoforge.common.ModConfigSpec;
 
-public final class ClientConfig {
-    private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
+/**
+ * For config options that only the client cares about
+ */
+public class ClientConfig extends BasePEConfig {
 
-    public static final ModConfigSpec.BooleanValue EMC_TOOLTIPS = BUILDER
-            .comment("Show EMC values in item tooltips")
-            .define("emcToolTips", true);
+	private final ModConfigSpec configSpec;
 
-    public static final ModConfigSpec.BooleanValue SHIFT_EMC_TOOLTIPS = BUILDER
-            .comment("Only show EMC tooltips when holding shift")
-            .define("shiftEmcToolTips", false);
+	public final CachedBooleanValue emcToolTips;
+	public final CachedBooleanValue shiftEmcToolTips;
+	public final CachedBooleanValue shiftLearnedToolTips;
+	public final CachedBooleanValue pedestalToolTips;
+	public final CachedBooleanValue statToolTips;
+	public final CachedBooleanValue tagToolTips;
 
-    public static final ModConfigSpec.BooleanValue PULSATING_OVERLAY = BUILDER
-            .comment("Show pulsating overlay on blocks with EMC storage")
-            .define("pulsatingOverlay", true);
+	public final CachedBooleanValue pulsatingOverlay;
 
-    public static final ModConfigSpec.BooleanValue PEDESTAL_FLOATING_ITEM = BUILDER
-            .comment("Render the floating item above pedestals")
-            .define("rendering.pedestalFloatingItem", true);
+	ClientConfig() {
+		ModConfigSpec.Builder builder = new ModConfigSpec.Builder();
 
-    public static final ModConfigSpec.BooleanValue CHEST_LID_ANIMATION = BUILDER
-            .comment("Animate the alchemical chest lid when opening")
-            .define("rendering.chestLidAnimation", true);
+		pulsatingOverlay = CachedBooleanValue.wrap(this, PEConfigTranslations.CLIENT_PHILO_OVERLAY.applyToBuilder(builder).define("pulsatingOverlay", false));
 
-    public static final ModConfigSpec.BooleanValue TRANSMUTATION_HUD = BUILDER
-            .comment("Show the world transmutation HUD overlay while transmuting")
-            .define("rendering.transmutationHud", true);
+		PEConfigTranslations.CLIENT_TOOLTIPS.applyToBuilder(builder).push("tooltips");
+		emcToolTips = CachedBooleanValue.wrap(this, PEConfigTranslations.CLIENT_TOOLTIPS_EMC.applyToBuilder(builder).define("emc", true));
+		shiftEmcToolTips = CachedBooleanValue.wrap(this, PEConfigTranslations.CLIENT_TOOLTIPS_EMC_SHIFT.applyToBuilder(builder)
+				.define("shift_emc", false));
+		shiftLearnedToolTips = CachedBooleanValue.wrap(this, PEConfigTranslations.CLIENT_TOOLTIPS_LEARNED_SHIFT.applyToBuilder(builder)
+				.define("shift_learned", true));
+		pedestalToolTips = CachedBooleanValue.wrap(this, PEConfigTranslations.CLIENT_TOOLTIPS_PEDESTAL.applyToBuilder(builder)
+				.define("pedestal", true));
+		statToolTips = CachedBooleanValue.wrap(this, PEConfigTranslations.CLIENT_TOOLTIPS_STATS.applyToBuilder(builder).define("statToolTips", true));
+		tagToolTips = CachedBooleanValue.wrap(this, PEConfigTranslations.CLIENT_TOOLTIPS_TAGS.applyToBuilder(builder).define("tag", false));
+		builder.pop();
 
-    public static final ModConfigSpec SPEC = BUILDER.build();
+		configSpec = builder.build();
+	}
+
+	@Override
+	public String getFileName() {
+		return "client";
+	}
+
+	@Override
+	public String getTranslation() {
+		return "Client Config";
+	}
+
+	@Override
+	public ModConfigSpec getConfigSpec() {
+		return configSpec;
+	}
+
+	@Override
+	public ModConfig.Type getConfigType() {
+		return ModConfig.Type.CLIENT;
+	}
 }

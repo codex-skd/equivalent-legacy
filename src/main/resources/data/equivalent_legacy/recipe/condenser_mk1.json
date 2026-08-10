@@ -1,1 +1,18 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"C":"minecraft:chest","D":"#c:gems/diamond","O":"minecraft:obsidian"},"pattern":["ODO","DCD","ODO"],"result":{"count":1,"id":"equivalent_legacy:condenser_mk1"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "equivalent_legacy:alchemical_chest",
+    "D": "#c:gems/diamond",
+    "O": "#c:obsidians/normal"
+  },
+  "pattern": [
+    "ODO",
+    "DCD",
+    "ODO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:condenser_mk1"
+  }
+}

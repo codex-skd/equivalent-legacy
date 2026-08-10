@@ -1,1 +1,6 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"equivalent_legacy:item/alchemy_bags/light_gray"}}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "equivalent_legacy:item/alchemy_bags/light_gray"
+  }
+}

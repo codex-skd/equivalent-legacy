@@ -1,1 +1,6 @@
-{"values":["equivalent_legacy:dark_matter_axe","equivalent_legacy:red_matter_axe"]}
+{
+  "values": [
+    "equivalent_legacy:dm_axe",
+    "equivalent_legacy:rm_axe"
+  ]
+}

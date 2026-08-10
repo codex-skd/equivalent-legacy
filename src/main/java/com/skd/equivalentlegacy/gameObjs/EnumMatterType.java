@@ -1,50 +1,89 @@
 package com.skd.equivalentlegacy.gameObjs;
 
-public enum EnumMatterType {
-    DARK_MATTER(0, 14, 3, 12, "dark_matter", 1.0F),
-    RED_MATTER(1, 16, 4, 14, "red_matter", 0.8F);
+import com.mojang.serialization.Codec;
+import net.minecraft.tags.TagKey;
+import net.minecraft.util.StringRepresentable;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.material.MapColor;
+import org.jetbrains.annotations.NotNull;
 
-    private final int tier;
-    private final int efficiency;
-    private final int attack;
-    private final int chargeModifier;
-    private final String serializedName;
-    private final float fuelMultiplier;
+public enum EnumMatterType implements StringRepresentable, IMatterType {
+	DARK_MATTER("dark_matter", 3, 14, 12, PETags.Blocks.INCORRECT_FOR_DARK_MATTER_TOOL, MapColor.COLOR_BLACK),
+	RED_MATTER("red_matter", 4, 16, 14, PETags.Blocks.INCORRECT_FOR_RED_MATTER_TOOL, MapColor.COLOR_RED);
 
-    EnumMatterType(int tier, int efficiency, int attack, int chargeModifier, String serializedName, float fuelMultiplier) {
-        this.tier = tier;
-        this.efficiency = efficiency;
-        this.attack = attack;
-        this.chargeModifier = chargeModifier;
-        this.serializedName = serializedName;
-        this.fuelMultiplier = fuelMultiplier;
-    }
+	public static final Codec<EnumMatterType> CODEC = StringRepresentable.fromEnum(EnumMatterType::values);
 
-    public int getTier() {
-        return tier;
-    }
+	private final TagKey<Block> incorrectBlockForDrops;
+	private final String name;
+	private final float attackDamage;
+	private final float efficiency;
+	private final float chargeModifier;
+	private final MapColor mapColor;
 
-    public int getEfficiency() {
-        return efficiency;
-    }
+	EnumMatterType(String name, float attackDamage, float efficiency, float chargeModifier, TagKey<Block> incorrectBlockForDrops, MapColor mapColor) {
+		this.name = name;
+		this.attackDamage = attackDamage;
+		this.efficiency = efficiency;
+		this.chargeModifier = chargeModifier;
+		this.incorrectBlockForDrops = incorrectBlockForDrops;
+		this.mapColor = mapColor;
+	}
 
-    public int getAttackDamageBonus() {
-        return attack;
-    }
+	@NotNull
+	@Override
+	public String getSerializedName() {
+		return name;
+	}
 
-    public int getChargeModifier() {
-        return chargeModifier;
-    }
+	@Override
+	public String toString() {
+		return getSerializedName();
+	}
 
-    public String getSerializedName() {
-        return serializedName;
-    }
+	@Override
+	public int getUses() {
+		return 0;
+	}
 
-    public float getFuelMultiplier() {
-        return fuelMultiplier;
-    }
+	@Override
+	public float getChargeModifier() {
+		return chargeModifier;
+	}
 
-    public int getSpeed() {
-        return efficiency;
-    }
+	@Override
+	public float getSpeed() {
+		return efficiency;
+	}
+
+	@Override
+	public float getAttackDamageBonus() {
+		return attackDamage;
+	}
+
+	@NotNull
+	@Override
+	public TagKey<Block> getIncorrectBlocksForDrops() {
+		return incorrectBlockForDrops;
+	}
+
+	@Override
+	public int getEnchantmentValue() {
+		return 1;
+	}
+
+	@NotNull
+	@Override
+	public Ingredient getRepairIngredient() {
+		return Ingredient.of();
+	}
+
+	public MapColor getMapColor() {
+		return mapColor;
+	}
+
+	@Override
+	public int getMatterTier() {
+		return ordinal();
+	}
 }

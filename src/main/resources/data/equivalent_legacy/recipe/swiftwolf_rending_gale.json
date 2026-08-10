@@ -1,1 +1,18 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","key":{"D":"equivalent_legacy:dark_matter","F":"#c:feathers","I":"equivalent_legacy:iron_band"},"pattern":["DFD","FIF","DFD"],"result":{"count":1,"id":"equivalent_legacy:swiftwolf_rending_gale"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": "equivalent_legacy:dark_matter",
+    "F": "#c:feathers",
+    "I": "equivalent_legacy:iron_band"
+  },
+  "pattern": [
+    "DFD",
+    "FIF",
+    "DFD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:swiftwolf_rending_gale"
+  }
+}

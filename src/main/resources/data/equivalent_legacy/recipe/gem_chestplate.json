@@ -1,1 +1,22 @@
-{"type":"minecraft:crafting_shapeless","category":"equipment","ingredients":["equivalent_legacy:red_matter_chestplate","equivalent_legacy:volcanite_amulet","equivalent_legacy:body_stone","equivalent_legacy:klein_star_omega"],"result":{"count":1,"id":"equivalent_legacy:gem_chestplate"}}
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "equivalent_legacy:full_klein_stars"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "equivalent_legacy:rm_chestplate",
+    "equivalent_legacy:volcanite_amulet",
+    "equivalent_legacy:body_stone",
+    "equivalent_legacy:klein_star_omega"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:gem_chestplate"
+  }
+}

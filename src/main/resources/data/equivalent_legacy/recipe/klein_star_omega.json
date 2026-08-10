@@ -1,12 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "equipment",
-  "group": "equivalent_legacy:klein_star",
   "ingredients": [
     "equivalent_legacy:klein_star_sphere",
     "equivalent_legacy:klein_star_sphere",
     "equivalent_legacy:klein_star_sphere",
     "equivalent_legacy:klein_star_sphere"
   ],
-  "result": {"count": 1, "id": "equivalent_legacy:klein_star_omega"}
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:klein_star_omega"
+  }
 }

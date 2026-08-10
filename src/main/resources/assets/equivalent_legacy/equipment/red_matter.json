@@ -1,6 +1,19 @@
 {
   "layers": {
-    "humanoid": [{"texture": "equivalent_legacy:red_matter"}],
-    "humanoid_leggings": [{"texture": "equivalent_legacy:red_matter"}]
+    "humanoid": [
+      {
+        "texture": "equivalent_legacy:red_matter"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "equivalent_legacy:red_matter"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "equivalent_legacy:red_matter"
+      }
+    ]
   }
 }

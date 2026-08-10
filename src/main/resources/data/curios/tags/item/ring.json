@@ -1,1 +1,11 @@
-{"values":["equivalent_legacy:arcana_ring","equivalent_legacy:black_hole_band","equivalent_legacy:gem_of_eternal_density","equivalent_legacy:harvest_goddess_band","equivalent_legacy:ignition_ring","equivalent_legacy:swiftwolf_rending_gale","equivalent_legacy:void_ring","equivalent_legacy:zero_ring"]}
+{
+  "values": [
+    "equivalent_legacy:arcana_ring",
+    "equivalent_legacy:black_hole_band",
+    "equivalent_legacy:gem_of_eternal_density",
+    "equivalent_legacy:ignition_ring",
+    "equivalent_legacy:swiftwolf_rending_gale",
+    "equivalent_legacy:void_ring",
+    "equivalent_legacy:zero_ring"
+  ]
+}

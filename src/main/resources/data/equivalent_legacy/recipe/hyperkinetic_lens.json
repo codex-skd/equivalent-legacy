@@ -1,1 +1,18 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","key":{"D":"#c:gems/diamond","M":"equivalent_legacy:dark_matter","N":"equivalent_legacy:nova_catalyst"},"pattern":["DDD","MNM","DDD"],"result":{"count":1,"id":"equivalent_legacy:hyperkinetic_lens"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": "#c:gems/diamond",
+    "M": "equivalent_legacy:dark_matter",
+    "N": "equivalent_legacy:nova_catalyst"
+  },
+  "pattern": [
+    "DDD",
+    "MNM",
+    "DDD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:hyperkinetic_lens"
+  }
+}

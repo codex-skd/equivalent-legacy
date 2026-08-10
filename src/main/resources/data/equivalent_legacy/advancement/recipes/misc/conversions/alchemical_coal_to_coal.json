@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_alchemical_coal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "equivalent_legacy:philosophers_stone"
+          },
+          {
+            "items": "equivalent_legacy:alchemical_coal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "equivalent_legacy:conversions/alchemical_coal_to_coal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_alchemical_coal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "equivalent_legacy:conversions/alchemical_coal_to_coal"
+    ]
+  }
+}

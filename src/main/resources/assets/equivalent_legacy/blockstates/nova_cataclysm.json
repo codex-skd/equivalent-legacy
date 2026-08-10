@@ -1,1 +1,7 @@
-{"variants":{"":{"model":"equivalent_legacy:block/nova_cataclysm"}}}
+{
+  "variants": {
+    "": {
+      "model": "equivalent_legacy:block/nova_cataclysm"
+    }
+  }
+}

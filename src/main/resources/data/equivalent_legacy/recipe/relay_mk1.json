@@ -1,1 +1,18 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"D":"#c:storage_blocks/diamond","O":"minecraft:obsidian","S":"minecraft:glass"},"pattern":["OSO","ODO","OOO"],"result":{"count":1,"id":"equivalent_legacy:relay_mk1"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "#c:storage_blocks/diamond",
+    "O": "#c:obsidians/normal",
+    "S": "minecraft:glass"
+  },
+  "pattern": [
+    "OSO",
+    "ODO",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:relay_mk1"
+  }
+}

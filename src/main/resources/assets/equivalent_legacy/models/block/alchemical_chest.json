@@ -1,1 +1,6 @@
-{"parent":"equivalent_legacy:block/base_chest","textures":{"chest":"equivalent_legacy:block/alchemical_chest","particle":"equivalent_legacy:block/alchemical_chest"}}
+{
+  "parent": "equivalent_legacy:block/base_chest",
+  "textures": {
+    "chest": "equivalent_legacy:block/alchemical_chest"
+  }
+}

@@ -1,1 +1,45 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","group":"equivalent_legacy:tome","key":{"B":"minecraft:book","H":"equivalent_legacy:high_covalence_dust","K":{"neoforge:ingredient_type":"equivalent_legacy:full_klein_star"},"L":"equivalent_legacy:low_covalence_dust","M":"equivalent_legacy:medium_covalence_dust"},"pattern":["HML","KBK","LMH"],"result":{"count":1,"id":"equivalent_legacy:tome"}}
+{
+  "neoforge:conditions": [
+    {
+      "type": "equivalent_legacy:tome_enabled"
+    },
+    {
+      "type": "equivalent_legacy:full_klein_stars"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "equivalent_legacy:tome",
+  "key": {
+    "B": "minecraft:book",
+    "H": "equivalent_legacy:high_covalence_dust",
+    "K": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "minecraft:attribute_modifiers": {
+          "modifiers": []
+        },
+        "minecraft:enchantments": {
+          "levels": {}
+        },
+        "minecraft:lore": [],
+        "minecraft:max_stack_size": 1,
+        "minecraft:rarity": "epic",
+        "minecraft:repair_cost": 0,
+        "equivalent_legacy:stored_emc": 51200000
+      },
+      "items": "equivalent_legacy:klein_star_omega"
+    },
+    "L": "equivalent_legacy:low_covalence_dust",
+    "M": "equivalent_legacy:medium_covalence_dust"
+  },
+  "pattern": [
+    "HML",
+    "KBK",
+    "LMH"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:tome"
+  }
+}

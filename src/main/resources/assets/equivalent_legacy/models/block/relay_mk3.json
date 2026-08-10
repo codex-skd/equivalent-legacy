@@ -1,1 +1,9 @@
-{"parent":"equivalent_legacy:block/relay_mk1","textures":{"top":"equivalent_legacy:block/relays/top_3"}}
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "equivalent_legacy:block/relays/other",
+    "front": "equivalent_legacy:block/relays/front",
+    "side": "equivalent_legacy:block/relays/other",
+    "top": "equivalent_legacy:block/relays/top_3"
+  }
+}

@@ -1,1 +1,14 @@
-{"type":"minecraft:crafting_shapeless","category":"equipment","ingredients":["equivalent_legacy:black_hole_band","equivalent_legacy:gem_of_eternal_density","equivalent_legacy:red_matter","equivalent_legacy:red_matter"],"result":{"count":1,"id":"equivalent_legacy:void_ring"}}
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "equivalent_legacy:black_hole_band",
+    "equivalent_legacy:gem_of_eternal_density",
+    "equivalent_legacy:red_matter",
+    "equivalent_legacy:red_matter"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:void_ring"
+  }
+}

@@ -1,49 +1,84 @@
 package com.skd.equivalentlegacy.emc.components.processor;
 
-import com.skd.equivalentlegacy.emc.mapper.EMCMappingHandler;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
+import java.util.function.LongSupplier;
+import com.skd.equivalentlegacy.api.ItemInfo;
+import com.skd.equivalentlegacy.api.components.DataComponentProcessor;
+import com.skd.equivalentlegacy.config.PEConfigTranslations;
 import net.minecraft.core.Holder;
 import net.minecraft.core.component.DataComponentType;
 import net.minecraft.core.component.DataComponents;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.ItemEnchantments;
+import net.neoforged.neoforge.common.ModConfigSpec;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Range;
 
-/**
- * Adds EMC for enchantments, scaled by enchantment rarity.
- *
- * <p>{@code enchanted_diamond_sword = EMC(diamond_sword) + EMC(sharpness, ...)} where each
- * enchantment contributes {@code bonus / rarityWeight} per level.</p>
- */
+@DataComponentProcessor
 public class EnchantmentProcessor extends PersistentComponentProcessor<ItemEnchantments> {
 
+	private static final ResourceKey<Item> ENCHANTED_BOOK = BuiltInRegistries.ITEM.getResourceKey(Items.ENCHANTED_BOOK).orElseThrow();
 	private static final long DEFAULT_ENCHANT_EMC_BONUS = 5_000;
+
+	private LongSupplier enchantmentEmcBonus = () -> DEFAULT_ENCHANT_EMC_BONUS;
 
 	@Override
 	public String getName() {
-		return "EnchantmentProcessor";
+		return PEConfigTranslations.DCP_ENCHANTMENT.title();
 	}
 
 	@Override
-	protected DataComponentType<ItemEnchantments> getComponentType(ItemStack stack) {
-		return stack.is(Items.ENCHANTED_BOOK) ? DataComponents.STORED_ENCHANTMENTS : DataComponents.ENCHANTMENTS;
+	public String getTranslationKey() {
+		return PEConfigTranslations.DCP_ENCHANTMENT.getTranslationKey();
 	}
 
 	@Override
-	protected boolean shouldPersist(ItemStack stack, ItemEnchantments component) {
-		return !component.isEmpty();
+	public String getDescription() {
+		return PEConfigTranslations.DCP_ENCHANTMENT.tooltip();
 	}
 
 	@Override
-	protected long calculateComponentEMC(ItemStack stack, ItemEnchantments enchantments, EMCMappingHandler handler) {
-		long emcBonus = 0;
+	public boolean isAvailable() {
+		//Disable by default
+		return false;
+	}
+
+	@Override
+	public boolean usePersistentComponents() {
+		//Disable by default
+		return false;
+	}
+
+	@Override
+	public void addConfigOptions(ModConfigSpec.Builder configBuilder) {
+		enchantmentEmcBonus = PEConfigTranslations.DCP_ENCHANTMENT_EMC_BONUS.applyToBuilder(configBuilder).worldRestart()
+				.defineInRange("enchantment_emc_bonus", DEFAULT_ENCHANT_EMC_BONUS, 0, Long.MAX_VALUE);
+	}
+
+	@Override
+	@Range(from = 0, to = Long.MAX_VALUE)
+	public long recalculateEMC(@NotNull ItemInfo info, @Range(from = 1, to = Long.MAX_VALUE) long currentEMC, @NotNull ItemEnchantments enchantments) throws ArithmeticException {
+		long emcBonus = enchantmentEmcBonus.getAsLong();
 		for (Object2IntMap.Entry<Holder<Enchantment>> entry : enchantments.entrySet()) {
 			int rarityWeight = entry.getKey().value().definition().weight();
 			if (rarityWeight > 0) {
-				emcBonus = Math.addExact(emcBonus, Math.multiplyExact(DEFAULT_ENCHANT_EMC_BONUS / rarityWeight, entry.getIntValue()));
+				currentEMC = Math.addExact(currentEMC, Math.multiplyExact(emcBonus / rarityWeight, entry.getIntValue()));
 			}
 		}
-		return emcBonus;
+		return currentEMC;
+	}
+
+	@Override
+	protected DataComponentType<ItemEnchantments> getComponentType(@NotNull ItemInfo info) {
+		return info.getItem().is(ENCHANTED_BOOK) ? DataComponents.STORED_ENCHANTMENTS : DataComponents.ENCHANTMENTS;
+	}
+
+	@Override
+	protected boolean shouldPersist(@NotNull ItemInfo info, @NotNull ItemEnchantments component) {
+		return !component.isEmpty();
 	}
 }

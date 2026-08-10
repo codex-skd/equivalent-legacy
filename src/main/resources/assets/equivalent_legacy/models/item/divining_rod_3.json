@@ -1,1 +1,6 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"equivalent_legacy:item/divining_rod_3"}}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "equivalent_legacy:item/divining_rod_3"
+  }
+}

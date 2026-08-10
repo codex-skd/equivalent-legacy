@@ -1,1 +1,7 @@
-{"variants":{"":{"model":"equivalent_legacy:block/dm_pedestal"}}}
+{
+  "variants": {
+    "": {
+      "model": "equivalent_legacy:block/dm_pedestal"
+    }
+  }
+}

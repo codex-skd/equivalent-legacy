@@ -1,35 +1,43 @@
 package com.skd.equivalentlegacy.emc.mappers;
 
-import com.skd.equivalentlegacy.emc.mapper.IEMCMapper;
-import com.skd.equivalentlegacy.emc.mapper.IMappingCollector;
-import com.skd.equivalentlegacy.emc.nss.NSSItem;
-import com.skd.equivalentlegacy.emc.nss.NormalizedSimpleStack;
-import it.unimi.dsi.fastutil.objects.Object2IntMaps;
-import net.minecraft.core.Holder;
-import net.minecraft.core.HolderSet;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.world.item.Item;
+import com.skd.equivalentlegacy.api.mapper.IEMCMapper;
+import com.skd.equivalentlegacy.api.mapper.collector.IMappingCollector;
+import com.skd.equivalentlegacy.api.nss.AbstractNSSTag;
+import com.skd.equivalentlegacy.api.nss.NSSTag;
+import com.skd.equivalentlegacy.api.nss.NormalizedSimpleStack;
+import com.skd.equivalentlegacy.config.PEConfigTranslations;
+import com.skd.equivalentlegacy.utils.EMCHelper;
+import net.minecraft.core.RegistryAccess;
+import net.minecraft.server.ReloadableServerResources;
+import net.minecraft.server.packs.resources.ResourceManager;
 
-/**
- * Gives every item tag the lowest EMC value among its elements, so items that share a tag
- * resolve to a common value (e.g. {@code oak_wood} and {@code spruce_wood}).
- *
- * <p>Phase 1B adaptation: only the {@code tag <- element} direction is registered. The
- * reverse ({@code element <- tag}) direction would override hardcoded fixed values and is
- * deferred to the Phase 2 graph-based resolution, matching Equivox's full bidirectional
- * behavior once the graph fully manages values.</p>
- */
-public class TagMapper implements IEMCMapper {
+public class TagMapper implements IEMCMapper<NormalizedSimpleStack, Long> {
 
 	@Override
-	public String getName() {
-		return "TagMapper";
+	public void addMappings(IMappingCollector<NormalizedSimpleStack, Long> mapper, ReloadableServerResources serverResources,
+			RegistryAccess registryAccess, ResourceManager resourceManager) {
+		for (NSSTag stack : AbstractNSSTag.getAllCreatedTags()) {
+			stack.forEachElement(mapper, stack, (collector, normalizedSimpleStack, tag) -> {
+				//Tag -> element
+				collector.addConversion(1, tag, EMCHelper.intMapOf(normalizedSimpleStack, 1));
+				//Element -> tag
+				collector.addConversion(1, normalizedSimpleStack, EMCHelper.intMapOf(tag, 1));
+			});
+		}
 	}
 
 	@Override
-	public void addMappings(IMappingCollector<NormalizedSimpleStack, Long> collector) {
-		// Phase 1B note: Tag iteration requires higher-level API not exposed in base registries.
-		// For now, this mapper is a placeholder for Phase 2 graph-based tag resolution.
-		// Individual tag mapping will be handled by custom conversions and special tag definitions.
+	public String getName() {
+		return PEConfigTranslations.MAPPING_TAG_MAPPER.title();
+	}
+
+	@Override
+	public String getTranslationKey() {
+		return PEConfigTranslations.MAPPING_TAG_MAPPER.getTranslationKey();
+	}
+
+	@Override
+	public String getDescription() {
+		return PEConfigTranslations.MAPPING_TAG_MAPPER.tooltip();
 	}
 }

@@ -1,1 +1,50 @@
-{"charge":{"sounds":["equivalent_legacy:item/pecharge"],"subtitle":"sound_event.projecte.charge"},"destruct":{"sounds":["equivalent_legacy:item/pedestruct"],"subtitle":"sound_event.projecte.destruct"},"heal":{"sounds":["equivalent_legacy:item/peheal"],"subtitle":"sound_event.projecte.heal"},"power":{"sounds":["equivalent_legacy:item/pepower"],"subtitle":"sound_event.projecte.power"},"transmute":{"sounds":["equivalent_legacy:item/petransmute"],"subtitle":"sound_event.projecte.transmute"},"uncharge":{"sounds":["equivalent_legacy:item/peuncharge"],"subtitle":"sound_event.projecte.uncharge"},"watermagic":{"sounds":["equivalent_legacy:item/pewatermagic"],"subtitle":"sound_event.projecte.watermagic"},"windmagic":{"sounds":["equivalent_legacy:item/pewindmagic"],"subtitle":"sound_event.projecte.windmagic"}}
+{
+  "charge": {
+    "sounds": [
+      "equivalent_legacy:item/pecharge"
+    ],
+    "subtitle": "sound_event.equivalent_legacy.charge"
+  },
+  "destruct": {
+    "sounds": [
+      "equivalent_legacy:item/pedestruct"
+    ],
+    "subtitle": "sound_event.equivalent_legacy.destruct"
+  },
+  "heal": {
+    "sounds": [
+      "equivalent_legacy:item/peheal"
+    ],
+    "subtitle": "sound_event.equivalent_legacy.heal"
+  },
+  "power": {
+    "sounds": [
+      "equivalent_legacy:item/pepower"
+    ],
+    "subtitle": "sound_event.equivalent_legacy.power"
+  },
+  "transmute": {
+    "sounds": [
+      "equivalent_legacy:item/petransmute"
+    ],
+    "subtitle": "sound_event.equivalent_legacy.transmute"
+  },
+  "uncharge": {
+    "sounds": [
+      "equivalent_legacy:item/peuncharge"
+    ],
+    "subtitle": "sound_event.equivalent_legacy.uncharge"
+  },
+  "watermagic": {
+    "sounds": [
+      "equivalent_legacy:item/pewatermagic"
+    ],
+    "subtitle": "sound_event.equivalent_legacy.watermagic"
+  },
+  "windmagic": {
+    "sounds": [
+      "equivalent_legacy:item/pewindmagic"
+    ],
+    "subtitle": "sound_event.equivalent_legacy.windmagic"
+  }
+}
