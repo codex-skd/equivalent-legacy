@@ -1,1 +1,18 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"O":"minecraft:obsidian","P":"equivalent_legacy:relay_mk1","U":"equivalent_legacy:dark_matter"},"pattern":["OUO","OPO","OOO"],"result":{"count":1,"id":"equivalent_legacy:relay_mk2"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": "#c:obsidians/normal",
+    "P": "equivalent_legacy:relay_mk1",
+    "U": "equivalent_legacy:dark_matter"
+  },
+  "pattern": [
+    "OUO",
+    "OPO",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:relay_mk2"
+  }
+}

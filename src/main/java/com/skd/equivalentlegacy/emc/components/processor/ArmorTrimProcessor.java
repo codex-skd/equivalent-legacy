@@ -1,31 +1,55 @@
 package com.skd.equivalentlegacy.emc.components.processor;
 
-import com.skd.equivalentlegacy.emc.mapper.EMCMappingHandler;
+import com.skd.equivalentlegacy.api.ItemInfo;
+import com.skd.equivalentlegacy.api.components.DataComponentProcessor;
+import com.skd.equivalentlegacy.api.proxy.IEMCProxy;
+import com.skd.equivalentlegacy.config.PEConfigTranslations;
+import net.minecraft.core.Holder;
+import net.minecraft.core.component.DataComponentType;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.tags.ItemTags;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.equipment.trim.ArmorTrim;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Range;
 
-/**
- * Adds the EMC of the applied armor trim (material + pattern template).
- */
-public class ArmorTrimProcessor implements IComponentProcessor {
+@DataComponentProcessor
+public class ArmorTrimProcessor extends PersistentComponentProcessor<ArmorTrim> {
 
 	@Override
 	public String getName() {
-		return "ArmorTrimProcessor";
+		return PEConfigTranslations.DCP_ARMOR_TRIM.title();
 	}
 
 	@Override
-	public long calculateComponentEMC(ItemStack stack, EMCMappingHandler handler) {
-		if (!stack.is(ItemTags.TRIMMABLE_ARMOR)) {
-			return 0;
-		}
-		ArmorTrim trim = stack.get(DataComponents.TRIM);
-		if (trim == null) {
-			return 0;
-		}
-		//TODO 26.2: ArmorTrimMaterial API changed; skip trim EMC adjustment for now.
-		return 0;
+	public String getTranslationKey() {
+		return PEConfigTranslations.DCP_ARMOR_TRIM.getTranslationKey();
+	}
+
+	@Override
+	public String getDescription() {
+		return PEConfigTranslations.DCP_ARMOR_TRIM.tooltip();
+	}
+
+	@Override
+	@Range(from = 0, to = Long.MAX_VALUE)
+	public long recalculateEMC(@NotNull ItemInfo info, @Range(from = 1, to = Long.MAX_VALUE) long currentEMC, @NotNull ArmorTrim trim) throws ArithmeticException {
+		// TODO 26.1: ArmorTrimMaterial API changed; skip trim EMC adjustment for now.
+		return currentEMC;
+	}
+
+	@Override
+	protected boolean validItem(@NotNull ItemInfo info) {
+		return info.getItem().is(ItemTags.TRIMMABLE_ARMOR);
+	}
+
+	@Override
+	protected boolean shouldPersist(@NotNull ItemInfo info, @NotNull ArmorTrim component) {
+		return true;
+	}
+
+	@Override
+	protected DataComponentType<ArmorTrim> getComponentType(@NotNull ItemInfo info) {
+		return DataComponents.TRIM;
 	}
 }

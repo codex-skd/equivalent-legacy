@@ -1,1 +1,6 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"equivalent_legacy:item/fuels/alchemical_coal"}}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "equivalent_legacy:item/fuels/alchemical_coal"
+  }
+}

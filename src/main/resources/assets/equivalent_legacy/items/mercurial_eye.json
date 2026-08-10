@@ -1,1 +1,6 @@
-﻿{"model":{"type":"minecraft:model","model":"equivalent_legacy:item/mercurial_eye"}}
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "equivalent_legacy:item/mercurial_eye"
+  }
+}

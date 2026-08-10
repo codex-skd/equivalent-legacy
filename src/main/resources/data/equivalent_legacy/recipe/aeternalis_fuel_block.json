@@ -1,1 +1,18 @@
-{"type":"minecraft:crafting_shapeless","category":"building","ingredients":["equivalent_legacy:aeternalis_fuel","equivalent_legacy:aeternalis_fuel","equivalent_legacy:aeternalis_fuel","equivalent_legacy:aeternalis_fuel","equivalent_legacy:aeternalis_fuel","equivalent_legacy:aeternalis_fuel","equivalent_legacy:aeternalis_fuel","equivalent_legacy:aeternalis_fuel","equivalent_legacy:aeternalis_fuel"],"result":{"id":"equivalent_legacy:aeternalis_fuel_block"}}
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "equivalent_legacy:aeternalis_fuel",
+    "equivalent_legacy:aeternalis_fuel",
+    "equivalent_legacy:aeternalis_fuel",
+    "equivalent_legacy:aeternalis_fuel",
+    "equivalent_legacy:aeternalis_fuel",
+    "equivalent_legacy:aeternalis_fuel",
+    "equivalent_legacy:aeternalis_fuel",
+    "equivalent_legacy:aeternalis_fuel",
+    "equivalent_legacy:aeternalis_fuel"
+  ],
+  "result": {
+    "id": "equivalent_legacy:aeternalis_fuel_block"
+  }
+}

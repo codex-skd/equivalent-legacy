@@ -1,1 +1,6 @@
-{"values":["equivalent_legacy:dark_matter_pickaxe","equivalent_legacy:red_matter_pickaxe","equivalent_legacy:dark_matter_hammer","equivalent_legacy:red_matter_hammer"]}
+{
+  "values": [
+    "equivalent_legacy:dm_pick",
+    "equivalent_legacy:rm_pick"
+  ]
+}

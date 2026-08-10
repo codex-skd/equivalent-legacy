@@ -1,1 +1,6 @@
-﻿{"model":{"type":"minecraft:model","model":"equivalent_legacy:item/purple_alchemical_bag"}}
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "equivalent_legacy:item/purple_alchemical_bag"
+  }
+}

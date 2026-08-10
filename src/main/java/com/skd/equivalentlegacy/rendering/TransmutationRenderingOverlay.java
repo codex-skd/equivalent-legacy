@@ -1,145 +1,150 @@
 package com.skd.equivalentlegacy.rendering;
 
-import com.skd.equivalentlegacy.item.EquivalentLegacyItems;
-import com.skd.equivalentlegacy.player.PlayerKnowledge;
-import com.skd.equivalentlegacy.world_transmutation.TransmutationConfig;
-import com.skd.equivalentlegacy.world_transmutation.WorldTransmutationManager;
+import com.mojang.blaze3d.vertex.PoseStack;
+import it.unimi.dsi.fastutil.objects.Object2ReferenceMap;
+import java.util.ArrayList;
+import java.util.List;
+import com.skd.equivalentlegacy.config.EquivalentLegacyConfig;
+import com.skd.equivalentlegacy.gameObjs.items.PhilosophersStone;
+import com.skd.equivalentlegacy.gameObjs.items.PhilosophersStone.PhilosophersStoneMode;
+import com.skd.equivalentlegacy.gameObjs.registries.PEItems;
+import net.minecraft.client.Camera;
 import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
+import net.minecraft.client.renderer.SubmitNodeCollector;
+import net.minecraft.client.renderer.state.level.LevelRenderState;
+import net.minecraft.client.renderer.state.level.BlockOutlineRenderState;
 import net.minecraft.core.BlockPos;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
-import net.neoforged.api.distmarker.Dist;
-import net.neoforged.api.distmarker.OnlyIn;
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.neoforged.neoforge.client.CustomBlockOutlineRenderer;
+import net.neoforged.neoforge.client.event.ExtractBlockOutlineRenderStateEvent;
+import net.neoforged.neoforge.client.gui.GuiLayer;
+import net.neoforged.neoforge.common.NeoForge;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
-/**
- * HUD overlay shown while the player holds a Philosopher's Stone / Transmutation Stone and points at a
- * block. Displays the transmutation target, the EMC cost, and a colored status (green = affordable,
- * red = insufficient EMC, grey = not transmutable). Backed by a NeoForge {@code GuiLayer} registered
- * in {@link EquivalentLegacyRenderers}; {@link #render} runs once per frame on the logical client.
- * <p>Performance: block lookups are cached for {@link #CACHE_TICKS} ticks and re-run only when the
- * targeted block changes, so raycast/EMC work does not happen every frame.</p>
- */
-@OnlyIn(Dist.CLIENT)
-public final class TransmutationRenderingOverlay {
-    public static final int WIDTH = 64;
-    public static final int HEIGHT = 64;
-    public static final int FADE_TICKS = 20;
-    public static final int MARGIN = 10;
-    public static final int CACHE_TICKS = 20;
+public class TransmutationRenderingOverlay implements GuiLayer {
 
-    public static final int COLOR_OK = 0x40FF60;
-    public static final int COLOR_LOW_EMC = 0xFF4040;
-    public static final int COLOR_NONE = 0xA0A0A0;
-    public static final int BG_ARGB = 0xBF101010;
+	private record OutlineTarget(BlockPos pos, VoxelShape shape) {
+	}
 
-    private static BlockPos lastPos = null;
-    private static long lastCacheTick = -1L;
-    private static Block lastTarget = null;
-    private static long lastCost = 0L;
-    private static long lastEmc = 0L;
+	private final Minecraft mc = Minecraft.getInstance();
+	@Nullable
+	private Block transmutationResult;
+	private long lastGameTime;
+	@Nullable
+	private List<OutlineTarget> outlineTargets = List.of();
+	private float outlineAlpha;
 
-    private TransmutationRenderingOverlay() {}
+	public TransmutationRenderingOverlay() {
+		NeoForge.EVENT_BUS.addListener(this::onBlockOutlineExtract);
+	}
 
-    public static float computeAlpha(int ticksRemaining) {
-        if (ticksRemaining <= 0) return 0.0F;
-        if (ticksRemaining >= FADE_TICKS) return 1.0F;
-        return ticksRemaining / (float) FADE_TICKS;
-    }
+	@Override
+	public void render(@NotNull GuiGraphicsExtractor graphics, @NotNull DeltaTracker delta) {
+		if (!mc.gui.hud.isHidden() && transmutationResult != null) {
+			graphics.item(new ItemStack(transmutationResult), 1, 1);
+			long gameTime = mc.level == null ? 0 : mc.level.getGameTime();
+			if (lastGameTime != gameTime) {
+				//If the game time changed, so we aren't actually still hovering a block set our
+				// result to null. We do this after rendering it just in case there is a single
+				// frame where this may actually be valid based on the order the events are fired
+				transmutationResult = null;
+				lastGameTime = gameTime;
+			}
+		}
+	}
 
-    public static void render(GuiGraphicsExtractor graphics, DeltaTracker deltaTracker) {
-        Minecraft mc = Minecraft.getInstance();
-        Player player = mc.player;
-        Level level = mc.level;
-        if (player == null || level == null) return;
+	private void onBlockOutlineExtract(ExtractBlockOutlineRenderStateEvent event) {
+		Camera camera = event.getCamera();
+		Entity entity = camera.entity();
+		if (!(entity instanceof Player player)) {
+			clearOverlay();
+			return;
+		}
+		Level level = event.getLevel();
+		lastGameTime = level.getGameTime();
+		ItemStack stack = player.getMainHandItem();
+		if (stack.isEmpty()) {
+			stack = player.getOffhandItem();
+		}
+		if (stack.isEmpty() || !stack.is(PEItems.PHILOSOPHERS_STONE)) {
+			clearOverlay();
+			return;
+		}
+		boolean isSneaking = player.isSecondaryUseActive();
+		PhilosophersStone philoStone = (PhilosophersStone) stack.getItem();
+		//Note: We use the philo stone's ray trace instead of the event's ray trace as we want to make sure that we
+		// can properly take fluid into account/ignore it when needed
+		BlockHitResult rtr = philoStone.getHitBlock(level, player, isSneaking);
+		if (rtr.getType() != HitResult.Type.BLOCK) {
+			clearOverlay();
+			return;
+		}
+		int charge = philoStone.getCharge(stack);
+		PhilosophersStoneMode mode = philoStone.getMode(stack);
+		Object2ReferenceMap<BlockPos, BlockState> changes = PhilosophersStone.getChanges(level, rtr.getBlockPos(), rtr.getDirection(), player.getDirection(),
+				isSneaking, mode, charge);
+		if (changes.isEmpty()) {
+			clearOverlay();
+			return;
+		}
+		transmutationResult = changes.values().iterator().next().getBlock();
+		outlineAlpha = EquivalentLegacyConfig.client.pulsatingOverlay.get() ? getPulseProportion() * 0.60F : 0.35F;
+		CollisionContext selectionContext = event.getCollisionContext();
+		List<OutlineTarget> targets = new ArrayList<>(changes.size());
+		for (BlockPos pos : changes.keySet()) {
+			BlockState state = level.getBlockState(pos);
+			if (!state.isAir()) {
+				VoxelShape shape = state.getShape(level, pos, selectionContext);
+				if (!shape.isEmpty()) {
+					targets.add(new OutlineTarget(pos.immutable(), shape));
+				}
+			}
+		}
+		outlineTargets = List.copyOf(targets);
+		if (!outlineTargets.isEmpty()) {
+			event.addCustomRenderer(OUTLINE_RENDERER);
+		}
+	}
 
-        ItemStack stoneStack = heldStone(player);
-        if (stoneStack.isEmpty()) return;
+	private void clearOverlay() {
+		transmutationResult = null;
+		outlineTargets = List.of();
+	}
 
-        BlockHitResult hit = targetedBlock();
-        if (hit == null) return;
-        BlockPos pos = hit.getBlockPos();
+	private final CustomBlockOutlineRenderer OUTLINE_RENDERER = this::renderTransmutationOutlines;
 
-        long now = level.getGameTime();
-        if (lastPos == null || !pos.equals(lastPos) || (now - lastCacheTick) >= CACHE_TICKS) {
-            lastPos = pos;
-            lastCacheTick = now;
-            Block source = level.getBlockState(pos).getBlock();
-            lastTarget = WorldTransmutationManager.getTransmutationTarget(source);
-            lastCost = lastTarget != null ? WorldTransmutationManager.getTransmutationCost(source, lastTarget) : -1L;
-            lastEmc = PlayerKnowledge.of(player).getEmc();
-        }
+	private boolean renderTransmutationOutlines(BlockOutlineRenderState renderState, SubmitNodeCollector collector, PoseStack poseStack,
+			LevelRenderState levelRenderState) {
+		List<OutlineTarget> targets = outlineTargets;
+		if (targets.isEmpty()) {
+			return false;
+		}
+		Vec3 viewPosition = levelRenderState.cameraRenderState.pos;
+		int color = ((int) (outlineAlpha * 255) << 24) | 0xFFFFFF;
+		for (OutlineTarget target : targets) {
+			BlockPos pos = target.pos;
+			poseStack.pushPose();
+			poseStack.translate(pos.getX() - viewPosition.x, pos.getY() - viewPosition.y, pos.getZ() - viewPosition.z);
+			collector.submitShapeOutline(poseStack, target.shape, PERenderType.TRANSMUTATION_OVERLAY, color, 2.0F, true);
+			poseStack.popPose();
+		}
+		return false;
+	}
 
-        int x = graphics.guiWidth() - WIDTH - MARGIN;
-        int y = MARGIN;
-        Font font = mc.font;
-
-        graphics.fill(x, y, x + WIDTH, y + HEIGHT, BG_ARGB);
-        graphics.outline(x, y, x + WIDTH, y + HEIGHT, 0xFF404040);
-
-        graphics.item(stoneStack, x + 4, y + 8);
-        graphics.text(font, "->", x + 22, y + 12, COLOR_NONE);
-
-        if (lastTarget == null) {
-            graphics.text(font, "Not", x + 38, y + 4, COLOR_NONE);
-            graphics.text(font, "transmut.", x + 38, y + 14, COLOR_NONE);
-            graphics.text(font, "Not transmutable", x + 4, y + HEIGHT - 14, COLOR_NONE);
-            return;
-        }
-
-        ItemStack targetStack = stackOf(lastTarget);
-        if (!targetStack.isEmpty()) {
-            graphics.item(targetStack, x + 38, y + 8);
-        }
-
-        int color = COLOR_OK;
-        String costText;
-        if (lastCost <= 0L) {
-            costText = "Free";
-        } else if (lastEmc >= lastCost) {
-            costText = "Cost: " + lastCost + " EMC";
-        } else {
-            color = COLOR_LOW_EMC;
-            costText = "Cost: " + lastCost + " EMC";
-        }
-        graphics.text(font, costText, x + 4, y + 30, color);
-    }
-
-    private static ItemStack heldStone(Player player) {
-        ItemStack main = player.getMainHandItem();
-        if (isStone(main)) return main;
-        ItemStack off = player.getOffhandItem();
-        if (isStone(off)) return off;
-        return ItemStack.EMPTY;
-    }
-
-    private static boolean isStone(ItemStack stack) {
-        return !stack.isEmpty()
-                && (stack.is(EquivalentLegacyItems.PHILOSOPHERS_STONE.get())
-                || stack.is(EquivalentLegacyItems.TRANSMUTATION_STONE.get()));
-    }
-
-    private static BlockHitResult targetedBlock() {
-        Minecraft mc = Minecraft.getInstance();
-        int range = TransmutationConfig.getRange();
-        HitResult hr = mc.hitResult;
-        if (hr == null || hr.getType() != HitResult.Type.BLOCK || !(hr instanceof BlockHitResult bhr)) return null;
-        if (mc.player == null) return null;
-        BlockPos p = bhr.getBlockPos();
-        if (mc.player.distanceToSqr(p.getX() + 0.5, p.getY() + 0.5, p.getZ() + 0.5) > (double) range * range) return null;
-        return bhr;
-    }
-
-    private static ItemStack stackOf(Block block) {
-        if (block == null) return ItemStack.EMPTY;
-        ItemStack stack = new ItemStack(block.asItem());
-        return stack.getItem() == Items.AIR ? ItemStack.EMPTY : stack;
-    }
+	private float getPulseProportion() {
+		return (float) (0.5F * Math.sin(System.currentTimeMillis() / 350.0) + 0.5F);
+	}
 }

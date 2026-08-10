@@ -1,1 +1,18 @@
-{"type":"minecraft:crafting_shapeless","category":"building","ingredients":["equivalent_legacy:alchemical_coal","equivalent_legacy:alchemical_coal","equivalent_legacy:alchemical_coal","equivalent_legacy:alchemical_coal","equivalent_legacy:alchemical_coal","equivalent_legacy:alchemical_coal","equivalent_legacy:alchemical_coal","equivalent_legacy:alchemical_coal","equivalent_legacy:alchemical_coal"],"result":{"id":"equivalent_legacy:alchemical_coal_block"}}
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "equivalent_legacy:alchemical_coal",
+    "equivalent_legacy:alchemical_coal",
+    "equivalent_legacy:alchemical_coal",
+    "equivalent_legacy:alchemical_coal",
+    "equivalent_legacy:alchemical_coal",
+    "equivalent_legacy:alchemical_coal",
+    "equivalent_legacy:alchemical_coal",
+    "equivalent_legacy:alchemical_coal",
+    "equivalent_legacy:alchemical_coal"
+  ],
+  "result": {
+    "id": "equivalent_legacy:alchemical_coal_block"
+  }
+}

@@ -1,1 +1,12 @@
-{"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":["minecraft:tnt","equivalent_legacy:mobius_fuel"],"result":{"count":2,"id":"equivalent_legacy:nova_catalyst"}}
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "equivalent_legacy:mobius_fuel"
+  ],
+  "result": {
+    "count": 2,
+    "id": "equivalent_legacy:nova_catalyst"
+  }
+}

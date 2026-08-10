@@ -6,6 +6,13 @@
     "A": "equivalent_legacy:aeternalis_fuel",
     "D": "equivalent_legacy:dark_matter"
   },
-  "pattern": ["AAA", "ADA", "AAA"],
-  "result": {"count": 1, "id": "equivalent_legacy:red_matter"}
+  "pattern": [
+    "AAA",
+    "DDD",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:red_matter"
+  }
 }

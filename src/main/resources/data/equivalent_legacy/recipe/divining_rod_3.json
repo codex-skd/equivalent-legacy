@@ -1,1 +1,17 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","key":{"D":"equivalent_legacy:high_covalence_dust","S":"equivalent_legacy:divining_rod_2"},"pattern":["DDD","DSD","DDD"],"result":{"count":1,"id":"equivalent_legacy:divining_rod_3"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": "equivalent_legacy:high_covalence_dust",
+    "S": "equivalent_legacy:divining_rod_2"
+  },
+  "pattern": [
+    "DDD",
+    "DSD",
+    "DDD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:divining_rod_3"
+  }
+}

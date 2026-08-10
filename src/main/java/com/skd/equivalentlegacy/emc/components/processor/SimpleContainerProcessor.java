@@ -1,40 +1,34 @@
 package com.skd.equivalentlegacy.emc.components.processor;
 
-import com.skd.equivalentlegacy.emc.mapper.EMCMappingHandler;
-import net.minecraft.core.component.DataComponentType;
+import com.skd.equivalentlegacy.api.ItemInfo;
+import com.skd.equivalentlegacy.api.proxy.IEMCProxy;
 import net.minecraft.world.item.ItemStack;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Range;
 
-/**
- * Base class for processors that add the EMC of the items stored inside a container
- * component (shulker boxes, bundles, alchemical bags, ...).
- *
- * <p>{@code shulker_box_with_diamonds = EMC(shulker_box) + EMC(diamonds_inside)}. If any
- * contained item has no EMC value the container as a whole has no EMC value.</p>
- */
-public abstract class SimpleContainerProcessor<TYPE> implements IComponentProcessor {
+public abstract class SimpleContainerProcessor<TYPE> extends PersistentComponentProcessor<TYPE> {
 
-	protected abstract DataComponentType<TYPE> getComponentType();
+	@Override
+	public boolean usePersistentComponents() {
+		//Disable persisting by default
+		return false;
+	}
 
 	protected abstract Iterable<ItemStack> getStoredItems(TYPE component);
 
 	@Override
-	public long calculateComponentEMC(ItemStack stack, EMCMappingHandler handler) {
-		TYPE component = stack.get(getComponentType());
-		if (component == null) {
-			return 0;
-		}
-		long total = 0;
+	@Range(from = 0, to = Long.MAX_VALUE)
+	protected final long recalculateEMC(@NotNull ItemInfo info, @Range(from = 1, to = Long.MAX_VALUE) long currentEMC, @NotNull TYPE component) throws ArithmeticException {
 		for (ItemStack item : getStoredItems(component)) {
-			if (item.isEmpty()) {
-				continue;
+			if (!item.isEmpty()) {
+				long itemEmc = IEMCProxy.INSTANCE.getValue(item);
+				if (itemEmc == 0) {//Return that this item can't be converted as it has items that don't have emc values in them
+					return 0;
+				}
+				long stackEmc = Math.multiplyExact(itemEmc, item.getCount());
+				currentEMC = Math.addExact(currentEMC, stackEmc);
 			}
-			long itemEmc = handler.getEMCValue(item);
-			if (itemEmc == 0) {
-				//A contained item has no EMC value so the whole container cannot be converted
-				throw new ArithmeticException("contained item has no EMC value");
-			}
-			total = Math.addExact(total, Math.multiplyExact(itemEmc, item.getCount()));
 		}
-		return total;
+		return currentEMC;
 	}
 }

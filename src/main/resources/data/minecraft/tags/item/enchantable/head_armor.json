@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "equivalent_legacy:dm_helmet",
+    "equivalent_legacy:rm_helmet",
+    "equivalent_legacy:gem_helmet"
+  ],
+  "values": []
+}

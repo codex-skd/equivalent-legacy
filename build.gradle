@@ -27,6 +27,17 @@ sourceSets.main.resources {
     exclude("src/generated/**/.cache") // datagen cache files
 }
 
+sourceSets.main.java {
+    // These integrations are optional and we don't have their dependencies
+    // configured (matches the reference project's own default when its
+    // optional-integrations flag is off). JEI and WTHIT ARE configured, so
+    // integration/recipe_viewer/jei and integration/wthit stay included.
+    exclude '**/integration/crafttweaker/**'
+    exclude '**/integration/jade/**'
+    exclude '**/integration/top/**'
+    exclude '**/integration/recipe_viewer/emi/**'
+}
+
 repositories {
     // JEI (mezz.jei) — optional integration dependency
     maven {
@@ -151,6 +162,9 @@ dependencies {
     compileOnly "mcp.mobius.waila:wthit-api:neo-${wthit_version}"
     localRuntime "mcp.mobius.waila:wthit:neo-${wthit_version}"
     localRuntime "lol.bai:badpackets:neo-${badpackets_version}"
+
+    // Required by the EMC arithmetic system (BigFraction-based mapping calculations).
+    implementation 'org.apache.commons:commons-math3:3.6.1'
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar

@@ -1,11 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
-  "group": "equivalent_legacy:klein_star",
   "key": {
     "D": "#c:gems/diamond",
     "M": "equivalent_legacy:mobius_fuel"
   },
-  "pattern": ["MMM", "MDM", "MMM"],
-  "result": {"count": 1, "id": "equivalent_legacy:klein_star_ein"}
+  "pattern": [
+    "MMM",
+    "MDM",
+    "MMM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:klein_star_ein"
+  }
 }

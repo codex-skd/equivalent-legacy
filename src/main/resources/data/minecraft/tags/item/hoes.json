@@ -1,1 +1,6 @@
-{"values":["equivalent_legacy:dark_matter_hoe","equivalent_legacy:red_matter_hoe"]}
+{
+  "values": [
+    "equivalent_legacy:dm_hoe",
+    "equivalent_legacy:rm_hoe"
+  ]
+}

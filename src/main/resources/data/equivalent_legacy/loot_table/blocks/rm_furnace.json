@@ -1,1 +1,17 @@
-{"type":"minecraft:block","pools":[{"bonus_rolls":0.0,"entries":[{"type":"minecraft:item","name":"equivalent_legacy:rm_furnace"}],"name":"main","rolls":1.0}],"random_sequence":"equivalent_legacy:blocks/rm_furnace"}
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "equivalent_legacy:rm_furnace"
+        }
+      ],
+      "name": "main",
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "equivalent_legacy:blocks/rm_furnace"
+}

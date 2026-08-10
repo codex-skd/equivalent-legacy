@@ -1,201 +1,235 @@
 package com.skd.equivalentlegacy.world_transmutation;
 
-import com.skd.equivalentlegacy.api.events.WorldTransmutationEvent;
-import com.skd.equivalentlegacy.emc.EMCHelper;
-import com.skd.equivalentlegacy.emc.nss.NSSItem;
-import com.skd.equivalentlegacy.player.PlayerKnowledge;
-import net.minecraft.core.BlockPos;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.state.BlockState;
-
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
+import com.mojang.serialization.DataResult;
+import it.unimi.dsi.fastutil.objects.Reference2ObjectLinkedOpenHashMap;
+import it.unimi.dsi.fastutil.objects.Reference2ObjectMap;
+import it.unimi.dsi.fastutil.objects.Reference2ObjectMaps;
+import it.unimi.dsi.fastutil.objects.Reference2ObjectOpenHashMap;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Objects;
+import java.util.Optional;
+import java.util.SequencedSet;
+import java.util.function.Function;
+import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.api.world_transmutation.IWorldTransmutation;
+import com.skd.equivalentlegacy.api.world_transmutation.IWorldTransmutationFunction;
+import com.skd.equivalentlegacy.api.world_transmutation.SimpleWorldTransmutation;
+import com.skd.equivalentlegacy.api.world_transmutation.WorldTransmutation;
+import com.skd.equivalentlegacy.api.world_transmutation.WorldTransmutationFile;
+import com.skd.equivalentlegacy.network.packets.to_client.SyncWorldTransmutations;
+import net.minecraft.resources.FileToIdConverter;
+import net.minecraft.resources.RegistryOps;
+import net.minecraft.resources.Identifier;
+import net.minecraft.server.packs.resources.Resource;
+import net.minecraft.server.packs.resources.ResourceManager;
+import net.minecraft.server.packs.resources.SimplePreparableReloadListener;
+import net.minecraft.util.profiling.ProfilerFiller;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
+import net.neoforged.neoforge.common.conditions.WithConditions;
+import org.jetbrains.annotations.ApiStatus;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
-/**
- * Central gate for "transmute this block to that block in the world" workflow. Calls go through here
- * so policy, EMC economy, cooldowns, blacklist/whitelist and event firing are centralized.
- */
-public final class WorldTransmutationManager {
-    private static final Map<Block, Block> REGISTRY = new HashMap<>();
-    private static final java.util.Set<Block> BLACKLIST = java.util.Collections.newSetFromMap(new java.util.concurrent.ConcurrentHashMap<>());
+public class WorldTransmutationManager extends SimplePreparableReloadListener<Map<Identifier, JsonElement>> {
 
-    private WorldTransmutationManager() {}
+	private static final FileToIdConverter FINDER = FileToIdConverter.json("pe_world_transmutations");
+	public static final WorldTransmutationManager INSTANCE = new WorldTransmutationManager();
+	//Note: Assume we will only have one element for it, but allow it to grow if need be
+	private static final Function<Block, SequencedSet<IWorldTransmutation>> SET_BUILDER = origin -> new LinkedHashSet<>(1);
 
-    public static void register(Block from, Block to) {
-        if (from == null || to == null || from == Blocks.AIR || to == Blocks.AIR) return;
-        REGISTRY.put(from, to);
-        BLACKLIST.remove(from);
-    }
+	private Reference2ObjectMap<Block, SequencedSet<IWorldTransmutation>> entries = Reference2ObjectMaps.emptyMap();
+	@Nullable
+	private Reference2ObjectMap<Block, SequencedSet<IWorldTransmutation>> modifiedEntries = null;
 
-    public static void blacklist(Block block) {
-        BLACKLIST.add(block);
-        REGISTRY.remove(block);
-    }
+	private WorldTransmutationManager() {
+	}
 
-    public static boolean canTransmute(Block from, Block to) {
-        if (from == null || to == null) return false;
-        if (BLACKLIST.contains(from)) return false;
-        Block mapped = REGISTRY.get(from);
-        return mapped != null && mapped == to;
-    }
+	public static SyncWorldTransmutations getSyncPacket() {
+		return new SyncWorldTransmutations(INSTANCE.getWorldTransmutations());
+	}
 
-    public static boolean isTransmutable(Block from) {
-        return from != null && REGISTRY.containsKey(from);
-    }
+	@ApiStatus.Internal
+	public void setEntries(Reference2ObjectMap<Block, SequencedSet<IWorldTransmutation>> transmutations) {
+		this.entries = transmutations;
+		this.modifiedEntries = null;
+	}
 
-    public static TransmutationResult getTransmutation(Block from) {
-        if (from == null) return null;
-        Block target = REGISTRY.get(from);
-        if (target == null) return null;
-        return new TransmutationResult(target, getTransmutationCost(from, target));
-    }
+	@Override
+	protected @NotNull Map<Identifier, JsonElement> prepare(@NotNull ResourceManager resourceManager, @NotNull ProfilerFiller profiler) {
+		Map<Identifier, JsonElement> loaded = new HashMap<>();
+		for (Entry<Identifier, List<Resource>> entry : FINDER.listMatchingResourceStacks(resourceManager).entrySet()) {
+			Identifier file = entry.getKey();
+			Identifier transmutationId = FINDER.fileToId(file);
+			for (Resource resource : entry.getValue()) {
+				try (var reader = resource.openAsReader()) {
+					JsonElement element = JsonParser.parseReader(reader);
+					loaded.put(transmutationId, element);
+				} catch (Exception e) {
+					PECore.LOGGER.error("Failed to load world transmutation file {}", file, e);
+				}
+			}
+		}
+		return loaded;
+	}
 
-    public static Map<Block, TransmutationResult> getTransmutationMap() {
-        Map<Block, TransmutationResult> result = new HashMap<>();
-        for (Map.Entry<Block, Block> entry : REGISTRY.entrySet()) {
-            result.put(entry.getKey(), new TransmutationResult(entry.getValue(), getTransmutationCost(entry.getKey(), entry.getValue())));
-        }
-        return Map.copyOf(result);
-    }
+	@Override
+	protected void apply(@NotNull Map<Identifier, JsonElement> object, @NotNull ResourceManager resourceManager, @NotNull ProfilerFiller profiler) {
+		RegistryOps<JsonElement> registryOps = makeConditionalOps();
+		Reference2ObjectMap<Block, SequencedSet<IWorldTransmutation>> builder = new Reference2ObjectLinkedOpenHashMap<>();
 
-    public static Block getTransmutationTarget(Block from) {
-        return REGISTRY.get(from);
-    }
+		for (Entry<Identifier, JsonElement> entry : object.entrySet()) {
+			Identifier file = entry.getKey();
+			DataResult<Optional<WithConditions<WorldTransmutationFile>>> result = WorldTransmutationFile.CONDITIONAL_CODEC.parse(registryOps, entry.getValue());
+			if (result.isSuccess()) {
+				Optional<WithConditions<WorldTransmutationFile>> decoded = result.getOrThrow();
+				if (decoded.isPresent()) {
+					for (IWorldTransmutation transmutation : decoded.get().carrier().transmutations()) {
+						SequencedSet<IWorldTransmutation> transmutations = builder.computeIfAbsent(transmutation.origin().value(), SET_BUILDER);
+						if (transmutations.add(transmutation)) {
+							PECore.debugLog("World Transmutation File: '{}' registered {}", file, transmutation);
+						} else {
+							PECore.debugLog("World Transmutation File: '{}' registered {}. Skipped as it was identical to an already registered transmutation",
+									file, transmutation);
+						}
+					}
+				} else {
+					PECore.debugLog("Skipping loading world transmutation file {} as its conditions were not met", file);
+				}
+			} else {
+				result.ifError(error -> PECore.LOGGER.error("Parsing error loading world transmutation file {}: {}", file, error.message()));
+			}
+		}
+		for (Iterator<Reference2ObjectMap.Entry<Block, SequencedSet<IWorldTransmutation>>> iterator = Reference2ObjectMaps.fastIterator(builder); iterator.hasNext(); ) {
+			Reference2ObjectMap.Entry<Block, SequencedSet<IWorldTransmutation>> entry = iterator.next();
+			int elements = entry.getValue().size();
+			if (elements == 0) {//Note: It should never be empty, but validate it just in case
+				iterator.remove();
+			} else if (elements > 1) {//Multiple elements, so may not already be in the proper order
+				SequencedSet<IWorldTransmutation> setBuilder = new LinkedHashSet<>(elements);
+				//TODO: Figure out how do we want to resolve conflicts when the input is exactly the same, be it states or blocks
+				boolean hasSimple = false;
+				boolean hasComplex = false;
+				for (IWorldTransmutation transmutation : entry.getValue()) {
+					if (transmutation instanceof WorldTransmutation) {
+						hasComplex = true;
+						setBuilder.add(transmutation);
+					} else {
+						hasSimple = true;
+					}
+				}
+				if (hasSimple && hasComplex) {
+					for (IWorldTransmutation transmutation : entry.getValue()) {
+						if (transmutation instanceof SimpleWorldTransmutation) {
+							setBuilder.add(transmutation);
+						}
+					}
+					entry.setValue(setBuilder);
+				}
+			}
+		}
+		setEntries(builder);
+	}
 
-    public static long getTransmutationCost(Block from, Block to) {
-        if (!canTransmute(from, to)) return 0L;
-        long fromEmc = emcOfBlockItem(from);
-        long toEmc = emcOfBlockItem(to);
-        return Math.max(0L, toEmc - fromEmc);
-    }
+	/**
+	 * @apiNote Do not modify this map.
+	 */
+	public Reference2ObjectMap<Block, SequencedSet<IWorldTransmutation>> getWorldTransmutations() {
+		return modifiedEntries == null ? entries : modifiedEntries;
+	}
 
-    public static boolean transmute(ServerPlayer player, BlockPos pos, Block target) {
-        if (player == null || pos == null || target == null) return false;
-        if (player.level().isClientSide()) return false;
-        BlockState sourceState = player.level().getBlockState(pos);
-        Block source = sourceState.getBlock();
-        if (!canTransmute(source, target)) return false;
-        long cost = getTransmutationCost(source, target);
-        if (cost > 0) {
-            PlayerKnowledge knowledge = PlayerKnowledge.of(player);
-            if (knowledge.getEmc() < cost) return false;
-        }
-        WorldTransmutationEvent event = new WorldTransmutationEvent(player, pos, sourceState, target.defaultBlockState(), cost);
-        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.post(event);
-        if (event.isCanceled()) return false;
+	@Nullable
+	public IWorldTransmutationFunction getWorldTransmutation(BlockState current) {
+		return getWorldTransmutation(current, false);
+	}
 
-        if (cost > 0) {
-            PlayerKnowledge.of(player).subtractEmc(cost);
-            PlayerKnowledge.of(player).syncEmc(player);
-        }
-        BlockState targetState = target.defaultBlockState();
-        boolean ok = player.level().setBlock(pos, targetState, 3);
-        if (ok) {
-            player.level().levelEvent(2001, pos, Block.getId(sourceState));
-        }
-        return ok;
-    }
+	@Nullable
+	public IWorldTransmutationFunction getWorldTransmutation(BlockState current, boolean findAny) {
+		if (current.isAir()) {
+			return null;
+		}
+		SequencedSet<IWorldTransmutation> transmutations = getWorldTransmutations().getOrDefault(current.getBlock(), Collections.emptySortedSet());
+		boolean hasComplex = false;
+		for (IWorldTransmutation entry : transmutations) {
+			if (entry.canTransmute(current)) {
+				if (findAny) {
+					return entry;
+				}
+				if (hasComplex && entry instanceof SimpleWorldTransmutation) {
+					Map<BlockState, IWorldTransmutation> exactStates = new Reference2ObjectOpenHashMap<>();
+					for (IWorldTransmutation transmutation : transmutations) {
+						if (transmutation instanceof WorldTransmutation worldTransmutation) {
+							exactStates.putIfAbsent(worldTransmutation.originState(), transmutation);
+						} else {
+							break;
+						}
+					}
+					return (input, isSneaking) -> Objects.requireNonNullElse(exactStates.get(input), entry).result(input, isSneaking);
+				}
+				return entry;
+			} else if (entry instanceof WorldTransmutation) {
+				hasComplex = true;
+			}
+		}
+		return null;
+	}
 
-    private static long emcOfBlockItem(Block block) {
-        Item item = block.asItem();
-        if (item == null || item == net.minecraft.world.item.Items.AIR) return 0L;
-        return EMCHelper.getEMC(NSSItem.createItem(new ItemStack(item)));
-    }
+	/// Methods that exist for CrT integration
 
-    /**
-     * Registers the built-in vanilla transmutation recipes. Called once at common setup after the EMC
-     * values are initialized. Every entry is a directed {@code from → to} mapping consumed by
-     * {@link #transmute(ServerPlayer, BlockPos, Block)} and exposed to JEI/WTHIT.
-     */
-    public static void registerDefaultTransmutations() {
-        registerPair(Blocks.COBBLESTONE, Blocks.STONE);
-        registerPair(Blocks.STONE, Blocks.GRANITE);
-        registerPair(Blocks.GRANITE, Blocks.DIORITE);
-        registerPair(Blocks.DIORITE, Blocks.ANDESITE);
-        registerPair(Blocks.ANDESITE, Blocks.CALCITE);
-        registerPair(Blocks.CALCITE, Blocks.TUFF);
-        registerPair(Blocks.TUFF, Blocks.DEEPSLATE);
-        registerPair(Blocks.DEEPSLATE, Blocks.COBBLED_DEEPSLATE);
-        registerPair(Blocks.COBBLED_DEEPSLATE, Blocks.POLISHED_DEEPSLATE);
-        registerPair(Blocks.POLISHED_DEEPSLATE, Blocks.DEEPSLATE_BRICKS);
-        registerPair(Blocks.DEEPSLATE_BRICKS, Blocks.DEEPSLATE_TILES);
-        registerPair(Blocks.COBBLESTONE, Blocks.MOSSY_COBBLESTONE);
-        registerPair(Blocks.STONE, Blocks.STONE_BRICKS);
-        registerPair(Blocks.STONE_BRICKS, Blocks.MOSSY_STONE_BRICKS);
-        registerPair(Blocks.STONE_BRICKS, Blocks.CRACKED_STONE_BRICKS);
-        registerPair(Blocks.STONE, Blocks.SMOOTH_STONE);
+	@ApiStatus.Internal
+	public void clearTransmutations() {
+		this.modifiedEntries = Reference2ObjectMaps.emptyMap();
+	}
 
-        registerPair(Blocks.DIRT, Blocks.GRASS_BLOCK);
-        registerPair(Blocks.DIRT, Blocks.COARSE_DIRT);
-        registerPair(Blocks.DIRT, Blocks.PODZOL);
-        registerPair(Blocks.DIRT, Blocks.MYCELIUM);
-        registerPair(Blocks.DIRT, Blocks.ROOTED_DIRT);
-        registerPair(Blocks.DIRT, Blocks.MUD);
-        registerPair(Blocks.SAND, Blocks.RED_SAND);
-        registerPair(Blocks.SAND, Blocks.GRAVEL);
-        registerPair(Blocks.GRAVEL, Blocks.DIRT);
-        registerPair(Blocks.GRAVEL, Blocks.COBBLESTONE);
-        registerPair(Blocks.CLAY, Blocks.DIRT);
-        registerPair(Blocks.SAND, Blocks.SANDSTONE);
-        registerPair(Blocks.SANDSTONE, Blocks.SMOOTH_SANDSTONE);
-        registerPair(Blocks.SANDSTONE, Blocks.CUT_SANDSTONE);
-        registerPair(Blocks.RED_SAND, Blocks.RED_SANDSTONE);
-        registerPair(Blocks.RED_SANDSTONE, Blocks.SMOOTH_RED_SANDSTONE);
-        registerPair(Blocks.RED_SANDSTONE, Blocks.CUT_RED_SANDSTONE);
+	@ApiStatus.Internal
+	public void resetWorldTransmutations() {
+		modifiedEntries = null;
+	}
 
-        registerPair(Blocks.NETHERRACK, Blocks.CRIMSON_NYLIUM);
-        registerPair(Blocks.NETHERRACK, Blocks.WARPED_NYLIUM);
-        registerPair(Blocks.NETHERRACK, Blocks.SOUL_SAND);
-        registerPair(Blocks.SOUL_SAND, Blocks.SOUL_SOIL);
-        registerPair(Blocks.NETHERRACK, Blocks.BLACKSTONE);
-        registerPair(Blocks.BLACKSTONE, Blocks.BASALT);
-        registerPair(Blocks.BASALT, Blocks.SMOOTH_BASALT);
-        registerPair(Blocks.BLACKSTONE, Blocks.POLISHED_BLACKSTONE);
-        registerPair(Blocks.POLISHED_BLACKSTONE, Blocks.POLISHED_BLACKSTONE_BRICKS);
-        registerPair(Blocks.POLISHED_BLACKSTONE_BRICKS, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
-        registerPair(Blocks.NETHERRACK, Blocks.NETHER_BRICKS);
-        registerPair(Blocks.NETHER_BRICKS, Blocks.CRACKED_NETHER_BRICKS);
-        registerPair(Blocks.BASALT, Blocks.MAGMA_BLOCK);
+	@ApiStatus.Internal
+	public void register(IWorldTransmutation transmutation) {
+		if (modifiedEntries == null) {
+			makeEntriesMutable();
+		} else if (modifiedEntries == Reference2ObjectMaps.<Block, SequencedSet<IWorldTransmutation>>emptyMap()) {
+			modifiedEntries = new Reference2ObjectLinkedOpenHashMap<>();
+		}
+		modifiedEntries.computeIfAbsent(transmutation.origin().value(), origin -> new LinkedHashSet<>()).add(transmutation);
+	}
 
-        registerPair(Blocks.END_STONE, Blocks.END_STONE_BRICKS);
-        registerPair(Blocks.END_STONE, Blocks.PURPUR_BLOCK);
-        registerPair(Blocks.PURPUR_BLOCK, Blocks.PURPUR_PILLAR);
-        registerPair(Blocks.PURPUR_BLOCK, Blocks.CHORUS_PLANT);
+	@ApiStatus.Internal
+	public void removeWorldTransmutation(IWorldTransmutation transmutation) {
+		Block origin = transmutation.origin().value();
+		boolean remove = modifiedEntries != null;
+		if (!remove) {
+			SequencedSet<IWorldTransmutation> transmutations = entries.get(origin);
+			if (transmutations != null && transmutations.contains(transmutation)) {
+				makeEntriesMutable();
+				remove = true;
+			}
+		}
+		if (remove) {
+			SequencedSet<IWorldTransmutation> transmutations = modifiedEntries.get(origin);
+			if (transmutations != null && transmutations.remove(transmutation) && transmutations.isEmpty()) {
+				modifiedEntries.remove(origin);
+				if (modifiedEntries.isEmpty()) {
+					modifiedEntries = Reference2ObjectMaps.emptyMap();
+				}
+			}
+		}
+	}
 
-        registerPair(Blocks.OBSIDIAN, Blocks.CRYING_OBSIDIAN);
-
-        registerPair(Blocks.OAK_LOG, Blocks.SPRUCE_LOG);
-        registerPair(Blocks.SPRUCE_LOG, Blocks.BIRCH_LOG);
-        registerPair(Blocks.BIRCH_LOG, Blocks.JUNGLE_LOG);
-        registerPair(Blocks.JUNGLE_LOG, Blocks.ACACIA_LOG);
-        registerPair(Blocks.ACACIA_LOG, Blocks.DARK_OAK_LOG);
-        registerPair(Blocks.DARK_OAK_LOG, Blocks.MANGROVE_LOG);
-        registerPair(Blocks.MANGROVE_LOG, Blocks.CHERRY_LOG);
-        registerPair(Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS);
-        registerPair(Blocks.SPRUCE_PLANKS, Blocks.BIRCH_PLANKS);
-        registerPair(Blocks.BIRCH_PLANKS, Blocks.JUNGLE_PLANKS);
-        registerPair(Blocks.JUNGLE_PLANKS, Blocks.ACACIA_PLANKS);
-        registerPair(Blocks.ACACIA_PLANKS, Blocks.DARK_OAK_PLANKS);
-        registerPair(Blocks.DARK_OAK_PLANKS, Blocks.MANGROVE_PLANKS);
-        registerPair(Blocks.MANGROVE_PLANKS, Blocks.CHERRY_PLANKS);
-
-        registerPair(Blocks.IRON_ORE, Blocks.DEEPSLATE_IRON_ORE);
-        registerPair(Blocks.GOLD_ORE, Blocks.DEEPSLATE_GOLD_ORE);
-        registerPair(Blocks.COPPER_ORE, Blocks.DEEPSLATE_COPPER_ORE);
-        registerPair(Blocks.LAPIS_ORE, Blocks.DEEPSLATE_LAPIS_ORE);
-        registerPair(Blocks.DIAMOND_ORE, Blocks.DEEPSLATE_DIAMOND_ORE);
-        registerPair(Blocks.EMERALD_ORE, Blocks.DEEPSLATE_EMERALD_ORE);
-        registerPair(Blocks.REDSTONE_ORE, Blocks.DEEPSLATE_REDSTONE_ORE);
-        registerPair(Blocks.NETHER_QUARTZ_ORE, Blocks.NETHER_GOLD_ORE);
-    }
-
-    /** Registers both directions of a transmutation, so the pair is reversible in JEI. */
-    private static void registerPair(Block a, Block b) {
-        register(a, b);
-        register(b, a);
-    }
+	private void makeEntriesMutable() {
+		modifiedEntries = new Reference2ObjectLinkedOpenHashMap<>(entries.size());
+		for (Map.Entry<Block, SequencedSet<IWorldTransmutation>> entry : entries.entrySet()) {
+			modifiedEntries.put(entry.getKey(), new LinkedHashSet<>(entry.getValue()));
+		}
+	}
 }

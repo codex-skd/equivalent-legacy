@@ -7,6 +7,13 @@
     "G": "#c:dusts/glowstone",
     "R": "#c:dusts/redstone"
   },
-  "pattern": ["RGR", "GDG", "RGR"],
-  "result": {"count": 1, "id": "equivalent_legacy:philosophers_stone"}
+  "pattern": [
+    "RGR",
+    "GDG",
+    "RGR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:philosophers_stone"
+  }
 }

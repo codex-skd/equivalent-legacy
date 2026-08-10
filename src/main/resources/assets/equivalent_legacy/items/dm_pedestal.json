@@ -1,1 +1,6 @@
-{"model":{"type":"minecraft:model","model":"equivalent_legacy:block/dm_pedestal"}}
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "equivalent_legacy:item/dm_pedestal"
+  }
+}

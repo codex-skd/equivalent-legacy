@@ -1,1 +1,22 @@
-{"type":"minecraft:crafting_shapeless","category":"equipment","ingredients":["equivalent_legacy:red_matter_leggings","equivalent_legacy:black_hole_band","equivalent_legacy:watch_of_flowing_time","equivalent_legacy:klein_star_omega"],"result":{"count":1,"id":"equivalent_legacy:gem_leggings"}}
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "equivalent_legacy:full_klein_stars"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "equivalent_legacy:rm_leggings",
+    "equivalent_legacy:black_hole_band",
+    "equivalent_legacy:watch_of_flowing_time",
+    "equivalent_legacy:klein_star_omega"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:gem_leggings"
+  }
+}

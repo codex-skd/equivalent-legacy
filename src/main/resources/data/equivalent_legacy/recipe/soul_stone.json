@@ -1,1 +1,18 @@
-{"type":"minecraft:crafting_shaped","category":"equipment","key":{"G":"#c:dusts/glowstone","L":"#c:gems/lapis","R":"equivalent_legacy:red_matter"},"pattern":["GGG","RLR","GGG"],"result":{"count":1,"id":"equivalent_legacy:soul_stone"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": "#c:dusts/glowstone",
+    "L": "#c:gems/lapis",
+    "R": "equivalent_legacy:red_matter"
+  },
+  "pattern": [
+    "GGG",
+    "RLR",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:soul_stone"
+  }
+}

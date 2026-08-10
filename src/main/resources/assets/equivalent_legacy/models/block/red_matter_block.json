@@ -1,1 +1,6 @@
-{"parent":"minecraft:block/cube_all","textures":{"all":"equivalent_legacy:block/red_matter_block"}}
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "equivalent_legacy:block/red_matter_block"
+  }
+}

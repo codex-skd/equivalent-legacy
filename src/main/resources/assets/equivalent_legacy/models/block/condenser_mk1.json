@@ -1,1 +1,6 @@
-{"parent":"equivalent_legacy:block/base_chest","textures":{"chest":"equivalent_legacy:block/condenser_mk1","particle":"equivalent_legacy:block/condenser_mk1"}}
+{
+  "parent": "equivalent_legacy:block/base_chest",
+  "textures": {
+    "chest": "equivalent_legacy:block/condenser_mk1"
+  }
+}

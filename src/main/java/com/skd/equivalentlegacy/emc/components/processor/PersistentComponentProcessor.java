@@ -1,34 +1,23 @@
 package com.skd.equivalentlegacy.emc.components.processor;
 
-import com.skd.equivalentlegacy.emc.mapper.EMCMappingHandler;
-import net.minecraft.core.component.DataComponentType;
-import net.minecraft.world.item.ItemStack;
+import com.skd.equivalentlegacy.api.ItemInfo;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Range;
 
-/**
- * Base class for processors that operate on a single data component of a known type.
- */
-public abstract class PersistentComponentProcessor<TYPE> implements IComponentProcessor {
+public abstract class PersistentComponentProcessor<TYPE> extends SimplePersistentComponentProcessor<TYPE> {
 
-	protected abstract DataComponentType<TYPE> getComponentType(ItemStack stack);
-
-	protected abstract long calculateComponentEMC(ItemStack stack, TYPE component, EMCMappingHandler handler);
-
-	protected boolean validItem(ItemStack stack) {
-		return true;
-	}
-
-	protected boolean shouldPersist(ItemStack stack, TYPE component) {
-		return true;
-	}
+	@Range(from = 0, to = Long.MAX_VALUE)
+	protected abstract long recalculateEMC(@NotNull ItemInfo info, @Range(from = 1, to = Long.MAX_VALUE) long currentEMC, @NotNull TYPE component) throws ArithmeticException;
 
 	@Override
-	public final long calculateComponentEMC(ItemStack stack, EMCMappingHandler handler) {
-		if (validItem(stack)) {
-			TYPE component = stack.get(getComponentType(stack));
-			if (component != null && shouldPersist(stack, component)) {
-				return calculateComponentEMC(stack, component, handler);
+	@Range(from = 0, to = Long.MAX_VALUE)
+	public final long recalculateEMC(@NotNull ItemInfo info, @Range(from = 1, to = Long.MAX_VALUE) long currentEMC) throws ArithmeticException {
+		if (validItem(info)) {
+			TYPE component = info.getOrNull(getComponentType(info));
+			if (component != null && shouldPersist(info, component)) {
+				return recalculateEMC(info, currentEMC, component);
 			}
 		}
-		return 0;
+		return currentEMC;
 	}
 }

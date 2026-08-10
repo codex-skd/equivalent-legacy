@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "#equivalent_legacy:alchemical_bags",
+    "#c:dyes/light_gray"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:light_gray_alchemical_bag"
+  }
+}

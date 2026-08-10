@@ -1,1 +1,14 @@
-{"type":"minecraft:crafting_shapeless","category":"building","ingredients":["equivalent_legacy:red_matter","equivalent_legacy:red_matter","equivalent_legacy:red_matter","equivalent_legacy:red_matter"],"result":{"id":"equivalent_legacy:red_matter_block"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "M": "equivalent_legacy:red_matter"
+  },
+  "pattern": [
+    "MM",
+    "MM"
+  ],
+  "result": {
+    "id": "equivalent_legacy:red_matter_block"
+  }
+}

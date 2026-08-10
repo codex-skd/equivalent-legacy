@@ -1,1 +1,18 @@
-{"type":"minecraft:crafting_shaped","category":"misc","key":{"D":"equivalent_legacy:dark_matter_block","S":"#c:stones","T":"equivalent_legacy:transmutation_table"},"pattern":["DSD","STS","DSD"],"result":{"count":1,"id":"equivalent_legacy:transmutation_tablet"}}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "equivalent_legacy:dark_matter_block",
+    "S": "#c:stones",
+    "T": "equivalent_legacy:transmutation_table"
+  },
+  "pattern": [
+    "DSD",
+    "STS",
+    "DSD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:transmutation_tablet"
+  }
+}

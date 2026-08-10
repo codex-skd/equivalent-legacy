@@ -1,1 +1,6 @@
-{"parent":"minecraft:block/template_torch","render_type":"minecraft:cutout","textures":{"torch":"equivalent_legacy:block/interdiction_torch"}}
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "equivalent_legacy:block/interdiction_torch"
+  }
+}
