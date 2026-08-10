@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1786398590.9666553,
-    "ast_hash": "ba282938acce489edf7c6f7847def1eb",
+    "mtime": 1786399880.9160848,
+    "ast_hash": "a11b36db9b66ea00341903acf1a6bfc6",
     "semantic_hash": ""
   },
   "README.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1786398651.0399213,
-    "ast_hash": "456bb759311787eebc26942b5b4d1dee",
+    "mtime": 1786399912.9155865,
+    "ast_hash": "f86394e06c5fd4740f63af3c87e05d2e",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/config/ClientConfig.java": {
@@ -7012,6 +7012,16 @@
   "src/main/resources/assets/equivalent_legacy/textures/item/rm_pedestal.png": {
     "mtime": 1786396102.9251459,
     "ast_hash": "f60873142eb4e9358e2cba91d19ce8e9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/lang/es_es.json": {
+    "mtime": 1786399790.3376327,
+    "ast_hash": "58fa36a0156ba6b010fe2b4d7215afa4",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.3.0-beta.14.md": {
+    "mtime": 1786399875.5875092,
+    "ast_hash": "8bbf0bbea5061f0d402bca90e368dc0c",
     "semantic_hash": ""
   }
 }
