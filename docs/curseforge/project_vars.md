@@ -54,6 +54,7 @@ Ejemplo: `26.2-neoforge-0.0.0-beta.1`
 El API de subida de CurseForge no expone el campo de lado (client/server). Tras **cada** subida de archivo hay que entrar en la web de CurseForge → pestaña "Files" → editar el archivo → marcar el entorno como **Client & Server** (este mod es BOTH: block entities, comandos, red EMC, Data Attachments en servidor). Sin este paso, el file queda etiquetado como solo cliente.
 
 **Historial:**
+- v1.4.0: ✅ Subido como RELEASE (File ID: 8620093), Full re-port from Equivox 26.2 reference + EMC runtime fix (commons-math3 jarJar) + Spanish translation
 - v1.3.0-beta.14: ✅ Subido (File ID: 8619937), Spanish translation & display name fix
 - v1.3.0-beta.13: ✅ Subido (File ID: 8619825), Full re-port from Equivox 26.2 reference
 - v1.3.0-beta.7: ✅ Subido (File ID: 8594175), Full Release Workflow - All Phases 1-6 Complete
