@@ -164,7 +164,9 @@ dependencies {
     localRuntime "lol.bai:badpackets:neo-${badpackets_version}"
 
     // Required by the EMC arithmetic system (BigFraction-based mapping calculations).
-    implementation 'org.apache.commons:commons-math3:3.6.1'
+    // Bundled into the mod jar via the NeoForge moddev jarJar mechanism so it ships
+    // with the mod instead of being a user-installed dependency.
+    jarJar(implementation('org.apache.commons:commons-math3:3.6.1'))
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
