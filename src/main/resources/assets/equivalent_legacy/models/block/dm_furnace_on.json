@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "front": "equivalent_legacy:block/dm_furnace_front_on",
+    "front": "equivalent_legacy:block/matter_furnace/dm_on",
     "side": "equivalent_legacy:block/dark_matter_block",
     "top": "equivalent_legacy:block/dark_matter_block"
   }

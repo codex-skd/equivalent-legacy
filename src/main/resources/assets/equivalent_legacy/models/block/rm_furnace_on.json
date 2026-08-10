@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "front": "equivalent_legacy:block/rm_furnace_front_on",
+    "front": "equivalent_legacy:block/matter_furnace/rm_on",
     "side": "equivalent_legacy:block/red_matter_block",
     "top": "equivalent_legacy:block/red_matter_block"
   }

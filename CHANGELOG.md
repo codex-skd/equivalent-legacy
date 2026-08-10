@@ -1,5 +1,30 @@
 # Changelog - Equivalent Legacy 26.2
 
+## [1.4.0] - 2026-08-11
+
+### ✨ Release estable — consolida la línea 1.3.0-beta
+
+Reescritura interna completa, re-porteada mecánicamente desde la referencia Equivox 26.2 actualizada (el fork en el que se basa este mod), llevando todos los sistemas a paridad 1:1, más traducción completa al español y varios fixes descubiertos durante las pruebas.
+
+- **Sistema EMC**: sustituido el sistema simplificado anterior por el motor completo de mapeo/aritmética de la referencia (cálculo basado en BigFraction).
+- **Block entities y GUIs**: Collector, Condenser, Furnaces, Alchemical Chest, Pedestales y Mesa de Transmutación ahora replican la mecánica y el renderizado de la referencia, incluyendo barras de progreso que faltaban.
+- **Networking**: capa de paquetes reconstruida para coincidir con la estructura de la referencia.
+- **Integraciones JEI/WTHIT**: categorías de receta y tooltips portados y adaptados a la versión de JEI de este proyecto.
+- **Traducción al español (es_es)**: traducción completa de las 718 claves de idioma.
+
+### 🐛 Bug Fixes
+- **Crash al abrir un Collector o Relay** (`ArrayIndexOutOfBoundsException`) por tamaños de inventario desalineados en tiers superiores.
+- **Pérdida de ítems en la mesa de transmutación** al cerrar el GUI con ítems en los slots de input/output.
+- **Nombre del mod sin espacio** ("EquivalentLegacy") en la pestaña de creativo y varios tooltips/pantallas de configuración — ahora "Equivalent Legacy".
+- **Cálculo de EMC completamente roto en juego** (`NoClassDefFoundError: org/apache/commons/math3/fraction/BigFraction`) — la librería requerida ahora se empaqueta correctamente dentro del jar del mod.
+- **Texturas de horno encendido faltantes** para el Horno de Materia Oscura y de Materia Roja (bug preexistente en el proyecto de referencia).
+
+### ⚙️ Técnico
+- `PECore` es ahora el punto de entrada `@Mod` del mod, sustituyendo al antiguo `EquivalentLegacy.java`.
+- Añadida y empaquetada (jar-in-jar) la dependencia `commons-math3`, requerida por el sistema de aritmética EMC.
+- Añadido el Access Transformer de la referencia (`accesstransformer.cfg`).
+- Integraciones CraftTweaker, Jade, TheOneProbe y EMI excluidas de compilación (sin dependencia configurada) — JEI y WTHIT siguen soportadas.
+
 ## [1.3.0-beta.14] - 2026-08-11
 
 ### ✨ Nuevo
