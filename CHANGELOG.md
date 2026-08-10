@@ -1,5 +1,28 @@
 # Changelog - Equivalent Legacy 26.2
 
+## [1.3.0-beta.13] - 2026-08-10
+
+### ✨ Reescritura completa (re-port desde la referencia Equivox)
+
+Re-port mecánico completo del mod desde `lib_ext/Equivox-26.2-port` (el fork de referencia actualizado a NeoForge 26.2), sustituyendo la implementación parcial anterior por una réplica 1:1 adaptada al namespace `equivalent_legacy`.
+
+- **Sistema EMC**: sustituido el sistema simplificado anterior por el motor completo de mapeo/aritmética de la referencia (cálculo basado en BigFraction).
+- **Block entities y GUIs**: Collector, Condenser, Furnaces, Alchemical Chest, Pedestales y Mesa de Transmutación ahora replican la mecánica y el renderizado de la referencia, incluyendo barras de progreso que faltaban.
+- **Networking**: capa de paquetes reconstruida para coincidir con la estructura de la referencia.
+- **Integraciones JEI/WTHIT**: categorías de receta y tooltips portados y adaptados a la versión de JEI de este proyecto.
+
+### 🐛 Bug Fixes
+- **Crash al abrir un Collector o Relay** (`ArrayIndexOutOfBoundsException`) por tamaños de inventario desalineados en tiers superiores.
+- **Pérdida de ítems en la mesa de transmutación** al cerrar el GUI con ítems en los slots de input/output.
+- **Nombre del mod sin espacio** ("EquivalentLegacy") en la pestaña de creativo y varios tooltips — ahora "Equivalent Legacy".
+
+### ⚙️ Técnico
+- `PECore` es ahora el punto de entrada `@Mod` del mod, sustituyendo al antiguo `EquivalentLegacy.java`.
+- Añadida dependencia `commons-math3` (requerida por el sistema de aritmética EMC).
+- Añadido el Access Transformer de la referencia (`accesstransformer.cfg`).
+- Integraciones CraftTweaker, Jade, TheOneProbe y EMI excluidas de compilación (sin dependencia configurada) — JEI y WTHIT siguen soportadas.
+- Corregidos ~15 desajustes de API entre la versión de JEI que usa la referencia (29.5.0.24) y la de este proyecto (30.15.0.121).
+
 ## [1.3.0-beta.12] - 2026-08-08
 
 ### 🐛 Bug Fixes
