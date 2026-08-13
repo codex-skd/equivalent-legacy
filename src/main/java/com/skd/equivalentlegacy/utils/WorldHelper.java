@@ -859,7 +859,18 @@ public final class WorldHelper {
 			//If the world is null or its a world reader and the block is not loaded, return null
 			return null;
 		}
-		return level.getBlockEntity(pos);
+		try {
+			return level.getBlockEntity(pos);
+		} catch (IllegalStateException e) {
+			// Vanilla's BlockEntity#validateBlockState throws when a chunk's persisted block entity
+			// data no longer matches the block currently at that position (e.g. the block was replaced
+			// without the old block entity being cleared, from stale/corrupted chunk NBT). This is a
+			// per-position data problem, not something callers scanning an area can recover from — treat
+			// it the same as "no block entity here" instead of crashing the caller (and, transitively,
+			// server ticks that scan an area via getBlockEntitiesWithinAABB).
+			PECore.LOGGER.warn("Ignoring corrupted block entity at {}: {}", pos, e.getMessage());
+			return null;
+		}
 	}
 
 	/**
