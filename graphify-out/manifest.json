@@ -1,7 +1,7 @@
 {
   "build.gradle": {
-    "mtime": 1786401225.303018,
-    "ast_hash": "ec7e0175652fa8455047210c81bd8359",
+    "mtime": 1786570076.9576905,
+    "ast_hash": "741070353b4935446243ae7a6d0b3d2a",
     "semantic_hash": ""
   },
   "gradlew": {
@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1786401577.7415307,
-    "ast_hash": "14d70c550ed7e035fcfe376486521005",
+    "mtime": 1786639108.57163,
+    "ast_hash": "258a5f0d658ebf3bdda3997d1eb59202",
     "semantic_hash": ""
   },
   "README.md": {
@@ -40,13 +40,13 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md": {
-    "mtime": 1785626678.1409397,
-    "ast_hash": "0eace5fe02b00d5689319c42be2d0cf2",
+    "mtime": 1786570076.9576905,
+    "ast_hash": "a245df7b6e4c99eff322db322e1bf9c1",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
-    "mtime": 1785443534.633665,
-    "ast_hash": "09607bf2f2ef06f4a80f39e0ba1bfa35",
+    "mtime": 1786570076.9590662,
+    "ast_hash": "ecdb3de66b967b55e9bb5bdd6c7d701b",
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
@@ -3149,11 +3149,6 @@
     "ast_hash": "671698548ee933afdb500c3dc06f5636",
     "semantic_hash": ""
   },
-  "build_log.txt": {
-    "mtime": 1786057867.9128067,
-    "ast_hash": "a1aeffec03eabc7ffa99ba913b4318b2",
-    "semantic_hash": ""
-  },
   "docs/OPENCODE_TASK_1A_CONTAINERS.md": {
     "mtime": 1786053997.8311095,
     "ast_hash": "2529e8e23e1d0bce740310547a74ac58",
@@ -5470,8 +5465,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/utils/WorldHelper.java": {
-    "mtime": 1786396101.7137208,
-    "ast_hash": "9da2a62c835db9dbcb407d93ed024f37",
+    "mtime": 1786638911.0016358,
+    "ast_hash": "b120f4cbf0ce99ba77fe3ff62aafed1f",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/utils/text/IHasTextComponent.java": {
@@ -6989,11 +6984,6 @@
     "ast_hash": "df2ba2f5da940939a61598c3021e0081",
     "semantic_hash": ""
   },
-  "only_dump.txt": {
-    "mtime": 1786314324.5809503,
-    "ast_hash": "aec4c8584b54f9f194b7ca9a455bcebd",
-    "semantic_hash": ""
-  },
   "src/main/resources/assets/equivalent_legacy/textures/block/rm_pedestal.png": {
     "mtime": 1786396102.531842,
     "ast_hash": "f60873142eb4e9358e2cba91d19ce8e9",
@@ -7027,6 +7017,16 @@
   "docs/curseforge/versions/1.4.0.md": {
     "mtime": 1786401565.2928603,
     "ast_hash": "cf5e227c3f1dd0dd3dd53a2c06b7de7d",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.4.1.md": {
+    "mtime": 1786570076.9590662,
+    "ast_hash": "1f0d5d3ca0cf92ccea30005b9d72af9b",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.4.2.md": {
+    "mtime": 1786639053.8890152,
+    "ast_hash": "396986b4e21ca55cda15c50b6b04243e",
     "semantic_hash": ""
   }
 }
