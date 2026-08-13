@@ -1,5 +1,12 @@
 # Changelog - Equivalent Legacy 26.2
 
+## [1.4.2] - 2026-08-13
+
+### Fix
+
+- **El servidor podía crashear al detectar datos de block entity corruptos en un chunk**: `WorldHelper#getBlockEntity(BlockGetter, BlockPos)` llamaba `level.getBlockEntity(pos)` sin protección. Cuando un chunk conserva datos NBT de un block entity que ya no coincide con el bloque actual en esa posición (ej. una mesa de encantar rota y sustituida por verrugas del Nether sin limpiar su block entity), el chequeo de sanidad de vanilla (`BlockEntity#validateBlockState`) lanza `IllegalStateException`. Ese error se propagaba desde `getBlockEntitiesWithinAABB` (usado por `StellarCondenserEvents#onLivingDeath`) hasta el bus de eventos, tumbando el servidor entero en cualquier tick que escaneara esa posición. Capturada la excepción en el único punto de paso — el método ya está documentado y tipado `@Nullable` para devolver `null` cuando no hay block entity, así que una posición corrupta se trata igual en vez de crashear.
+- Subido a CurseForge vía `curseforge-upload.ps1` (file ID `8641239`).
+
 ## [1.4.0] - 2026-08-11
 
 ### ✨ Release estable — consolida la línea 1.3.0-beta
