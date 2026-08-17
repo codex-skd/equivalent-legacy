@@ -6,7 +6,7 @@ import it.unimi.dsi.fastutil.objects.Object2LongOpenHashMap;
 import java.util.Arrays;
 import java.util.function.Function;
 import java.util.function.ToLongFunction;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.ItemInfo;
 import com.skd.equivalentlegacy.api.components.IComponentProcessorHelper;
 import com.skd.equivalentlegacy.utils.Constants;
@@ -77,14 +77,14 @@ public class ComponentProcessorHelper implements IComponentProcessorHelper {
 			if (customIngredient != null) {//Should basically always be the case
 				Identifier name = NeoForgeRegistries.INGREDIENT_TYPES.getKey(customIngredient.getType());
 				if (name == null) {
-					PECore.LOGGER.error(LogUtils.FATAL_MARKER, "Ingredient of type: {} crashed when getting the matching stacks. Please report this to the ingredient's creator.",
+					ELCore.LOGGER.error(LogUtils.FATAL_MARKER, "Ingredient of type: {} crashed when getting the matching stacks. Please report this to the ingredient's creator.",
 							customIngredient.getClass(), e);
 				} else {
-					PECore.LOGGER.error(LogUtils.FATAL_MARKER, "Ingredient of type: {} crashed when getting the matching stacks. Please report this to the ingredient's creator ({}).",
+					ELCore.LOGGER.error(LogUtils.FATAL_MARKER, "Ingredient of type: {} crashed when getting the matching stacks. Please report this to the ingredient's creator ({}).",
 							name, name.getNamespace(), e);
 				}
 			} else {
-				PECore.LOGGER.error(LogUtils.FATAL_MARKER, "Crashed when getting the matching stacks.", e);
+				ELCore.LOGGER.error(LogUtils.FATAL_MARKER, "Crashed when getting the matching stacks.", e);
 			}
 			return new ItemStack[0];
 		}

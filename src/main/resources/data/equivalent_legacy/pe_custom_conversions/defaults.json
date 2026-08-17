@@ -1117,11 +1117,6 @@
       {
         "type": "equivalent_legacy:item",
         "emc_value": 16,
-        "id": "minecraft:andesite"
-      },
-      {
-        "type": "equivalent_legacy:item",
-        "emc_value": 16,
         "id": "minecraft:pointed_dripstone"
       },
       {
@@ -1203,11 +1198,6 @@
         "type": "equivalent_legacy:item",
         "emc_value": 8,
         "id": "minecraft:vine"
-      },
-      {
-        "type": "equivalent_legacy:item",
-        "emc_value": 12,
-        "id": "minecraft:moss_block"
       },
       {
         "type": "equivalent_legacy:item",
@@ -1882,11 +1872,6 @@
         "type": "equivalent_legacy:item",
         "emc_value": 192,
         "id": "minecraft:echo_shard"
-      },
-      {
-        "type": "equivalent_legacy:item",
-        "emc_value": 192,
-        "id": "minecraft:name_tag"
       },
       {
         "type": "equivalent_legacy:item",

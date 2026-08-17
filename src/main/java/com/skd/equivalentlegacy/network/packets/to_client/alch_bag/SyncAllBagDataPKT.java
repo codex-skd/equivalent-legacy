@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.network.packets.to_client.alch_bag;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.registries.PEAttachmentTypes;
 import com.skd.equivalentlegacy.impl.capability.AlchBagImpl.AlchemicalBagAttachment;
 import com.skd.equivalentlegacy.network.packets.IPEPacket;
@@ -14,7 +14,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record SyncAllBagDataPKT(AlchemicalBagAttachment data) implements IPEPacket {
 
-	public static final Type<SyncAllBagDataPKT> TYPE = new Type<>(PECore.rl("sync_all_bag_data"));
+	public static final Type<SyncAllBagDataPKT> TYPE = new Type<>(ELCore.rl("sync_all_bag_data"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, SyncAllBagDataPKT> STREAM_CODEC = AlchemicalBagAttachment.STREAM_CODEC.map(
 			SyncAllBagDataPKT::new, SyncAllBagDataPKT::data
 	);
@@ -34,6 +34,6 @@ public record SyncAllBagDataPKT(AlchemicalBagAttachment data) implements IPEPack
 		if (player != null) {
 			player.setData(PEAttachmentTypes.ALCHEMICAL_BAGS, data);
 		}
-		PECore.debugLog("** RECEIVED BAGS CLIENTSIDE **");
+		ELCore.debugLog("** RECEIVED BAGS CLIENTSIDE **");
 	}
 }

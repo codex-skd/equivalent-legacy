@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.List;
 import java.util.function.BiPredicate;
 import java.util.function.IntSupplier;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.config.EquivalentLegacyConfig;
 import com.skd.equivalentlegacy.gameObjs.registries.PEItems;
 import com.skd.equivalentlegacy.integration.IntegrationHelper;
@@ -41,7 +41,7 @@ import net.neoforged.neoforge.items.IItemHandler;
  */
 public final class PlayerHelper {
 
-	public final static ObjectiveCriteria SCOREBOARD_EMC = new ReadOnlyScoreCriteria(PECore.MODID + ":emc_score");
+	public final static ObjectiveCriteria SCOREBOARD_EMC = new ReadOnlyScoreCriteria(ELCore.MODID + ":emc_score");
 
 	/**
 	 * Tries placing a block and fires an event for it.
@@ -176,7 +176,7 @@ public final class PlayerHelper {
 
 	public static void resetCooldown(Player player) {
 		player.resetAttackStrengthTicker();
-		PECore.packetHandler().resetCooldown((ServerPlayer) player);
+		ELCore.packetHandler().resetCooldown((ServerPlayer) player);
 	}
 
 	public static void swingItem(Player player, InteractionHand hand) {

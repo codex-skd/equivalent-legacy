@@ -2,7 +2,7 @@ package com.skd.equivalentlegacy.gameObjs.items.rings;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.block_entity.IDMPedestal;
 import com.skd.equivalentlegacy.api.capabilities.item.IPedestalItem;
 import com.skd.equivalentlegacy.api.proxy.IEMCProxy;
@@ -50,7 +50,7 @@ public class ArchangelSmite extends PEToggleItem implements IPedestalItem {
 	}
 
 	private void emptyLeftClick(PlayerInteractEvent.LeftClickEmpty evt) {
-		PECore.packetHandler().activateArchangel();
+		ELCore.packetHandler().activateArchangel();
 	}
 
 	private void leftClickBlock(PlayerInteractEvent.LeftClickBlock evt) {
@@ -103,7 +103,7 @@ public class ArchangelSmite extends PEToggleItem implements IPedestalItem {
 					double centeredY = pos.getY() + 0.5;
 					double centeredZ = pos.getZ() + 0.5;
 					for (int i = 0; i < 3; i++) {
-						EntityHomingArrow arrow = new EntityHomingArrow(level, FakePlayerFactory.get((ServerLevel) level, PECore.FAKEPLAYER_GAMEPROFILE), 2.0F);
+						EntityHomingArrow arrow = new EntityHomingArrow(level, FakePlayerFactory.get((ServerLevel) level, ELCore.FAKEPLAYER_GAMEPROFILE), 2.0F);
 						arrow.setPosRaw(centeredX, centeredY + 2, centeredZ);
 						arrow.setDeltaMovement(0, 1, 0);
 						arrow.playSound(SoundEvents.ARROW_SHOOT, 1.0F, 1.0F / (level.getRandom().nextFloat() * 0.4F + 1.2F) + 0.5F);

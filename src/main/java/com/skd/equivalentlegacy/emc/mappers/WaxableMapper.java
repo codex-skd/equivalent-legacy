@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.emc.mappers;
 
 import java.util.Map;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.mapper.EMCMapper;
 import com.skd.equivalentlegacy.api.mapper.IEMCMapper;
 import com.skd.equivalentlegacy.api.mapper.collector.IMappingCollector;
@@ -44,8 +44,8 @@ public class WaxableMapper implements IEMCMapper<NormalizedSimpleStack, Long> {
 				recipeCount += 2;
 			}
 		}
-		PECore.debugLog("{} Statistics:", getName());
-		PECore.debugLog("Found {} Waxable Conversions", recipeCount);
+		ELCore.debugLog("{} Statistics:", getName());
+		ELCore.debugLog("Found {} Waxable Conversions", recipeCount);
 	}
 
 	@Override

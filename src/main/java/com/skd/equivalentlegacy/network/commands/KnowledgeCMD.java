@@ -4,7 +4,7 @@ import com.mojang.brigadier.Command;
 import com.mojang.brigadier.builder.ArgumentBuilder;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.PEPermissions;
 import com.skd.equivalentlegacy.api.ItemInfo;
 import com.skd.equivalentlegacy.api.capabilities.IKnowledgeProvider;
@@ -76,7 +76,7 @@ public class KnowledgeCMD {
 									source.sendFailure(PELang.COMMAND_KNOWLEDGE_CLEAR_FAIL.translate(player.getDisplayName()));
 								} else {
 									provider.clearKnowledge();
-									PECore.packetHandler().clearKnowledge(player);
+									ELCore.packetHandler().clearKnowledge(player);
 									source.sendSuccess(() -> PELang.COMMAND_KNOWLEDGE_CLEAR_SUCCESS.translateColored(ChatFormatting.GREEN, player.getDisplayName()), true);
 									successCount++;
 								}

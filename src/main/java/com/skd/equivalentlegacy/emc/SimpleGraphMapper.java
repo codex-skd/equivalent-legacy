@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.mapper.arithmetic.IValueArithmetic;
 import com.skd.equivalentlegacy.api.mapper.generator.IValueGenerator;
 import com.skd.equivalentlegacy.emc.collector.MappingCollector;
@@ -160,7 +160,7 @@ public class SimpleGraphMapper<T, V extends Comparable<V>, A extends IValueArith
 						Conversion oldConversion = overwriteConversion.get(conversion.output);
 						if (oldConversion != null && oldConversion != conversion) {
 							if (logFoundExploits) {
-								PECore.LOGGER.warn("EMC Exploit: \"{}\" ingredient cost: {} value of result: {} setValueFromConversion: {}", conversion,
+								ELCore.LOGGER.warn("EMC Exploit: \"{}\" ingredient cost: {} value of result: {} setValueFromConversion: {}", conversion,
 										ingredientValue, valueOrZero(resultValueActual), oldConversion);
 							}
 						} else if (canOverrideZero(key)) {
@@ -173,7 +173,7 @@ public class SimpleGraphMapper<T, V extends Comparable<V>, A extends IValueArith
 							}
 							changedValues.put(conversion.output, ZERO);
 						} else if (logFoundExploits) {
-							PECore.LOGGER.warn("EMC Exploit: ingredients ({}) cost {} but output value is {}", conversion, ingredientValue, valueOrZero(resultValueActual));
+							ELCore.LOGGER.warn("EMC Exploit: ingredients ({}) cost {} but output value is {}", conversion, ingredientValue, valueOrZero(resultValueActual));
 						}
 					}
 				}
@@ -226,10 +226,10 @@ public class SimpleGraphMapper<T, V extends Comparable<V>, A extends IValueArith
 		try {
 			return valueForConversionUnsafe(values, conversion);
 		} catch (ArithmeticException e) {
-			PECore.LOGGER.warn("Could not calculate value for {}: {}", conversion.toString(), e.toString());
+			ELCore.LOGGER.warn("Could not calculate value for {}: {}", conversion.toString(), e.toString());
 			return ZERO;
 		} catch (Exception e) {
-			PECore.LOGGER.warn("Could not calculate value for {}: {}", conversion.toString(), e, e);
+			ELCore.LOGGER.warn("Could not calculate value for {}: {}", conversion.toString(), e, e);
 			return ZERO;
 		}
 	}

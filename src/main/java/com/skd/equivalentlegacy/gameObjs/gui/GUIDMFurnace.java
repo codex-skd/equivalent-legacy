@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.gameObjs.gui;
 
 import net.minecraft.client.renderer.RenderPipelines;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.block_entities.DMFurnaceBlockEntity;
 import com.skd.equivalentlegacy.gameObjs.container.DMFurnaceContainer;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
@@ -16,7 +16,7 @@ public class GUIDMFurnace<CONTAINER extends DMFurnaceContainer> extends PEContai
 	private static final Identifier LIT_PROGRESS_SPRITE = Identifier.withDefaultNamespace("container/furnace/lit_progress");
 	private static final int LIT_SIZE = 14;
 
-	private static final Identifier DM_FURNACE = PECore.rl("textures/gui/dmfurnace.png");
+	private static final Identifier DM_FURNACE = ELCore.rl("textures/gui/dmfurnace.png");
 
 	private final DMFurnaceBlockEntity furnace;
 	protected final Identifier texture;

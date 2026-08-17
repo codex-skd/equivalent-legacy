@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.gameObjs.registries;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.block_entities.AlchBlockEntityChest;
 import com.skd.equivalentlegacy.gameObjs.block_entities.CollectorMK1BlockEntity;
 import com.skd.equivalentlegacy.gameObjs.block_entities.CollectorMK2BlockEntity;
@@ -33,7 +33,7 @@ import com.skd.equivalentlegacy.gameObjs.registration.impl.ContainerTypeRegistry
 
 public class PEContainerTypes {
 
-	public static final ContainerTypeDeferredRegister CONTAINER_TYPES = new ContainerTypeDeferredRegister(PECore.MODID);
+	public static final ContainerTypeDeferredRegister CONTAINER_TYPES = new ContainerTypeDeferredRegister(ELCore.MODID);
 
 	public static final ContainerTypeRegistryObject<RMFurnaceContainer> RM_FURNACE_CONTAINER = CONTAINER_TYPES.register(PEBlocks.RED_MATTER_FURNACE, RMFurnaceBlockEntity.class, RMFurnaceContainer::new);
 	public static final ContainerTypeRegistryObject<DMFurnaceContainer> DM_FURNACE_CONTAINER = CONTAINER_TYPES.register(PEBlocks.DARK_MATTER_FURNACE, DMFurnaceBlockEntity.class, DMFurnaceContainer::new);

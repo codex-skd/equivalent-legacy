@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.gameObjs.registries;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.EnumMatterType;
 import com.skd.equivalentlegacy.gameObjs.items.AlchemicalBag;
 import com.skd.equivalentlegacy.gameObjs.items.CataliticLens;
@@ -57,7 +57,7 @@ import net.minecraft.world.item.Rarity;
 
 public class PEItems {
 
-	public static final ItemDeferredRegister ITEMS = new ItemDeferredRegister(PECore.MODID);
+	public static final ItemDeferredRegister ITEMS = new ItemDeferredRegister(ELCore.MODID);
 
 	public static final ItemRegistryObject<PhilosophersStone> PHILOSOPHERS_STONE = ITEMS.registerNoStack("philosophers_stone", PhilosophersStone::new);
 	public static final ItemRegistryObject<RepairTalisman> REPAIR_TALISMAN = ITEMS.registerNoStack("repair_talisman", RepairTalisman::new);

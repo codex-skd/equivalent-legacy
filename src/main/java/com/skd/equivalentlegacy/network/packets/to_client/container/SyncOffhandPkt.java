@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.network.packets.to_client.container;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.PEHandContainer;
 import com.skd.equivalentlegacy.network.packets.IPEPacket;
 import net.minecraft.network.RegistryFriendlyByteBuf;
@@ -15,7 +15,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record SyncOffhandPkt(short windowId, ItemStack stack) implements IPEPacket {
 
-	public static final Type<SyncOffhandPkt> TYPE = new Type<>(PECore.rl("sync_offhand"));
+	public static final Type<SyncOffhandPkt> TYPE = new Type<>(ELCore.rl("sync_offhand"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, SyncOffhandPkt> STREAM_CODEC = StreamCodec.composite(
 			ByteBufCodecs.SHORT, SyncOffhandPkt::windowId,
 			ItemStack.OPTIONAL_STREAM_CODEC, SyncOffhandPkt::stack,

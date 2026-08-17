@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.network.packets.to_server;
 
 import io.netty.buffer.ByteBuf;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.components.GemData;
 import com.skd.equivalentlegacy.gameObjs.registries.PEDataComponentTypes;
 import com.skd.equivalentlegacy.gameObjs.registries.PEItems;
@@ -17,7 +17,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record UpdateGemModePKT(InteractionHand hand, boolean mode) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<UpdateGemModePKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("update_gem_mode"));
+	public static final CustomPacketPayload.Type<UpdateGemModePKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("update_gem_mode"));
 	public static final StreamCodec<ByteBuf, UpdateGemModePKT> STREAM_CODEC = StreamCodec.composite(
 			PEStreamCodecs.INTERACTION_HAND, UpdateGemModePKT::hand,
 			ByteBufCodecs.BOOL, UpdateGemModePKT::mode,

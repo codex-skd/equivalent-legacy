@@ -53,7 +53,7 @@ public class TransmutationRenderingOverlay implements GuiLayer {
 
 	@Override
 	public void render(@NotNull GuiGraphicsExtractor graphics, @NotNull DeltaTracker delta) {
-		if (!mc.gui.hud.isHidden() && transmutationResult != null) {
+		if (mc.gui.screen() == null && !mc.gui.hud.isHidden() && transmutationResult != null) {
 			graphics.item(new ItemStack(transmutationResult), 1, 1);
 			long gameTime = mc.level == null ? 0 : mc.level.getGameTime();
 			if (lastGameTime != gameTime) {

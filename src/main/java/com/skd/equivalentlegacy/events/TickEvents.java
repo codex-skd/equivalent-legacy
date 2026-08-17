@@ -2,7 +2,7 @@ package com.skd.equivalentlegacy.events;
 
 import java.util.EnumSet;
 import java.util.Set;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.IAlchBagProvider;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
 import com.skd.equivalentlegacy.api.capabilities.item.IAlchBagItem;
@@ -22,7 +22,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.neoforged.neoforge.items.IItemHandler;
 
-@EventBusSubscriber(modid = PECore.MODID)
+@EventBusSubscriber(modid = ELCore.MODID)
 public class TickEvents {
 
 	@SubscribeEvent

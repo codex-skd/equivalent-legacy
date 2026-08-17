@@ -18,7 +18,7 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.SequencedSet;
 import java.util.function.Function;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.world_transmutation.IWorldTransmutation;
 import com.skd.equivalentlegacy.api.world_transmutation.IWorldTransmutationFunction;
 import com.skd.equivalentlegacy.api.world_transmutation.SimpleWorldTransmutation;
@@ -74,7 +74,7 @@ public class WorldTransmutationManager extends SimplePreparableReloadListener<Ma
 					JsonElement element = JsonParser.parseReader(reader);
 					loaded.put(transmutationId, element);
 				} catch (Exception e) {
-					PECore.LOGGER.error("Failed to load world transmutation file {}", file, e);
+					ELCore.LOGGER.error("Failed to load world transmutation file {}", file, e);
 				}
 			}
 		}
@@ -95,17 +95,17 @@ public class WorldTransmutationManager extends SimplePreparableReloadListener<Ma
 					for (IWorldTransmutation transmutation : decoded.get().carrier().transmutations()) {
 						SequencedSet<IWorldTransmutation> transmutations = builder.computeIfAbsent(transmutation.origin().value(), SET_BUILDER);
 						if (transmutations.add(transmutation)) {
-							PECore.debugLog("World Transmutation File: '{}' registered {}", file, transmutation);
+							ELCore.debugLog("World Transmutation File: '{}' registered {}", file, transmutation);
 						} else {
-							PECore.debugLog("World Transmutation File: '{}' registered {}. Skipped as it was identical to an already registered transmutation",
+							ELCore.debugLog("World Transmutation File: '{}' registered {}. Skipped as it was identical to an already registered transmutation",
 									file, transmutation);
 						}
 					}
 				} else {
-					PECore.debugLog("Skipping loading world transmutation file {} as its conditions were not met", file);
+					ELCore.debugLog("Skipping loading world transmutation file {} as its conditions were not met", file);
 				}
 			} else {
-				result.ifError(error -> PECore.LOGGER.error("Parsing error loading world transmutation file {}: {}", file, error.message()));
+				result.ifError(error -> ELCore.LOGGER.error("Parsing error loading world transmutation file {}: {}", file, error.message()));
 			}
 		}
 		for (Iterator<Reference2ObjectMap.Entry<Block, SequencedSet<IWorldTransmutation>>> iterator = Reference2ObjectMaps.fastIterator(builder); iterator.hasNext(); ) {

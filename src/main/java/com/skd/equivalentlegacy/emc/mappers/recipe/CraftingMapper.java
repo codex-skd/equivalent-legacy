@@ -18,7 +18,7 @@ import java.util.function.BooleanSupplier;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
 import java.util.stream.Collectors;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.mapper.EMCMapper;
 import com.skd.equivalentlegacy.api.mapper.IEMCMapper;
 import com.skd.equivalentlegacy.api.mapper.collector.IMappingCollector;
@@ -107,7 +107,7 @@ public class CraftingMapper implements IEMCMapper<NormalizedSimpleStack, Long> {
 									unhandled.add(recipeHolder);
 								}
 							} catch (Exception e) {
-								PECore.LOGGER.error(LogUtils.FATAL_MARKER, "Exception during mapping recipe {}. Skipping recipe.", recipeHolder.id(), e);
+								ELCore.LOGGER.error(LogUtils.FATAL_MARKER, "Exception during mapping recipe {}. Skipping recipe.", recipeHolder.id(), e);
 							}
 						}
 						if (numHandled > 0 || recipes.isEmpty()) {
@@ -137,7 +137,7 @@ public class CraftingMapper implements IEMCMapper<NormalizedSimpleStack, Long> {
 				canNotMap.add(typeRegistryKey);
 			}
 		}
-		PECore.debugLog("{} Statistics:", getName());
+		ELCore.debugLog("{} Statistics:", getName());
 
 		for (Iterator<Reference2ObjectMap.Entry<ResourceKey<RecipeType<?>>, RecipeCountInfo>> iterator = Reference2ObjectMaps.fastIterator(recipeCount); iterator.hasNext(); ) {
 			Reference2ObjectMap.Entry<ResourceKey<RecipeType<?>>, RecipeCountInfo> entry = iterator.next();
@@ -145,16 +145,16 @@ public class CraftingMapper implements IEMCMapper<NormalizedSimpleStack, Long> {
 			RecipeCountInfo countInfo = entry.getValue();
 			int total = countInfo.getTotalRecipes();
 			List<RecipeHolder<?>> unhandled = countInfo.getUnhandled();
-			PECore.debugLog("Found and handled {} of {} Recipes of Type {}", total - unhandled.size(), total, typeRegistryName);
+			ELCore.debugLog("Found and handled {} of {} Recipes of Type {}", total - unhandled.size(), total, typeRegistryName);
 			if (!unhandled.isEmpty()) {
-				PECore.debugLog("Unhandled Recipes of Type {}:", typeRegistryName);
+				ELCore.debugLog("Unhandled Recipes of Type {}:", typeRegistryName);
 				for (RecipeHolder<?> recipeHolder : unhandled) {
-					PECore.debugLog("Name: {}, Recipe class: {}", recipeHolder.id(), recipeHolder.value().getClass().getName());
+					ELCore.debugLog("Name: {}, Recipe class: {}", recipeHolder.id(), recipeHolder.value().getClass().getName());
 				}
 			}
 		}
 		for (ResourceKey<RecipeType<?>> typeRegistryKey : canNotMap) {
-			PECore.debugLog("Could not map any Recipes of Type: {}", typeRegistryKey.identifier());
+			ELCore.debugLog("Could not map any Recipes of Type: {}", typeRegistryKey.identifier());
 		}
 		NSSFake.resetNamespace();
 	}

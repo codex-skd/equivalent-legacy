@@ -4,7 +4,7 @@ import it.unimi.dsi.fastutil.objects.Object2IntArrayMap;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
 import java.util.ArrayList;
 import java.util.List;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.mapper.collector.IMappingCollector;
 import com.skd.equivalentlegacy.api.mapper.recipe.INSSFakeGroupManager;
 import com.skd.equivalentlegacy.api.mapper.recipe.INSSFakeGroupManager.FakeGroupData;
@@ -71,8 +71,8 @@ public class DecoratedPotMapper extends SpecialRecipeMapper<DecoratedPotRecipe> 
 				}
 			}
 		}
-		PECore.debugLog("{} Statistics:", getName());
-		PECore.debugLog("Found {} Decorated Pot Combinations. With {} unique combinations.", recipeCount, uniqueInputs);
+		ELCore.debugLog("{} Statistics:", getName());
+		ELCore.debugLog("Found {} Decorated Pot Combinations. With {} unique combinations.", recipeCount, uniqueInputs);
 		return true;
 	}
 

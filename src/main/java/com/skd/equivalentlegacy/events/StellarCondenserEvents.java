@@ -2,7 +2,7 @@ package com.skd.equivalentlegacy.events;
 
 import java.util.Comparator;
 import java.util.List;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.StellarCondenserBalance;
 import com.skd.equivalentlegacy.gameObjs.block_entities.StellarCondenserBlockEntity;
 import com.skd.equivalentlegacy.utils.WorldHelper;
@@ -20,7 +20,7 @@ import net.neoforged.neoforge.event.entity.living.LivingDeathEvent;
  * Routes living-death "echo" EMC to the nearest owned Stellar Condenser in range.
  * Does not touch item drops — echo values come only from {@link StellarCondenserBlockEntity#echoEmcFor}.
  */
-@EventBusSubscriber(modid = PECore.MODID)
+@EventBusSubscriber(modid = ELCore.MODID)
 public class StellarCondenserEvents {
 
 	@SubscribeEvent

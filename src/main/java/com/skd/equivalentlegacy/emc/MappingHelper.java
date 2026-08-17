@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.emc;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import net.minecraft.core.Holder;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.ItemStack;
@@ -64,14 +64,14 @@ public final class MappingHelper {
 			if (customIngredient != null) {
 				Identifier name = NeoForgeRegistries.INGREDIENT_TYPES.getKey(customIngredient.getType());
 				if (name == null) {
-					PECore.LOGGER.error("Error mapping recipe {}. Ingredient of type: {} crashed when getting the matching stacks. Please report this to the ingredient's creator.",
+					ELCore.LOGGER.error("Error mapping recipe {}. Ingredient of type: {} crashed when getting the matching stacks. Please report this to the ingredient's creator.",
 							recipeId, customIngredient.getClass(), e);
 				} else {
-					PECore.LOGGER.error("Error mapping recipe {}. Ingredient of type: {} crashed when getting the matching stacks. Please report this to the ingredient's creator ({}).",
+					ELCore.LOGGER.error("Error mapping recipe {}. Ingredient of type: {} crashed when getting the matching stacks. Please report this to the ingredient's creator ({}).",
 							recipeId, name, name.getNamespace(), e);
 				}
 			} else {
-				PECore.LOGGER.error("Error mapping recipe {}. Crashed when getting the matching stacks.", recipeId, e);
+				ELCore.LOGGER.error("Error mapping recipe {}. Crashed when getting the matching stacks.", recipeId, e);
 			}
 			return new ItemStack[0];
 		}

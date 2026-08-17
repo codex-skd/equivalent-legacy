@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 import mezz.jei.api.constants.VanillaTypes;
 import mezz.jei.api.registration.IIngredientAliasRegistration;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.integration.recipe_viewer.alias.RVAliasHelper;
 import com.skd.equivalentlegacy.utils.text.IHasTranslationKey;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -41,7 +41,7 @@ public class JEIAliasHelper implements RVAliasHelper<ItemStack> {
 	@Override
 	public void addAliases(List<ItemStack> stacks, IHasTranslationKey... aliases) {
 		if (aliases.length == 0) {
-			PECore.LOGGER.warn("Expected to have at least one alias for  item ingredients: {}", stacks.stream()
+			ELCore.LOGGER.warn("Expected to have at least one alias for  item ingredients: {}", stacks.stream()
 					.map(stack -> stack.typeHolder().getRegisteredName())
 					.collect(Collectors.joining(", "))
 			);

@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.network.packets.to_client.knowledge;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.TransmutationContainer;
 import com.skd.equivalentlegacy.gameObjs.registries.PEAttachmentTypes;
 import com.skd.equivalentlegacy.impl.capability.KnowledgeImpl.KnowledgeAttachment;
@@ -15,7 +15,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record KnowledgeSyncPKT(KnowledgeAttachment data) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<KnowledgeSyncPKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("sync_knowledge"));
+	public static final CustomPacketPayload.Type<KnowledgeSyncPKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("sync_knowledge"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, KnowledgeSyncPKT> STREAM_CODEC = KnowledgeAttachment.STREAM_CODEC.map(
 			KnowledgeSyncPKT::new, KnowledgeSyncPKT::data
 	);
@@ -38,6 +38,6 @@ public record KnowledgeSyncPKT(KnowledgeAttachment data) implements IPEPacket {
 				container.transmutationInventory.updateClientTargets(false);
 			}
 		}
-		PECore.debugLog("** RECEIVED TRANSMUTATION DATA CLIENTSIDE **");
+		ELCore.debugLog("** RECEIVED TRANSMUTATION DATA CLIENTSIDE **");
 	}
 }

@@ -3,7 +3,7 @@ package com.skd.equivalentlegacy.gameObjs.registries;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import it.unimi.dsi.fastutil.ints.Int2ObjectFunction;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.registration.PEDeferredHolder;
 import com.skd.equivalentlegacy.gameObjs.registration.PEDeferredRegister;
 import com.skd.equivalentlegacy.impl.capability.AlchBagImpl.AlchemicalBagAttachment;
@@ -19,7 +19,7 @@ public class PEAttachmentTypes {
 	private PEAttachmentTypes() {
 	}
 
-	public static final PEDeferredRegister<AttachmentType<?>> ATTACHMENT_TYPES = new PEDeferredRegister<>(NeoForgeRegistries.Keys.ATTACHMENT_TYPES, PECore.MODID);
+	public static final PEDeferredRegister<AttachmentType<?>> ATTACHMENT_TYPES = new PEDeferredRegister<>(NeoForgeRegistries.Keys.ATTACHMENT_TYPES, ELCore.MODID);
 
 	public static final PEDeferredHolder<AttachmentType<?>, AttachmentType<AlchemicalBagAttachment>> ALCHEMICAL_BAGS = ATTACHMENT_TYPES.register("alchemical_bags",
 			() -> AttachmentType.builder(AlchemicalBagAttachment::new)

@@ -80,7 +80,7 @@ public class PEPermissions {
 
 	@SafeVarargs
 	private static <T> PermissionNode<T> node(String nodeName, PermissionType<T> type, PermissionResolver<T> defaultResolver, PermissionDynamicContextKey<T>... dynamics) {
-		PermissionNode<T> node = new PermissionNode<>(PECore.MODID, nodeName, type, defaultResolver, dynamics);
+		PermissionNode<T> node = new PermissionNode<>(ELCore.MODID, nodeName, type, defaultResolver, dynamics);
 		NODES_TO_REGISTER.add(node);
 		return node;
 	}

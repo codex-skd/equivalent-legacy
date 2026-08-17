@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.gameObjs.registries;
 
 import java.util.Map;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.sounds.SoundEvents;
@@ -27,10 +27,10 @@ public class PEArmorMaterials {
 		);
 	}
 
-	private static final TagKey<Item> NO_REPAIR = TagKey.create(Registries.ITEM, PECore.rl("no_repair"));
+	private static final TagKey<Item> NO_REPAIR = TagKey.create(Registries.ITEM, ELCore.rl("no_repair"));
 
 	private static ResourceKey<EquipmentAsset> asset(String path) {
-		return ResourceKey.create(EquipmentAssets.ROOT_ID, PECore.rl(path));
+		return ResourceKey.create(EquipmentAssets.ROOT_ID, ELCore.rl(path));
 	}
 
 	public static final ArmorMaterial DARK_MATTER = new ArmorMaterial(

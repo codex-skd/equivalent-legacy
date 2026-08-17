@@ -115,8 +115,15 @@ public class Collector extends BlockDirection implements PEEntityBlock<Collector
 			CollectorMK1BlockEntity ent = WorldHelper.getBlockEntity(CollectorMK1BlockEntity.class, world, pos);
 			if (ent != null) {
 				ent.clearLocked();
+				if (!world.isClientSide()) {
+					//Drop directly from the block entity's own handlers instead of going through
+					// super's capability lookup: the aux handler exposed as a capability restricts
+					// extraction of the slot currently charging (so hoppers can't steal it mid-charge),
+					// which previously caused that item to be silently lost on break.
+					WorldHelper.dropInventory(ent.getInput(), world, pos);
+					WorldHelper.dropInventory(ent.getAux(), world, pos);
+				}
 			}
 		}
-		super.onBlockStateChange(level, pos, oldState, newState);
 	}
 }

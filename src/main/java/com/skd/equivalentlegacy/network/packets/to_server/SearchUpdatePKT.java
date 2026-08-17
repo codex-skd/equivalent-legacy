@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.network.packets.to_server;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.ArcaneTabletContainer;
 import com.skd.equivalentlegacy.gameObjs.container.TransmutationContainer;
 import com.skd.equivalentlegacy.network.packets.IPEPacket;
@@ -14,7 +14,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record SearchUpdatePKT(int slot, ItemStack itemStack) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<SearchUpdatePKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("update_search"));
+	public static final CustomPacketPayload.Type<SearchUpdatePKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("update_search"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, SearchUpdatePKT> STREAM_CODEC = StreamCodec.composite(
 			ByteBufCodecs.VAR_INT, SearchUpdatePKT::slot,
 			ItemStack.OPTIONAL_STREAM_CODEC, SearchUpdatePKT::itemStack,

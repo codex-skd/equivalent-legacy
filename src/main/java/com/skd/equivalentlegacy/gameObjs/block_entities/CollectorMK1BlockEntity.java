@@ -271,12 +271,12 @@ public class CollectorMK1BlockEntity extends EmcBlockEntity implements MenuProvi
 	public double getItemChargeProportion() {
 		long charge = getItemCharge();
 		if (charge <= 0) {
-			return -1;
+			return 0;
 		}
 		ItemStack upgrading = getUpgrading();
 		IItemEmcHolder emcHolder = upgrading.getCapability(PECapabilities.EMC_HOLDER_ITEM_CAPABILITY);
 		if (emcHolder == null) {
-			return -1;
+			return 0;
 		}
 		long max = emcHolder.getMaximumEmc(upgrading);
 		if (charge >= max) {

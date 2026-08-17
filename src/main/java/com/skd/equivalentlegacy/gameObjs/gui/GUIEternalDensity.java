@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.gameObjs.gui;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.EternalDensityContainer;
 import com.skd.equivalentlegacy.network.packets.to_server.UpdateGemModePKT;
 import com.skd.equivalentlegacy.utils.text.PELang;
@@ -14,7 +14,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class GUIEternalDensity extends PEContainerScreen<EternalDensityContainer> {
 
-	private static final Identifier texture = PECore.rl("textures/gui/eternal_density.png");
+	private static final Identifier texture = ELCore.rl("textures/gui/eternal_density.png");
 
 	public GUIEternalDensity(EternalDensityContainer container, Inventory inv, Component title) {
 		super(container, inv, title, 180, 180);

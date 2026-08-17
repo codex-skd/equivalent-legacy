@@ -13,7 +13,7 @@ import mezz.jei.api.recipe.IRecipeManager;
 import mezz.jei.api.recipe.RecipeIngredientRole;
 import mezz.jei.api.recipe.types.IRecipeType;
 import mezz.jei.api.recipe.category.IRecipeCategory;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.registries.PEBlocks;
 import com.skd.equivalentlegacy.integration.recipe_viewer.FuelUpgradeRecipe;
 import com.skd.equivalentlegacy.utils.text.PELang;
@@ -24,7 +24,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class CollectorRecipeCategory implements IRecipeCategory<FuelUpgradeRecipe> {
 
-	public static final IRecipeType<FuelUpgradeRecipe> RECIPE_TYPE = IRecipeType.create(PECore.rl("collector"), FuelUpgradeRecipe.class);
+	public static final IRecipeType<FuelUpgradeRecipe> RECIPE_TYPE = IRecipeType.create(ELCore.rl("collector"), FuelUpgradeRecipe.class);
 	private final IDrawable icon;
 
 	public CollectorRecipeCategory(IGuiHelper guiHelper) {

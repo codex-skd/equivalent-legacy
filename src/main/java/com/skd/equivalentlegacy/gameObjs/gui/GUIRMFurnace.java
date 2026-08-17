@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.gameObjs.gui;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.RMFurnaceContainer;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.network.chat.Component;
@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class GUIRMFurnace extends GUIDMFurnace<RMFurnaceContainer> {
 
-	private static final Identifier RM_FURNACE = PECore.rl("textures/gui/rmfurnace.png");
+	private static final Identifier RM_FURNACE = ELCore.rl("textures/gui/rmfurnace.png");
 
 	public GUIRMFurnace(RMFurnaceContainer container, Inventory invPlayer, Component title) {
 		super(container, invPlayer, title, RM_FURNACE, 209, 165, 76);

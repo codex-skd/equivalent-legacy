@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.network;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.utils.text.PELang;
 import com.skd.equivalentlegacy.utils.text.TextComponentUtil;
 import net.minecraft.client.player.LocalPlayer;
@@ -17,7 +17,7 @@ import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 import net.neoforged.neoforgespi.language.IModInfo;
 import org.apache.maven.artifact.versioning.ComparableVersion;
 
-@EventBusSubscriber(modid = PECore.MODID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = ELCore.MODID, value = Dist.CLIENT)
 public class ThreadCheckUpdate extends Thread {
 
 	private static final String curseURL = "https://github.com/Yaskulsky/projecte-26-port/releases";
@@ -34,7 +34,7 @@ public class ThreadCheckUpdate extends Thread {
 			//Forge update checker disabled, just exit
 			return;
 		}
-		IModInfo info = PECore.MOD_CONTAINER.getModInfo();
+		IModInfo info = ELCore.MOD_CONTAINER.getModInfo();
 		VersionChecker.CheckResult result = null;
 
 		int tries = 0;
@@ -51,7 +51,7 @@ public class ThreadCheckUpdate extends Thread {
 		} while (result == null && tries < 10);
 
 		if (result == null) {
-			PECore.LOGGER.warn("Update check failed.");
+			ELCore.LOGGER.warn("Update check failed.");
 			return;
 		}
 

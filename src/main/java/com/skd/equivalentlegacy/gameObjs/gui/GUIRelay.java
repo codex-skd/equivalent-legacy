@@ -2,7 +2,7 @@ package com.skd.equivalentlegacy.gameObjs.gui;
 
 
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 
 import com.skd.equivalentlegacy.gameObjs.container.CondenserContainer;
 
@@ -128,7 +128,7 @@ public class GUIRelay<CONTAINER extends RelayMK1Container> extends PEContainerSc
 
 
 
-		private static final Identifier MK1_TEXTURE = PECore.rl("textures/gui/relay1.png");
+		private static final Identifier MK1_TEXTURE = ELCore.rl("textures/gui/relay1.png");
 
 
 
@@ -148,7 +148,7 @@ public class GUIRelay<CONTAINER extends RelayMK1Container> extends PEContainerSc
 
 
 
-		private static final Identifier MK2_TEXTURE = PECore.rl("textures/gui/relay2.png");
+		private static final Identifier MK2_TEXTURE = ELCore.rl("textures/gui/relay2.png");
 
 
 
@@ -168,7 +168,7 @@ public class GUIRelay<CONTAINER extends RelayMK1Container> extends PEContainerSc
 
 
 
-		private static final Identifier MK3_TEXTURE = PECore.rl("textures/gui/relay3.png");
+		private static final Identifier MK3_TEXTURE = ELCore.rl("textures/gui/relay3.png");
 
 
 

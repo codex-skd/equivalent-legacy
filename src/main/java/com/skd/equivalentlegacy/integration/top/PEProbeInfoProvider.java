@@ -6,7 +6,7 @@ import mcjty.theoneprobe.api.IProbeInfo;
 import mcjty.theoneprobe.api.IProbeInfoProvider;
 import mcjty.theoneprobe.api.ITheOneProbe;
 import mcjty.theoneprobe.api.ProbeMode;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.proxy.IEMCProxy;
 import com.skd.equivalentlegacy.config.EquivalentLegacyConfig;
 import com.skd.equivalentlegacy.utils.EMCHelper;
@@ -31,7 +31,7 @@ public class PEProbeInfoProvider implements IProbeInfoProvider, Function<ITheOne
 
 	@Override
 	public Identifier getID() {
-		return PECore.rl("emc");
+		return ELCore.rl("emc");
 	}
 
 	@Override

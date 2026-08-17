@@ -3,7 +3,7 @@ package com.skd.equivalentlegacy.integration.crafttweaker.mappers;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
 import java.util.ArrayList;
 import java.util.List;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.mapper.EMCMapper;
 import com.skd.equivalentlegacy.api.mapper.IEMCMapper;
 import com.skd.equivalentlegacy.api.mapper.collector.IMappingCollector;
@@ -45,7 +45,7 @@ public class CrTConversionEMCMapper implements IEMCMapper<NormalizedSimpleStack,
 			} else {
 				consumer.accept(mapper, apiConversion.output, apiConversion);
 			}
-			PECore.debugLog("CraftTweaker adding conversion for {}", apiConversion.output);
+			ELCore.debugLog("CraftTweaker adding conversion for {}", apiConversion.output);
 		}
 	}
 

@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.network.packets.to_server;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
 import com.skd.equivalentlegacy.config.EquivalentLegacyConfig;
 import com.skd.equivalentlegacy.gameObjs.block_entities.DMPedestalBlockEntity;
@@ -21,7 +21,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record PedestalTimeBonusPKT(BlockPos pos, int bonusTicks) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<PedestalTimeBonusPKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("pedestal_time_bonus"));
+	public static final CustomPacketPayload.Type<PedestalTimeBonusPKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("pedestal_time_bonus"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, PedestalTimeBonusPKT> STREAM_CODEC = StreamCodec.composite(
 			BlockPos.STREAM_CODEC, PedestalTimeBonusPKT::pos,
 			ByteBufCodecs.VAR_INT, PedestalTimeBonusPKT::bonusTicks,

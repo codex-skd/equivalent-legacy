@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.events;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.IAlchBagProvider;
 import com.skd.equivalentlegacy.api.capabilities.IKnowledgeProvider;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
@@ -9,11 +9,6 @@ import com.skd.equivalentlegacy.gameObjs.items.armor.PEArmor;
 import com.skd.equivalentlegacy.gameObjs.items.armor.PEArmor.ReductionInfo;
 import com.skd.equivalentlegacy.impl.TransmutationOffline;
 import com.skd.equivalentlegacy.utils.PlayerHelper;
-import com.skd.equivalentlegacy.utils.text.PELang;
-import net.minecraft.ChatFormatting;
-import net.minecraft.network.chat.Component;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.stats.Stats;
 import net.minecraft.tags.DamageTypeTags;
@@ -37,7 +32,7 @@ import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.neoforged.neoforge.items.IItemHandler;
 import net.neoforged.neoforge.items.ItemHandlerHelper;
 
-@EventBusSubscriber(modid = PECore.MODID)
+@EventBusSubscriber(modid = ELCore.MODID)
 public class PlayerEvents {
 
 	// On death or return from end, sync to the client
@@ -85,7 +80,7 @@ public class PlayerEvents {
 			alchBagProvider.syncAllBags(player);
 		}
 
-		PECore.debugLog("Sent knowledge and bag data to {}", player.getName());
+		ELCore.debugLog("Sent knowledge and bag data to {}", player.getName());
 	}
 
 	@SubscribeEvent
@@ -93,19 +88,7 @@ public class PlayerEvents {
 		if (EffectiveSide.get().isServer() // No world to check yet
 			&& evt.getEntity() instanceof Player && !(evt.getEntity() instanceof FakePlayer)) {
 			TransmutationOffline.clear(evt.getEntity().getUUID());
-			PECore.debugLog("Clearing offline data cache in preparation to load online data");
-		}
-	}
-
-	@SubscribeEvent
-	public static void onHighAlchemistJoin(PlayerEvent.PlayerLoggedInEvent evt) {
-		if (PECore.uuids.contains(evt.getEntity().getUUID().toString()) && evt.getEntity() instanceof ServerPlayer serverPlayer) {
-			ServerLevel serverLevel = serverPlayer.level();
-			MinecraftServer server = serverLevel.getServer();
-			if (server != null) {
-				Component joinMessage = PELang.HIGH_ALCHEMIST.translateColored(ChatFormatting.BLUE, ChatFormatting.GOLD, evt.getEntity().getDisplayName());
-				server.getPlayerList().broadcastSystemMessage(joinMessage, false);
-			}
+			ELCore.debugLog("Clearing offline data cache in preparation to load online data");
 		}
 	}
 

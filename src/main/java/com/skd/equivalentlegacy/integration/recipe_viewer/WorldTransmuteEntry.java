@@ -5,7 +5,7 @@ import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import java.util.Optional;
 import java.util.function.Function;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.world_transmutation.IWorldTransmutation;
 import com.skd.equivalentlegacy.api.world_transmutation.SimpleWorldTransmutation;
 import com.skd.equivalentlegacy.api.world_transmutation.WorldTransmutation;
@@ -35,7 +35,7 @@ public record WorldTransmuteEntry(Either<ItemStack, FluidStack> input, Either<It
 		if (altOutput != null) {
 			name += "/" + stripForSynthetic(altOutput);
 		}
-		return PECore.rl("/world_transmutation/" + name + "/");
+		return ELCore.rl("/world_transmutation/" + name + "/");
 	}
 
 	private String stripForSynthetic(Either<ItemStack, FluidStack> either) {

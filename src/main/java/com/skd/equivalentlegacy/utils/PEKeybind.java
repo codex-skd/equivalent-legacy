@@ -3,7 +3,7 @@ package com.skd.equivalentlegacy.utils;
 import io.netty.buffer.ByteBuf;
 import java.util.Locale;
 import java.util.function.IntFunction;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.utils.text.IHasTranslationKey.IHasEnumNameTranslationKey;
 import net.minecraft.util.Util;
 import net.minecraft.network.codec.ByteBufCodecs;
@@ -24,7 +24,7 @@ public enum PEKeybind implements IHasEnumNameTranslationKey {
 	private final String translationKey;
 
 	PEKeybind() {
-		this.translationKey = Util.makeDescriptionId("key", PECore.rl(name().toLowerCase(Locale.ROOT)));
+		this.translationKey = Util.makeDescriptionId("key", ELCore.rl(name().toLowerCase(Locale.ROOT)));
 	}
 
 	@Override

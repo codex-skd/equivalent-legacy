@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.network.packets.to_client.knowledge;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.ItemInfo;
 import com.skd.equivalentlegacy.api.capabilities.IKnowledgeProvider;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
@@ -16,7 +16,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record KnowledgeSyncChangePKT(ItemInfo change, boolean learned) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<KnowledgeSyncChangePKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("knowledge_sync_change"));
+	public static final CustomPacketPayload.Type<KnowledgeSyncChangePKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("knowledge_sync_change"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, KnowledgeSyncChangePKT> STREAM_CODEC = StreamCodec.composite(
 			ItemInfo.STREAM_CODEC, KnowledgeSyncChangePKT::change,
 			ByteBufCodecs.BOOL, KnowledgeSyncChangePKT::learned,
@@ -42,6 +42,6 @@ public record KnowledgeSyncChangePKT(ItemInfo change, boolean learned) implement
 				container.transmutationInventory.itemUnlearned(change);
 			}
 		}
-		PECore.debugLog("** RECEIVED TRANSMUTATION KNOWLEDGE CHANGE DATA CLIENTSIDE **");
+		ELCore.debugLog("** RECEIVED TRANSMUTATION KNOWLEDGE CHANGE DATA CLIENTSIDE **");
 	}
 }

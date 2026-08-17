@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.config;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import net.minecraft.util.Util;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -220,7 +220,7 @@ public enum PEConfigTranslations implements IConfigTranslation {
 	}
 
 	PEConfigTranslations(String path, String title, String tooltip, @Nullable String button) {
-		this.key = Util.makeDescriptionId("configuration", PECore.rl(path));
+		this.key = Util.makeDescriptionId("configuration", ELCore.rl(path));
 		this.title = title;
 		this.tooltip = tooltip;
 		this.button = button;

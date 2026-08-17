@@ -4,7 +4,7 @@ package com.skd.equivalentlegacy.gameObjs.gui;
 
 import java.math.BigInteger;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 
 import com.skd.equivalentlegacy.gameObjs.container.TransmutationContainer;
 
@@ -51,7 +51,7 @@ public class GUITransmutation extends PEContainerScreen<TransmutationContainer> 
 	private static final int SEARCH_BOX_HEIGHT = 10;
 	private static final Component SEARCH_HINT = Component.literal("Search...");
 
-	private static final Identifier texture = PECore.rl("textures/gui/transmute.png");
+	private static final Identifier texture = ELCore.rl("textures/gui/transmute.png");
 
 
 

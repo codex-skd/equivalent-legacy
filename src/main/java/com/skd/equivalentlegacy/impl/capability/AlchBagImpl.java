@@ -6,7 +6,7 @@ import com.mojang.serialization.codecs.RecordCodecBuilder;
 import java.util.EnumMap;
 import java.util.Map;
 import java.util.Set;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.IAlchBagProvider;
 import com.skd.equivalentlegacy.gameObjs.registries.PEAttachmentTypes;
 import com.skd.equivalentlegacy.impl.codec.PECodecHelper;
@@ -110,7 +110,7 @@ public final class AlchBagImpl implements IAlchBagProvider {
 				if (handler.getSlots() == BAG_SIZE) {
 					inventories.put(color, handler);
 				} else {
-					PECore.LOGGER.warn("Received packet for updating {}, but the handler was of the wrong size. Expected: {}, Received: {}", color, BAG_SIZE, handler.getSlots());
+					ELCore.LOGGER.warn("Received packet for updating {}, but the handler was of the wrong size. Expected: {}, Received: {}", color, BAG_SIZE, handler.getSlots());
 				}
 			}
 		}

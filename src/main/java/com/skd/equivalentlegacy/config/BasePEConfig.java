@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.config.value.CachedValue;
 import net.neoforged.neoforge.common.ModConfigSpec;
 
@@ -45,11 +45,11 @@ public abstract class BasePEConfig implements IPEConfig {
 			try {
 				configSpec.save();
 			} catch (Exception e) {
-				PECore.LOGGER.error("Failed to save config", e);
+				ELCore.LOGGER.error("Failed to save config", e);
 				if (retries++ < 3) {
 					EXECUTOR.submit(this);
 				} else {
-					PECore.LOGGER.error("Giving up");
+					ELCore.LOGGER.error("Giving up");
 				}
 			}
 		}

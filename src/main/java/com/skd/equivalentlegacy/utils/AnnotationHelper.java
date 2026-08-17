@@ -12,7 +12,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.components.DataComponentProcessor;
 import com.skd.equivalentlegacy.api.components.IDataComponentProcessor;
 import com.skd.equivalentlegacy.api.mapper.EMCMapper;
@@ -45,7 +45,7 @@ public class AnnotationHelper {
 						int priority = getPriority(data);
 						dataComponentProcessors.add(processor);
 						priorities.put(processor, priority);
-						PECore.debugLog("Found and loaded Data Component Processor: {}, with priority {}", processor.getName(), priority);
+						ELCore.debugLog("Found and loaded Data Component Processor: {}, with priority {}", processor.getName(), priority);
 					}
 				}
 			}
@@ -67,7 +67,7 @@ public class AnnotationHelper {
 						int priority = getPriority(data);
 						recipeTypeMappers.add(mapper);
 						priorities.put(mapper, priority);
-						PECore.debugLog("Found and loaded RecipeType Mapper: {}, with priority {}", mapper.getName(), priority);
+						ELCore.debugLog("Found and loaded RecipeType Mapper: {}, with priority {}", mapper.getName(), priority);
 					}
 				}
 			}
@@ -92,9 +92,9 @@ public class AnnotationHelper {
 							int priority = getPriority(data);
 							emcMappers.add(emcMapper);
 							priorities.put(emcMapper, priority);
-							PECore.debugLog("Found and loaded EMC mapper: {}, with priority {}", mapper.getName(), priority);
+							ELCore.debugLog("Found and loaded EMC mapper: {}, with priority {}", mapper.getName(), priority);
 						} catch (ClassCastException e) {
-							PECore.LOGGER.error("{}: Is not a mapper for {}, to {}", mapper.getClass(), NormalizedSimpleStack.class, Long.class, e);
+							ELCore.LOGGER.error("{}: Is not a mapper for {}, to {}", mapper.getClass(), NormalizedSimpleStack.class, Long.class, e);
 						}
 					}
 				}
@@ -133,19 +133,19 @@ public class AnnotationHelper {
 							Object fieldValue = field.get(null);
 							if (baseClass.isInstance(fieldValue)) {
 								T instance = (T) fieldValue;
-								PECore.debugLog("Found specified {} instance for: {}. Using it rather than creating a new instance.", baseClass.getSimpleName(),
+								ELCore.debugLog("Found specified {} instance for: {}. Using it rather than creating a new instance.", baseClass.getSimpleName(),
 										nameFunction.apply(instance));
 								return instance;
 							} else {
-								PECore.LOGGER.error("{} annotation found on non {} field: {}", instanceAnnotation.getSimpleName(), baseClass.getSimpleName(), field);
+								ELCore.LOGGER.error("{} annotation found on non {} field: {}", instanceAnnotation.getSimpleName(), baseClass.getSimpleName(), field);
 								return null;
 							}
 						} catch (IllegalAccessException e) {
-							PECore.LOGGER.error("{} annotation found on inaccessible field: {}", instanceAnnotation.getSimpleName(), field);
+							ELCore.LOGGER.error("{} annotation found on inaccessible field: {}", instanceAnnotation.getSimpleName(), field);
 							return null;
 						}
 					} else {
-						PECore.LOGGER.error("{} annotation found on non static field: {}", instanceAnnotation.getSimpleName(), field);
+						ELCore.LOGGER.error("{} annotation found on non static field: {}", instanceAnnotation.getSimpleName(), field);
 						return null;
 					}
 				}
@@ -153,7 +153,7 @@ public class AnnotationHelper {
 			//If we don't have any fields that have the Instance annotation, then try to create a new instance of the class
 			return subClass.getDeclaredConstructor().newInstance();
 		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException | LinkageError | InvocationTargetException | NoSuchMethodException e) {
-			PECore.LOGGER.error("Failed to load: {}", className, e);
+			ELCore.LOGGER.error("Failed to load: {}", className, e);
 		}
 		return null;
 	}
@@ -164,7 +164,7 @@ public class AnnotationHelper {
 			//Check if all the mods the EMCMapper wants to be loaded are loaded
 			List<String> requiredMods = (List<String>) annotationData.get("requiredMods");
 			if (requiredMods.stream().anyMatch(modid -> !ModList.get().isLoaded(modid))) {
-				PECore.debugLog("Skipped checking class {}, as its required mods ({}) are not loaded.", data.memberName(), Arrays.toString(requiredMods.toArray()));
+				ELCore.debugLog("Skipped checking class {}, as its required mods ({}) are not loaded.", data.memberName(), Arrays.toString(requiredMods.toArray()));
 				return false;
 			}
 		}

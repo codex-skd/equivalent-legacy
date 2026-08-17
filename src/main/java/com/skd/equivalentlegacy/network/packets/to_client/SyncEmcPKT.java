@@ -3,7 +3,7 @@ package com.skd.equivalentlegacy.network.packets.to_client;
 import io.netty.buffer.Unpooled;
 import it.unimi.dsi.fastutil.objects.Object2LongMap;
 import it.unimi.dsi.fastutil.objects.Object2LongOpenHashMap;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.ItemInfo;
 import com.skd.equivalentlegacy.emc.EMCMappingHandler;
 import com.skd.equivalentlegacy.network.packets.IPEPacket;
@@ -18,7 +18,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record SyncEmcPKT(Object2LongMap<ItemInfo> data) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<SyncEmcPKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("sync_emc"));
+	public static final CustomPacketPayload.Type<SyncEmcPKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("sync_emc"));
 	private static final StreamCodec<RegistryFriendlyByteBuf, Object2LongMap<ItemInfo>> MAP_STREAM_CODEC = ByteBufCodecs.map(Object2LongOpenHashMap::new,
 			ItemInfo.STREAM_CODEC,
 			ByteBufCodecs.VAR_LONG
@@ -33,7 +33,7 @@ public record SyncEmcPKT(Object2LongMap<ItemInfo> data) implements IPEPacket {
 
 	@Override
 	public void handle(IPayloadContext context) {
-		PECore.debugLog("Receiving EMC data from server.");
+		ELCore.debugLog("Receiving EMC data from server.");
 		EMCMappingHandler.updateEmcValues(data);
 	}
 
@@ -44,7 +44,7 @@ public record SyncEmcPKT(Object2LongMap<ItemInfo> data) implements IPEPacket {
 		try {
 			int index = buf.writerIndex();
 			SyncEmcPKT.STREAM_CODEC.encode(buf, data);
-			PECore.debugLog("EMC data size: {} bytes", buf.writerIndex() - index);
+			ELCore.debugLog("EMC data size: {} bytes", buf.writerIndex() - index);
 		} finally {
 			buf.release();
 		}

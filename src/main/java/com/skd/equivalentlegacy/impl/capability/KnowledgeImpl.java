@@ -15,7 +15,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.ItemInfo;
 import com.skd.equivalentlegacy.api.capabilities.IKnowledgeProvider;
 import com.skd.equivalentlegacy.api.codec.IPECodecHelper;
@@ -302,7 +302,7 @@ public class KnowledgeImpl implements IKnowledgeProvider {
 		private static final int LOCK_SLOTS = 9;
 
 		private static final Codec<Set<ItemInfo>> MUTABLE_KNOWLEDGE_CODEC = ItemInfo.CODEC.listOf()
-			.promotePartial(error -> PECore.LOGGER.error("Failed to load stored knowledge: {}", error))
+			.promotePartial(error -> ELCore.LOGGER.error("Failed to load stored knowledge: {}", error))
 			.xmap(HashSet::new, List::copyOf);
 		public static final MapCodec<KnowledgeAttachment> MAP_CODEC = RecordCodecBuilder.mapCodec(instance -> instance.group(
 				MUTABLE_KNOWLEDGE_CODEC.fieldOf("knowledge").forGetter(attachment -> attachment.knowledge),

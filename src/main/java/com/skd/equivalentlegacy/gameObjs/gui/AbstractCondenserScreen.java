@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.gameObjs.gui;
 
 import com.skd.equivalentlegacy.gameObjs.gui.PEGuiGraphics;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.CondenserContainer;
 import com.skd.equivalentlegacy.gameObjs.container.CondenserMK2Container;
 import com.skd.equivalentlegacy.utils.EMCHelper;
@@ -74,7 +74,7 @@ public abstract class AbstractCondenserScreen<T extends CondenserContainer> exte
 
 		@Override
 		protected Identifier getTexture() {
-			return PECore.rl("textures/gui/condenser.png");
+			return ELCore.rl("textures/gui/condenser.png");
 		}
 	}
 
@@ -86,7 +86,7 @@ public abstract class AbstractCondenserScreen<T extends CondenserContainer> exte
 
 		@Override
 		protected Identifier getTexture() {
-			return PECore.rl("textures/gui/condenser_mk2.png");
+			return ELCore.rl("textures/gui/condenser_mk2.png");
 		}
 	}
 }

@@ -3,7 +3,7 @@ package com.skd.equivalentlegacy.gameObjs.registries;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.utils.text.IHasTranslationKey;
 import net.minecraft.core.Holder.Reference;
 import net.minecraft.core.RegistryAccess;
@@ -31,11 +31,11 @@ public class PEDamageTypes {
 		}
 
 		private PEDamageType(String name, float exhaustion) {
-			this(name, PECore.MODID + "." + name, exhaustion);
+			this(name, ELCore.MODID + "." + name, exhaustion);
 		}
 
 		private PEDamageType(String name, String msgId, float exhaustion) {
-			this(ResourceKey.create(Registries.DAMAGE_TYPE, PECore.rl(name)), msgId, exhaustion);
+			this(ResourceKey.create(Registries.DAMAGE_TYPE, ELCore.rl(name)), msgId, exhaustion);
 		}
 
 		@NotNull

@@ -14,7 +14,7 @@ import mezz.jei.api.registration.IRecipeCategoryRegistration;
 import mezz.jei.api.registration.IRecipeRegistration;
 import mezz.jei.api.registration.IRecipeTransferRegistration;
 import mezz.jei.api.registration.ISubtypeRegistration;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.item.IModeChanger;
 import com.skd.equivalentlegacy.gameObjs.container.PhilosStoneContainer;
 import com.skd.equivalentlegacy.gameObjs.gui.AbstractCollectorScreen;
@@ -38,7 +38,7 @@ import org.jetbrains.annotations.Nullable;
 @JeiPlugin
 public class PEJeiPlugin implements IModPlugin {
 
-	private static final Identifier UID = PECore.rl("main");
+	private static final Identifier UID = ELCore.rl("main");
 
 	private static final ISubtypeInterpreter<ItemStack> PROJECTE_INTERPRETER = new ISubtypeInterpreter<>() {
 		@Nullable

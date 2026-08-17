@@ -2,7 +2,7 @@ package com.skd.equivalentlegacy.handlers;
 
 import com.google.common.base.Predicates;
 import java.util.function.Predicate;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.items.ItemPE;
 import com.skd.equivalentlegacy.gameObjs.registries.PEItems;
 import com.skd.equivalentlegacy.utils.PlayerHelper;
@@ -21,9 +21,9 @@ import net.neoforged.neoforge.common.NeoForgeMod;
 
 public class InternalAbilities {
 
-	private static final AttributeModifier FLIGHT = new AttributeModifier(PECore.rl("flight"), 1, Operation.ADD_VALUE);
-	private static final AttributeModifier WATER_SPEED_BOOST = new AttributeModifier(PECore.rl("water_speed_boost"), 0.15, Operation.ADD_VALUE);
-	private static final AttributeModifier LAVA_SPEED_BOOST = new AttributeModifier(PECore.rl("lava_speed_boost"), 0.15, Operation.ADD_VALUE);
+	private static final AttributeModifier FLIGHT = new AttributeModifier(ELCore.rl("flight"), 1, Operation.ADD_VALUE);
+	private static final AttributeModifier WATER_SPEED_BOOST = new AttributeModifier(ELCore.rl("water_speed_boost"), 0.15, Operation.ADD_VALUE);
+	private static final AttributeModifier LAVA_SPEED_BOOST = new AttributeModifier(ELCore.rl("lava_speed_boost"), 0.15, Operation.ADD_VALUE);
 
 	public static void tick(Player player) {
 		Predicate<Player> applyWaterSpeed = Predicates.alwaysFalse();

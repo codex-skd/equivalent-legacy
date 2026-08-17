@@ -5,7 +5,7 @@ import com.mojang.brigadier.builder.ArgumentBuilder;
 import com.mojang.brigadier.context.CommandContext;
 import java.util.HashSet;
 import java.util.Set;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.ItemInfo;
 import com.skd.equivalentlegacy.api.proxy.IEMCProxy;
 import com.skd.equivalentlegacy.config.MappingConfig;
@@ -148,7 +148,7 @@ public class DumpMissingEmc {
 			missing.stream()
 					.map(ItemInfo::toString)
 					.sorted()
-					.forEach(PECore.LOGGER::info);
+					.forEach(ELCore.LOGGER::info);
 		}
 		return missingCount;
 	}

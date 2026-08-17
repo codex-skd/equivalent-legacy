@@ -18,7 +18,7 @@ import mezz.jei.api.recipe.IRecipeManager;
 import mezz.jei.api.recipe.RecipeIngredientRole;
 import mezz.jei.api.recipe.types.IRecipeType;
 import mezz.jei.api.recipe.category.IRecipeCategory;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.registries.PEItems;
 import com.skd.equivalentlegacy.integration.recipe_viewer.RecipeViewerHelper;
 import com.skd.equivalentlegacy.integration.recipe_viewer.WorldTransmuteEntry;
@@ -32,7 +32,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class WorldTransmuteRecipeCategory implements IRecipeCategory<WorldTransmuteEntry> {
 
-	public static final IRecipeType<WorldTransmuteEntry> RECIPE_TYPE = IRecipeType.create(PECore.rl("world_transmutation"), WorldTransmuteEntry.class);
+	public static final IRecipeType<WorldTransmuteEntry> RECIPE_TYPE = IRecipeType.create(ELCore.rl("world_transmutation"), WorldTransmuteEntry.class);
 	private final IDrawable icon;
 
 	public WorldTransmuteRecipeCategory(IGuiHelper guiHelper) {

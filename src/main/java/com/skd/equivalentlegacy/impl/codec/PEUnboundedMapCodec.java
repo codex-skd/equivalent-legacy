@@ -19,7 +19,7 @@ import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.codec.MapProcessor;
 
 /**
@@ -110,7 +110,7 @@ public record PEUnboundedMapCodec<KEY, VALUE, MAP extends Map<KEY, VALUE>>(
 				//Skip this key as it is invalid (potentially representing something unloaded)
 				// Note: We log the error to help diagnose any issues
 				//TODO: Do we want to try and allow partial deserialization for example if it just has invalid components? (probably not)
-				PECore.LOGGER.error("Unable to deserialize key: {}", keyResult.error().orElseThrow().message());
+				ELCore.LOGGER.error("Unable to deserialize key: {}", keyResult.error().orElseThrow().message());
 				return;
 			}
 			DataResult<VALUE> valueResult = valueCodec().decoder().parse(ops, input);

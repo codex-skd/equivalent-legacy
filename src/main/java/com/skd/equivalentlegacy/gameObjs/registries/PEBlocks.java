@@ -7,7 +7,7 @@ import java.util.function.Function;
 
 import java.util.function.ToIntFunction;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 
 import com.skd.equivalentlegacy.gameObjs.EnumCollectorTier;
 
@@ -87,7 +87,7 @@ public class PEBlocks {
 
 
 
-	public static final BlockDeferredRegister BLOCKS = new BlockDeferredRegister(PECore.MODID);
+	public static final BlockDeferredRegister BLOCKS = new BlockDeferredRegister(ELCore.MODID);
 
 
 

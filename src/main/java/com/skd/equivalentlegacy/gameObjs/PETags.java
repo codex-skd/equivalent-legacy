@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.gameObjs;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.integration.IntegrationHelper;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
@@ -61,7 +61,7 @@ public class PETags {
 		public static final TagKey<Item> TOOLS_MORNING_STARS = commonTag("tools/morning_stars");
 
 		private static TagKey<Item> tag(String name) {
-			return ItemTags.create(PECore.rl(name));
+			return ItemTags.create(ELCore.rl(name));
 		}
 
 		private static TagKey<Item> curiosTag(String name) {
@@ -117,7 +117,7 @@ public class PETags {
 
 
 		private static TagKey<Block> tag(String name) {
-			return BlockTags.create(PECore.rl(name));
+			return BlockTags.create(ELCore.rl(name));
 		}
 
 		private static TagKey<Block> commonTag(String name) {
@@ -148,7 +148,7 @@ public class PETags {
 		public static final TagKey<EntityType<?>> RANDOMIZER_HOSTILE = tag("randomizer/hostile");
 
 		private static TagKey<EntityType<?>> tag(String name) {
-			return TagKey.create(Registries.ENTITY_TYPE, PECore.rl(name));
+			return TagKey.create(Registries.ENTITY_TYPE, ELCore.rl(name));
 		}
 	}
 
@@ -163,7 +163,7 @@ public class PETags {
 		public static final TagKey<BlockEntityType<?>> BLACKLIST_TIME_WATCH = tag("blacklist/time_watch");
 
 		private static TagKey<BlockEntityType<?>> tag(String name) {
-			return TagKey.create(Registries.BLOCK_ENTITY_TYPE, PECore.rl(name));
+			return TagKey.create(Registries.BLOCK_ENTITY_TYPE, ELCore.rl(name));
 		}
 	}
 
@@ -178,7 +178,7 @@ public class PETags {
 		public static final TagKey<Potion> IGNORE_MISSING_EMC = tag("ignore_missing_emc");
 
 		private static TagKey<Potion> tag(String name) {
-			return TagKey.create(Registries.POTION, PECore.rl(name));
+			return TagKey.create(Registries.POTION, ELCore.rl(name));
 		}
 	}
 }

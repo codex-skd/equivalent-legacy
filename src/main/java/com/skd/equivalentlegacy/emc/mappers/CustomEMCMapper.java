@@ -3,7 +3,7 @@ package com.skd.equivalentlegacy.emc.mappers;
 import it.unimi.dsi.fastutil.objects.Object2LongMap;
 import it.unimi.dsi.fastutil.objects.Object2LongSortedMaps;
 import java.util.Iterator;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.mapper.EMCMapper;
 import com.skd.equivalentlegacy.api.mapper.IEMCMapper;
 import com.skd.equivalentlegacy.api.mapper.collector.IMappingCollector;
@@ -25,7 +25,7 @@ public class CustomEMCMapper implements IEMCMapper<NormalizedSimpleStack, Long> 
 			Object2LongMap.Entry<NSSItem> entry = iterator.next();
 			NSSItem item = entry.getKey();
 			long emc = entry.getLongValue();
-			PECore.debugLog("Adding custom EMC value for {}: {}", item, emc);
+			ELCore.debugLog("Adding custom EMC value for {}: {}", item, emc);
 			//Note: We set it for each of the values in the tag to make sure it is properly taken into account when calculating the individual EMC values
 			item.forSelfAndEachElement(mapper, emc, IMappingCollector::setValueBefore);
 		}

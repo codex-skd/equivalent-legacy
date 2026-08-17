@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.gameObjs.gui;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.MercurialEyeContainer;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.network.chat.Component;
@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class GUIMercurialEye extends PEContainerScreen<MercurialEyeContainer> {
 
-	private static final Identifier texture = PECore.rl("textures/gui/mercurial_eye.png");
+	private static final Identifier texture = ELCore.rl("textures/gui/mercurial_eye.png");
 
 	public GUIMercurialEye(MercurialEyeContainer container, Inventory invPlayer, Component title) {
 		super(container, invPlayer, title, 171, 134);
