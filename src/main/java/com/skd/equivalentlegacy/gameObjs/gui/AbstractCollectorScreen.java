@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.gameObjs.gui;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.CollectorMK1Container;
 import com.skd.equivalentlegacy.gameObjs.container.CollectorMK2Container;
 import com.skd.equivalentlegacy.gameObjs.container.CollectorMK3Container;
@@ -44,7 +44,7 @@ public abstract class AbstractCollectorScreen<T extends CollectorMK1Container> e
 		PEGuiGraphics.blit(graphics, getTexture(), leftPos, topPos, 0, 0, imageWidth, imageHeight);
 
 		int progress = (int) (menu.sunLevel.get() * 12.0 / 16);
-		PEGuiGraphics.blit(graphics, getTexture(), leftPos + 126 + getBonusXShift(), topPos + 49 - progress, 177 + getTextureBonusXShift(), 13 - progress, 12, progress);
+		PEGuiGraphics.blit(graphics, getTexture(), leftPos + 126 + getBonusXShift(), topPos + 49 - progress, 197 + getTextureBonusXShift(), 13 - progress, 12, progress);
 
 		PEGuiGraphics.blit(graphics, getTexture(), leftPos + 64 + getBonusXShift(), topPos + 18, 0, 166, (int) ((double) menu.emc.get() / menu.collector.getMaximumEmc() * 48), 10);
 
@@ -52,7 +52,7 @@ public abstract class AbstractCollectorScreen<T extends CollectorMK1Container> e
 		PEGuiGraphics.blit(graphics, getTexture(), leftPos + 64 + getBonusXShift(), topPos + 58, 0, 166, progress, 10);
 
 		progress = (int) (menu.getFuelProgress() * 24);
-		PEGuiGraphics.blit(graphics, getTexture(), leftPos + 138 + getBonusXShift(), topPos + 55 - progress, 176 + getTextureBonusXShift(), 38 - progress, 10, progress + 1);
+		PEGuiGraphics.blit(graphics, getTexture(), leftPos + 138 + getBonusXShift(), topPos + 55 - progress, 196 + getTextureBonusXShift(), 38 - progress, 10, progress + 1);
 	}
 
 	public static class MK1 extends AbstractCollectorScreen<CollectorMK1Container> {
@@ -63,7 +63,7 @@ public abstract class AbstractCollectorScreen<T extends CollectorMK1Container> e
 
 		@Override
 		protected Identifier getTexture() {
-			return PECore.rl("textures/gui/collector1.png");
+			return ELCore.rl("textures/gui/collector1.png");
 		}
 	}
 
@@ -75,7 +75,7 @@ public abstract class AbstractCollectorScreen<T extends CollectorMK1Container> e
 
 		@Override
 		protected Identifier getTexture() {
-			return PECore.rl("textures/gui/collector2.png");
+			return ELCore.rl("textures/gui/collector2.png");
 		}
 
 		@Override
@@ -97,7 +97,7 @@ public abstract class AbstractCollectorScreen<T extends CollectorMK1Container> e
 
 		@Override
 		protected Identifier getTexture() {
-			return PECore.rl("textures/gui/collector3.png");
+			return ELCore.rl("textures/gui/collector3.png");
 		}
 
 		@Override
