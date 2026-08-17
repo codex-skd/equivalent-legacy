@@ -1,5 +1,22 @@
 # Changelog - Equivalent Legacy 26.2
 
+## [1.4.3] - 2026-08-18
+
+### Fix
+
+- **Icono de "barra llena" del colector saliéndose del panel (MK1)**: `collector1/2/3.png` empaquetan el sprite de referencia de las barras de sol/combustible pegado al borde del ancho declarado de cada tier. En el MK1 ese sprite empezaba unos píxeles antes del borde, así que parte de él caía dentro del recorte del fondo y se veía como un icono suelto pegado a la esquina del panel. Movido 20px más adentro del atlas en las tres texturas.
+- **Pérdida del ítem en carga al romper un colector**: el volcado de inventario al romper el bloque reutilizaba el handler de automatización, que bloquea a propósito la extracción del slot que se está cargando (para que un hopper no lo robe) — esa misma restricción hacía que el ítem desapareciera al minar el bloque. Ahora se vuelca directamente desde los handlers propios del block entity, sin esa restricción.
+- **Icono de vista previa de transmutación pegado sobre cualquier GUI**: `TransmutationRenderingOverlay` solo comprobaba si el HUD estaba oculto (F1), no si había una pantalla abierta — el icono de previsualización del bloque de destino de la Piedra Filosofal podía quedarse pegado encima de cualquier inventario (ej. un colector) abierto justo después de apuntar con la piedra.
+- **Valores de EMC por encima del coste de su receta más barata**: `minecraft:name_tag` (192), `minecraft:andesite` (16) y `minecraft:moss_block` (12) tenían un valor fijo en `defaults.json` superior a lo que cuesta craftearlos de verdad (papel+placa=46; diorita+adoquín→2 andesita=17 total; 9 surface_moss→moss_block=9), permitiendo generar EMC gratis crafteando y descomponiendo. Quitados los valores fijos para que el propio sistema anti-exploit del mod los recalcule.
+
+### Chore
+
+- **Eliminado el chequeo de UUIDs contra el GitHub de ProjectE** (`ThreadCheckUUID`): hacía una petición HTTP a `sinkillerj/ProjectE` en cada arranque del servidor para una lista de "High Alchemist" heredada, generando errores en el log cuando GitHub devolvía 503 y sin sentido para este fork.
+
+### Técnico
+
+- Renombrada la clase de entrada `@Mod` de `PECore` a `ELCore` (sin cambios de comportamiento).
+
 ## [1.4.2] - 2026-08-13
 
 ### Fix
