@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.network;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.IKnowledgeProvider;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
 import com.skd.equivalentlegacy.gameObjs.container.ArcaneTabletContainer;
@@ -66,7 +66,7 @@ public final class PacketHandler {
 
 	private void registerClientToServer(PacketRegistrar registrar) {
 		registrar.play(KeyPressPKT.TYPE, KeyPressPKT.STREAM_CODEC);
-		activateArchangel = registrar.playInstanced(PECore.rl("activate_archangel"), (ignored, context) -> {
+		activateArchangel = registrar.playInstanced(ELCore.rl("activate_archangel"), (ignored, context) -> {
 			Player player = context.player();
 			ItemStack main = player.getMainHandItem();
 			if (!main.isEmpty() && main.is(PEItems.ARCHANGEL_SMITE)) {
@@ -81,8 +81,8 @@ public final class PacketHandler {
 	}
 
 	private void registerServerToClient(PacketRegistrar registrar) {
-		resetCooldown = registrar.playInstanced(PECore.rl("reset_cooldown"), (ignored, context) -> context.player().resetAttackStrengthTicker());
-		clearKnowledge = registrar.playInstanced(PECore.rl("clear_knowledge"), (ignored, context) -> {
+		resetCooldown = registrar.playInstanced(ELCore.rl("reset_cooldown"), (ignored, context) -> context.player().resetAttackStrengthTicker());
+		clearKnowledge = registrar.playInstanced(ELCore.rl("clear_knowledge"), (ignored, context) -> {
 			Player player = context.player();
 			IKnowledgeProvider knowledge = player.getCapability(PECapabilities.KNOWLEDGE_CAPABILITY);
 			if (knowledge != null) {
@@ -106,7 +106,7 @@ public final class PacketHandler {
 		registrar.play(SyncFuelMapperPKT.TYPE, SyncFuelMapperPKT.STREAM_CODEC);
 		registrar.play(SyncWorldTransmutations.TYPE, SyncWorldTransmutations.STREAM_CODEC);
 		registrar.play(UpdateCondenserLockPKT.TYPE, UpdateCondenserLockPKT.STREAM_CODEC);
-		updateTransmutationTargets = registrar.playInstanced(PECore.rl("update_transmutation_targets"), (ignored, context) -> {
+		updateTransmutationTargets = registrar.playInstanced(ELCore.rl("update_transmutation_targets"), (ignored, context) -> {
 			if (context.player().containerMenu instanceof TransmutationContainer container) {
 				container.transmutationInventory.updateClientTargets(false);
 			} else if (context.player().containerMenu instanceof ArcaneTabletContainer container) {

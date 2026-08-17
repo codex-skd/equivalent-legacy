@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -207,7 +207,7 @@ public class SearchQueryParser {
 				HolderLookup.Provider provider = level != null ? level.registryAccess() : RegistryAccess.EMPTY;
 				String modid = item.getCreatorModId(provider, stack);
 				if (modid == null) {
-					PECore.LOGGER.error("Unexpected null registry name for item of class type: {}", item.getClass().getSimpleName());
+					ELCore.LOGGER.error("Unexpected null registry name for item of class type: {}", item.getClass().getSimpleName());
 					return false;
 				}
 				return modid.toLowerCase(Locale.ROOT).contains(key);

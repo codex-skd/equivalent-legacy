@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.gameObjs.gui;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.AlchChestContainer;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.network.chat.Component;
@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class AlchChestScreen extends PEContainerScreen<AlchChestContainer> {
 
-	private static final Identifier texture = PECore.rl("textures/gui/alchchest.png");
+	private static final Identifier texture = ELCore.rl("textures/gui/alchchest.png");
 
 	public AlchChestScreen(AlchChestContainer container, Inventory invPlayer, Component title) {
 		super(container, invPlayer, title, 255, 230);

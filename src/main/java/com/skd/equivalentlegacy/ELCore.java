@@ -4,7 +4,6 @@ import net.minecraft.world.phys.Vec3;
 
 import com.mojang.authlib.GameProfile;
 import com.mojang.logging.LogUtils;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 import com.skd.equivalentlegacy.api.EquivalentLegacyAPI;
@@ -35,7 +34,6 @@ import com.skd.equivalentlegacy.impl.capability.AlchBagImpl;
 import com.skd.equivalentlegacy.impl.capability.KnowledgeImpl;
 import com.skd.equivalentlegacy.integration.IntegrationHelper;
 import com.skd.equivalentlegacy.network.PacketHandler;
-import com.skd.equivalentlegacy.network.ThreadCheckUUID;
 import com.skd.equivalentlegacy.network.ThreadCheckUpdate;
 import com.skd.equivalentlegacy.network.commands.EMCCMD;
 import com.skd.equivalentlegacy.network.commands.KnowledgeCMD;
@@ -92,7 +90,6 @@ import net.neoforged.neoforge.event.AddServerReloadListenersEvent;
 import net.neoforged.neoforge.event.ItemAttributeModifierEvent;
 import net.neoforged.neoforge.event.OnDatapackSyncEvent;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
-import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.neoforged.neoforge.event.server.ServerStoppedEvent;
 import net.neoforged.neoforge.fluids.FluidStack;
 import net.neoforged.neoforge.fluids.FluidType;
@@ -105,15 +102,13 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
 
-@Mod(PECore.MODID)
-public class PECore {
+@Mod(ELCore.MODID)
+public class ELCore {
 
 	public static final String MODID = EquivalentLegacyAPI.EQUIVALENT_LEGACY_MODID;
 	public static final String MODNAME = "EquivalentLegacy";
 	public static final GameProfile FAKEPLAYER_GAMEPROFILE = new GameProfile(UUID.fromString("590e39c7-9fb6-471b-a4c2-c0e539b2423d"), "[" + MODNAME + "]");
 	public static final Logger LOGGER = LogUtils.getLogger();
-
-	public static final List<String> uuids = new ArrayList<>();
 
 	public static ModContainer MOD_CONTAINER;
 
@@ -129,13 +124,13 @@ public class PECore {
 		return Identifier.fromNamespaceAndPath(MODID, path);
 	}
 
-	private static PECore instance;
+	private static ELCore instance;
 
 	@Nullable
 	private EmcUpdateData emcUpdateResourceManager;
 	private final PacketHandler packetHandler;
 
-	public PECore(ModContainer modContainer, IEventBus modEventBus) {
+	public ELCore(ModContainer modContainer, IEventBus modEventBus) {
 		instance = this;
 		MOD_CONTAINER = modContainer;
 
@@ -162,7 +157,6 @@ public class PECore {
 		NeoForge.EVENT_BUS.addListener(this::addReloadListeners);
 		NeoForge.EVENT_BUS.addListener(this::dataPackSync);
 		NeoForge.EVENT_BUS.addListener(this::registerCommands);
-		NeoForge.EVENT_BUS.addListener(this::serverStarting);
 		NeoForge.EVENT_BUS.addListener(this::serverQuit);
 		NeoForge.EVENT_BUS.addListener(PEPermissions::registerPermissionNodes);
 		NeoForge.EVENT_BUS.addListener(this::onModifyItemAttributes);
@@ -270,9 +264,9 @@ public class PECore {
 			CustomEMCParser.init(emcUpdateResourceManager.registryAccess());
 			try {
 				EMCMappingHandler.map(emcUpdateResourceManager.serverResources(), emcUpdateResourceManager.registryAccess(), emcUpdateResourceManager.resourceManager());
-				PECore.LOGGER.info("Registered {} EMC values. (took {} ms)", EMCMappingHandler.getEmcMapSize(), System.currentTimeMillis() - start);
+				ELCore.LOGGER.info("Registered {} EMC values. (took {} ms)", EMCMappingHandler.getEmcMapSize(), System.currentTimeMillis() - start);
 			} catch (Throwable t) {
-				PECore.LOGGER.error("Error calculating EMC values", t);
+				ELCore.LOGGER.error("Error calculating EMC values", t);
 			}
 			emcUpdateResourceManager = null;
 		}
@@ -300,8 +294,8 @@ public class PECore {
 	}
 
 	private void addReloadListeners(AddServerReloadListenersEvent event) {
-		event.addListener(PECore.rl("emc_update"), (ResourceManagerReloadListener) manager -> emcUpdateResourceManager = new EmcUpdateData(event.getServerResources(), event.getRegistryAccess(), manager));
-		event.addListener(PECore.rl("world_transmutation"), WorldTransmutationManager.INSTANCE);
+		event.addListener(ELCore.rl("emc_update"), (ResourceManagerReloadListener) manager -> emcUpdateResourceManager = new EmcUpdateData(event.getServerResources(), event.getRegistryAccess(), manager));
+		event.addListener(ELCore.rl("world_transmutation"), WorldTransmutationManager.INSTANCE);
 	}
 
 	private void registerCommands(RegisterCommandsEvent event) {
@@ -315,12 +309,6 @@ public class PECore {
 				.then(EMCCMD.register(context))
 				.then(KnowledgeCMD.register(context))
 		);
-	}
-
-	private void serverStarting(ServerStartingEvent event) {
-		if (!ThreadCheckUUID.hasRunServer()) {
-			new ThreadCheckUUID(true).start();
-		}
 	}
 
 	private void serverQuit(ServerStoppedEvent event) {

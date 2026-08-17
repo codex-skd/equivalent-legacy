@@ -2,7 +2,7 @@ package com.skd.equivalentlegacy.integration.recipe_viewer.alias;
 
 import java.util.Collection;
 import java.util.List;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.utils.text.IHasTranslationKey;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
@@ -23,7 +23,7 @@ public interface RVAliasHelper<ITEM> {
 
 	default void addAliases(TagKey<Item> tag, IHasTranslationKey... aliases) {
 		if (aliases.length == 0) {
-			PECore.LOGGER.warn("Expected to have at least one alias for item tag: {}", tag.location());
+			ELCore.LOGGER.warn("Expected to have at least one alias for item tag: {}", tag.location());
 		} else {
 			addAliases(tagContents(tag), aliases);
 		}

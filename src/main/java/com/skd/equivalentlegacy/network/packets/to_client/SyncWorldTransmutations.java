@@ -5,7 +5,7 @@ import it.unimi.dsi.fastutil.objects.Reference2ObjectLinkedOpenHashMap;
 import it.unimi.dsi.fastutil.objects.Reference2ObjectMap;
 import java.util.LinkedHashSet;
 import java.util.SequencedSet;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.world_transmutation.IWorldTransmutation;
 import com.skd.equivalentlegacy.api.world_transmutation.SimpleWorldTransmutation;
 import com.skd.equivalentlegacy.api.world_transmutation.WorldTransmutation;
@@ -22,7 +22,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record SyncWorldTransmutations(Reference2ObjectMap<Block, SequencedSet<IWorldTransmutation>> transmutations) implements IPEPacket {
 
-	public static final Type<SyncWorldTransmutations> TYPE = new Type<>(PECore.rl("sync_world_transmutations"));
+	public static final Type<SyncWorldTransmutations> TYPE = new Type<>(ELCore.rl("sync_world_transmutations"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, SyncWorldTransmutations> STREAM_CODEC =
 			ByteBufCodecs.<RegistryFriendlyByteBuf, Block, SequencedSet<IWorldTransmutation>, Reference2ObjectMap<Block, SequencedSet<IWorldTransmutation>>>
 					map(Reference2ObjectLinkedOpenHashMap::new, ByteBufCodecs.registry(Registries.BLOCK),
@@ -61,7 +61,7 @@ public record SyncWorldTransmutations(Reference2ObjectMap<Block, SequencedSet<IW
 
 	@Override
 	public void handle(IPayloadContext context) {
-		PECore.debugLog("Receiving World Transmutation data from server.");
+		ELCore.debugLog("Receiving World Transmutation data from server.");
 		WorldTransmutationManager.INSTANCE.setEntries(transmutations);
 	}
 }

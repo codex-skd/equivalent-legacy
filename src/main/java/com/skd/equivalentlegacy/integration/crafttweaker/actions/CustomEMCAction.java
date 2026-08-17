@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.integration.crafttweaker.actions;
 
 import com.blamejared.crafttweaker.api.action.base.IUndoableAction;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.nss.NormalizedSimpleStack;
 import com.skd.equivalentlegacy.integration.crafttweaker.mappers.CrTCustomEMCMapper;
 import com.skd.equivalentlegacy.utils.EMCHelper;
@@ -40,6 +40,6 @@ public class CustomEMCAction implements IUndoableAction {
 
 	@Override
 	public String systemName() {
-		return PECore.MODNAME;
+		return ELCore.MODNAME;
 	}
 }

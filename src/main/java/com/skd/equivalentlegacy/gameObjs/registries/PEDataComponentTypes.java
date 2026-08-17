@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.gameObjs.registries;
 
 import com.mojang.serialization.DataResult;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.components.GemData;
 import com.skd.equivalentlegacy.gameObjs.items.DiviningRod.DiviningMode;
 import com.skd.equivalentlegacy.gameObjs.items.GemEternalDensity.GemMode;
@@ -23,7 +23,7 @@ public class PEDataComponentTypes {
 	private PEDataComponentTypes() {
 	}
 
-	public static final DataComponentTypeDeferredRegister DATA_COMPONENT_TYPES = new DataComponentTypeDeferredRegister(PECore.MODID);
+	public static final DataComponentTypeDeferredRegister DATA_COMPONENT_TYPES = new DataComponentTypeDeferredRegister(ELCore.MODID);
 
 	public static final PEDeferredHolder<DataComponentType<?>, DataComponentType<ItemContainerContents>> EYE_INVENTORY = DATA_COMPONENT_TYPES.simple("eye_inventory",
 			builder -> builder.persistent(ItemContainerContents.CODEC

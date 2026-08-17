@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.utils;
 
 import java.util.Optional;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.PETags;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderSet;
@@ -51,7 +51,7 @@ public class EntityRandomizerHelper {
 			//There are "invalid" entries in the list that do not correspond to, kill the new entity
 			newEntity.discard();
 			// and log a warning
-			PECore.LOGGER.warn("Invalid Entity type {} in mob randomizer tag {}. All entities in this tag are expected to be a mob.",
+			ELCore.LOGGER.warn("Invalid Entity type {} in mob randomizer tag {}. All entities in this tag are expected to be a mob.",
 					BuiltInRegistries.ENTITY_TYPE.getKey(newType), type.location());
 		}
 		return null;

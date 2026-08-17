@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.BooleanSupplier;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.components.IDataComponentProcessor;
 import com.skd.equivalentlegacy.api.mapper.IEMCMapper;
 import com.skd.equivalentlegacy.api.nss.NormalizedSimpleStack;
@@ -31,7 +31,7 @@ public class MappingConfig extends BasePEConfig {
 	 */
 	public static void setup(@NotNull List<IEMCMapper<NormalizedSimpleStack, Long>> mappers, @NotNull List<IDataComponentProcessor> processors) {
 		if (INSTANCE == null) {
-			EquivalentLegacyConfig.registerConfig(PECore.MOD_CONTAINER, INSTANCE = new MappingConfig(mappers, processors));
+			EquivalentLegacyConfig.registerConfig(ELCore.MOD_CONTAINER, INSTANCE = new MappingConfig(mappers, processors));
 		}
 	}
 
@@ -97,7 +97,7 @@ public class MappingConfig extends BasePEConfig {
 		String name = mapper.getName();
 		BooleanSupplier isEnabled = INSTANCE.mappersEnabledConfig.get(name);
 		if (isEnabled == null) {
-			PECore.LOGGER.warn("Mapper Config: '{}' is missing from the config.", name);
+			ELCore.LOGGER.warn("Mapper Config: '{}' is missing from the config.", name);
 			return mapper.isAvailable();
 		}
 		return isEnabled.getAsBoolean();
@@ -113,7 +113,7 @@ public class MappingConfig extends BasePEConfig {
 		String name = processor.getName();
 		ProcessorConfig processorConfig = INSTANCE.processorConfigs.get(name);
 		if (processorConfig == null) {
-			PECore.LOGGER.warn("Processor Config: '{}' is missing from the config.", name);
+			ELCore.LOGGER.warn("Processor Config: '{}' is missing from the config.", name);
 			return processor.isAvailable();
 		}
 		return processorConfig.enabled.get();
@@ -129,11 +129,11 @@ public class MappingConfig extends BasePEConfig {
 		String name = processor.getName();
 		ProcessorConfig processorConfig = INSTANCE.processorConfigs.get(name);
 		if (processorConfig == null) {
-			PECore.LOGGER.warn("Persistent processor Config: '{}' is missing from the config.", name);
+			ELCore.LOGGER.warn("Persistent processor Config: '{}' is missing from the config.", name);
 			return processor.hasPersistentComponents() && processor.usePersistentComponents();
 		} else if (processorConfig.persistent == null) {
 			if (processor.hasPersistentComponents()) {
-				PECore.LOGGER.warn("Processor Config: '{}' has persistent Data Components but is missing the config option.", name);
+				ELCore.LOGGER.warn("Processor Config: '{}' has persistent Data Components but is missing the config option.", name);
 				return processor.usePersistentComponents();
 			}
 			return false;

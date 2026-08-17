@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.gameObjs.registries;
 
 import java.util.function.Consumer;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.items.rings.Arcana.ArcanaMode;
 import com.skd.equivalentlegacy.gameObjs.registration.PEDeferredHolder;
 import com.skd.equivalentlegacy.gameObjs.registration.impl.CreativeTabDeferredRegister;
@@ -15,7 +15,7 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 
 public class PECreativeTabs {
 
-	public static final CreativeTabDeferredRegister CREATIVE_TABS = new CreativeTabDeferredRegister(PECore.MODID, PECreativeTabs::addToExistingTabs);
+	public static final CreativeTabDeferredRegister CREATIVE_TABS = new CreativeTabDeferredRegister(ELCore.MODID, PECreativeTabs::addToExistingTabs);
 
 	public static final PEDeferredHolder<CreativeModeTab, CreativeModeTab> PROJECTE = CREATIVE_TABS.registerMain(PELang.PROJECTE, PEItems.PHILOSOPHERS_STONE, builder ->
 			builder.displayItems((displayParameters, output) -> {

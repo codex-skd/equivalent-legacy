@@ -3,7 +3,7 @@ package com.skd.equivalentlegacy.config.value;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.function.Predicate;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.config.IPEConfig;
 import net.neoforged.neoforge.common.ModConfigSpec.ConfigValue;
 
@@ -28,15 +28,15 @@ public abstract class CachedValue<T> {
             invalidationListeners = new HashSet<>();
         }
         if (!invalidationListeners.add(listener)) {
-            PECore.LOGGER.warn("Duplicate invalidation listener added");
+            ELCore.LOGGER.warn("Duplicate invalidation listener added");
         }
     }
 
     public void removeInvalidationListener(IConfigValueInvalidationListener listener) {
         if (invalidationListeners == null) {
-            PECore.LOGGER.warn("Unable to remove specified invalidation listener, no invalidation listeners have been added.");
+            ELCore.LOGGER.warn("Unable to remove specified invalidation listener, no invalidation listeners have been added.");
         } else if (!invalidationListeners.remove(listener)) {
-            PECore.LOGGER.warn("Unable to remove specified invalidation listener.");
+            ELCore.LOGGER.warn("Unable to remove specified invalidation listener.");
         }
     }
 

@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.events;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.registries.PEItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -9,7 +9,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.event.ComputeFovModifierEvent;
 
-@EventBusSubscriber(modid = PECore.MODID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = ELCore.MODID, value = Dist.CLIENT)
 public class PlayerRender {
 
 	@SubscribeEvent

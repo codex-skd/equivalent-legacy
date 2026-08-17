@@ -3,7 +3,7 @@ package com.skd.equivalentlegacy.integration.crafttweaker.actions;
 import com.blamejared.crafttweaker.api.action.base.IUndoableAction;
 import com.blamejared.crafttweaker.natives.block.ExpandBlock;
 import com.blamejared.crafttweaker.natives.block.ExpandBlockState;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.world_transmutation.IWorldTransmutation;
 import com.skd.equivalentlegacy.api.world_transmutation.SimpleWorldTransmutation;
 import com.skd.equivalentlegacy.api.world_transmutation.WorldTransmutation;
@@ -21,7 +21,7 @@ public class WorldTransmuteAction implements IUndoableAction {
 
 	@Override
 	public String systemName() {
-		return PECore.MODNAME;
+		return ELCore.MODNAME;
 	}
 
 	@Override
@@ -97,7 +97,7 @@ public class WorldTransmuteAction implements IUndoableAction {
 
 		@Override
 		public String systemName() {
-			return PECore.MODNAME;
+			return ELCore.MODNAME;
 		}
 	}
 }

@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.client;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
 import com.skd.equivalentlegacy.config.EquivalentLegacyConfig;
 import com.skd.equivalentlegacy.gameObjs.block_entities.DMPedestalBlockEntity;
@@ -22,7 +22,7 @@ import net.neoforged.neoforge.client.network.ClientPacketDistributor;
 /**
  * Create-style scroll tuning for Watch of Flowing Time bonus ticks on a DM Pedestal.
  */
-@EventBusSubscriber(modid = PECore.MODID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = ELCore.MODID, value = Dist.CLIENT)
 public final class PedestalTimeBonusScrollHandler {
 
 	private PedestalTimeBonusScrollHandler() {

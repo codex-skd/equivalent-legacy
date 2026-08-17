@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.gameObjs.gui;
 
 import java.math.BigInteger;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.ArcaneTabletContainer;
 import com.skd.equivalentlegacy.gameObjs.container.inventory.TransmutationInventory;
 import com.skd.equivalentlegacy.network.packets.to_server.ArcaneTabletActionPKT;
@@ -34,7 +34,7 @@ public class GUIArcaneTablet extends PEContainerScreen<ArcaneTabletContainer> {
 	private static final int SEARCH_BOX_WIDTH = 162;
 	private static final int SEARCH_BOX_HEIGHT = 12;
 	private static final Component SEARCH_HINT = Component.literal("Search...");
-	private static final Identifier TEXTURE = PECore.rl("textures/gui/arcane_tablet.png");
+	private static final Identifier TEXTURE = ELCore.rl("textures/gui/arcane_tablet.png");
 
 	private final TransmutationInventory inv;
 	private EditBox textBoxFilter;

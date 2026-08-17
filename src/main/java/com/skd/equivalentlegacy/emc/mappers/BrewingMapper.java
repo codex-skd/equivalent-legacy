@@ -3,7 +3,7 @@ package com.skd.equivalentlegacy.emc.mappers;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.ItemInfo;
 import com.skd.equivalentlegacy.api.mapper.EMCMapper;
 import com.skd.equivalentlegacy.api.mapper.IEMCMapper;
@@ -44,7 +44,7 @@ public class BrewingMapper implements IEMCMapper<NormalizedSimpleStack, Long> {
 			RegistryAccess registryAccess, ResourceManager resourceManager) {
 		MinecraftServer server = ServerLifecycleHooks.getCurrentServer();
 		if (server == null) {
-			PECore.LOGGER.error("Failed to get server and potion data when trying to map potions");
+			ELCore.LOGGER.error("Failed to get server and potion data when trying to map potions");
 			return;
 		}
 		PotionBrewing potionBrewing = server.potionBrewing();
@@ -108,10 +108,10 @@ public class BrewingMapper implements IEMCMapper<NormalizedSimpleStack, Long> {
 			}
 		}
 
-		PECore.debugLog("{} Statistics:", getName());
-		PECore.debugLog("Found {} Brewing Recipes", recipeCount);
+		ELCore.debugLog("{} Statistics:", getName());
+		ELCore.debugLog("Found {} Brewing Recipes", recipeCount);
 		for (Class<?> c : canNotMap) {
-			PECore.debugLog("Could not map Brewing Recipes with Type: {}", c.getName());
+			ELCore.debugLog("Could not map Brewing Recipes with Type: {}", c.getName());
 		}
 	}
 

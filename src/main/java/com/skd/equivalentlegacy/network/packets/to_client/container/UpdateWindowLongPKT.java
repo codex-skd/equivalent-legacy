@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.network.packets.to_client.container;
 
 import io.netty.buffer.ByteBuf;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.PEContainer;
 import com.skd.equivalentlegacy.network.packets.IPEPacket;
 import net.minecraft.network.codec.ByteBufCodecs;
@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 // Version of SWindowPropertyPacket that supports long values
 public record UpdateWindowLongPKT(short windowId, short propId, long propVal) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<UpdateWindowLongPKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("update_window_long"));
+	public static final CustomPacketPayload.Type<UpdateWindowLongPKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("update_window_long"));
 	public static final StreamCodec<ByteBuf, UpdateWindowLongPKT> STREAM_CODEC = StreamCodec.composite(
 			ByteBufCodecs.SHORT, UpdateWindowLongPKT::windowId,
 			ByteBufCodecs.SHORT, UpdateWindowLongPKT::propId,

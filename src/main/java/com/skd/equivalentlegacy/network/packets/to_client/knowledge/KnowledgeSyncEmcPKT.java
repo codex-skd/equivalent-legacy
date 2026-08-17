@@ -2,7 +2,7 @@ package com.skd.equivalentlegacy.network.packets.to_client.knowledge;
 
 import io.netty.buffer.ByteBuf;
 import java.math.BigInteger;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.IKnowledgeProvider;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
 import com.skd.equivalentlegacy.gameObjs.container.TransmutationContainer;
@@ -16,7 +16,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record KnowledgeSyncEmcPKT(BigInteger emc) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<KnowledgeSyncEmcPKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("knowledge_sync_emc"));
+	public static final CustomPacketPayload.Type<KnowledgeSyncEmcPKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("knowledge_sync_emc"));
 	public static final StreamCodec<ByteBuf, KnowledgeSyncEmcPKT> STREAM_CODEC = PEStreamCodecs.EMC_VALUE.map(
 			KnowledgeSyncEmcPKT::new, KnowledgeSyncEmcPKT::emc
 	);
@@ -37,6 +37,6 @@ public record KnowledgeSyncEmcPKT(BigInteger emc) implements IPEPacket {
 				container.transmutationInventory.updateClientTargets(true);
 			}
 		}
-		PECore.debugLog("** RECEIVED TRANSMUTATION EMC DATA CLIENTSIDE **");
+		ELCore.debugLog("** RECEIVED TRANSMUTATION EMC DATA CLIENTSIDE **");
 	}
 }

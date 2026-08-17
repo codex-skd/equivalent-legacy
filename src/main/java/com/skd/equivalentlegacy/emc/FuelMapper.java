@@ -2,7 +2,7 @@ package com.skd.equivalentlegacy.emc;
 
 import java.util.Comparator;
 import java.util.stream.StreamSupport;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.proxy.IEMCProxy;
 import com.skd.equivalentlegacy.gameObjs.PETags;
 import com.skd.equivalentlegacy.network.packets.to_client.SyncFuelMapperPKT;
@@ -67,7 +67,7 @@ public final class FuelMapper {
 				}
 			}
 		}
-		PECore.LOGGER.warn("Tried to upgrade invalid fuel: {}", holder.getRegisteredName());
+		ELCore.LOGGER.warn("Tried to upgrade invalid fuel: {}", holder.getRegisteredName());
 		return null;
 	}
 

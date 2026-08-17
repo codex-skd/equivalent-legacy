@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 import java.util.Locale;
 import java.util.function.IntFunction;
 import java.util.function.Supplier;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.item.IExtraFunction;
 import com.skd.equivalentlegacy.api.capabilities.item.IProjectileShooter;
 import com.skd.equivalentlegacy.gameObjs.entity.EntityFireProjectile;
@@ -71,7 +71,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class Arcana extends ItemPE implements IItemMode<ArcanaMode>, IFireProtector, IExtraFunction, IProjectileShooter, ICapabilityAware, IExposesCurioAttributes, ISelfCraftingRemainder {
 
-	private static final AttributeModifier FLIGHT = new AttributeModifier(PECore.rl("arcana_flight"), 1, Operation.ADD_VALUE);
+	private static final AttributeModifier FLIGHT = new AttributeModifier(ELCore.rl("arcana_flight"), 1, Operation.ADD_VALUE);
 	private final Supplier<ItemAttributeModifiers> defaultModifiers;
 
 	public Arcana(Properties props) {

@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.utils;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.utils.text.PELang;
 import com.skd.equivalentlegacy.utils.text.TextComponentUtil;
 import net.minecraft.util.Util;
@@ -35,6 +35,6 @@ public class TransmutationEMCFormatter {
 		} else {//if (extraDigits == 2)
 			value = Double.parseDouble(emcAsString.substring(0, 2) + "." + emcAsString.substring(2, 4));
 		}
-		return TextComponentUtil.smartTranslate(Util.makeDescriptionId("emc", PECore.rl("postfix." + postfixIndex)), EMCHelper.formatEmc(value));
+		return TextComponentUtil.smartTranslate(Util.makeDescriptionId("emc", ELCore.rl("postfix." + postfixIndex)), EMCHelper.formatEmc(value));
 	}
 }

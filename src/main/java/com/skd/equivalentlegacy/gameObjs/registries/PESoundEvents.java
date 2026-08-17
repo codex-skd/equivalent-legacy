@@ -1,13 +1,13 @@
 package com.skd.equivalentlegacy.gameObjs.registries;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.registration.impl.SoundEventDeferredRegister;
 import com.skd.equivalentlegacy.gameObjs.registration.impl.SoundEventRegistryObject;
 import net.minecraft.sounds.SoundEvent;
 
 public class PESoundEvents {
 
-	public static final SoundEventDeferredRegister SOUND_EVENTS = new SoundEventDeferredRegister(PECore.MODID);
+	public static final SoundEventDeferredRegister SOUND_EVENTS = new SoundEventDeferredRegister(ELCore.MODID);
 
 	public static final SoundEventRegistryObject<SoundEvent> WIND_MAGIC = SOUND_EVENTS.register("windmagic");
 	public static final SoundEventRegistryObject<SoundEvent> WATER_MAGIC = SOUND_EVENTS.register("watermagic");

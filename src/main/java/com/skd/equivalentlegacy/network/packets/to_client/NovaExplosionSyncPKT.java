@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.network.packets.to_client;
 
 import java.util.List;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.network.PEStreamCodecs;
 import com.skd.equivalentlegacy.network.packets.IPEPacket;
 import net.minecraft.core.BlockPos;
@@ -21,7 +21,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record NovaExplosionSyncPKT(Vec3 explosionCenter, float explosionRadius, Holder<SoundEvent> explosionSound, List<BlockPos> positions) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<NovaExplosionSyncPKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("nova_explosion"));
+	public static final CustomPacketPayload.Type<NovaExplosionSyncPKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("nova_explosion"));
 
 	public static final StreamCodec<RegistryFriendlyByteBuf, NovaExplosionSyncPKT> STREAM_CODEC = StreamCodec.composite(
 			PEStreamCodecs.VEC_3, NovaExplosionSyncPKT::explosionCenter,

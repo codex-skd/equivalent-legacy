@@ -10,7 +10,7 @@ import java.util.Queue;
 import java.util.Set;
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.config.EquivalentLegacyConfig;
 import com.skd.equivalentlegacy.gameObjs.PETags;
 import com.skd.equivalentlegacy.gameObjs.registries.PESoundEvents;
@@ -868,7 +868,7 @@ public final class WorldHelper {
 			// per-position data problem, not something callers scanning an area can recover from — treat
 			// it the same as "no block entity here" instead of crashing the caller (and, transitively,
 			// server ticks that scan an area via getBlockEntitiesWithinAABB).
-			PECore.LOGGER.warn("Ignoring corrupted block entity at {}: {}", pos, e.getMessage());
+			ELCore.LOGGER.warn("Ignoring corrupted block entity at {}: {}", pos, e.getMessage());
 			return null;
 		}
 	}
@@ -910,7 +910,7 @@ public final class WorldHelper {
 		if (clazz.isInstance(blockEntity)) {
 			return clazz.cast(blockEntity);
 		} else if (logWrongType) {
-			PECore.LOGGER.warn("Unexpected block entity class at {}, expected {}, but found: {}", pos, clazz, blockEntity.getClass());
+			ELCore.LOGGER.warn("Unexpected block entity class at {}, expected {}, but found: {}", pos, clazz, blockEntity.getClass());
 		}
 		return null;
 	}

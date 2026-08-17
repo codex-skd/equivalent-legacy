@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.network.packets.to_server;
 
 import io.netty.buffer.ByteBuf;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
 import com.skd.equivalentlegacy.api.capabilities.item.IExtraFunction;
 import com.skd.equivalentlegacy.api.capabilities.item.IItemCharge;
@@ -31,7 +31,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record KeyPressPKT(PEKeybind key) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<KeyPressPKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("key_press"));
+	public static final CustomPacketPayload.Type<KeyPressPKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("key_press"));
 	public static final StreamCodec<ByteBuf, KeyPressPKT> STREAM_CODEC = PEKeybind.STREAM_CODEC.map(KeyPressPKT::new, KeyPressPKT::key);
 
 	@NotNull

@@ -7,7 +7,7 @@ import it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.mapper.collector.IMappingCollector;
 import com.skd.equivalentlegacy.api.mapper.recipe.INSSFakeGroupManager;
 import com.skd.equivalentlegacy.api.mapper.recipe.INSSFakeGroupManager.FakeGroupData;
@@ -174,11 +174,11 @@ public abstract class BaseRecipeTypeMapper implements IRecipeTypeMapper {
 		} catch (Exception e) {
 			Identifier itemName = BuiltInRegistries.ITEM.getKey(item);
 			if (hasContainerItem) {
-				PECore.LOGGER.error(LogUtils.FATAL_MARKER, "Error mapping recipe {}. Item: {} reported that it has a container item, but errors when trying to get "
+				ELCore.LOGGER.error(LogUtils.FATAL_MARKER, "Error mapping recipe {}. Item: {} reported that it has a container item, but errors when trying to get "
 														   + "the container item based on the stack in the recipe. Please report this to {}.", recipeID, itemName,
 						itemName.getNamespace(), e);
 			} else {
-				PECore.LOGGER.error(LogUtils.FATAL_MARKER, "Error mapping recipe {}. Item: {} crashed when checking if the stack in the recipe has a container item. "
+				ELCore.LOGGER.error(LogUtils.FATAL_MARKER, "Error mapping recipe {}. Item: {} crashed when checking if the stack in the recipe has a container item. "
 														   + "Please report this to {}.", recipeID, itemName, itemName.getNamespace(), e);
 			}
 			//If something failed because the recipe errored, return that we did handle it so that we don't try to handle it later
@@ -195,7 +195,7 @@ public abstract class BaseRecipeTypeMapper implements IRecipeTypeMapper {
 			return getIngredients(recipeHolder.value());
 		} catch (Exception e) {
 			Identifier recipeID = MappingHelper.recipeId(recipeHolder);
-			PECore.LOGGER.error(LogUtils.FATAL_MARKER, "Error mapping recipe {}. Failed to get ingredients. Please report this to {}.", recipeID, recipeID.getNamespace(), e);
+			ELCore.LOGGER.error(LogUtils.FATAL_MARKER, "Error mapping recipe {}. Failed to get ingredients. Please report this to {}.", recipeID, recipeID.getNamespace(), e);
 		}
 		return null;
 	}

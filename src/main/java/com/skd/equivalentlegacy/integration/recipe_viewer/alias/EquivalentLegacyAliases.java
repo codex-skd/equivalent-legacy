@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.integration.recipe_viewer.alias;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import net.minecraft.util.Util;
 
 public enum EquivalentLegacyAliases implements IAliasedTranslation {
@@ -90,7 +90,7 @@ public enum EquivalentLegacyAliases implements IAliasedTranslation {
 	private final String alias;
 
 	EquivalentLegacyAliases(String path, String alias) {
-		this.key = Util.makeDescriptionId("alias", PECore.rl(path));
+		this.key = Util.makeDescriptionId("alias", ELCore.rl(path));
 		this.alias = alias;
 	}
 

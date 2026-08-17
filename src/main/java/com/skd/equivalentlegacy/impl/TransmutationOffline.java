@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.UUID;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.ItemInfo;
 import com.skd.equivalentlegacy.api.capabilities.IKnowledgeProvider;
 import com.skd.equivalentlegacy.gameObjs.registries.PEAttachmentTypes;
@@ -78,15 +78,15 @@ public class TransmutationOffline {
 					DataResult<KnowledgeAttachment> result = KnowledgeAttachment.CODEC.parse(serializationContext, knowledgeData);
 					if (result.isSuccess()) {
 						cachedKnowledgeProviders.put(playerUUID, immutableView(result.getOrThrow()));
-						PECore.debugLog("Caching offline data for UUID: {}", playerUUID);
+						ELCore.debugLog("Caching offline data for UUID: {}", playerUUID);
 						return true;
 					} else {
-						result.ifError(error -> PECore.LOGGER.warn("Failed to cache offline data for API calls for UUID: {}. {}", playerUUID, error.message()));
+						result.ifError(error -> ELCore.LOGGER.warn("Failed to cache offline data for API calls for UUID: {}. {}", playerUUID, error.message()));
 					}
 					}
 				}
 			} catch (IOException e) {
-				PECore.LOGGER.warn("Failed to cache offline data for API calls for UUID: {}", playerUUID);
+				ELCore.LOGGER.warn("Failed to cache offline data for API calls for UUID: {}", playerUUID);
 			}
 		}
 		return false;

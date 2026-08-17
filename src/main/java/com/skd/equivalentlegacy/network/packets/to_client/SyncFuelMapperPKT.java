@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.network.packets.to_client;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.emc.FuelMapper;
 import com.skd.equivalentlegacy.network.packets.IPEPacket;
 import net.minecraft.core.HolderSet;
@@ -15,7 +15,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record SyncFuelMapperPKT(HolderSet<Item> items) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<SyncFuelMapperPKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("sync_fuel_mapper"));
+	public static final CustomPacketPayload.Type<SyncFuelMapperPKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("sync_fuel_mapper"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, SyncFuelMapperPKT> STREAM_CODEC = ByteBufCodecs.holderSet(Registries.ITEM)
 			.map(SyncFuelMapperPKT::new, SyncFuelMapperPKT::items);
 

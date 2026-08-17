@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.network.packets.to_server;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.ArcaneTabletContainer;
 import com.skd.equivalentlegacy.network.packets.IPEPacket;
 import net.minecraft.network.RegistryFriendlyByteBuf;
@@ -16,7 +16,7 @@ import java.util.List;
 
 public record ArcaneTabletRecipeTransferPKT(List<List<ItemStack>> recipe, boolean transferAll) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<ArcaneTabletRecipeTransferPKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("arcane_tablet_recipe_transfer"));
+	public static final CustomPacketPayload.Type<ArcaneTabletRecipeTransferPKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("arcane_tablet_recipe_transfer"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, ArcaneTabletRecipeTransferPKT> STREAM_CODEC = StreamCodec.composite(
 			ItemStack.OPTIONAL_STREAM_CODEC.apply(ByteBufCodecs.list()).apply(ByteBufCodecs.list()), ArcaneTabletRecipeTransferPKT::recipe,
 			ByteBufCodecs.BOOL, ArcaneTabletRecipeTransferPKT::transferAll,

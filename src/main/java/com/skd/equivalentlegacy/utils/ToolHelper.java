@@ -10,7 +10,7 @@ import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
 import com.skd.equivalentlegacy.api.capabilities.item.IItemCharge;
 import com.skd.equivalentlegacy.config.EquivalentLegacyConfig;
@@ -73,7 +73,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class ToolHelper {
 
-	private static final Identifier CHARGE_MODIFIER_ID = PECore.rl("charge_modifier");
+	private static final Identifier CHARGE_MODIFIER_ID = ELCore.rl("charge_modifier");
 
 	public static final ItemAbility HAMMER_DIG = ItemAbility.get("hammer_dig");
 	public static final ItemAbility KATAR_DIG = ItemAbility.get("katar_dig");

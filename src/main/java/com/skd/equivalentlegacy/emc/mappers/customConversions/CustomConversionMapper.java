@@ -11,7 +11,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.conversion.ConversionGroup;
 import com.skd.equivalentlegacy.api.conversion.CustomConversion;
 import com.skd.equivalentlegacy.api.conversion.CustomConversionFile;
@@ -72,7 +72,7 @@ public class CustomConversionMapper implements IEMCMapper<NormalizedSimpleStack,
 			Identifier file = entry.getKey();//<domain>:foo/bar
 			Identifier conversionId = CONVERSION_LISTER.fileToId(file);
 
-			PECore.debugLog("Considering file {}, ID {}", file, conversionId);
+			ELCore.debugLog("Considering file {}, ID {}", file, conversionId);
 			NSSFake.setCurrentNamespace(conversionId.toString());
 
 			// Iterate through all copies of this conversion, from lowest to highest priority datapack, merging the results together
@@ -84,7 +84,7 @@ public class CustomConversionMapper implements IEMCMapper<NormalizedSimpleStack,
 						loading.merge(conversionId, fileOptional.get(), CustomConversionFile::merge);
 					}
 				} catch (IOException e) {
-					PECore.LOGGER.error("Could not load resource {}", file, e);
+					ELCore.LOGGER.error("Could not load resource {}", file, e);
 				}
 			}
 		}
@@ -95,7 +95,7 @@ public class CustomConversionMapper implements IEMCMapper<NormalizedSimpleStack,
 	private static void addMappingsFromFile(CustomConversionFile file, IMappingCollector<NormalizedSimpleStack, Long> mapper) {
 		for (Map.Entry<String, ConversionGroup> entry : file.groups().entrySet()) {
 			ConversionGroup group = entry.getValue();
-			PECore.debugLog("Adding conversions from group '{}' with comment '{}'", entry.getKey(), group.comment());
+			ELCore.debugLog("Adding conversions from group '{}' with comment '{}'", entry.getKey(), group.comment());
 			for (CustomConversion conversion : group.conversions()) {
 				mapper.addConversion(conversion.count(), conversion.output(), conversion.ingredients());
 			}

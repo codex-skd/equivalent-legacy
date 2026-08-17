@@ -3,7 +3,7 @@ package com.skd.equivalentlegacy.gameObjs.items.armor;
 import com.google.common.base.Suppliers;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.registries.PEDataComponentTypes;
 import com.skd.equivalentlegacy.utils.ClientKeyHelper;
 import com.skd.equivalentlegacy.utils.PEKeybind;
@@ -42,12 +42,12 @@ public class GemFeet extends GemArmorBase {
 		super(ArmorType.BOOTS, props.component(PEDataComponentTypes.STEP_ASSIST, STEP_ASSIST_DEFAULT));
 		this.defaultModifiers = Suppliers.memoize(() -> super.getDefaultAttributeModifiers(ItemStack.EMPTY).withModifierAdded(
 				Attributes.MOVEMENT_SPEED,
-				new AttributeModifier(PECore.rl("armor"), 1.0, Operation.ADD_MULTIPLIED_TOTAL),
+				new AttributeModifier(ELCore.rl("armor"), 1.0, Operation.ADD_MULTIPLIED_TOTAL),
 				EquipmentSlotGroup.FEET
 		));
 		this.defaultWithStepAssistModifiers = Suppliers.memoize(() -> getDefaultAttributeModifiers().withModifierAdded(
 				Attributes.STEP_HEIGHT,
-				new AttributeModifier(PECore.rl("gem_step_assist"), 0.4, Operation.ADD_VALUE),
+				new AttributeModifier(ELCore.rl("gem_step_assist"), 0.4, Operation.ADD_VALUE),
 				EquipmentSlotGroup.FEET
 		));
 	}

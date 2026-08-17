@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.network.packets.to_client.container;
 
 import java.util.Optional;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.ItemInfo;
 import com.skd.equivalentlegacy.gameObjs.container.CondenserContainer;
 import com.skd.equivalentlegacy.network.packets.IPEPacket;
@@ -15,7 +15,7 @@ import org.jetbrains.annotations.Nullable;
 
 public record UpdateCondenserLockPKT(short windowId, @Nullable ItemInfo lockInfo) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<UpdateCondenserLockPKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("update_condenser_lock"));
+	public static final CustomPacketPayload.Type<UpdateCondenserLockPKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("update_condenser_lock"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, UpdateCondenserLockPKT> STREAM_CODEC = StreamCodec.composite(
 			ByteBufCodecs.SHORT, UpdateCondenserLockPKT::windowId,
 			ByteBufCodecs.optional(ItemInfo.STREAM_CODEC), pkt -> Optional.ofNullable(pkt.lockInfo()),

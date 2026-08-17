@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.gameObjs.registries;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
 import com.skd.equivalentlegacy.gameObjs.block_entities.AlchBlockEntityChest;
 import com.skd.equivalentlegacy.gameObjs.block_entities.CollectorMK1BlockEntity;
@@ -26,7 +26,7 @@ import net.neoforged.neoforge.capabilities.Capabilities;
 
 public class PEBlockEntityTypes {
 
-	public static final BlockEntityTypeDeferredRegister BLOCK_ENTITY_TYPES = new BlockEntityTypeDeferredRegister(PECore.MODID);
+	public static final BlockEntityTypeDeferredRegister BLOCK_ENTITY_TYPES = new BlockEntityTypeDeferredRegister(ELCore.MODID);
 
 	public static final BlockEntityTypeRegistryObject<AlchBlockEntityChest> ALCHEMICAL_CHEST = BLOCK_ENTITY_TYPES.builder(PEBlocks.ALCHEMICAL_CHEST, AlchBlockEntityChest::new)
 			.clientTicker(AlchBlockEntityChest::tickClient)

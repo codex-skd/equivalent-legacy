@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.utils.text;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import net.minecraft.util.Util;
 
 public enum PELang implements ILangEntry {
@@ -247,7 +247,7 @@ public enum PELang implements ILangEntry {
 	private final String key;
 
 	PELang(String type, String path) {
-		this(Util.makeDescriptionId(type, PECore.rl(path)));
+		this(Util.makeDescriptionId(type, ELCore.rl(path)));
 	}
 
 	PELang(String key) {

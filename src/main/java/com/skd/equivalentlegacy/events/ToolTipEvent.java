@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.events;
 
 import java.util.List;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.IKnowledgeProvider;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
 import com.skd.equivalentlegacy.api.capabilities.item.IItemEmcHolder;
@@ -21,7 +21,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
 
-@EventBusSubscriber(modid = PECore.MODID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = ELCore.MODID, value = Dist.CLIENT)
 public class ToolTipEvent {
 
 	@SubscribeEvent

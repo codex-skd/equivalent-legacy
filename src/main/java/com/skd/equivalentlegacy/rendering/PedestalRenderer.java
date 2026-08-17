@@ -2,7 +2,7 @@ package com.skd.equivalentlegacy.rendering;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.block_entities.DMPedestalBlockEntity;
 import net.minecraft.SharedConstants;
 import net.minecraft.client.Minecraft;
@@ -65,7 +65,7 @@ public class PedestalRenderer implements BlockEntityRenderer<DMPedestalBlockEnti
 			itemRenderState.submit(poseStack, submitNodeCollector, state.lightCoords, OverlayTexture.NO_OVERLAY, 0);
 		} catch (RuntimeException e) {
 			// ModernFix throws when item models fail to load (e.g. corrupted mod JAR during hot deploy)
-			PECore.LOGGER.warn("Failed to render pedestal item {}: {}", stack, e.toString());
+			ELCore.LOGGER.warn("Failed to render pedestal item {}: {}", stack, e.toString());
 		}
 		poseStack.popPose();
 	}

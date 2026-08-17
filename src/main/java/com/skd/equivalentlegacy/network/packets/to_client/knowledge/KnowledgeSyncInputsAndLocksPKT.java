@@ -2,7 +2,7 @@ package com.skd.equivalentlegacy.network.packets.to_client.knowledge;
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.IKnowledgeProvider;
 import com.skd.equivalentlegacy.api.capabilities.IKnowledgeProvider.TargetUpdateType;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
@@ -20,7 +20,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record KnowledgeSyncInputsAndLocksPKT(Int2ObjectMap<ItemStack> stacksToSync, TargetUpdateType updateTargets) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<KnowledgeSyncInputsAndLocksPKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("knowledge_sync_inputs_and_locks"));
+	public static final CustomPacketPayload.Type<KnowledgeSyncInputsAndLocksPKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("knowledge_sync_inputs_and_locks"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, KnowledgeSyncInputsAndLocksPKT> STREAM_CODEC = StreamCodec.composite(
 			ByteBufCodecs.map(Int2ObjectOpenHashMap::new, ByteBufCodecs.VAR_INT, ItemStack.OPTIONAL_STREAM_CODEC), KnowledgeSyncInputsAndLocksPKT::stacksToSync,
 			TargetUpdateType.STREAM_CODEC, KnowledgeSyncInputsAndLocksPKT::updateTargets,
@@ -51,6 +51,6 @@ public record KnowledgeSyncInputsAndLocksPKT(Int2ObjectMap<ItemStack> stacksToSy
 				}
 			}
 		}
-		PECore.debugLog("** RECEIVED TRANSMUTATION INPUT AND LOCK DATA CLIENTSIDE **");
+		ELCore.debugLog("** RECEIVED TRANSMUTATION INPUT AND LOCK DATA CLIENTSIDE **");
 	}
 }

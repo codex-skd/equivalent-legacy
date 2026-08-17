@@ -11,7 +11,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.ItemInfo;
 import com.skd.equivalentlegacy.api.capabilities.IKnowledgeProvider;
 import com.skd.equivalentlegacy.api.capabilities.PECapabilities;
@@ -83,39 +83,39 @@ public final class EMCMappingHandler {
 		Optional<Object2LongMap<ItemInfo>> readPregeneratedValues = PregeneratedEMC.read(registryAccess, pregeneratedEmcFile, usePregenerated);
 		if (readPregeneratedValues.isPresent()) {
 			int values = updateEmcValues(readPregeneratedValues.get());
-			PECore.debugLog("Loaded {} values from pregenerated EMC File", values);
+			ELCore.debugLog("Loaded {} values from pregenerated EMC File", values);
 		} else {
 			SimpleGraphMapper.setLogFoundExploits(MappingConfig.logExploits());
 
-			PECore.debugLog("Starting to collect Mappings...");
+			ELCore.debugLog("Starting to collect Mappings...");
 			for (IEMCMapper<NormalizedSimpleStack, Long> emcMapper : mappers) {
 				if (MappingConfig.isEnabled(emcMapper)) {
 					DumpToFileCollector.currentGroupName = emcMapper.getName();
 					try {
 						emcMapper.addMappings(mappingCollector, serverResources, registryAccess, resourceManager);
-						PECore.debugLog("Collected Mappings from " + emcMapper.getClass().getName());
+						ELCore.debugLog("Collected Mappings from " + emcMapper.getClass().getName());
 					} catch (Exception e) {
-						PECore.LOGGER.error(LogUtils.FATAL_MARKER, "Exception during Mapping Collection from Mapper {}. PLEASE REPORT THIS! EMC VALUES MIGHT BE INCONSISTENT!",
+						ELCore.LOGGER.error(LogUtils.FATAL_MARKER, "Exception during Mapping Collection from Mapper {}. PLEASE REPORT THIS! EMC VALUES MIGHT BE INCONSISTENT!",
 								emcMapper.getClass().getName(), e);
 					}
 				}
 			}
 			DumpToFileCollector.currentGroupName = "NSSHelper";
 
-			PECore.debugLog("Mapping Collection finished");
+			ELCore.debugLog("Mapping Collection finished");
 			mappingCollector.finishCollection(registryAccess);
 
-			PECore.debugLog("Starting to generate Values:");
+			ELCore.debugLog("Starting to generate Values:");
 			Object2LongMap<NormalizedSimpleStack> graphMapperValues = valueGenerator.generateValues();
-			PECore.debugLog("Generated Values...");
+			ELCore.debugLog("Generated Values...");
 
 			updateEmcValues(filterEMCMap(graphMapperValues));
-			PECore.debugLog("Filtered Values...");
+			ELCore.debugLog("Filtered Values...");
 
 			if (usePregenerated && emc != null) {//Note: It should never be null here as we just set it
 				//Should have used pregenerated, but the file was not read => regenerate.
 				PregeneratedEMC.write(registryAccess, pregeneratedEmcFile, emc);
-				PECore.debugLog("Wrote Pregen-file!");
+				ELCore.debugLog("Wrote Pregen-file!");
 			}
 		}
 
@@ -137,7 +137,7 @@ public final class EMCMappingHandler {
 						//If knowledge didn't get trimmed due to pruning, tell clients that have the transmutation gui open
 						// that they should update targets anyway, as it is possible EMC values changed and the order things
 						// are drawn needs to be changed
-						PECore.packetHandler().updateTransmutationTargets(player);
+						ELCore.packetHandler().updateTransmutationTargets(player);
 					}
 				}
 			}

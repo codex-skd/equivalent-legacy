@@ -6,7 +6,7 @@ import it.unimi.dsi.fastutil.objects.Object2IntMap;
 import it.unimi.dsi.fastutil.objects.Object2IntMaps;
 import java.util.Iterator;
 import java.util.Map;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.nss.NSSTag;
 import com.skd.equivalentlegacy.api.nss.NormalizedSimpleStack;
 import com.skd.equivalentlegacy.integration.crafttweaker.mappers.CrTConversionEMCMapper;
@@ -61,6 +61,6 @@ public class CustomConversionAction implements IUndoableAction {
 
 	@Override
 	public String systemName() {
-		return PECore.MODNAME;
+		return ELCore.MODNAME;
 	}
 }

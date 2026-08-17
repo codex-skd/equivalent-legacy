@@ -29,7 +29,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.function.Function;
 import java.util.function.Supplier;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.EquivalentLegacyRegistries;
 import com.skd.equivalentlegacy.api.codec.IPECodecHelper;
 import com.skd.equivalentlegacy.api.codec.MapProcessor;
@@ -55,7 +55,7 @@ public class PECodecHelper implements IPECodecHelper {
 		}
 	});
 
-	private static final Codec<ItemStack> LENIENT_STACK_CODEC = ItemStack.CODEC.promotePartial(error -> PECore.LOGGER.error("Tried to load invalid item: '{}'", error));
+	private static final Codec<ItemStack> LENIENT_STACK_CODEC = ItemStack.CODEC.promotePartial(error -> ELCore.LOGGER.error("Tried to load invalid item: '{}'", error));
 	//Based off of ItemStack#OPTIONAL_CODEC
 	private static final Codec<ItemStack> LENIENT_OPTIONAL_STACK_CODEC = ExtraCodecs.optionalEmptyMap(LENIENT_STACK_CODEC.orElse(ItemStack.EMPTY)).xmap(
 			stack -> stack.orElse(ItemStack.EMPTY),
@@ -155,7 +155,7 @@ public class PECodecHelper implements IPECodecHelper {
 			@Override
 			public <T> DataResult<TYPE> apply(DynamicOps<T> ops, MapLike<T> input, DataResult<TYPE> result) {
 				if (result.isError()) {
-					PECore.LOGGER.error(onError.get(), result.error().orElseThrow().message());
+					ELCore.LOGGER.error(onError.get(), result.error().orElseThrow().message());
 					//If there is a key that is not serializable promote it to an invalid object. This will be filtered out before converting to a map
 					// but allows for us to collect and see what errors might exist in the values
 					return DataResult.success(fallback);
@@ -178,13 +178,13 @@ public class PECodecHelper implements IPECodecHelper {
 	public static <TYPE> void writeToFile(HolderLookup.Provider registries, Path path, Codec<TYPE> codec, TYPE value, String fileDescription) {
 		DataResult<JsonElement> result = codec.encodeStart(registries.createSerializationContext(JsonOps.INSTANCE), value);
 		if (result.isError()) {
-			PECore.LOGGER.error("Failed to convert {} to json: {}", fileDescription, result.error().orElseThrow().message());
+			ELCore.LOGGER.error("Failed to convert {} to json: {}", fileDescription, result.error().orElseThrow().message());
 			return;
 		}
 		try (Writer writer = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
 			PRETTY_GSON.toJson(result.getOrThrow(), writer);
 		} catch (IOException e) {
-			PECore.LOGGER.error("Failed to write {} file: {}", fileDescription, path, e);
+			ELCore.LOGGER.error("Failed to write {} file: {}", fileDescription, path, e);
 		}
 	}
 
@@ -193,7 +193,7 @@ public class PECodecHelper implements IPECodecHelper {
 			try (BufferedReader reader = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
 				return read(registries, reader, codec, fileDescription);
 			} catch (IOException e) {
-				PECore.LOGGER.error("Couldn't access {} file: {}", fileDescription, path, e);
+				ELCore.LOGGER.error("Couldn't access {} file: {}", fileDescription, path, e);
 			}
 		}
 		return Optional.empty();
@@ -208,12 +208,12 @@ public class PECodecHelper implements IPECodecHelper {
 		try {
 			json = JsonParser.parseReader(reader);
 		} catch (JsonParseException e) {
-			PECore.LOGGER.error("Couldn't parse {}", description, e);
+			ELCore.LOGGER.error("Couldn't parse {}", description, e);
 			return Optional.empty();
 		}
 		DataResult<TYPE> result = codec.parse(ops, json);
 		if (result.isError()) {
-			PECore.LOGGER.error("Couldn't parse {}: {}", description, result.error().orElseThrow().message());
+			ELCore.LOGGER.error("Couldn't parse {}: {}", description, result.error().orElseThrow().message());
 			return Optional.empty();
 		}
 		return result.result();

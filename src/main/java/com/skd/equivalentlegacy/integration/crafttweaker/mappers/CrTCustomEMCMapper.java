@@ -4,7 +4,7 @@ import it.unimi.dsi.fastutil.objects.Object2LongMap;
 import it.unimi.dsi.fastutil.objects.Object2LongMaps;
 import it.unimi.dsi.fastutil.objects.Object2LongOpenHashMap;
 import java.util.Iterator;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.mapper.EMCMapper;
 import com.skd.equivalentlegacy.api.mapper.IEMCMapper;
 import com.skd.equivalentlegacy.api.mapper.collector.IMappingCollector;
@@ -37,7 +37,7 @@ public class CrTCustomEMCMapper implements IEMCMapper<NormalizedSimpleStack, Lon
 			long value = entry.getLongValue();
 			//Note: We set it for each of the values in the tag to make sure it is properly taken into account when calculating the individual EMC values
 			normStack.forSelfAndEachElement(mapper, value, IMappingCollector::setValueBefore);
-			PECore.debugLog("CraftTweaker setting value for {} to {}", normStack, value);
+			ELCore.debugLog("CraftTweaker setting value for {} to {}", normStack, value);
 		}
 	}
 

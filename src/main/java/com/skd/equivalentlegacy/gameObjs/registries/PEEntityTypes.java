@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.gameObjs.registries;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.entity.EntityFireProjectile;
 import com.skd.equivalentlegacy.gameObjs.entity.EntityHomingArrow;
 import com.skd.equivalentlegacy.gameObjs.entity.EntityLavaProjectile;
@@ -16,7 +16,7 @@ import net.minecraft.SharedConstants;
 
 public class PEEntityTypes {
 
-	public static final EntityTypeDeferredRegister ENTITY_TYPES = new EntityTypeDeferredRegister(PECore.MODID);
+	public static final EntityTypeDeferredRegister ENTITY_TYPES = new EntityTypeDeferredRegister(ELCore.MODID);
 
 	public static final EntityTypeRegistryObject<EntityFireProjectile> FIRE_PROJECTILE = ENTITY_TYPES.registerNoGravThrowable("fire_projectile", EntityFireProjectile::new);
 	public static final EntityTypeRegistryObject<EntityHomingArrow> HOMING_ARROW = ENTITY_TYPES.registerMisc("homing_arrow", EntityHomingArrow::new, builder -> builder

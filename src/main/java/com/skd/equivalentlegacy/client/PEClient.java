@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.client;
 
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.DMFurnaceContainer;
 import com.skd.equivalentlegacy.gameObjs.entity.EntitySWRGProjectile;
 import com.skd.equivalentlegacy.gameObjs.gui.AbstractCollectorScreen;
@@ -46,7 +46,7 @@ import net.neoforged.neoforge.client.gui.VanillaGuiLayers;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 
-@Mod(value = PECore.MODID, dist = Dist.CLIENT)
+@Mod(value = ELCore.MODID, dist = Dist.CLIENT)
 public class PEClient {
 
 	public PEClient(ModContainer container, IEventBus modEventBus) {
@@ -117,7 +117,7 @@ public class PEClient {
 	}
 
 	private void registerOverlays(RegisterGuiLayersEvent event) {
-		event.registerAbove(VanillaGuiLayers.CROSSHAIR, PECore.rl("transmutation_result"), new TransmutationRenderingOverlay());
+		event.registerAbove(VanillaGuiLayers.CROSSHAIR, ELCore.rl("transmutation_result"), new TransmutationRenderingOverlay());
 	}
 
 	private void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {

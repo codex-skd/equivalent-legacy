@@ -1,7 +1,7 @@
 package com.skd.equivalentlegacy.network.packets.to_server;
 
 import java.util.function.IntFunction;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.gameObjs.container.ArcaneTabletContainer;
 import com.skd.equivalentlegacy.network.packets.IPEPacket;
 import io.netty.buffer.ByteBuf;
@@ -15,7 +15,7 @@ import org.jetbrains.annotations.NotNull;
 
 public record ArcaneTabletActionPKT(Action action) implements IPEPacket {
 
-	public static final CustomPacketPayload.Type<ArcaneTabletActionPKT> TYPE = new CustomPacketPayload.Type<>(PECore.rl("arcane_tablet_action"));
+	public static final CustomPacketPayload.Type<ArcaneTabletActionPKT> TYPE = new CustomPacketPayload.Type<>(ELCore.rl("arcane_tablet_action"));
 	public static final StreamCodec<ByteBuf, ArcaneTabletActionPKT> STREAM_CODEC = Action.STREAM_CODEC.map(ArcaneTabletActionPKT::new, ArcaneTabletActionPKT::action);
 
 	@NotNull

@@ -2,7 +2,7 @@ package com.skd.equivalentlegacy.integration.recipe_viewer;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
-import com.skd.equivalentlegacy.PECore;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.proxy.IEMCProxy;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -23,6 +23,6 @@ public record FuelUpgradeRecipe(Holder<Item> input, Holder<Item> output, long up
 	}
 
 	public Identifier syntheticId() {
-		return PECore.rl("/fuel_upgrade/" + RecipeViewerHelper.stripForSynthetic(input) + "/" + RecipeViewerHelper.stripForSynthetic(output) + "/");
+		return ELCore.rl("/fuel_upgrade/" + RecipeViewerHelper.stripForSynthetic(input) + "/" + RecipeViewerHelper.stripForSynthetic(output) + "/");
 	}
 }
