@@ -79,8 +79,8 @@ public class InternalAbilities {
 
 	private static boolean shouldPlayerFly(Player player) {
 		return PlayerHelper.checkHotbarCurios(player, (p, stack) -> stack.is(PEItems.SWIFTWOLF_RENDING_GALE) && ItemPE.hasEmc(p, stack, 64, true))
-//Note: Regalia Slots API, and the offhand are handled by the attribute on the arcana ring. We want it to provide flight in other slots on the hotbar as well
-	   // so we have to do it here. We do this rather than only doing a hotbar regalia slots api check with no attribute, so that the tooltip shows it provides flight
+			   //Note: Regalia Slots API, and the offhand are handled by the attribute on the arcana ring. We want it to provide flight in other slots on the hotbar as well
+			   // so we have to do it here. We do this rather than only doing a hotbar Regalia Slots API check with no attribute, so that the tooltip shows it provides flight
 			   || PlayerHelper.checkHotbar(player, (p, stack) -> stack.is(PEItems.ARCANA_RING));
 	}
 
