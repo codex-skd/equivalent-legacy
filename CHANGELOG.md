@@ -1,6 +1,16 @@
 # Changelog - Equivalent Legacy 26.2
 
 
+## [1.5.3] - 2026-08-20
+
+### Fix
+
+- **Sharpness/Smite/Bane of Arthropods no se podían aplicar a las espadas y hachas DM/RM**: `dm_sword`, `rm_sword`, `dm_axe`, `rm_axe` y `rm_katar` estaban explícitamente excluidos del tag `minecraft:enchantable/sharp_weapon` desde la v1.5.0, dejando solo los encantamientos de `melee_weapon` (Retroceso, Botín, Aspecto Ígneo, Filo Arrasador) disponibles para esas armas. Quitada la exclusión para que aplique también el set completo de `sharp_weapon`, igual que ya ocurría con `melee_weapon`.
+
+### Change
+
+- **Actualización de NeoForge**: actualizado de 26.2.0.45-beta a 26.2.0.57.
+
 ## [1.5.2] - 2026-08-19
 
 ### Change
