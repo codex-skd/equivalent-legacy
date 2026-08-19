@@ -10,7 +10,7 @@ import net.minecraft.world.item.equipment.ArmorType;
 public abstract class GemArmorBase extends PEArmor {
 
 	public GemArmorBase(ArmorType armorType, Properties props) {
-		super(armorType, props);
+		super(armorType, props.enchantable(24));
 	}
 
 	@Override

@@ -1,8 +1,7 @@
 {
-  "remove": [
+  "values": [
     "equivalent_legacy:dm_leggings",
     "equivalent_legacy:rm_leggings",
     "equivalent_legacy:gem_leggings"
-  ],
-  "values": []
+  ]
 }

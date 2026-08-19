@@ -12,7 +12,6 @@ import com.skd.equivalentlegacy.gameObjs.items.ItemPE;
 import com.skd.equivalentlegacy.gameObjs.registries.PEDataComponentTypes;
 import com.skd.equivalentlegacy.utils.PlayerHelper;
 import com.skd.equivalentlegacy.utils.ToolHelper;
-import net.minecraft.core.Holder;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.tags.BlockTags;
@@ -24,7 +23,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.Tool;
-import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.AABB;
 import net.neoforged.neoforge.event.ItemAttributeModifierEvent;
@@ -44,19 +42,10 @@ public class PESword extends ItemPE implements IExtraFunction, IItemCharge, IBar
 				), 1.0F, 2, true))
 				.component(PEDataComponentTypes.CHARGE, 0)
 				.component(PEDataComponentTypes.STORED_EMC, 0L)
+				.enchantable(matterType.getEnchantmentValue())
 		);
 		this.matterType = matterType;
 		this.numCharges = numCharges;
-	}
-
-	@Override
-	public boolean isPrimaryItemFor(@NotNull ItemStack stack, @NotNull Holder<Enchantment> enchantment) {
-		return false;
-	}
-
-	@Override
-	public boolean supportsEnchantment(@NotNull ItemStack stack, @NotNull Holder<Enchantment> enchantment) {
-		return false;
 	}
 
 	@Override

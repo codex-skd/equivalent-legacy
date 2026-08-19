@@ -8,7 +8,6 @@ import com.skd.equivalentlegacy.gameObjs.items.IBarHelper;
 import com.skd.equivalentlegacy.gameObjs.items.ItemPE;
 import com.skd.equivalentlegacy.gameObjs.registries.PEDataComponentTypes;
 import com.skd.equivalentlegacy.utils.ToolHelper;
-import net.minecraft.core.Holder;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.component.DataComponents;
@@ -22,7 +21,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.item.component.Tool;
-import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.NotNull;
@@ -47,6 +45,7 @@ public abstract class PETool extends ItemPE implements IItemCharge, IBarHelper {
 		super(props.component(DataComponents.TOOL, tool)
 				.component(PEDataComponentTypes.CHARGE, 0)
 				.component(PEDataComponentTypes.STORED_EMC, 0L)
+				.enchantable(matterType.getEnchantmentValue())
 		);
 		this.matterType = matterType;
 		this.numCharges = numCharges;
@@ -57,16 +56,6 @@ public abstract class PETool extends ItemPE implements IItemCharge, IBarHelper {
 				.add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, attackDamage + tier.getAttackDamageBonus(), AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
 				.add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, attackSpeed, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
 				.build();
-	}
-
-	@Override
-	public boolean isPrimaryItemFor(@NotNull ItemStack stack, @NotNull Holder<Enchantment> enchantment) {
-		return false;
-	}
-
-	@Override
-	public boolean supportsEnchantment(@NotNull ItemStack stack, @NotNull Holder<Enchantment> enchantment) {
-		return false;
 	}
 
 	@Override

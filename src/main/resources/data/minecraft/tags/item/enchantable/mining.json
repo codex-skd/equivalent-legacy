@@ -1,5 +1,5 @@
 {
-  "remove": [
+  "values": [
     "equivalent_legacy:dm_axe",
     "equivalent_legacy:rm_axe",
     "equivalent_legacy:dm_pick",
@@ -12,6 +12,5 @@
     "equivalent_legacy:rm_hammer",
     "equivalent_legacy:rm_katar",
     "equivalent_legacy:rm_morning_star"
-  ],
-  "values": []
+  ]
 }

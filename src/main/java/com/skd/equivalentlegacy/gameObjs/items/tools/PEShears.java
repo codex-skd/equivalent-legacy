@@ -10,7 +10,6 @@ import com.skd.equivalentlegacy.gameObjs.registries.PEDataComponentTypes;
 import com.skd.equivalentlegacy.gameObjs.items.tools.PETool;
 import com.skd.equivalentlegacy.utils.ItemHelper;
 import com.skd.equivalentlegacy.utils.ToolHelper;
-import net.minecraft.core.Holder;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -24,7 +23,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ShearsItem;
 import net.minecraft.world.item.component.Tool;
 import net.minecraft.world.item.context.UseOnContext;
-import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
@@ -38,6 +36,7 @@ public class PEShears extends ShearsItem implements IItemCharge, IBarHelper {
 	public PEShears(IMatterType matterType, int numCharges, Properties props) {
 		super(props.component(PEDataComponentTypes.CHARGE, 0)
 						.component(PEDataComponentTypes.STORED_EMC, 0L)
+						.enchantable(matterType.getEnchantmentValue())
 						.component(DataComponents.TOOL, new Tool(List.of(
 								Tool.Rule.minesAndDrops(PETool.blockTag(PETags.Blocks.MINEABLE_WITH_PE_SHEARS), matterType.getSpeed()),
 								Tool.Rule.overrideSpeed(PETool.blockTag(BlockTags.LEAVES), 15.0F),
@@ -47,16 +46,6 @@ public class PEShears extends ShearsItem implements IItemCharge, IBarHelper {
 		);
 		this.matterType = matterType;
 		this.numCharges = numCharges;
-	}
-
-	@Override
-	public boolean isPrimaryItemFor(@NotNull ItemStack stack, @NotNull Holder<Enchantment> enchantment) {
-		return false;
-	}
-
-	@Override
-	public boolean supportsEnchantment(@NotNull ItemStack stack, @NotNull Holder<Enchantment> enchantment) {
-		return false;
 	}
 
 	@Override

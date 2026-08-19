@@ -7,7 +7,7 @@ import net.minecraft.world.item.equipment.ArmorType;
 public class RMArmor extends PEArmor {
 
 	public RMArmor(ArmorType armorType, Properties props) {
-		super(armorType, props);
+		super(armorType, props.enchantable(22));
 	}
 
 	@Override
