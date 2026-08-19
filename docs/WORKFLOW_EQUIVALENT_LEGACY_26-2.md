@@ -15,8 +15,8 @@
 | Versiones de Minecraft | `26.2` |
 | Rama | `minecraft/26.2/neoforge-26.2.0.45-beta/production` |
 
-| Última versión publicada | `1.4.4` (CurseForge file ID 8680213) |
-| Estado | ✅ Release estable 1.4.4 |
+| Última versión publicada | `1.5.3` (CurseForge file ID 8687979) |
+| Estado | ✅ Release estable 1.5.3 |
 
 ### Notas específicas de este mod
 
