@@ -92,12 +92,10 @@ public class Pedestal extends Block implements SimpleWaterloggedBlock, PEEntityB
 		return false;
 	}
 
-	@Override
-	public void onBlockStateChange(LevelReader level, BlockPos pos, BlockState oldState, BlockState newState) {
-		if (oldState.getBlock() != newState.getBlock() && level instanceof Level world) {
-			dropItem(world, pos);
-		}
-	}
+	//Note: no onBlockStateChange override here — by the time that hook fires, LevelChunk#setBlockState has
+	// already removed this block's block entity from the level, so dropItem() would always find it missing
+	// and silently no-op. DMPedestalBlockEntity#preRemoveSideEffects drops the held item correctly instead,
+	// since it runs while the block entity is still valid.
 
 	@Override
 	@Deprecated

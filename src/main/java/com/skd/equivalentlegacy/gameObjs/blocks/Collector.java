@@ -24,7 +24,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.neoforged.neoforge.items.IItemHandler;
@@ -109,21 +108,8 @@ public class Collector extends BlockDirection implements PEEntityBlock<Collector
 		return MathUtils.scaleToRedstone(collector.getStoredEmc(), collector.getEmcToNextGoal());
 	}
 
-	@Override
-	public void onBlockStateChange(LevelReader level, BlockPos pos, BlockState oldState, BlockState newState) {
-		if (oldState.getBlock() != newState.getBlock() && level instanceof Level world) {
-			CollectorMK1BlockEntity ent = WorldHelper.getBlockEntity(CollectorMK1BlockEntity.class, world, pos);
-			if (ent != null) {
-				ent.clearLocked();
-				if (!world.isClientSide()) {
-					//Drop directly from the block entity's own handlers instead of going through
-					// super's capability lookup: the aux handler exposed as a capability restricts
-					// extraction of the slot currently charging (so hoppers can't steal it mid-charge),
-					// which previously caused that item to be silently lost on break.
-					WorldHelper.dropInventory(ent.getInput(), world, pos);
-					WorldHelper.dropInventory(ent.getAux(), world, pos);
-				}
-			}
-		}
-	}
+	//Note: no onBlockStateChange override here — by the time that hook fires, LevelChunk#setBlockState has
+	// already removed this block's block entity from the level, so any lookup of it (and thus any inventory
+	// drop attempted from it) silently no-ops. CollectorMK1BlockEntity#preRemoveSideEffects handles dropping
+	// the input/aux inventories correctly instead, since it runs while the block entity is still valid.
 }
