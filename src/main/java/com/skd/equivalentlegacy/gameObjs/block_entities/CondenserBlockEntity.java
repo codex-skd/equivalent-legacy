@@ -9,6 +9,7 @@ import com.skd.equivalentlegacy.gameObjs.container.slots.SlotPredicates;
 import com.skd.equivalentlegacy.gameObjs.registration.impl.BlockEntityTypeRegistryObject;
 import com.skd.equivalentlegacy.gameObjs.registries.PEBlockEntityTypes;
 import com.skd.equivalentlegacy.gameObjs.registries.PEBlocks;
+import com.skd.equivalentlegacy.utils.WorldHelper;
 import com.skd.equivalentlegacy.utils.text.TextComponentUtil;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -91,6 +92,21 @@ public class CondenserBlockEntity extends EmcChestBlockEntity {
 
 	protected ItemStackHandler createOutput() {
 		return inputInventory;
+	}
+
+	@Override
+	public void preRemoveSideEffects(@NotNull BlockPos pos, @NotNull BlockState state) {
+		//Called while the block entity is still valid, unlike Block#onBlockStateChange which by the time it
+		// fires has already had this block entity removed from the level by LevelChunk#setBlockState, so a
+		// drop attempted from there always finds an empty/missing block entity and silently loses the contents.
+		super.preRemoveSideEffects(pos, state);
+		if (level != null) {
+			WorldHelper.dropInventory(inputInventory, level, pos);
+			//MK1 uses the same handler instance for input and output (see createOutput()); only drop it once
+			if (outputInventory != inputInventory) {
+				WorldHelper.dropInventory(outputInventory, level, pos);
+			}
+		}
 	}
 
 	@NotNull

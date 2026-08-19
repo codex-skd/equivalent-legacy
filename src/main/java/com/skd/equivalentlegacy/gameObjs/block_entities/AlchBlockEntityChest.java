@@ -5,6 +5,7 @@ import com.skd.equivalentlegacy.api.capabilities.item.IAlchChestItem;
 import com.skd.equivalentlegacy.gameObjs.container.AlchChestContainer;
 import com.skd.equivalentlegacy.gameObjs.registries.PEBlockEntityTypes;
 import com.skd.equivalentlegacy.gameObjs.registries.PEBlocks;
+import com.skd.equivalentlegacy.utils.WorldHelper;
 import com.skd.equivalentlegacy.utils.text.TextComponentUtil;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -87,6 +88,17 @@ public class AlchBlockEntityChest extends EmcChestBlockEntity {
 
 	public IItemHandler getInventory() {
 		return inventory;
+	}
+
+	@Override
+	public void preRemoveSideEffects(@NotNull BlockPos pos, @NotNull BlockState state) {
+		//Called while the block entity is still valid, unlike Block#onBlockStateChange which by the time it
+		// fires has already had this block entity removed from the level by LevelChunk#setBlockState, so a
+		// drop attempted from there always finds an empty/missing block entity and silently loses the contents.
+		super.preRemoveSideEffects(pos, state);
+		if (level != null) {
+			WorldHelper.dropInventory(inventory, level, pos);
+		}
 	}
 
 	@NotNull
