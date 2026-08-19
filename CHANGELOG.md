@@ -1,6 +1,17 @@
 # Changelog - Equivalent Legacy 26.2
 
 
+## [1.5.0] - 2026-08-19
+
+### Feature
+
+- **Espadas, herramientas y armaduras PE ahora se pueden encantar**: `PESword`, `PETool` (pico/hacha/pala/azada), `PEShears` y `PEArmor` tenían `isPrimaryItemFor`/`supportsEnchantment` fijados a `false` a propósito (igual que en el port de ProjectE 1.21.1 de referencia), lo que bloqueaba el encantado vanilla por completo. Quitados esos bloqueos para que apliquen las reglas de tags `minecraft:enchantable/*` estándar, y añadido un valor de encantabilidad (`DataComponents.ENCHANTABLE`) por tier de materia (Dark Matter 18, Red Matter 22, armadura Gem 24). El equipo dm_/rm_/gem_ estaba además explícitamente excluido (`"remove"`) de esas tags — se ha vuelto a incluir. El sistema de carga/EMC no se ve afectado, ambos bonus se acumulan de forma independiente.
+- `EnumMatterType#getEnchantmentValue()` devolvía siempre `1` (nivel de encantabilidad de madera) desde que existe — nunca se había conectado a nada real hasta ahora.
+
+### Fix
+
+- **Pérdida de inventario al romper Collector/Pedestal/Matter Furnace (el fix de 1.4.3 no funcionaba realmente)**: `Block#onBlockStateChange` se dispara desde `Level#markAndNotifyBlock`, que se ejecuta **después** de que `LevelChunk#setBlockState` ya ha eliminado el block entity del nivel — cualquier drop de inventario intentado desde ese hook busca un block entity que ya no existe y pierde el contenido en silencio. Esto explica por qué el fix del Collector en 1.4.3 (commit `87f9b65`) nunca llegó a funcionar en pruebas reales. Movido el volcado de inventario a `BlockEntity#preRemoveSideEffects`, que se ejecuta justo antes de que el block entity se elimine: Collector (input+aux), Pedestal (ítem sujeto) y Matter Furnace (input/output/fuel).
+
 ## [1.4.4] - 2026-08-18
 
 ### Change
