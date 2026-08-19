@@ -1,8 +1,7 @@
 {
-  "remove": [
+  "values": [
     "equivalent_legacy:dm_boots",
     "equivalent_legacy:rm_boots",
     "equivalent_legacy:gem_boots"
-  ],
-  "values": []
+  ]
 }

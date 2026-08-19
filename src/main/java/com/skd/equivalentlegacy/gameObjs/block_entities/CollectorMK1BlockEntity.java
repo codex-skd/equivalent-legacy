@@ -337,6 +337,18 @@ public class CollectorMK1BlockEntity extends EmcBlockEntity implements MenuProvi
 		auxSlots.serialize(output.child("aux_slots"));
 	}
 
+	@Override
+	public void preRemoveSideEffects(@NotNull BlockPos pos, @NotNull BlockState state) {
+		//Called while the block entity is still valid, unlike Block#onBlockStateChange which by the time it
+		// fires has already had this block entity removed from the level by LevelChunk#setBlockState, so a
+		// drop attempted from there always finds an empty/missing block entity and silently loses the contents.
+		super.preRemoveSideEffects(pos, state);
+		if (level != null) {
+			WorldHelper.dropInventory(input, level, pos);
+			WorldHelper.dropInventory(auxSlots, level, pos);
+		}
+	}
+
 	private static void sendRelayBonus(@NotNull Level level, @NotNull BlockPos pos) {
 		for (Direction dir : Constants.DIRECTIONS) {
 			BlockPos relayPos = pos.relative(dir);

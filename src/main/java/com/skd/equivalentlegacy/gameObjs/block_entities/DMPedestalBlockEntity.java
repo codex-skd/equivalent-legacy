@@ -7,6 +7,7 @@ import com.skd.equivalentlegacy.config.EquivalentLegacyConfig;
 import com.skd.equivalentlegacy.gameObjs.registries.PEBlockEntityTypes;
 import com.skd.equivalentlegacy.gameObjs.registries.PESoundEvents;
 import com.skd.equivalentlegacy.utils.Constants;
+import com.skd.equivalentlegacy.utils.WorldHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.particles.ParticleTypes;
@@ -205,5 +206,16 @@ public class DMPedestalBlockEntity extends EmcBlockEntity implements IDMPedestal
 
 	public IItemHandlerModifiable getInventory() {
 		return inventory;
+	}
+
+	@Override
+	public void preRemoveSideEffects(@NotNull BlockPos pos, @NotNull BlockState state) {
+		//Called while the block entity is still valid, unlike Block#onBlockStateChange which by the time it
+		// fires has already had this block entity removed from the level by LevelChunk#setBlockState, so a
+		// drop attempted from there always finds an empty/missing block entity and silently loses the item.
+		super.preRemoveSideEffects(pos, state);
+		if (level != null) {
+			WorldHelper.dropInventory(inventory, level, pos);
+		}
 	}
 }

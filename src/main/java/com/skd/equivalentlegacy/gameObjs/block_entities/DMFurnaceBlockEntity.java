@@ -439,6 +439,19 @@ public class DMFurnaceBlockEntity extends EmcBlockEntity implements MenuProvider
 	}
 
 	@Override
+	public void preRemoveSideEffects(@NotNull BlockPos pos, @NotNull BlockState state) {
+		//Called while the block entity is still valid, unlike Block#onBlockStateChange which by the time it
+		// fires has already had this block entity removed from the level by LevelChunk#setBlockState, so a
+		// drop attempted from there always finds an empty/missing block entity and silently loses the contents.
+		super.preRemoveSideEffects(pos, state);
+		if (level != null) {
+			WorldHelper.dropInventory(inputInventory, level, pos);
+			WorldHelper.dropInventory(outputInventory, level, pos);
+			WorldHelper.dropInventory(fuelInv, level, pos);
+		}
+	}
+
+	@Override
 	public void loadAdditional(@NotNull ValueInput input) {
 		super.loadAdditional(input);
 		litTime = input.getIntOr("burn_time", 0);

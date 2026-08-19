@@ -7,7 +7,7 @@ import net.minecraft.world.item.equipment.ArmorType;
 public class DMArmor extends PEArmor {
 
 	public DMArmor(ArmorType armorPiece, Properties props) {
-		super(armorPiece, props);
+		super(armorPiece, props.enchantable(18));
 	}
 
 	@Override
