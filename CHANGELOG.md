@@ -1,6 +1,13 @@
 # Changelog - Equivalent Legacy 26.2
 
 
+## [1.5.1] - 2026-08-19
+
+### Fix
+
+- **Condenser (MK1/MK2), Entropy Sink (todos los tiers), Relay (MK1/MK2/MK3) y el Cofre Alquímico seguían perdiendo su inventario al romperse**: el fix de 1.5.0 movió el volcado de inventario a `BlockEntity#preRemoveSideEffects` para Collector, Pedestal y Matter Furnace, pero se dejó fuera al resto de block entities con inventario. Añadido el mismo override a `CondenserBlockEntity` (input/output), `EntropySinkBlockEntity` (inventory), `RelayMK1BlockEntity` (input/output) y `AlchBlockEntityChest` (inventory), volcando cada slot no vacío al mundo justo antes de que se elimine el block entity.
+- **Nota técnica**: `CondenserBlockEntity` (MK1) usa la misma instancia de handler para input y output por defecto (`createOutput()` devuelve `inputInventory`) — el fix evita volcar ese handler compartido dos veces. `CondenserMK2BlockEntity` sobreescribe ambos con handlers separados y no se ve afectado por esa comprobación.
+
 ## [1.5.0] - 2026-08-19
 
 ### Feature
