@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1787006217.151929,
-    "ast_hash": "74a25569989a50b9ca56ec92acec46f9",
+    "mtime": 1787127395.2830353,
+    "ast_hash": "f9ce415a8531a3598427d3af77d9f5a5",
     "semantic_hash": ""
   },
   "README.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md": {
-    "mtime": 1786570076.9576905,
-    "ast_hash": "a245df7b6e4c99eff322db322e1bf9c1",
+    "mtime": 1787085581.8284163,
+    "ast_hash": "55300af86a10ad7a373264f757ab98eb",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1787006328.10246,
-    "ast_hash": "e2cf96bbd6954d879016c4a9a73ec35a",
+    "mtime": 1787127452.3040779,
+    "ast_hash": "ac53719577b93d8cec941907173a4d6a",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/config/ClientConfig.java": {
@@ -3185,8 +3185,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/EnumMatterType.java": {
-    "mtime": 1786396101.665362,
-    "ast_hash": "2912be677b38058047e9905dc92af3b2",
+    "mtime": 1787105189.780424,
+    "ast_hash": "b7d564f2b72e845099064c5de90d0ad2",
     "semantic_hash": ""
   },
   ".claude/plans/phase-5-1-matter-furnace.md": {
@@ -3915,8 +3915,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/CollectorMK1BlockEntity.java": {
-    "mtime": 1786984983.9932094,
-    "ast_hash": "40e11b34683929408a1c6c0485b48fa2",
+    "mtime": 1787125278.763989,
+    "ast_hash": "4735f481eadec189c85870b3d37c6451",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/CollectorMK2BlockEntity.java": {
@@ -3940,13 +3940,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/DMFurnaceBlockEntity.java": {
-    "mtime": 1786396101.8336987,
-    "ast_hash": "94d4e7db2ef5d80d96f4437b7c2cc403",
+    "mtime": 1787125315.320219,
+    "ast_hash": "7a0aac7fcb06cc4721f95b8dbfc0f372",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/DMPedestalBlockEntity.java": {
-    "mtime": 1786396101.836256,
-    "ast_hash": "745dac3e0089fc1e509951cc7a88e727",
+    "mtime": 1787125303.8149421,
+    "ast_hash": "4d53e37ec6d6fb2efcf9efb57520eeb7",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/EmcBlockEntity.java": {
@@ -4020,8 +4020,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/Collector.java": {
-    "mtime": 1787000522.950637,
-    "ast_hash": "089604e6c2b2211db6ed3e60eb944be7",
+    "mtime": 1787125296.2256343,
+    "ast_hash": "4648177d82c507790d9534b46a1376dc",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/Condenser.java": {
@@ -4060,8 +4060,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/MatterFurnace.java": {
-    "mtime": 1786396101.8222876,
-    "ast_hash": "dc0ab53c7e33fbeffcad329584a3d1cf",
+    "mtime": 1787125335.8277712,
+    "ast_hash": "5295f255866fae19c9ccc0b8883def10",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/PEEntityBlock.java": {
@@ -4070,8 +4070,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/Pedestal.java": {
-    "mtime": 1786396101.8222876,
-    "ast_hash": "94fbc98033c8a7553546ed9d2bd3fdc9",
+    "mtime": 1787125308.980607,
+    "ast_hash": "51fa6f9d5ec76174e6ba968b77f1b23f",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/Relay.java": {
@@ -4590,13 +4590,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/armor/DMArmor.java": {
-    "mtime": 1786396101.9949286,
-    "ast_hash": "f71c77f49019903731a450c3af971a09",
+    "mtime": 1787105200.620701,
+    "ast_hash": "110034e714666db2f7907b31b48abf89",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/armor/GemArmorBase.java": {
-    "mtime": 1786396101.9949286,
-    "ast_hash": "e5f5e8819edf84a54a7efa3dbf1f1a3c",
+    "mtime": 1787105203.4850323,
+    "ast_hash": "7507754f633a1056e3ec6e802741b9f1",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/armor/GemChest.java": {
@@ -4620,13 +4620,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/armor/PEArmor.java": {
-    "mtime": 1786396102.0004761,
-    "ast_hash": "b0d7a89504d1772f99c9b49862d6507c",
+    "mtime": 1787105196.4817443,
+    "ast_hash": "d78b325b58d319fd8b972449f192a264",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/armor/RMArmor.java": {
-    "mtime": 1786396102.0004761,
-    "ast_hash": "50e20783869ff75251eb1e1fdd88ece2",
+    "mtime": 1787105202.261199,
+    "ast_hash": "1f0b36784442783acf68325c5032a9ea",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/Arcana.java": {
@@ -4730,8 +4730,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/tools/PEShears.java": {
-    "mtime": 1786396102.0292354,
-    "ast_hash": "66a35ae635a1759d551ac8ef922cdf33",
+    "mtime": 1787105180.013813,
+    "ast_hash": "cadeb8d470abebf1375fdb49e6414701",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/tools/PEShovel.java": {
@@ -4740,13 +4740,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/tools/PESword.java": {
-    "mtime": 1786396102.0317547,
-    "ast_hash": "61b906ec9844f9ce97e221023b5af38e",
+    "mtime": 1787105176.1604252,
+    "ast_hash": "4082389f2227ba43c0fb7672c2f0d48c",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/tools/PETool.java": {
-    "mtime": 1786396102.0317547,
-    "ast_hash": "1c94056c4c167bbb9395ae85297b3163",
+    "mtime": 1787105172.3879132,
+    "ast_hash": "6770cc211f944c3692afd37aabb07b55",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/tools/RedMatterSword.java": {
@@ -6880,8 +6880,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/data/minecraft/tags/item/enchantable/chest_armor.json": {
-    "mtime": 1786396110.4203506,
-    "ast_hash": "51eba31ca24005c54e550b41a5e066a1",
+    "mtime": 1787104327.5485556,
+    "ast_hash": "df03facbd0d43dd7d7655d37aea3fad3",
     "semantic_hash": ""
   },
   "src/main/resources/data/minecraft/tags/item/enchantable/durability.json": {
@@ -6895,28 +6895,28 @@
     "semantic_hash": ""
   },
   "src/main/resources/data/minecraft/tags/item/enchantable/foot_armor.json": {
-    "mtime": 1786396110.4511025,
-    "ast_hash": "af4fc937daba90433cd41ec5acfe67e7",
+    "mtime": 1787104335.884865,
+    "ast_hash": "ed74a6640332a9e21e5d8f3f8a128742",
     "semantic_hash": ""
   },
   "src/main/resources/data/minecraft/tags/item/enchantable/head_armor.json": {
-    "mtime": 1786396110.461597,
-    "ast_hash": "c465bbea490ff90a05149218ddc0111c",
+    "mtime": 1787104359.3673117,
+    "ast_hash": "9043de6522298bb93e9c7fb508a21edc",
     "semantic_hash": ""
   },
   "src/main/resources/data/minecraft/tags/item/enchantable/leg_armor.json": {
-    "mtime": 1786396110.472233,
-    "ast_hash": "3ae6a7e4ab870522809b5cf45d79bc1a",
+    "mtime": 1787104386.0233686,
+    "ast_hash": "2b264dc444d0a3f7832adeed1c096f85",
     "semantic_hash": ""
   },
   "src/main/resources/data/minecraft/tags/item/enchantable/melee_weapon.json": {
-    "mtime": 1786396110.4823396,
-    "ast_hash": "e9983f17c5e06b9bee8de7a9ed0f9a7d",
+    "mtime": 1787104300.0127082,
+    "ast_hash": "164effa90efecdd574e5ad75be49cdde",
     "semantic_hash": ""
   },
   "src/main/resources/data/minecraft/tags/item/enchantable/mining.json": {
-    "mtime": 1786396110.494251,
-    "ast_hash": "365b2a3de0df4c03dfd46f523f795ff3",
+    "mtime": 1787104312.7031941,
+    "ast_hash": "4fe4a00c7258eae4acee6242927be82a",
     "semantic_hash": ""
   },
   "src/main/resources/data/minecraft/tags/item/enchantable/mining_loot.json": {
@@ -7027,6 +7027,16 @@
   "docs/curseforge/versions/1.4.3.md": {
     "mtime": 1787006227.821734,
     "ast_hash": "ba7dcaf0c7c9eca79a195fe4f35eb7c3",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.4.4.md": {
+    "mtime": 1787085451.5368567,
+    "ast_hash": "7a094185e7caa7954cf8f4e91340e4dd",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.5.0.md": {
+    "mtime": 1787127403.013083,
+    "ast_hash": "961267eadb7e27c1f0f9fa22aaec6355",
     "semantic_hash": ""
   }
 }
