@@ -82,12 +82,12 @@ Equivalent Legacy for Minecraft ${minecraft_version} / NeoForge. Forked from Equ
     ordering="NONE"
     side="BOTH"
 
-# Curios is required to equip the mod's curio items (Klein Stars, rings, amulets, stones, talisman, watch).
-# The CurseForge Curios build for MC 26.2 is 15.0.0-beta.2+26.2 (project 1579340, file 8270756).
+# Regalia Slots API is required to equip the mod's bauble items (Klein Stars, rings, amulets, stones, talisman, watch).
+    # Regalia Slots API is the team's own maintained fork built from the sibling regalia_slots_api repo.
 [[dependencies.${mod_id}]]
-    modId="curios"
+    modId="regalia_slots_api"
     type="required"
-    versionRange="[15.0.0-beta.2,)"
+    versionRange="[0.0.0-beta.2,)"
     ordering="AFTER"
     side="BOTH"
 

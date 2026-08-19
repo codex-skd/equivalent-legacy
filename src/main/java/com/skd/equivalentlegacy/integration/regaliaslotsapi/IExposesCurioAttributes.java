@@ -1,4 +1,4 @@
-package com.skd.equivalentlegacy.integration.curios;
+package com.skd.equivalentlegacy.integration.regaliaslotsapi;
 
 import com.google.common.collect.Multimap;
 import net.minecraft.core.Holder;

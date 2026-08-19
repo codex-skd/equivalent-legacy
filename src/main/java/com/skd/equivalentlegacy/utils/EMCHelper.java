@@ -68,7 +68,7 @@ public final class EMCHelper {
 	/**
 	 * Consumes EMC from fuel items or Klein Stars Any extra EMC is discarded !!! To retain remainder EMC use ItemPE.consumeFuel()
 	 *
-	 * @implNote Order it tries to extract from is, Curios, Offhand, main inventory
+	 * @implNote Order it tries to extract from is, Regalia Slots API, Offhand, main inventory
 	 */
 	public static long consumePlayerFuel(Player player, @Range(from = 0, to = Long.MAX_VALUE) long minFuel) {
 		if (player.isCreative() || minFuel == 0) {

@@ -49,7 +49,7 @@ public class PETags {
 		 */
 		public static final TagKey<Item> PLANTABLE_SEEDS = tag("plantable_seeds");
 
-		//Curios tags
+		//Regalia Slots API tags
 		public static final TagKey<Item> CURIOS_BELT = curiosTag("belt");
 		public static final TagKey<Item> CURIOS_KLEIN_STAR = curiosTag("klein_star");
 		public static final TagKey<Item> CURIOS_NECKLACE = curiosTag("necklace");

@@ -1,4 +1,4 @@
-package com.skd.equivalentlegacy.integration.curios;
+package com.skd.equivalentlegacy.integration.regaliaslotsapi;
 
 import com.google.common.collect.LinkedHashMultimap;
 import com.google.common.collect.Multimap;
@@ -11,9 +11,9 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
-import top.theillusivec4.curios.api.CuriosCapability;
-import top.theillusivec4.curios.api.SlotContext;
-import top.theillusivec4.curios.api.type.capability.ICurio;
+import com.skd.regaliaslotsapi.api.RegaliaSlotsApiCapability;
+import com.skd.regaliaslotsapi.api.SlotContext;
+import com.skd.regaliaslotsapi.api.type.capability.ICurio;
 
 public record CurioItemCapability(ItemStack stack) implements ICurio {
 
@@ -41,6 +41,6 @@ public record CurioItemCapability(ItemStack stack) implements ICurio {
 	}
 
 	public static void register(RegisterCapabilitiesEvent event, Item item) {
-		event.registerItem(CuriosCapability.ITEM, (stack, ctx) -> new CurioItemCapability(stack), item);
+		event.registerItem(RegaliaSlotsApiCapability.ITEM, (stack, ctx) -> new CurioItemCapability(stack), item);
 	}
 }

@@ -23,7 +23,7 @@ import com.skd.equivalentlegacy.gameObjs.items.rings.Arcana.ArcanaMode;
 import com.skd.equivalentlegacy.gameObjs.registries.PEDataComponentTypes;
 import com.skd.equivalentlegacy.gameObjs.registries.PESoundEvents;
 import com.skd.equivalentlegacy.integration.IntegrationHelper;
-import com.skd.equivalentlegacy.integration.curios.IExposesCurioAttributes;
+import com.skd.equivalentlegacy.integration.regaliaslotsapi.IExposesCurioAttributes;
 import com.skd.equivalentlegacy.utils.PlayerHelper;
 import com.skd.equivalentlegacy.utils.WorldHelper;
 import com.skd.equivalentlegacy.utils.text.IHasTranslationKey;
