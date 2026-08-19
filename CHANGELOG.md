@@ -3,6 +3,12 @@
 
 ## [1.5.2] - 2026-08-19
 
+### Change
+
+- **Dependencia Curios sustituida por Regalia Slots API**: el equipo mantiene ahora su propio fork de Curios (`regalia_slots_api`, LGPL-3.0), así que la dependencia requerida del mod (Klein Stars, anillos, amuletos, piedras, talismán, reloj) pasa de `curios` a `regalia_slots_api`. Renombrado el paquete de integración (`integration/curios/` → `integration/regaliaslotsapi/`), actualizadas las referencias a la API (`CuriosCapability`→`RegaliaSlotsApiCapability`, etc.) y el jar de compilación ahora vive en `libs/` (versionado) en vez de `lib_ext/` (solo referencia local, no versionado).
+
+> **⚠️ Breaking para instalaciones existentes**: quien tenga Curios instalado junto a Equivalent Legacy debe sustituirlo por Regalia Slots API — el mod ya no reconoce Curios como proveedor de slots.
+
 ### Fix
 
 - **Carpeta de configuración con el nombre equivocado**: `EquivalentLegacyConfig` registraba `server.toml`/`common.toml`/`client.toml` (y los ficheros de `CustomEMCParser`/`EMCMappingHandler`: `custom_emc.json`, `mapping_dump.json`, `pregenerated_emc.json`) bajo `config/EquivalentLegacy/`, usando `ELCore.MODNAME` (el nombre de display en PascalCase) en vez de `ELCore.MODID` (`equivalent_legacy`, el mod id real en snake_case). Corregido para que la carpeta sea `config/equivalent_legacy/`, coherente con la convención de nomenclatura del proyecto (snake_case para mod_id/packages/assets) y con el resto de mods.
