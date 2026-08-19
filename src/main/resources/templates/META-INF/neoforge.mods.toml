@@ -83,7 +83,7 @@ Equivalent Legacy for Minecraft ${minecraft_version} / NeoForge. Forked from Equ
     side="BOTH"
 
 # Regalia Slots API is required to equip the mod's bauble items (Klein Stars, rings, amulets, stones, talisman, watch).
-    # Regalia Slots API is the team's own maintained fork built from the sibling regalia_slots_api repo.
+# Regalia Slots API is the team's own maintained fork built from the sibling regalia_slots_api repo.
 [[dependencies.${mod_id}]]
     modId="regalia_slots_api"
     type="required"
