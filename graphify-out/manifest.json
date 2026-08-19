@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1787127395.2830353,
-    "ast_hash": "f9ce415a8531a3598427d3af77d9f5a5",
+    "mtime": 1787143702.6320593,
+    "ast_hash": "c32298e1c8b3d49dcb0bc530d8d55c21",
     "semantic_hash": ""
   },
   "README.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1787127452.3040779,
-    "ast_hash": "ac53719577b93d8cec941907173a4d6a",
+    "mtime": 1787143758.5260482,
+    "ast_hash": "8df3b85a45cad160e0ccf4e82cb6f7a5",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/config/ClientConfig.java": {
@@ -3910,8 +3910,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/AlchBlockEntityChest.java": {
-    "mtime": 1786396101.8275168,
-    "ast_hash": "71b464fbf92ee6e317612bbe195d0b0b",
+    "mtime": 1787141253.9061985,
+    "ast_hash": "d1e62fe998ce538cb5aa81a8c406fbd2",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/CollectorMK1BlockEntity.java": {
@@ -3930,8 +3930,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/CondenserBlockEntity.java": {
-    "mtime": 1786396101.8321805,
-    "ast_hash": "d61cb9ec62b4fc7f6737c342b1495ca5",
+    "mtime": 1787141228.8543358,
+    "ast_hash": "925c73666ab58f8c1201a72a6b1f586f",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/CondenserMK2BlockEntity.java": {
@@ -3960,8 +3960,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/EntropySinkBlockEntity.java": {
-    "mtime": 1786396101.8403952,
-    "ast_hash": "3c8bed79f2c528e514018a84ef4cfa35",
+    "mtime": 1787141197.5933204,
+    "ast_hash": "eb658e804692fd98468474f440c72601",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/EntropySinkDarkBlockEntity.java": {
@@ -3985,8 +3985,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/RelayMK1BlockEntity.java": {
-    "mtime": 1786396101.8434286,
-    "ast_hash": "a584b79bb6a0d6ade81f7c5458707e4a",
+    "mtime": 1787141244.5959141,
+    "ast_hash": "4ba86efedb3f2663eac42ca170e48f98",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/block_entities/RelayMK2BlockEntity.java": {
@@ -4010,7 +4010,7 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/AlchemicalChest.java": {
-    "mtime": 1786396101.8105264,
+    "mtime": 1787141356.1748557,
     "ast_hash": "c72744bc01cafb61a123b114668c0da0",
     "semantic_hash": ""
   },
@@ -4020,12 +4020,12 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/Collector.java": {
-    "mtime": 1787125296.2256343,
+    "mtime": 1787141348.523527,
     "ast_hash": "4648177d82c507790d9534b46a1376dc",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/Condenser.java": {
-    "mtime": 1786396101.8135548,
+    "mtime": 1787141154.402096,
     "ast_hash": "3dd25d4fcee4ceb53b9706616dfdf718",
     "semantic_hash": ""
   },
@@ -4035,7 +4035,7 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/EntropySink.java": {
-    "mtime": 1786396101.8150725,
+    "mtime": 1787141163.4978805,
     "ast_hash": "4a6c2ae69b271e5dd252cee63fa31a71",
     "semantic_hash": ""
   },
@@ -4060,22 +4060,22 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/MatterFurnace.java": {
-    "mtime": 1787125335.8277712,
+    "mtime": 1787141177.637508,
     "ast_hash": "5295f255866fae19c9ccc0b8883def10",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/PEEntityBlock.java": {
-    "mtime": 1786396101.8238118,
+    "mtime": 1787141131.3164403,
     "ast_hash": "4c1814e149aa6e8589657a2754f5215f",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/Pedestal.java": {
-    "mtime": 1787125308.980607,
+    "mtime": 1787141173.0652907,
     "ast_hash": "51fa6f9d5ec76174e6ba968b77f1b23f",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/Relay.java": {
-    "mtime": 1786396101.8238118,
+    "mtime": 1787141168.2947874,
     "ast_hash": "9971bc3c18bef446c40559a3e07c16f9",
     "semantic_hash": ""
   },
@@ -7037,6 +7037,11 @@
   "docs/curseforge/versions/1.5.0.md": {
     "mtime": 1787127403.013083,
     "ast_hash": "961267eadb7e27c1f0f9fa22aaec6355",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.5.1.md": {
+    "mtime": 1787143695.2199173,
+    "ast_hash": "751e827aadb2c7011470f88201bebb6a",
     "semantic_hash": ""
   }
 }
