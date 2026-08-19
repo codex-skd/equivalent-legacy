@@ -1,6 +1,14 @@
 # Changelog - Equivalent Legacy 26.2
 
 
+## [1.5.2] - 2026-08-19
+
+### Fix
+
+- **Carpeta de configuración con el nombre equivocado**: `EquivalentLegacyConfig` registraba `server.toml`/`common.toml`/`client.toml` (y los ficheros de `CustomEMCParser`/`EMCMappingHandler`: `custom_emc.json`, `mapping_dump.json`, `pregenerated_emc.json`) bajo `config/EquivalentLegacy/`, usando `ELCore.MODNAME` (el nombre de display en PascalCase) en vez de `ELCore.MODID` (`equivalent_legacy`, el mod id real en snake_case). Corregido para que la carpeta sea `config/equivalent_legacy/`, coherente con la convención de nomenclatura del proyecto (snake_case para mod_id/packages/assets) y con el resto de mods.
+
+> **⚠️ Breaking para instalaciones existentes**: cualquier partida o servidor con el mod ya instalado tenía su configuración en `config/EquivalentLegacy/`. Tras actualizar a esta versión, el mod busca (y regenera con valores por defecto) en `config/equivalent_legacy/` — la carpeta antigua **no se borra ni se migra automáticamente**. Quien tenga configuración personalizada (server.toml, custom_emc.json, etc.) debe copiar manualmente el contenido de `config/EquivalentLegacy/` a `config/equivalent_legacy/` antes de arrancar, o volver a aplicar los cambios a mano.
+
 ## [1.5.1] - 2026-08-19
 
 ### Fix

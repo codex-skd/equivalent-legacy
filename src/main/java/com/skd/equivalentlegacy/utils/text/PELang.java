@@ -75,7 +75,7 @@ public enum PELang implements ILangEntry {
 	JEI_COLLECTOR("jei", "collector"),
 	WORLD_TRANSMUTE("jei", "world_transmute"),
 	WORLD_TRANSMUTE_DESCRIPTION("jei", "world_transmute.description"),
-	//Curios
+	//Regalia Slots API
 	CURIOS_KLEIN_STAR("curios.identifier.klein_star"),
 	//Gem armor
 	GEM_ENABLED("gem", "enabled"),

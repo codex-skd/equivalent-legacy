@@ -20,19 +20,19 @@ Autenticación Core: cabecera `x-api-key`
 
 > Token de cuenta (mismo para todos los mods, ver `data_miner/26.1.2/docs/curseforge/project_vars.md` u otros).
 
-## Variables para script (lectura automática)
+# Variables para script (lectura automática)
 
 project_id = 1632317
 api_token = ee776b0a-ee95-4850-b554-06be02a8657f
 release_type = release
 game_versions = 9638,9639,16498,10150
-relations = curios-api-updated:requiredDependency
+relations =
 
 ## Dependencia requerida
 
 | Mod | Proyecto CurseForge | Archivo | Versión |
 |-----|---------------------|---------|---------|
-| Curios API | `1579340` | `8270756` | `15.0.0-beta.2+26.2` |
+| Regalia Slots API | N/A (nuestro fork mantenido) | N/A | 0.0.0-beta.2 |
 
 ## Nota
 

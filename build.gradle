@@ -139,10 +139,10 @@ configurations {
 }
 
 dependencies {
-    // Curios is a required dependency: compiled against its API from lib_ext and
+    // Regalia Slots API is a required dependency: compiled against its API from libs and
     // placed on the dev runtime classpath via localRuntime (not bundled in the jar).
-    compileOnly files("lib_ext/curios-neoforge-15.0.0-beta.2+26.2.jar")
-    localRuntime files("lib_ext/curios-neoforge-15.0.0-beta.2+26.2.jar")
+    compileOnly files("libs/regalia_slots_api-26.2-neoforge-26.2.0.45-beta-0.0.0-beta.2-api.jar")
+    localRuntime files("libs/regalia_slots_api-26.2-neoforge-26.2.0.45-beta-0.0.0-beta.2-api.jar")
 
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime

@@ -45,10 +45,10 @@ La atribución ya está puesta en `README.md`, `neoforge.mods.toml` (`credits`) 
 | 10 | **Toolchain completo**: tools (sword/pick/axe/shovel/hoe/shears/hammer, +katar/morning star en Red Matter) y armadura de ambas materias; martillo con minado 3×3; EquipmentAssets para la armadura | `item/` |
 | 11 | **Máquinas EMC**: Collector MK1-3, Relay MK1-3, Condenser MK1-2 (block entities con tick, menús/screens con DataSlots, red vecinal simplificada, Klein Stars) | `block/`, `block/entity/`, `gui/` |
 | 12 | **Alchemical Bag** (inventario 13 slots persistido en el item vía `DataComponents.CONTAINER`) y **Alchemical Chest** (bloque 13 slots con BE) | `item/`, `block/`, `block/entity/`, `gui/` |
-| 13 | **Curios support** para Klein Stars (dependencia blanda por datos: `data/curios/tags`, slot custom `klein_star`) | `data/` |
+| 13 | **Regalia Slots API support** para Klein Stars (dependencia blanda por datos: `data/curios/tags`, slot custom `klein_star`) | `data/` |
 | 14 | **Covalence Dusts** (low/medium/high) + **Tome of Knowledge**; recetas de bolsa/cofre restauradas | `item/` |
 | 15 | **16 Alchemical Bags** de color | `item/` |
-| 16 | **Set Arcana**: anillos/bandas/amuletos/piedras/talismán/reloj con efectos pasivos (tick handler) + tags Curios | `item/`, `events/` |
+| 16 | **Set Arcana**: anillos/bandas/amuletos/piedras/talismán/reloj con efectos pasivos (tick handler) + tags Regalia Slots API | `item/`, `events/` |
 | 17 | **Misc tools**: nova catalyst/cataclysm, divining rods, destruction catalyst, lenses, mercurial eye, archangel smite | `item/` |
 | 18 | **Transmutation Table/Tablet** (abren la GUI de transmutación) + **Interdiction Torch** | `block/`, `block/entity/`, `item/` |
 | 19 | **Sistema de carga/AOE**: `TOOL_CHARGE` component, shift-RMB cicla 0-3; martillo/pico minan AOE; espadas atacan en área | `item/` |
@@ -56,7 +56,7 @@ La atribución ya está puesta en `README.md`, `neoforge.mods.toml` (`credits`) 
 | 21 | **Gem Armor**: set definitivo (helmet/chestplate/leggings/boots) | `item/` |
 | 22 | **Dark/Red Matter Furnaces**: hornos 4x/8x con recetas vanilla y GUI estilo horno (`AbstractFurnaceMenu`/`AbstractFurnaceScreen`); completa el set de bloques del original | `block/`, `block/entity/`, `gui/` |
 | 23 | **Persistencia del pool EMC** (`EMCNetworkData` SavedData, carga al iniciar / guarda al parar) | `emc/`, `events/` |
-| 24 | **Curios como dependencia requerida** (compileOnly+localRuntime desde `lib_ext/`, dependency en toml) + efectos pasivos desde slots de Curios + **fix crítico de empaquetado** (`META-INF/neoforge.mods.toml` ahora sí entra al jar) | `build.gradle`, `templates/`, `events/` |
+| 24 | **Regalia Slots API como dependencia requerida** (compileOnly+localRuntime desde `libs/`, dependency en toml) + efectos pasivos desde slots de Regalia Slots API + **fix crítico de empaquetado** (`META-INF/neoforge.mods.toml` ahora sí entra al jar) | `build.gradle`, `templates/`, `events/` |
 | 25 | **Full Star recipes**: ingrediente custom (`ingredient_serializer`) que matchea un Klein Star Omega al máximo (16M); recetas alternativas de Gem Armor y Tome (endgame) | `item/crafting/`, `data/` |
 
 Estructura de paquetes actual (todo bajo `src/main/java/com/skd/equivalentlegacy/`):
@@ -88,7 +88,7 @@ events/       — PlayerEvents
 
 ## Lo que falta (siguientes betas)
 
-**Estado: port completo** — todos los items, bloques y sistemas del mod original (ProjectE/Equivox) implementados, incluidas las variantes endgame. Única dependencia externa: **Curios** (requerida, jar en `lib_ext/curios-neoforge-15.0.0-beta.2+26.2.jar`, LGPL-3.0, no versionado).
+**Estado: port completo** — todos los items, bloques y sistemas del mod original (ProjectE/Equivox) implementados, incluidas las variantes endgame. Única dependencia externa: **Regalia Slots API** (requerida, jar en `libs/regalia_slots_api-26.2-neoforge-26.2.0.45-beta-0.0.0-beta.2-api.jar`, LGPL-3.0, no versionado).
 
 ## Notas sobre el entorno (por qué esto existe)
 

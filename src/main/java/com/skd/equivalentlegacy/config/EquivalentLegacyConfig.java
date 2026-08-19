@@ -14,7 +14,9 @@ import net.neoforged.fml.loading.FMLPaths;
 
 public class EquivalentLegacyConfig {
 
-	public static final Path CONFIG_DIR = FMLPaths.getOrCreateGameRelativePath(FMLPaths.CONFIGDIR.get().resolve(ELCore.MODNAME));
+	//Prior to 1.5.2 this resolved ELCore.MODNAME ("EquivalentLegacy"), so existing installs had their
+	// config under config/EquivalentLegacy/ instead of config/equivalent_legacy/ — see CHANGELOG 1.5.2.
+	public static final Path CONFIG_DIR = FMLPaths.getOrCreateGameRelativePath(FMLPaths.CONFIGDIR.get().resolve(ELCore.MODID));
 	private static final Map<IConfigSpec, IPEConfig> KNOWN_CONFIGS = new HashMap<>();
 
 	public static final ServerConfig server = new ServerConfig();
@@ -35,7 +37,7 @@ public class EquivalentLegacyConfig {
 	 * Creates and register a mod config, and track it so that we can properly clear cached values.
 	 */
 	public static void registerConfig(ModContainer modContainer, IPEConfig config) {
-		modContainer.registerConfig(config.getConfigType(), config.getConfigSpec(), ELCore.MODNAME + "/" + config.getFileName() + ".toml");
+		modContainer.registerConfig(config.getConfigType(), config.getConfigSpec(), ELCore.MODID + "/" + config.getFileName() + ".toml");
 		KNOWN_CONFIGS.put(config.getConfigSpec(), config);
 	}
 

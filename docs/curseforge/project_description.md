@@ -37,7 +37,7 @@
 <p>Klein Stars store large amounts of EMC for later use — power your transmutations even when far from your main base.</p>
 
 <h3>🧩 Compatibility</h3>
-<p>Curios slot support for wearable EMC items, and recipe-mapper based EMC calculation that adapts to other mods' crafting and brewing recipes automatically.</p>
+<p>Regalia Slots API slot support for wearable EMC items, and recipe-mapper based EMC calculation that adapts to other mods' crafting and brewing recipes automatically.</p>
 
 <br>
 

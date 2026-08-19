@@ -1,6 +1,6 @@
 package com.skd.equivalentlegacy.integration;
 
-import com.skd.equivalentlegacy.integration.curios.CurioItemCapability;
+import com.skd.equivalentlegacy.integration.regaliaslotsapi.CurioItemCapability;
 import com.skd.equivalentlegacy.utils.ItemCapabilityHelper;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -15,7 +15,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class IntegrationHelper {
 
-	public static final String CURIO_MODID = "curios";
+	public static final String CURIO_MODID = "regalia_slots_api";
 	public static final String EMI_MODID = "emi";
 	public static final String TOP_MODID = "theoneprobe";
 
@@ -23,7 +23,7 @@ public class IntegrationHelper {
 	private static EntityCapability<ResourceHandler<ItemResource>, Void> curioItemHandlerCapability;
 
 	/**
-	 * @return The player's curios inventory as a legacy {@link IItemHandler}, or null if Curios is not loaded.
+	 * @return The player's Regalia Slots API inventory as a legacy {@link IItemHandler}, or null if Regalia Slots API is not loaded.
 	 */
 	@Nullable
 	public static IItemHandler getCurioItemHandler(Player player) {
@@ -42,7 +42,7 @@ public class IntegrationHelper {
 	private static EntityCapability<ResourceHandler<ItemResource>, Void> getCurioItemHandlerCapability() {
 		if (curioItemHandlerCapability == null) {
 			try {
-				Class<?> clazz = Class.forName("top.theillusivec4.curios.api.CuriosCapability");
+				Class<?> clazz = Class.forName("com.skd.regaliaslotsapi.api.RegaliaSlotsApiCapability");
 				curioItemHandlerCapability = (EntityCapability<ResourceHandler<ItemResource>, Void>) clazz.getField("ITEM_HANDLER").get(null);
 			} catch (ReflectiveOperationException e) {
 				return null;
