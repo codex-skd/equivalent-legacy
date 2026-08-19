@@ -54,6 +54,7 @@ Ejemplo: `26.2-neoforge-0.0.0-beta.1`
 El API de subida de CurseForge no expone el campo de lado (client/server). Tras **cada** subida de archivo hay que entrar en la web de CurseForge → pestaña "Files" → editar el archivo → marcar el entorno como **Client & Server** (este mod es BOTH: block entities, comandos, red EMC, Data Attachments en servidor). Sin este paso, el file queda etiquetado como solo cliente.
 
 **Historial:**
+- v1.5.0: ✅ Subido como RELEASE (File ID: 8683135). PE swords/tools/armor now enchantable (per-tier enchantment value + minecraft:enchantable/* tags), Collector/Pedestal/Matter Furnace break-drop fix (moved from the too-late `onBlockStateChange` to `BlockEntity#preRemoveSideEffects`, the 1.4.3 fix never actually worked).
 - v1.4.3: ✅ Subido como RELEASE (File ID: 8673149). Collector MK1 stray sprite fix, item-loss-on-break fix, transmutation preview icon stuck over open GUIs, 3 overpriced EMC values fixed, ProjectE UUID checker removed, `PECore`→`ELCore` rename.
 - v1.4.2: ⚠️ Subido por el script como BETA (File ID: 8641239) porque `release_type` seguía en `beta` desde la línea 1.3.0-beta.x — corregido manualmente a RELEASE en CurseForge por el usuario. `release_type` actualizado a `release` en este archivo para que las próximas subidas de la línea 1.4.x salgan correctas sin corrección manual. Server crash fix (corrupted block entity data in `WorldHelper#getBlockEntity`).
 - v1.4.0: ✅ Subido como RELEASE (File ID: 8620093), Full re-port from Equivox 26.2 reference + EMC runtime fix (commons-math3 jarJar) + Spanish translation
