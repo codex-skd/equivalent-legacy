@@ -1,6 +1,12 @@
 # Changelog - Equivalent Legacy 26.2
 
 
+## [1.6.0] - 2026-08-21
+
+### Feature
+
+- **Teclas del mod ahora en su propia categoría de Controles**: las 6 teclas de Equivalent Legacy (efectos de yelmo, efectos de botas, cargar, función extra, disparar proyectil, cambiar modo) estaban registradas bajo la categoría vanilla `KeyMapping.Category.GAMEPLAY`, mezclándose con las teclas base de Minecraft en el menú de Controles. Registrada una categoría propia (`equivalent_legacy:keys`, mostrada como "Equivalent Legacy") y movidas las 6 teclas a ella.
+
 ## [1.5.3] - 2026-08-20
 
 ### Fix
