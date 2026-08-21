@@ -1,6 +1,12 @@
 # Changelog - Equivalent Legacy 26.2
 
 
+## [1.6.1] - 2026-08-21
+
+### Fix
+
+- **El Vendaval Desgarrador de Swiftwolf y el Anillo Arcano concedían vuelo creativo sin querer**: ambos anillos otorgaban al jugador la capacidad de volar (como en modo creativo) por el mero hecho de llevarlos encima, independientemente del modo seleccionado. El Vendaval lo hacía al tenerlo en la barra de acceso rápido, en la mano secundaria o en una ranura de anillo de Regalia Slots API, siempre que tuviera al menos 64 EMC almacenado; el Anillo Arcano lo hacía de forma incondicional en cualquier ranura, sin requerir EMC ni estar activo. Se consideró que esto era demasiado poderoso y no era la intención original, así que se ha eliminado la concesión de vuelo de ambos ítems por completo. El resto de sus mecánicas (escudo/rayos/ciclo de modos del Vendaval; congelar/ignición/cosecha/repulsión del Arcana) no se ha visto afectado.
+
 ## [1.6.0] - 2026-08-21
 
 ### Feature
