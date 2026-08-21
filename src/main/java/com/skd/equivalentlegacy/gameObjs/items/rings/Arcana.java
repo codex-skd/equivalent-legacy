@@ -1,14 +1,10 @@
 package com.skd.equivalentlegacy.gameObjs.items.rings;
 
-import com.google.common.base.Suppliers;
-import com.google.common.collect.Multimap;
 import com.mojang.serialization.Codec;
 import io.netty.buffer.ByteBuf;
 import java.util.function.Consumer;
 import java.util.Locale;
 import java.util.function.IntFunction;
-import java.util.function.Supplier;
-import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.capabilities.item.IExtraFunction;
 import com.skd.equivalentlegacy.api.capabilities.item.IProjectileShooter;
 import com.skd.equivalentlegacy.gameObjs.entity.EntityFireProjectile;
@@ -23,14 +19,12 @@ import com.skd.equivalentlegacy.gameObjs.items.rings.Arcana.ArcanaMode;
 import com.skd.equivalentlegacy.gameObjs.registries.PEDataComponentTypes;
 import com.skd.equivalentlegacy.gameObjs.registries.PESoundEvents;
 import com.skd.equivalentlegacy.integration.IntegrationHelper;
-import com.skd.equivalentlegacy.integration.regaliaslotsapi.IExposesCurioAttributes;
 import com.skd.equivalentlegacy.utils.PlayerHelper;
 import com.skd.equivalentlegacy.utils.WorldHelper;
 import com.skd.equivalentlegacy.utils.text.IHasTranslationKey;
 import com.skd.equivalentlegacy.utils.text.PELang;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Holder;
 import net.minecraft.core.component.DataComponentType;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.codec.ByteBufCodecs;
@@ -46,10 +40,6 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.EquipmentSlotGroup;
-import net.minecraft.world.entity.ai.attributes.Attribute;
-import net.minecraft.world.entity.ai.attributes.AttributeModifier;
-import net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.entity.projectile.throwableitemprojectile.Snowball;
@@ -58,40 +48,22 @@ import net.minecraft.world.item.ItemInstance;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.neoforged.neoforge.common.ItemAbilities;
 import net.neoforged.neoforge.common.ItemAbility;
-import net.neoforged.neoforge.common.NeoForgeMod;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-public class Arcana extends ItemPE implements IItemMode<ArcanaMode>, IFireProtector, IExtraFunction, IProjectileShooter, ICapabilityAware, IExposesCurioAttributes, ISelfCraftingRemainder {
-
-	private static final AttributeModifier FLIGHT = new AttributeModifier(ELCore.rl("arcana_flight"), 1, Operation.ADD_VALUE);
-	private final Supplier<ItemAttributeModifiers> defaultModifiers;
+public class Arcana extends ItemPE implements IItemMode<ArcanaMode>, IFireProtector, IExtraFunction, IProjectileShooter, ICapabilityAware, ISelfCraftingRemainder {
 
 	public Arcana(Properties props) {
 		super(props.component(PEDataComponentTypes.ACTIVE, false)
 				.component(PEDataComponentTypes.ARCANA_MODE, ArcanaMode.ZERO)
 				.component(PEDataComponentTypes.STORED_EMC, 0L)
 		);
-		this.defaultModifiers = Suppliers.memoize(() -> ItemAttributeModifiers.builder()
-				.add(NeoForgeMod.CREATIVE_FLIGHT, FLIGHT, EquipmentSlotGroup.ANY)
-				.build());
-	}
-
-	@Override
-	public ItemAttributeModifiers getDefaultAttributeModifiers(@NotNull ItemStack stack) {
-		return this.defaultModifiers.get();
-	}
-
-	@Override
-	public void addAttributes(Multimap<Holder<Attribute>, AttributeModifier> attributes) {
-		attributes.put(NeoForgeMod.CREATIVE_FLIGHT, FLIGHT);
 	}
 
 	private void tick(ItemStack stack, Level level, ServerPlayer player) {
