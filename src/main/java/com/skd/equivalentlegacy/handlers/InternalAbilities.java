@@ -3,7 +3,6 @@ package com.skd.equivalentlegacy.handlers;
 import com.google.common.base.Predicates;
 import java.util.function.Predicate;
 import com.skd.equivalentlegacy.ELCore;
-import com.skd.equivalentlegacy.gameObjs.items.ItemPE;
 import com.skd.equivalentlegacy.gameObjs.registries.PEItems;
 import com.skd.equivalentlegacy.utils.PlayerHelper;
 import net.minecraft.core.Holder;
@@ -17,11 +16,9 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.material.FluidState;
-import net.neoforged.neoforge.common.NeoForgeMod;
 
 public class InternalAbilities {
 
-	private static final AttributeModifier FLIGHT = new AttributeModifier(ELCore.rl("flight"), 1, Operation.ADD_VALUE);
 	private static final AttributeModifier WATER_SPEED_BOOST = new AttributeModifier(ELCore.rl("water_speed_boost"), 0.15, Operation.ADD_VALUE);
 	private static final AttributeModifier LAVA_SPEED_BOOST = new AttributeModifier(ELCore.rl("lava_speed_boost"), 0.15, Operation.ADD_VALUE);
 
@@ -56,7 +53,6 @@ public class InternalAbilities {
 		if (!player.level().isClientSide()) {
 			updateAttribute(player, Attributes.MOVEMENT_SPEED, WATER_SPEED_BOOST, applyWaterSpeed);
 			updateAttribute(player, Attributes.MOVEMENT_SPEED, LAVA_SPEED_BOOST, applyLavaSpeed);
-			updateAttribute(player, NeoForgeMod.CREATIVE_FLIGHT, FLIGHT, InternalAbilities::shouldPlayerFly);
 		}
 	}
 
@@ -75,13 +71,6 @@ public class InternalAbilities {
 				attributeInstance.removeModifier(modifier.id());
 			}
 		}
-	}
-
-	private static boolean shouldPlayerFly(Player player) {
-		return PlayerHelper.checkHotbarCurios(player, (p, stack) -> stack.is(PEItems.SWIFTWOLF_RENDING_GALE) && ItemPE.hasEmc(p, stack, 64, true))
-			   //Note: Regalia Slots API, and the offhand are handled by the attribute on the arcana ring. We want it to provide flight in other slots on the hotbar as well
-			   // so we have to do it here. We do this rather than only doing a hotbar Regalia Slots API check with no attribute, so that the tooltip shows it provides flight
-			   || PlayerHelper.checkHotbar(player, (p, stack) -> stack.is(PEItems.ARCANA_RING));
 	}
 
 	private static WalkOnType canWalkOnWater(Player player) {
