@@ -2,6 +2,7 @@ package com.skd.equivalentlegacy.utils;
 
 import com.google.common.collect.ImmutableBiMap;
 import com.mojang.blaze3d.platform.InputConstants;
+import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.network.packets.to_server.KeyPressPKT;
 import com.skd.equivalentlegacy.utils.text.PELang;
 import com.skd.equivalentlegacy.utils.text.TextComponentUtil;
@@ -15,6 +16,7 @@ import org.lwjgl.glfw.GLFW;
 
 public class ClientKeyHelper {
 
+	private static final KeyMapping.Category CATEGORY = KeyMapping.Category.register(ELCore.rl("keys"));
 	private static ImmutableBiMap<PEKeybind, KeyMapping> peToMc = ImmutableBiMap.of();
 
 	public static void registerKeyBindings(RegisterKeyMappingsEvent event) {
@@ -49,7 +51,7 @@ public class ClientKeyHelper {
 		private boolean lastState;
 
 		PEKeyMapping(PEKeybind keybind, KeyModifier keyModifier, int keyCode) {
-			super(keybind.getTranslationKey(), KeyConflictContext.IN_GAME, keyModifier, InputConstants.Type.KEYSYM, keyCode, KeyMapping.Category.GAMEPLAY);
+			super(keybind.getTranslationKey(), KeyConflictContext.IN_GAME, keyModifier, InputConstants.Type.KEYSYM, keyCode, CATEGORY);
 			this.keybind = keybind;
 		}
 

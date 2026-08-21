@@ -547,6 +547,7 @@
   "jei.equivalent_legacy.collector": "Collector Fuel Upgrades",
   "jei.equivalent_legacy.world_transmute": "World Transmutation",
   "jei.equivalent_legacy.world_transmute.description": "Use item (%1$s) in world, hold %2$s while interacting for alternate output",
+  "key.categories.equivalent_legacy.keys": "Equivalent Legacy",
   "key.equivalent_legacy.boots_toggle": "Boots Effects",
   "key.equivalent_legacy.charge": "Charge",
   "key.equivalent_legacy.extra_function": "Extra Function",
