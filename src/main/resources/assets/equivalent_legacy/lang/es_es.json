@@ -547,6 +547,7 @@
   "jei.equivalent_legacy.collector": "Mejoras de combustible del colector",
   "jei.equivalent_legacy.world_transmute": "Transmutación del mundo",
   "jei.equivalent_legacy.world_transmute.description": "Usa el ítem (%1$s) en el mundo, mantén %2$s mientras interactúas para el resultado alternativo",
+  "key.categories.equivalent_legacy.keys": "Equivalent Legacy",
   "key.equivalent_legacy.boots_toggle": "Efectos de botas",
   "key.equivalent_legacy.charge": "Cargar",
   "key.equivalent_legacy.extra_function": "Función extra",
