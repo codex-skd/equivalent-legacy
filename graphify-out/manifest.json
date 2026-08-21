@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1787274660.1359093,
-    "ast_hash": "2bd0e5a3213a7887f90b7e173d66553b",
+    "mtime": 1787299112.312724,
+    "ast_hash": "a48c0379ee84970163ff8909469fb0bf",
     "semantic_hash": ""
   },
   "README.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md": {
-    "mtime": 1787274709.756178,
-    "ast_hash": "8c9f232721d038cea6b7a62a1d6b18fd",
+    "mtime": 1787299144.2161772,
+    "ast_hash": "326837f8f8a6b1ede0894091c5cbeee5",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1787274705.6813805,
-    "ast_hash": "53d176af9f066724d2a88e8a22854b04",
+    "mtime": 1787299141.0480745,
+    "ast_hash": "edbd0069303f22ddc8c7790c0642b6f8",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/config/ClientConfig.java": {
@@ -4630,8 +4630,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/Arcana.java": {
-    "mtime": 1787154732.5053387,
-    "ast_hash": "16dc8e88788e4019974a20e161d4131e",
+    "mtime": 1787298988.0127096,
+    "ast_hash": "8f17f07d4d2a3120a3e1a68b0333ffc8",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/ArchangelSmite.java": {
@@ -4960,8 +4960,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/handlers/InternalAbilities.java": {
-    "mtime": 1787155102.5964866,
-    "ast_hash": "bd8bdb860d26a305fefc620b79ee8f80",
+    "mtime": 1787276483.3913524,
+    "ast_hash": "a178c653960e4143e25911d409ba31d4",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/impl/EMCProxyImpl.java": {
@@ -7057,6 +7057,11 @@
   "docs/curseforge/versions/1.6.0.md": {
     "mtime": 1787274664.4703956,
     "ast_hash": "53b07d2516892982b9f87935260d5f21",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.6.1.md": {
+    "mtime": 1787299118.3890748,
+    "ast_hash": "5aba833e69e50f3ed4f1acb15e5149e0",
     "semantic_hash": ""
   }
 }
