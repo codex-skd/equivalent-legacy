@@ -15,8 +15,8 @@
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_us.json": {
-    "mtime": 1787272442.677352,
-    "ast_hash": "9d78a00a26a0f995c1580fa9ce7793ec",
+    "mtime": 1787581987.6418827,
+    "ast_hash": "e294c4272facdbf1bb87afe4f379238b",
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1787299112.312724,
-    "ast_hash": "a48c0379ee84970163ff8909469fb0bf",
+    "mtime": 1787618837.0504591,
+    "ast_hash": "f6df68ae0d02888223aea4259bae5696",
     "semantic_hash": ""
   },
   "README.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1787299141.0480745,
-    "ast_hash": "edbd0069303f22ddc8c7790c0642b6f8",
+    "mtime": 1787619001.3471918,
+    "ast_hash": "26b4d0d8072cb13a2e4ca9ddd6698aec",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/config/ClientConfig.java": {
@@ -2390,33 +2390,33 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/de_de.json": {
-    "mtime": 1786398358.2007575,
-    "ast_hash": "3ea7fc2c3c3c38658e150ea82c7470da",
+    "mtime": 1787617701.6671493,
+    "ast_hash": "2cf80e89956660a55526abf88e242cb5",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/fr_fr.json": {
-    "mtime": 1786398358.2044039,
-    "ast_hash": "2fad4891efd0bda7d0a92f6a45f48393",
+    "mtime": 1787617660.5784237,
+    "ast_hash": "9be45280f06a2890305af15c0ab8ce5a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/it_it.json": {
-    "mtime": 1786398358.2049098,
-    "ast_hash": "8af184318403b2d29109a8c9071bedac",
+    "mtime": 1787617625.0521407,
+    "ast_hash": "e474140cd9909d3d47be03c6f4460bfa",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ja_jp.json": {
-    "mtime": 1786396102.3503065,
-    "ast_hash": "eeca94ba1a69aafd509b3779a5717c21",
+    "mtime": 1787617720.772915,
+    "ast_hash": "d04889e745741674764647cb0eb59654",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/ru_ru.json": {
-    "mtime": 1786398358.2049098,
-    "ast_hash": "bafed9b19b5d7ae4877e6f2dd25a1fac",
+    "mtime": 1787617643.0570614,
+    "ast_hash": "492dc6fc057286334daea9e2985cb08e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/zh_cn.json": {
-    "mtime": 1786398358.2079444,
-    "ast_hash": "46c5e422b824a82105ee8535a0e0fb99",
+    "mtime": 1787591998.4856825,
+    "ast_hash": "edc72dde9df1b8784e7e00d241356526",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.1.0.md": {
@@ -2465,8 +2465,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/tr_tr.json": {
-    "mtime": 1786398358.2064278,
-    "ast_hash": "989d0467d311cdf958482ac7be438f47",
+    "mtime": 1787617502.905205,
+    "ast_hash": "98ba6f1d2afabe911f6d83f860ff1b7f",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/base_chest.json": {
@@ -4600,23 +4600,23 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/armor/GemChest.java": {
-    "mtime": 1786396101.9964378,
-    "ast_hash": "480260a5ab458d6623a6e9728b733908",
+    "mtime": 1787581899.1345224,
+    "ast_hash": "1cde7a5a9ff22ae260bc81cc9407256c",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/armor/GemFeet.java": {
-    "mtime": 1787001314.0130758,
-    "ast_hash": "75018dbf30ee6d9e34de97dd7460211d",
+    "mtime": 1787581931.5077772,
+    "ast_hash": "03e335d464a4c4d508033ea0137faf73",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/armor/GemHelmet.java": {
-    "mtime": 1786396101.998443,
-    "ast_hash": "f1717b0d88f50bfaf392371a93913083",
+    "mtime": 1787581911.9906814,
+    "ast_hash": "d941ad77dfb35866af95d2c8d82398fe",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/armor/GemLegs.java": {
-    "mtime": 1786396101.998952,
-    "ast_hash": "c24d1b566f54b2f844fe3a2464c39309",
+    "mtime": 1787581921.6042511,
+    "ast_hash": "757ea840d018bf066e98247eb666cfae",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/armor/PEArmor.java": {
@@ -4630,43 +4630,43 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/Arcana.java": {
-    "mtime": 1787298988.0127096,
-    "ast_hash": "8f17f07d4d2a3120a3e1a68b0333ffc8",
+    "mtime": 1787581667.0030904,
+    "ast_hash": "741c3231a42bd9a12de54ed9287d7cb5",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/ArchangelSmite.java": {
-    "mtime": 1787001314.056532,
-    "ast_hash": "ba06c2a19890942cfc6b39b07b0782bd",
+    "mtime": 1787581697.0752738,
+    "ast_hash": "dffbfdd5fc323d848e01bf8bb99bca44",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/BlackHoleBand.java": {
-    "mtime": 1786396102.0072577,
-    "ast_hash": "84c1d1fffcffd8affd128d8095c9203f",
+    "mtime": 1787581711.2796273,
+    "ast_hash": "38d6f29deacea8284b24b52cbbe5b64d",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/BodyStone.java": {
-    "mtime": 1786396102.0082567,
-    "ast_hash": "2430a1ed81eb2e13346548b5bd109210",
+    "mtime": 1787581725.819084,
+    "ast_hash": "b9e234a84ed5757631c3a1eb424c7075",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/HarvestGoddess.java": {
-    "mtime": 1786396102.0098884,
-    "ast_hash": "e23d337a4bd59785d4fb13de5686ede2",
+    "mtime": 1787581742.0525153,
+    "ast_hash": "22d576e8d15cbddf7bdef51fa139d28e",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/Ignition.java": {
-    "mtime": 1786396102.0114112,
-    "ast_hash": "9764b3299c9127efb806fa469c6b058a",
+    "mtime": 1787581767.5678275,
+    "ast_hash": "8721a26d25413077e8863a26c6b2dabf",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/LifeStone.java": {
-    "mtime": 1786396102.0114112,
-    "ast_hash": "66087ef448369a29e055475ca72720b3",
+    "mtime": 1787581783.084807,
+    "ast_hash": "3d087688f9dda16b18674f3eaa31de1b",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/MindStone.java": {
-    "mtime": 1786396102.0129273,
-    "ast_hash": "a61f63df8c74cb98a54756db80a54c1f",
+    "mtime": 1787581890.5252082,
+    "ast_hash": "8d9cc4958d8e5740dca4b2c211ee2e5f",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/PEToggleItem.java": {
@@ -4675,28 +4675,28 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/SWRG.java": {
-    "mtime": 1786396102.0159602,
-    "ast_hash": "c9ed7c030ab95d1ffe1f42c4b8729f84",
+    "mtime": 1787581649.2640517,
+    "ast_hash": "824206400080ec131e830b5ac2b556b3",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/SoulStone.java": {
-    "mtime": 1786396102.0144444,
-    "ast_hash": "5ba2dbfd97f9622a5c5e37efd8fb25f8",
+    "mtime": 1787581807.9060802,
+    "ast_hash": "7f346729e7bfb2b8dc693c3f5a4adf28",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/TimeWatch.java": {
-    "mtime": 1786396102.017562,
-    "ast_hash": "1dab17d0a09f43eeacf88516eca9ec44",
+    "mtime": 1787581878.4078562,
+    "ast_hash": "e46f8246089262315c3b3f7f7edb48ff",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/VoidRing.java": {
-    "mtime": 1786396102.0200696,
-    "ast_hash": "04cf0bc6bb1823aa99acb33b52a0f6e2",
+    "mtime": 1787581848.3566928,
+    "ast_hash": "f0edbae5254bd9a04d19c08a2d4c8717",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/rings/Zero.java": {
-    "mtime": 1786396102.0216053,
-    "ast_hash": "fb8e649fe3e6ea8f7c541cce03d66ea6",
+    "mtime": 1787581864.713315,
+    "ast_hash": "5e54ebd1d613f58af1180edc4ae61de4",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/tools/PEAxe.java": {
@@ -5465,8 +5465,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/utils/text/PELang.java": {
-    "mtime": 1787154581.1621654,
-    "ast_hash": "a1ede67cf6b6b7bb806833c7baaf5bd8",
+    "mtime": 1787581610.853278,
+    "ast_hash": "3e347066d9d0176981ff12f60629a32d",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/utils/text/SearchQueryParser.java": {
@@ -5660,8 +5660,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/cs_cz.json": {
-    "mtime": 1786398358.2007575,
-    "ast_hash": "cc3982bac8ff1ecb273ce542f9142479",
+    "mtime": 1787617683.1102006,
+    "ast_hash": "f30bfa301b4178413e98900ca7d6e218",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_au.json": {
@@ -5675,13 +5675,13 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/en_ud.json": {
-    "mtime": 1786396105.8957038,
-    "ast_hash": "71b58d03d5023800bfe517359c2738fb",
+    "mtime": 1787582436.2748601,
+    "ast_hash": "81829f66571379e0a7c6ff14ead53f41",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/uk_ua.json": {
-    "mtime": 1786398358.2064278,
-    "ast_hash": "8ee12d6846bc1d7285223a38946857a4",
+    "mtime": 1787617607.88598,
+    "ast_hash": "cc2ae5e004aafe8f6136ab804f0b778e",
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/models/block/block.json": {
@@ -6985,8 +6985,8 @@
     "semantic_hash": ""
   },
   "src/main/resources/assets/equivalent_legacy/lang/es_es.json": {
-    "mtime": 1787272447.7508156,
-    "ast_hash": "cdbcd1832616ed32ef11606a27df9478",
+    "mtime": 1787582024.7622933,
+    "ast_hash": "1d5505ba2a1b07ecc3d47b1126fb34aa",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.3.0-beta.14.md": {
@@ -7062,6 +7062,11 @@
   "docs/curseforge/versions/1.6.1.md": {
     "mtime": 1787299118.3890748,
     "ast_hash": "5aba833e69e50f3ed4f1acb15e5149e0",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.6.2.md": {
+    "mtime": 1787618874.5397332,
+    "ast_hash": "93067254756389b120ae9c7d5e96a7b7",
     "semantic_hash": ""
   }
 }
