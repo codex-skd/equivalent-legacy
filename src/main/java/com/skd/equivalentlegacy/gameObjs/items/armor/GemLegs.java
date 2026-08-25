@@ -35,6 +35,8 @@ public class GemLegs extends GemArmorBase {
 	public void appendHoverText(@NotNull ItemStack stack, @NotNull Item.TooltipContext context, @NotNull TooltipDisplay display, @NotNull Consumer<Component> tooltip, @NotNull TooltipFlag flags) {
 		super.appendHoverText(stack, context, display, tooltip, flags);
 		tooltip.accept(PELang.GEM_LORE_LEGS.translate());
+		tooltip.accept(PELang.TOOLTIP_GEM_LEGGINGS_1.translate());
+		tooltip.accept(PELang.TOOLTIP_GEM_LEGGINGS_2.translate());
 	}
 
 	private final Int2LongMap lastJumpTracker = new Int2LongOpenHashMap();

@@ -30,6 +30,7 @@ public class GemChest extends GemArmorBase implements IFireProtector {
 	public void appendHoverText(@NotNull ItemStack stack, @NotNull Item.TooltipContext context, @NotNull TooltipDisplay display, @NotNull Consumer<Component> tooltip, @NotNull TooltipFlag flags) {
 		super.appendHoverText(stack, context, display, tooltip, flags);
 		tooltip.accept(PELang.GEM_LORE_CHEST.translate());
+		tooltip.accept(PELang.TOOLTIP_GEM_CHESTPLATE.translate());
 	}
 
 	@Override

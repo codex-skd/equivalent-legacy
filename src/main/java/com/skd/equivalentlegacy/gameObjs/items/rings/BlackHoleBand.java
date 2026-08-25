@@ -4,6 +4,7 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.function.Consumer;
 import com.skd.equivalentlegacy.api.block_entity.IDMPedestal;
 import com.skd.equivalentlegacy.api.capabilities.item.IAlchBagItem;
 import com.skd.equivalentlegacy.api.capabilities.item.IAlchChestItem;
@@ -28,7 +29,10 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.component.TooltipDisplay;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.BucketPickup;
@@ -81,6 +85,12 @@ public class BlackHoleBand extends PEToggleItem implements IAlchBagItem, IAlchCh
 			result = WorldHelper.sidedSuccess(level);
 		}
 		return ItemHelper.actionResultFromType(result, stack);
+	}
+
+	@Override
+	public void appendHoverText(@NotNull ItemStack stack, @NotNull Item.TooltipContext context, @NotNull TooltipDisplay display, @NotNull Consumer<Component> tooltip, @NotNull TooltipFlag flags) {
+		super.appendHoverText(stack, context, display, tooltip, flags);
+		tooltip.accept(PELang.TOOLTIP_BLACK_HOLE_BAND.translate());
 	}
 
 	@Override

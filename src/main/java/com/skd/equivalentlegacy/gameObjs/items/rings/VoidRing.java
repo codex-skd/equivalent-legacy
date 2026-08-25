@@ -1,12 +1,16 @@
 package com.skd.equivalentlegacy.gameObjs.items.rings;
 
 import java.util.List;
+import java.util.function.Consumer;
 import com.skd.equivalentlegacy.api.block_entity.IDMPedestal;
 import com.skd.equivalentlegacy.api.capabilities.item.IExtraFunction;
 import com.skd.equivalentlegacy.api.capabilities.item.IPedestalItem;
 import com.skd.equivalentlegacy.gameObjs.items.GemEternalDensity;
 import com.skd.equivalentlegacy.gameObjs.registries.PEItems;
+import com.skd.equivalentlegacy.utils.ClientKeyHelper;
+import com.skd.equivalentlegacy.utils.PEKeybind;
 import com.skd.equivalentlegacy.utils.PlayerHelper;
+import com.skd.equivalentlegacy.utils.text.PELang;
 import net.minecraft.SharedConstants;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -17,8 +21,11 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemCooldowns;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.component.TooltipDisplay;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.phys.BlockHitResult;
@@ -33,6 +40,13 @@ public class VoidRing extends GemEternalDensity implements IPedestalItem, IExtra
 
 	public VoidRing(Properties props) {
 		super(props);
+	}
+
+	@Override
+	public void appendHoverText(@NotNull ItemStack stack, @NotNull Item.TooltipContext context, @NotNull TooltipDisplay display, @NotNull Consumer<Component> tooltip, @NotNull TooltipFlag flags) {
+		super.appendHoverText(stack, context, display, tooltip, flags);
+		tooltip.accept(PELang.TOOLTIP_VOID_RING_1.translate());
+		tooltip.accept(PELang.TOOLTIP_VOID_RING_2.translate(ClientKeyHelper.getKeyName(PEKeybind.EXTRA_FUNCTION)));
 	}
 
 	@Override

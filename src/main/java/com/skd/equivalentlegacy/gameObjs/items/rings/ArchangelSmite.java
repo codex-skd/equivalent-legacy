@@ -2,6 +2,7 @@ package com.skd.equivalentlegacy.gameObjs.items.rings;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 import com.skd.equivalentlegacy.ELCore;
 import com.skd.equivalentlegacy.api.block_entity.IDMPedestal;
 import com.skd.equivalentlegacy.api.capabilities.item.IPedestalItem;
@@ -24,8 +25,11 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.component.TooltipDisplay;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.neoforged.neoforge.common.NeoForge;
@@ -82,6 +86,12 @@ public class ArchangelSmite extends PEToggleItem implements IPedestalItem {
 			fireArrow(player.getItemInHand(hand), level, player, 1F);
 		}
 		return InteractionResult.SUCCESS;
+	}
+
+	@Override
+	public void appendHoverText(@NotNull ItemStack stack, @NotNull Item.TooltipContext context, @NotNull TooltipDisplay display, @NotNull Consumer<Component> tooltip, @NotNull TooltipFlag flags) {
+		super.appendHoverText(stack, context, display, tooltip, flags);
+		tooltip.accept(PELang.TOOLTIP_ARCHANGEL_SMITE.translate());
 	}
 
 	private static void fireArrow(ItemStack ring, Level level, LivingEntity shooter, float inaccuracy) {

@@ -5,6 +5,7 @@ import net.minecraft.world.phys.Vec3;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.function.Consumer;
 import com.skd.equivalentlegacy.api.block_entity.IDMPedestal;
 import com.skd.equivalentlegacy.api.capabilities.item.IPedestalItem;
 import com.skd.equivalentlegacy.config.EquivalentLegacyConfig;
@@ -30,6 +31,8 @@ import net.minecraft.world.item.BoneMealItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.component.TooltipDisplay;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
@@ -51,6 +54,12 @@ public class HarvestGoddess extends PEToggleItem implements IPedestalItem {
 		super(props.component(PEDataComponentTypes.STORED_EMC, 0L)
 				.component(PEDataComponentTypes.UNPROCESSED_EMC, 0.0)
 		);
+	}
+
+	@Override
+	public void appendHoverText(@NotNull ItemStack stack, @NotNull Item.TooltipContext context, @NotNull TooltipDisplay display, @NotNull Consumer<Component> tooltip, @NotNull TooltipFlag flags) {
+		super.appendHoverText(stack, context, display, tooltip, flags);
+		tooltip.accept(PELang.TOOLTIP_HARVEST_GODDESS.translate());
 	}
 
 	@Override

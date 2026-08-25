@@ -207,6 +207,7 @@ public class TimeWatch extends PEToggleItem implements IPedestalItem, IItemCharg
 		super.appendHoverText(stack, context, display, tooltip, flags);
 		tooltip.accept(PELang.TOOLTIP_TIME_WATCH_1.translate());
 		tooltip.accept(PELang.TOOLTIP_TIME_WATCH_2.translate(Component.keybind("key.use")));
+		tooltip.accept(PELang.TOOLTIP_TIME_WATCH_3.translate());
 		tooltip.accept(PELang.TIME_WATCH_MODE.translate(getTimeName(stack)));
 	}
 

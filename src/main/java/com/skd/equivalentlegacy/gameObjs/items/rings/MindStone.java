@@ -65,6 +65,7 @@ public class MindStone extends PEToggleItem implements IPedestalItem {
 		super.appendHoverText(stack, context, display, tooltip, flags);
 		int storedXp = stack.getOrDefault(PEDataComponentTypes.STORED_EXP, 0);
 		tooltip.accept(PELang.TOOLTIP_STORED_XP.translateColored(ChatFormatting.DARK_GREEN, ChatFormatting.GREEN, String.format("%,d", storedXp)));
+		tooltip.accept(PELang.TOOLTIP_MIND_STONE.translateColored(ChatFormatting.DARK_GREEN));
 	}
 
 

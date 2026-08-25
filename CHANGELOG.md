@@ -1,6 +1,12 @@
 # Changelog - Equivalent Legacy 26.2
 
 
+## [1.6.2] - 2026-08-25
+
+### Fix
+
+- **17 ítems con efectos activos no explicaban ese efecto en su tooltip**: varios anillos, piedras y piezas de armadura Gem alteran el mundo o al jugador mientras están equipados/activos (repulsión de mobs, curación/alimentación automática, congelar el área, ignición/extinción de fuego, atracción de ítems, drenaje de experiencia, anulación de daño de caída, aceleración de bloques cercanos, etc.), pero el tooltip no lo mencionaba en absoluto o solo mostraba el nombre del modo activo (p. ej. "Ignition") sin explicar qué hacía. Añadida una línea de tooltip que describe el efecto real a: Vendaval Desgarrador de Swiftwolf, Anillo de Arcana, Castigo del Arcángel, Banda de Agujero Negro, Piedra del Cuerpo, Banda de la Diosa de la Cosecha, Anillo de Ignición, Piedra de Vida, Piedra del Alma, Piedra de la Mente, Reloj del Tiempo Fluyente, Anillo del Vacío, Anillo Zero, y el Peto/Yelmo/Grebas/Botas de Gemas. Traducido a los 11 idiomas del mod además del inglés (fuente).
+
 ## [1.6.1] - 2026-08-21
 
 ### Fix
