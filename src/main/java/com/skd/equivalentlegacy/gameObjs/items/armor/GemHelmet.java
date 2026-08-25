@@ -51,6 +51,7 @@ public class GemHelmet extends GemArmorBase {
 	public void appendHoverText(@NotNull ItemStack stack, @NotNull Item.TooltipContext context, @NotNull TooltipDisplay display, @NotNull Consumer<Component> tooltip, @NotNull TooltipFlag flags) {
 		super.appendHoverText(stack, context, display, tooltip, flags);
 		tooltip.accept(PELang.GEM_LORE_HELM.translate());
+		tooltip.accept(PELang.TOOLTIP_GEM_HELMET.translate());
 		tooltip.accept(PELang.NIGHT_VISION_PROMPT.translate(ClientKeyHelper.getKeyName(PEKeybind.HELMET_TOGGLE)));
 		tooltip.accept(getComponent(hasNightVision(stack)));
 	}

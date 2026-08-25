@@ -90,6 +90,12 @@ public class Arcana extends ItemPE implements IItemMode<ArcanaMode>, IFireProtec
 		super.appendHoverText(stack, context, display, tooltip, flags);
 		if (stack.getOrDefault(PEDataComponentTypes.ACTIVE, false)) {
 			tooltip.accept(getToolTip(stack));
+			tooltip.accept(switch (getMode(stack)) {
+				case ZERO -> PELang.TOOLTIP_ARCANA_ZERO.translateColored(ChatFormatting.AQUA);
+				case IGNITION -> PELang.TOOLTIP_ARCANA_IGNITION.translateColored(ChatFormatting.AQUA);
+				case HARVEST -> PELang.TOOLTIP_ARCANA_HARVEST.translateColored(ChatFormatting.AQUA);
+				case SWRG -> PELang.TOOLTIP_ARCANA_SWRG.translateColored(ChatFormatting.AQUA);
+			});
 		} else {
 			tooltip.accept(PELang.TOOLTIP_ARCANA_INACTIVE.translateColored(ChatFormatting.RED));
 		}
