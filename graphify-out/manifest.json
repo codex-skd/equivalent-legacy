@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1787618837.0504591,
-    "ast_hash": "f6df68ae0d02888223aea4259bae5696",
+    "mtime": 1787828579.4714458,
+    "ast_hash": "bbb6bcb629aa3f10d60b8d7625abcb0f",
     "semantic_hash": ""
   },
   "README.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_EQUIVALENT_LEGACY_26-2.md": {
-    "mtime": 1787299144.2161772,
-    "ast_hash": "326837f8f8a6b1ede0894091c5cbeee5",
+    "mtime": 1787691681.4258683,
+    "ast_hash": "5b56080725b833c85ae4f9aa4ba66256",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1787619001.3471918,
-    "ast_hash": "26b4d0d8072cb13a2e4ca9ddd6698aec",
+    "mtime": 1787909549.8490062,
+    "ast_hash": "922a21158cc389a4729f6c00c35c02d3",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/config/ClientConfig.java": {
@@ -1460,13 +1460,13 @@
     "semantic_hash": ""
   },
   "src/main/resources/data/curios/tags/item/necklace.json": {
-    "mtime": 1786396110.7933261,
-    "ast_hash": "f76ec48e2323b4ee28dc302a77bf8a41",
+    "mtime": 1787827039.7955093,
+    "ast_hash": "326dece18daeb42ad8c8b2edb059fe8f",
     "semantic_hash": ""
   },
   "src/main/resources/data/curios/tags/item/ring.json": {
-    "mtime": 1786396110.806595,
-    "ast_hash": "92006a069050a05444e7fdcde30aa262",
+    "mtime": 1787827484.663241,
+    "ast_hash": "d97b7f754b84832a6bf43a76819caee5",
     "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/recipe/arcana_ring.json": {
@@ -4570,7 +4570,7 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/RepairTalisman.java": {
-    "mtime": 1786396101.9387982,
+    "mtime": 1787828040.7075312,
     "ast_hash": "3855de68f1b02e2ea7e7df24df049c70",
     "semantic_hash": ""
   },
@@ -4845,7 +4845,7 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/registration/impl/DataComponentTypeDeferredRegister.java": {
-    "mtime": 1786396101.982763,
+    "mtime": 1787905919.3925066,
     "ast_hash": "1eb4806e8811781e1373bd2ba980de2f",
     "semantic_hash": ""
   },
@@ -7010,8 +7010,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/ELCore.java": {
-    "mtime": 1787006004.605797,
-    "ast_hash": "168fc0b88d308b80055360394bd80904",
+    "mtime": 1787905919.3915038,
+    "ast_hash": "c704609ff36a2457d2d1385f474c14ce",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.4.3.md": {
@@ -7067,6 +7067,11 @@
   "docs/curseforge/versions/1.6.2.md": {
     "mtime": 1787618874.5397332,
     "ast_hash": "93067254756389b120ae9c7d5e96a7b7",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.6.3.md": {
+    "mtime": 1787830833.7009125,
+    "ast_hash": "199918b9cfd448d29279bcb91dc34f12",
     "semantic_hash": ""
   }
 }
