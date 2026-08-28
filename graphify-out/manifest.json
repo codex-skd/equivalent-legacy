@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1787828579.4714458,
-    "ast_hash": "bbb6bcb629aa3f10d60b8d7625abcb0f",
+    "mtime": 1787934008.77944,
+    "ast_hash": "1afbfbe86371722b2940ed6565b5408b",
     "semantic_hash": ""
   },
   "README.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1787909549.8490062,
-    "ast_hash": "922a21158cc389a4729f6c00c35c02d3",
+    "mtime": 1787934101.0405178,
+    "ast_hash": "6e2c27857866166f619674e6d0b38f03",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/config/ClientConfig.java": {
@@ -4570,8 +4570,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/RepairTalisman.java": {
-    "mtime": 1787828040.7075312,
-    "ast_hash": "3855de68f1b02e2ea7e7df24df049c70",
+    "mtime": 1787932777.458423,
+    "ast_hash": "be654d0e2c2b46381f16473a600a2f44",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/items/Tome.java": {
@@ -7072,6 +7072,11 @@
   "docs/curseforge/versions/1.6.3.md": {
     "mtime": 1787830833.7009125,
     "ast_hash": "199918b9cfd448d29279bcb91dc34f12",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.6.4.md": {
+    "mtime": 1787934024.106439,
+    "ast_hash": "b17db09b237990c662354dbe9ffffbd5",
     "semantic_hash": ""
   }
 }
