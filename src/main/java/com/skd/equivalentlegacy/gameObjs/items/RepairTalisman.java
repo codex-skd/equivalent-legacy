@@ -145,10 +145,25 @@ public class RepairTalisman extends ItemPE implements IAlchBagItem, IAlchChestIt
 			repaired.setDamageValue(repaired.getDamageValue() - 1);
 			if (inv instanceof IItemHandlerModifiable modifiable) {
 				modifiable.setStackInSlot(i, repaired);
-			} else {
-				invStack.setDamageValue(invStack.getDamageValue() - 1);
+				hasAction = true;
+			} else if (inv.isItemValid(i, repaired)) {
+				// Non-modifiable handlers (e.g. the legacy bridge over Regalia Slots API's
+				// ResourceHandler) hand out fresh ItemStack copies from getStackInSlot, so mutating
+				// invStack does nothing. Round-trip through extract/insert instead, which mutate the
+				// backing handler. The isItemValid guard above guarantees the repaired stack can go
+				// back into the same slot, so this cannot lose the item.
+				ItemStack extracted = inv.extractItem(i, invStack.getCount(), false);
+				if (!extracted.isEmpty()) {
+					extracted.setDamageValue(extracted.getDamageValue() - 1);
+					ItemStack leftover = inv.insertItem(i, extracted, false);
+					if (leftover.isEmpty()) {
+						hasAction = true;
+					} else {
+						// Should not happen for a freshly emptied slot; put it back untouched.
+						inv.insertItem(i, leftover, false);
+					}
+				}
 			}
-			hasAction = true;
 		}
 		return hasAction;
 	}

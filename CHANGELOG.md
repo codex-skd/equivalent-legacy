@@ -1,6 +1,12 @@
 # Changelog - Equivalent Legacy 26.2
 
 
+## [1.6.4] - 2026-08-28
+
+### Fix
+
+- **El Talismán de Reparación seguía sin reparar items colocados en ranuras de Regalia Slots API**. El changelog de 1.6.3 daba esto por corregido, pero aquel commit solo añadió items a tags `curios:*` — `RepairTalisman.java` no se tocó. El talismán ya recorría las ranuras vía `IntegrationHelper.getCurioItemHandler`, pero ese handler es el puente legacy `IItemHandler.of(ResourceHandler)` de NeoForge (`ItemResourceHandlerAdapter`), que **no** es `IItemHandlerModifiable` y cuyo `getStackInSlot` devuelve un `ItemStack` nuevo cada llamada — así que `RepairTalisman.repairAllItems` caía a la rama `else` y hacía `setDamageValue` sobre una copia muerta, sin efecto. Ahora, cuando el handler no es modificable, la reparación se aplica vía `extractItem` + `insertItem` (que sí mutan el backing por transacción), con una guarda `isItemValid` previa que garantiza que el item vuelve a su ranura sin riesgo de pérdida.
+
 ## [1.6.3] - 2026-08-27
 
 ### Fix
