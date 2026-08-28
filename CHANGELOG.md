@@ -1,6 +1,13 @@
 # Changelog - Equivalent Legacy 26.2
 
 
+## [1.6.3] - 2026-08-27
+
+### Fix
+
+- **Amuletos/Gemas no se podían colocar en ranura de amuleto de Regalia Slots API**: añadidos `gem_of_eternal_density` (Gema de Densidad Eterna) y `mind_stone` (Piedra Mental) al tag `curios:necklace`; eliminada `gem_of_eternal_density` del tag `curios:ring` por ser un amuleto.
+- **Talismán de Reparación no reparaba items en ranuras de Regalia Slots API**: al colocarlo en cinturón (belt), ahora repara tanto el inventario del jugador como los items equipados en ranuras de collar, anillo, cinturón, etc.
+
 ## [1.6.2] - 2026-08-25
 
 ### Fix
