@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": { "item": "minecraft:glowstone" },
+    "P": { "item": "equivalent_legacy:entropy_sink" },
+    "U": { "item": "equivalent_legacy:dark_matter" }
+  },
+  "pattern": [
+    "GUG",
+    "GPG",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:entropy_sink_dark"
+  }
+}

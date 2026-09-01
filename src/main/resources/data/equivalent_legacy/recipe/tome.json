@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "equivalent_legacy:tome_enabled"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "equivalent_legacy:full_klein_stars"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "equivalent_legacy:tome",
+  "key": {
+    "B": { "item": "minecraft:book" },
+    "H": { "item": "equivalent_legacy:high_covalence_dust" },
+    "K": { "item": "equivalent_legacy:klein_star_omega" },
+    "L": { "item": "equivalent_legacy:low_covalence_dust" },
+    "M": { "item": "equivalent_legacy:medium_covalence_dust" }
+  },
+  "pattern": [
+    "HML",
+    "KBK",
+    "LMH"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:tome"
+  }
+}

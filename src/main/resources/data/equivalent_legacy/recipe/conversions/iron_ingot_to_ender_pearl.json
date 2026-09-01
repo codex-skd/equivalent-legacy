@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "equivalent_legacy:philosophers_stone" },
+    { "tag": "c:ingots/iron" },
+    { "tag": "c:ingots/iron" },
+    { "tag": "c:ingots/iron" },
+    { "tag": "c:ingots/iron" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:ender_pearl"
+  }
+}

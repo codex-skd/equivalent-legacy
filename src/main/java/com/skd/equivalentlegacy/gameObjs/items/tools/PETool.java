@@ -1,0 +1,101 @@
+package com.skd.equivalentlegacy.gameObjs.items.tools;
+
+import java.util.List;
+import java.util.function.Consumer;
+import com.skd.equivalentlegacy.api.capabilities.item.IItemCharge;
+import com.skd.equivalentlegacy.gameObjs.IMatterType;
+import com.skd.equivalentlegacy.gameObjs.items.IBarHelper;
+import com.skd.equivalentlegacy.gameObjs.items.ItemPE;
+import com.skd.equivalentlegacy.gameObjs.registries.PEDataComponentTypes;
+import com.skd.equivalentlegacy.utils.ToolHelper;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.entity.EquipmentSlotGroup;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.component.ItemAttributeModifiers;
+import net.minecraft.world.item.component.Tool;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
+import org.jetbrains.annotations.NotNull;
+
+public abstract class PETool extends ItemPE implements IItemCharge, IBarHelper {
+
+	protected final IMatterType matterType;
+	private final int numCharges;
+
+	protected PETool(IMatterType matterType, TagKey<Block> mineableTag, int numCharges, Properties props) {
+		this(matterType, new Tool(List.of(
+				Tool.Rule.deniesDrops(matterType.getIncorrectBlocksForDrops()),
+				Tool.Rule.minesAndDrops(mineableTag, matterType.getSpeed())
+		), 1.0F, 2), numCharges, props);
+	}
+
+	protected PETool(IMatterType matterType, Tool tool, int numCharges, Properties props) {
+		super(props.component(DataComponents.TOOL, tool)
+				.component(PEDataComponentTypes.CHARGE, 0)
+				.component(PEDataComponentTypes.STORED_EMC, 0L)
+		);
+		this.matterType = matterType;
+		this.numCharges = numCharges;
+	}
+
+	@Override
+	public int getEnchantmentValue() {
+		return matterType.getEnchantmentValue();
+	}
+
+	public static ItemAttributeModifiers createAttributes(IMatterType tier, float attackDamage, float attackSpeed) {
+		return ItemAttributeModifiers.builder()
+				.add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, attackDamage + tier.getAttackDamageBonus(), AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
+				.add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, attackSpeed, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
+				.build();
+	}
+
+	@Override
+	public <T extends LivingEntity> int damageItem(@NotNull ItemStack stack, int amount, T entity, @NotNull Consumer<Item> onBroken) {
+		return 0;
+	}
+
+	@Override
+	public boolean isBarVisible(@NotNull ItemStack stack) {
+		return true;
+	}
+
+	@Override
+	public float getWidthForBar(ItemStack stack) {
+		return 1 - getChargePercent(stack);
+	}
+
+	@Override
+	public int getBarWidth(@NotNull ItemStack stack) {
+		return getScaledBarWidth(stack);
+	}
+
+	@Override
+	public int getBarColor(@NotNull ItemStack stack) {
+		return getColorForBar(stack);
+	}
+
+	@Override
+	public float getDestroySpeed(@NotNull ItemStack stack, @NotNull BlockState state) {
+		Tool tool = stack.get(DataComponents.TOOL);
+		float base = tool != null ? tool.getMiningSpeed(state) : 1.0F;
+		return ToolHelper.getDestroySpeed(getShortCutDestroySpeed(stack, state, base), matterType, getCharge(stack));
+	}
+
+	@Override
+	public int getNumCharges(@NotNull ItemStack stack) {
+		return numCharges;
+	}
+
+	/**
+	 * Override this if we need to also include any "shortcuts" that specific vanilla tool types include for specific blocks/material types.
+	 */
+	protected float getShortCutDestroySpeed(@NotNull ItemStack stack, @NotNull BlockState state, float baseSpeed) {
+		return baseSpeed;
+	}
+}

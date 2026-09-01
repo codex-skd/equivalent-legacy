@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "1": { "item": "equivalent_legacy:rm_shears" },
+    "2": { "item": "equivalent_legacy:rm_axe" },
+    "3": { "item": "equivalent_legacy:rm_sword" },
+    "4": { "item": "equivalent_legacy:rm_hoe" },
+    "R": { "item": "equivalent_legacy:red_matter" }
+  },
+  "pattern": [
+    "123",
+    "4RR",
+    "RRR"
+  ],
+  "result": {
+    "id": "equivalent_legacy:rm_katar"
+  }
+}

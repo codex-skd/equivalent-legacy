@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "equivalent_legacy:block/transmutation_table",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "equivalent_legacy:block/transmutation_table",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "equivalent_legacy:block/transmutation_table",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "equivalent_legacy:block/transmutation_table",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "equivalent_legacy:block/transmutation_table"
+    },
+    "facing=west": {
+      "model": "equivalent_legacy:block/transmutation_table",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

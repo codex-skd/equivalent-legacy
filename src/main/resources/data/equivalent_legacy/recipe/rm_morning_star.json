@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "1": { "item": "equivalent_legacy:rm_hammer" },
+    "2": { "item": "equivalent_legacy:rm_pick" },
+    "3": { "item": "equivalent_legacy:rm_shovel" },
+    "R": { "item": "equivalent_legacy:red_matter" }
+  },
+  "pattern": [
+    "123",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "equivalent_legacy:rm_morning_star"
+  }
+}

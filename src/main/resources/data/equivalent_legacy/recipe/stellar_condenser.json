@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": { "tag": "c:storage_blocks/diamond" },
+    "E": { "item": "minecraft:ender_eye" },
+    "G": { "item": "minecraft:glowstone" }
+  },
+  "pattern": [
+    "GEG",
+    "EDE",
+    "GEG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:stellar_condenser"
+  }
+}

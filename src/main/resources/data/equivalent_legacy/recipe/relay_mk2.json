@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": { "tag": "c:obsidians/normal" },
+    "P": { "item": "equivalent_legacy:relay_mk1" },
+    "U": { "item": "equivalent_legacy:dark_matter" }
+  },
+  "pattern": [
+    "OUO",
+    "OPO",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:relay_mk2"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "equivalent_legacy:arcana_ring" },
+    { "item": "minecraft:dirt" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:grass_block"
+  }
+}

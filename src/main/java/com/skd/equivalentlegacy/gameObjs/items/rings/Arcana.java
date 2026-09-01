@@ -1,0 +1,239 @@
+package com.skd.equivalentlegacy.gameObjs.items.rings;
+import java.util.List;
+
+import com.mojang.serialization.Codec;
+import io.netty.buffer.ByteBuf;
+import java.util.Locale;
+import java.util.function.IntFunction;
+import com.skd.equivalentlegacy.api.capabilities.item.IExtraFunction;
+import com.skd.equivalentlegacy.api.capabilities.item.IProjectileShooter;
+import com.skd.equivalentlegacy.gameObjs.entity.EntityFireProjectile;
+import com.skd.equivalentlegacy.gameObjs.entity.EntitySWRGProjectile;
+import com.skd.equivalentlegacy.gameObjs.items.ICapabilityAware;
+import com.skd.equivalentlegacy.gameObjs.items.IFireProtector;
+import com.skd.equivalentlegacy.gameObjs.items.IItemMode;
+import com.skd.equivalentlegacy.gameObjs.items.IModeEnum;
+import com.skd.equivalentlegacy.gameObjs.items.ISelfCraftingRemainder;
+import com.skd.equivalentlegacy.gameObjs.items.ItemPE;
+import com.skd.equivalentlegacy.gameObjs.items.rings.Arcana.ArcanaMode;
+import com.skd.equivalentlegacy.gameObjs.registries.PEDataComponentTypes;
+import com.skd.equivalentlegacy.gameObjs.registries.PESoundEvents;
+import com.skd.equivalentlegacy.integration.IntegrationHelper;
+import com.skd.equivalentlegacy.utils.PlayerHelper;
+import com.skd.equivalentlegacy.utils.WorldHelper;
+import com.skd.equivalentlegacy.utils.text.IHasTranslationKey;
+import com.skd.equivalentlegacy.utils.text.PELang;
+import net.minecraft.ChatFormatting;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.component.DataComponentType;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.codec.ByteBufCodecs;
+import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.util.ByIdMap;
+import net.minecraft.util.StringRepresentable;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.projectile.Projectile;
+import net.minecraft.world.entity.projectile.Snowball;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Blocks;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
+import net.neoforged.neoforge.common.ItemAbilities;
+import net.neoforged.neoforge.common.ItemAbility;
+import org.jetbrains.annotations.NotNull;
+
+public class Arcana extends ItemPE implements IItemMode<ArcanaMode>, IFireProtector, IExtraFunction, IProjectileShooter, ICapabilityAware, ISelfCraftingRemainder {
+
+	public Arcana(Properties props) {
+		super(props.component(PEDataComponentTypes.ACTIVE, false)
+				.component(PEDataComponentTypes.ARCANA_MODE, ArcanaMode.ZERO)
+				.component(PEDataComponentTypes.STORED_EMC, 0L)
+		);
+	}
+
+	private void tick(ItemStack stack, Level level, ServerPlayer player) {
+		if (stack.getOrDefault(PEDataComponentTypes.ACTIVE, false)) {
+			switch (getMode(stack)) {
+				case ZERO -> WorldHelper.freezeInBoundingBox(level, player.getBoundingBox().inflate(5), player, true);
+				case IGNITION -> WorldHelper.igniteNearby(level, player);
+				case HARVEST -> WorldHelper.growNearbyRandomly(true, level, player);
+				case SWRG -> WorldHelper.repelEntitiesSWRG(level, player.getBoundingBox().inflate(5), player);
+			}
+		}
+	}
+
+	@Override
+	public void inventoryTick(@NotNull ItemStack stack, @NotNull Level level, @NotNull Entity entity, int slot, boolean selected) {
+		super.inventoryTick(stack, level, entity, slot, selected);
+		if (!level.isClientSide && hotBarOrOffHand(slot) && entity instanceof ServerPlayer player) {
+			tick(stack, level, player);
+		}
+	}
+
+	@Override
+	public void appendHoverText(@NotNull ItemStack stack, @NotNull Item.TooltipContext context, @NotNull List<Component> tooltip, @NotNull TooltipFlag flags) {
+		super.appendHoverText(stack, context, tooltip, flags);
+		if (stack.getOrDefault(PEDataComponentTypes.ACTIVE, false)) {
+			tooltip.add(getToolTip(stack));
+			tooltip.add(switch (getMode(stack)) {
+				case ZERO -> PELang.TOOLTIP_ARCANA_ZERO.translateColored(ChatFormatting.AQUA);
+				case IGNITION -> PELang.TOOLTIP_ARCANA_IGNITION.translateColored(ChatFormatting.AQUA);
+				case HARVEST -> PELang.TOOLTIP_ARCANA_HARVEST.translateColored(ChatFormatting.AQUA);
+				case SWRG -> PELang.TOOLTIP_ARCANA_SWRG.translateColored(ChatFormatting.AQUA);
+			});
+		} else {
+			tooltip.add(PELang.TOOLTIP_ARCANA_INACTIVE.translateColored(ChatFormatting.RED));
+		}
+	}
+
+	@NotNull
+	@Override
+	public InteractionResultHolder<ItemStack> use(@NotNull Level level, @NotNull Player player, @NotNull InteractionHand hand) {
+		if (!level.isClientSide) {
+			ItemStack stack = player.getItemInHand(hand);
+			stack.update(PEDataComponentTypes.ACTIVE, false, active -> !active);
+		}
+		return InteractionResultHolder.success(player.getItemInHand(hand));
+	}
+
+	@NotNull
+	@Override
+	public InteractionResult useOn(UseOnContext ctx) {
+		if (getMode(ctx.getItemInHand()) == ArcanaMode.IGNITION) {
+			InteractionResult result = WorldHelper.igniteBlock(ctx);
+			if (result != InteractionResult.PASS) {
+				return result;
+			}
+		}
+		return super.useOn(ctx);
+	}
+
+	@Override
+	public boolean doExtraFunction(@NotNull Player player, @NotNull ItemStack stack, InteractionHand hand) {
+		//GIANT FIRE ROW OF DEATH
+		Level level = player.level();
+		if (level.isClientSide) {
+			return true;
+		}
+		if (getMode(stack) == ArcanaMode.IGNITION) {
+			switch (player.getDirection()) {
+				case SOUTH, NORTH -> igniteNear(player, level, 30, 5, 3);
+				case WEST, EAST -> igniteNear(player, level, 3, 5, 30);
+			}
+			level.playSound(null, player.getX(), player.getY(), player.getZ(), PESoundEvents.POWER.get(), SoundSource.PLAYERS, 1.0F, 1.0F);
+		}
+		return true;
+	}
+
+	private void igniteNear(Player player, Level level, int xOffset, int yOffset, int zOffset) {
+		for (BlockPos pos : WorldHelper.getPositionsInBox(player.getBoundingBox().inflate(xOffset, yOffset, zOffset))) {
+			if (level.isEmptyBlock(pos)) {
+				PlayerHelper.checkedPlaceBlock(player, level, pos.immutable(), Blocks.FIRE.defaultBlockState());
+			}
+		}
+	}
+
+	@Override
+	public boolean shootProjectile(@NotNull Player player, @NotNull ItemStack stack, InteractionHand hand) {
+		Level level = player.level();
+		if (level.isClientSide) {
+			return false;
+		}
+		SoundEvent sound = null;
+		Projectile projectile = switch (getMode(stack)) {
+			case ZERO -> {
+				sound = SoundEvents.SNOWBALL_THROW;
+				yield new Snowball(level, player);
+			}
+			case IGNITION -> {
+				sound = PESoundEvents.POWER.get();
+				yield new EntityFireProjectile(player, true, level);
+			}
+			case SWRG -> new EntitySWRGProjectile(player, true, level);
+			default -> null;
+		};
+		if (projectile == null) {
+			return false;
+		}
+		projectile.shootFromRotation(player, player.getXRot(), player.getYRot(), 0, 1.5F, 1);
+		level.addFreshEntity(projectile);
+		if (sound != null) {
+			projectile.playSound(sound, 0.5F, 0.4F / (level.random.nextFloat() * 0.4F + 0.8F));
+		}
+		return true;
+	}
+
+	@Override
+	public boolean canPerformAction(@NotNull ItemStack stack, @NotNull ItemAbility action) {
+		if (action == ItemAbilities.FIRESTARTER_LIGHT && getMode((ItemStack) stack) == ArcanaMode.IGNITION) {
+			return true;
+		}
+		return super.canPerformAction(stack, action);
+	}
+
+	@Override
+	public void attachCapabilities(RegisterCapabilitiesEvent event) {
+		IntegrationHelper.registerCuriosCapability(event, this);
+	}
+
+	@Override
+	public DataComponentType<ArcanaMode> getDataComponentType() {
+		return PEDataComponentTypes.ARCANA_MODE.get();
+	}
+
+	@Override
+	public ArcanaMode getDefaultMode() {
+		return ArcanaMode.ZERO;
+	}
+
+	public enum ArcanaMode implements IModeEnum<ArcanaMode> {
+		ZERO(PELang.MODE_ARCANA_1),
+		IGNITION(PELang.MODE_ARCANA_2),
+		HARVEST(PELang.MODE_ARCANA_3),
+		SWRG(PELang.MODE_ARCANA_4);
+
+		public static final Codec<ArcanaMode> CODEC = StringRepresentable.fromEnum(ArcanaMode::values);
+		public static final IntFunction<ArcanaMode> BY_ID = ByIdMap.continuous(ArcanaMode::ordinal, values(), ByIdMap.OutOfBoundsStrategy.WRAP);
+		public static final StreamCodec<ByteBuf, ArcanaMode> STREAM_CODEC = ByteBufCodecs.idMapper(BY_ID, ArcanaMode::ordinal);
+
+		private final IHasTranslationKey langEntry;
+		private final String serializedName;
+
+		ArcanaMode(IHasTranslationKey langEntry) {
+			this.serializedName = name().toLowerCase(Locale.ROOT);
+			this.langEntry = langEntry;
+		}
+
+		@NotNull
+		@Override
+		public String getSerializedName() {
+			return serializedName;
+		}
+
+		@Override
+		public String getTranslationKey() {
+			return langEntry.getTranslationKey();
+		}
+
+		@Override
+		public ArcanaMode next(ItemStack stack) {
+			return switch (this) {
+				case ZERO -> IGNITION;
+				case IGNITION -> HARVEST;
+				case HARVEST -> SWRG;
+				case SWRG -> ZERO;
+			};
+		}
+	}
+}
