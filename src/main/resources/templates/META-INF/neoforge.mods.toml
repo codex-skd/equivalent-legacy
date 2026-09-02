@@ -96,10 +96,12 @@ Equivalent Legacy for Minecraft ${minecraft_version} / NeoForge. Forked from Equ
 
 # JEI is optional: when present, the mod registers a Transmutation recipe category showing block
 # conversions and their EMC costs. The mod loads and works without JEI.
+# Floor is the JEI build shipped by the target modpack (JEI for 1.21.1 uses the 19.x line);
+# the previous [30.15.0,) bound was carried over from a newer-MC template and never matched.
 [[dependencies.${mod_id}]]
     modId="jei"
     type="optional"
-    versionRange="[30.15.0,)"
+    versionRange="[19.50.0.414,)"
     ordering="NONE"
     side="CLIENT"
 
