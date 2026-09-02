@@ -170,9 +170,9 @@
     "semantic_hash": "612fb30eea8191a6c57d8ea97b9fcc19"
   },
   "src/main/java/com/skd/equivalentlegacy/api/conversion/CustomConversionFile.java": {
-    "mtime": 1788292579.6422062,
-    "ast_hash": "70097a1ed5babcad322f3a58b9db61ce",
-    "semantic_hash": "70097a1ed5babcad322f3a58b9db61ce"
+    "mtime": 1788372122.732404,
+    "ast_hash": "6150a74f484f520103036b157d0bd2a1",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/api/conversion/FixedValues.java": {
     "mtime": 1788292579.644222,
@@ -655,9 +655,9 @@
     "semantic_hash": "f5d10b09d4157bac0442a10c1aa76f1d"
   },
   "src/main/java/com/skd/equivalentlegacy/emc/mappers/customConversions/CustomConversionMapper.java": {
-    "mtime": 1788292579.9339495,
-    "ast_hash": "d9e97c7dd3ffcae7d26244299e0a38a4",
-    "semantic_hash": "d9e97c7dd3ffcae7d26244299e0a38a4"
+    "mtime": 1788385888.7449496,
+    "ast_hash": "daaab837e9ed958299f67a54c59b160a",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/emc/mappers/recipe/BaseRecipeTypeMapper.java": {
     "mtime": 1788295552.882135,
@@ -4380,9 +4380,9 @@
     "semantic_hash": "eb513ce06dece96ad59f85097af3b1ca"
   },
   "src/main/resources/data/equivalent_legacy/pe_custom_conversions/atm_powah_compat.json": {
-    "mtime": 1786396104.0,
-    "ast_hash": "e2eb904a080021512886665e230bd100",
-    "semantic_hash": "e2eb904a080021512886665e230bd100"
+    "mtime": 1788373585.4832265,
+    "ast_hash": "bf45e0f90940f1148dad2d5adf950cb4",
+    "semantic_hash": ""
   },
   "src/main/resources/data/equivalent_legacy/pe_custom_conversions/defaults.json": {
     "mtime": 1787005073.0,
@@ -5675,8 +5675,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1788341010.9083853,
-    "ast_hash": "12fb23cd520ddbbbc4ecc6c2e1bcc957",
+    "mtime": 1788387935.9149604,
+    "ast_hash": "6c057b7312d1682cf89fdac824e29487",
     "semantic_hash": ""
   },
   "README.md": {
@@ -5700,8 +5700,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1788341025.1124713,
-    "ast_hash": "c0fb2d20ac10632c50aa1b51bc0331bf",
+    "mtime": 1788388067.0998266,
+    "ast_hash": "838ce57dfab9a7e8dff914c02523dfff",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.1.md": {
@@ -6732,6 +6732,21 @@
   "docs/curseforge/versions/0.0.0-beta.3.md": {
     "mtime": 1788341019.377555,
     "ast_hash": "14b314aac1225723c26b75a359b5135c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/pe_custom_conversions/atm_compat.json": {
+    "mtime": 1788373566.439894,
+    "ast_hash": "a033a065226afaa6ea2f91fed0c16f20",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/equivalent_legacy/pe_custom_conversions/powah_compat.json": {
+    "mtime": 1788373576.9236553,
+    "ast_hash": "2d1ac3ef0dd71fe5c85ecd9d665e0dc4",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.4.md": {
+    "mtime": 1788387953.511252,
+    "ast_hash": "6c723bcfc126bcedeb029d2a83043a54",
     "semantic_hash": ""
   }
 }
