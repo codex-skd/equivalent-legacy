@@ -36,6 +36,11 @@ https://gitlab.com/stalking-dragons/minecraft/equivalent-legacy.git
 
 ## Historial
 
+- v0.0.0-beta.2: fix de metadatos. El rango de la dependencia opcional JEI en `neoforge.mods.toml`
+  era `[30.15.0,)` (heredado de una plantilla de otra versión de MC); JEI para 1.21.1 va en la
+  serie `19.x`, así que NeoForge registraba `Unsupported installed optional dependencies` para
+  `jei`. Ahora es `[19.50.0.414,)` (la build de JEI del modpack objetivo, o superior). Mismo
+  código que beta.1.
 - v0.0.0-beta.1: port a Minecraft 1.21.1 / NeoForge 21.1.249 desde la línea 26.2 (1.6.4).
   Reversión de API 26.2→1.21.1 en 474 clases; fix de pérdida de items al romper 7 tipos de
   bloque (26.2 `preRemoveSideEffects` → 1.21.1 `Block#onRemove`); 151 recetas + 2 tags

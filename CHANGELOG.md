@@ -2,6 +2,17 @@
 
 Branch `minecraft/1.21.1/neoforge-21.1.249/production`. History independent of the 26.2 branch.
 
+## [0.0.0-beta.2] - 2026-09-02
+
+### Fixed
+
+- **JEI optional dependency range.** `neoforge.mods.toml` declared the JEI dependency as
+  `versionRange="[30.15.0,)"`, a bound carried over from a newer-Minecraft template. JEI for
+  1.21.1 uses the `19.x` line, so any real install failed the check and NeoForge logged
+  `Unsupported installed optional dependencies: Mod ID: 'jei' ... Expected range: '[30.15.0,)'`.
+  The range is now `[19.50.0.414,)` — the JEI build shipped by the target modpack, or newer.
+  JEI stays `type="optional"`; the mod still loads and works without it.
+
 ## [0.0.0-beta.1] - 2026-09-02
 
 ### Added
