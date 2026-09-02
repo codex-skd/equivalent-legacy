@@ -36,6 +36,12 @@ https://gitlab.com/stalking-dragons/minecraft/equivalent-legacy.git
 
 ## Historial
 
+- v0.0.0-beta.3: fix de assets de cliente. MC 1.21.1 resuelve los modelos de item desde
+  `assets/equivalent_legacy/models/item/<id>.json`; el port los generó para los items sueltos
+  pero no para los 19 block-items (bloques de combustible, Collector MK1-3, Entropy Sink, Stellar
+  Condenser, hornos de materia, bloques de materia, Nova Catalyst/Cataclysm, Relay MK1-3), que
+  salían con la textura ausente en el creativo y en la mano. Añadidos los 19 modelos, cada uno
+  heredando su modelo de bloque. Sin tocar Java. `clean build` OK. Sin verificar in-game.
 - v0.0.0-beta.2: fix de metadatos. El rango de la dependencia opcional JEI en `neoforge.mods.toml`
   era `[30.15.0,)` (heredado de una plantilla de otra versión de MC); JEI para 1.21.1 va en la
   serie `19.x`, así que NeoForge registraba `Unsupported installed optional dependencies` para

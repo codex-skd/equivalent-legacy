@@ -2,6 +2,24 @@
 
 Branch `minecraft/1.21.1/neoforge-21.1.249/production`. History independent of the 26.2 branch.
 
+## [0.0.0-beta.3] - 2026-09-02
+
+### Fixed
+
+- **Missing item textures on 19 block items.** Minecraft 1.21.1 resolves item models from
+  `assets/equivalent_legacy/models/item/<id>.json`. The port produced those models for every
+  standalone item but not for the block items, so Alchemical Coal / Mobius Fuel / Aeternalis Fuel
+  blocks, Collector MK1-3, Entropy Sink (all tiers), Stellar Condenser, Dark/Red Matter Furnace,
+  Dark/Red Matter blocks, Nova Catalyst, Nova Cataclysm and Relay MK1-3 all rendered as the
+  missing-texture checkerboard in the creative inventory and in hand. Added the 19 item models,
+  each parenting its existing block model (same pattern already used by `dm_pedestal`,
+  `interdiction_torch` and the chest-like blocks).
+
+### Notes
+
+- The `assets/equivalent_legacy/items/` directory (item model definitions) is the 1.21.4+ format
+  and is ignored by 1.21.1; it is left in place but has no effect on this version.
+
 ## [0.0.0-beta.2] - 2026-09-02
 
 ### Fixed
