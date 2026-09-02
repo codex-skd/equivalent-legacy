@@ -1,6 +1,12 @@
 # Changelog - Equivalent Legacy 26.2
 
 
+## [1.6.5] - 2026-09-03
+
+### Changed
+
+- **Los ficheros `pe_custom_conversions` ahora respetan las condiciones de carga de NeoForge.** El compat EMC de ATM/Powah que el mod trae empaquetado (`atm_powah_compat.json`) se cargaba siempre; sin `allthemodium` ni `powah` instalados, `CustomConversionMapper` escupía decenas de errores `Unable to deserialize key: Registry minecraft:item does not contain element allthemodium:…` y `Failed to read conversions: … powah:…` a nivel ERROR en cada mapeo de EMC. Ahora el fichero se ha partido en `atm_compat.json` (con `neoforge:conditions` → `mod_loaded` para `allthemodium`) y `powah_compat.json` (→ `powah`), y el original queda vacío por compatibilidad. `CustomConversionMapper` envuelve sus ops en `ConditionalOps` y parsea con `createConditionalCodecWithConditions` (el mismo patrón que ya usa `WorldTransmutationManager`); un fichero cuyas condiciones no se cumplen se salta en silencio (log a debug) en vez de forzarse. Todos los valores EMC y conversiones se conservan sin cambios para los packs que sí traen esos mods.
+
 ## [1.6.4] - 2026-08-28
 
 ### Fix

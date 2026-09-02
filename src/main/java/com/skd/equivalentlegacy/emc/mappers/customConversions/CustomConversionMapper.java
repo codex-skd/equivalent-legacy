@@ -1,6 +1,8 @@
 package com.skd.equivalentlegacy.emc.mappers.customConversions;
 
 import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
+import com.mojang.serialization.DataResult;
 import com.mojang.serialization.JsonOps;
 import it.unimi.dsi.fastutil.objects.Object2LongMap;
 import it.unimi.dsi.fastutil.objects.Object2LongSortedMaps;
@@ -21,7 +23,6 @@ import com.skd.equivalentlegacy.api.mapper.collector.IMappingCollector;
 import com.skd.equivalentlegacy.api.nss.NSSFake;
 import com.skd.equivalentlegacy.api.nss.NormalizedSimpleStack;
 import com.skd.equivalentlegacy.config.PEConfigTranslations;
-import com.skd.equivalentlegacy.impl.codec.PECodecHelper;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.resources.FileToIdConverter;
 import net.minecraft.resources.RegistryOps;
@@ -29,6 +30,9 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.server.ReloadableServerResources;
 import net.minecraft.server.packs.resources.Resource;
 import net.minecraft.server.packs.resources.ResourceManager;
+import net.neoforged.neoforge.common.conditions.ConditionalOps;
+import net.neoforged.neoforge.common.conditions.ICondition;
+import net.neoforged.neoforge.common.conditions.WithConditions;
 import org.apache.logging.log4j.util.TriConsumer;
 
 @EMCMapper
@@ -66,7 +70,9 @@ public class CustomConversionMapper implements IEMCMapper<NormalizedSimpleStack,
 	private static Map<Identifier, CustomConversionFile> load(RegistryAccess registryAccess, ResourceManager resourceManager) {
 		Map<Identifier, CustomConversionFile> loading = new HashMap<>();
 
-		RegistryOps<JsonElement> serializationContext = registryAccess.createSerializationContext(JsonOps.INSTANCE);
+		// Wrap in ConditionalOps so CONDITIONAL_CODEC can evaluate "neoforge:conditions" (mod_loaded gates on the ATM/Powah compat files).
+		RegistryOps<JsonElement> serializationContext = new ConditionalOps<>(
+				registryAccess.createSerializationContext(JsonOps.INSTANCE), ICondition.IContext.EMPTY);
 		// Find all data/<domain>/pe_custom_conversions/foo/bar.json
 		for (Map.Entry<Identifier, List<Resource>> entry : CONVERSION_LISTER.listMatchingResourceStacks(resourceManager).entrySet()) {
 			Identifier file = entry.getKey();//<domain>:foo/bar
@@ -78,10 +84,17 @@ public class CustomConversionMapper implements IEMCMapper<NormalizedSimpleStack,
 			// Iterate through all copies of this conversion, from lowest to highest priority datapack, merging the results together
 			for (Resource resource : entry.getValue()) {
 				try (Reader reader = resource.openAsReader()) {
-					Optional<CustomConversionFile> fileOptional = PECodecHelper.read(serializationContext, reader, CustomConversionFile.CODEC, "custom conversion file");
-					//noinspection OptionalIsPresent - Capturing lambda
-					if (fileOptional.isPresent()) {
-						loading.merge(conversionId, fileOptional.get(), CustomConversionFile::merge);
+					JsonElement json = JsonParser.parseReader(reader);
+					DataResult<Optional<WithConditions<CustomConversionFile>>> result = CustomConversionFile.CONDITIONAL_CODEC.parse(serializationContext, json);
+					if (result.isSuccess()) {
+						Optional<WithConditions<CustomConversionFile>> decoded = result.getOrThrow();
+						if (decoded.isPresent()) {
+							loading.merge(conversionId, decoded.get().carrier(), CustomConversionFile::merge);
+						} else {
+							ELCore.debugLog("Skipping loading custom conversion file {} as its conditions were not met", file);
+						}
+					} else {
+						result.ifError(error -> ELCore.LOGGER.error("Parsing error loading custom conversion file {}: {}", file, error.message()));
 					}
 				} catch (IOException e) {
 					ELCore.LOGGER.error("Could not load resource {}", file, e);
