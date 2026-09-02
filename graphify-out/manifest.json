@@ -5675,8 +5675,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1788311928.8431268,
-    "ast_hash": "524a66a6bf104105058b0b0db2991475",
+    "mtime": 1788341010.9083853,
+    "ast_hash": "12fb23cd520ddbbbc4ecc6c2e1bcc957",
     "semantic_hash": ""
   },
   "README.md": {
@@ -5700,8 +5700,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1788311941.3927987,
-    "ast_hash": "9373d0e1e2e10efabe84bde0c96645c0",
+    "mtime": 1788341025.1124713,
+    "ast_hash": "c0fb2d20ac10632c50aa1b51bc0331bf",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.1.md": {
@@ -6632,6 +6632,106 @@
   "src/main/resources/assets/equivalent_legacy/textures/slot/empty_klein_star.png": {
     "mtime": 1786396102.0,
     "ast_hash": "ead0eb17ca3e6a2de331956268372b5f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/aeternalis_fuel_block.json": {
+    "mtime": 1788337785.4133945,
+    "ast_hash": "10514e3d424458a273d9109d95efd3f1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/alchemical_coal_block.json": {
+    "mtime": 1788337785.4127274,
+    "ast_hash": "126194ebfe2b945c763ef40bb6c6c7d3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/collector_mk1.json": {
+    "mtime": 1788337785.4138944,
+    "ast_hash": "01dd5e8344bd41a391120d79996206e5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/collector_mk2.json": {
+    "mtime": 1788337785.4143946,
+    "ast_hash": "12f2b43928e6e619a695e602ab8c85a0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/collector_mk3.json": {
+    "mtime": 1788337785.417936,
+    "ast_hash": "d89aff8bfce4c2d30bfab9cb062f9f79",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dark_matter_block.json": {
+    "mtime": 1788337785.420964,
+    "ast_hash": "8ea52b622dc807438c17c1c465c2d0a7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/dm_furnace.json": {
+    "mtime": 1788337785.420464,
+    "ast_hash": "b23f75db451564f353c500ea945bbde6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/entropy_sink.json": {
+    "mtime": 1788337785.4184358,
+    "ast_hash": "7fe25eba5c97f97756f04dc4424d5dfc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/entropy_sink_dark.json": {
+    "mtime": 1788337785.4184358,
+    "ast_hash": "f5bac819a211af20c503e96d026b7d2f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/entropy_sink_red.json": {
+    "mtime": 1788337785.4194412,
+    "ast_hash": "57409546f20bd18d96e52bc71d746975",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/mobius_fuel_block.json": {
+    "mtime": 1788337785.4127274,
+    "ast_hash": "838ab84aef3bc355704f6987ec240a10",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/nova_cataclysm.json": {
+    "mtime": 1788337785.4224641,
+    "ast_hash": "b3ebda544f6170dc35c9a8ff921f5ac1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/nova_catalyst.json": {
+    "mtime": 1788337785.4219644,
+    "ast_hash": "34aa41cceb96d3856a974b7196bf2b0b",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/red_matter_block.json": {
+    "mtime": 1788337785.4214644,
+    "ast_hash": "bf121acccf573578effe0a0f6731c056",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/relay_mk1.json": {
+    "mtime": 1788337785.4224641,
+    "ast_hash": "e3fcfa5079192bfd9772edf6262f9d2f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/relay_mk2.json": {
+    "mtime": 1788337785.422964,
+    "ast_hash": "e154e3f48c8e752ac7d87bfb8a25d605",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/relay_mk3.json": {
+    "mtime": 1788337785.4375267,
+    "ast_hash": "402d29f37d5cda626f7d003bc477034c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/rm_furnace.json": {
+    "mtime": 1788337785.420464,
+    "ast_hash": "1d0ca5ceb90247073d98815855c8f5b5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/equivalent_legacy/models/item/stellar_condenser.json": {
+    "mtime": 1788337785.4199638,
+    "ast_hash": "92ab0ac9b5bb10eb17a23b79e8c13995",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.3.md": {
+    "mtime": 1788341019.377555,
+    "ast_hash": "14b314aac1225723c26b75a359b5135c",
     "semantic_hash": ""
   }
 }
