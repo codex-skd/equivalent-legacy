@@ -36,7 +36,7 @@ https://gitlab.com/stalking-dragons/minecraft/equivalent-legacy.git
 
 ## Historial
 
-- v0.0.0-beta.4: ⏳ pendiente de subir. `pe_custom_conversions` ahora respeta condiciones de carga
+- v0.0.0-beta.4: ✅ Subido como BETA (File ID: 8795801). `pe_custom_conversions` ahora respeta condiciones de carga
   de NeoForge. El compat EMC de ATM/Powah que EL trae empaquetado (`atm_powah_compat.json`) se
   cargaba siempre y, sin `allthemodium` ni `powah` instalados, EL escupía decenas de
   `Unable to deserialize key: … allthemodium:…` / `Failed to read conversions: … powah:…` a nivel
