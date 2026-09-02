@@ -36,6 +36,16 @@ https://gitlab.com/stalking-dragons/minecraft/equivalent-legacy.git
 
 ## Historial
 
+- v0.0.0-beta.4: ⏳ pendiente de subir. `pe_custom_conversions` ahora respeta condiciones de carga
+  de NeoForge. El compat EMC de ATM/Powah que EL trae empaquetado (`atm_powah_compat.json`) se
+  cargaba siempre y, sin `allthemodium` ni `powah` instalados, EL escupía decenas de
+  `Unable to deserialize key: … allthemodium:…` / `Failed to read conversions: … powah:…` a nivel
+  ERROR en cada mapeo de EMC. Ahora el fichero se ha partido en `atm_compat.json` (gate
+  `neoforge:mod_loaded → allthemodium`) y `powah_compat.json` (gate `→ powah`), y el original
+  queda vacío; `CustomConversionMapper` parsea con `ConditionalOps` +
+  `createConditionalCodecWithConditions` (mismo patrón que `WorldTransmutationManager`) y salta en
+  silencio los ficheros cuyas condiciones no se cumplen. Valores EMC intactos. Mismo cambio en la
+  rama 26.2 (1.6.5). `clean build` OK en ambas ramas. Sin verificar in-game.
 - v0.0.0-beta.3: fix de assets de cliente. MC 1.21.1 resuelve los modelos de item desde
   `assets/equivalent_legacy/models/item/<id>.json`; el port los generó para los items sueltos
   pero no para los 19 block-items (bloques de combustible, Collector MK1-3, Entropy Sink, Stellar
