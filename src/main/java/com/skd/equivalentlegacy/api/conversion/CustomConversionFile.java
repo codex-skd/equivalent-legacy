@@ -8,6 +8,8 @@ import java.util.Optional;
 import java.util.SequencedMap;
 import com.skd.equivalentlegacy.api.codec.IPECodecHelper;
 import net.minecraft.util.ExtraCodecs;
+import net.neoforged.neoforge.common.conditions.ConditionalOps;
+import net.neoforged.neoforge.common.conditions.WithConditions;
 import org.jetbrains.annotations.Nullable;
 
 /**
@@ -31,6 +33,8 @@ public record CustomConversionFile(boolean replace, @Nullable String comment, Se
 			FixedValues.CODEC.optionalFieldOf("values").forGetter(file -> IPECodecHelper.INSTANCE.ifNotEmpty(file.values(), FixedValues::isEmpty))
 	).apply(instance, (replace, comment, groups, values) ->
 			new CustomConversionFile(replace, comment.orElse(null), groups.orElseGet(LinkedHashMap::new), values.orElseGet(FixedValues::new))));
+
+	public static final Codec<Optional<WithConditions<CustomConversionFile>>> CONDITIONAL_CODEC = ConditionalOps.createConditionalCodecWithConditions(CODEC);
 
 	public CustomConversionFile() {
 		this(false, null, new LinkedHashMap<>(), new FixedValues());

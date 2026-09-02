@@ -2,6 +2,18 @@
 
 Branch `minecraft/1.21.1/neoforge-21.1.249/production`. History independent of the 26.2 branch.
 
+## [0.0.0-beta.4] - 2026-09-03
+
+### Changed
+
+- **pe_custom_conversions files now support neoforge load conditions.** The bundled
+  ATM/Powah EMC compat (`atm_powah_compat.json`) has been split into `atm_compat.json`
+  (gated behind `neoforge:mod_loaded` for `allthemodium`) and `powah_compat.json`
+  (gated behind `neoforge:mod_loaded` for `powah`). The original file is kept empty for
+  backwards compat. This silences "Unable to deserialize key" ERROR spam when those mods
+  are absent. `CustomConversionMapper` now parses with the conditional codec, matching
+  the pattern used by `WorldTransmutationManager`.
+
 ## [0.0.0-beta.3] - 2026-09-02
 
 ### Fixed
