@@ -2,6 +2,41 @@
 
 Branch `minecraft/1.21.1/neoforge-21.1.249/production`. History independent of the 26.2 branch.
 
+## [1.0.0] - 2026-09-09
+
+First stable release for **Minecraft 1.21.1 / NeoForge 21.1.249** (Java 21). Consolidates the
+`0.0.0-beta.1` → `0.0.0-beta.4` line with no further code changes. This build has been running in
+the *(Develop) Mystical Realms* modded-server pack.
+
+### Summary of the beta line
+
+- **beta.1** — initial API port of the stable 26.2 line (1.6.4), 474 classes; the fork's own
+  adaptations preserved, only 26.2-only Minecraft/NeoForge API reverted to its 1.21.1 form (using
+  upstream ProjectE 1.21.1 as the API reference). Dependency: Regalia Slots API (the team's fork
+  of the Curios API). Fixed item loss when breaking machines (`Block#onRemove` +
+  `dropContentsOnRemoval(...)` on the 7 block-entity classes) and re-encoded 161 recipe JSONs +
+  2 tags from the 26.2 bare-string datapack format to the 1.21.1 object form (151 recipes and
+  2 tags had failed to load).
+- **beta.2** — JEI optional-dependency range corrected from `[30.15.0,)` (a newer-Minecraft
+  template bound) to `[19.50.0.414,)`, the JEI `19.x` line used by 1.21.1.
+- **beta.3** — added the 19 missing block-item models (`models/item/<id>.json`, each parenting its
+  block model) so alchemical-fuel blocks, Collector MK1–3, Entropy Sink, Stellar Condenser, matter
+  furnaces/blocks, Nova Catalyst/Cataclysm and Relay MK1–3 no longer render as the missing-texture
+  checkerboard.
+- **beta.4** — `pe_custom_conversions` files now honour NeoForge load conditions:
+  `CustomConversionMapper` parses through `ConditionalOps` /
+  `createConditionalCodecWithConditions`; the bundled ATM/Powah EMC compat was split into
+  `atm_compat.json` (gated on `allthemodium`) and `powah_compat.json` (gated on `powah`),
+  silencing the "Unable to deserialize key" ERROR spam on packs without those mods. EMC values
+  unchanged.
+
+### Notes
+
+- No gameplay change relative to `0.0.0-beta.4`. Verified: `./gradlew clean build` is green;
+  `./gradlew runServer` reaches `Done` with 0 FATAL and 0 recipe/tag parse errors.
+- Same CurseForge project as the 26.2 line (`1632317`); pick the file that matches your Minecraft
+  version. Requires Regalia Slots API.
+
 ## [0.0.0-beta.4] - 2026-09-03
 
 ### Changed

@@ -6,7 +6,7 @@ Equivalent Legacy is an EMC/transmutation mod for Minecraft 1.21.1 (NeoForge), b
 
 ## Status
 
-Beta (`0.0.0-beta.1`). API port of the stable 26.2 line (1.6.4) to the 1.21.1 API — the fork's own adaptations are preserved; only 26.2-only Minecraft / NeoForge API was reverted to its 1.21.1 form. `./gradlew build` and `./gradlew runServer` verified: `Done`, 0 FATAL, 0 recipe/tag errors, EMC map and world-transmutation files register cleanly. Not yet verified in-game.
+Stable (`1.0.0`). API port of the stable 26.2 line (1.6.4) to the 1.21.1 API — the fork's own adaptations are preserved; only 26.2-only Minecraft / NeoForge API was reverted to its 1.21.1 form. `./gradlew build` and `./gradlew runServer` verified: `Done`, 0 FATAL, 0 recipe/tag errors, EMC map and world-transmutation files register cleanly. This build has been running in a full modded-server pack.
 
 ## Requirements
 
