@@ -880,9 +880,9 @@
     "semantic_hash": "a32d605e5945b6a5b260b5ef4bf319a3"
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/AlchemicalChest.java": {
-    "mtime": 1788300596.7271285,
-    "ast_hash": "03a9352151ed885bc65edee8d38e44ed",
-    "semantic_hash": "03a9352151ed885bc65edee8d38e44ed"
+    "mtime": 1789253202.5035827,
+    "ast_hash": "95348718eb8b8c7558254c965427dfa4",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/equivalentlegacy/gameObjs/blocks/BlockDirection.java": {
     "mtime": 1788298555.9333339,
@@ -5675,8 +5675,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1788914494.8093715,
-    "ast_hash": "33c6ffca691c1999062aa43a42be3b46",
+    "mtime": 1789256012.9281745,
+    "ast_hash": "b479e3de1bbaf5646683a4bfc751e59a",
     "semantic_hash": ""
   },
   "README.md": {
@@ -5700,8 +5700,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1788914481.1542404,
-    "ast_hash": "97c4eb57975349f8c13b556e090a5d1c",
+    "mtime": 1789256049.5727644,
+    "ast_hash": "36a0f02cc721386e736caead69cb4fc0",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.1.md": {
@@ -6752,6 +6752,11 @@
   "docs/curseforge/versions/1.0.0.md": {
     "mtime": 1788914507.166002,
     "ast_hash": "f0bc00f1f505adf7d05ea7096e3eb945",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.1.md": {
+    "mtime": 1789256007.353712,
+    "ast_hash": "32123f74af540fba61e47c5eea36e168",
     "semantic_hash": ""
   }
 }
