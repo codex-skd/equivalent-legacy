@@ -36,6 +36,13 @@ https://gitlab.com/stalking-dragons/minecraft/equivalent-legacy.git
 
 ## Historial
 
+- v1.0.1: ✅ Subido como RELEASE (File ID: 8868812). Fix visual: `AlchemicalChest#getRenderShape`
+  devolvía `RenderShape.MODEL` en vez de `RenderShape.ENTITYBLOCK_ANIMATED`, por lo que el
+  renderer de chunk horneaba y dibujaba el modelo estático cerrado (`base_chest.json`) a la vez
+  que `ChestRenderer` dibujaba su propio modelo animado de tapa/fondo/candado — Alchemical Chest,
+  Condenser y Condenser MK2 se veían como dos baúles superpuestos (uno fijo cerrado, otro
+  animándose) sobre todo desde lejos. Sin cambio de gameplay. `clean build` OK. Sin verificar
+  in-game.
 - v0.0.0-beta.4: ✅ Subido como BETA (File ID: 8795801). `pe_custom_conversions` ahora respeta condiciones de carga
   de NeoForge. El compat EMC de ATM/Powah que EL trae empaquetado (`atm_powah_compat.json`) se
   cargaba siempre y, sin `allthemodium` ni `powah` instalados, EL escupía decenas de
