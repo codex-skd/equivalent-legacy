@@ -2,6 +2,19 @@
 
 Branch `minecraft/1.21.1/neoforge-21.1.249/production`. History independent of the 26.2 branch.
 
+## [1.0.1] - 2026-09-13
+
+### Fixed
+
+- **Double-rendered alchemical chests**: `AlchemicalChest#getRenderShape` returned
+  `RenderShape.MODEL`, so the chunk renderer baked and drew the static `base_chest.json` model
+  (a closed chest with real geometry) in addition to `ChestRenderer` (the block-entity renderer)
+  drawing its own animated lid/bottom/lock model. Alchemical Chest, Condenser and Condenser MK2
+  looked like two superimposed chests — one static-closed, one animated — especially from a
+  distance. Switched to `RenderShape.ENTITYBLOCK_ANIMATED`, matching vanilla `ChestBlock`: only
+  the animated model is drawn now. No gameplay change. `./gradlew clean build` OK; not yet
+  verified in-game.
+
 ## [1.0.0] - 2026-09-09
 
 First stable release for **Minecraft 1.21.1 / NeoForge 21.1.249** (Java 21). Consolidates the
