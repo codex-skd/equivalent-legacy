@@ -65,7 +65,7 @@ public class AlchemicalChest extends BlockDirection implements SimpleWaterlogged
 	@Override
 	@Deprecated
 	public RenderShape getRenderShape(@NotNull BlockState state) {
-		return RenderShape.MODEL;
+		return RenderShape.ENTITYBLOCK_ANIMATED;
 	}
 
 	@NotNull
