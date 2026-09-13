@@ -9,6 +9,7 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.annotations.Range;
 
@@ -16,6 +17,22 @@ public class ItemPE extends Item {
 
 	public ItemPE(Properties props) {
 		super(props);
+	}
+
+	@Override
+	public boolean hasCraftingRemainingItem(ItemStack stack) {
+		return this instanceof ISelfCraftingRemainder || super.hasCraftingRemainingItem(stack);
+	}
+
+	@NotNull
+	@Override
+	public ItemStack getCraftingRemainingItem(ItemStack stack) {
+		if (this instanceof ISelfCraftingRemainder) {
+			ItemStack copy = stack.copy();
+			copy.setCount(1);
+			return copy;
+		}
+		return super.getCraftingRemainingItem(stack);
 	}
 
 	@Override
