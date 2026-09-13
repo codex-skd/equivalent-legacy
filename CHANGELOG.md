@@ -2,6 +2,20 @@
 
 Branch `minecraft/1.21.1/neoforge-21.1.249/production`. History independent of the 26.2 branch.
 
+## [1.0.2] - 2026-09-13
+
+### Fixed
+
+- **Self-crafting-remainder items consumed on craft**: `ItemPE` had no override for
+  NeoForge's stack-aware `getCraftingRemainingItem(ItemStack)` /
+  `hasCraftingRemainingItem(ItemStack)`, unlike the 26.2 branch's equivalent override. Any item
+  implementing `ISelfCraftingRemainder` — Philosopher's Stone, Repair Talisman, Volcanite Amulet,
+  Evertide Amulet, Arcana Ring, Zero Ring — was silently consumed by any recipe using it as an
+  ingredient instead of being returned to the crafting grid. Restored: for these items,
+  `getCraftingRemainingItem` now returns a count-1 copy of the same stack (preserving its
+  components, e.g. stored EMC) instead of falling through to vanilla's item-level remainder.
+  `./gradlew clean build` OK; not yet verified in-game.
+
 ## [1.0.1] - 2026-09-13
 
 ### Fixed
