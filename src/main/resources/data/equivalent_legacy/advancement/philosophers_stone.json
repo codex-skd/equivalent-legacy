@@ -1,0 +1,32 @@
+{
+  "parent": "equivalent_legacy:root",
+  "criteria": {
+    "philosophers_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "equivalent_legacy:philosophers_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.equivalent_legacy.philo_stone.description"
+    },
+    "icon": {
+      "id": "equivalent_legacy:philosophers_stone"
+    },
+    "title": {
+      "translate": "advancements.equivalent_legacy.philo_stone"
+    }
+  },
+  "requirements": [
+    [
+      "philosophers_stone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

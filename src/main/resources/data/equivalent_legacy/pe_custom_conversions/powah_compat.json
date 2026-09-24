@@ -1,0 +1,48 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "powah"
+    }
+  ],
+  "comment": "Powah EMC compat by Yaskulsky. Baseline: energized_steel = 2048 EMC (1x). See EMC_ATM_POWAH.md for multipliers. FE not read from NBT -- cell EMC uses tier proxy (1000 FE = 1 EMC). Split from atm_powah_compat.json to gate behind mod_loaded.",
+  "values": {
+    "before": [
+      { "type": "equivalent_legacy:item", "emc_value": 1024, "id": "powah:dielectric_paste" },
+      { "type": "equivalent_legacy:item", "emc_value": 1536, "id": "powah:dielectric_casing" },
+      { "type": "equivalent_legacy:item", "emc_value": 4096, "id": "powah:uraninite" },
+      { "type": "equivalent_legacy:item", "emc_value": 3072, "id": "powah:uraninite_raw" },
+      { "type": "equivalent_legacy:item", "emc_value": 36864, "id": "powah:uraninite_block" },
+      { "type": "equivalent_legacy:item", "emc_value": 2048, "id": "powah:energized_steel" },
+      { "type": "equivalent_legacy:item", "emc_value": 18432, "id": "powah:energized_steel_block" },
+      { "type": "equivalent_legacy:item", "emc_value": 16384, "id": "powah:blazing_crystal" },
+      { "type": "equivalent_legacy:item", "emc_value": 65536, "id": "powah:niotic_crystal" },
+      { "type": "equivalent_legacy:item", "emc_value": 262144, "id": "powah:spirited_crystal" },
+      { "type": "equivalent_legacy:item", "emc_value": 1048576, "id": "powah:nitro_crystal" },
+
+      { "type": "equivalent_legacy:item", "emc_value": 4096, "id": "powah:energy_cell_basic" },
+      { "type": "equivalent_legacy:item", "emc_value": 16384, "id": "powah:energy_cell_hardened" },
+      { "type": "equivalent_legacy:item", "emc_value": 65536, "id": "powah:energy_cell_blazing" },
+      { "type": "equivalent_legacy:item", "emc_value": 262144, "id": "powah:energy_cell_niotic" },
+      { "type": "equivalent_legacy:item", "emc_value": 1048576, "id": "powah:energy_cell_spirited" },
+      { "type": "equivalent_legacy:item", "emc_value": 4194304, "id": "powah:energy_cell_nitro" },
+
+      { "type": "equivalent_legacy:item", "emc_value": 2048, "id": "powah:battery_basic" },
+      { "type": "equivalent_legacy:item", "emc_value": 8192, "id": "powah:battery_hardened" },
+      { "type": "equivalent_legacy:item", "emc_value": 32768, "id": "powah:battery_blazing" },
+      { "type": "equivalent_legacy:item", "emc_value": 131072, "id": "powah:battery_niotic" },
+      { "type": "equivalent_legacy:item", "emc_value": 524288, "id": "powah:battery_spirited" },
+      { "type": "equivalent_legacy:item", "emc_value": 2097152, "id": "powah:battery_nitro" }
+    ],
+    "conversion": [
+      {
+        "ingredients": [{ "type": "equivalent_legacy:item", "amount": 9, "id": "powah:uraninite" }],
+        "output": { "type": "equivalent_legacy:item", "id": "powah:uraninite_block" }
+      },
+      {
+        "ingredients": [{ "type": "equivalent_legacy:item", "amount": 9, "id": "powah:energized_steel" }],
+        "output": { "type": "equivalent_legacy:item", "id": "powah:energized_steel_block" }
+      }
+    ]
+  }
+}

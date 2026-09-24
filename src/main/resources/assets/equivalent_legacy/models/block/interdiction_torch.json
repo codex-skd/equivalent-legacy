@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "equivalent_legacy:block/interdiction_torch"
+  }
+}

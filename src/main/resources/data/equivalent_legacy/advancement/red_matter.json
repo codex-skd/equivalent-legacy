@@ -1,0 +1,32 @@
+{
+  "parent": "equivalent_legacy:dark_matter",
+  "criteria": {
+    "rm": {
+      "conditions": {
+        "items": [
+          {
+            "items": "equivalent_legacy:red_matter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.equivalent_legacy.red_matter.description"
+    },
+    "icon": {
+      "id": "equivalent_legacy:red_matter"
+    },
+    "title": {
+      "translate": "advancements.equivalent_legacy.red_matter"
+    }
+  },
+  "requirements": [
+    [
+      "rm"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

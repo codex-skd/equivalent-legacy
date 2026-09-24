@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#c:mineable/katar",
+    "#minecraft:mineable/axe",
+    "#minecraft:mineable/hoe",
+    "#equivalent_legacy:mineable/shears",
+    "#equivalent_legacy:mineable/sword",
+    "minecraft:cobweb"
+  ]
+}
