@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "equivalent_legacy:block/relay_mk1",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "equivalent_legacy:block/relay_mk1"
+    },
+    "facing=south": {
+      "model": "equivalent_legacy:block/relay_mk1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "equivalent_legacy:block/relay_mk1",
+      "y": 270
+    }
+  }
+}

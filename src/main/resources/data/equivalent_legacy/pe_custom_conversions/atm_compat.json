@@ -1,0 +1,65 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ],
+  "comment": "Allthemodium EMC compat by Yaskulsky. Allthemodium ingot from PE Integration (122800). See EMC_ATM_POWAH.md for multipliers. Split from atm_powah_compat.json to gate behind mod_loaded.",
+  "values": {
+    "before": [
+      { "type": "equivalent_legacy:item", "emc_value": 16, "id": "allthemodium:ancient_stone" },
+      { "type": "equivalent_legacy:item", "emc_value": 16, "id": "allthemodium:ancient_leaves" },
+      { "type": "equivalent_legacy:item", "emc_value": 16, "id": "allthemodium:ancient_sapling" },
+      { "type": "equivalent_legacy:item", "emc_value": 64, "id": "allthemodium:ancient_debris" },
+      { "type": "equivalent_legacy:item", "emc_value": 32, "id": "allthemodium:soul_stone" },
+
+      { "type": "equivalent_legacy:item", "emc_value": 122800, "id": "allthemodium:allthemodium_ingot" },
+      { "type": "equivalent_legacy:item", "emc_value": 13644, "id": "allthemodium:allthemodium_nugget" },
+      { "type": "equivalent_legacy:item", "emc_value": 1105200, "id": "allthemodium:allthemodium_block" },
+      { "type": "equivalent_legacy:item", "emc_value": 122800, "id": "allthemodium:allthemodium_dust" },
+      { "type": "equivalent_legacy:item", "emc_value": 92200, "id": "allthemodium:raw_allthemodium" },
+
+      { "type": "equivalent_legacy:item", "emc_value": 245600, "id": "allthemodium:vibranium_ingot" },
+      { "type": "equivalent_legacy:item", "emc_value": 27289, "id": "allthemodium:vibranium_nugget" },
+      { "type": "equivalent_legacy:item", "emc_value": 2210400, "id": "allthemodium:vibranium_block" },
+      { "type": "equivalent_legacy:item", "emc_value": 245600, "id": "allthemodium:vibranium_dust" },
+      { "type": "equivalent_legacy:item", "emc_value": 184400, "id": "allthemodium:raw_vibranium" },
+
+      { "type": "equivalent_legacy:item", "emc_value": 491200, "id": "allthemodium:unobtainium_ingot" },
+      { "type": "equivalent_legacy:item", "emc_value": 54578, "id": "allthemodium:unobtainium_nugget" },
+      { "type": "equivalent_legacy:item", "emc_value": 4420800, "id": "allthemodium:unobtainium_block" },
+      { "type": "equivalent_legacy:item", "emc_value": 491200, "id": "allthemodium:unobtainium_dust" },
+      { "type": "equivalent_legacy:item", "emc_value": 368400, "id": "allthemodium:raw_unobtainium" }
+    ],
+    "conversion": [
+      {
+        "count": 9,
+        "ingredients": [{ "type": "equivalent_legacy:item", "id": "allthemodium:allthemodium_nugget" }],
+        "output": { "type": "equivalent_legacy:item", "id": "allthemodium:allthemodium_ingot" }
+      },
+      {
+        "ingredients": [{ "type": "equivalent_legacy:item", "amount": 9, "id": "allthemodium:allthemodium_ingot" }],
+        "output": { "type": "equivalent_legacy:item", "id": "allthemodium:allthemodium_block" }
+      },
+      {
+        "count": 9,
+        "ingredients": [{ "type": "equivalent_legacy:item", "id": "allthemodium:vibranium_nugget" }],
+        "output": { "type": "equivalent_legacy:item", "id": "allthemodium:vibranium_ingot" }
+      },
+      {
+        "ingredients": [{ "type": "equivalent_legacy:item", "amount": 9, "id": "allthemodium:vibranium_ingot" }],
+        "output": { "type": "equivalent_legacy:item", "id": "allthemodium:vibranium_block" }
+      },
+      {
+        "count": 9,
+        "ingredients": [{ "type": "equivalent_legacy:item", "id": "allthemodium:unobtainium_nugget" }],
+        "output": { "type": "equivalent_legacy:item", "id": "allthemodium:unobtainium_ingot" }
+      },
+      {
+        "ingredients": [{ "type": "equivalent_legacy:item", "amount": 9, "id": "allthemodium:unobtainium_ingot" }],
+        "output": { "type": "equivalent_legacy:item", "id": "allthemodium:unobtainium_block" }
+      }
+    ]
+  }
+}

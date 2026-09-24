@@ -1,0 +1,220 @@
+package com.skd.equivalentlegacy.gameObjs.gui;
+
+import java.math.BigInteger;
+import com.skd.equivalentlegacy.ELCore;
+import com.skd.equivalentlegacy.gameObjs.container.ArcaneTabletContainer;
+import com.skd.equivalentlegacy.gameObjs.container.inventory.TransmutationInventory;
+import com.skd.equivalentlegacy.network.packets.to_server.ArcaneTabletActionPKT;
+import com.skd.equivalentlegacy.utils.EMCHelper;
+import com.skd.equivalentlegacy.utils.TransmutationEMCFormatter;
+import com.skd.equivalentlegacy.utils.text.PELang;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.components.EditBox;
+import com.mojang.blaze3d.platform.InputConstants;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.player.Inventory;
+import org.jetbrains.annotations.NotNull;
+import org.lwjgl.glfw.GLFW;
+
+public class GUIArcaneTablet extends PEContainerScreen<ArcaneTabletContainer> {
+
+	private static final BigInteger MAX_EXACT_TRANSMUTATION_DISPLAY = BigInteger.valueOf(1_000_000_000_000L);
+	private static final int SEARCH_BOX_X = 7;
+	private static final int SEARCH_BOX_Y = 6;
+	private static final int SEARCH_BOX_WIDTH = 162;
+	private static final int SEARCH_BOX_HEIGHT = 12;
+	private static final Component SEARCH_HINT = Component.literal("Search...");
+	private static final ResourceLocation TEXTURE = ELCore.rl("textures/gui/arcane_tablet.png");
+
+	private final TransmutationInventory inv;
+	private EditBox textBoxFilter;
+	private Button previous, next, rotate, balance, clear;
+
+	public GUIArcaneTablet(ArcaneTabletContainer container, Inventory invPlayer, Component title) {
+		super(container, invPlayer, title);
+		this.imageWidth = 176;
+		this.imageHeight = 217;
+		this.inv = container.transmutationInventory;
+		this.inventoryLabelY = this.imageHeight + 100;
+	}
+
+	@Override
+	public void init() {
+		super.init();
+
+		this.textBoxFilter = addWidget(new EditBox(this.font, leftPos + SEARCH_BOX_X, topPos + SEARCH_BOX_Y,
+				SEARCH_BOX_WIDTH, SEARCH_BOX_HEIGHT, Component.empty()));
+		this.textBoxFilter.setMaxLength(64);
+		this.textBoxFilter.setBordered(true);
+		this.textBoxFilter.setResponder(inv::updateFilter);
+
+		previous = addRenderableWidget(Button.builder(Component.literal("<"), b -> inv.previousPage())
+				.pos(leftPos + 7, topPos + 20)
+				.size(18, 18)
+				.build());
+		next = addRenderableWidget(Button.builder(Component.literal(">"), b -> inv.nextPage())
+				.pos(leftPos + 151, topPos + 20)
+				.size(18, 18)
+				.build());
+		rotate = addRenderableWidget(Button.builder(Component.literal("R"), b ->
+						menu.sendAction(isShiftDown() ? ArcaneTabletActionPKT.Action.ROTATE_CC : ArcaneTabletActionPKT.Action.ROTATE))
+				.pos(leftPos - 71, topPos + 16)
+				.size(9, 9)
+				.build());
+		balance = addRenderableWidget(Button.builder(Component.literal("B"), b ->
+						menu.sendAction(isShiftDown() ? ArcaneTabletActionPKT.Action.SPREAD : ArcaneTabletActionPKT.Action.BALANCE))
+				.pos(leftPos - 71, topPos + 26)
+				.size(9, 9)
+				.build());
+		clear = addRenderableWidget(Button.builder(Component.literal("X"), b ->
+						menu.sendAction(isShiftDown() ? ArcaneTabletActionPKT.Action.CLEAR_FORCE : ArcaneTabletActionPKT.Action.CLEAR))
+				.pos(leftPos - 71, topPos + 61)
+				.size(9, 9)
+				.build());
+		updateButtons();
+	}
+
+	private static boolean isShiftDown() {
+		long window = Minecraft.getInstance().getWindow().getWindow();
+		return InputConstants.isKeyDown(window, GLFW.GLFW_KEY_LEFT_SHIFT)
+				|| InputConstants.isKeyDown(window, GLFW.GLFW_KEY_RIGHT_SHIFT);
+	}
+
+	@Override
+	public void resize(Minecraft minecraft, int width, int height) {
+		String filter = this.textBoxFilter.getValue();
+		super.resize(minecraft, width, height);
+		this.textBoxFilter.setValue(filter);
+	}
+
+	@Override
+	protected void containerTick() {
+		super.containerTick();
+		updateButtons();
+	}
+
+	private void updateButtons() {
+		if (previous != null) {
+			previous.active = inv.hasPreviousPage();
+		}
+		if (next != null) {
+			next.active = inv.hasNextPage();
+		}
+	}
+
+	@Override
+	protected void peExtractBackground(@NotNull GuiGraphics graphics, float partialTicks, int mouseX, int mouseY) {
+		PEGuiGraphics.blit(graphics, TEXTURE, leftPos, topPos, 0, 0, imageWidth, imageHeight);
+		PEGuiGraphics.blit(graphics, TEXTURE, leftPos - 75, topPos + 10, 180, 32, 76, 89);
+		if (menu.isCrafting) {
+			PEGuiGraphics.blit(graphics, TEXTURE, leftPos - 50, topPos + 76, 177, 19, 18, 12);
+		}
+	}
+
+	@Override
+	protected void renderLabels(@NotNull GuiGraphics graphics, int mouseX, int mouseY) {
+		peExtractLabels(graphics, mouseX, mouseY);
+	}
+
+	@Override
+	protected void peExtractLabels(@NotNull GuiGraphics graphics, int mouseX, int mouseY) {
+		graphics.drawString(font, title, 8, -10, PEGuiGraphics.LABEL_COLOR, false);
+		Component emc = TransmutationEMCFormatter.formatEMC(inv.getAvailableEmc());
+		graphics.drawString(font, PELang.EMC_TOOLTIP.translate(""), 8, 123, PEGuiGraphics.LABEL_COLOR, false);
+		graphics.drawString(font, emc, 8, 133, PEGuiGraphics.LABEL_COLOR, false);
+
+		if (inv.learnFlag > 0) {
+			graphics.drawString(font, PELang.TRANSMUTATION_LEARNED_1.translate(), 98, 45, PEGuiGraphics.LABEL_COLOR, false);
+			inv.learnFlag--;
+		}
+		if (inv.unlearnFlag > 0) {
+			graphics.drawString(font, PELang.TRANSMUTATION_UNLEARNED_1.translate(), 97, 45, PEGuiGraphics.LABEL_COLOR, false);
+			inv.unlearnFlag--;
+		}
+	}
+
+	@Override
+	public boolean charTyped(char chr, int modifiers) {
+		if (textBoxFilter.canConsumeInput()) {
+			return textBoxFilter.charTyped(chr, modifiers);
+		}
+		return super.charTyped(chr, modifiers);
+	}
+
+	@Override
+	public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
+		if (textBoxFilter.canConsumeInput()) {
+			if (keyCode == GLFW.GLFW_KEY_ESCAPE) {
+				setFocused(null);
+				return true;
+			}
+			return textBoxFilter.keyPressed(keyCode, scanCode, modifiers);
+		}
+		return super.keyPressed(keyCode, scanCode, modifiers);
+	}
+
+	@Override
+	public boolean mouseClicked(double mouseX, double mouseY, int mouseButton) {
+		if (textBoxFilter.isMouseOver(mouseX, mouseY) && mouseButton == GLFW.GLFW_MOUSE_BUTTON_RIGHT) {
+			this.textBoxFilter.setValue("");
+			setFocused(this.textBoxFilter);
+			return true;
+		}
+		if (super.mouseClicked(mouseX, mouseY, mouseButton)) {
+			return true;
+		}
+		if (textBoxFilter.isFocused()) {
+			if (hoveredSlot == null || (!hoveredSlot.hasItem() && menu.getCarried().isEmpty())) {
+				setFocused(null);
+			}
+		}
+		return false;
+	}
+
+	@Override
+	public boolean mouseScrolled(double mouseX, double mouseY, double scrollX, double scrollY) {
+		if (scrollY < 0 && inv.hasNextPage()) {
+			inv.nextPage();
+			return true;
+		}
+		if (scrollY > 0 && inv.hasPreviousPage()) {
+			inv.previousPage();
+			return true;
+		}
+		return super.mouseScrolled(mouseX, mouseY, scrollX, scrollY);
+	}
+
+	@Override
+	public void removed() {
+		super.removed();
+		inv.learnFlag = 0;
+		inv.unlearnFlag = 0;
+	}
+
+	@Override
+	protected void renderTooltip(@NotNull GuiGraphics graphics, int mouseX, int mouseY) {
+		int searchLeft = leftPos + SEARCH_BOX_X;
+		int searchRight = searchLeft + SEARCH_BOX_WIDTH;
+		int searchTop = topPos + SEARCH_BOX_Y;
+		int searchBottom = searchTop + SEARCH_BOX_HEIGHT;
+		if (mouseX > searchLeft && mouseX < searchRight && mouseY > searchTop && mouseY < searchBottom) {
+			graphics.renderTooltip(font, SEARCH_HINT, mouseX, mouseY);
+			return;
+		}
+		BigInteger emcAmount = inv.getAvailableEmc();
+		if (emcAmount.compareTo(MAX_EXACT_TRANSMUTATION_DISPLAY) >= 0) {
+			int emcLeft = leftPos + 6;
+			int emcRight = emcLeft + 80;
+			int emcTop = topPos + 120;
+			int emcBottom = emcTop + 20;
+			if (mouseX > emcLeft && mouseX < emcRight && mouseY > emcTop && mouseY < emcBottom) {
+				graphics.renderTooltip(font, PELang.EMC_TOOLTIP.translate(EMCHelper.formatEmc(emcAmount)), mouseX, mouseY);
+				return;
+			}
+		}
+		super.renderTooltip(graphics, mouseX, mouseY);
+	}
+}

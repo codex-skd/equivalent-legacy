@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": { "item": "equivalent_legacy:dark_matter" },
+    "I": { "item": "equivalent_legacy:iron_band" },
+    "S": { "tag": "c:strings" }
+  },
+  "pattern": [
+    "SSS",
+    "DID",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:black_hole_band"
+  }
+}

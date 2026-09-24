@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    { "item": "equivalent_legacy:body_stone" },
+    { "item": "equivalent_legacy:soul_stone" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:life_stone"
+  }
+}

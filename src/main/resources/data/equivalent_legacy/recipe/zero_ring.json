@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": { "item": "minecraft:snowball" },
+    "I": { "item": "equivalent_legacy:iron_band" },
+    "M": { "item": "equivalent_legacy:dark_matter" },
+    "S": { "item": "minecraft:snow_block" }
+  },
+  "pattern": [
+    "SBS",
+    "MIM",
+    "SBS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:zero_ring"
+  }
+}

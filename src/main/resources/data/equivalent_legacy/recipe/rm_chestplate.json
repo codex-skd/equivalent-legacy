@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": { "item": "equivalent_legacy:dm_chestplate" },
+    "M": { "item": "equivalent_legacy:red_matter" }
+  },
+  "pattern": [
+    "MDM",
+    "MMM",
+    "MMM"
+  ],
+  "result": {
+    "id": "equivalent_legacy:rm_chestplate"
+  }
+}

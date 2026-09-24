@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "equivalent_legacy:full_klein_stars"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    { "item": "equivalent_legacy:rm_leggings" },
+    { "item": "equivalent_legacy:black_hole_band" },
+    { "item": "equivalent_legacy:watch_of_flowing_time" },
+    { "item": "equivalent_legacy:klein_star_omega" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:gem_leggings"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "equivalent_legacy:catalytic_lens",
+  "key": {
+    "D": { "item": "equivalent_legacy:destruction_catalyst" },
+    "H": { "item": "equivalent_legacy:hyperkinetic_lens" },
+    "M": { "item": "equivalent_legacy:dark_matter" }
+  },
+  "pattern": [
+    "MMM",
+    "HMD",
+    "MMM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:catalytic_lens"
+  }
+}

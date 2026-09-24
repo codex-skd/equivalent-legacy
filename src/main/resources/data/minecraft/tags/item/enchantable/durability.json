@@ -1,0 +1,31 @@
+{
+  "remove": [
+    "equivalent_legacy:dm_helmet",
+    "equivalent_legacy:rm_helmet",
+    "equivalent_legacy:gem_helmet",
+    "equivalent_legacy:dm_chestplate",
+    "equivalent_legacy:rm_chestplate",
+    "equivalent_legacy:gem_chestplate",
+    "equivalent_legacy:dm_leggings",
+    "equivalent_legacy:rm_leggings",
+    "equivalent_legacy:gem_leggings",
+    "equivalent_legacy:dm_boots",
+    "equivalent_legacy:rm_boots",
+    "equivalent_legacy:gem_boots",
+    "equivalent_legacy:dm_sword",
+    "equivalent_legacy:rm_sword",
+    "equivalent_legacy:dm_axe",
+    "equivalent_legacy:rm_axe",
+    "equivalent_legacy:dm_pick",
+    "equivalent_legacy:rm_pick",
+    "equivalent_legacy:dm_shovel",
+    "equivalent_legacy:rm_shovel",
+    "equivalent_legacy:dm_hoe",
+    "equivalent_legacy:rm_hoe",
+    "equivalent_legacy:dm_hammer",
+    "equivalent_legacy:rm_hammer",
+    "equivalent_legacy:rm_katar",
+    "equivalent_legacy:rm_morning_star"
+  ],
+  "values": []
+}

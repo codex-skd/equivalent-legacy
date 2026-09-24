@@ -1,0 +1,32 @@
+{
+  "parent": "equivalent_legacy:philosophers_stone",
+  "criteria": {
+    "klein_star": {
+      "conditions": {
+        "items": [
+          {
+            "items": "equivalent_legacy:klein_star_ein"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.equivalent_legacy.klein_star.description"
+    },
+    "icon": {
+      "id": "equivalent_legacy:klein_star_ein"
+    },
+    "title": {
+      "translate": "advancements.equivalent_legacy.klein_star"
+    }
+  },
+  "requirements": [
+    [
+      "klein_star"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

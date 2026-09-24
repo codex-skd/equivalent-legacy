@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": { "tag": "c:chests/wooden" },
+    "D": { "item": "equivalent_legacy:dark_matter" },
+    "R": { "item": "equivalent_legacy:red_matter" },
+    "T": { "item": "equivalent_legacy:transmutation_tablet" },
+    "W": { "item": "minecraft:crafting_table" }
+  },
+  "pattern": [
+    "TWT",
+    "DRD",
+    "TCT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:arcane_tablet"
+  }
+}

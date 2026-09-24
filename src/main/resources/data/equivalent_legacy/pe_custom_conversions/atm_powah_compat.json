@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "allthemodium"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "powah"
+    }
+  ],
+  "comment": "Deprecated: split into atm_compat.json and powah_compat.json. Kept empty for backwards compat.",
+  "values": {}
+}
