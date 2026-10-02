@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": "equivalent_legacy:dm_leggings",
+    "M": "equivalent_legacy:red_matter"
+  },
+  "pattern": [
+    "MMM",
+    "MDM",
+    "M M"
+  ],
+  "result": {
+    "id": "equivalent_legacy:rm_leggings"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "equivalent_legacy:dark_matter_block",
+  "criteria": {
+    "dm_furnace": {
+      "conditions": {
+        "items": [
+          {
+            "items": "equivalent_legacy:dm_furnace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.equivalent_legacy.dark_matter_furnace.description"
+    },
+    "icon": {
+      "id": "equivalent_legacy:dm_furnace"
+    },
+    "title": {
+      "translate": "advancements.equivalent_legacy.dark_matter_furnace"
+    }
+  },
+  "requirements": [
+    [
+      "dm_furnace"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

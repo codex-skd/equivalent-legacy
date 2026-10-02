@@ -1,0 +1,32 @@
+{
+  "parent": "equivalent_legacy:transmutation_table",
+  "criteria": {
+    "trans_tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "equivalent_legacy:transmutation_tablet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.equivalent_legacy.transmutation_tablet.description"
+    },
+    "icon": {
+      "id": "equivalent_legacy:transmutation_tablet"
+    },
+    "title": {
+      "translate": "advancements.equivalent_legacy.transmutation_tablet"
+    }
+  },
+  "requirements": [
+    [
+      "trans_tablet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
