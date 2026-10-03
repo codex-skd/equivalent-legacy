@@ -1,0 +1,32 @@
+{
+  "name": "Condensador estelar",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:stellar_condenser",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:stellar_condenser"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:stellar_condenser"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El Condensador Estelar no es un condensador de objetos en absoluto. Cosecha el $(l)eco de muerte$() de los mobs: cuando algo muere cerca de él, su fuerza vital se convierte en EMC para el jugador que lo colocó.$(br2)$(l)Cómo conseguirlo:$() 4 de piedra luminosa, 4 ojos de ender y 1 bloque de diamante."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Cómo usarlo:$() colócalo cerca de donde mueren los mobs, dentro de un radio de $(l)12 bloques$(). El dueño se establece al colocar el bloque, y solo ese jugador recibe el EMC. Si el dueño está conectado, el EMC va directamente a su reserva; si no, espera dentro del bloque hasta que vuelva."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br2)$(li)Los jefes como el Wither y el Dragón del End valen una cantidad enorme, pero solo pagan una vez cada 10 minutos.$(li)Los mobs comunes valen menos; cuanto más peligroso es el mob, más paga.$(li)Un solo condensador se queda con cada muerte, así que dos que se solapen no cobran dos veces.$(li)Hay un límite flexible de cuánto EMC de mobs no jefes se puede ganar por minuto, así que las granjas masivas de mobs dan rendimientos decrecientes.$(li)Solo $(o)emite$() EMC. Puede alimentar relés o tuberías contiguos, pero no aceptará EMC de ellos."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() la generación se escala con balance.emc.generationMultiplier y el límite por minuto con balance.stellarCondenser.softCapPerMinute."
+    }
+  ]
+}

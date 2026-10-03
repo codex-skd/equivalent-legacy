@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": { "tag": "c:gems/diamond" },
+    "M": { "item": "equivalent_legacy:dark_matter" }
+  },
+  "pattern": [
+    " M",
+    "D "
+  ],
+  "result": {
+    "id": "equivalent_legacy:dm_shears"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Gem of Eternal Density",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:gem_of_eternal_density",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:gem_of_eternal_density"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:gem_of_eternal_density"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Gem of Eternal Density$() turns low-value items in your inventory into a target material. Craft it from diamonds, Dark Matter and obsidian. It fits the necklace curio slot.$(br2)Press $(l)G$() to cycle the target: Iron, Gold, Diamond, Dark Matter or Red Matter."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)While active it eats up to half a stack at a time of items worth less than the target and builds the target item from their EMC.$(li)$(l)Right-click$() opens a whitelist/blacklist screen so you can protect items.$(li)$(l)Shift + right-click$() toggles it on and off; turning it off drops the items it consumed back on the ground and clears its stored EMC.$(li)It only condenses items already in your inventory, not loose drops."
+    }
+  ]
+}

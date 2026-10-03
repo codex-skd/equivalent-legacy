@@ -1,0 +1,24 @@
+{
+  "name": "Alchemical Chest",
+  "category": "equivalent_legacy:emc_transmutation",
+  "icon": "equivalent_legacy:alchemical_chest",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:alchemical_chest"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:alchemical_chest"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The Alchemical Chest is a large storage block with $(l)104 slots$(). It is the base for the $(l:emc_transmutation/alchemical_bags)Alchemical Bags$() and the $(l:emc_generation/condensers)Energy Condenser$().$(br2)$(l)How to get it:$() 3 Covalence Dusts (Low, Medium and High), 2 stone, 1 diamond, 2 iron ingots and 1 wooden chest.$(br2)$(l)Using it:$() right-click to open it. Any item can go in or out, and hoppers and pipes can use any side."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br2)$(li)The chest ticks the special items stored inside it. A Repair Talisman, a Black Hole Band or a $(l:utilities/gem_of_eternal_density)Gem of Eternal Density$() works while sitting in the chest.$(li)Opening it angers nearby Piglins, just like a vanilla chest.$(li)It holds a small EMC buffer, which lets certain items use it as a target.$(li)It can be waterlogged and does not need to face any particular way.$(br2)$(l)Server settings:$() none specific."
+    }
+  ]
+}

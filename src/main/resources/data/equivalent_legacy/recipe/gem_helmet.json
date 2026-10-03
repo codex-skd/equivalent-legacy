@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "equivalent_legacy:full_klein_stars"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    { "item": "equivalent_legacy:rm_helmet" },
+    { "item": "equivalent_legacy:evertide_amulet" },
+    { "item": "equivalent_legacy:soul_stone" },
+    { "item": "equivalent_legacy:klein_star_omega" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:gem_helmet"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Gem of Eternal Density",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:gem_of_eternal_density",
+  "sort_num": 7,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:gem_of_eternal_density"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:gem_of_eternal_density"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The Gem of Eternal Density condenses items while you carry them. It swallows low-value items from your inventory and builds up the EMC until it can produce a better item.$(br2)$(l)How to get it:$() 4 diamond, 2 Dark Matter and 2 obsidian.$(br2)$(l)Using it:$()$(br2)$(li)Press $(l)G$() to choose the target item (Iron, Gold, Diamond, Dark Matter or Red Matter).$(li)Sneak + right-click in the air to switch it on and off.$(li)Right-click to open a GUI where you can set a whitelist or blacklist of items it is allowed to eat."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br2)$(li)It only condenses items that are in $(l)your inventory$(), not from the ground.$(li)It consumes half a stack per operation (at least one item) and accumulates the EMC internally.$(li)When you switch it off, any items it has consumed are dropped back on the ground and its stored EMC resets to zero, so empty it somewhere safe.$(li)It also works inside an $(l:emc_transmutation/alchemical_chest)Alchemical Chest$() or an $(l:emc_transmutation/alchemical_bags)Alchemical Bag$().$(br2)$(l)Server settings:$() none specific."
+    }
+  ]
+}

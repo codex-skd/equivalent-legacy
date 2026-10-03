@@ -1,0 +1,40 @@
+{
+  "name": "Nova catalizador y Nova cataclismo",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:nova_catalyst",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:nova_catalyst"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:nova_cataclysm"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:nova_catalyst"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:nova_cataclysm"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Los explosivos Nova son detonaciones enormes y limpias que recogen todos los objetos soltados por ti.$(br2)$(l)Cómo conseguirlos:$()$(br2)$(li)$(l)Nova Catalizador:$() TNT sin forma + Combustible Mobius, produce 2.$(li)$(l)Nova Cataclismo:$() Nova Catalizador sin forma + Combustible Aeternalis, produce 2.$(br2)$(l)Cómo usarlos:$() enciéndelos como la TNT. El Catalizador tiene un radio de explosión de $(l)16$() y el Cataclismo de $(l)48$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)La explosión $(l)no$() crea fuego, así que no quemará tu base.$(li)Cada bloque destruido suelta su botín, y todos los objetos se recogen y se liberan juntos en la posición de quien encendió la carga, en vez de quedar dispersos por el cráter.$(li)La mecha es cuatro veces más corta que la de la TNT vanilla, así que tienes alrededor de un segundo para ponerte a salvo.$(li)Los dispensadores pueden disparar ambos tipos.$(li)El Cataclismo es una gran herramienta de minería cuando necesitas despejar rápido un área grande, y su recogida de objetos facilita la limpieza."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() ninguno en concreto."
+    }
+  ]
+}

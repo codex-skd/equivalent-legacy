@@ -1,0 +1,24 @@
+{
+  "name": "Amuleto Volcanita",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:volcanite_amulet",
+  "sort_num": 13,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:volcanite_amulet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:volcanite_amulet"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Amuleto Volcanita$() es un cubo de lava sin fondo. Fabrícalo con cubos de lava y Materia Oscura. Encaja en la ranura de curio de collar.$(br2)Haz clic derecho sobre un bloque para colocar lava por 32 EMC, y pulsa $(l)R$() para disparar un orbe de lava."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Te hace inmune al fuego mientras lo llevas.$(li)Mientras lo llevas, puedes caminar sobre la lava y te mueves más rápido sobre ella, como hace el Amuleto Evertide sobre el agua.$(li)El orbe de lava de $(l)R$() no cobra al dispararse; cuesta 32 EMC solo cuando impacta en un bloque (colocando lava) o en una criatura (quemándola).$(li)Mientras vuela, convierte el agua en piedra u obsidiana.$(li)En un pedestal detiene la lluvia y las tormentas con un temporizador.$(br2)$(l)Ajustes del servidor:$() server.cooldown.pedestal.volcanite."
+    }
+  ]
+}

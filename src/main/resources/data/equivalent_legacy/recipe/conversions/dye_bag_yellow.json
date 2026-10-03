@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    { "tag": "equivalent_legacy:alchemical_bags" },
+    { "tag": "c:dyes/yellow" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:yellow_alchemical_bag"
+  }
+}

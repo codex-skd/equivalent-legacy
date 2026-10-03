@@ -1,0 +1,24 @@
+{
+  "name": "Interdiction Torch",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:interdiction_torch",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:interdiction_torch"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:interdiction_torch"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The Interdiction Torch pushes mobs and flying projectiles away from it in a radius of $(l)8 blocks$(). It is a cheap way to keep a base entrance or a farm safe.$(br2)$(l)How to get it:$() 2 redstone torches, 2 diamond, 1 Philosopher's Stone and 3 glowstone dust.$(br2)$(l)Using it:$() place it on the ground or a wall like a normal torch. It glows, and it works the instant it is placed."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br2)$(li)It deflects $(l)projectiles in flight$(), including arrows and fireballs, so it can shield you from skeletons and blazes.$(li)By default it only pushes hostile mobs and projectiles; peaceful animals and players are left alone.$(li)It never affects dropped items, so it will not scatter your loot.$(li)The push grows stronger the closer the target is.$(br2)$(l)Server settings:$() server.effects.interdictionMode (true = hostiles and projectiles only; false = all mobs), plus a blacklist tag for exceptions."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Gem Boots",
+  "category": "equivalent_legacy:armor",
+  "icon": "equivalent_legacy:gem_boots",
+  "sort_num": 6,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:gem_boots"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:full_star_gem_boots"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Gem Boots$(), or $(o)Hurricane Boots$(), are the Gem Armor boots. Craft them from Red Matter Boots, two Swiftwolf's Rending Gales and a $(l)fully charged Klein Star Omega$().$(br2)They make you noticeably faster and easier to control in the air."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)Grants $(l)+50%$() movement speed while worn.$(li)The boots no longer cancel every fall: while you glide down slowly you take no fall damage, but if you fall fast (for example diving with the Gem Leggings) the fall counts from where you started it. They also block a limited amount of fall damage like the rest of the set.$(li)Press $(l)X$() to toggle $(l)Step Assist$(), which lets you walk up full blocks automatically.$(li)Holding jump in mid-air gives you extra lift, falls are slowed and moving forward in the air is faster.$(li)Part of the Gem set, which reduces damage by roughly 63%."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() common.crafting.fullKleinStars applies to the recipe."
+    }
+  ]
+}

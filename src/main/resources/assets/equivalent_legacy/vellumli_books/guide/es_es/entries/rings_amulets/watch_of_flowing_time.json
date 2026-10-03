@@ -1,0 +1,28 @@
+{
+  "name": "Reloj del Tiempo Fluyente",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:watch_of_flowing_time",
+  "sort_num": 11,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:watch_of_flowing_time"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:watch_of_flowing_time"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Reloj del Tiempo Fluyente$() controla el flujo del tiempo. Fabrícalo con Materia Oscura, piedra luminosa, obsidiana y un reloj.$(br2)Este objeto está $(l)desactivado por defecto$() en esta versión. Un administrador del servidor debe activar server.items.enableTimeWatch para que haga algo; hasta entonces solo informa de que está desactivado."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)El $(l)clic derecho$() alterna su modo temporal: $(l)Apagado$(), $(l)Avance rápido$() o $(l)Rebobinar$().$(li)Pulsa $(l)G$() para activar el anillo y $(l)V$() para cargarlo.$(li)Mientras está activo, acelera los bloques cercanos y ralentiza a las criaturas cercanas, y cuesta una pequeña cantidad de EMC cada tick; cuanto mayor es la carga, más fuerte es el efecto y mayor el coste.$(li)Con Avance rápido o Rebobinar seleccionado, también adelanta o atrasa el reloj de día/noche del mundo.$(li)Aunque encaja en la ranura de curio de cinturón, no se activa mientras está ahí; llévalo en la barra rápida o en la mano secundaria.$(li)En un pedestal acelera los bloques y ralentiza a las criaturas, y su bonus se puede ajustar agachándote y usando la rueda del ratón mientras miras al pedestal."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.items.enableTimeWatch, server.effects.timePedestal.bonus y server.effects.timePedestal.mobSlowness."
+    }
+  ]
+}

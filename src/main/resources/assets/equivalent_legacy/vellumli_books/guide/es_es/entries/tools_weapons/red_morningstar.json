@@ -1,0 +1,28 @@
+{
+  "name": "Lucero del Alba Rojo",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:rm_morning_star",
+  "sort_num": 10,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_morning_star"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_morning_star"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Lucero del Alba Rojo$() es una herramienta combinada fabricada con un Martillo, un Pico y una Pala de Materia Roja más Materia Roja. Hace veinte de daño de ataque y tiene cuatro niveles de carga.$(br2)Pulsa $(l)G$() para cambiar de modo, $(l)V$() para cargar y $(l)C$() para su función extra."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)El clic derecho allana el terreno, apaga hogueras, mina vetas de grava, arcilla y arena y mina vetas de minerales, todo a la vez.$(li)El clic derecho cargado excava un área con profundidad (excepto arena, tierra y césped, que solo se excavan en plano).$(li)Minar con Disparo alto, Disparo ancho o Disparo largo rompe los bloques extra que indica el modo.$(li)Mina los bloques de Materia Oscura y Materia Roja casi al instante y obtiene un gran bonus de velocidad en bloques normales.$(li)Cargar añade daño de ataque extra; el golpe extra ya no ignora la armadura en esta versión."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.items.pickaxeAoeVeinMining y server.items.disableAllRadiusMining."
+    }
+  ]
+}

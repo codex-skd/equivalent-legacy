@@ -1,0 +1,24 @@
+{
+  "name": "Cofre alquímico",
+  "category": "equivalent_legacy:emc_transmutation",
+  "icon": "equivalent_legacy:alchemical_chest",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:alchemical_chest"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:alchemical_chest"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El Cofre alquímico es un gran bloque de almacenamiento con $(l)104 ranuras$(). Es la base de las $(l:emc_transmutation/alchemical_bags)Bolsas alquímicas$() y del $(l:emc_generation/condensers)Condensador de Energía$().$(br2)$(l)Cómo conseguirlo:$() 3 Polvos de covalencia (Bajo, Medio y Alto), 2 piedra, 1 diamante, 2 lingotes de hierro y 1 cofre de madera.$(br2)$(l)Cómo usarlo:$() haz clic derecho para abrirlo. Cualquier objeto puede entrar o salir, y las tolvas y tuberías pueden usar cualquier cara."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br2)$(li)El cofre actualiza los objetos especiales guardados en su interior. Un Talismán de Reparación, una Banda de Agujero Negro o una $(l:utilities/gem_of_eternal_density)Gema de Densidad Eterna$() funcionan mientras están dentro del cofre.$(li)Abrirlo enfada a los piglins cercanos, igual que un cofre vanilla.$(li)Tiene un pequeño búfer de EMC, lo que permite que ciertos objetos lo usen como objetivo.$(li)Se puede inundar y no necesita orientarse de ninguna forma concreta.$(br2)$(l)Ajustes del servidor:$() ninguno en concreto."
+    }
+  ]
+}

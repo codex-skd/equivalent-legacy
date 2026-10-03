@@ -1,0 +1,68 @@
+{
+  "name": "Energy Collectors & Relays",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:collector_mk1",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:collector_mk1"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:relay_mk1"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:collector_mk1"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:collector_mk2"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:collector_mk3"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:relay_mk1"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:relay_mk2"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:relay_mk3"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Energy Collectors$() generate EMC from light. $(l)Anti-Matter Relays$() store and forward it. Together they are the backbone of any EMC farm.$(br2)$(l)Collectors$() come in three tiers:$(br2)$(li)$(l)MK1:$() slowest generation, 10,000 EMC storage, 8 input slots.$(li)$(l)MK2:$() about three times the rate, 30,000 storage, 12 input slots.$(li)$(l)MK3:$() fastest, 60,000 storage, 16 input slots.$(br2)$(l)Relays$() also come in three tiers, with much larger buffers and transfer rates:$(br2)$(li)$(l)MK1:$() 100,000 storage.$(li)$(l)MK2:$() 1,000,000 storage.$(li)$(l)MK3:$() 10,000,000 storage."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)How to use a Collector$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Place it where it can see the sky. In this version collectors only generate from $(l)sunlight$(), and they generate at a quarter of the classic rate.$(li)Right-click to open it. The top slot takes a $(l)Klein Star$() (to charge it) or a $(l)fuel$() (to upgrade it).$(li)Put fuel in the input grid and the collector will turn it into the next fuel tier using its stored EMC.$(li)The ghost slot sets the upgrade target; click it to clear.$(li)When the top slot is empty and the buffer has EMC, the collector pushes it to every neighbouring block that accepts EMC.$(br2)$(l)How to use a Relay$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Right-click to open it. The burn slot destroys items (or drains a Klein Star) for EMC; the charge slot fills a Klein Star.$(li)Every tick the relay sends its stored EMC to all non-relay neighbours. Relays $(l)never$() pass EMC to each other, so always chain collector to relay to consumer.$(li)A collector standing next to a relay gives that relay a small bonus every tick, on top of the EMC it sends."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Collectors generate only from sunlight, and the Nether no longer counts as full light.$(li)Automation: collectors accept fuel from their $(l)sides$() and output the upgraded fuel from $(l)top/bottom$(). Relays accept items from the sides and only release a Klein Star from top/bottom once it is completely full.$(li)Fuel can be upgraded by the collector itself, so a chest of coal slowly becomes Alchemical Coal, Mobius Fuel and Aeternalis Fuel while you are away.$(li)Every EMC block sends its buffer out evenly between all neighbours that accept EMC, so avoid wiring one source into many competing consumers."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() generation is scaled by balance.emc.generationMultiplier (0.25 by default), sunlight-only by balance.collectors.sunOnly, and the whole economy by balance.emc.enabled."
+    }
+  ]
+}

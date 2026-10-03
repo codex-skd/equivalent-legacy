@@ -1,0 +1,20 @@
+{
+  "name": "World Transmutation",
+  "category": "equivalent_legacy:getting_started",
+  "icon": "equivalent_legacy:philosophers_stone",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "World transmutation is the Philosopher's Stone's signature trick: point at a block and right-click to turn it into another block, without spending any EMC.$(br2)Many vanilla blocks have a default transformation. A few examples:$(br2)$(li)Stone becomes cobblestone, and cobblestone becomes stone.$(li)Grass, dirt, sand and sandstone cycle into one another.$(li)Gravel becomes sandstone.$(li)Ice becomes water, and obsidian becomes lava (and back again).$(li)Netherrack, crimson nylium and warped nylium cycle together."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Alternate results:$() hold $(l)Sneak$() while right-clicking to get a different result when the block has one. For example, stone's normal result is cobblestone, but sneaking turns it into grass instead.$(br2)$(l)Transmuting fluids:$() sneaking also lets the Stone target $(l)source fluids$(). Right-click a water or lava source to convert it (for example, water source to ice, or obsidian to lava).$(br2)$(l)Area and modes:$() press $(l)G$() to switch between Cube, Panel and Line, and $(l)V$() to raise the charge. The higher the charge, the more blocks change at once."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "You can browse every possible transformation in JEI or EMI under the $(l)World Transmutation$() category.$(br2)$(l)Server settings:$() an admin can disable world transmutation with balance.philosophersStone.worldTransmute (the crafting grid keeps working)."
+    }
+  ]
+}

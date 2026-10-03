@@ -1,0 +1,45 @@
+package com.skd.equivalentlegacy.gameObjs.items.tools;
+import java.util.List;
+
+import com.skd.equivalentlegacy.gameObjs.EnumMatterType;
+import com.skd.equivalentlegacy.gameObjs.items.IItemMode;
+import com.skd.equivalentlegacy.gameObjs.items.tools.PEKatar.KatarMode;
+import com.skd.equivalentlegacy.gameObjs.registries.PEDataComponentTypes;
+import com.skd.equivalentlegacy.utils.ClientKeyHelper;
+import com.skd.equivalentlegacy.utils.PEKeybind;
+import com.skd.equivalentlegacy.utils.text.PELang;
+import net.minecraft.core.component.DataComponentType;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
+import org.jetbrains.annotations.NotNull;
+
+public class RedMatterSword extends PESword implements IItemMode<KatarMode> {
+
+	public RedMatterSword(Properties props) {
+		super(EnumMatterType.RED_MATTER, 3, 12, props.component(PEDataComponentTypes.KATAR_MODE, KatarMode.SLAY_HOSTILE));
+	}
+
+	@Override
+	protected boolean slayAll(@NotNull ItemStack stack) {
+		return getMode(stack) == KatarMode.SLAY_ALL;
+	}
+
+	@Override
+	public void appendHoverText(@NotNull ItemStack stack, @NotNull Item.TooltipContext context, @NotNull List<Component> tooltip, @NotNull TooltipFlag flags) {
+		super.appendHoverText(stack, context, tooltip, flags);
+		tooltip.add(getToolTip(stack));
+		tooltip.add(PELang.TOOLTIP_MODE_KEY.translate(ClientKeyHelper.getKeyName(PEKeybind.MODE)));
+	}
+
+	@Override
+	public DataComponentType<KatarMode> getDataComponentType() {
+		return PEDataComponentTypes.KATAR_MODE.get();
+	}
+
+	@Override
+	public KatarMode getDefaultMode() {
+		return KatarMode.SLAY_HOSTILE;
+	}
+}

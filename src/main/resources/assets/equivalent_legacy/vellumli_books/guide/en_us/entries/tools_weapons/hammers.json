@@ -1,0 +1,32 @@
+{
+  "name": "Matter Hammers",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_hammer",
+  "sort_num": 7,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_hammer"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_hammer"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_hammer"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_hammer"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Dark Matter Hammer$() and $(l)Red Matter Hammer$() are heavy mining hammers. Craft the Dark Matter Hammer from Dark Matter and a diamond, then upgrade it into the Red Matter Hammer.$(br2)Press $(l)V$() to charge. The hammer hits hard: thirteen attack damage for Dark Matter, fourteen for Red Matter."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)Right-click a block to dig out an area in front of you, with depth and size growing with charge.$(li)Charges up to add bonus attack damage.$(li)Mines Dark and Red Matter blocks almost instantly.$(li)The extra hit from charging no longer ignores armor in this version.$(br2)$(l)Server settings:$() server.items.disableAllRadiusMining."
+    }
+  ]
+}

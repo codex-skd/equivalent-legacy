@@ -1,0 +1,24 @@
+{
+  "name": "Ring of Arcana",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:arcana_ring",
+  "sort_num": 10,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:arcana_ring"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:arcana_ring"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Ring of Arcana$() packs four rings into one. Craft it from the Zero Ring, Ignition Ring, Harvest Goddess Band, Swiftwolf's Rending Gale and Red Matter. It fits the ring curio slot.$(br2)Press $(l)G$() to choose its mode and right-click to toggle it active."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)$(l)Zero$() mode freezes water and snow around you like the Zero Ring.$(li)$(l)Ignition$() mode ignites nearby blocks and creatures like the Ignition Ring, and makes you immune to fire.$(li)$(l)Harvest$() mode grows nearby plants like the Harvest Goddess Band.$(li)$(l)SWRG$() mode repels nearby mobs and projectiles like Swiftwolf's Rending Gale.$(li)In Ignition mode press $(l)C$() to lay down a huge wall of fire in front of you.$(li)Press $(l)R$() to fire the projectile that matches the current mode; Harvest does not shoot.$(li)Right-clicking a block in Ignition mode lights it."
+    }
+  ]
+}

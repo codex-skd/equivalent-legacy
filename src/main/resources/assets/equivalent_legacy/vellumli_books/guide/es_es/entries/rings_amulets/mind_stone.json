@@ -1,0 +1,24 @@
+{
+  "name": "Piedra de la Mente",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:mind_stone",
+  "sort_num": 15,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:mind_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:mind_stone"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La $(l)Piedra de la Mente$() almacena experiencia. Fabrícala con libros, Materia Roja y lapislázuli. Encaja en la ranura de curio de collar.$(br2)Actívala con $(l)G$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Mientras está activa, drena hasta 50 XP de ti hacia la piedra cada tick, sin límite de cuánto puede almacenar.$(li)El $(l)clic derecho$() mientras está desactivada te devuelve 50 XP.$(li)Su cantidad almacenada se muestra en su tooltip.$(li)En un pedestal atrae los orbes de experiencia cercanos y los absorbe.$(li)Aunque encaja en la ranura de collar, no se activa ahí; llévala en la barra rápida o en la mano secundaria para drenar XP."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": { "item": "equivalent_legacy:dm_hammer" },
+    "M": { "item": "equivalent_legacy:dark_matter" },
+    "R": { "item": "equivalent_legacy:red_matter" }
+  },
+  "pattern": [
+    "RMR",
+    " H ",
+    " M "
+  ],
+  "result": {
+    "id": "equivalent_legacy:rm_hammer"
+  }
+}

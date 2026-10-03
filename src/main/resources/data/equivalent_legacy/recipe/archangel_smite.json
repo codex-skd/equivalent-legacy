@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": { "item": "minecraft:bow" },
+    "F": { "tag": "c:feathers" },
+    "I": { "item": "equivalent_legacy:iron_band" },
+    "M": { "item": "equivalent_legacy:dark_matter" }
+  },
+  "pattern": [
+    "BFB",
+    "MIM",
+    "BFB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:archangel_smite"
+  }
+}

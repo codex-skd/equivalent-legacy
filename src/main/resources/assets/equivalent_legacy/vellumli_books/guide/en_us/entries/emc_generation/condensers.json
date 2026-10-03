@@ -1,0 +1,44 @@
+{
+  "name": "Energy Condensers",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:condenser_mk1",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:condenser_mk1"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:condenser_mk2"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:condenser_mk1"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:condenser_mk2"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "An $(l)Energy Condenser$() turns junk into one specific item. You tell it what you want with a lock, feed it anything else, and it slowly produces your chosen item.$(br2)$(l)How to get them:$()$(br2)$(li)MK1: 4 obsidian, 4 diamond and 1 Alchemical Chest.$(li)MK2: 4 Red Matter Blocks, 4 Dark Matter Blocks and 1 Condenser MK1.$(br2)$(l)Using a Condenser$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Open it and place the item you want in the $(l)lock slot$(), then click the lock slot to set it.$(li)Put any other items with EMC into the input area. They are consumed and their value fills the condenser's buffer.$(li)Once the buffer holds enough EMC, one locked item is produced in the output area.$(li)Click the lock slot again to clear the lock."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)MK1 vs MK2$()$(br2)$(li)The MK1 has 91 shared slots and processes one item per tick.$(li)The MK2 has separate 42-slot input and output areas and processes whole stacks per tick, producing several items at once. It is the late-game upgrade.$(br2)$(l)Hidden abilities$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)A condenser never gives EMC out; it only consumes it.$(li)The required EMC is the full value of the locked item, so expensive items take a long time.$(li)Automation: feed items in and pull the locked item out through the same face. The filter only accepts items that are not the locked one.$(li)An $(l:emc_transmutation/alchemical_chest)Alchemical Chest$() is needed to make the MK1, so build your storage first."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() producing a locked item costs twice its normal EMC by default, set by balance.emc.condenserCostMultiplier, and the whole economy can be toggled with balance.emc.enabled."
+    }
+  ]
+}
