@@ -1,0 +1,48 @@
+{
+  "name": "Dark Matter Armor",
+  "category": "equivalent_legacy:armor",
+  "icon": "equivalent_legacy:dm_chestplate",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_helmet"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_chestplate"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_leggings"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_boots"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_helmet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_chestplate"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_leggings"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_boots"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Dark Matter Armor is the first alchemical armor tier. Craft each piece from Dark Matter, then upgrade it later into Red Matter Armor.$(br2)Each piece works like normal armor but never loses durability. Wearing the whole set reduces incoming damage by roughly $(l)56%$(), and every piece soaks up a flat amount of damage from each hit. That flat blocking is stronger against explosions, and boots help with falls while the helmet helps with drowning."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)The pieces are fireproof, so they survive lava.$(li)Damage that bypasses armor is not reduced at all.$(li)Wearing only part of the set grants only that piece's share of the bonus."
+    }
+  ]
+}

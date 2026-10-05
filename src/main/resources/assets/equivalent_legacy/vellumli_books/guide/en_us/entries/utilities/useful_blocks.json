@@ -1,0 +1,20 @@
+{
+  "name": "Utility Overview",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:alchemical_chest",
+  "sort_num": 0,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Equivalent Legacy has a toolbox of gadgets beyond tools and armor. This category covers them:"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)$(l:utilities/dm_pedestal)Dark Matter Pedestal$() automates one item's passive power for you.$(li)$(l:utilities/interdiction_torch)Interdiction Torch$() pushes mobs and projectiles away.$(li)$(l:utilities/nova_explosives)Nova Catalyst & Cataclysm$() are giant, drop-collecting explosives.$(li)$(l:utilities/catalysts_lenses)Catalysts & Lenses$() carve terrain and fire explosive projectiles.$(li)$(l:utilities/mercurial_eye)Mercurial Eye$() is the ultimate builder and transmuter.$(li)$(l:utilities/divining_rods)Divining Rods$() scan the ground for valuable blocks.$(li)$(l:utilities/gem_of_eternal_density)Gem of Eternal Density$() condenses spare items into better ones.$(li)$(l:utilities/arcane_tablet)Arcane Tablet$() is portable transmutation with crafting."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Most of these items are powered by EMC. Keep a $(l:emc_generation/klein_stars)Klein Star$() charged so they always have fuel, and remember that many of them are limited by server balance settings described in their own entries."
+    }
+  ]
+}

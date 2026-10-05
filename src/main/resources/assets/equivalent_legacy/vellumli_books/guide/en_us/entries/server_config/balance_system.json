@@ -1,0 +1,72 @@
+{
+  "name": "Survival Balance System",
+  "category": "equivalent_legacy:server_config",
+  "icon": "minecraft:comparator",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "The [balance] section of server.toml controls the survival balance system added by Equivalent Legacy. It is enabled by default and gives server admins and modpack makers fine control over how generous the mod is.$(br2)Every key below also has a $(l)legacy value$(): the behaviour used when balance.enabled = false. That column lets you predict what the mod does when the whole system is switched off."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Master.$() balance.enabled is the switch for the entire system. The other two keys are global modifiers: balance.effectEmcMultiplier scales the EMC cost of every item effect the system covers (repair, heal, feed and the SWRG shield), and balance.dimensionBlacklist stops those item abilities from working in the listed dimensions."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Key — Default — Range — What it does — Legacy$(li)balance.enabled — true — on/off — Master switch for the whole survival balance system. — off$(li)balance.effectEmcMultiplier — 1.0 — 0.0-100.0 — Multiplies the EMC cost of every covered item effect. — 1.0$(li)balance.dimensionBlacklist — empty — list of dimension ids — Covered item abilities do nothing in these dimensions, e.g. minecraft:the_nether. — empty"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Repair.$() The $(l:rings_amulets/repair_talisman)Talisman of Repair$() can be limited so that it charges EMC for every point of durability it restores, and it can be told which containers and slots to search."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Key — Default — Range — What it does — Legacy$(li)balance.repair.enabled — true — on/off — Lets the Talisman of Repair repair items. — on$(li)balance.repair.emcPerRepair — 4 — 0-Long.MAX — EMC charged per point of durability repaired; 0 is free. — 0 (free)$(li)balance.repair.includeCurios — true — on/off — Also repairs items equipped in Curios/Regalia slots. — on$(li)balance.repair.includeAlchStorage — true — on/off — Also repairs items inside alchemical bags and chests. — on"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Auto survival.$() These options govern the automatic heal and feed given by the $(l:rings_amulets/body_soul_life_stones)Body, Soul and Life Stones$() and by the $(l:armor/gem_helmet)Gem Helmet$() and Gem Chestplate. emcPerHeal and emcPerFeed are charged once per activation, healAmount and feedAmount set how much one activation restores, and requireCurio forces the items to be equipped in a Regalia slot to work."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Key — Default — Range — What it does — Legacy$(li)balance.autoSurvival.enabled — true — on/off — Enables automatic healing and feeding. — on$(li)balance.autoSurvival.emcPerHeal — 256 — 0-Long.MAX — EMC charged for each automatic heal. — 64$(li)balance.autoSurvival.emcPerFeed — 256 — 0-Long.MAX — EMC charged for each automatic feed. — 64$(li)balance.autoSurvival.healAmount — 1.0 — 0.0-20.0 — Health restored by each automatic heal. — 2.0$(li)balance.autoSurvival.feedAmount — 1 — 0-20 — Food restored by each automatic feed. — 2$(li)balance.autoSurvival.requireCurio — true — on/off — Auto survival items (and the Repair Talisman) only work from a Regalia slot. — off"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Gem Armor, fire, fluids and SWRG.$() Gem Armor keeps its special abilities; gemArmor.noFall cancels fall damage on the Gem Boots and speedBonus sets the movement bonus. Fire immunity and walking on fluids are simple on/off switches. The $(l:rings_amulets/swiftwolf_rending_gale)Swiftwolf's Rending Gale$() has its own EMC drain and repel radius."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Key — Default — Range — What it does — Legacy$(li)balance.gemArmor.enabled — true — on/off — Enables the Gem Armor special abilities. — on$(li)balance.gemArmor.noFall — false — on/off — Gem Boots cancel fall damage. — on$(li)balance.gemArmor.speedBonus — 0.5 — 0.0-2.0 — Movement speed bonus granted by the Gem Boots. — 1.0$(li)balance.fireImmunity.enabled — true — on/off — Fire immunity from Equivalent Legacy items and armor. — on$(li)balance.walkOnFluids.enabled — true — on/off — Walking on fluids from Equivalent Legacy items and armor. — on$(li)balance.swrg.enabled — true — on/off — Enables the Swiftwolf's Rending Gale abilities. — on$(li)balance.swrg.emcPerTick — 1.0 — 0.0-100.0 — EMC drained per tick while the SWRG shield is active. — 0.32$(li)balance.swrg.repelRadius — 3.0 — 0.0-32.0 — Radius in blocks the shield repels entities. — 5.0"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Armor.$() reductionMultiplier scales the damage reduction of a full set, absorbMultiplier scales the maximum absorb of each piece, and durabilityLoss makes the armor wear out like ordinary gear.$(br2)$(li)Key — Default — Range — What it does — Legacy$(li)balance.armor.reductionMultiplier — 0.7 — 0.0-1.0 — Scales the damage reduction granted by a full set of armor. — 1.0$(li)balance.armor.absorbMultiplier — 1.0 — 0.0-10.0 — Scales the maximum absorb per armor piece. — 1.0$(li)balance.armor.durabilityLoss — false — on/off — If on, Equivalent Legacy armor takes durability damage. — off"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Tools and combat.$() Tools can have infinite durability, a limit on vein mining and a multiplier on the radius of dig, shear, till and strip actions. Combat adds the $(l:tools_weapons/red_katar)Red Katar$() death aura, the extra armor-piercing hit and AOE attacks."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Key — Default — Range — What it does — Legacy$(li)balance.tools.infiniteDurability — true — on/off — Equivalent Legacy tools have infinite durability. — on$(li)balance.tools.veinMineMaxBlocks — 64 — 0-1000 — Maximum blocks vein mining may break at once. — 250$(li)balance.tools.aoeRadiusMultiplier — 0.5 — 0.0-1.0 — Scales the radius and depth of dig, shear, till and strip actions. — 1.0$(li)balance.combat.katarEnabled — true — on/off — Enables the Red Katar death aura mode. — on$(li)balance.combat.armorPiercing — false — on/off — If off, the extra armor-ignoring hit deals normal damage instead. — on$(li)balance.combat.attackAoe — true — on/off — Enables AOE attacks for Equivalent Legacy weapons. — on"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)EMC economy.$() These keys scale EMC generation, make condensers more expensive, restrict collectors to sunlight, put a floor under Entropy Sink efficiency, cap the Stellar Condenser and change the ore-doubling chance of the matter furnaces. See $(l:emc_generation/collectors_relays)Collectors and Relays$(), $(l:emc_generation/condensers)Condensers$(), $(l:emc_generation/entropy_sinks)Entropy Sinks$(), $(l:emc_generation/stellar_condenser)Stellar Condenser$() and $(l:matter/matter_furnaces)Matter Furnaces$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Key — Default — Range — What it does — Legacy$(li)balance.emc.enabled — true — on/off — Enables the EMC generation and condenser cost options. — on$(li)balance.emc.generationMultiplier — 0.25 — 0.0-100.0 — Scales EMC generated by collectors and other generators. — 1.0$(li)balance.emc.condenserCostMultiplier — 2.0 — 1.0-100.0 — Scales the EMC cost of condenser operations. — 1.0$(li)balance.collectors.sunOnly — true — on/off — Collectors only generate EMC when they can see the sun. — off$(li)balance.entropySinks.efficiencyFloor — 0.05 — 0.0-1.0 — Minimum efficiency of an Entropy Sink; 0 disables the floor. — 0.0$(li)balance.stellarCondenser.softCapPerMinute — 512 — 0-2147483647 — Maximum EMC the Stellar Condenser may produce per minute. — unlimited$(li)balance.matterFurnaces.dmDoubleOreChance — 0.25 — 0.0-1.0 — Chance for the Dark Matter Furnace to double ore output. — 0.5$(li)balance.matterFurnaces.rmDoubleOreChance — 0.0 — 0.0-1.0 — Chance for the Red Matter Furnace to double ore output. — 1.0"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Utilities.$() Limits on the $(l:utilities/mercurial_eye)Mercurial Eye$(), the Nova Catalysts and the Explosive Lens (see $(l:utilities/catalysts_lenses)Catalysts and Lenses$()), plus the $(l:getting_started/philosophers_stone)Philosopher's Stone$() functions and the $(l:rings_amulets/watch_of_flowing_time)Watch of Flowing Time$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Key — Default — Range — What it does — Legacy$(li)balance.mercurialEye.maxArea — 32 — 0-2147483647 — Maximum area the Mercurial Eye may place; 0 means unlimited. — unlimited$(li)balance.catalysts.emcPerBlock — 32 — 0-Long.MAX — EMC value assumed per block destroyed by a Nova Catalyst. — 8$(li)balance.lens.maxRadius — 8.0 — 0.0-16.0 — Maximum radius of the Explosive Lens. — 16.0$(li)balance.philosophersStone.worldTransmute — true — on/off — Enables the Philosopher's Stone world transmutation. — on$(li)balance.philosophersStone.mobRandomizer — true — on/off — Enables the Philosopher's Stone mob randomizer. — on$(li)balance.timeWatch.inventoryBonus — 16 — 0-16 — Bonus ticks the Watch of Flowing Time can apply while in a player's inventory. — 16"
+    }
+  ]
+}

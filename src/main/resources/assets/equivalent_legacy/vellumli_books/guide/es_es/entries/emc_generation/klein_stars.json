@@ -1,0 +1,36 @@
+{
+  "name": "Klein Stars",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:klein_star_ein",
+  "sort_num": 5,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:klein_star_ein"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:klein_star_omega"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:klein_star_ein"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:klein_star_omega"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Las Klein Stars son baterías de EMC portátiles. Cada nivel almacena más EMC, y las herramientas que necesitan combustible drenan de una estrella antes de tocar tu propia reserva.$(br2)Los niveles y sus capacidades:$(br2)$(li)$(l)Ein:$() 50,000 EMC.$(li)$(l)Zwei:$() 200,000 EMC.$(li)$(l)Drei:$() 800,000 EMC.$(li)$(l)Vier:$() 3,200,000 EMC.$(li)$(l)Sphere:$() 12,800,000 EMC.$(li)$(l)Omega:$() 51,200,000 EMC.$(br2)$(l)Cómo conseguirlas:$() fabrica la Ein con 8 Combustible Mobius y 1 diamante. Cada nivel superior se hace con cuatro del nivel inferior."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Cómo usarlas:$() pon una estrella en tu inventario o en la $(l)ranura de curio$() dedicada a Klein Star. Se llena y se vacía automáticamente mientras usas herramientas de EMC. También puedes cargar una en un $(l:emc_generation/collectors_relays)Colector de Energía$() o un $(l:emc_generation/collectors_relays)Relé$(), o directamente desde tu reserva de EMC en una $(l:emc_transmutation/transmutation_table)Mesa de Transmutación$().$(br2)$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)El $(l:utilities/mercurial_eye)Ojo Mercurial$() usa una Klein Star como fuente de combustible; inserta una en su interfaz.$(li)Los relés también pueden drenar una estrella desde la ranura de quema para rellenar su búfer.$(li)En esta versión, las recetas que usan una Klein Star (el $(l:emc_transmutation/tome_of_knowledge)Tomo de Conocimiento$() y la Armadura de Gemas) requieren una Omega $(l)completamente cargada$() por defecto.$(br2)$(l)Ajustes del servidor:$() la regla de la estrella llena es common.crafting.fullKleinStars."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Ajustes clásicos",
+  "category": "equivalent_legacy:server_config",
+  "icon": "minecraft:book",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Estas opciones existían antes del sistema de balance de supervivencia y siguen funcionando por su cuenta. Están en server.toml (objetos, dificultad, efectos, enfriamientos y varios), excepto las claves de crafting común, que están en common.toml. $(l)No$() se ven afectadas por balance.enabled.$(br2)Un valor por defecto marcado como $(l)(cambiado)$() difiere del de versiones anteriores de este mod, así que revísalo si estás migrando un modpack ya existente."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Dificultad.$() Estas claves ajustan lo peligroso que se siente el mod. katarDeathAura es el daño de la función extra del Katar. covalenceLoss es la proporción de EMC que recuperas al quemar un objeto, y covalenceLossRounding decide cómo se redondean los valores por debajo de 1 EMC."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave — Defecto — Qué hace$(li)difficulty.offensiveAbilities — false — Habilidades ofensivas de la armadura de gema (chispazo del casco, explosión del peto).$(li)difficulty.katarDeathAura — 12.0 $(l)(cambiado)$() — Daño que hace la función extra del $(l:tools_weapons/red_katar)Katar Rojo$().$(li)difficulty.covalenceLoss — 0.5 $(l)(cambiado)$() — Proporción de EMC recibida al quemar un objeto; 1.0 devuelve el coste completo.$(li)difficulty.covalenceLossRounding — true — Si está activo, un valor de quemado menor que 1 EMC se redondea a 1; si no, a 0."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Objetos.$() Interruptores de objetos independientes del sistema de balance."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave — Defecto — Qué hace$(li)items.pickaxeAoeVeinMining — false — Hace que el pico/estrella de materia oscura o roja minee todos los minerales de una zona a tu alrededor (comportamiento anterior a 1.4.4).$(li)items.harvBandIndirect — false — Permite que la banda de la diosa de la cosecha cultive hierba, flores y musgo de forma indirecta.$(li)items.disableAllRadiusMining — false — Desactiva toda la minería por radio (clic derecho de las herramientas).$(li)items.enableTimeWatch — false $(l)(cambiado)$() — Activa el $(l:rings_amulets/watch_of_flowing_time)Reloj del Tiempo Fluido$().$(li)items.opEvertide — false — Permite al $(l:rings_amulets/evertide_amulet)Amuleto Evertide$() colocar agua en dimensiones donde se evapora, como el Nether."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Efectos.$() Efectos pasivos del pedestal de materia oscura y de la antorcha de interdicción.$(br2)$(li)Clave — Defecto — Qué hace$(li)effects.timePedBonus — 4 — Máximo de ticks de bonus que el Reloj del Tiempo Fluido puede aplicar desde un pedestal (0-15).$(li)effects.timePedMobSlowness — 0.5 — Factor en que el Reloj del Tiempo Fluido ralentiza a los mobs en un pedestal; 1.0 es sin ralentización.$(li)effects.interdictionMode — true — Si está activo, la $(l:utilities/interdiction_torch)antorcha de interdicción$() solo afecta a mobs hostiles y proyectiles."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Enfriamientos$() $(o)(cambiados)$(). Todos los valores están en ticks, así que 20 es un segundo. -1 desactiva la funcionalidad y 0 permite la acción cada tick, lo que puede perjudicar tus TPS si se usa en funciones automáticas. Los enfriamientos del pedestal se $(l)duplicaron$() respecto a versiones anteriores; los del jugador ahora son de diez segundos para reparar, curar y alimentar."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave de pedestal — Defecto — Qué hace$(li)cooldown.pedestal.archangel — 80 — Retardo entre flechas del Archangel Smite.$(li)cooldown.pedestal.body — 20 — Retardo entre curaciones de la Body Stone.$(li)cooldown.pedestal.evertide — 40 — Retardo entre intentos del Amuleto Evertide de hacer llover.$(li)cooldown.pedestal.harvest — 20 — Retardo entre crecimiento y cosecha de la diosa de la cosecha.$(li)cooldown.pedestal.ignition — 80 — Retardo entre intentos del anillo de ignición de prender fuego a entidades.$(li)cooldown.pedestal.life — 10 — Retardo entre curaciones de comida y hambre de la Life Stone.$(li)cooldown.pedestal.repair — 40 — Retardo entre intentos del Talismán de Reparación.$(li)cooldown.pedestal.swrg — 140 — Retardo entre intentos del SWRG de castigar mobs.$(li)cooldown.pedestal.soul — 20 — Retardo entre curaciones de la Soul Stone.$(li)cooldown.pedestal.volcanite — 40 — Retardo entre intentos del Amuleto Volcanite de parar la lluvia.$(li)cooldown.pedestal.zero — 80 — Retardo entre intentos del anillo Zero de apagar entidades y congelar el suelo."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave de jugador — Defecto — Qué hace$(li)cooldown.player.projectile — 20 — Enfriamiento al disparar proyectiles.$(li)cooldown.player.gemChest — 0 — Enfriamiento de la explosión del peto de gema.$(li)cooldown.player.repair — 200 — Retardo entre intentos del Talismán de Reparación desde el inventario.$(li)cooldown.player.heal — 200 — Retardo entre intentos de curación desde el inventario (Soul Stone, Life Stone, casco de gema).$(li)cooldown.player.feed — 200 — Retardo entre intentos de alimentación desde el inventario (Body Stone, Life Stone, casco de gema)."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Varios y crafting común.$() misc está en server.toml; las claves de crafting están en common.toml."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave — Defecto — Qué hace$(li)misc.unsafeKeyBinds — false — Si está apagado, tu mano debe estar vacía para preparar o activar las habilidades ofensivas de la armadura de gema.$(li)misc.lookingAtDisplay — true — Muestra el valor de EMC de los bloques que miras en Jade, TOP o WTHIT.$(li)debugLogging — false — Activa un registro de depuración más detallado.$(li)crafting.craftableTome — false — Permite fabricar el Tomo del Conocimiento.$(li)crafting.fullKleinStars — true $(l)(cambiado)$() — Exige $(l:emc_generation/klein_stars)Klein Stars$() Omega completas en las recetas del Tomo del Conocimiento y de la armadura de gema, como hacía EE2."
+    }
+  ]
+}

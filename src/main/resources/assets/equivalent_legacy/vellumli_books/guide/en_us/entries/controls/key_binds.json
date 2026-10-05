@@ -1,0 +1,25 @@
+{
+  "name": "Key Binds",
+  "category": "equivalent_legacy:controls",
+  "icon": "minecraft:lever",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Equivalent Legacy adds six key binds. All of them are in the $(l)Equivalent Legacy$() category in the controls menu and can be rebound there.$(br2)$(li)$(l)G$() (Change Mode): cycles the mode or on/off state of a held item.$(li)$(l)V$() (Charge): raises an item's charge; $(l)Shift + V$() lowers it.$(li)$(l)C$() (Extra Function): triggers a held item's special ability.$(li)$(l)R$() (Fire Projectile): fires a held item's projectile.$(li)$(l)X$() (Boots Effects): toggles Gem Boots Step Assist.$(li)$(l)Shift + X$() (Helmet Effects): toggles Gem Helmet Night Vision."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)What each key acts on$()$(br)$(li)$(l)V$(): picks, axes, shovels, hoes, shears, hammers, swords, the Red Katar, the Red Morningstar, the Zero Ring, the Watch of Flowing Time, the Destruction Catalyst, the Catalytic Lens and the Hyperkinetic Lens.$(li)$(l)G$(): picks, the Red Katar, the Red Morningstar, the Red Matter Sword, the Gem of Eternal Density, the Mercurial Eye, the Philosopher's Stone, the Divining Rods and all toggle rings and stones.$(li)$(l)C$(): the Philosopher's Stone (crafting grid), the Mercurial Eye (settings screen), both Matter Swords, the Red Katar, the Void Ring (teleport) and the Ring of Arcana (wall of fire).$(li)$(l)R$(): the Evertide Amulet, the Volcanite Amulet, Swiftwolf's Rending Gale, the Ignition Ring, the Ring of Arcana, the Philosopher's Stone and the projectile lenses."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Important rules$()$(br)$(li)Key binds only affect items in your $(l)main hand or off-hand$(). Items equipped in Regalia (curio) slots keep working passively but do not respond to keys.$(li)Each key stops at the first hand that can use it, so the main hand wins over the off-hand.$(li)Projectiles share a cooldown of about 1 second, set by server.cooldown.player.projectile.$(li)The Gem Armor's offensive abilities need an $(l)empty main hand$() and the offensive state turned on, unless the server sets server.misc.unsafeKeyBinds.$(li)Press $(l)V$() with an empty main hand and any Gem Armor piece worn to toggle the offensive state. Then $(l)R$() calls lightning (Gem Helmet) and $(l)C$() creates an explosion (Gem Chestplate).$(li)Offensive abilities are disabled by default; the server must set server.difficulty.offensiveAbilities."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() server.cooldown.player.projectile, server.difficulty.offensiveAbilities and server.misc.unsafeKeyBinds."
+    }
+  ],
+  "read_by_default": true
+}

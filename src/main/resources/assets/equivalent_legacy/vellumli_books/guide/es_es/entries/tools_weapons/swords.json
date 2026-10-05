@@ -1,0 +1,36 @@
+{
+  "name": "Espadas de materia",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_sword",
+  "sort_num": 8,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_sword"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_sword"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_sword"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_sword"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La $(l)Espada de Materia Oscura$() y la $(l)Espada de Materia Roja$() son armas fiables: doce de daño de ataque con Materia Oscura y dieciséis con Materia Roja. Fabrica la Espada de Materia Oscura con Materia Oscura y un diamante, y luego mejórala a la Espada de Materia Roja.$(br2)Pulsa $(l)V$() para cargar, $(l)G$() para cambiar el modo de objetivo de la Espada de Materia Roja y $(l)C$() para su función extra."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Con la barra de ataque llena, pulsa $(l)C$() para golpear a la vez a todas las criaturas hostiles cercanas; el radio crece con la carga.$(li)El modo de la Espada de Materia Roja ($(l)G$()) se puede poner en $(l)Matar hostiles$() o $(l)Matar todo$(), para que su golpe con $(l)C$() también alcance a criaturas pasivas.$(li)El barrido de la espada alcanza un área más amplia a medida que sube la carga.$(li)Cargar añade daño de ataque extra, pero el golpe extra ya no ignora la armadura en esta versión."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() ninguno específico de las espadas."
+    }
+  ]
+}

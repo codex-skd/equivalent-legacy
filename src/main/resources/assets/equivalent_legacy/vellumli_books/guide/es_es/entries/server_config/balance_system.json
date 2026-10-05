@@ -1,0 +1,76 @@
+{
+  "name": "Sistema de balance de supervivencia",
+  "category": "equivalent_legacy:server_config",
+  "icon": "minecraft:comparator",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "La sección [balance] de server.toml controla el sistema de balance de supervivencia que añade Equivalent Legacy. Está activado por defecto y da a los administradores de servidor y a los creadores de modpacks un control fino sobre cuán generoso es el mod.$(br2)Cada clave de abajo tiene además un $(l)valor legado$(): el comportamiento que se usa cuando balance.enabled = false. Esa columna te permite saber qué hará el mod cuando todo el sistema esté apagado."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Maestro.$() balance.enabled es el interruptor de todo el sistema. Las otras dos claves son modificadores globales: balance.effectEmcMultiplier escala el coste de EMC de cada efecto de objeto que cubre el sistema (reparación, curación, alimentación y escudo del SWRG), y balance.dimensionBlacklist impide que esas habilidades funcionen en las dimensiones indicadas."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave — Defecto — Rango — Qué hace — Legado$(li)balance.enabled — true — sí/no — Interruptor maestro de todo el sistema de balance de supervivencia. — no$(li)balance.effectEmcMultiplier — 1.0 — 0.0-100.0 — Multiplica el coste de EMC de cada efecto de objeto cubierto. — 1.0$(li)balance.dimensionBlacklist — vacío — lista de ids de dimensión — Las habilidades cubiertas no hacen nada en estas dimensiones, p. ej. minecraft:the_nether. — vacío"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Reparación.$() El $(l:rings_amulets/repair_talisman)Talismán de Reparación$() puede limitarse para que cobre EMC por cada punto de durabilidad que restaura, y se le puede indicar en qué contenedores y ranuras debe buscar."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave — Defecto — Rango — Qué hace — Legado$(li)balance.repair.enabled — true — sí/no — Permite que el Talismán de Reparación repare objetos. — sí$(li)balance.repair.emcPerRepair — 4 — 0-Long.MAX — EMC cobrado por cada punto de durabilidad reparado; 0 es gratis. — 0 (gratis)$(li)balance.repair.includeCurios — true — sí/no — Repara también los objetos equipados en ranuras Curios/Regalia. — sí$(li)balance.repair.includeAlchStorage — true — sí/no — Repara también los objetos que hay dentro de bolsas y cofres alquímicos. — sí"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Supervivencia automática.$() Estas opciones gobiernan la curación y la alimentación automáticas que dan las $(l:rings_amulets/body_soul_life_stones)piedras Body, Soul y Life$() y el $(l:armor/gem_helmet)casco de gema$() y la peto de gema. emcPerHeal y emcPerFeed se cobran una vez por activación, healAmount y feedAmount fijan cuánto restaura una activación, y requireCurio obliga a llevar los objetos equipados en una ranura Regalia para que funcionen."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave — Defecto — Rango — Qué hace — Legado$(li)balance.autoSurvival.enabled — true — sí/no — Activa la curación y la alimentación automáticas. — sí$(li)balance.autoSurvival.emcPerHeal — 256 — 0-Long.MAX — EMC cobrado por cada curación automática. — 64$(li)balance.autoSurvival.emcPerFeed — 256 — 0-Long.MAX — EMC cobrado por cada alimentación automática. — 64$(li)balance.autoSurvival.healAmount — 1.0 — 0.0-20.0 — Vida restaurada por cada curación automática. — 2.0$(li)balance.autoSurvival.feedAmount — 1 — 0-20 — Comida restaurada por cada alimentación automática. — 2$(li)balance.autoSurvival.requireCurio — true — sí/no — Los objetos de supervivencia automática (y el Talismán de Reparación) solo funcionan desde una ranura Regalia. — no"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Armadura de gema, fuego, fluidos y SWRG.$() La armadura de gema conserva sus habilidades especiales; gemArmor.noFall anula el daño por caída de las botas de gema y speedBonus fija el bonus de movimiento. La inmunidad al fuego y caminar sobre fluidos son simples interruptores. La $(l:rings_amulets/swiftwolf_rending_gale)Swiftwolf's Rending Gale$() tiene su propio gasto de EMC y su radio de repulsión."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave — Defecto — Rango — Qué hace — Legado$(li)balance.gemArmor.enabled — true — sí/no — Activa las habilidades especiales de la armadura de gema. — sí$(li)balance.gemArmor.noFall — false — sí/no — Las botas de gema anulan el daño por caída. — sí$(li)balance.gemArmor.speedBonus — 0.5 — 0.0-2.0 — Bonus de velocidad de movimiento que dan las botas de gema. — 1.0$(li)balance.fireImmunity.enabled — true — sí/no — Inmunidad al fuego de los objetos y armaduras de Equivalent Legacy. — sí$(li)balance.walkOnFluids.enabled — true — sí/no — Caminar sobre fluidos de los objetos y armaduras de Equivalent Legacy. — sí$(li)balance.swrg.enabled — true — sí/no — Activa las habilidades de la Swiftwolf's Rending Gale. — sí$(li)balance.swrg.emcPerTick — 1.0 — 0.0-100.0 — EMC consumido por tick mientras el escudo del SWRG está activo. — 0.32$(li)balance.swrg.repelRadius — 3.0 — 0.0-32.0 — Radio en bloques en el que el escudo repele entidades. — 5.0"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Armadura.$() reductionMultiplier escala la reducción de daño de un conjunto completo, absorbMultiplier escala la absorción máxima de cada pieza y durabilityLoss hace que la armadura se desgaste como el equipo normal."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave — Defecto — Rango — Qué hace — Legado$(li)balance.armor.reductionMultiplier — 0.7 — 0.0-1.0 — Escala la reducción de daño que da un conjunto completo de armadura. — 1.0$(li)balance.armor.absorbMultiplier — 1.0 — 0.0-10.0 — Escala la absorción máxima por pieza de armadura. — 1.0$(li)balance.armor.durabilityLoss — false — sí/no — Si está activo, la armadura de Equivalent Legacy sufre daño de durabilidad. — no"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Herramientas y combate.$() Las herramientas pueden tener durabilidad infinita, un límite de minería de filones y un multiplicador del radio de las acciones de cavar, esquilar, labrar y descortezar. El combate añade el aura de muerte del $(l:tools_weapons/red_katar)Katar Rojo$(), el golpe extra que ignora armadura y los ataques en área."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave — Defecto — Rango — Qué hace — Legado$(li)balance.tools.infiniteDurability — true — sí/no — Las herramientas de Equivalent Legacy tienen durabilidad infinita. — sí$(li)balance.tools.veinMineMaxBlocks — 64 — 0-1000 — Máximo de bloques que la minería de filones puede romper de una vez. — 250$(li)balance.tools.aoeRadiusMultiplier — 0.5 — 0.0-1.0 — Escala el radio y la profundidad de las acciones de cavar, esquilar, labrar y descortezar. — 1.0$(li)balance.combat.katarEnabled — true — sí/no — Activa el modo aura de muerte del Katar Rojo. — sí$(li)balance.combat.armorPiercing — false — sí/no — Si está apagado, el golpe extra que ignora armadura hace daño normal. — sí$(li)balance.combat.attackAoe — true — sí/no — Activa los ataques en área de las armas de Equivalent Legacy. — sí"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Economía del EMC.$() Estas claves escalan la generación de EMC, encarecen los condensadores, limitan los colectores a la luz del sol, fijan un mínimo de eficiencia para los Entropy Sinks, limitan el condensador estelar y cambian la probabilidad de duplicar mineral de los hornos de materia. Consulta $(l:emc_generation/collectors_relays)Colectores y relés$(), $(l:emc_generation/condensers)Condensadores$(), $(l:emc_generation/entropy_sinks)Entropy Sinks$(), $(l:emc_generation/stellar_condenser)Condensador estelar$() y $(l:matter/matter_furnaces)Hornos de materia$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave — Defecto — Rango — Qué hace — Legado$(li)balance.emc.enabled — true — sí/no — Activa las opciones de generación de EMC y de coste de condensadores. — sí$(li)balance.emc.generationMultiplier — 0.25 — 0.0-100.0 — Escala el EMC generado por los colectores y otros generadores. — 1.0$(li)balance.emc.condenserCostMultiplier — 2.0 — 1.0-100.0 — Escala el coste de EMC de las operaciones de los condensadores. — 1.0$(li)balance.collectors.sunOnly — true — sí/no — Los colectores solo generan EMC cuando ven el sol. — no$(li)balance.entropySinks.efficiencyFloor — 0.05 — 0.0-1.0 — Eficiencia mínima de un Entropy Sink; 0 desactiva el mínimo. — 0.0$(li)balance.stellarCondenser.softCapPerMinute — 512 — 0-2147483647 — Máximo de EMC que el condensador estelar puede producir por minuto. — ilimitado$(li)balance.matterFurnaces.dmDoubleOreChance — 0.25 — 0.0-1.0 — Probabilidad de que el horno de materia oscura duplique el mineral. — 0.5$(li)balance.matterFurnaces.rmDoubleOreChance — 0.0 — 0.0-1.0 — Probabilidad de que el horno de materia roja duplique el mineral. — 1.0"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Utilidades.$() Límites del $(l:utilities/mercurial_eye)Ojo Mercurial$(), de los catalizadores Nova y de la lente explosiva (ver $(l:utilities/catalysts_lenses)Catalizadores y lentes$()), además de las funciones de la $(l:getting_started/philosophers_stone)Piedra Filosofal$() y del $(l:rings_amulets/watch_of_flowing_time)Reloj del Tiempo Fluido$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Clave — Defecto — Rango — Qué hace — Legado$(li)balance.mercurialEye.maxArea — 32 — 0-2147483647 — Área máxima que puede colocar el Ojo Mercurial; 0 significa ilimitada. — ilimitada$(li)balance.catalysts.emcPerBlock — 32 — 0-Long.MAX — Valor de EMC asumido por cada bloque destruido por un catalizador Nova. — 8$(li)balance.lens.maxRadius — 8.0 — 0.0-16.0 — Radio máximo de la lente explosiva. — 16.0$(li)balance.philosophersStone.worldTransmute — true — sí/no — Activa la transmutación de mundo de la Piedra Filosofal. — sí$(li)balance.philosophersStone.mobRandomizer — true — sí/no — Activa el aleatorizador de mobs de la Piedra Filosofal. — sí$(li)balance.timeWatch.inventoryBonus — 16 — 0-16 — Ticks de bonus que el Reloj del Tiempo Fluido puede aplicar desde el inventario de un jugador. — 16"
+    }
+  ]
+}

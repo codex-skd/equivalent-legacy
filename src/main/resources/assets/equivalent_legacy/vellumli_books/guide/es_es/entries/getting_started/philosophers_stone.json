@@ -1,0 +1,40 @@
+{
+  "name": "Piedra Filosofal",
+  "category": "equivalent_legacy:getting_started",
+  "icon": "equivalent_legacy:philosophers_stone",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:philosophers_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:philosophers_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:philosophers_stone_alt"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La Piedra Filosofal es tu primera herramienta de verdad. Transmuta el mundo que te rodea, abre una cuadrícula de crafteo portátil e incluso reescribe a los mobs.$(br2)$(l)Cómo conseguirla:$() fabrícala con 4 diamantes, 4 de polvo de redstone y 4 de polvo de piedra luminosa (ya sea con el patrón en cruz o su imagen especular).$(br2)$(l)Controles (teclas por defecto):$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)$(l)Clic derecho en un bloque$() para transmutarlo a él y a una pequeña área a su alrededor.$(li)$(l)Agacharse + clic derecho en una fuente de fluido$() para transmutar el propio fluido.$(li)$(l)G$() rota la forma del área: Cubo, Panel o Línea.$(li)$(l)V$() sube la carga de 0 a 4; a mayor carga, mayor área, que se muestra en la barra del objeto.$(li)$(l)C$() abre una cuadrícula de crafteo portátil de 3x3.$(li)$(l)R$() dispara un orbe aleatorizador: golpea a un mob y se convertirá en otro mob aleatorio, con un coste de 384 EMC."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)El área de transmutación crece con la carga: Cubo es un cubo completo, Panel es una capa plana orientada al bloque que golpeas y Línea recorre la dirección a la que miras.$(li)El orbe aleatorizador cuesta $(l)384 EMC$(), que se toman de tu propio EMC (o de una Klein Star que lleves). Funciona tanto con mobs hostiles como pacíficos y es una forma barata de volver a tirar una aparición mala.$(li)La cuadrícula de crafteo está disponible en cualquier lugar, incluso en el aire, y sirve para fabricar objetos al momento.$(li)También transmuta bloques que normalmente abren una pantalla al hacer clic, como carteles y cofres, siempre que no estés agachado."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() la transmutación del mundo se puede desactivar con balance.philosophersStone.worldTransmute, el aleatorizador de mobs con balance.philosophersStone.mobRandomizer y el tiempo de los proyectiles con server.cooldown.player.projectile (1 segundo por defecto)."
+    }
+  ]
+}

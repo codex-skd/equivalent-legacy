@@ -1,0 +1,44 @@
+{
+  "name": "Divining Rods",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:divining_rod_1",
+  "sort_num": 6,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:divining_rod_1"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:divining_rod_2"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:divining_rod_3"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:divining_rod_1"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:divining_rod_2"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:divining_rod_3"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Divining Rods scan the ground ahead of you and report the EMC value of what is buried there. They are a prospecting tool: use one to decide where to dig.$(br2)$(l)How to get them:$() each rod is a frame of the matching Covalence Dust with the previous rod in the centre.$(br2)$(li)Low Rod: Low Covalence Dust + a wooden stick.$(li)Medium Rod: Medium Covalence Dust + Low Rod.$(li)High Rod: High Covalence Dust + Medium Rod."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Using them:$() right-click a block face to scan a deep box in front of you. You get a chat readout of the $(l)average$() and $(l)highest$() EMC in the area.$(br2)$(l)Hidden abilities$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Each rod has a maximum range mode: the Low Rod scans 3 blocks deep, the Medium 16, and the High 64.$(li)The Medium and High rods also report the second-highest value, and the High rod the third-highest, helping you pick the best spot.$(li)Blocks without an EMC value are valued through their smelting result, so ores read correctly.$(li)The rods work on any block, not just ores, so they are a general \"is this area worth digging\" tool.$(br2)$(l)Server settings:$() none specific."
+    }
+  ]
+}

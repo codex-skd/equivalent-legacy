@@ -1,0 +1,28 @@
+{
+  "name": "Antorcha de interdicción",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:interdiction_torch",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:interdiction_torch"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:interdiction_torch"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La Antorcha de Interdicción aleja a los mobs y a los proyectiles que vuelan en un radio de $(l)8 bloques$(). Es una forma barata de mantener segura la entrada de una base o una granja.$(br2)$(l)Cómo conseguirla:$() 2 antorchas de redstone, 2 diamante, 1 Piedra Filosofal y 3 de polvo de piedra luminosa.$(br2)$(l)Cómo usarla:$() colócala en el suelo o en una pared como una antorcha normal. Brilla y funciona en el instante en que la colocas."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br2)$(li)Desvía los $(l)proyectiles en vuelo$(), incluidas flechas y bolas de fuego, así que puede protegerte de esqueletos y blazes.$(li)Por defecto solo empuja a los mobs hostiles y a los proyectiles; los animales pacíficos y los jugadores quedan al margen.$(li)Nunca afecta a los objetos soltados, así que no dispersará tu botín.$(li)El empuje se vuelve más fuerte cuanto más cerca está el objetivo."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.effects.interdictionMode (true = solo hostiles y proyectiles; false = todos los mobs), además de una etiqueta de lista negra para las excepciones."
+    }
+  ]
+}

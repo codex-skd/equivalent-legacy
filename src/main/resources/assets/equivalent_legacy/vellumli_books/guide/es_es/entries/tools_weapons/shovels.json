@@ -1,0 +1,32 @@
+{
+  "name": "Palas de materia",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_shovel",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_shovel"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_shovel"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_shovel"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_shovel"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La $(l)Pala de Materia Oscura$() y la $(l)Pala de Materia Roja$() mueven la tierra con rapidez. Fabrica la Pala de Materia Oscura con Materia Oscura y diamantes, y luego mejórala a la Pala de Materia Roja.$(br2)Pulsa $(l)V$() para cargar."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Haz clic derecho sobre césped o tierra para allanar toda un área y convertirla en caminos, con un radio que crece con la carga.$(li)Haz clic derecho sobre una hoguera para apagarla.$(li)Haz clic derecho sobre arena, grava o arcilla para minar todo el depósito gratis.$(li)El clic derecho cargado también excava un área de bloques.$(br2)$(l)Ajustes del servidor:$() server.items.disableAllRadiusMining."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Watch of Flowing Time",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:watch_of_flowing_time",
+  "sort_num": 11,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:watch_of_flowing_time"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:watch_of_flowing_time"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Watch of Flowing Time$() controls the flow of time. Craft it from Dark Matter, glowstone, obsidian and a clock.$(br2)This item is $(l)disabled by default$() in this version. A server admin must turn on server.items.enableTimeWatch before it does anything; until then it only reports that it is disabled."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)$(l)Right-click$() cycles its time mode: $(l)Off$(), $(l)Fast-Forward$() or $(l)Rewind$().$(li)Press $(l)G$() to toggle the ring active and $(l)V$() to charge it.$(li)While active it speeds up nearby blocks and slows nearby mobs, costing a small amount of EMC each tick; the higher the charge, the stronger the effect and the higher the cost.$(li)With Fast-Forward or Rewind selected it also pushes the world's day/night clock forward or backward.$(li)Despite fitting the belt curio slot, it does not tick while there; keep it in your hotbar or off-hand.$(li)On a pedestal it accelerates blocks and slows mobs, and its bonus can be adjusted by sneaking and scrolling while looking at the pedestal."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() server.items.enableTimeWatch, server.effects.timePedestal.bonus and server.effects.timePedestal.mobSlowness."
+    }
+  ]
+}

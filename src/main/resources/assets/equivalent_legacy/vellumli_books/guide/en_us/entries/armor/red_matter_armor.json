@@ -1,0 +1,48 @@
+{
+  "name": "Red Matter Armor",
+  "category": "equivalent_legacy:armor",
+  "icon": "equivalent_legacy:rm_chestplate",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_helmet"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_chestplate"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_leggings"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_boots"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_helmet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_chestplate"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_leggings"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_boots"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Red Matter Armor is the upgraded matter armor. Combine each Dark Matter piece with Red Matter to make its Red Matter version.$(br2)It behaves exactly like Dark Matter Armor but is tougher: the full set reduces incoming damage by roughly $(l)63%$() and each piece blocks more flat damage per hit, especially against explosions. It is also fireproof and never loses durability."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)Damage that bypasses armor is not reduced.$(li)The flat per-hit blocking is higher than the Dark Matter set, so it protects better against many small hits and bursts.$(li)Only wearing some pieces gives a smaller total reduction."
+    }
+  ]
+}

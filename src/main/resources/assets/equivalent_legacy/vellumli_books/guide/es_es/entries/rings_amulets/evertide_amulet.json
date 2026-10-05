@@ -1,0 +1,28 @@
+{
+  "name": "Amuleto Evertide",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:evertide_amulet",
+  "sort_num": 12,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:evertide_amulet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:evertide_amulet"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Amuleto Evertide$() es una fuente infinita de agua. Fabrícalo con cubos de agua y Materia Oscura. Encaja en la ranura de curio de collar.$(br2)Usa el clic derecho sobre un bloque para colocar agua, y pulsa $(l)R$() para disparar un orbe de agua."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Todas sus operaciones son completamente gratis y funciona como un cubo de agua infinito para tanques y calderos.$(li)El orbe de agua de $(l)R$() apaga a las criaturas en llamas, empuja a las criaturas y, mientras vuela, convierte la lava en obsidiana o adoquín.$(li)En el Nether, el amuleto se niega a colocar agua a menos que el servidor active server.items.opEvertide.$(li)Mientras lo llevas, puedes caminar sobre el agua y tu aire se rellena siempre que estés en el agua.$(li)En un pedestal intenta iniciar lluvia o una tormenta con un temporizador."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.items.opEvertide."
+    }
+  ]
+}

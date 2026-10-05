@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "equivalent_legacy:philosophers_stone",
+  "key": {
+    "D": "#c:gems/diamond",
+    "G": "#c:dusts/glowstone",
+    "R": "#c:dusts/redstone"
+  },
+  "pattern": [
+    "GRG",
+    "RDR",
+    "GRG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:philosophers_stone"
+  }
+}
