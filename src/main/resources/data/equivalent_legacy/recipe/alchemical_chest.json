@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": { "tag": "c:chests/wooden" },
+    "D": { "tag": "c:gems/diamond" },
+    "H": { "item": "equivalent_legacy:high_covalence_dust" },
+    "I": { "tag": "c:ingots/iron" },
+    "L": { "item": "equivalent_legacy:low_covalence_dust" },
+    "M": { "item": "equivalent_legacy:medium_covalence_dust" },
+    "S": { "tag": "c:stones" }
+  },
+  "pattern": [
+    "LMH",
+    "SDS",
+    "ICI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:alchemical_chest"
+  }
+}

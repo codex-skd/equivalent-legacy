@@ -1,0 +1,44 @@
+{
+  "name": "Piedras del Cuerpo, del Alma y de Vida",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:life_stone",
+  "sort_num": 14,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:body_stone"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:soul_stone"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:life_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:body_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:soul_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:life_stone"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Las tres piedras alquímicas te mantienen alimentado y curado usando EMC almacenado. La $(l)Piedra del Cuerpo$() te alimenta, la $(l)Piedra del Alma$() te cura y la $(l)Piedra de Vida$() hace ambas cosas a la vez (fabrícala con las otras dos). Las tres encajan en la ranura de curio de collar.$(br2)Activa cada una con $(l)G$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Una Piedra del Cuerpo alimenta 1 punto de hambre (medio muslo) cada 10 segundos por 256 EMC.$(li)Una Piedra del Alma cura 1 punto de vida (medio corazón) cada 10 segundos por 256 EMC.$(li)Una Piedra de Vida hace ambas cosas y gasta hasta 512 EMC por ciclo.$(li)$(l)En esta versión solo funcionan mientras están equipadas en una ranura de curio$(); ya no funcionan desde la barra rápida ni la mano secundaria.$(li)Una piedra se desactiva sola cuando se queda sin EMC.$(li)En un pedestal curan o alimentan a los jugadores cercanos con un temporizador."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.cooldown.player.heal, server.cooldown.player.feed, server.cooldown.pedestal.body, server.cooldown.pedestal.soul y server.cooldown.pedestal.life."
+    }
+  ]
+}

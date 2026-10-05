@@ -1,0 +1,142 @@
+package com.skd.equivalentlegacy.gameObjs.items.armor;
+
+import com.google.common.base.Suppliers;
+import java.util.List;
+import java.util.function.Supplier;
+import com.skd.equivalentlegacy.ELCore;
+import com.skd.equivalentlegacy.gameObjs.registries.PEDataComponentTypes;
+import com.skd.equivalentlegacy.utils.BalanceHelper;
+import com.skd.equivalentlegacy.utils.ClientKeyHelper;
+import com.skd.equivalentlegacy.utils.PEKeybind;
+import com.skd.equivalentlegacy.utils.text.PELang;
+import net.minecraft.ChatFormatting;
+import net.minecraft.client.player.LocalPlayer;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EquipmentSlotGroup;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.component.ItemAttributeModifiers;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.Vec3;
+import net.neoforged.fml.loading.FMLEnvironment;
+import org.jetbrains.annotations.NotNull;
+
+public class GemFeet extends GemArmorBase {
+
+	private static final Vec3 VERTICAL_MOVEMENT = new Vec3(0, 0.1, 0);
+	private static final boolean STEP_ASSIST_DEFAULT = false;
+	private static final double GLIDE_MAX_DESCENT = 0.75;
+	private static final float SAFE_FALL_DISTANCE = 3.0F;
+
+	private final Supplier<ItemAttributeModifiers> defaultModifiers;
+	private final Supplier<ItemAttributeModifiers> defaultWithStepAssistModifiers;
+
+	public GemFeet(Properties props) {
+		super(ArmorItem.Type.BOOTS, props);
+		this.defaultModifiers = Suppliers.memoize(() -> super.getDefaultAttributeModifiers().withModifierAdded(
+				Attributes.MOVEMENT_SPEED,
+				new AttributeModifier(ELCore.rl("armor"), BalanceHelper.speedBonus(), Operation.ADD_MULTIPLIED_TOTAL),
+				EquipmentSlotGroup.FEET
+		));
+		this.defaultWithStepAssistModifiers = Suppliers.memoize(() -> getDefaultAttributeModifiers().withModifierAdded(
+				Attributes.STEP_HEIGHT,
+				new AttributeModifier(ELCore.rl("gem_step_assist"), 0.4, Operation.ADD_VALUE),
+				EquipmentSlotGroup.FEET
+		));
+	}
+
+	@NotNull
+	@Override
+	public ItemAttributeModifiers getDefaultAttributeModifiers() {
+		return this.defaultModifiers.get();
+	}
+
+	@NotNull
+	@Override
+	public ItemAttributeModifiers getDefaultAttributeModifiers(@NotNull ItemStack stack) {
+		return isStepAssist(stack) ? this.defaultWithStepAssistModifiers.get() : super.getDefaultAttributeModifiers(stack);
+	}
+
+	public static void toggleStepAssist(ItemStack boots, Player player) {
+		boolean oldValue = isStepAssist(boots);
+		boots.set(PEDataComponentTypes.STEP_ASSIST, !oldValue);
+		player.sendSystemMessage(getComponent(!oldValue));
+	}
+
+	private static boolean isJumpPressed(Player player) {
+		if (FMLEnvironment.dist.isClient() && player instanceof LocalPlayer clientPlayer) {
+			return clientPlayer.input.jumping;
+		}
+		return false;
+	}
+
+	@Override
+	public void inventoryTick(@NotNull ItemStack stack, @NotNull Level level, @NotNull Entity entity, int slot, boolean isHeld) {
+		super.inventoryTick(stack, level, entity, slot, isHeld);
+		if (isArmorSlot(slot) && entity instanceof Player player && BalanceHelper.gemArmorEnabled() && BalanceHelper.isAbilityAllowed(level)) {
+			if (!level.isClientSide) {
+				if (BalanceHelper.noFall()) {
+					player.resetFallDistance();
+				} else {
+					//The glide below is client side only, so the server still accumulates the full fall distance.
+					//While the player descends no faster than the glide speed, clamp it (like vanilla slow falling)
+					//so gliding down does not deal fall damage; a faster fall (e.g. diving) keeps accumulating.
+					//getKnownMovement() is the last movement reported by the client (yo already equals getY() here).
+					double dy = player.getKnownMovement().y();
+					if (!player.onGround() && !player.getAbilities().flying && !player.isFallFlying()
+							&& dy <= 0 && dy >= -GLIDE_MAX_DESCENT) {
+						player.fallDistance = Math.min(player.fallDistance, SAFE_FALL_DISTANCE);
+					}
+				}
+			} else {
+				//TODO: Do we want to try and make use of just applying Attributes.GRAVITY to the player instead? Default gravity is 0.08
+				// A modifier of -0.75, Operation.ADD_MULTIPLIED_TOTAL makes it so that we fall at about the same rate as what we do below
+				boolean flying = player.getAbilities().flying;
+				if (!flying && isJumpPressed(player)) {
+					player.addDeltaMovement(VERTICAL_MOVEMENT);
+				}
+				if (!player.onGround()) {
+					Vec3 deltaMovement = player.getDeltaMovement();
+					if (deltaMovement.y() <= 0) {
+						player.setDeltaMovement(deltaMovement = deltaMovement.multiply(1, 0.9, 1));
+					}
+					if (!flying) {
+						if (player.zza < 0) {//Moving backwards
+							player.setDeltaMovement(deltaMovement.multiply(0.9, 1, 0.9));
+						} else if (player.zza > 0 && deltaMovement.lengthSqr() < 3) {//Moving forwards
+							player.setDeltaMovement(deltaMovement.multiply(1.1, 1, 1.1));
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@Override
+	public void appendHoverText(@NotNull ItemStack stack, @NotNull Item.TooltipContext context, @NotNull List<Component> tooltip, @NotNull TooltipFlag flags) {
+		super.appendHoverText(stack, context, tooltip, flags);
+		tooltip.add(PELang.GEM_LORE_FEET.translate());
+		tooltip.add(PELang.TOOLTIP_GEM_BOOTS.translate((int) Math.round(BalanceHelper.speedBonus() * 100.0)));
+		tooltip.add(PELang.TOOLTIP_GEM_BOOTS_2.translate());
+		tooltip.add(PELang.STEP_ASSIST_PROMPT.translate(ClientKeyHelper.getKeyName(PEKeybind.BOOTS_TOGGLE)));
+		tooltip.add(getComponent(isStepAssist(stack)));
+	}
+
+	private static boolean isStepAssist(ItemStack stack) {
+		return stack.getOrDefault(PEDataComponentTypes.STEP_ASSIST, STEP_ASSIST_DEFAULT);
+	}
+
+	private static Component getComponent(boolean enabled) {
+		if (enabled) {
+			return PELang.STEP_ASSIST.translate(ChatFormatting.GREEN, PELang.GEM_ENABLED);
+		}
+		return PELang.STEP_ASSIST.translate(ChatFormatting.RED, PELang.GEM_DISABLED);
+	}
+}

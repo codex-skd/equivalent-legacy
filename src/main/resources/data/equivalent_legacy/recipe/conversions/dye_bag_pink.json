@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    { "tag": "equivalent_legacy:alchemical_bags" },
+    { "tag": "c:dyes/pink" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:pink_alchemical_bag"
+  }
+}

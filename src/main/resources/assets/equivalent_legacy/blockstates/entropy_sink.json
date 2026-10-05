@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "equivalent_legacy:block/entropy_sink",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "equivalent_legacy:block/entropy_sink"
+    },
+    "facing=south": {
+      "model": "equivalent_legacy:block/entropy_sink",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "equivalent_legacy:block/entropy_sink",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Red Katar",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:rm_katar",
+  "sort_num": 9,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_katar"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_katar"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Red Katar$() is the ultimate Red Matter weapon. Craft it from a Red Matter Sword, Axe, Hoe and Shears plus Red Matter. It deals twenty-three attack damage and has four charge levels.$(br2)Press $(l)G$() to choose $(l)Slay Hostile$() or $(l)Slay All$(), $(l)V$() to charge and $(l)C$() for its extra function."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)At a full attack bar, press $(l)C$() to unleash a death aura around you, dealing the server's Katar Death Aura damage (12 by default, ignores armor) to every valid target; the radius grows with charge.$(li)In $(l)Slay All$() mode the aura also hits passive mobs.$(li)Holding right-click raises the katar as a shield to block attacks.$(li)Right-click shears all shearable mobs in an area, doubling drops with a 1% chance of a random baby clone.$(li)It is a whole toolbox: it strips, scrapes, dewaxes and tills in an area, fells trees, clears leaves and sweeps like a sword."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() server.difficulty.katarDeathAura and server.items.disableAllRadiusMining."
+    }
+  ]
+}

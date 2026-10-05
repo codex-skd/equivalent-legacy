@@ -1,0 +1,36 @@
+{
+  "name": "Matter Furnaces",
+  "category": "equivalent_legacy:matter",
+  "icon": "equivalent_legacy:dm_furnace",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_furnace"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_furnace"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_furnace"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_furnace"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Matter Furnaces smelt far faster than a vanilla furnace and can even double some ores.$(br2)$(l)How to get them:$()$(br2)$(li)$(l)Dark Matter Furnace:$() 8 Dark Matter Blocks around a vanilla furnace.$(li)$(l)Red Matter Furnace:$() 2 Red Matter Blocks around a Dark Matter Furnace.$(br2)$(l)Using them:$() they work like a normal furnace, but:$(br2)$(li)The $(l)Dark Matter Furnace$() smelts about 20 times faster and has a 25% chance to double ores.$(li)The $(l)Red Matter Furnace$() smelts about 66 times faster and no longer doubles ores by default."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br2)$(li)A Matter Furnace can run on $(l)EMC instead of fuel$(). Pipe EMC in and it smelts without coal. It drains a little EMC every tick while running this way.$(li)The top face accepts items, the bottom face outputs them, and the side faces take fuel and give output. This lets you stack furnaces and feed them without hoppers.$(li)If the block above is not a hopper, the furnace pulls items from it; if the block below is not a hopper, it pushes the result down.$(li)Taking items out of the output slot grants the smelting experience."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() the ore-doubling chance is balance.matterFurnaces.dmDoubleOreChance (25% by default) and balance.matterFurnaces.rmDoubleOreChance (0% by default)."
+    }
+  ]
+}

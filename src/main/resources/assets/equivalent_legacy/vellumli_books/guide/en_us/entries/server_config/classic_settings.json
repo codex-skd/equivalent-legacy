@@ -1,0 +1,52 @@
+{
+  "name": "Classic Settings",
+  "category": "equivalent_legacy:server_config",
+  "icon": "minecraft:book",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "These options existed before the survival balance system and still work on their own. They live in server.toml (items, difficulty, effects, cooldowns and misc), except the common crafting keys, which live in common.toml. They are $(l)not$() affected by balance.enabled.$(br2)A default marked $(l)(changed)$() differs from older versions of this mod, so review it if you are migrating an existing pack."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Difficulty.$() These keys tune how dangerous the mod feels. katarDeathAura is the damage of the Katar extra function. covalenceLoss is the ratio of EMC you get back when burning an item, and covalenceLossRounding decides how values below 1 EMC are rounded."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Key — Default — What it does$(li)difficulty.offensiveAbilities — false — Gem Armor offensive abilities (helmet zap, chestplate explosion).$(li)difficulty.katarDeathAura — 12.0 $(l)(changed)$() — Damage dealt by the $(l:tools_weapons/red_katar)Red Katar$() extra function.$(li)difficulty.covalenceLoss — 0.5 $(l)(changed)$() — Ratio of EMC received when burning an item; 1.0 returns the full cost.$(li)difficulty.covalenceLossRounding — true — If on, a burn value under 1 EMC rounds up to 1; if off, it rounds down to 0."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Items.$() Item toggles that are independent of the balance system."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Key — Default — What it does$(li)items.pickaxeAoeVeinMining — false — Makes the Dark/Red Matter Pick/Star vein-mine all ores in an area around you (pre-1.4.4 behaviour).$(li)items.harvBandIndirect — false — Lets the Harvest Goddess Band grow grass, flowers and moss indirectly.$(li)items.disableAllRadiusMining — false — Disables all radius-based mining (right click of tools).$(li)items.enableTimeWatch — false $(l)(changed)$() — Enables the $(l:rings_amulets/watch_of_flowing_time)Watch of Flowing Time$().$(li)items.opEvertide — false — Lets the $(l:rings_amulets/evertide_amulet)Evertide Amulet$() place water in dimensions where water evaporates, such as the Nether."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Effects.$() Passive effects of the Dark Matter Pedestal and the Interdiction Torch.$(br2)$(li)Key — Default — What it does$(li)effects.timePedBonus — 4 — Maximum bonus ticks the Watch of Flowing Time can apply from a pedestal (0-15).$(li)effects.timePedMobSlowness — 0.5 — Factor the Watch of Flowing Time slows mobs by in a pedestal; 1.0 is no slowdown.$(li)effects.interdictionMode — true — If on, the $(l:utilities/interdiction_torch)Interdiction Torch$() only affects hostile mobs and projectiles."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Cooldowns$() $(o)(changed)$(). All values are in ticks, so 20 is one second. -1 disables the functionality and 0 allows the action every tick, which can hurt your TPS if used on automatic features. The pedestal cooldowns were $(l)doubled$() compared to older versions; the player cooldowns are now ten seconds for repair, heal and feed."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Pedestal key — Default — What it does$(li)cooldown.pedestal.archangel — 80 — Delay between Archangel Smite arrows.$(li)cooldown.pedestal.body — 20 — Delay between Body Stone heals.$(li)cooldown.pedestal.evertide — 40 — Delay between Evertide Amulet attempts to start rain.$(li)cooldown.pedestal.harvest — 20 — Delay between Harvest Goddess growth and harvest.$(li)cooldown.pedestal.ignition — 80 — Delay between Ignition Ring attempts to set entities on fire.$(li)cooldown.pedestal.life — 10 — Delay between Life Stone food and hunger heals.$(li)cooldown.pedestal.repair — 40 — Delay between Talisman of Repair attempts.$(li)cooldown.pedestal.swrg — 140 — Delay between SWRG attempts to smite mobs.$(li)cooldown.pedestal.soul — 20 — Delay between Soul Stone heals.$(li)cooldown.pedestal.volcanite — 40 — Delay between Volcanite Amulet attempts to stop rain.$(li)cooldown.pedestal.zero — 80 — Delay between Zero Ring attempts to extinguish entities and freeze ground."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Player key — Default — What it does$(li)cooldown.player.projectile — 20 — Cooldown for firing projectiles.$(li)cooldown.player.gemChest — 0 — Cooldown for the Gem Chestplate explosion.$(li)cooldown.player.repair — 200 — Delay between Talisman of Repair attempts from the inventory.$(li)cooldown.player.heal — 200 — Delay between heal attempts from the inventory (Soul Stone, Life Stone, Gem Helmet).$(li)cooldown.player.feed — 200 — Delay between feed attempts from the inventory (Body Stone, Life Stone, Gem Helmet)."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Misc and common crafting.$() misc is in server.toml; the crafting keys are in common.toml."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Key — Default — What it does$(li)misc.unsafeKeyBinds — false — If off, your hand must be empty to ready or trigger Gem Armor offensive abilities.$(li)misc.lookingAtDisplay — true — Shows the EMC value of blocks you look at in Jade, TOP or WTHIT.$(li)debugLogging — false — Enables more verbose debug logging.$(li)crafting.craftableTome — false — Enables crafting the Tome of Knowledge.$(li)crafting.fullKleinStars — true $(l)(changed)$() — Requires full Omega $(l:emc_generation/klein_stars)Klein Stars$() in the Tome of Knowledge and Gem Armor recipes, as EE2 did."
+    }
+  ]
+}

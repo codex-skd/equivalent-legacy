@@ -1,0 +1,28 @@
+{
+  "name": "Ojo Mercurial",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:mercurial_eye",
+  "sort_num": 5,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:mercurial_eye"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:mercurial_eye"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El Ojo Mercurial es la herramienta de construcción más potente del mod. Coloca, extiende y transmuta bloques usando el EMC almacenado en una Klein Star.$(br2)$(l)Cómo conseguirlo:$() 2 obsidiana, 4 ladrillos, 1 Materia Roja y 1 diamante.$(br2)$(l)Configurarlo (la descripción emergente no te lo cuenta):$()$(br2)$(li)Pulsa $(l)C$() para abrir su interfaz. Tiene dos ranuras.$(li)Pon una $(l)Klein Star$() en la primera ranura. Es el combustible.$(li)Pon el $(l)bloque que quieres colocar$() en la segunda ranura.$(li)Pulsa $(l)G$() para cambiar de modo y $(l)V$() para cambiar la carga."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Modos$()$(br2)$(li)$(l)Creación:$() coloca un bloque en la cara que estás mirando.$(li)$(l)Pilar:$() rellena los huecos de una columna de 3x3.$(li)$(l)Extensión / Extensión clásica:$() rellena los huecos alrededor del bloque objetivo en un área de 3x3 (la clásica hasta 9x9x1).$(li)$(l)Transmutación / Transmutación clásica:$() sustituye los bloques coincidentes de un área por tu bloque objetivo.$(br2)$(l)Cómo cuesta EMC:$() toma de la Klein Star la diferencia de valor entre el bloque nuevo y el antiguo. Si el bloque nuevo es más barato, la diferencia se $(l)reembolsa$() a la estrella."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br2)$(li)Todos los modos están limitados a $(l)32 bloques por operación$() en esta versión, así que es un constructor preciso más que un terraformador.$(li)No puede sustituir bloques que tengan una entidad de bloque o que sean indestructibles.$(li)Como reembolsa la diferencia, convertir bloques caros en baratos no supone una pérdida.$(li)La interfaz es la única forma de cargar la estrella y el objetivo; no hay ninguna pista en la descripción emergente.$(br2)$(l)Ajustes del servidor:$() el límite por operación es balance.mercurialEye.maxArea (32 por defecto)."
+    }
+  ]
+}

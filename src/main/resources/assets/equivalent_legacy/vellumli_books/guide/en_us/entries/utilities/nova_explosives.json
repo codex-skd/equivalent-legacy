@@ -1,0 +1,32 @@
+{
+  "name": "Nova Catalyst & Cataclysm",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:nova_catalyst",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:nova_catalyst"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:nova_cataclysm"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:nova_catalyst"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:nova_cataclysm"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Nova explosives are enormous, clean blasts that gather all the drops for you.$(br2)$(l)How to get them:$()$(br2)$(li)$(l)Nova Catalyst:$() shapeless TNT + Mobius Fuel, makes 2.$(li)$(l)Nova Cataclysm:$() shapeless Nova Catalyst + Aeternalis Fuel, makes 2.$(br2)$(l)Using them:$() light them like TNT. The Catalyst has a blast radius of $(l)16$(), the Cataclysm $(l)48$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br2)$(li)The blast does $(l)not$() create fire, so it will not burn down your base.$(li)Every block destroyed drops its loot, and all the drops are gathered and released together at the position of whoever lit the charge, instead of being scattered across the crater.$(li)The fuse is four times shorter than vanilla TNT, so you have about one second to get clear.$(li)Dispensers can fire both types.$(li)The Cataclysm is a great mining tool when you need a large area cleared quickly, and its gathered drops make cleanup easy.$(br2)$(l)Server settings:$() none specific."
+    }
+  ]
+}

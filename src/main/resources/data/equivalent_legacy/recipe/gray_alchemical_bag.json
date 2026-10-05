@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": { "item": "equivalent_legacy:alchemical_chest" },
+    "C": { "item": "equivalent_legacy:high_covalence_dust" },
+    "W": { "item": "minecraft:gray_wool" }
+  },
+  "pattern": [
+    "CCC",
+    "WAW",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:gray_alchemical_bag"
+  }
+}

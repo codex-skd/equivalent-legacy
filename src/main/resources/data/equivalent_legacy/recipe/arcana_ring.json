@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": { "item": "equivalent_legacy:harvest_goddess_band" },
+    "I": { "item": "equivalent_legacy:ignition_ring" },
+    "M": { "item": "equivalent_legacy:red_matter" },
+    "S": { "item": "equivalent_legacy:swiftwolf_rending_gale" },
+    "Z": { "item": "equivalent_legacy:zero_ring" }
+  },
+  "pattern": [
+    "ZIH",
+    "SMM",
+    "MMM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:arcana_ring"
+  }
+}

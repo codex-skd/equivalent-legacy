@@ -1,0 +1,52 @@
+{
+  "name": "Materia oscura y roja",
+  "category": "equivalent_legacy:matter",
+  "icon": "equivalent_legacy:dark_matter",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dark_matter"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:red_matter"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dark_matter_block"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:red_matter_block"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dark_matter"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:red_matter"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dark_matter_block"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:red_matter_block"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La $(l)Materia Oscura$() y la $(l)Materia Roja$() son los materiales característicos del mod. Casi todas las herramientas, armas, piezas de armadura y máquinas avanzadas se construyen con ellos.$(br2)$(l)Cómo conseguirlos:$()$(br2)$(li)$(l)Materia Oscura:$() 8 Combustible Aeternalis alrededor de 1 bloque de diamante.$(li)$(l)Materia Roja:$() 6 Combustible Aeternalis alrededor de 3 Materia Oscura.$(li)$(l)Bloques de materia:$() fabrica un bloque con 4 unidades de materia, o descompón el bloque de nuevo en 4."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Los $(l)Bloques de materia$() son bloques de construcción. Son extremadamente resistentes, brillan con luz y solo se pueden minar con una herramienta de Materia Oscura o Roja del nivel adecuado. Son el ingrediente principal de los $(l:matter/matter_furnaces)Hornos de materia$(), el $(l:utilities/dm_pedestal)Pedestal de Materia Oscura$() y las máquinas del final del juego.$(br2)$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Tanto los objetos de materia como los bloques son resistentes al fuego, así que sobreviven a la lava.$(li)Los Bloques de materia emiten luz, lo que los hace prácticos para marcar tu base.$(li)La materia se usa tanto como material como en forma de combustible en las recetas de crafteo de nivel superior para herramientas, armaduras y condensadores.$(br2)$(l)Ajustes del servidor:$() ninguno en concreto."
+    }
+  ]
+}

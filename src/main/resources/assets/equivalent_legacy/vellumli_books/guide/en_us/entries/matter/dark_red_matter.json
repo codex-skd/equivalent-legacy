@@ -1,0 +1,52 @@
+{
+  "name": "Dark & Red Matter",
+  "category": "equivalent_legacy:matter",
+  "icon": "equivalent_legacy:dark_matter",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dark_matter"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:red_matter"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dark_matter_block"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:red_matter_block"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dark_matter"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:red_matter"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dark_matter_block"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:red_matter_block"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Dark Matter$() and $(l)Red Matter$() are the mod's signature materials. Almost every advanced tool, weapon, armor piece and machine is built from them.$(br2)$(l)How to get them:$()$(br2)$(li)$(l)Dark Matter:$() 8 Aeternalis Fuel around 1 diamond block.$(li)$(l)Red Matter:$() 6 Aeternalis Fuel around 3 Dark Matter.$(li)$(l)Matter Blocks:$() craft 4 matter into a block, or break the block back into 4."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Matter Blocks$() are building blocks. They are extremely tough, glow with light, and can only be mined with a Dark or Red Matter tool of the right tier. They are the main ingredient of the $(l:matter/matter_furnaces)Matter Furnaces$(), the $(l:utilities/dm_pedestal)Dark Matter Pedestal$() and the late-game machines.$(br2)$(l)Hidden abilities$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Both matter items and blocks are fireproof, so they survive lava.$(li)Matter Blocks emit light, which makes them handy for marking your base.$(li)Matter is used both as a material and as fuel for the higher-tier crafting recipes for tools, armor and condensers.$(br2)$(l)Server settings:$() none specific."
+    }
+  ]
+}

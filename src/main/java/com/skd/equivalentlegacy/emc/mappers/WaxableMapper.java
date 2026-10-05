@@ -1,0 +1,65 @@
+package com.skd.equivalentlegacy.emc.mappers;
+
+import java.util.Map;
+import com.skd.equivalentlegacy.ELCore;
+import com.skd.equivalentlegacy.api.mapper.EMCMapper;
+import com.skd.equivalentlegacy.api.mapper.IEMCMapper;
+import com.skd.equivalentlegacy.api.mapper.collector.IMappingCollector;
+import com.skd.equivalentlegacy.api.nss.NSSItem;
+import com.skd.equivalentlegacy.api.nss.NormalizedSimpleStack;
+import com.skd.equivalentlegacy.config.PEConfigTranslations;
+import com.skd.equivalentlegacy.utils.EMCHelper;
+import net.minecraft.core.Registry;
+import net.minecraft.core.RegistryAccess;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.server.ReloadableServerResources;
+import net.minecraft.server.packs.resources.ResourceManager;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Block;
+import net.neoforged.neoforge.registries.datamaps.builtin.NeoForgeDataMaps;
+import net.neoforged.neoforge.registries.datamaps.builtin.Waxable;
+
+@EMCMapper
+public class WaxableMapper implements IEMCMapper<NormalizedSimpleStack, Long> {
+
+	@Override
+	public void addMappings(IMappingCollector<NormalizedSimpleStack, Long> mapper, ReloadableServerResources serverResources,
+			RegistryAccess registryAccess, ResourceManager resourceManager) {
+		Registry<Block> blocks = registryAccess.registryOrThrow(Registries.BLOCK);
+		NSSItem wax = NSSItem.createItem(Items.HONEYCOMB);
+		int recipeCount = 0;
+		for (Map.Entry<ResourceKey<Block>, Waxable> entry : blocks.getDataMap(NeoForgeDataMaps.WAXABLES).entrySet()) {
+			//Add conversions both directions due to scraping
+			Block block = blocks.get(entry.getKey());
+			if (block != null) {
+				NSSItem base = NSSItem.createItem(block);
+				NSSItem waxed = NSSItem.createItem(entry.getValue().waxed());
+				mapper.addConversion(1, waxed, EMCHelper.intMapOf(
+						base, 1,
+						wax, 1
+				));
+				//Scraping the block does not return the wax
+				mapper.addConversion(1, base, EMCHelper.intMapOf(waxed, 1));
+				recipeCount += 2;
+			}
+		}
+		ELCore.debugLog("{} Statistics:", getName());
+		ELCore.debugLog("Found {} Waxable Conversions", recipeCount);
+	}
+
+	@Override
+	public String getName() {
+		return PEConfigTranslations.MAPPING_WAXABLE_MAPPER.title();
+	}
+
+	@Override
+	public String getTranslationKey() {
+		return PEConfigTranslations.MAPPING_WAXABLE_MAPPER.getTranslationKey();
+	}
+
+	@Override
+	public String getDescription() {
+		return PEConfigTranslations.MAPPING_WAXABLE_MAPPER.tooltip();
+	}
+}

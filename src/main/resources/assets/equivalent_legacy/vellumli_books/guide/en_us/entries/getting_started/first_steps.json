@@ -1,0 +1,37 @@
+{
+  "name": "First Steps",
+  "category": "equivalent_legacy:getting_started",
+  "icon": "equivalent_legacy:philosophers_stone",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:philosophers_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:philosophers_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:transmutation_table"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Equivalent Legacy is built on one idea: every item is worth energy. That energy is called $(l)EMC$() (Energy-Matter Covalence), and it is the currency you use to create items out of thin air.$(br2)You do not start with any EMC. You earn it by learning items and by burning spare items in a Transmutation Table."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Your first goal$() is the $(l)Philosopher's Stone$(). It needs 4 diamond, 4 redstone dust and 4 glowstone dust. Glowstone and redstone are usually the easiest to gather first.$(br2)Once you hold the Stone you can already do a lot:$(br2)$(li)Right-click a block to $(l)transmute it$() into another block (see $(l:getting_started/world_transmutation)World Transmutation$()).$(li)Press $(l)C$() to open a portable 3x3 crafting grid.$(li)Press $(l)R$() to throw a randomizer orb that turns a mob into another random mob."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Next: the Transmutation Table.$() Place it and right-click it to open your personal transmutation screen. There you learn items and spend EMC to create them. It is the heart of the mod, and you will use it constantly. Later you can craft a $(l:emc_transmutation/transmutation_table)Transmutation Tablet$() to carry that screen with you.$(br2)A typical early progression looks like this:"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Craft the Philosopher's Stone and the Transmutation Table.$(li)Learn cheap items (cobblestone, dirt, wood) and burn spare loot to build up EMC.$(li)Craft the three $(l:getting_started/covalence_dusts)Covalence Dusts$(); they unlock the Alchemical Chest and your first $(l:emc_transmutation/alchemical_bags)Alchemical Bag$().$(li)Build an $(l:emc_generation/collectors_relays)Energy Collector$() so EMC starts arriving on its own.$(li)Craft $(l:matter/dark_red_matter)Dark Matter$(), then Red Matter, and climb toward the end-game gear."
+    }
+  ],
+  "read_by_default": true
+}

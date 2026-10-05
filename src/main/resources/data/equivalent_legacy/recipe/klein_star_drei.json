@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    { "item": "equivalent_legacy:klein_star_zwei" },
+    { "item": "equivalent_legacy:klein_star_zwei" },
+    { "item": "equivalent_legacy:klein_star_zwei" },
+    { "item": "equivalent_legacy:klein_star_zwei" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:klein_star_drei"
+  }
+}

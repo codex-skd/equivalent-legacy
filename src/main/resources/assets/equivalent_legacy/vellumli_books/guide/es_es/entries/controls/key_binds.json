@@ -1,0 +1,29 @@
+{
+  "name": "Atajos de teclado",
+  "category": "equivalent_legacy:controls",
+  "icon": "minecraft:lever",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Equivalent Legacy añade seis atajos de teclado. Todos están en la categoría $(l)Equivalent Legacy$() del menú de controles y se pueden reasignar ahí."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)$(l)G$() (Cambiar modo): alterna el modo o el estado de encendido/apagado del objeto sostenido.$(li)$(l)V$() (Cargar): aumenta la carga de un objeto; $(l)Shift + V$() la reduce.$(li)$(l)C$() (Función extra): activa la habilidad especial del objeto sostenido.$(li)$(l)R$() (Disparar proyectil): dispara el proyectil del objeto sostenido.$(li)$(l)X$() (Efectos de botas): alterna la Asistencia de escalón de las Botas de Gemas.$(li)$(l)Shift + X$() (Efectos de yelmo): alterna la Visión nocturna del Yelmo de Gemas."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Sobre qué actúa cada tecla$()$(br)$(li)$(l)V$(): picos, hachas, palas, azadas, tijeras, martillos, espadas, la Katar Roja, el Lucero del Alba Rojo, el Anillo Zero, el Reloj del Tiempo Fluyente, el Catalizador de Destrucción, la Lente Catalítica y la Lente Hipercinética.$(li)$(l)G$(): picos, la Katar Roja, el Lucero del Alba Rojo, la Espada de Materia Roja, la Gema de Densidad Eterna, el Ojo Mercurial, la Piedra Filosofal, las Varillas Zahorí y todos los anillos y piedras de activación.$(li)$(l)C$(): la Piedra Filosofal (cuadrícula de crafteo), el Ojo Mercurial (pantalla de ajustes), ambas Espadas de materia, la Katar Roja, el Anillo del Vacío (teletransporte) y el Anillo de Arcana (muro de fuego).$(li)$(l)R$(): el Amuleto Evertide, el Amuleto Volcanita, el Vendaval Desgarrador de Swiftwolf, el Anillo de Ignición, el Anillo de Arcana, la Piedra Filosofal y las lentes de proyectiles."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Reglas importantes$()$(br)$(li)Los atajos solo afectan a los objetos de tu $(l)mano principal o mano secundaria$(). Los objetos equipados en ranuras de Regalia (curio) siguen funcionando de forma pasiva, pero no responden a las teclas.$(li)Cada tecla se detiene en la primera mano que puede usarla, así que la mano principal gana sobre la secundaria.$(li)Los proyectiles comparten un tiempo de recarga de aproximadamente 1 segundo, definido por server.cooldown.player.projectile.$(li)Las habilidades ofensivas de la Armadura de Gemas necesitan la $(l)mano principal vacía$() y el estado ofensivo activado, a menos que el servidor active server.misc.unsafeKeyBinds.$(li)Pulsa $(l)V$() con la mano principal vacía y cualquier pieza de la Armadura de Gemas puesta para alternar el estado ofensivo. Después, $(l)R$() invoca un rayo (Yelmo de Gemas) y $(l)C$() crea una explosión (Peto de Gemas).$(li)Las habilidades ofensivas están desactivadas por defecto; el servidor debe activar server.difficulty.offensiveAbilities."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.cooldown.player.projectile, server.difficulty.offensiveAbilities y server.misc.unsafeKeyBinds."
+    }
+  ],
+  "read_by_default": true
+}

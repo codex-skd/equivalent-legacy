@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": { "tag": "c:gems/diamond" },
+    "M": { "item": "equivalent_legacy:dark_matter" },
+    "O": { "tag": "c:obsidians/normal" }
+  },
+  "pattern": [
+    "DOD",
+    "MDM",
+    "DOD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:gem_of_eternal_density"
+  }
+}

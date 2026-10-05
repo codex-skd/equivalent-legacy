@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "equivalent_legacy:full_klein_stars"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    { "item": "equivalent_legacy:rm_boots" },
+    { "item": "equivalent_legacy:swiftwolf_rending_gale" },
+    { "item": "equivalent_legacy:swiftwolf_rending_gale" },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "minecraft:attribute_modifiers": {
+          "modifiers": []
+        },
+        "minecraft:enchantments": {
+          "levels": {}
+        },
+        "minecraft:lore": [],
+        "minecraft:max_stack_size": 1,
+        "minecraft:rarity": "epic",
+        "minecraft:repair_cost": 0,
+        "equivalent_legacy:stored_emc": 51200000
+      },
+      "items": "equivalent_legacy:klein_star_omega"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:gem_boots"
+  }
+}

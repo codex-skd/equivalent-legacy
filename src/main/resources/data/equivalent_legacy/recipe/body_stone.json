@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": { "tag": "c:gems/lapis" },
+    "R": { "item": "equivalent_legacy:red_matter" },
+    "S": { "item": "minecraft:sugar" }
+  },
+  "pattern": [
+    "SSS",
+    "RLR",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:body_stone"
+  }
+}
