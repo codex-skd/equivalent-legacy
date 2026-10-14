@@ -1,0 +1,48 @@
+{
+  "name": "Catalysts & Lenses",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:catalytic_lens",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:destruction_catalyst"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:catalytic_lens"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:hyperkinetic_lens"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:destruction_catalyst"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:hyperkinetic_lens"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:catalytic_lens"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "This family of tools carves through terrain. They all cost EMC per block destroyed and collect the drops for you.$(br2)$(l)Destruction Catalyst$()$(br2)$(li)Craft from 4 Nova Catalysts, 4 Mobius Fuel and 1 flint and steel.$(li)Right-click a block to destroy a deep box in the face you hit.$(li)Press $(l)V$() to raise the charge; the depth grows with it (1 block at charge 0, up to 16 at charge 3).$(li)Each block costs $(l)32 EMC$() in this version. When the EMC runs out it stops."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Catalytic Lens$()$(br2)$(li)Craft from Dark Matter, a Destruction Catalyst and a Hyperkinetic Lens.$(li)Same destruction as the Catalyst, but with much greater depth: up to $(l)64$() blocks at high charge.$(li)Press $(l)R$() to fire an explosive lens projectile (it uses the Hyperkinetic Lens's blast).$(br2)$(l)Hyperkinetic Lens$()$(br2)$(li)Craft from diamond, Dark Matter and a Nova Catalyst.$(li)Right-click, or press $(l)R$(), to fire an explosive projectile.$(li)Press $(l)V$() to set the charge. Higher charge means a bigger blast but a much higher EMC cost."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br2)$(li)The Hyperkinetic Lens blast is capped at a radius of $(l)8$() in this version, so it is a mining tool rather than a terrain eraser.$(li)The Catalytic Lens is effectively a Destruction Catalyst and a Hyperkinetic Lens in one item.$(li)All three refuse to break indestructible or extremely hard blocks.$(li)Drops are collected together rather than scattered."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() the per-block cost is balance.catalysts.emcPerBlock (32 by default) and the lens blast cap is balance.lens.maxRadius (8 by default); server.items.disableAllRadiusMining disables area mining."
+    }
+  ]
+}

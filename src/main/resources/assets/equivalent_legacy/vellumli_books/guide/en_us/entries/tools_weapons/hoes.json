@@ -1,0 +1,28 @@
+{
+  "name": "Matter Hoes",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_hoe",
+  "sort_num": 5,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_hoe"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_hoe"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_hoe"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_hoe"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Dark Matter Hoe$() and $(l)Red Matter Hoe$() till soil. Craft the Dark Matter Hoe from Dark Matter and a diamond, then upgrade it into the Red Matter Hoe.$(br2)Press $(l)V$() to charge.$(br2)$(l)Hidden abilities$()$(br)$(li)Right-click soil to till an area at once; the radius grows with charge.$(li)Like every matter tool, it never loses durability and tilling costs no EMC.$(br2)$(l)Server settings:$() server.items.disableAllRadiusMining."
+    }
+  ]
+}

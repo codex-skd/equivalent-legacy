@@ -1,0 +1,32 @@
+{
+  "name": "Ready-Made Presets",
+  "category": "equivalent_legacy:server_config",
+  "icon": "minecraft:writable_book",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Here are two ready-to-copy configurations. Paste each snippet into the matching file, then restart the server or the world so the new values are read."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Preset 1: Classic ProjectE.$() This restores the pre-balance feel. You do not need to list every balance.* key, because setting balance.enabled = false already makes the mod use the legacy value of all of them. Only the classic keys that changed need to be set back by hand.$(br2)server.toml:$(br2)[balance]$(br)enabled = false$(br2)[items]$(br)enableTimeWatch = true$(br2)[difficulty]$(br)katarDeathAura = 1000.0$(br)covalenceLoss = 1.0"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "[cooldown.pedestal]$(br)archangel = 40$(br)body = 10$(br)evertide = 20$(br)harvest = 10$(br)ignition = 40$(br)life = 5$(br)repair = 20$(br)swrg = 70$(br)soul = 10$(br)volcanite = 20$(br)zero = 40$(br2)[cooldown.player]$(br)projectile = 0$(br)gemChest = 0$(br)repair = 20$(br)heal = 20$(br)feed = 20$(br2)common.toml:$(br2)[crafting]$(br)fullKleinStars = false"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Preset 2: Hardcore survival.$() This one is a $(l)suggestion$(), not a supported default. It keeps the balance system on and makes it far stricter: effects cost more EMC, abilities are disabled in the Nether and the End, armor wears out, EMC generation is a fraction of normal and automation is capped. Adjust or remove anything you dislike, and trim the dimension blacklist if you still want abilities there.$(br2)server.toml:$(br2)[balance]$(br)enabled = true$(br)effectEmcMultiplier = 2.0$(br)dimensionBlacklist = [\"minecraft:the_nether\", \"minecraft:the_end\"]"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "[balance.repair]$(br)emcPerRepair = 16$(br)includeCurios = false$(br)includeAlchStorage = false$(br2)[balance.autoSurvival]$(br)emcPerHeal = 1024$(br)emcPerFeed = 1024$(br)requireCurio = true$(br2)[balance.gemArmor]$(br)speedBonus = 0.25$(br2)[balance.swrg]$(br)emcPerTick = 4.0$(br)repelRadius = 2.0$(br2)[balance.armor]$(br)reductionMultiplier = 0.5$(br)durabilityLoss = true$(br2)[balance.tools]$(br)veinMineMaxBlocks = 32$(br)aoeRadiusMultiplier = 0.35$(br2)[balance.combat]$(br)attackAoe = false$(br)armorPiercing = false"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "[balance.emc]$(br)generationMultiplier = 0.1$(br)condenserCostMultiplier = 3.0$(br2)[balance.entropySinks]$(br)efficiencyFloor = 0.1$(br2)[balance.stellarCondenser]$(br)softCapPerMinute = 128$(br2)[balance.matterFurnaces]$(br)dmDoubleOreChance = 0.1$(br)rmDoubleOreChance = 0.0$(br2)[balance.mercurialEye]$(br)maxArea = 16$(br2)[balance.lens]$(br)maxRadius = 4.0$(br2)[balance.timeWatch]$(br)inventoryBonus = 0$(br2)The default balance.collectors.sunOnly = true already applies, so collectors only work in daylight and there is no need to repeat it."
+    }
+  ]
+}

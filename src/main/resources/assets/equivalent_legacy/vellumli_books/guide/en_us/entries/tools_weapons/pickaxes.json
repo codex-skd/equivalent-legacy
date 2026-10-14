@@ -1,0 +1,32 @@
+{
+  "name": "Matter Pickaxes",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_pick",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_pick"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_pick"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_pick"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_pick"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Dark Matter Pickaxe$() and $(l)Red Matter Pickaxe$() are the primary mining tools. Craft the Dark Matter Pickaxe from three Dark Matter and two diamonds, then upgrade it into the Red Matter Pickaxe with Red Matter and one piece of Dark Matter.$(br2)Press $(l)G$() to change mode, $(l)V$() to charge and $(l)Shift + V$() to lower the charge. The Red Matter pick is faster and charges one level higher."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)Right-click an ore to vein-mine the entire vein for free, up to 64 blocks in this version.$(li)In Tallshot, Wideshot or Longshot mode, mining also breaks the surrounding blocks described by the mode.$(li)Mining speed increases with charge.$(li)Mines Dark and Red Matter blocks almost instantly.$(br2)$(l)Server settings:$() server.items.pickaxeAoeVeinMining and server.items.disableAllRadiusMining."
+    }
+  ]
+}

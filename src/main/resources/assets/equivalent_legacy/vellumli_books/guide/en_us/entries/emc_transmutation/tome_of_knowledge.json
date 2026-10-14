@@ -1,0 +1,24 @@
+{
+  "name": "Tome of Knowledge",
+  "category": "equivalent_legacy:emc_transmutation",
+  "icon": "equivalent_legacy:tome",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:tome"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:tome"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The Tome of Knowledge unlocks $(l)all$() transmutation knowledge at once. After learning it you can create any item with an EMC value, without having to burn one of each first.$(br2)$(l)How to use it:$() put the Tome in the $(l)consume slot$() of a $(l:emc_transmutation/transmutation_table)Transmutation Table$() or Tablet. It is not used from your hand. To undo it, place it in the $(l)unlearn slot$() and the full-knowledge effect is removed."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br2)$(li)The Tome is the only item that grants full knowledge; ordinary items only teach themselves.$(li)It does not give you EMC by itself. Burning it only returns its own value, so you still need a pool to spend.$(li)Because it is learned through the consume slot, it works from the portable Tablet as well.$(br2)$(l)Server settings:$() the Tome has no recipe by default. An admin can enable it with common.crafting.craftableTome, and can require fully charged Omega Klein Stars with common.crafting.fullKleinStars."
+    }
+  ]
+}

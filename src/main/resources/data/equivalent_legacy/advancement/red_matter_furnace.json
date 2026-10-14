@@ -1,0 +1,32 @@
+{
+  "parent": "equivalent_legacy:red_matter_block",
+  "criteria": {
+    "rm_furnace": {
+      "conditions": {
+        "items": [
+          {
+            "items": "equivalent_legacy:rm_furnace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.equivalent_legacy.red_matter_furnace.description"
+    },
+    "icon": {
+      "id": "equivalent_legacy:rm_furnace"
+    },
+    "title": {
+      "translate": "advancements.equivalent_legacy.red_matter_furnace"
+    }
+  },
+  "requirements": [
+    [
+      "rm_furnace"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Castigo del Arcángel",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:archangel_smite",
+  "sort_num": 5,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:archangel_smite"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:archangel_smite"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Castigo del Arcángel$() es un anillo-arco mágico. Fabrícalo con arcos, plumas, una Banda de Hierro y Materia Oscura.$(br2)Actívalo con $(l)G$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Mientras está activo, dispara una flecha teledirigida cada tick a la criatura hostil más cercana en unos 8 bloques. Cada flecha cuesta el valor de EMC de una flecha.$(li)El clic derecho dispara una sola flecha; el $(l)clic izquierdo$() (en el aire, en un bloque o en una criatura) dispara una andanada de diez flechas a la vez.$(li)No necesita sostenerse: sigue disparando mientras está activo, esté donde esté en tu inventario.$(li)No es un objeto curio, pero en un pedestal dispara flechas a las criaturas cercanas con un temporizador."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.cooldown.pedestal.archangel."
+    }
+  ]
+}

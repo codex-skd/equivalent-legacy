@@ -1,0 +1,48 @@
+{
+  "name": "Armadura de Materia Roja",
+  "category": "equivalent_legacy:armor",
+  "icon": "equivalent_legacy:rm_chestplate",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_helmet"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_chestplate"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_leggings"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_boots"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_helmet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_chestplate"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_leggings"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_boots"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La Armadura de Materia Roja es la armadura de materia mejorada. Combina cada pieza de Materia Oscura con Materia Roja para crear su versión de Materia Roja.$(br2)Se comporta exactamente igual que la Armadura de Materia Oscura, pero es más resistente: el conjunto completo reduce el daño recibido aproximadamente un $(l)63 %$() y cada pieza bloquea más daño fijo por golpe, sobre todo contra explosiones. También es ignífuga y nunca pierde durabilidad."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)El daño que ignora la armadura no se reduce.$(li)El bloqueo fijo por golpe es mayor que en el conjunto de Materia Oscura, así que protege mejor contra muchos golpes pequeños y ráfagas de daño.$(li)Llevar solo algunas piezas da una reducción total menor."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Philosopher's Stone",
+  "category": "equivalent_legacy:getting_started",
+  "icon": "equivalent_legacy:philosophers_stone",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:philosophers_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:philosophers_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:philosophers_stone_alt"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The Philosopher's Stone is your first real tool. It transmutes the world around you, opens a portable crafting grid, and even rewrites mobs.$(br2)$(l)How to get it:$() craft it from 4 diamond, 4 redstone dust and 4 glowstone dust (either the cross pattern or its mirror image).$(br2)$(l)Controls (default keys):$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)$(l)Right-click a block$() to transmute it and a small area around it.$(li)$(l)Sneak + right-click a fluid source$() to transmute the fluid itself.$(li)$(l)G$() cycles the area shape: Cube, Panel or Line.$(li)$(l)V$() raises the charge from 0 to 4; a higher charge means a bigger area, shown on the item's bar.$(li)$(l)C$() opens a portable 3x3 crafting grid.$(li)$(l)R$() fires a randomizer orb: hit a mob and it becomes a random other mob, costing 384 EMC."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)The transmutation area grows with charge: Cube is a full cube, Panel is a flat slice facing the block you hit, and Line runs along the direction you are facing.$(li)The randomizer orb costs $(l)384 EMC$(), taken from your own EMC (or from a Klein Star you carry). It works on both hostile and peaceful mobs, and is a cheap way to reroll a bad spawn.$(li)The crafting grid is available anywhere, even in mid-air, and can be used to craft items on the spot.$(li)It also transmutes blocks that normally open a screen when clicked, such as signs and chests, as long as you are not sneaking."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() world transmutation can be switched off with balance.philosophersStone.worldTransmute, the mob randomizer with balance.philosophersStone.mobRandomizer, and projectile timing with server.cooldown.player.projectile (1 second by default)."
+    }
+  ]
+}

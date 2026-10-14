@@ -1,0 +1,20 @@
+{
+  "name": "Resumen de utilidades",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:alchemical_chest",
+  "sort_num": 0,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Equivalent Legacy tiene una caja de herramientas de artilugios más allá de las herramientas y la armadura. Esta categoría los cubre:"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)El $(l:utilities/dm_pedestal)Pedestal de Materia Oscura$() automatiza por ti el poder pasivo de un objeto.$(li)La $(l:utilities/interdiction_torch)Antorcha de Interdicción$() aleja a los mobs y los proyectiles.$(li)El $(l:utilities/nova_explosives)Nova Catalizador y Nova Cataclismo$() son explosivos gigantes que recogen los objetos soltados.$(li)Los $(l:utilities/catalysts_lenses)Catalizadores y lentes$() excavan el terreno y disparan proyectiles explosivos.$(li)El $(l:utilities/mercurial_eye)Ojo Mercurial$() es el constructor y transmutador definitivo.$(li)Las $(l:utilities/divining_rods)Varillas zahorí$() escanean el suelo en busca de bloques valiosos.$(li)La $(l:utilities/gem_of_eternal_density)Gema de Densidad Eterna$() condensa objetos sobrantes en otros mejores.$(li)La $(l:utilities/arcane_tablet)Tableta Arcana$() es transmutación portátil con crafteo."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La mayoría de estos objetos funcionan con EMC. Mantén una $(l:emc_generation/klein_stars)Klein Star$() cargada para que siempre tengan combustible, y recuerda que muchos de ellos están limitados por los ajustes de equilibrio del servidor descritos en sus propias entradas."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Sumideros de entropía",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:entropy_sink",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:entropy_sink"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:entropy_sink_dark"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:entropy_sink_red"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:entropy_sink"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:entropy_sink_dark"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:entropy_sink_red"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "A pesar del nombre, un $(l)Sumidero de Entropía genera EMC$(): quema objetos con un valor de EMC y envía el resultado a los bloques vecinos. Es la alternativa automatizada a quemar objetos a mano en una mesa.$(br2)$(l)Cómo conseguirlos:$()$(br2)$(li)Básico: 4 obsidiana, 4 diamante y 1 horno.$(li)Oscuro: 8 de piedra luminosa, 1 Materia Oscura y 1 Sumidero de Entropía.$(li)Rojo: 8 de piedra luminosa, 1 Materia Roja y 1 Sumidero de Entropía Oscuro."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Cómo usarlos:$() coloca uno e introduce objetos por cualquier cara. Cada cierto tiempo quema un lote y emite el EMC a lo que lo acepte a su lado."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Niveles$()$(br2)$(li)$(l)Básico:$() quema 1 objeto por segundo, 50,000 de búfer de EMC.$(li)$(l)Oscuro:$() quema 4 objetos cada 0.75 segundos, 200,000 de búfer.$(li)$(l)Rojo:$() quema 16 objetos cada 0.5 segundos, 1,000,000 de búfer.$(br2)$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Cuanto más rápido quemas, menos eficiente se vuelve: a partir de unos 1,000 EMC por segundo el rendimiento baja hasta un mínimo, así que un solo sumidero no se puede llevar al infinito.$(li)Se ignoran los objetos con un nombre personalizado, un contenedor con botín o una caja shulker.$(li)Quemar un objeto también se lo enseña a su dueño si está conectado.$(li)Nunca acepta EMC de tuberías; es una fuente pura.$(br2)$(l)Ajustes del servidor:$() la generación se escala con balance.emc.generationMultiplier y el mínimo de eficiencia con balance.entropySinks.efficiencyFloor."
+    }
+  ]
+}

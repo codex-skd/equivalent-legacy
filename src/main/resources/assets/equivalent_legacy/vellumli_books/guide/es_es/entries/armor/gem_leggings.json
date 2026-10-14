@@ -1,0 +1,28 @@
+{
+  "name": "Grebas de Gemas",
+  "category": "equivalent_legacy:armor",
+  "icon": "equivalent_legacy:gem_leggings",
+  "sort_num": 5,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:gem_leggings"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:full_star_gem_leggings"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Las $(l)Grebas de Gemas$(), o $(o)Grebas de Gravedad$(), son la pieza de piernas de la Armadura de Gemas. Fabrícalas con unas Grebas de Materia Roja, una Banda de Agujero Negro, un Reloj del Tiempo Fluyente y una $(l)Klein Star Omega completamente cargada$().$(br2)Mientras te agachas, empujan a las criaturas cercanas para alejarlas de ti."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Agacharte repele a todas las entidades y proyectiles cercanos en un radio pequeño (unos 3,5 bloques).$(li)Si caes en picado mientras estás agachado, las criaturas cercanas que estén debajo de ti reciben daño por impacto. El picado es una caída rápida, así que el planeo de las Botas de Gema no te protege de ella.$(li)Agacharte en el aire añade un pequeño empuje hacia abajo que te ayuda a descender rápido.$(li)Parte del conjunto de Gemas, que reduce el daño aproximadamente un 63 %."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() common.crafting.fullKleinStars se aplica a la receta."
+    }
+  ]
+}

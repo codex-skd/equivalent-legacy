@@ -1,0 +1,44 @@
+{
+  "name": "Condensadores de energía",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:condenser_mk1",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:condenser_mk1"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:condenser_mk2"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:condenser_mk1"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:condenser_mk2"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Un $(l)Condensador de Energía$() convierte la chatarra en un objeto concreto. Le dices lo que quieres con un bloqueo, le das cualquier otra cosa y produce lentamente el objeto elegido.$(br2)$(l)Cómo conseguirlos:$()$(br2)$(li)MK1: 4 obsidiana, 4 diamante y 1 Cofre alquímico.$(li)MK2: 4 Bloques de Materia Roja, 4 Bloques de Materia Oscura y 1 Condensador de Energía MK1.$(br2)$(l)Cómo usar un Condensador$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Ábrelo y coloca el objeto que quieres en la $(l)ranura de bloqueo$(), luego haz clic en la ranura de bloqueo para fijarlo.$(li)Pon cualquier otro objeto con EMC en la zona de entrada. Se consumen y su valor llena el búfer del condensador.$(li)Cuando el búfer acumula suficiente EMC, se produce un objeto bloqueado en la zona de salida.$(li)Haz clic otra vez en la ranura de bloqueo para quitar el bloqueo."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)MK1 frente a MK2$()$(br2)$(li)El MK1 tiene 91 ranuras compartidas y procesa un objeto por tick.$(li)El MK2 tiene zonas de entrada y salida separadas de 42 ranuras y procesa pilas enteras por tick, produciendo varios objetos a la vez. Es la mejora del final del juego.$(br2)$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Un condensador nunca emite EMC; solo lo consume.$(li)El EMC necesario es el valor completo del objeto bloqueado, así que los objetos caros tardan mucho.$(li)Automatización: introduce objetos y saca el objeto bloqueado por la misma cara. El filtro solo acepta objetos que no sean el bloqueado.$(li)Se necesita un $(l:emc_transmutation/alchemical_chest)Cofre Alquímico$() para fabricar el MK1, así que construye antes tu almacenamiento."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() producir un objeto bloqueado cuesta el doble de su EMC normal por defecto, configurado con balance.emc.condenserCostMultiplier, y toda la economía se puede alternar con balance.emc.enabled."
+    }
+  ]
+}

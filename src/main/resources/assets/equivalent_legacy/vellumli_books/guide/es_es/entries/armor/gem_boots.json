@@ -1,0 +1,28 @@
+{
+  "name": "Botas de Gemas",
+  "category": "equivalent_legacy:armor",
+  "icon": "equivalent_legacy:gem_boots",
+  "sort_num": 6,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:gem_boots"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:full_star_gem_boots"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Las $(l)Botas de Gemas$(), o $(o)Botas del Huracán$(), son las botas de la Armadura de Gemas. Fabrícalas con unas Botas de Materia Roja, dos Vendavales Desgarradores de Swiftwolf y una $(l)Klein Star Omega completamente cargada$().$(br2)Te hacen notablemente más rápido y más fácil de controlar en el aire."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Otorgan un $(l)+50 %$() de velocidad de movimiento mientras las llevas puestas.$(li)Las botas ya no anulan cualquier caída: mientras bajas planeando despacio no recibes daño de caída, pero si caes rápido (por ejemplo en picado con las Grebas de Gema) la caída cuenta desde donde empezó. Además bloquean una cantidad limitada de daño de caída, como el resto del conjunto.$(li)Pulsa $(l)X$() para alternar la $(l)Asistencia de escalón$(), que te permite subir bloques enteros automáticamente.$(li)Mantener el salto en el aire te da más sustentación, las caídas se ralentizan y moverte hacia delante en el aire es más rápido.$(li)Parte del conjunto de Gemas, que reduce el daño aproximadamente un 63 %."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() common.crafting.fullKleinStars se aplica a la receta."
+    }
+  ]
+}

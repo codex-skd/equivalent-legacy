@@ -1,0 +1,32 @@
+{
+  "name": "Martillos de materia",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_hammer",
+  "sort_num": 7,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_hammer"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_hammer"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_hammer"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_hammer"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Martillo de Materia Oscura$() y el $(l)Martillo de Materia Roja$() son martillos de minería pesados. Fabrica el Martillo de Materia Oscura con Materia Oscura y un diamante, y luego mejóralo al Martillo de Materia Roja.$(br2)Pulsa $(l)V$() para cargar. El martillo golpea fuerte: trece de daño de ataque con Materia Oscura y catorce con Materia Roja."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Haz clic derecho sobre un bloque para excavar un área frente a ti, cuya profundidad y tamaño crecen con la carga.$(li)Cargar añade daño de ataque extra.$(li)Mina los bloques de Materia Oscura y Materia Roja casi al instante.$(li)El golpe extra de la carga ya no ignora la armadura en esta versión.$(br2)$(l)Ajustes del servidor:$() server.items.disableAllRadiusMining."
+    }
+  ]
+}

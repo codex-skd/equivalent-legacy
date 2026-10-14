@@ -1,0 +1,28 @@
+{
+  "name": "Katar Roja",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:rm_katar",
+  "sort_num": 9,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_katar"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_katar"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La $(l)Katar Roja$() es el arma definitiva de Materia Roja. Fabrícala con una Espada, un Hacha, una Azada y unas Tijeras de Materia Roja más Materia Roja. Hace veintitrés de daño de ataque y tiene cuatro niveles de carga.$(br2)Pulsa $(l)G$() para elegir $(l)Matar hostiles$() o $(l)Matar todo$(), $(l)V$() para cargar y $(l)C$() para su función extra."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Con la barra de ataque llena, pulsa $(l)C$() para desatar un aura de muerte a tu alrededor que inflige el daño del Aura de muerte de la Katar del servidor (12 por defecto, ignora la armadura) a todos los objetivos válidos; el radio crece con la carga.$(li)En modo $(l)Matar todo$(), el aura también golpea a las criaturas pasivas.$(li)Mantener el clic derecho levanta la katar como escudo para bloquear ataques.$(li)Con el clic derecho esquilas a todas las criaturas esquilables de un área, duplicando los objetos obtenidos con un 1 % de probabilidad de un clon bebé aleatorio.$(li)Es una caja de herramientas completa: descorteza, raspa, quita la cera y labra en un área, tala árboles, quita las hojas y barre como una espada."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.difficulty.katarDeathAura y server.items.disableAllRadiusMining."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Matter Shovels",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_shovel",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_shovel"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_shovel"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_shovel"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_shovel"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Dark Matter Shovel$() and $(l)Red Matter Shovel$() move earth quickly. Craft the Dark Matter Shovel from Dark Matter and diamonds, then upgrade it into the Red Matter Shovel.$(br2)Press $(l)V$() to charge.$(br2)$(l)Hidden abilities$()$(br)$(li)Right-click grass or dirt to flatten a whole area into paths, with the radius growing with charge.$(li)Right-click a campfire to put it out.$(li)Right-click sand, gravel or clay to vein-mine the deposit for free.$(li)Charged right-click digs out an area of blocks as well.$(br2)$(l)Server settings:$() server.items.disableAllRadiusMining."
+    }
+  ]
+}

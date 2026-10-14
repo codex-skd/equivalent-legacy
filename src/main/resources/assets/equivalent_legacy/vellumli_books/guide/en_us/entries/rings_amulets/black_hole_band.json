@@ -1,0 +1,24 @@
+{
+  "name": "Black Hole Band",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:black_hole_band",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:black_hole_band"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:black_hole_band"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Black Hole Band$() pulls dropped items to you. Craft it from string, Dark Matter and an Iron Band. It fits the ring curio slot.$(br2)Right-click to toggle it on and off, and press $(l)G$() for the same toggle from the hotbar."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)While active it drags items within about 7 blocks toward you, but only items that do not already fit in your inventory.$(li)Right-clicking a water or lava source first scoops it up like an empty bucket instead of toggling the band.$(li)On a pedestal it vacuums nearby drops and pushes them into adjacent inventories.$(li)Inside an Alchemical Chest it fills the chest from nearby drops; inside an Alchemical Bag it pulls drops to you."
+    }
+  ]
+}

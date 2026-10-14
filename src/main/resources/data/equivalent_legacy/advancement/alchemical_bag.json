@@ -1,0 +1,32 @@
+{
+  "parent": "equivalent_legacy:alchemical_chest",
+  "criteria": {
+    "bag": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#equivalent_legacy:alchemical_bags"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.equivalent_legacy.alch_bag.description"
+    },
+    "icon": {
+      "id": "equivalent_legacy:white_alchemical_bag"
+    },
+    "title": {
+      "translate": "advancements.equivalent_legacy.alch_bag"
+    }
+  },
+  "requirements": [
+    [
+      "bag"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Tomo de conocimiento",
+  "category": "equivalent_legacy:emc_transmutation",
+  "icon": "equivalent_legacy:tome",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:tome"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:tome"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El Tomo de Conocimiento desbloquea $(l)todo$() el conocimiento de transmutación de una vez. Después de aprenderlo podrás crear cualquier objeto con un valor de EMC, sin tener que quemar primero uno de cada.$(br2)$(l)Cómo usarlo:$() pon el Tomo en la $(l)ranura de consumo$() de una $(l:emc_transmutation/transmutation_table)Mesa de Transmutación$() o una Tableta. No se usa desde la mano. Para deshacerlo, colócalo en la $(l)ranura de olvido$() y el efecto de conocimiento completo se elimina."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br2)$(li)El Tomo es el único objeto que otorga conocimiento completo; los objetos normales solo se enseñan a sí mismos.$(li)No te da EMC por sí mismo. Quemarlo solo devuelve su propio valor, así que sigues necesitando una reserva que gastar.$(li)Como se aprende a través de la ranura de consumo, también funciona desde la Tableta portátil.$(br2)$(l)Ajustes del servidor:$() el Tomo no tiene receta por defecto. Un administrador puede activarla con common.crafting.craftableTome, y puede exigir Klein Stars Omega completamente cargadas con common.crafting.fullKleinStars."
+    }
+  ]
+}

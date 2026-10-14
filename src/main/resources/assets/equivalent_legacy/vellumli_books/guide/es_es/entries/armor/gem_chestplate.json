@@ -1,0 +1,28 @@
+{
+  "name": "Peto de Gemas",
+  "category": "equivalent_legacy:armor",
+  "icon": "equivalent_legacy:gem_chestplate",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:gem_chestplate"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:full_star_gem_chestplate"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Peto de Gemas$(), o $(o)Armadura Infernal$(), es la pieza de pecho de la Armadura de Gemas. Fabrícalo con un Peto de Materia Roja, un Amuleto Volcanita, una Piedra del Cuerpo y una $(l)Klein Star Omega completamente cargada$().$(br2)Mientras lo llevas puesto te alimenta poco a poco y te hace inmune al fuego."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Alimenta 1 punto de hambre (medio muslo) cada 10 segundos.$(li)La inmunidad al fuego solo funciona mientras el peto está realmente puesto en el pecho.$(li)$(l)C$() (con la mano vacía y el estado ofensivo activado) crea una potente explosión nova a tu alrededor. Las habilidades ofensivas están desactivadas por defecto.$(li)Parte del conjunto de Gemas, que reduce el daño aproximadamente un 63 %."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.difficulty.offensiveAbilities, server.cooldown.player.feed, server.cooldown.player.gemChestplate y common.crafting.fullKleinStars."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Mercurial Eye",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:mercurial_eye",
+  "sort_num": 5,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:mercurial_eye"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:mercurial_eye"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The Mercurial Eye is the most powerful building tool in the mod. It places, extends and transmutes blocks using EMC stored in a Klein Star.$(br2)$(l)How to get it:$() 2 obsidian, 4 bricks, 1 Red Matter and 1 diamond.$(br2)$(l)Setting it up (the tooltip does not tell you this):$()$(br2)$(li)Press $(l)C$() to open its GUI. It has two slots.$(li)Put a $(l)Klein Star$() in the first slot. This is the fuel.$(li)Put the $(l)block you want to place$() in the second slot.$(li)Press $(l)G$() to change mode and $(l)V$() to change charge."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Modes$()$(br2)$(li)$(l)Creation:$() place one block on the face you are looking at.$(li)$(l)Pillar:$() fill gaps in a 3x3 column.$(li)$(l)Extension / Extension-Classic:$() fill gaps around the targeted block in a 3x3 area (Classic up to 9x9x1).$(li)$(l)Transmutation / Transmutation-Classic:$() replace matching blocks in an area with your target block.$(br2)$(l)How it costs EMC:$() it takes the difference in value between the new block and the old one from the Klein Star. If the new block is cheaper, the difference is $(l)refunded$() to the star."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br2)$(li)Every mode is limited to $(l)32 blocks per operation$() in this version, so it is a precise builder rather than a terraformer.$(li)It cannot replace blocks that have a block entity or that are indestructible.$(li)Because it refunds the difference, turning expensive blocks into cheap ones is not a loss.$(li)The GUI is the only way to load the star and target; there is no hint in the tooltip.$(br2)$(l)Server settings:$() the per-operation limit is balance.mercurialEye.maxArea (32 by default)."
+    }
+  ]
+}

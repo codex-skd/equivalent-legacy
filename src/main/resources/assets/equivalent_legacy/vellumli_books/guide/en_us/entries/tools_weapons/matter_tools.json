@@ -1,0 +1,24 @@
+{
+  "name": "Matter Tools",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_pick",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Dark Matter and Red Matter tools are the workhorses of any alchemist. Every pickaxe, axe, shovel, hoe, shears and hammer in this family shares the same rules, so learn them once and they apply everywhere. EMC stands for $(l)Energy-Matter Covalence$(), the mod's energy.$(br2)$(l)Shared rules$()$(br)$(li)Tools never lose durability and never need repairs.$(li)Their actions are free: mining and area effects do not consume EMC.$(li)Dark Matter tools have 2 charge levels; Red Matter tools have 3.$(li)Press $(l)V$() to charge up and $(l)Shift + V$() to charge down. Charging raises mining speed."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Modes and areas$()$(br)Picks, hammers and the Red Morningstar also have modes. Press $(l)G$() to cycle $(l)Standard$(), $(l)3x Tallshot$(), $(l)3x Wideshot$() and $(l)3x Longshot$(). Tallshot breaks three blocks vertically, Wideshot three across and Longshot three deep."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)Right-clicking an ore with a pickaxe or the Red Morningstar vein-mines the whole vein, up to 64 blocks, for free.$(li)Breaking a block while a non-Standard mode is active also breaks the extra blocks shown by the mode's name.$(li)Area-of-effect sizes are intentionally smaller in this version than in older releases.$(li)Tools mine Dark and Red Matter blocks almost instantly.$(li)Charged tools no longer land an extra hit that ignores armor."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() server.items.disableAllRadiusMining turns off every area and vein action; server.items.pickaxeAoeVeinMining changes right-click from mining a single vein to mining every ore around you. See $(l:controls/key_binds)Controls$() for the keys."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Repair Talisman",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:repair_talisman",
+  "sort_num": 16,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:repair_talisman"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:repair_talisman"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Repair Talisman$() slowly repairs your gear. Craft it from the three covalence dusts, string and paper. It fits the belt curio slot."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)Every 10 seconds it repairs one durability point on every damaged, repairable item you carry, for 4 EMC per point.$(li)$(l)In this version it only works while equipped in the belt curio slot$(); it no longer repairs straight from your backpack.$(li)It does not repair items that have modes, such as the mod's own tools, and it will not repair your attacking weapon while you are swinging.$(li)It also still repairs items while stored inside an Alchemical Bag or Alchemical Chest, and on a pedestal it repairs nearby players' gear on a timer."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() server.cooldown.player.repair and server.cooldown.pedestal.repair."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Entropy Sinks",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:entropy_sink",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:entropy_sink"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:entropy_sink_dark"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:entropy_sink_red"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:entropy_sink"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:entropy_sink_dark"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:entropy_sink_red"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Despite the name, an $(l)Entropy Sink generates EMC$(): it burns items with an EMC value and sends the result to neighbouring blocks. It is the automated alternative to burning items by hand in a table.$(br2)$(l)How to get them:$()$(br2)$(li)Basic: 4 obsidian, 4 diamond and 1 furnace.$(li)Dark: 8 glowstone, 1 Dark Matter and 1 Entropy Sink.$(li)Red: 8 glowstone, 1 Red Matter and 1 Dark Entropy Sink.$(br2)$(l)Using them:$() place one and feed items in through any side. Every so often it burns a batch and emits the EMC to whatever accepts it next to it."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Tiers$()$(br2)$(li)$(l)Basic:$() burns 1 item every second, 50,000 EMC buffer.$(li)$(l)Dark:$() burns 4 items every 0.75 seconds, 200,000 buffer.$(li)$(l)Red:$() burns 16 items every 0.5 seconds, 1,000,000 buffer.$(br2)$(l)Hidden abilities$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)The faster you burn, the less efficient it becomes: beyond about 1,000 EMC per second the payout drops, down to a floor, so a single sink cannot be pushed to infinity.$(li)Items with a custom name, a container of loot, or a shulker box are ignored.$(li)Burning an item also teaches it to the owner if they are online.$(li)It never accepts EMC from pipes; it is a pure source.$(br2)$(l)Server settings:$() generation is scaled by balance.emc.generationMultiplier and the efficiency floor by balance.entropySinks.efficiencyFloor."
+    }
+  ]
+}

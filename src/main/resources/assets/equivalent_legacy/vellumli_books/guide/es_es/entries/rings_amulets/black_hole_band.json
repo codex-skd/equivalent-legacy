@@ -1,0 +1,24 @@
+{
+  "name": "Banda de Agujero Negro",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:black_hole_band",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:black_hole_band"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:black_hole_band"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La $(l)Banda de Agujero Negro$() atrae hacia ti los objetos tirados. Fabrícala con cuerda, Materia Oscura y una Banda de Hierro. Encaja en la ranura de curio de anillo.$(br2)Haz clic derecho para activarla y desactivarla, o pulsa $(l)G$() para el mismo interruptor desde la barra rápida."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Mientras está activa, arrastra hacia ti los objetos en unos 7 bloques, pero solo los que aún no caben en tu inventario.$(li)El clic derecho sobre una fuente de agua o de lava primero la recoge, como haría un cubo vacío, en lugar de activar o desactivar la banda.$(li)En un pedestal aspira los objetos tirados cercanos y los empuja a los inventarios adyacentes.$(li)Dentro de un Cofre Alquímico rellena el cofre con los objetos cercanos; dentro de una Bolsa Alquímica atrae los objetos hacia ti."
+    }
+  ]
+}

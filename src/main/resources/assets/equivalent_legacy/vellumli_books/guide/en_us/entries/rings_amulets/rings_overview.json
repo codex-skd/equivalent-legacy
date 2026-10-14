@@ -1,0 +1,28 @@
+{
+  "name": "Rings & Amulets",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:iron_band",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:iron_band"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:iron_band"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Rings, bands and amulets are the passive gadgets of Equivalent Legacy. Most are built on an $(l)Iron Band$(), crafted from iron and a source of lava."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)How they work$()$(br)$(li)Most are switched on and off with $(l)G$(). A few use right-click or $(l)Shift + right-click$(), as noted in their entry.$(li)While active they usually drain EMC from your available EMC each tick. If it runs out, they switch themselves off.$(li)They only work while in your hotbar, off-hand or a Regalia (curio) slot. Items left in your backpack do nothing.$(li)Put them in a curio slot so they keep working with both hands free. See $(l:controls/curio_slots)Regalia Slots$().$(li)Many also gain a special function when placed on a Dark Matter Pedestal, usually repeating on a timer."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)Keep a charged Klein Star, or plenty of learned EMC, available so active rings never run dry mid-fight.$(li)Several rings can be combined into stronger items, such as the Void Ring and the Ring of Arcana."
+    }
+  ]
+}
