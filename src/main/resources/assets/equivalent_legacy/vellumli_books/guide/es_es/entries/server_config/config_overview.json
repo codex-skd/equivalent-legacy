@@ -1,0 +1,37 @@
+{
+  "name": "Visión general de la configuración",
+  "category": "equivalent_legacy:server_config",
+  "icon": "minecraft:command_block",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Equivalent Legacy guarda su configuración en cuatro archivos TOML, todos en config/equivalent_legacy/ de la instancia del juego o del servidor. server.toml es una config de tipo $(l)servidor$() de NeoForge: la comparten todos los mundos de esa instancia y un servidor multijugador envía sus valores a los jugadores conectados.$(br2)Los archivos son:"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Archivo — Tipo — Ubicación$(li)server.toml — SERVER — config/equivalent_legacy/server.toml$(li)common.toml — COMMON — config/equivalent_legacy/common.toml$(li)client.toml — CLIENT — config/equivalent_legacy/client.toml$(li)mapping.toml — SERVER — config/equivalent_legacy/mapping.toml"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "server.toml contiene todo lo que afecta a la jugabilidad: el sistema de balance de supervivencia ([balance]), los enfriamientos, la dificultad, los efectos, los objetos y varios ajustes. common.toml guarda las opciones de crafting y depuración, client.toml las preferencias de tooltips y superposición de cada jugador, y mapping.toml controla cómo se calculan los valores de EMC."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Valores por defecto del modpack.$() Un modpack puede incluir sus propios valores por defecto para que una instancia nueva empiece con ellos. Coloca una copia del archivo que quieras sembrar en defaultconfigs/equivalent_legacy/server.toml dentro de la instancia. Esa copia solo se lee la primera vez que se genera un archivo de configuración."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Los mundos ya existentes conservan sus valores.$() Actualizar el mod nunca reescribe un archivo de configuración que ya existe. Las claves nuevas se añaden con su valor por defecto, pero un valor por defecto que haya cambiado entre versiones $(o)no$() sobrescribe el valor ya guardado en tu archivo. Si estás migrando un servidor antiguo, revisa el archivo a mano, sobre todo las claves clásicas que se listan en $(l:server_config/classic_settings)Ajustes clásicos$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Desactivar el sistema de balance.$() Pon balance.enabled = false en server.toml para recuperar el comportamiento clásico de ProjectE. Todas las opciones balance.* se ignoran y el mod usa su valor legado, así que obtienes exactamente la jugabilidad anterior al balance. Los ajustes clásicos que están fuera de [balance] (dificultad, objetos, enfriamientos, efectos) no se ven afectados y siguen aplicándose.$(br2)Para orientarte:"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)$(l:server_config/balance_system)Sistema de balance de supervivencia$() explica cada clave balance.* y el valor legado al que recurre.$(li)$(l:server_config/classic_settings)Ajustes clásicos$() lista las opciones antiguas, anteriores al balance.$(li)$(l:server_config/presets)Presets listos para usar$() ofrece dos configuraciones para copiar y pegar."
+    }
+  ],
+  "read_by_default": true
+}

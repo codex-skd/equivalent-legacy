@@ -1,0 +1,32 @@
+{
+  "name": "Matter Shears",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_shears",
+  "sort_num": 6,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_shears"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_shears"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_shears"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_shears"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Dark Matter Shears$() and $(l)Red Matter Shears$() are the strange ones of the family. Craft the Dark Matter Shears from Dark Matter and a diamond, then upgrade them into the Red Matter Shears.$(br2)Press $(l)V$() to charge.$(br2)$(l)Hidden abilities$()$(br)$(li)Right-click to shear every shearable mob around you; the radius grows with charge.$(li)Sheared drops are doubled.$(li)Each sheared mob has a 1% chance to spawn a random-colored baby clone of itself.$(li)Right-click leaves to clear all leaves in an area.$(li)Sheared sheep still give their wool normally."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() server.items.disableAllRadiusMining."
+    }
+  ]
+}

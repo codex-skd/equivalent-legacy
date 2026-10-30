@@ -1,0 +1,24 @@
+{
+  "name": "Ignition Ring",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:ignition_ring",
+  "sort_num": 7,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:ignition_ring"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:ignition_ring"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Ignition Ring$() sets the world alight. Craft it from flint and steel, Mobius Fuel, Dark Matter and an Iron Band. It fits the ring curio slot.$(br2)Toggle it with $(l)G$() (or right-click for the same effect) and fire a fireball with $(l)R$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)While active it randomly ignites blocks and creatures around you and costs a small amount of EMC each tick.$(li)When switched off it automatically extinguishes nearby fire.$(li)It makes you immune to fire while you carry it active.$(li)Right-click a block to light it directly.$(li)The $(l)R$() fireball costs EMC and, on impact, sets creatures alight or turns obsidian to lava and sand to glass.$(li)On a pedestal it burns nearby mobs on a timer.$(br2)$(l)Server settings:$() server.cooldown.pedestal.ignition."
+    }
+  ]
+}

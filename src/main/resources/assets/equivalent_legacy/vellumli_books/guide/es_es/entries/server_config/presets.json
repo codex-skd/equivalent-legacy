@@ -1,0 +1,36 @@
+{
+  "name": "Presets listos para usar",
+  "category": "equivalent_legacy:server_config",
+  "icon": "minecraft:writable_book",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Aquí tienes dos configuraciones listas para copiar. Pega cada fragmento en el archivo correspondiente y reinicia el servidor o el mundo para que se lean los nuevos valores."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Preset 1: ProjectE clásico.$() Recupera la sensación anterior al balance. No hace falta listar todas las claves balance.*, porque poner balance.enabled = false ya hace que el mod use el valor legado de todas ellas. Solo hay que devolver a mano las claves clásicas que cambiaron.$(br2)server.toml:$(br2)[balance]$(br)enabled = false$(br2)[items]$(br)enableTimeWatch = true$(br2)[difficulty]$(br)katarDeathAura = 1000.0$(br)covalenceLoss = 1.0"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "[cooldown.pedestal]$(br)archangel = 40$(br)body = 10$(br)evertide = 20$(br)harvest = 10$(br)ignition = 40$(br)life = 5$(br)repair = 20$(br)swrg = 70$(br)soul = 10$(br)volcanite = 20$(br)zero = 40$(br2)[cooldown.player]$(br)projectile = 0$(br)gemChest = 0$(br)repair = 20$(br)heal = 20$(br)feed = 20$(br2)common.toml:$(br2)[crafting]$(br)fullKleinStars = false"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Preset 2: Supervivencia extrema.$() Este es una $(l)sugerencia$(), no un valor por defecto soportado. Mantiene el sistema de balance activo y lo vuelve mucho más estricto: los efectos cuestan más EMC, las habilidades se desactivan en el Nether y el End, la armadura se desgasta, la generación de EMC es una fracción de lo normal y la automatización está limitada. Ajusta o quita lo que no te guste, y recorta la lista negra de dimensiones si aun así quieres las habilidades allí.$(br2)server.toml:"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "[balance]$(br)enabled = true$(br)effectEmcMultiplier = 2.0$(br)dimensionBlacklist = [\"minecraft:the_nether\", \"minecraft:the_end\"]$(br2)[balance.repair]$(br)emcPerRepair = 16$(br)includeCurios = false$(br)includeAlchStorage = false$(br2)[balance.autoSurvival]$(br)emcPerHeal = 1024$(br)emcPerFeed = 1024$(br)requireCurio = true$(br2)[balance.gemArmor]$(br)speedBonus = 0.25$(br2)[balance.swrg]$(br)emcPerTick = 4.0$(br)repelRadius = 2.0$(br2)[balance.armor]$(br)reductionMultiplier = 0.5$(br)durabilityLoss = true$(br2)[balance.tools]$(br)veinMineMaxBlocks = 32$(br)aoeRadiusMultiplier = 0.35"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "[balance.combat]$(br)attackAoe = false$(br)armorPiercing = false$(br2)[balance.emc]$(br)generationMultiplier = 0.1$(br)condenserCostMultiplier = 3.0$(br2)[balance.entropySinks]$(br)efficiencyFloor = 0.1$(br2)[balance.stellarCondenser]$(br)softCapPerMinute = 128$(br2)[balance.matterFurnaces]$(br)dmDoubleOreChance = 0.1$(br)rmDoubleOreChance = 0.0$(br2)[balance.mercurialEye]$(br)maxArea = 16$(br2)[balance.lens]$(br)maxRadius = 4.0$(br2)[balance.timeWatch]$(br)inventoryBonus = 0"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El valor por defecto balance.collectors.sunOnly = true ya se aplica, así que los colectores solo funcionan de día y no hace falta repetirlo."
+    }
+  ]
+}

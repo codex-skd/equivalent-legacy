@@ -1,0 +1,32 @@
+{
+  "parent": "equivalent_legacy:alchemical_chest",
+  "criteria": {
+    "condenser": {
+      "conditions": {
+        "items": [
+          {
+            "items": "equivalent_legacy:condenser_mk1"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.equivalent_legacy.condenser.description"
+    },
+    "icon": {
+      "id": "equivalent_legacy:condenser_mk1"
+    },
+    "title": {
+      "translate": "advancements.equivalent_legacy.condenser"
+    }
+  },
+  "requirements": [
+    [
+      "condenser"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

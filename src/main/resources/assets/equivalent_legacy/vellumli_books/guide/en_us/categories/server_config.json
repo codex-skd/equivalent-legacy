@@ -1,0 +1,6 @@
+{
+  "name": "Server Configuration",
+  "description": "Configuring the mod for a server or modpack: the config files, the survival balance system, the classic settings and ready-made presets.",
+  "icon": "minecraft:command_block",
+  "sort_num": 10
+}

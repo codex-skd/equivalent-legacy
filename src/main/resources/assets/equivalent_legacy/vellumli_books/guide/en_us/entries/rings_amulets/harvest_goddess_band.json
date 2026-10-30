@@ -1,0 +1,24 @@
+{
+  "name": "Harvest Goddess Band",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:harvest_goddess_band",
+  "sort_num": 6,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:harvest_goddess_band"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:harvest_goddess_band"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Harvest Goddess Band$() grows and harvests nearby plants. Craft it from saplings, flowers, Dark Matter and an Iron Band.$(br2)Toggle it with $(l)G$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)While active it randomly grows or harvests plants around you and costs a small amount of EMC each tick.$(li)Even when switched off it still grows plants at about half the rate, for free.$(li)Right-click plants seeds straight from your inventory across a wide area.$(li)$(l)Shift + right-click$() spends up to four Bone Meal to fertilise a very wide area at once.$(li)It is not a curio item, but on a pedestal it speeds up and harvests crops on a timer.$(br2)$(l)Server settings:$() server.items.harvBandIndirect and server.cooldown.pedestal.harvest."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+package com.skd.equivalentlegacy.gameObjs.items.armor;
+
+import net.minecraft.world.phys.Vec3;
+
+import java.util.function.Consumer;
+import com.skd.equivalentlegacy.config.EquivalentLegacyConfig;
+import com.skd.equivalentlegacy.gameObjs.items.ItemPE;
+import com.skd.equivalentlegacy.gameObjs.registries.PEDataComponentTypes;
+import com.skd.equivalentlegacy.utils.BalanceHelper;
+import com.skd.equivalentlegacy.utils.ClientKeyHelper;
+import com.skd.equivalentlegacy.utils.PEKeybind;
+import com.skd.equivalentlegacy.utils.LevelHelper;
+import com.skd.equivalentlegacy.utils.PlayerHelper;
+import com.skd.equivalentlegacy.utils.text.PELang;
+import net.minecraft.ChatFormatting;
+import net.minecraft.SharedConstants;
+import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.LightningBolt;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.equipment.ArmorType;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.component.TooltipDisplay;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.HitResult;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+public class GemHelmet extends GemArmorBase {
+
+	private static final boolean NIGHT_VISION_DEFAULT = false;
+
+	public GemHelmet(Properties props) {
+		super(ArmorType.HELMET, props.component(PEDataComponentTypes.NIGHT_VISION, NIGHT_VISION_DEFAULT));
+	}
+
+	public static void toggleNightVision(ItemStack helm, Player player) {
+		boolean oldValue = hasNightVision(helm);
+		helm.set(PEDataComponentTypes.NIGHT_VISION, !oldValue);
+		player.sendSystemMessage(getComponent(!oldValue));
+	}
+
+	@Override
+	public void appendHoverText(@NotNull ItemStack stack, @NotNull Item.TooltipContext context, @NotNull TooltipDisplay display, @NotNull Consumer<Component> tooltip, @NotNull TooltipFlag flags) {
+		super.appendHoverText(stack, context, display, tooltip, flags);
+		tooltip.accept(PELang.GEM_LORE_HELM.translate());
+		tooltip.accept(PELang.TOOLTIP_GEM_HELMET.translate());
+		tooltip.accept(PELang.TOOLTIP_GEM_HELMET_2.translate(ClientKeyHelper.getKeyName(PEKeybind.FIRE_PROJECTILE)));
+		if (!EquivalentLegacyConfig.server.difficulty.offensiveAbilities.getOrDefault()) {
+			tooltip.accept(PELang.TOOLTIP_GEM_OFFENSIVE_DISABLED.translateColored(ChatFormatting.GRAY));
+		}
+		tooltip.accept(PELang.NIGHT_VISION_PROMPT.translate(ClientKeyHelper.getKeyName(PEKeybind.HELMET_TOGGLE)));
+		tooltip.accept(getComponent(hasNightVision(stack)));
+	}
+
+	private static boolean hasNightVision(ItemStack stack) {
+		return stack.getOrDefault(PEDataComponentTypes.NIGHT_VISION, NIGHT_VISION_DEFAULT);
+	}
+
+	private static Component getComponent(boolean nightVision) {
+		if (nightVision) {
+			return PELang.NIGHT_VISION.translate(ChatFormatting.GREEN, PELang.GEM_ENABLED);
+		}
+		return PELang.NIGHT_VISION.translate(ChatFormatting.RED, PELang.GEM_DISABLED);
+	}
+
+	@Override
+	public void inventoryTick(@NotNull ItemStack stack, @NotNull ServerLevel level, @NotNull Entity entity, @Nullable EquipmentSlot slot) {
+		super.inventoryTick(stack, level, entity, slot);
+		if (isArmorSlot(slot) && !level.isClientSide() && entity instanceof Player player) {
+			if (BalanceHelper.enabled()) {
+				if (BalanceHelper.autoSurvivalEnabled() && BalanceHelper.isAbilityAllowed(level) && PlayerHelper.checkHealCooldown(player)) {
+					long cost = BalanceHelper.scaleEmc(BalanceHelper.emcPerHeal());
+					if (cost <= 0 || ItemPE.consumeFuel(player, stack, cost, false)) {
+						player.heal((float) BalanceHelper.healAmount());
+						if (cost > 0) {
+							ItemPE.removeEmc(stack, cost);
+						}
+					}
+				}
+			} else if (PlayerHelper.checkHealCooldown(player)) {
+				player.heal(2.0F);
+			}
+
+			if (BalanceHelper.gemArmorEnabled() && BalanceHelper.isAbilityAllowed(level) && hasNightVision(stack)) {
+				player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 11 * SharedConstants.TICKS_PER_SECOND, 0, true, false));
+			} else {
+				//Only remove the helmet's own night vision, so potions, beacons or other mods keep theirs.
+				MobEffectInstance nightVision = player.getEffect(MobEffects.NIGHT_VISION);
+				if (nightVision != null && nightVision.isAmbient() && !nightVision.isVisible()
+						&& nightVision.getAmplifier() == 0 && nightVision.getDuration() <= 11 * SharedConstants.TICKS_PER_SECOND) {
+					player.removeEffect(MobEffects.NIGHT_VISION);
+				}
+			}
+		}
+	}
+
+	public static void doZap(Player player) {
+		if (EquivalentLegacyConfig.server.difficulty.offensiveAbilities.get() && BalanceHelper.gemArmorEnabled() && BalanceHelper.isAbilityAllowed(player.level())) {
+			BlockHitResult strikeResult = PlayerHelper.getBlockLookingAt(player, 120.0F);
+			if (strikeResult.getType() != HitResult.Type.MISS) {
+				BlockPos strikePos = strikeResult.getBlockPos();
+				Level level = player.level();
+				if (level instanceof ServerLevel serverLevel) {
+					LightningBolt lightning = LevelHelper.createLightning(serverLevel, Vec3.atCenterOf(strikePos));
+					lightning.setCause((ServerPlayer) player);
+					serverLevel.addFreshEntity(lightning);
+				}
+			}
+		}
+	}
+}

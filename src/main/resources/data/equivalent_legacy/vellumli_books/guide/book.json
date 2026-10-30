@@ -1,0 +1,10 @@
+{
+	"name": "book.equivalent_legacy.guide.name",
+	"landing_text": "book.equivalent_legacy.guide.landing_text",
+	"subtitle": "Equivalent Legacy",
+	"model": "equivalent_legacy:item/guide",
+	"version": "1",
+	"i18n": true,
+	"use_resource_pack": true,
+	"creative_tab": "equivalent_legacy:equivalent_legacy"
+}

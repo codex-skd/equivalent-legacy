@@ -1,0 +1,44 @@
+{
+  "name": "Hornos de materia",
+  "category": "equivalent_legacy:matter",
+  "icon": "equivalent_legacy:dm_furnace",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_furnace"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_furnace"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_furnace"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_furnace"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Los Hornos de materia funden mucho más rápido que un horno vanilla e incluso pueden duplicar algunos minerales.$(br2)$(l)Cómo conseguirlos:$()$(br2)$(li)$(l)Horno de Materia Oscura:$() 8 Bloques de Materia Oscura alrededor de un horno vanilla.$(li)$(l)Horno de Materia Roja:$() 2 Bloques de Materia Roja alrededor de un Horno de Materia Oscura.$(br2)$(l)Cómo usarlos:$() funcionan como un horno normal, pero:"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)El $(l)Horno de Materia Oscura$() funde unas 20 veces más rápido y tiene un 25% de probabilidad de duplicar los minerales.$(li)El $(l)Horno de Materia Roja$() funde unas 66 veces más rápido y ya no duplica minerales por defecto."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Un Horno de materia puede funcionar con $(l)EMC en vez de combustible$(). Introduce EMC por tubería y fundirá sin carbón. Drena un poco de EMC en cada tick mientras funciona así.$(li)La cara superior acepta objetos, la inferior los expulsa, y las caras laterales toman combustible y dan salida. Esto te permite apilar hornos y alimentarlos sin tolvas.$(li)Si el bloque de arriba no es una tolva, el horno toma objetos de él; si el bloque de abajo no es una tolva, empuja el resultado hacia abajo.$(li)Sacar objetos de la ranura de salida otorga la experiencia de fundición."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() la probabilidad de duplicar minerales es balance.matterFurnaces.dmDoubleOreChance (25% por defecto) y balance.matterFurnaces.rmDoubleOreChance (0% por defecto)."
+    }
+  ]
+}

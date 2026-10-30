@@ -1,0 +1,28 @@
+{
+  "name": "Herramientas de materia",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_pick",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Las herramientas de Materia Oscura y Materia Roja son los caballos de batalla de cualquier alquimista. Cada pico, hacha, pala, azada, tijeras y martillo de esta familia comparte las mismas reglas, así que apréndelas una vez y valdrán en todas partes. EMC significa $(l)Covalencia Energía-Materia$(), la energía del mod."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Reglas comunes$()$(br)$(li)Las herramientas nunca pierden durabilidad ni necesitan reparación.$(li)Sus acciones son gratis: minar y los efectos de área no consumen EMC.$(li)Las herramientas de Materia Oscura tienen 2 niveles de carga; las de Materia Roja, 3.$(li)Pulsa $(l)V$() para aumentar la carga y $(l)Shift + V$() para reducirla. Cargar aumenta la velocidad de minado."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Modos y áreas$()$(br)Los picos, los martillos y el Lucero del Alba Rojo también tienen modos. Pulsa $(l)G$() para alternar entre $(l)Estándar$(), $(l)3x Disparo alto$(), $(l)3x Disparo ancho$() y $(l)3x Disparo largo$(). Disparo alto rompe tres bloques en vertical, Disparo ancho tres en horizontal y Disparo largo tres en profundidad."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Al hacer clic derecho sobre un mineral con un pico o el Lucero del Alba Rojo, minas toda la veta, hasta 64 bloques, gratis.$(li)Romper un bloque con un modo que no sea Estándar también rompe los bloques extra que indica el nombre del modo.$(li)Los tamaños de las áreas son más pequeños a propósito en esta versión que en versiones anteriores.$(li)Las herramientas minan los bloques de Materia Oscura y Materia Roja casi al instante.$(li)Las herramientas cargadas ya no asestan un golpe extra que ignora la armadura."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.items.disableAllRadiusMining desactiva todas las acciones de área y de veta; server.items.pickaxeAoeVeinMining cambia el clic derecho de minar una sola veta a minar todos los minerales a tu alrededor. Consulta $(l:controls/key_binds)Controles$() para las teclas."
+    }
+  ]
+}

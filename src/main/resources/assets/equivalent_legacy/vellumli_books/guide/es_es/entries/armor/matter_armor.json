@@ -1,0 +1,48 @@
+{
+  "name": "Armadura de Materia Oscura",
+  "category": "equivalent_legacy:armor",
+  "icon": "equivalent_legacy:dm_chestplate",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_helmet"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_chestplate"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_leggings"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_boots"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_helmet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_chestplate"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_leggings"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_boots"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La Armadura de Materia Oscura es el primer nivel de armadura alquímica. Fabrica cada pieza con Materia Oscura y mejórala más adelante a Armadura de Materia Roja.$(br2)Cada pieza funciona como una armadura normal, pero nunca pierde durabilidad. Llevar el conjunto completo reduce el daño recibido aproximadamente un $(l)56 %$(), y cada pieza absorbe una cantidad fija de daño de cada golpe. Esa absorción fija es más fuerte contra explosiones, y las botas ayudan con las caídas mientras que el yelmo ayuda con el ahogamiento."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Las piezas son ignífugas, así que sobreviven a la lava.$(li)El daño que ignora la armadura no se reduce en absoluto.$(li)Llevar solo una parte del conjunto otorga únicamente la fracción del bonus que aportan esas piezas."
+    }
+  ]
+}

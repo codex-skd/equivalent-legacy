@@ -1,0 +1,20 @@
+{
+  "name": "Mind Stone",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:mind_stone",
+  "sort_num": 15,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:mind_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:mind_stone"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Mind Stone$() stores experience. Craft it from books, Red Matter and lapis. It fits the necklace curio slot.$(br2)Toggle it with $(l)G$().$(br2)$(l)Hidden abilities$()$(br)$(li)While active it drains up to 50 XP from you into the stone every tick, with no cap on how much it can hold.$(li)$(l)Right-click$() while it is switched off releases 50 XP back to you.$(li)Its stored amount is shown in its tooltip.$(li)On a pedestal it pulls in nearby experience orbs and absorbs them.$(li)Although it fits the necklace slot, it does not tick there; keep it in your hotbar or off-hand to drain XP."
+    }
+  ]
+}

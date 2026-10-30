@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "equivalent_legacy:slot/empty_klein_star"
+    }
+  ]
+}

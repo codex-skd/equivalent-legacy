@@ -1,0 +1,28 @@
+{
+  "name": "Vendaval Desgarrador de Swiftwolf",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:swiftwolf_rending_gale",
+  "sort_num": 9,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:swiftwolf_rending_gale"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:swiftwolf_rending_gale"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Vendaval Desgarrador de Swiftwolf$() es un anillo de viento defensivo. Fabrícalo con Materia Oscura, plumas y una Banda de Hierro. Encaja en la ranura de curio de anillo.$(br2)El clic derecho lo alterna entre $(l)Apagado$() y $(l)Escudo$(); pulsa $(l)R$() para lanzar un rayo."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)El escudo repele a las criaturas y proyectiles cercanos en un radio de unos 3 bloques a tu alrededor.$(li)Consume aproximadamente 1 EMC por tick mientras protege y se desactiva solo cuando se agota tu EMC.$(li)El antiguo tooltip dice «Otorga vuelo». Ese texto es incorrecto en esta versión: el anillo $(l)no$() otorga ningún vuelo.$(li)El rayo de $(l)R$() invoca un rayo sobre un bloque o empuja con fuerza a una criatura; cada disparo cuesta EMC.$(li)En un pedestal fulmina con rayos a las criaturas cercanas no domesticadas con un temporizador."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.cooldown.pedestal.swrg y server.cooldown.player.projectile."
+    }
+  ]
+}

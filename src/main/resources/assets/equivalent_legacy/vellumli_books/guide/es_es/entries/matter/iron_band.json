@@ -1,0 +1,24 @@
+{
+  "name": "Banda de hierro",
+  "category": "equivalent_legacy:matter",
+  "icon": "equivalent_legacy:iron_band",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:iron_band"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:iron_band"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La Banda de Hierro es un componente de crafteo sencillo: un anillo de hierro alrededor de una fuente de calor. No se lleva puesta por sí sola; es la base de los anillos y bandas del mod.$(br2)$(l)Cómo conseguirla:$() 8 lingotes de hierro alrededor de un cubo de lava (o un Amuleto Volcanita, que se devuelve).$(br2)$(l)Cómo usarla:$() úsala para fabricar el Anillo de Ignición, el Anillo Zero, la Banda de la Diosa de la Cosecha, el Vendaval Desgarrador de Swiftwolf y los demás anillos.$(br2)$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)No tiene ningún poder activo propio.$(li)Como cualquier objeto con un valor, se puede aprender y quemar para obtener EMC.$(br2)$(l)Ajustes del servidor:$() ninguno en concreto."
+    }
+  ]
+}

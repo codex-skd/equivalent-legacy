@@ -1,0 +1,32 @@
+{
+  "name": "Tijeras de materia",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_shears",
+  "sort_num": 6,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_shears"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_shears"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_shears"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_shears"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Las $(l)Tijeras de Materia Oscura$() y las $(l)Tijeras de Materia Roja$() son las más extrañas de la familia. Fabrica las Tijeras de Materia Oscura con Materia Oscura y un diamante, y luego mejóralas a las Tijeras de Materia Roja.$(br2)Pulsa $(l)V$() para cargar."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Haz clic derecho para esquilar a todas las criaturas esquilables que tengas alrededor; el radio crece con la carga.$(li)Los objetos obtenidos al esquilar se duplican.$(li)Cada criatura esquilada tiene un 1 % de probabilidad de generar un clon bebé de sí misma de un color aleatorio.$(li)Haz clic derecho sobre las hojas para eliminar todas las hojas de un área.$(li)Las ovejas esquiladas siguen soltando su lana con normalidad.$(br2)$(l)Ajustes del servidor:$() server.items.disableAllRadiusMining."
+    }
+  ]
+}

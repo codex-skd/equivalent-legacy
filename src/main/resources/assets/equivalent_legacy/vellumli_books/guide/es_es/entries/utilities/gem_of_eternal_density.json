@@ -1,0 +1,24 @@
+{
+  "name": "Gema de densidad eterna",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:gem_of_eternal_density",
+  "sort_num": 7,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:gem_of_eternal_density"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:gem_of_eternal_density"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La Gema de Densidad Eterna condensa objetos mientras los llevas encima. Se traga los objetos de poco valor de tu inventario y acumula el EMC hasta poder producir un objeto mejor.$(br2)$(l)Cómo conseguirla:$() 4 diamante, 2 Materia Oscura y 2 obsidiana.$(br2)$(l)Cómo usarla:$()$(br2)$(li)Pulsa $(l)G$() para elegir el objeto objetivo (Hierro, Oro, Diamante, Materia Oscura o Materia Roja).$(li)Agáchate + clic derecho en el aire para activarla y desactivarla.$(li)Haz clic derecho para abrir una interfaz donde puedes establecer una lista blanca o negra de objetos que puede comerse."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br2)$(li)Solo condensa objetos que están en $(l)tu inventario$(), no del suelo.$(li)Consume media pila por operación (al menos un objeto) y acumula el EMC internamente.$(li)Cuando la desactivas, los objetos que haya consumido se sueltan de nuevo en el suelo y su EMC almacenado vuelve a cero, así que vacíala en un lugar seguro.$(li)También funciona dentro de un $(l:emc_transmutation/alchemical_chest)Cofre Alquímico$() o una $(l:emc_transmutation/alchemical_bags)Bolsa Alquímica$().$(br2)$(l)Ajustes del servidor:$() ninguno en concreto."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Tableta arcana",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:arcane_tablet",
+  "sort_num": 8,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:arcane_tablet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:arcane_tablet"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La Tableta Arcana es una pantalla de transmutación portátil $(l)con una cuadrícula de crafteo 3x3 integrada$(). Es la $(l:emc_transmutation/transmutation_table)Tableta de Transmutación$() y una mesa de trabajo en un solo objeto.$(br2)$(l)Cómo conseguirla:$() 4 Tabletas de Transmutación, 2 Materia Oscura, 1 Materia Roja, 1 mesa de trabajo y 1 cofre de madera.$(br2)$(l)Cómo usarla:$() haz clic derecho para abrirla. Usa la cuadrícula de crafteo con normalidad, o elige un objeto aprendido de la lista de transmutación y deja que la tableta obtenga los ingredientes de tu conocimiento y tu EMC."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)La cuadrícula de crafteo puede rellenarse automáticamente con objetos que hayas aprendido, gastando EMC en vez de exigir los ingredientes físicos.$(li)Los botones de la interfaz te permiten limpiar, rotar, equilibrar o repartir la cuadrícula.$(li)Los ingredientes sobrantes se devuelven a tu inventario, o se convierten de nuevo en EMC si es posible.$(li)Acepta un $(l:emc_transmutation/tome_of_knowledge)Tomo de Conocimiento$() en su ranura de consumo, igual que la mesa.$(li)La transferencia de recetas funciona desde JEI y EMI, así que puedes hacer clic en una receta para llevarla directamente a la cuadrícula."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() ninguno en concreto."
+    }
+  ]
+}

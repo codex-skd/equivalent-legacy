@@ -1,0 +1,44 @@
+{
+  "name": "Body, Soul & Life Stones",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:life_stone",
+  "sort_num": 14,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:body_stone"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:soul_stone"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:life_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:body_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:soul_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:life_stone"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The three alchemical stones keep you fed and healed using stored EMC. The $(l)Body Stone$() feeds you, the $(l)Soul Stone$() heals you, and the $(l)Life Stone$() does both at once (craft it from the other two). All three fit the necklace curio slot.$(br2)Toggle each one with $(l)G$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)A Body Stone feeds 1 hunger (half a shank) every 10 seconds for 256 EMC.$(li)A Soul Stone heals 1 HP (half a heart) every 10 seconds for 256 EMC.$(li)A Life Stone does both, spending up to 512 EMC each cycle.$(li)$(l)In this version they only work while equipped in a curio slot$(); they no longer work from a hotbar or off-hand.$(li)A stone switches itself off when it runs out of EMC.$(li)On a pedestal they heal or feed nearby players on a timer."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() server.cooldown.player.heal, server.cooldown.player.feed, server.cooldown.pedestal.body, server.cooldown.pedestal.soul and server.cooldown.pedestal.life."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Picos de materia",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_pick",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_pick"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_pick"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_pick"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_pick"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Pico de Materia Oscura$() y el $(l)Pico de Materia Roja$() son las herramientas de minería principales. Fabrica el Pico de Materia Oscura con tres unidades de Materia Oscura y dos diamantes, y luego mejóralo al Pico de Materia Roja con Materia Roja y una pieza de Materia Oscura.$(br2)Pulsa $(l)G$() para cambiar de modo, $(l)V$() para cargar y $(l)Shift + V$() para bajar la carga. El pico de Materia Roja es más rápido y carga un nivel más."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Haz clic derecho sobre un mineral para minar toda la veta gratis, hasta 64 bloques en esta versión.$(li)En modo Disparo alto, Disparo ancho o Disparo largo, al minar también rompes los bloques de alrededor que describe el modo.$(li)La velocidad de minado aumenta con la carga.$(li)Mina los bloques de Materia Oscura y Materia Roja casi al instante.$(br2)$(l)Ajustes del servidor:$() server.items.pickaxeAoeVeinMining y server.items.disableAllRadiusMining."
+    }
+  ]
+}
