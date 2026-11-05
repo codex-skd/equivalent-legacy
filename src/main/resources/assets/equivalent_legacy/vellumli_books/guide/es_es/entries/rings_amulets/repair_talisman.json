@@ -1,0 +1,28 @@
+{
+  "name": "Talismán de Reparación",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:repair_talisman",
+  "sort_num": 16,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:repair_talisman"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:repair_talisman"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Talismán de Reparación$() repara tu equipo poco a poco. Fabrícalo con los tres polvos de covalencia, cuerda y papel. Encaja en la ranura de curio de cinturón."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Cada 10 segundos repara un punto de durabilidad de cada objeto reparable y dañado que lleves, por 4 EMC por punto.$(li)$(l)En esta versión solo funciona mientras está equipado en la ranura de curio de cinturón$(); ya no repara directamente desde tu mochila.$(li)No repara objetos que tengan modos, como las herramientas del propio mod, y no reparará tu arma de ataque mientras estés atacando.$(li)También sigue reparando objetos mientras están guardados dentro de una Bolsa Alquímica o un Cofre Alquímico, y en un pedestal repara el equipo de los jugadores cercanos con un temporizador."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.cooldown.player.repair y server.cooldown.pedestal.repair."
+    }
+  ]
+}

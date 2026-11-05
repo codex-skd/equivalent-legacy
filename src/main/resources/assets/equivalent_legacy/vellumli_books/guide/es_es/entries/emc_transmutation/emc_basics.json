@@ -1,0 +1,33 @@
+{
+  "name": "Fundamentos del EMC",
+  "category": "equivalent_legacy:emc_transmutation",
+  "icon": "equivalent_legacy:transmutation_table",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "$(l)EMC$() son las siglas de $(l)Covalencia Energía-Materia$(). Es el único número que hay detrás de todo en Equivalent Legacy: cada objeto con un valor se puede convertir en EMC, y el EMC se puede volver a convertir en cualquier objeto que hayas aprendido.$(br2)El EMC se calcula automáticamente a partir de las recetas. Nunca asignas valores a mano: si un objeto se puede fabricar o fundir a partir de cosas que tienen un valor, también obtiene un valor."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ganar EMC.$() Abre una $(l:emc_transmutation/transmutation_table)Mesa de Transmutación$() o una Tableta y pon objetos en la ranura de consumo. El objeto se destruye y su EMC se añade a tu reserva personal. Los objetos que nunca has visto se aprenden al mismo tiempo, así que pasan a estar disponibles en la lista de salida.$(br2)$(l)Gastar EMC.$() Elige un objeto aprendido de la lista de salida; su EMC se toma de tu reserva y el objeto aparece. Todo lo que puedas hacer en una cuadrícula de crafteo, con el tiempo podrás hacerlo con EMC."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Quemar y pérdida por covalencia.$() En esta versión, quemar un objeto no devuelve su valor completo: recuperas el $(l)50%$(). Esta es la pérdida por covalencia, y evita que los jugadores conviertan objetos en EMC y viceversa para sacar beneficio."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Las $(l)Klein Stars$() actúan como baterías de EMC portátiles. Lleva una encima y tu reserva se recargará automáticamente cuando gastes EMC con las herramientas.$(br2)$(l)Leer valores.$() Sujeta un objeto y lee su descripción emergente; la línea de EMC se muestra cuando las descripciones están activadas. Jade, The One Probe y WTHIT pueden mostrar el EMC del bloque que estás mirando.$(br2)$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Tu reserva de EMC no tiene un límite práctico y se guarda por jugador, no dentro de la mesa.$(li)Cuando cambian los valores de los objetos (por ejemplo, tras una actualización de un datapack), el conocimiento de los objetos que ya no tienen valor se limpia automáticamente.$(li)La ranura de consumo también acepta un $(l:emc_transmutation/tome_of_knowledge)Tomo de Conocimiento$(), que te enseña todo de una vez."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() la proporción de quema es server.difficulty.covalenceLoss (0.5 por defecto) y el redondeo por debajo de 1 es server.difficulty.covalenceLossRounding."
+    }
+  ],
+  "read_by_default": true
+}

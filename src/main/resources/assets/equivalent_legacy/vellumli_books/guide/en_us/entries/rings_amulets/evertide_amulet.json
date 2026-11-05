@@ -1,0 +1,24 @@
+{
+  "name": "Evertide Amulet",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:evertide_amulet",
+  "sort_num": 12,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:evertide_amulet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:evertide_amulet"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Evertide Amulet$() is an endless source of water. Craft it from water buckets and Dark Matter. It fits the necklace curio slot.$(br2)Use right-click on a block to place water, and press $(l)R$() to fire a water orb."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)All of its operations are completely free and it works as an infinite water bucket for tanks and cauldrons.$(li)The $(l)R$() water orb puts out creature fires, pushes creatures and, as it flies, turns lava into obsidian or cobblestone.$(li)In the Nether the amulet refuses to place water unless the server enables server.items.opEvertide.$(li)While you carry it, you can walk on water and your air supply refills whenever you are in water.$(li)On a pedestal it tries to start rain or a thunderstorm on a timer.$(br2)$(l)Server settings:$() server.items.opEvertide."
+    }
+  ]
+}

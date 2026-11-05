@@ -1,0 +1,32 @@
+{
+  "name": "Covalence Dusts",
+  "category": "equivalent_legacy:getting_started",
+  "icon": "equivalent_legacy:low_covalence_dust",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:low_covalence_dust"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:medium_covalence_dust"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:high_covalence_dust"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Covalence Dusts are cheap crafting materials that open the door to the mod's storage and travel items. There are three grades: Low, Medium and High.$(br2)$(l)How to get them (each recipe makes 40):$()$(br2)$(li)$(l)Low Covalence Dust:$() 1 charcoal + 8 cobblestone.$(li)$(l)Medium Covalence Dust:$() 1 iron ingot + 1 redstone dust.$(li)$(l)High Covalence Dust:$() 1 diamond + 1 coal."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "They are used in:$(br2)$(li)The $(l:emc_transmutation/alchemical_chest)Alchemical Chest$() and every $(l:emc_transmutation/alchemical_bags)Alchemical Bag$().$(li)The Repair Talisman and several other utility items.$(br2)Like any item with an EMC value, they can also be learned and burned in a $(l:emc_transmutation/transmutation_table)Transmutation Table$() if you have spares.$(br2)$(l)Hidden abilities$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Covalence Dusts have no special power of their own; they are pure crafting ingredients.$(li)The Low recipe is the cheapest way to turn cobblestone into something useful, so it is a good early sink for all the cobblestone you will mine.$(br2)$(l)Server settings:$() burning dusts returns 50% of their EMC by default, controlled by server.difficulty.covalenceLoss."
+    }
+  ]
+}

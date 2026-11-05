@@ -1,0 +1,28 @@
+{
+  "name": "Red Morningstar",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:rm_morning_star",
+  "sort_num": 10,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_morning_star"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_morning_star"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Red Morningstar$() is a combined tool built from a Red Matter Hammer, Pickaxe and Shovel plus Red Matter. It deals twenty attack damage and has four charge levels.$(br2)Press $(l)G$() to change mode, $(l)V$() to charge and $(l)C$() for its extra function."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)Right-click flattens ground, douses campfires, vein-mines gravel, clay and sand and vein-mines ores, all at once.$(li)Charged right-click digs out an area with depth (except sand, dirt and grass, which are only dug flat).$(li)Mining with Tallshot, Wideshot or Longshot breaks the extra blocks shown by the mode.$(li)Mines Dark and Red Matter blocks almost instantly and gets a large speed bonus on ordinary blocks.$(li)Charging adds bonus attack damage; the extra hit no longer ignores armor in this version."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() server.items.pickaxeAoeVeinMining and server.items.disableAllRadiusMining."
+    }
+  ]
+}

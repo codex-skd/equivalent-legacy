@@ -1,0 +1,32 @@
+{
+  "name": "Automatización y cadenas",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:relay_mk3",
+  "sort_num": 7,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Una vez que tienes unas cuantas máquinas de EMC, el truco está en encadenarlas para que el EMC fluya solo. Estos son los patrones que funcionan en esta versión.$(br2)$(l)Cadena clásica: Colector a Relé a Condensador$()$(br2)$(li)Un colector a cielo abierto genera EMC y lo envía a sus vecinos.$(li)El relé lo almacena y lo reenvía, ganando un pequeño bono de cada colector adyacente.$(li)El condensador consume ese EMC y produce el objeto que hayas bloqueado.$(br2)Los relés nunca se pasan EMC entre sí, así que pon siempre un colector o un consumidor entre ellos."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Cargar Klein Stars$()$(br2)$(li)Pon una estrella en la ranura superior de un colector para cargarla al ritmo del colector mientras no esté enviando EMC a otro sitio.$(li)Pon una estrella en la ranura de carga de un relé para llenarla mucho más rápido, o en la ranura de quema para drenarla de vuelta al relé.$(br2)$(l)Mejorar combustible$()$(br2)$(li)Introduce carbón o un combustible en un colector y deja que mejore el combustible por ti. Expulsa el combustible terminado por la cara superior o inferior.$(br2)$(l)Hornos de materia$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Un $(l:matter/matter_furnaces)Horno de materia$() puede funcionar con EMC en vez de combustible: introduce EMC por tubería y fundirá sin necesitar nunca carbón. Su cara superior es la entrada y la inferior la salida, así que puedes apilar máquinas en vertical."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Sumideros de entropía$()$(br2)$(li)Un $(l:emc_generation/entropy_sinks)Sumidero de entropía$() convierte los objetos sobrantes en EMC, así que una granja que produce más de lo que necesitas puede alimentar la misma red.$(br2)$(l)Consejos$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Mantén la red sencilla: una fuente potente alimentando a un consumidor es más eficiente que muchas fuentes compitiendo por las mismas tuberías.$(li)Recuerda los valores de equilibrio por defecto: los colectores generan una cuarta parte del ritmo clásico y solo con luz solar, así que cuenta con ingresos más lentos pero más estables.$(li)Aprovecha las caras de objetos de cada máquina: los colectores toman combustible por los lados y expulsan las mejoras por arriba/abajo; los relés toman objetos por los lados y sueltan estrellas llenas por arriba/abajo."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() toda la economía de EMC se controla con las opciones balance.emc.*."
+    }
+  ]
+}

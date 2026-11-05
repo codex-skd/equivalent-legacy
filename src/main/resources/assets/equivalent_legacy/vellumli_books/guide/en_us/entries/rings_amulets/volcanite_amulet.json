@@ -1,0 +1,24 @@
+{
+  "name": "Volcanite Amulet",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:volcanite_amulet",
+  "sort_num": 13,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:volcanite_amulet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:volcanite_amulet"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Volcanite Amulet$() is a bottomless bucket of lava. Craft it from lava buckets and Dark Matter. It fits the necklace curio slot.$(br2)Right-click a block to place lava for 32 EMC, and press $(l)R$() to fire a lava orb."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)It makes you immune to fire while carried.$(li)While carried you can walk on lava and you move faster over it, like the Evertide Amulet does on water.$(li)The $(l)R$() lava orb does not charge when fired; it costs 32 EMC only when it hits a block (placing lava) or a creature (burning it).$(li)As it flies it turns water into stone or obsidian.$(li)On a pedestal it stops rain and storms on a timer.$(br2)$(l)Server settings:$() server.cooldown.pedestal.volcanite."
+    }
+  ]
+}

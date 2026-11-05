@@ -1,0 +1,32 @@
+{
+  "name": "Matter Swords",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_sword",
+  "sort_num": 8,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_sword"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_sword"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_sword"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_sword"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Dark Matter Sword$() and $(l)Red Matter Sword$() are reliable weapons: twelve attack damage for Dark Matter and sixteen for Red Matter. Craft the Dark Matter Sword from Dark Matter and a diamond, then upgrade it into the Red Matter Sword.$(br2)Press $(l)V$() to charge, $(l)G$() to change the Red Matter Sword's target mode and $(l)C$() for its extra function."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)At a full attack bar, press $(l)C$() to strike every nearby hostile mob at once; the radius grows with charge.$(li)The Red Matter Sword's mode ($(l)G$()) can be set to $(l)Slay Hostile$() or $(l)Slay All$(), so its $(l)C$() strike can also hit passive mobs.$(li)The sword's sweep hits a wider area as charge rises.$(li)Charging adds bonus attack damage, but the extra hit no longer ignores armor in this version.$(br2)$(l)Server settings:$() none specific to the swords."
+    }
+  ]
+}

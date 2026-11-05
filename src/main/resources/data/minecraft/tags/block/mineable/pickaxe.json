@@ -1,0 +1,22 @@
+{
+  "values": [
+    "equivalent_legacy:alchemical_chest",
+    "equivalent_legacy:alchemical_coal_block",
+    "equivalent_legacy:mobius_fuel_block",
+    "equivalent_legacy:aeternalis_fuel_block",
+    "equivalent_legacy:collector_mk1",
+    "equivalent_legacy:collector_mk2",
+    "equivalent_legacy:collector_mk3",
+    "equivalent_legacy:condenser_mk1",
+    "equivalent_legacy:condenser_mk2",
+    "equivalent_legacy:dm_pedestal",
+    "equivalent_legacy:dm_furnace",
+    "equivalent_legacy:rm_furnace",
+    "equivalent_legacy:dark_matter_block",
+    "equivalent_legacy:red_matter_block",
+    "equivalent_legacy:transmutation_table",
+    "equivalent_legacy:relay_mk1",
+    "equivalent_legacy:relay_mk2",
+    "equivalent_legacy:relay_mk3"
+  ]
+}

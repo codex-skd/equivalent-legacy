@@ -1,0 +1,24 @@
+{
+  "name": "Gem Chestplate",
+  "category": "equivalent_legacy:armor",
+  "icon": "equivalent_legacy:gem_chestplate",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:gem_chestplate"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:full_star_gem_chestplate"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Gem Chestplate$(), or $(o)Infernal Armor$(), is the Gem Armor chest piece. Craft it from a Red Matter Chestplate, a Volcanite Amulet, a Body Stone and a $(l)fully charged Klein Star Omega$().$(br2)While worn it slowly feeds you and makes you immune to fire."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)Feeds 1 hunger (half a shank) every 10 seconds.$(li)Fire immunity only works while the chestplate is actually worn on your chest.$(li)$(l)C$() (with an empty hand and the offensive state on) creates a powerful nova explosion around you. Offensive abilities are disabled by default.$(li)Part of the Gem set, which reduces damage by roughly 63%.$(br2)$(l)Server settings:$() server.difficulty.offensiveAbilities, server.cooldown.player.feed, server.cooldown.player.gemChestplate and common.crafting.fullKleinStars."
+    }
+  ]
+}

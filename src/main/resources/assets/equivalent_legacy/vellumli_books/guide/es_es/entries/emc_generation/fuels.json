@@ -1,0 +1,52 @@
+{
+  "name": "Combustibles y bloques de combustible",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:aeternalis_fuel",
+  "sort_num": 6,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:alchemical_coal"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:mobius_fuel"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:aeternalis_fuel"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:alchemical_coal"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:mobius_fuel"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:aeternalis_fuel"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:aeternalis_fuel_block"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El mod añade tres combustibles refinados, cada uno más potente que el anterior. Se usan para fabricar objetos de alto nivel y para alimentar a los $(l:emc_generation/collectors_relays)Colectores de Energía$().$(br2)$(l)Cómo conseguirlos:$()$(br2)$(li)$(l)Carbón Alquímico:$() 1 Piedra Filosofal + 4 carbón.$(li)$(l)Combustible Mobius:$() 1 Piedra Filosofal + 4 Carbón Alquímico.$(li)$(l)Combustible Aeternalis:$() 1 Piedra Filosofal + 4 Combustible Mobius.$(br2)La Piedra Filosofal no se consume en estas recetas."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Bloques de combustible:$() fabrica un bloque con 9 unidades de cualquier combustible, o descompón el bloque de nuevo. Los bloques de combustible son almacenamiento compacto y valen como combustible de colector, así que son una forma ordenada de abastecer a un colector.$(br2)$(l)Cómo usarlos:$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Pon un combustible en la ranura de mejora de un colector y el colector lo mejorará un nivel a la vez usando su EMC almacenado.$(li)Quémalos en una $(l:emc_transmutation/transmutation_table)Mesa de Transmutación$() para obtener EMC como cualquier otro objeto.$(li)El Carbón Alquímico también se usa para fabricar $(l:utilities/nova_explosives)Nova Catalizadores$() y otras recetas de mitad de partida.$(br2)$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)El Combustible Aeternalis es el material base de la $(l:matter/dark_red_matter)Materia Oscura$(), así que un suministro estable de combustible es el verdadero cuello de botella de la mitad de la partida.$(li)Las mejoras de combustible del colector son automáticas: con el objetivo fantasma adecuado, un colector convierte el carbón hasta Aeternalis mientras haces otras cosas.$(br2)$(l)Ajustes del servidor:$() se aplica la proporción de quema como con cualquier objeto (server.difficulty.covalenceLoss)."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Yelmo de Gemas",
+  "category": "equivalent_legacy:armor",
+  "icon": "equivalent_legacy:gem_helmet",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:gem_helmet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:full_star_gem_helmet"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Yelmo de Gemas$(), también llamado $(o)Yelmo del Abismo$(), es la primera pieza del conjunto de Armadura de Gemas de final de partida. Fabrícalo con un Yelmo de Materia Roja, un Amuleto Evertide, una Piedra del Alma y una $(l)Klein Star Omega completamente cargada$(). En esta versión la Omega debe estar llena para poder usarse en la receta.$(br2)Mientras lo llevas puesto te cura poco a poco, y puede otorgarte Visión nocturna. Pulsa $(l)Shift + X$() para alternar la Visión nocturna."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Cura 1 punto de vida (medio corazón) cada 10 segundos.$(li)La Visión nocturna dura todo el tiempo que permanezca activada. Al desactivarla solo se quita la del casco, nunca la de una poción o un faro.$(li)Todo el conjunto de Gemas reduce el daño aproximadamente un 63 % y cada pieza bloquea una cantidad fija por golpe.$(li)$(l)R$() (con la mano vacía y el estado ofensivo activado) invoca un rayo donde miras, hasta a 120 bloques de distancia. Las habilidades ofensivas están desactivadas por defecto."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.difficulty.offensiveAbilities, server.cooldown.player.heal y common.crafting.fullKleinStars."
+    }
+  ]
+}

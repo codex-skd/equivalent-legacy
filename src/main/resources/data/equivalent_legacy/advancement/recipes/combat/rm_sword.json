@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_matter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "equivalent_legacy:red_matter"
+          },
+          {
+            "items": "equivalent_legacy:dm_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "equivalent_legacy:rm_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_matter"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "equivalent_legacy:rm_sword"
+    ]
+  }
+}

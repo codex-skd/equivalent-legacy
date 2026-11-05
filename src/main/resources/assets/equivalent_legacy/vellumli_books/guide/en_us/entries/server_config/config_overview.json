@@ -1,0 +1,33 @@
+{
+  "name": "Configuration Overview",
+  "category": "equivalent_legacy:server_config",
+  "icon": "minecraft:command_block",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Equivalent Legacy stores its settings in four TOML files, all in config/equivalent_legacy/ of the game or server instance. server.toml is a NeoForge $(l)server$() config: it is shared by every world of that instance and a multiplayer server sends its values to the connected players.$(br2)The files are:$(br2)$(li)File — Type — Location$(li)server.toml — SERVER — config/equivalent_legacy/server.toml$(li)common.toml — COMMON — config/equivalent_legacy/common.toml$(li)client.toml — CLIENT — config/equivalent_legacy/client.toml$(li)mapping.toml — SERVER — config/equivalent_legacy/mapping.toml"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "server.toml holds everything that affects gameplay: the survival balance system ([balance]), cooldowns, difficulty, effects, items and misc. common.toml holds crafting and debug options, client.toml holds the tooltip and overlay preferences of each player, and mapping.toml controls how EMC values are calculated."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Modpack defaults.$() A modpack can ship its own defaults so that a fresh instance starts with them. Put a copy of the file you want to seed at defaultconfigs/equivalent_legacy/server.toml inside the instance. That copy is only read the first time a config file is generated."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Existing worlds keep their values.$() Updating the mod never rewrites a config file that already exists. New keys are added with their default value, but a default that changed between versions does $(o)not$() overwrite the value already stored in your file. If you are migrating an old server, review the file by hand, especially the classic keys listed in $(l:server_config/classic_settings)Classic Settings$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Turning the balance system off.$() Set balance.enabled = false in server.toml to restore the classic ProjectE behaviour. Every balance.* option is then ignored and the mod uses its legacy value instead, so you get the pre-balance gameplay exactly. The classic settings outside [balance] (difficulty, items, cooldowns, effects) are not affected and still apply.$(br2)To find your way around:"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)$(l:server_config/balance_system)Survival Balance System$() explains every balance.* key and the legacy value it falls back to.$(li)$(l:server_config/classic_settings)Classic Settings$() lists the older, pre-existing options.$(li)$(l:server_config/presets)Ready-Made Presets$() offers two copy-and-paste configurations."
+    }
+  ],
+  "read_by_default": true
+}

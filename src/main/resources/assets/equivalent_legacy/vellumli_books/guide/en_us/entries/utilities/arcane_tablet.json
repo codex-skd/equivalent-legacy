@@ -1,0 +1,24 @@
+{
+  "name": "Arcane Tablet",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:arcane_tablet",
+  "sort_num": 8,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:arcane_tablet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:arcane_tablet"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The Arcane Tablet is a portable transmutation screen $(l)with a built-in 3x3 crafting grid$(). It is the $(l:emc_transmutation/transmutation_table)Transmutation Tablet$() and a crafting table rolled into one.$(br2)$(l)How to get it:$() 4 Transmutation Tablets, 2 Dark Matter, 1 Red Matter, 1 crafting table and 1 wooden chest.$(br2)$(l)Using it:$() right-click to open it. Use the crafting grid as normal, or pick a learned item from the transmutation list and let the tablet pull the ingredients from your knowledge and EMC."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br2)$(li)The crafting grid can auto-fill from items you have learned, spending EMC instead of requiring the physical ingredients.$(li)GUI buttons let you clear, rotate, balance or spread the grid.$(li)Any leftover ingredients are returned to your inventory, or converted back into EMC if that is possible.$(li)It accepts a $(l:emc_transmutation/tome_of_knowledge)Tome of Knowledge$() in its consume slot, just like the table.$(li)Recipe transfer works from JEI and EMI, so you can click a recipe straight into the grid.$(br2)$(l)Server settings:$() none specific."
+    }
+  ]
+}

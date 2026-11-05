@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": "equivalent_legacy:dark_matter",
+    "P": "equivalent_legacy:dm_pick",
+    "R": "equivalent_legacy:red_matter"
+  },
+  "pattern": [
+    "RRR",
+    " P ",
+    " M "
+  ],
+  "result": {
+    "id": "equivalent_legacy:rm_pick"
+  }
+}

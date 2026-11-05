@@ -1,0 +1,24 @@
+{
+  "name": "Anillo de Arcana",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:arcana_ring",
+  "sort_num": 10,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:arcana_ring"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:arcana_ring"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Anillo de Arcana$() combina cuatro anillos en uno. Fabrícalo con el Anillo Zero, el Anillo de Ignición, la Banda de la Diosa de la Cosecha, el Vendaval Desgarrador de Swiftwolf y Materia Roja. Encaja en la ranura de curio de anillo.$(br2)Pulsa $(l)G$() para elegir su modo y haz clic derecho para activarlo o desactivarlo."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)El modo $(l)Zero$() congela el agua y la nieve a tu alrededor como el Anillo Zero.$(li)El modo $(l)Ignición$() incendia bloques y criaturas cercanos como el Anillo de Ignición, y te hace inmune al fuego.$(li)El modo $(l)Cosecha$() hace crecer las plantas cercanas como la Banda de la Diosa de la Cosecha.$(li)El modo $(l)SWRG$() repele a las criaturas y proyectiles cercanos como el Vendaval Desgarrador de Swiftwolf.$(li)En modo Ignición, pulsa $(l)C$() para levantar un enorme muro de fuego frente a ti.$(li)Pulsa $(l)R$() para disparar el proyectil que corresponda al modo actual; Cosecha no dispara.$(li)El clic derecho sobre un bloque en modo Ignición lo enciende."
+    }
+  ]
+}

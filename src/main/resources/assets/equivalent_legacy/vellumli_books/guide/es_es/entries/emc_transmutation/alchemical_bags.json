@@ -1,0 +1,32 @@
+{
+  "name": "Bolsas alquímicas",
+  "category": "equivalent_legacy:emc_transmutation",
+  "icon": "equivalent_legacy:white_alchemical_bag",
+  "sort_num": 5,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:white_alchemical_bag"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:white_alchemical_bag"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Las Bolsas alquímicas son contenedores portátiles que existen en los $(l)16 colores de tinte$(). Cada color tiene su propio inventario independiente, así que puedes clasificar tu botín por color y llevar mucho más de lo que permite un inventario normal.$(br2)$(l)Cómo conseguirlas:$() fabrica una bolsa con un $(l:emc_transmutation/alchemical_chest)Cofre Alquímico$(), 3 Polvos de Covalencia Alta y 6 de lana del color que quieras. También puedes recolorear una bolsa existente con tinte."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Cómo usarlas:$() haz clic derecho para abrir el inventario de ese color. El contenido es por jugador y por color."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br2)$(li)Si una $(l)Banda de Agujero Negro$() o un $(l)Anillo del Vacío$() está activo $(o)dentro$() de la bolsa, los objetos sobre los que camines se atraen directamente a la bolsa en vez de a tu inventario.$(li)Los objetos guardados dentro de la bolsa siguen actualizándose, así que un Talismán de Reparación o una Gema de Densidad Eterna colocados en la bolsa siguen funcionando.$(li)Como cada color es un inventario independiente, el mismo color en dos jugadores no se comparte; sigue siendo tu propio almacenamiento."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() ninguno en concreto."
+    }
+  ]
+}

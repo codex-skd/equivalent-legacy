@@ -1,0 +1,32 @@
+{
+  "parent": "equivalent_legacy:klein_star_ein",
+  "criteria": {
+    "klein_star": {
+      "conditions": {
+        "items": [
+          {
+            "items": "equivalent_legacy:klein_star_omega"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.equivalent_legacy.klein_star_big.description"
+    },
+    "icon": {
+      "id": "equivalent_legacy:klein_star_omega"
+    },
+    "title": {
+      "translate": "advancements.equivalent_legacy.klein_star_big"
+    }
+  },
+  "requirements": [
+    [
+      "klein_star"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

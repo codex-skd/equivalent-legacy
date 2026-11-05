@@ -1,0 +1,41 @@
+{
+  "name": "Primeros pasos",
+  "category": "equivalent_legacy:getting_started",
+  "icon": "equivalent_legacy:philosophers_stone",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:philosophers_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:philosophers_stone"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:transmutation_table"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Equivalent Legacy se basa en una única idea: cada objeto vale energía. Esa energía se llama $(l)EMC$() (Covalencia Energía-Materia) y es la moneda que usas para crear objetos de la nada.$(br2)No empiezas con nada de EMC. Lo ganas aprendiendo objetos y quemando objetos sobrantes en una Mesa de Transmutación."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Tu primer objetivo$() es la $(l)Piedra Filosofal$(). Necesita 4 diamantes, 4 de polvo de redstone y 4 de polvo de piedra luminosa. La piedra luminosa y el redstone suelen ser lo más fácil de conseguir al principio.$(br2)En cuanto tengas la Piedra en la mano ya podrás hacer muchas cosas:"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Haz clic derecho en un bloque para $(l)transmutarlo$() en otro bloque (consulta $(l:getting_started/world_transmutation)Transmutación del mundo$()).$(li)Pulsa $(l)C$() para abrir una cuadrícula de crafteo portátil de 3x3.$(li)Pulsa $(l)R$() para lanzar un orbe aleatorizador que convierte un mob en otro mob aleatorio."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Siguiente: la Mesa de Transmutación.$() Colócala y haz clic derecho en ella para abrir tu pantalla de transmutación personal. Allí aprendes objetos y gastas EMC para crearlos. Es el corazón del mod y la usarás constantemente. Más adelante podrás fabricar una $(l:emc_transmutation/transmutation_table)Tableta de Transmutación$() para llevar esa pantalla contigo.$(br2)Una progresión temprana típica tiene este aspecto:"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Fabrica la Piedra Filosofal y la Mesa de Transmutación.$(li)Aprende objetos baratos (adoquín, tierra, madera) y quema el botín sobrante para acumular EMC.$(li)Fabrica los tres $(l:getting_started/covalence_dusts)Polvos de covalencia$(); desbloquean el Cofre Alquímico y tu primera $(l:emc_transmutation/alchemical_bags)Bolsa Alquímica$().$(li)Construye un $(l:emc_generation/collectors_relays)Colector de Energía$() para que el EMC empiece a llegar solo.$(li)Fabrica $(l:matter/dark_red_matter)Materia Oscura$(), luego Materia Roja, y asciende hacia el equipamiento del final del juego."
+    }
+  ],
+  "read_by_default": true
+}

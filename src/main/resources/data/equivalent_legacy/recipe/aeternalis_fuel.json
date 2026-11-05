@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "equivalent_legacy:philosophers_stone",
+    "equivalent_legacy:mobius_fuel",
+    "equivalent_legacy:mobius_fuel",
+    "equivalent_legacy:mobius_fuel",
+    "equivalent_legacy:mobius_fuel"
+  ],
+  "result": {
+    "id": "equivalent_legacy:aeternalis_fuel"
+  }
+}

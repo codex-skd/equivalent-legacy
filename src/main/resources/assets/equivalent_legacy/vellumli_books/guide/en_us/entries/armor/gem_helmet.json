@@ -1,0 +1,28 @@
+{
+  "name": "Gem Helmet",
+  "category": "equivalent_legacy:armor",
+  "icon": "equivalent_legacy:gem_helmet",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:gem_helmet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:full_star_gem_helmet"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Gem Helmet$(), also called the $(o)Abyss Helmet$(), is the first piece of the end-game Gem Armor set. Craft it from a Red Matter Helmet, an Evertide Amulet, a Soul Stone and a $(l)fully charged Klein Star Omega$(). In this version the Omega must be full before it can be used in the recipe.$(br2)While worn it slowly heals you, and it can grant Night Vision. Press $(l)Shift + X$() to toggle Night Vision."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)Heals 1 HP (half a heart) every 10 seconds.$(li)Night Vision lasts as long as the toggle is on. Turning it off only removes the helmet's own Night Vision, never one from a potion or beacon.$(li)The whole Gem set reduces damage by roughly 63% and each piece blocks a flat amount per hit.$(li)$(l)R$() (with an empty hand and the offensive state on) calls down lightning where you look, up to 120 blocks away. Offensive abilities are disabled by default."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() server.difficulty.offensiveAbilities, server.cooldown.player.heal and common.crafting.fullKleinStars."
+    }
+  ]
+}

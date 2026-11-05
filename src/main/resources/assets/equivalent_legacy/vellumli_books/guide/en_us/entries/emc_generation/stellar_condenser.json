@@ -1,0 +1,28 @@
+{
+  "name": "Stellar Condenser",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:stellar_condenser",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:stellar_condenser"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:stellar_condenser"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The Stellar Condenser is not an item condenser at all. It harvests the $(l)death echo$() of mobs: when something dies near it, its life force is turned into EMC for the player who placed it.$(br2)$(l)How to get it:$() 4 glowstone, 4 Ender Eyes and 1 diamond block.$(br2)$(l)Using it:$() place it near where mobs die, within a radius of $(l)12 blocks$(). The owner is set when you place the block, and only that player receives the EMC. If the owner is online the EMC is paid straight into their pool; if not, it waits inside the block until they return."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br2)$(li)Bosses such as the Wither and Ender Dragon are worth a large amount, but only pay once every 10 minutes.$(li)Common mobs are worth less; the more dangerous the mob, the more it pays.$(li)A single condenser claims each kill, so two overlapping ones do not double-dip.$(li)There is a soft cap on how much non-boss EMC can be earned per minute, so mass mob farms give diminishing returns.$(li)It only $(o)outputs$() EMC. It can feed relays or pipes next to it, but it will not accept EMC from them."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() generation is scaled by balance.emc.generationMultiplier and the per-minute cap by balance.stellarCondenser.softCapPerMinute."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Banda de la Diosa de la Cosecha",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:harvest_goddess_band",
+  "sort_num": 6,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:harvest_goddess_band"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:harvest_goddess_band"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La $(l)Banda de la Diosa de la Cosecha$() hace crecer y cosecha las plantas cercanas. Fabrícala con brotes, flores, Materia Oscura y una Banda de Hierro.$(br2)Actívala con $(l)G$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Mientras está activa, hace crecer o cosecha plantas a tu alrededor al azar y cuesta una pequeña cantidad de EMC cada tick.$(li)Aunque esté desactivada, sigue haciendo crecer plantas a aproximadamente la mitad de velocidad, gratis.$(li)El clic derecho planta semillas directamente desde tu inventario en un área amplia.$(li)$(l)Shift + clic derecho$() gasta hasta cuatro unidades de Harina de hueso para fertilizar un área muy amplia de una vez.$(li)No es un objeto curio, pero en un pedestal acelera y cosecha cultivos con un temporizador."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.items.harvBandIndirect y server.cooldown.pedestal.harvest."
+    }
+  ]
+}

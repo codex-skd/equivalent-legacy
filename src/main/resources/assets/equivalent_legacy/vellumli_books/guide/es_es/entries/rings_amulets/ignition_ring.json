@@ -1,0 +1,28 @@
+{
+  "name": "Anillo de Ignición",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:ignition_ring",
+  "sort_num": 7,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:ignition_ring"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:ignition_ring"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Anillo de Ignición$() prende fuego al mundo. Fabrícalo con mechero, Combustible Mobius, Materia Oscura y una Banda de Hierro. Encaja en la ranura de curio de anillo.$(br2)Actívalo con $(l)G$() (o haz clic derecho para el mismo efecto) y dispara una bola de fuego con $(l)R$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Mientras está activo, prende fuego a bloques y criaturas a tu alrededor al azar y cuesta una pequeña cantidad de EMC cada tick.$(li)Cuando está desactivado, apaga automáticamente el fuego cercano.$(li)Te hace inmune al fuego mientras lo llevas activo.$(li)Haz clic derecho sobre un bloque para prenderle fuego directamente.$(li)La bola de fuego de $(l)R$() cuesta EMC y, al impactar, prende fuego a las criaturas o convierte la obsidiana en lava y la arena en cristal.$(li)En un pedestal quema a las criaturas cercanas con un temporizador."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() server.cooldown.pedestal.ignition."
+    }
+  ]
+}

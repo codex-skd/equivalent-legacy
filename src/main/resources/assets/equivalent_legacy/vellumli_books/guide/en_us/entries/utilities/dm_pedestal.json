@@ -1,0 +1,32 @@
+{
+  "name": "Dark Matter Pedestal",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:dm_pedestal",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_pedestal"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_pedestal"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The Dark Matter Pedestal runs one item's passive power for you, automatically, in a 4-block radius. Put a ring, amulet or stone on it, switch it on, and it keeps working without you holding it.$(br2)$(l)How to get it:$() 4 Red Matter and 5 Dark Matter Blocks.$(br2)$(l)Using it:$()$(br2)$(li)Right-click the empty pedestal with an item to place it.$(li)Right-click with an empty hand to toggle it on and off.$(li)Hit the pedestal to pop the item back out, or use a redstone pulse to toggle it.$(li)A redstone comparator reads 15 when the pedestal is active."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)What works on it$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)$(l)Archangel's Smite$() fires arrows at nearby mobs.$(li)$(l)Body Stone$() feeds nearby players; $(l)Soul Stone$() heals them; $(l)Life Stone$() does both.$(li)$(l)Evertide Amulet$() starts rain, $(l)Volcanite Amulet$() stops it.$(li)$(l)Harvest Goddess Band$() grows and harvests crops.$(li)$(l)Ignition Ring$() sets mobs on fire; $(l)Zero Ring$() freezes the area and puts out fires.$(li)$(l)Repair Talisman$() repairs nearby players' items.$(li)$(l)Swiftwolf's Rending Gale$() calls lightning on mobs.$(li)$(l)Black Hole Band$() and $(l)Void Ring$() pull in item drops and dump them into adjacent inventories.$(li)$(l)Mind Stone$() absorbs nearby experience orbs.$(li)$(l)Watch of Flowing Time$() speeds up nearby blocks and slows mobs."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br2)$(li)Every effect has its own delay between activations. In this version those delays are doubled, so pedestals are support tools rather than free factories.$(li)The pedestal itself emits light and is very hard to break.$(li)Sneak and scroll while looking at a pedestal holding a Watch of Flowing Time to fine-tune its speed bonus.$(br2)$(l)Server settings:$() each effect's delay is set under server.cooldown.pedestal.*; the Watch uses server.effects.timePedBonus and server.effects.timePedMobSlowness."
+    }
+  ]
+}

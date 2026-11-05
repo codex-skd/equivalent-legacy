@@ -1,0 +1,24 @@
+{
+  "name": "Anillo Zero",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:zero_ring",
+  "sort_num": 8,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:zero_ring"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:zero_ring"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Anillo Zero$() congela el agua y cubre el suelo de nieve. Fabrícalo con bloques de nieve, bolas de nieve, Materia Oscura y una Banda de Hierro. Encaja en la ranura de curio de anillo.$(br2)Actívalo con $(l)G$(); pulsa $(l)V$() para cargarlo y haz clic derecho para congelar al instante."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Mientras está activo, congela el agua y cubre de nieve el suelo a tu alrededor, y no cuesta EMC.$(li)El clic derecho congela un área al instante, y cuanto mayor es la carga, mayor es el radio.$(li)En un pedestal congela los alrededores y apaga a las criaturas en llamas con un temporizador.$(br2)$(l)Ajustes del servidor:$() server.cooldown.pedestal.zero."
+    }
+  ]
+}

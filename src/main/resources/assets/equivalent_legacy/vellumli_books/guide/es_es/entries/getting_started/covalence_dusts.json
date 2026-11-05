@@ -1,0 +1,32 @@
+{
+  "name": "Polvos de covalencia",
+  "category": "equivalent_legacy:getting_started",
+  "icon": "equivalent_legacy:low_covalence_dust",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:low_covalence_dust"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:medium_covalence_dust"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:high_covalence_dust"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Los Polvos de covalencia son materiales de crafteo baratos que abren la puerta a los objetos de almacenamiento y viaje del mod. Hay tres grados: Bajo, Medio y Alto.$(br2)$(l)Cómo conseguirlos (cada receta produce 40):$()$(br2)$(li)$(l)Polvo de Covalencia Baja:$() 1 carbón vegetal + 8 adoquines.$(li)$(l)Polvo de Covalencia Media:$() 1 lingote de hierro + 1 de polvo de redstone.$(li)$(l)Polvo de Covalencia Alta:$() 1 diamante + 1 carbón."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Se usan en:$(br2)$(li)El $(l:emc_transmutation/alchemical_chest)Cofre Alquímico$() y todas las $(l:emc_transmutation/alchemical_bags)Bolsas Alquímicas$().$(li)El Talismán de Reparación y varios otros objetos de utilidad.$(br2)Como cualquier objeto con un valor de EMC, también se pueden aprender y quemar en una $(l:emc_transmutation/transmutation_table)Mesa de Transmutación$() si te sobran.$(br2)$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Los Polvos de covalencia no tienen ningún poder especial propio; son ingredientes de crafteo puros.$(li)La receta Baja es la forma más barata de convertir el adoquín en algo útil, así que es un buen sumidero temprano para todo el adoquín que vas a minar.$(br2)$(l)Ajustes del servidor:$() quemar polvos devuelve el 50% de su EMC por defecto, controlado por server.difficulty.covalenceLoss."
+    }
+  ]
+}

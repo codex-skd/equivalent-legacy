@@ -1,0 +1,32 @@
+{
+  "parent": "equivalent_legacy:collector",
+  "criteria": {
+    "relay": {
+      "conditions": {
+        "items": [
+          {
+            "items": "equivalent_legacy:relay_mk1"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.equivalent_legacy.relay.description"
+    },
+    "icon": {
+      "id": "equivalent_legacy:relay_mk1"
+    },
+    "title": {
+      "translate": "advancements.equivalent_legacy.relay"
+    }
+  },
+  "requirements": [
+    [
+      "relay"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

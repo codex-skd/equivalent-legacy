@@ -1,0 +1,24 @@
+{
+  "name": "Archangel's Smite",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:archangel_smite",
+  "sort_num": 5,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:archangel_smite"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:archangel_smite"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Archangel's Smite$() is a magical bow ring. Craft it from bows, feathers, an Iron Band and Dark Matter.$(br2)Toggle it with $(l)G$()."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)While active it fires one homing arrow every tick at the nearest hostile mob within about 8 blocks. Each arrow costs the EMC value of an arrow.$(li)Right-click fires a single arrow; $(l)left-click$() (on air, a block or a mob) fires a volley of ten arrows at once.$(li)It does not need to be held: it keeps firing while active anywhere in your inventory.$(li)It is not a curio item, but on a pedestal it shoots arrows at nearby mobs on a timer.$(br2)$(l)Server settings:$() server.cooldown.pedestal.archangel."
+    }
+  ]
+}

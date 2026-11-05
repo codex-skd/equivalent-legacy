@@ -1,0 +1,48 @@
+{
+  "name": "Varillas zahorí",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:divining_rod_1",
+  "sort_num": 6,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:divining_rod_1"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:divining_rod_2"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:divining_rod_3"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:divining_rod_1"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:divining_rod_2"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:divining_rod_3"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Las Varillas zahorí escanean el suelo que tienes delante e informan del valor de EMC de lo que está enterrado allí. Son una herramienta de prospección: usa una para decidir dónde cavar.$(br2)$(l)Cómo conseguirlas:$() cada varilla es un marco del Polvo de covalencia correspondiente con la varilla anterior en el centro.$(br2)$(li)Varilla baja: Polvo de Covalencia Baja + un palo de madera.$(li)Varilla media: Polvo de Covalencia Media + Varilla baja.$(li)Varilla alta: Polvo de Covalencia Alta + Varilla media."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Cómo usarlas:$() haz clic derecho en la cara de un bloque para escanear una caja profunda frente a ti. Recibes en el chat un informe del EMC $(l)medio$() y $(l)máximo$() de la zona.$(br2)$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Cada varilla tiene un modo de alcance máximo: la Varilla baja escanea 3 bloques de profundidad, la media 16 y la alta 64.$(li)Las varillas media y alta también informan del segundo valor más alto, y la alta del tercero, lo que te ayuda a elegir el mejor punto.$(li)Los bloques sin valor de EMC se valoran a través de su resultado de fundición, así que los minerales se leen correctamente.$(li)Las varillas funcionan con cualquier bloque, no solo con minerales, así que son una herramienta general para saber si una zona merece la pena cavar."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() ninguno en concreto."
+    }
+  ]
+}
