@@ -1,0 +1,28 @@
+{
+  "name": "Visión general de anillos",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:iron_band",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:iron_band"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:iron_band"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Los anillos, las bandas y los amuletos son los gadgets pasivos de Equivalent Legacy. La mayoría se construyen sobre una $(l)Banda de Hierro$(), fabricada con hierro y una fuente de lava."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Cómo funcionan$()$(br)$(li)La mayoría se activan y desactivan con $(l)G$(). Unos pocos usan el clic derecho o $(l)Shift + clic derecho$(), como se indica en su entrada.$(li)Mientras están activos, normalmente consumen EMC de tu EMC disponible cada tick. Si se agota, se desactivan solos.$(li)Solo funcionan mientras están en tu barra rápida, en la mano secundaria o en una ranura de Regalia (curio). Los objetos que dejes en la mochila no hacen nada.$(li)Ponlos en una ranura de curio para que sigan funcionando con las dos manos libres. Consulta $(l:controls/curio_slots)Ranuras de Regalia$().$(li)Muchos también ganan una función especial al colocarlos en un Pedestal de Materia Oscura, normalmente repitiéndose con un temporizador."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Mantén a mano una Klein Star cargada, o bastante EMC aprendido, para que los anillos activos nunca se queden sin energía en mitad de un combate.$(li)Varios anillos se pueden combinar en objetos más fuertes, como el Anillo del Vacío y el Anillo de Arcana."
+    }
+  ]
+}

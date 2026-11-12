@@ -1,0 +1,24 @@
+{
+  "name": "Gem Leggings",
+  "category": "equivalent_legacy:armor",
+  "icon": "equivalent_legacy:gem_leggings",
+  "sort_num": 5,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:gem_leggings"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:full_star_gem_leggings"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Gem Leggings$(), or $(o)Gravity Greaves$(), are the Gem Armor leg piece. Craft them from Red Matter Leggings, a Black Hole Band, a Watch of Flowing Time and a $(l)fully charged Klein Star Omega$().$(br2)While you sneak they push nearby creatures away from you."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)Sneaking repels all nearby entities and projectiles in a small radius (about 3.5 blocks).$(li)If you slam down quickly while sneaking, nearby mobs below you take impact damage. Diving is a fast fall, so the Gem Boots glide will not protect you from it.$(li)Sneaking in mid-air adds a small downward push to help you descend quickly.$(li)Part of the Gem set, which reduces damage by roughly 63%.$(br2)$(l)Server settings:$() common.crafting.fullKleinStars applies to the recipe."
+    }
+  ]
+}

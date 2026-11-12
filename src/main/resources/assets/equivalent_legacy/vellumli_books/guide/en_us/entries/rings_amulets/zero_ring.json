@@ -1,0 +1,24 @@
+{
+  "name": "Zero Ring",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:zero_ring",
+  "sort_num": 8,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:zero_ring"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:zero_ring"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Zero Ring$() freezes water and lays down snow. Craft it from snow blocks, snowballs, Dark Matter and an Iron Band. It fits the ring curio slot.$(br2)Toggle it with $(l)G$(); press $(l)V$() to charge it and right-click to freeze instantly.$(br2)$(l)Hidden abilities$()$(br)$(li)While active it freezes water and covers the ground in snow around you, and it costs no EMC.$(li)Right-click freezes an area immediately, and the higher the charge the larger the radius.$(li)On a pedestal it freezes the surroundings and puts out burning creatures on a timer."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() server.cooldown.pedestal.zero."
+    }
+  ]
+}

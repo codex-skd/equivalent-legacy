@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "M": "equivalent_legacy:dark_matter"
+  },
+  "pattern": [
+    "MM",
+    "MM"
+  ],
+  "result": {
+    "id": "equivalent_legacy:dark_matter_block"
+  }
+}

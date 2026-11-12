@@ -1,0 +1,36 @@
+{
+  "name": "Pedestal de materia oscura",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:dm_pedestal",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_pedestal"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_pedestal"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El Pedestal de Materia Oscura ejecuta por ti el poder pasivo de un objeto, de forma automática, en un radio de 4 bloques. Ponle un anillo, un amuleto o una piedra, actívalo y seguirá funcionando sin que lo sujetes.$(br2)$(l)Cómo conseguirlo:$() 4 Materia Roja y 5 Bloques de Materia Oscura.$(br2)$(l)Cómo usarlo:$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Haz clic derecho en el pedestal vacío con un objeto para colocarlo.$(li)Haz clic derecho con la mano vacía para activarlo y desactivarlo.$(li)Golpea el pedestal para que el objeto salga de nuevo, o usa un pulso de redstone para alternarlo.$(li)Un comparador de redstone marca 15 cuando el pedestal está activo."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Qué funciona en él$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)El $(l)Castigo del Arcángel$() dispara flechas a los mobs cercanos.$(li)La $(l)Piedra del Cuerpo$() alimenta a los jugadores cercanos; la $(l)Piedra del Alma$() los cura; la $(l)Piedra de Vida$() hace ambas cosas.$(li)El $(l)Amuleto Evertide$() inicia la lluvia y el $(l)Amuleto Volcanita$() la detiene.$(li)La $(l)Banda de la Diosa de la Cosecha$() hace crecer y cosecha los cultivos.$(li)El $(l)Anillo de Ignición$() prende fuego a los mobs; el $(l)Anillo Zero$() congela la zona y apaga los fuegos.$(li)El $(l)Talismán de Reparación$() repara los objetos de los jugadores cercanos.$(li)El $(l)Vendaval Desgarrador de Swiftwolf$() invoca rayos sobre los mobs.$(li)La $(l)Banda de Agujero Negro$() y el $(l)Anillo del Vacío$() atraen los objetos soltados y los depositan en inventarios adyacentes.$(li)La $(l)Piedra de la Mente$() absorbe los orbes de experiencia cercanos.$(li)El $(l)Reloj del Tiempo Fluyente$() acelera los bloques cercanos y ralentiza a los mobs."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br2)$(li)Cada efecto tiene su propio retardo entre activaciones. En esta versión esos retardos se duplican, así que los pedestales son herramientas de apoyo más que fábricas gratis.$(li)El propio pedestal emite luz y es muy difícil de romper.$(li)Agáchate y usa la rueda mientras miras un pedestal que tenga un Reloj del Tiempo Fluyente para ajustar con precisión su bono de velocidad.$(br2)$(l)Ajustes del servidor:$() el retardo de cada efecto se configura en server.cooldown.pedestal.*; el Reloj usa server.effects.timePedBonus y server.effects.timePedMobSlowness."
+    }
+  ]
+}

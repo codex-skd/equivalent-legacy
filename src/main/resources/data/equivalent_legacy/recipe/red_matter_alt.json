@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "equivalent_legacy:red_matter",
+  "key": {
+    "A": "equivalent_legacy:aeternalis_fuel",
+    "D": "equivalent_legacy:dark_matter"
+  },
+  "pattern": [
+    "ADA",
+    "ADA",
+    "ADA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "equivalent_legacy:red_matter"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Catalizadores y lentes",
+  "category": "equivalent_legacy:utilities",
+  "icon": "equivalent_legacy:catalytic_lens",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:destruction_catalyst"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:catalytic_lens"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:hyperkinetic_lens"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:destruction_catalyst"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:hyperkinetic_lens"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:catalytic_lens"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Esta familia de herramientas excava el terreno. Todas cuestan EMC por bloque destruido y recogen los objetos soltados por ti.$(br2)$(l)Catalizador de Destrucción$()$(br2)$(li)Fabrícalo con 4 Nova Catalizadores, 4 Combustible Mobius y 1 mechero.$(li)Haz clic derecho en un bloque para destruir una caja profunda en la cara que golpeas.$(li)Pulsa $(l)V$() para subir la carga; la profundidad crece con ella (1 bloque con carga 0, hasta 16 con carga 3).$(li)Cada bloque cuesta $(l)32 EMC$() en esta versión. Cuando se acaba el EMC, se detiene."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Lente Catalítica$()$(br2)$(li)Fabrícala con Materia Oscura, un Catalizador de Destrucción y una Lente Hipercinética.$(li)La misma destrucción que el Catalizador, pero con mucha más profundidad: hasta $(l)64$() bloques con carga alta.$(li)Pulsa $(l)R$() para disparar un proyectil de lente explosiva (usa la explosión de la Lente Hipercinética).$(br2)$(l)Lente Hipercinética$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Fabrícala con diamante, Materia Oscura y un Nova Catalizador.$(li)Haz clic derecho, o pulsa $(l)R$(), para disparar un proyectil explosivo.$(li)Pulsa $(l)V$() para ajustar la carga. A mayor carga, mayor explosión pero un coste de EMC mucho mayor."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br2)$(li)La explosión de la Lente Hipercinética está limitada a un radio de $(l)8$() en esta versión, así que es una herramienta de minería más que un borrador de terreno.$(li)La Lente Catalítica es, en la práctica, un Catalizador de Destrucción y una Lente Hipercinética en un solo objeto.$(li)Las tres se niegan a romper bloques indestructibles o extremadamente duros.$(li)Los objetos soltados se recogen juntos en vez de quedar dispersos."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() el coste por bloque es balance.catalysts.emcPerBlock (32 por defecto) y el límite de explosión de la lente es balance.lens.maxRadius (8 por defecto); server.items.disableAllRadiusMining desactiva la minería por área."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Hachas de materia",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_axe",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_axe"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_axe"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_axe"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_axe"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Hacha de Materia Oscura$() y el $(l)Hacha de Materia Roja$() talan madera y funcionan sobre el cobre. Fabrica el Hacha de Materia Oscura con Materia Oscura y un diamante, y luego mejórala al Hacha de Materia Roja.$(br2)Pulsa $(l)V$() para cargar; el hacha no tiene tecla de modo."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Haz clic derecho sobre un tronco para descortezarlo en un área; el radio crece con la carga.$(li)Haz clic derecho sobre cobre oxidado para rasparlo y sobre bloques encerados para quitarles la cera, también en un área.$(li)Haz clic derecho sobre cualquier tronco mientras está cargada para talar el árbol entero: cinco bloques en horizontal por carga y el doble en vertical, gratis.$(li)Todas estas acciones son gratis.$(br2)$(l)Ajustes del servidor:$() server.items.disableAllRadiusMining."
+    }
+  ]
+}

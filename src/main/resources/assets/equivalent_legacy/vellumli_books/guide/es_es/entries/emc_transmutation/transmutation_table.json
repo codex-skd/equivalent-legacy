@@ -1,0 +1,44 @@
+{
+  "name": "Mesa y tableta de transmutación",
+  "category": "equivalent_legacy:emc_transmutation",
+  "icon": "equivalent_legacy:transmutation_table",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:transmutation_table"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:transmutation_tablet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:transmutation_table"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:transmutation_tablet"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La $(l)Mesa de Transmutación$() es donde aprendes objetos y gastas EMC. La $(l)Tableta de Transmutación$() es la misma pantalla en formato portátil.$(br2)$(l)Cómo conseguirlas:$()$(br2)$(li)Mesa: 4 obsidiana, 4 piedra y 1 Piedra Filosofal.$(li)Tableta: 4 Bloques de Materia Oscura, 4 piedra y 1 Mesa de Transmutación.$(br2)$(l)Uso de la pantalla:$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Coloca un objeto en la $(l)ranura de consumo$() para quemarlo y obtener EMC y aprenderlo.$(li)Haz clic en un objeto de la lista de salida para crearlo, gastando EMC.$(li)Pon un objeto en la $(l)ranura de bloqueo$() para filtrar la lista y dejar solo ese objeto.$(li)Suelta un objeto en la $(l)ranura de olvido$() para olvidarlo."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Haz mayús-clic en un objeto directamente desde tu inventario para aprenderlo y quemarlo de una sola vez.$(li)El cuadro de búsqueda filtra por nombre; también puedes filtrar por EMC o por aprendido/no aprendido con la sintaxis de consulta.$(li)La lista de salida está ordenada de mayor a menor EMC y paginada, así que los objetos raros aparecen en la primera página.$(li)Las ranuras de entrada aceptan $(l)Klein Stars$(), lo que te permite cargarlas desde tu reserva de EMC o extraer EMC de ellas.$(li)La Tableta abre la misma pantalla desde tu mano. Mientras está abierta no puedes cambiarla de mano.$(li)Fabrica una $(l:utilities/arcane_tablet)Tableta Arcana$() para tener una pantalla de transmutación portátil con cuadrícula de crafteo integrada."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() la receta del Tomo está condicionada por common.crafting.craftableTome; los propios valores de EMC provienen de los datapacks y de la configuración mapping."
+    }
+  ]
+}

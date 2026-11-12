@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:charcoal",
+    "minecraft:redstone",
+    "minecraft:redstone_block",
+    "minecraft:coal",
+    "minecraft:coal_block",
+    "minecraft:gunpowder",
+    "minecraft:glowstone_dust",
+    "minecraft:blaze_powder",
+    "minecraft:glowstone",
+    "equivalent_legacy:alchemical_coal",
+    "equivalent_legacy:alchemical_coal_block",
+    "equivalent_legacy:mobius_fuel",
+    "equivalent_legacy:mobius_fuel_block",
+    "equivalent_legacy:aeternalis_fuel",
+    "equivalent_legacy:aeternalis_fuel_block"
+  ]
+}

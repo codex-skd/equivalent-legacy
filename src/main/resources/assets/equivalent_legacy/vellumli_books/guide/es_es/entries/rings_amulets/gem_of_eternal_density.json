@@ -1,0 +1,24 @@
+{
+  "name": "Gema de Densidad Eterna",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:gem_of_eternal_density",
+  "sort_num": 4,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:gem_of_eternal_density"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:gem_of_eternal_density"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La $(l)Gema de Densidad Eterna$() convierte los objetos de poco valor de tu inventario en un material objetivo. Fabrícala con diamantes, Materia Oscura y obsidiana. Encaja en la ranura de curio de collar.$(br2)Pulsa $(l)G$() para alternar el objetivo: Hierro, Oro, Diamante, Materia Oscura o Materia Roja."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Mientras está activa, consume hasta medio stack a la vez de objetos que valen menos que el objetivo y construye el objeto objetivo con su EMC.$(li)El $(l)clic derecho$() abre una pantalla de lista blanca/lista negra para que puedas proteger objetos.$(li)$(l)Shift + clic derecho$() la activa y desactiva; al desactivarla suelta en el suelo los objetos que había consumido y borra su EMC almacenado.$(li)Solo condensa objetos que ya están en tu inventario, no objetos tirados."
+    }
+  ]
+}

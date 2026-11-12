@@ -1,0 +1,24 @@
+{
+  "name": "Alchemical Bags",
+  "category": "equivalent_legacy:emc_transmutation",
+  "icon": "equivalent_legacy:white_alchemical_bag",
+  "sort_num": 5,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:white_alchemical_bag"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:white_alchemical_bag"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Alchemical Bags are portable containers that come in all $(l)16 dye colours$(). Each colour has its own separate inventory, so you can sort your loot by colour and carry far more than a normal inventory allows.$(br2)$(l)How to get them:$() craft a bag from an $(l:emc_transmutation/alchemical_chest)Alchemical Chest$(), 3 High Covalence Dust and 6 wool of the colour you want. You can also recolour an existing bag with dye.$(br2)$(l)Using them:$() right-click to open that colour's inventory. The contents are per player and per colour."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br2)$(li)If a $(l)Black Hole Band$() or $(l)Void Ring$() is active $(o)inside$() the bag, items you walk over are pulled straight into the bag instead of your inventory.$(li)Items stored inside the bag keep ticking, so a Repair Talisman or a Gem of Eternal Density placed in the bag keeps working.$(li)Because each colour is a separate inventory, the same colour on two players is not shared; it is still your own storage.$(br2)$(l)Server settings:$() none specific."
+    }
+  ]
+}

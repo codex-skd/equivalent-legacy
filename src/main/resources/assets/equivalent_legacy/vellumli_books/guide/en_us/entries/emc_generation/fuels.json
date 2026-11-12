@@ -1,0 +1,48 @@
+{
+  "name": "Fuels & Fuel Blocks",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:aeternalis_fuel",
+  "sort_num": 6,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:alchemical_coal"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:mobius_fuel"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:aeternalis_fuel"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:alchemical_coal"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:mobius_fuel"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:aeternalis_fuel"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:aeternalis_fuel_block"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The mod adds three refined fuels, each stronger than the last. They are used to craft high-tier items and to feed $(l:emc_generation/collectors_relays)Energy Collectors$().$(br2)$(l)How to get them:$()$(br2)$(li)$(l)Alchemical Coal:$() 1 Philosopher's Stone + 4 coal.$(li)$(l)Mobius Fuel:$() 1 Philosopher's Stone + 4 Alchemical Coal.$(li)$(l)Aeternalis Fuel:$() 1 Philosopher's Stone + 4 Mobius Fuel.$(br2)The Philosopher's Stone is not consumed in these recipes."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Fuel blocks:$() craft 9 of any fuel into a block, or break the block back down. Fuel blocks are compact storage and are valid collector fuel, so they are a tidy way to stock a collector.$(br2)$(l)Using them:$()$(br2)$(li)Put a fuel in a collector's upgrade slot and the collector will upgrade it one tier at a time using its stored EMC.$(li)Burn them in a $(l:emc_transmutation/transmutation_table)Transmutation Table$() for EMC like any other item.$(li)Alchemical Coal is also used to craft $(l:utilities/nova_explosives)Nova Catalysts$() and other mid-game recipes.$(br2)$(l)Hidden abilities$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Aeternalis Fuel is the base material for $(l:matter/dark_red_matter)Dark Matter$(), so a steady fuel supply is the real bottleneck of the mid-game.$(li)Collector fuel upgrades are automatic: with the right ghost target, a collector converts coal all the way up to Aeternalis while you do other things.$(br2)$(l)Server settings:$() the burn ratio applies as with any item (server.difficulty.covalenceLoss)."
+    }
+  ]
+}

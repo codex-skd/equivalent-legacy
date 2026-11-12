@@ -1,0 +1,24 @@
+{
+  "name": "Transmutación del mundo",
+  "category": "equivalent_legacy:getting_started",
+  "icon": "equivalent_legacy:philosophers_stone",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "La transmutación del mundo es el truco estrella de la Piedra Filosofal: apunta a un bloque y haz clic derecho para convertirlo en otro bloque, sin gastar nada de EMC.$(br2)Muchos bloques vanilla tienen una transformación por defecto. Algunos ejemplos:"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)La piedra se convierte en adoquín, y el adoquín se convierte en piedra.$(li)La hierba, la tierra, la arena y la arenisca se alternan entre sí.$(li)La grava se convierte en arenisca.$(li)El hielo se convierte en agua, y la obsidiana en lava (y viceversa).$(li)La netherrack, el nylium carmesí y el nylium distorsionado se alternan entre sí."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Resultados alternativos:$() mantén $(l)Agacharse$() mientras haces clic derecho para obtener un resultado distinto cuando el bloque lo tiene. Por ejemplo, el resultado normal de la piedra es el adoquín, pero si te agachas se convierte en hierba.$(br2)$(l)Transmutar fluidos:$() agacharse también permite que la Piedra apunte a $(l)fluidos de origen$(). Haz clic derecho en una fuente de agua o de lava para convertirla (por ejemplo, una fuente de agua en hielo, o la obsidiana en lava)."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Área y modos:$() pulsa $(l)G$() para cambiar entre Cubo, Panel y Línea, y $(l)V$() para subir la carga. Cuanto mayor sea la carga, más bloques cambian a la vez.$(br2)Puedes consultar todas las transformaciones posibles en JEI o EMI dentro de la categoría $(l)Transmutación del mundo$().$(br2)$(l)Ajustes del servidor:$() un administrador puede desactivar la transmutación del mundo con balance.philosophersStone.worldTransmute (la cuadrícula de crafteo sigue funcionando)."
+    }
+  ]
+}

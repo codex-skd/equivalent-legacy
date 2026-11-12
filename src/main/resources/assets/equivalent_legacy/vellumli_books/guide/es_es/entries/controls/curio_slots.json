@@ -1,0 +1,20 @@
+{
+  "name": "Ranuras de Regalia",
+  "category": "equivalent_legacy:controls",
+  "icon": "equivalent_legacy:iron_band",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Equivalent Legacy añade cuatro ranuras de $(l)Regalia$(), también llamadas ranuras de curio, a tu personaje. Están junto a tu armadura y se abren desde la pantalla de tu inventario. Los objetos de estas ranuras se activan de forma pasiva, así que siguen funcionando mientras tienes las dos manos libres.$(br2)$(l)Cinturón$()$(br)$(li)Talismán de Reparación$(li)Reloj del Tiempo Fluyente (encaja aquí, pero no se activa en esta ranura)$(br2)$(l)Klein Star$()$(br)$(li)Todas las Klein Star, desde Ein hasta Omega"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Collar$()$(br)$(li)Piedra del Cuerpo$(li)Piedra del Alma$(li)Piedra de Vida$(li)Piedra de la Mente (encaja aquí, pero no se activa en esta ranura)$(li)Amuleto Evertide$(li)Amuleto Volcanita$(li)Gema de Densidad Eterna$(br2)$(l)Anillo$()$(br)$(li)Banda de Agujero Negro$(li)Anillo del Vacío$(li)Anillo Zero$(li)Anillo de Ignición$(li)Vendaval Desgarrador de Swiftwolf$(li)Anillo de Arcana"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Conviene saberlo$()$(br)$(li)Solo los objetos de la lista anterior pueden ir en las ranuras de Regalia.$(li)Los objetos curio funcionan automáticamente; no se usan desde las manos. Eso también significa que las teclas $(l)G$(), $(l)V$(), $(l)C$() y $(l)R$() no les afectan.$(li)Algunos objetos, como el Castigo del Arcángel y la Banda de la Diosa de la Cosecha, no son objetos de Regalia y deben permanecer en tu barra rápida o en la mano secundaria.$(li)Un anillo que se queda sin EMC se desactiva solo hasta que le proporciones más, así que mantén cerca una Klein Star cargada."
+    }
+  ]
+}

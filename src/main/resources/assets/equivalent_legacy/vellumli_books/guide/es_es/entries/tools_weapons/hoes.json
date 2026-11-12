@@ -1,0 +1,28 @@
+{
+  "name": "Azadas de materia",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_hoe",
+  "sort_num": 5,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_hoe"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_hoe"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_hoe"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_hoe"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "La $(l)Azada de Materia Oscura$() y la $(l)Azada de Materia Roja$() labran la tierra. Fabrica la Azada de Materia Oscura con Materia Oscura y un diamante, y luego mejórala a la Azada de Materia Roja.$(br2)Pulsa $(l)V$() para cargar.$(br2)$(l)Habilidades ocultas$()$(br)$(li)Haz clic derecho sobre la tierra para labrar un área de una vez; el radio crece con la carga.$(li)Como toda herramienta de materia, nunca pierde durabilidad y labrar no cuesta EMC.$(br2)$(l)Ajustes del servidor:$() server.items.disableAllRadiusMining."
+    }
+  ]
+}

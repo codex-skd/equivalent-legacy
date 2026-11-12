@@ -1,0 +1,36 @@
+{
+  "name": "Klein Stars",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:klein_star_ein",
+  "sort_num": 5,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:klein_star_ein"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:klein_star_omega"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:klein_star_ein"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:klein_star_omega"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Klein Stars are portable EMC batteries. Each tier holds more EMC, and tools that need fuel drain from a star before touching your own pool.$(br2)The tiers and their capacities:$(br2)$(li)$(l)Ein:$() 50,000 EMC.$(li)$(l)Zwei:$() 200,000 EMC.$(li)$(l)Drei:$() 800,000 EMC.$(li)$(l)Vier:$() 3,200,000 EMC.$(li)$(l)Sphere:$() 12,800,000 EMC.$(li)$(l)Omega:$() 51,200,000 EMC.$(br2)$(l)How to get them:$() craft Ein from 8 Mobius Fuel and 1 diamond. Each higher tier is made from four of the tier below."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Using them:$() put a star in your inventory or in the dedicated $(l)Klein Star curio slot$(). It fills and empties automatically as you use EMC tools. You can also charge one in an $(l:emc_generation/collectors_relays)Energy Collector$() or $(l:emc_generation/collectors_relays)Relay$(), or directly from your EMC pool in a $(l:emc_transmutation/transmutation_table)Transmutation Table$().$(br2)$(l)Hidden abilities$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)The $(l:utilities/mercurial_eye)Mercurial Eye$() uses a Klein Star as its fuel source; insert one in its GUI.$(li)Relays can also drain a star from the burn slot to refill their buffer.$(li)In this version, recipes that use a Klein Star (the $(l:emc_transmutation/tome_of_knowledge)Tome of Knowledge$() and the Gem Armor) require a $(l)fully charged$() Omega by default.$(br2)$(l)Server settings:$() the full-star recipe rule is common.crafting.fullKleinStars."
+    }
+  ]
+}

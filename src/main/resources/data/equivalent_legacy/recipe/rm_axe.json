@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "equivalent_legacy:dm_axe",
+    "M": "equivalent_legacy:dark_matter",
+    "R": "equivalent_legacy:red_matter"
+  },
+  "pattern": [
+    "RR",
+    "RA",
+    " M"
+  ],
+  "result": {
+    "id": "equivalent_legacy:rm_axe"
+  }
+}

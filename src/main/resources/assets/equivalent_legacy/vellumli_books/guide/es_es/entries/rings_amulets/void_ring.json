@@ -1,0 +1,24 @@
+{
+  "name": "Anillo del Vacío",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:void_ring",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:void_ring"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:void_ring"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "El $(l)Anillo del Vacío$() combina la Banda de Agujero Negro y la Gema de Densidad Eterna en un solo anillo. Fabrícalo con esos dos objetos y Materia Roja. Encaja en la ranura de curio de anillo."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()$(br)$(li)Hace todo lo que hacen sus dos objetos originales: atrae los objetos cercanos y condensa ítems en el material que elijas.$(li)Pulsa $(l)C$() para teletransportarte al bloque que estás mirando, hasta 64 bloques de distancia. Si no estás mirando ningún bloque, te teletransporta 32 bloques en la dirección en la que miras. El teletransporte tiene medio segundo de tiempo de recarga y te desmonta.$(li)En un pedestal actúa como la Banda de Agujero Negro, llenando los inventarios cercanos."
+    }
+  ]
+}

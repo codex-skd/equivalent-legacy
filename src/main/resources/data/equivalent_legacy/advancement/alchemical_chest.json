@@ -1,0 +1,32 @@
+{
+  "parent": "equivalent_legacy:root",
+  "criteria": {
+    "alch_chest": {
+      "conditions": {
+        "items": [
+          {
+            "items": "equivalent_legacy:alchemical_chest"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.equivalent_legacy.alch_chest.description"
+    },
+    "icon": {
+      "id": "equivalent_legacy:alchemical_chest"
+    },
+    "title": {
+      "translate": "advancements.equivalent_legacy.alch_chest"
+    }
+  },
+  "requirements": [
+    [
+      "alch_chest"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

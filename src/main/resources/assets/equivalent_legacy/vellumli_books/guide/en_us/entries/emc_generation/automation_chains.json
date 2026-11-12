@@ -1,0 +1,28 @@
+{
+  "name": "Automation & Chains",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:relay_mk3",
+  "sort_num": 7,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Once you have a few EMC machines, the trick is to chain them so EMC flows by itself. Here are the patterns that work in this version.$(br2)$(l)Classic chain: Collector to Relay to Condenser$()$(br2)$(li)A collector on open sky generates EMC and pushes it to its neighbours.$(li)The relay stores it and forwards it, earning a small bonus from every adjacent collector.$(li)The condenser consumes that EMC and produces whatever item you locked.$(br2)Relays never pass EMC to each other, so always put a collector or a consumer between them."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Charging Klein Stars$()$(br2)$(li)Put a star in a collector's top slot to charge it at the collector's rate while it is not sending EMC elsewhere.$(li)Put a star in a relay's charge slot for a much faster fill, or in the burn slot to drain it back into the relay.$(br2)$(l)Fuel upgrading$()$(br2)$(li)Feed coal or a fuel into a collector and let it upgrade the fuel for you. Output the finished fuel from the top or bottom face.$(br2)$(l)Matter Furnaces$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)A $(l:matter/matter_furnaces)Matter Furnace$() can run on EMC instead of fuel: pipe EMC in and it smelts without ever needing coal. Its top face is input and its bottom face is output, so you can stack machines vertically."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Entropy Sinks$()$(br2)$(li)An $(l:emc_generation/entropy_sinks)Entropy Sink$() turns surplus items into EMC, so a farm that produces more than you need can feed the same network.$(br2)$(l)Tips$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Keep the network simple: one strong source feeding one consumer is more efficient than many sources competing for the same pipes.$(li)Remember the balance defaults: collectors generate a quarter of the classic rate and only in sunlight, so plan for slower but steadier income.$(li)Use the item sides of each machine: collectors take fuel from the sides and output upgrades from top/bottom; relays take items from the sides and release full stars from top/bottom.$(br2)$(l)Server settings:$() the whole EMC economy is controlled by the balance.emc.* options."
+    }
+  ]
+}

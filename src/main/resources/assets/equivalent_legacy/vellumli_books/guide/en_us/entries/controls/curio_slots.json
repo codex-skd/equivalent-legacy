@@ -1,0 +1,20 @@
+{
+  "name": "Regalia Slots",
+  "category": "equivalent_legacy:controls",
+  "icon": "equivalent_legacy:iron_band",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "Equivalent Legacy adds four $(l)Regalia$() slots, also called curio slots, to your character. They sit next to your armor and are opened from your inventory screen. Items in these slots tick passively, so they keep working while both of your hands are free.$(br2)$(l)Belt$()$(br)$(li)Repair Talisman$(li)Watch of Flowing Time (fits here, but it does not tick in this slot)$(br2)$(l)Klein Star$()$(br)$(li)Every Klein Star, from Ein to Omega"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Necklace$()$(br)$(li)Body Stone$(li)Soul Stone$(li)Life Stone$(li)Mind Stone (fits here, but it does not tick in this slot)$(li)Evertide Amulet$(li)Volcanite Amulet$(li)Gem of Eternal Density$(br2)$(l)Ring$()$(br)$(li)Black Hole Band$(li)Void Ring$(li)Zero Ring$(li)Ignition Ring$(li)Swiftwolf's Rending Gale$(li)Ring of Arcana"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Good to know$()$(br)$(li)Only the items listed above can go in Regalia slots.$(li)Curio items work automatically; you do not use them from your hands. That also means the $(l)G$(), $(l)V$(), $(l)C$() and $(l)R$() keys do not affect them.$(li)Some items, like the Archangel's Smite and the Harvest Goddess Band, are not Regalia items and must stay in your hotbar or off-hand.$(li)A ring that runs out of EMC switches itself off until you supply more, so keep a charged Klein Star nearby."
+    }
+  ]
+}

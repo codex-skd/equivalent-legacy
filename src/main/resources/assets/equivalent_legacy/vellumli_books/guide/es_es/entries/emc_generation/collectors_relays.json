@@ -1,0 +1,72 @@
+{
+  "name": "Colectores de energía y relés",
+  "category": "equivalent_legacy:emc_generation",
+  "icon": "equivalent_legacy:collector_mk1",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:collector_mk1"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:relay_mk1"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:collector_mk1"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:collector_mk2"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:collector_mk3"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:relay_mk1"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:relay_mk2"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:relay_mk3"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Los $(l)Colectores de Energía$() generan EMC a partir de la luz. Los $(l)Relés Antimateria$() lo almacenan y lo reenvían. Juntos son la columna vertebral de cualquier granja de EMC.$(br2)Los $(l)Colectores$() vienen en tres niveles:$(br2)$(li)$(l)MK1:$() la generación más lenta, 10,000 de almacenamiento de EMC, 8 ranuras de entrada.$(li)$(l)MK2:$() unas tres veces más rápido, 30,000 de almacenamiento, 12 ranuras de entrada.$(li)$(l)MK3:$() el más rápido, 60,000 de almacenamiento, 16 ranuras de entrada."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "Los $(l)Relés$() también vienen en tres niveles, con búferes y tasas de transferencia mucho mayores:$(br2)$(li)$(l)MK1:$() 100,000 de almacenamiento.$(li)$(l)MK2:$() 1,000,000 de almacenamiento.$(li)$(l)MK3:$() 10,000,000 de almacenamiento."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Cómo usar un Colector$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Colócalo donde pueda ver el cielo. En esta versión los colectores solo generan con $(l)luz solar$() y lo hacen a una cuarta parte del ritmo clásico.$(li)Haz clic derecho para abrirlo. La ranura superior acepta una $(l)Klein Star$() (para cargarla) o un $(l)combustible$() (para mejorarlo).$(li)Pon combustible en la cuadrícula de entrada y el colector lo convertirá en el siguiente nivel de combustible usando su EMC almacenado.$(li)La ranura fantasma establece el objetivo de mejora; haz clic en ella para borrarlo.$(li)Cuando la ranura superior está vacía y el búfer tiene EMC, el colector lo envía a todos los bloques vecinos que acepten EMC."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Cómo usar un Relé$()$(br2)$(li)Haz clic derecho para abrirlo. La ranura de quema destruye objetos (o drena una Klein Star) para obtener EMC; la ranura de carga llena una Klein Star.$(li)En cada tick el relé envía su EMC almacenado a todos los vecinos que no sean relés. Los relés $(l)nunca$() se pasan EMC entre sí, así que encadena siempre colector, relé y consumidor.$(li)Un colector situado junto a un relé le da a ese relé un pequeño bono en cada tick, además del EMC que le envía."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Habilidades ocultas$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Los colectores solo generan con luz solar, y el Nether ya no cuenta como luz plena.$(li)Automatización: los colectores aceptan combustible por sus $(l)caras laterales$() y expulsan el combustible mejorado por $(l)arriba/abajo$(). Los relés aceptan objetos por los lados y solo sueltan una Klein Star por arriba/abajo cuando está completamente llena.$(li)El propio colector puede mejorar el combustible, así que un cofre de carbón se convierte poco a poco en Carbón Alquímico, Combustible Mobius y Combustible Aeternalis mientras no estás.$(li)Cada bloque de EMC reparte su búfer a partes iguales entre todos los vecinos que acepten EMC, así que evita conectar una sola fuente a muchos consumidores que compitan entre sí."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Ajustes del servidor:$() la generación se escala con balance.emc.generationMultiplier (0.25 por defecto), el modo solo-luz-solar con balance.collectors.sunOnly y toda la economía con balance.emc.enabled."
+    }
+  ]
+}

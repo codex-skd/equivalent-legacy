@@ -1,0 +1,29 @@
+{
+  "name": "EMC Basics",
+  "category": "equivalent_legacy:emc_transmutation",
+  "icon": "equivalent_legacy:transmutation_table",
+  "sort_num": 1,
+  "pages": [
+    {
+      "type": "vellumli:text",
+      "text": "$(l)EMC$() stands for $(l)Energy-Matter Covalence$(). It is the single number behind everything in Equivalent Legacy: every item with a value can be converted into EMC, and EMC can be converted back into any item you have learned.$(br2)EMC is calculated automatically from recipes. You never assign values by hand: if an item can be crafted or smelted from things that have a value, it gets a value too."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Earning EMC.$() Open a $(l:emc_transmutation/transmutation_table)Transmutation Table$() or Tablet and put items into the consume slot. The item is destroyed and its EMC is added to your personal pool. Items you have never seen are learned at the same time, so they become available in the output list.$(br2)$(l)Spending EMC.$() Pick a learned item from the output list; its EMC is taken from your pool and the item appears. Anything you can make in a crafting grid, you can eventually make with EMC."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Burning and Covalence Loss.$() Burning an item does not return its full value in this version: you get $(l)50%$() back. This is the Covalence Loss, and it stops players from turning items into EMC and back again for a profit."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Klein Stars$() act as portable EMC batteries. Keep one on you and your pool is topped up automatically when you spend EMC from tools.$(br2)$(l)Reading values.$() Hold an item and read its tooltip; the EMC line is shown when tooltips are enabled. Jade, The One Probe and WTHIT can show the EMC of the block you are looking at.$(br2)$(l)Hidden abilities$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Your EMC pool has no practical cap and is stored per player, not inside the table.$(li)When item values change (for example after a datapack update), knowledge of items that no longer have a value is cleaned up automatically.$(li)The consume slot also accepts a $(l:emc_transmutation/tome_of_knowledge)Tome of Knowledge$(), which teaches you everything at once.$(br2)$(l)Server settings:$() the burn ratio is server.difficulty.covalenceLoss (0.5 by default) and the sub-1 rounding is server.difficulty.covalenceLossRounding."
+    }
+  ],
+  "read_by_default": true
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Matter Axes",
+  "category": "equivalent_legacy:tools_weapons",
+  "icon": "equivalent_legacy:dm_axe",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:dm_axe"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:rm_axe"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:dm_axe"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:rm_axe"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Dark Matter Axe$() and $(l)Red Matter Axe$() chop wood and work on copper. Craft the Dark Matter Axe from Dark Matter and a diamond, then upgrade it into the Red Matter Axe.$(br2)Press $(l)V$() to charge; the axe has no mode key."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)Right-click a log to strip it in an area; the radius grows with charge.$(li)Right-click oxidized copper to scrape it and waxed blocks to remove the wax, again in an area.$(li)Right-click any log while charged to fell the whole tree: five blocks horizontally per charge and twice that vertically, for free.$(li)All of these actions are free.$(br2)$(l)Server settings:$() server.items.disableAllRadiusMining."
+    }
+  ]
+}

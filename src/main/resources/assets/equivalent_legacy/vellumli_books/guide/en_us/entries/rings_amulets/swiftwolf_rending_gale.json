@@ -1,0 +1,28 @@
+{
+  "name": "Swiftwolf's Rending Gale",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:swiftwolf_rending_gale",
+  "sort_num": 9,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:swiftwolf_rending_gale"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:swiftwolf_rending_gale"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Swiftwolf's Rending Gale$() is a defensive wind ring. Craft it from Dark Matter, feathers and an Iron Band. It fits the ring curio slot.$(br2)Right-click cycles it between $(l)Off$() and $(l)Shield$(); press $(l)R$() to hurl a lightning bolt."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)The shield repels nearby mobs and projectiles in a radius of about 3 blocks around you.$(li)It drains about 1 EMC per tick while shielding and switches itself off when your EMC runs out.$(li)The old tooltip says \"Grants flight\". That text is wrong in this version: the ring does $(l)not$() grant any flight.$(li)The $(l)R$() bolt summons lightning on a block or knocks a creature back hard; each shot costs EMC.$(li)On a pedestal it smites nearby non-tamed mobs with lightning on a timer."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() server.cooldown.pedestal.swrg and server.cooldown.player.projectile."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Void Ring",
+  "category": "equivalent_legacy:rings_amulets",
+  "icon": "equivalent_legacy:void_ring",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:void_ring"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:void_ring"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Void Ring$() combines the Black Hole Band and the Gem of Eternal Density into one ring. Craft it from those two items and Red Matter. It fits the ring curio slot."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()$(br)$(li)It does everything both parent items do: it pulls nearby drops and condenses items into your chosen material.$(li)Press $(l)C$() to teleport to the block you are looking at, up to 64 blocks away. If you are not looking at a block, it teleports you 32 blocks in the direction you face. Teleporting has a half-second cooldown and unmounts you.$(li)On a pedestal it acts like the Black Hole Band, filling nearby inventories."
+    }
+  ]
+}

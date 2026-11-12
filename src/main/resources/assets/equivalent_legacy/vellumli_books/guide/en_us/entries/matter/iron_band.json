@@ -1,0 +1,20 @@
+{
+  "name": "Iron Band",
+  "category": "equivalent_legacy:matter",
+  "icon": "equivalent_legacy:iron_band",
+  "sort_num": 3,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:iron_band"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:iron_band"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The Iron Band is a simple crafting component: a ring of iron around a source of heat. It is not worn on its own; it is the base for the mod's rings and bands.$(br2)$(l)How to get it:$() 8 iron ingots around a lava bucket (or a Volcanite Amulet, which is returned).$(br2)$(l)Using it:$() craft it into the Ignition Ring, Zero Ring, Harvest Goddess Band, Swiftwolf's Rending Gale and the other rings.$(br2)$(l)Hidden abilities$()$(br2)$(li)It has no active power of its own.$(li)Like any item with a value, it can be learned and burned for EMC.$(br2)$(l)Server settings:$() none specific."
+    }
+  ]
+}

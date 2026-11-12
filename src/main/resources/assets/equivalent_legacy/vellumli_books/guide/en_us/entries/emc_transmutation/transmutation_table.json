@@ -1,0 +1,44 @@
+{
+  "name": "Transmutation Table & Tablet",
+  "category": "equivalent_legacy:emc_transmutation",
+  "icon": "equivalent_legacy:transmutation_table",
+  "sort_num": 2,
+  "pages": [
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:transmutation_table"
+    },
+    {
+      "type": "vellumli:spotlight",
+      "item": "equivalent_legacy:transmutation_tablet"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:transmutation_table"
+    },
+    {
+      "type": "vellumli:crafting",
+      "recipe": "equivalent_legacy:transmutation_tablet"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "The $(l)Transmutation Table$() is where you learn items and spend EMC. The $(l)Transmutation Tablet$() is the same screen in portable form.$(br2)$(l)How to get them:$()$(br2)$(li)Table: 4 obsidian, 4 stone and 1 Philosopher's Stone.$(li)Tablet: 4 Dark Matter Blocks, 4 stone and 1 Transmutation Table.$(br2)$(l)Using the screen:$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Place an item in the $(l)consume slot$() to burn it for EMC and learn it.$(li)Click an item in the output list to create it, spending EMC.$(li)Put an item in the $(l)lock slot$() to filter the list down to that one item.$(li)Drop an item in the $(l)unlearn slot$() to forget it."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Hidden abilities$()"
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(li)Shift-click an item straight from your inventory to learn and burn it in one move.$(li)The search box filters by name; you can also filter by EMC or by learned/unlearned with the query syntax.$(li)The output list is sorted from highest to lowest EMC and paged, so rare items sit on the first page.$(li)Input slots accept $(l)Klein Stars$(), letting you charge them from your EMC pool or pull EMC out of them.$(li)The Tablet opens the same screen from your hand. While it is open you cannot switch it out of your hand.$(li)Craft an $(l:utilities/arcane_tablet)Arcane Tablet$() for a portable transmutation screen with a built-in crafting grid."
+    },
+    {
+      "type": "vellumli:text",
+      "text": "$(l)Server settings:$() the Tome recipe is gated by common.crafting.craftableTome; EMC values themselves come from datapacks and the mapping config."
+    }
+  ]
+}
